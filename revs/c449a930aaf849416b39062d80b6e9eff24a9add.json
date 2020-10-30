@@ -1,0 +1,4 @@
+{
+ "summary": "ghcWithPackages: add postBuild hook so that users can mess with the generated environment",
+ "timestamp": "1430219645"
+}

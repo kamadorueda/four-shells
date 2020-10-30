@@ -1,0 +1,70 @@
+{
+ "0.11.0": {
+  "meta": {
+   "description": "High-level tracing language for Linux eBPF",
+   "homepage": "https://github.com/iovisor/bpftrace",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev+nix@rodney.id.au",
+     "github": "rvl",
+     "githubId": 1019641,
+     "name": "Rodney Lorrimar"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "bpftrace",
+   "platforms": null,
+   "position": "pkgs/os-specific/linux/bpftrace/default.nix:58"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "c22f93c9d21f3f49465bb5c5a5148a00b077b4e1"
+  ]
+ },
+ "0.11.4": {
+  "meta": {
+   "description": "High-level tracing language for Linux eBPF",
+   "homepage": "https://github.com/iovisor/bpftrace",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dev+nix@rodney.id.au",
+     "github": "rvl",
+     "githubId": 1019641,
+     "name": "Rodney Lorrimar"
+    },
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "bpftrace",
+   "platforms": null,
+   "position": "pkgs/os-specific/linux/bpftrace/default.nix:58"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

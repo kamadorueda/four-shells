@@ -1,0 +1,4 @@
+{
+ "summary": "eduke32.nix: disable libpng (can't build with it)",
+ "timestamp": "1417983526"
+}

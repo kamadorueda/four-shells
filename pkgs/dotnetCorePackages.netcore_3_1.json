@@ -1,0 +1,126 @@
+{
+ "3.1.1": {
+  "meta": {
+   "description": ".NET Core runtime 3.1.1",
+   "homepage": "https://dotnet.github.io/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "roman@kuznero.com",
+     "github": "kuznero",
+     "githubId": 449813,
+     "name": "Roman Kuznetsov"
+    }
+   ],
+   "name": "dotnet-runtime",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/dotnet/buildDotnet.nix:63"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "3.1.2": {
+  "meta": {
+   "description": ".NET Core runtime 3.1.2",
+   "homepage": "https://dotnet.github.io/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "roman@kuznero.com",
+     "github": "kuznero",
+     "githubId": 449813,
+     "name": "Roman Kuznetsov"
+    }
+   ],
+   "name": "dotnet-runtime",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/dotnet/buildDotnet.nix:63"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "3.1.5": {
+  "meta": {
+   "description": ".NET Core runtime 3.1.5",
+   "homepage": "https://dotnet.github.io/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "roman@kuznero.com",
+     "github": "kuznero",
+     "githubId": 449813,
+     "name": "Roman Kuznetsov"
+    }
+   ],
+   "name": "dotnet-runtime",
+   "platforms": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/dotnet/build-dotnet.nix:87"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "3.1.8": {
+  "meta": {
+   "description": ".NET Core runtime 3.1.8",
+   "homepage": "https://dotnet.github.io/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "roman@kuznero.com",
+     "github": "kuznero",
+     "githubId": 449813,
+     "name": "Roman Kuznetsov"
+    }
+   ],
+   "name": "dotnet-runtime",
+   "platforms": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/dotnet/build-dotnet.nix:87"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "2020-10-28": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3388"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "2020-10-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3388"
+  },
+  "revs": [
+   "02d0df518ef3bd54cd98a8bb5af9816c6d3b8b33",
+   "c81a429fb75a15114486cdb8d3dbab7675357e76"
+  ]
+ },
+ "2020-11-01": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3388"
+  },
+  "revs": [
+   "016bfce7d266ac9c8e44c776c86e8394474281a8",
+   "997098b8b5a7d72d08e378ccaac6f5de60cc4dd9"
+  ]
+ },
+ "2020-11-03": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3400"
+  },
+  "revs": [
+   "13839daecc61e898d03748145e61a29c8d2a2c42",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3412"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "4074d4ad98fb41093c492e5e57492ef65caf1d13"
+  ]
+ },
+ "2020-11-18": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3640"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-28": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3676"
+  },
+  "revs": [
+   "01105c0e2db5fc110f72f424040d5b0bfc01ba75",
+   "6906e20605561b39a711ccc6bc63d42108cdc466"
+  ]
+ },
+ "2020-11-29": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3700"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-03": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3700"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "58e72782e37718c51e7ffcffed895138f86ad01a"
+  ]
+ },
+ "2020-12-07": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3712"
+  },
+  "revs": [
+   "00a1069e72395289c6535cfda06b0660634be3c9",
+   "3b05df1d13c1b315cecc610a2f3180f6669442f0"
+  ]
+ },
+ "2020-12-09": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3712"
+  },
+  "revs": [
+   "00b8fa792b2d39ef1b42848059ff15d50341decc",
+   "c7928fb076ec65c82d070c499e5fa4b13bbc9458"
+  ]
+ },
+ "2020-12-14": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3713"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "5625941e65bcc31a7bb9064bea411e2167559243"
+  ]
+ },
+ "2020-12-15": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3725"
+  },
+  "revs": [
+   "05f00efbc27914f3bd00556d72e05a485976cc03",
+   "c40424f79b392a50fba9d5908c5006afe3db905d"
+  ]
+ },
+ "2020-12-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3725"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-31": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-telescope/telescope.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-telescope-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3749"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

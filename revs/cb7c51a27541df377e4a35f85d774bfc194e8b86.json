@@ -1,0 +1,4 @@
+{
+ "summary": "ldc: fix build and skip impure test (#77376)",
+ "timestamp": "1578746890"
+}

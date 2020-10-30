@@ -1,0 +1,4 @@
+{
+ "summary": "honggfuzz: patch hfuzz-cc.c to fix path to buildtime-provided clang",
+ "timestamp": "1599169672"
+}

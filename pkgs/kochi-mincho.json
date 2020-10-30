@@ -1,0 +1,24 @@
+{
+ "20030809": {
+  "meta": {
+   "description": "Japanese font, a free replacement for MS Mincho.",
+   "homepage": "http://sourceforge.jp/projects/efont/",
+   "license": {
+    "fullName": "Wadalab Font License",
+    "shortName": "wadalab",
+    "url": "https://fedoraproject.org/wiki/Licensing:Wadalab?rd=Licensing/Wadalab"
+   },
+   "long_description": "Kochi Mincho was developed as a free replacement for the MS Mincho \nfont from Microsoft. This is the Debian version of Kochi Mincho, which\nremoves some non-free glyphs that were added from the naga10 font.\n",
+   "maintainers": [
+    "Jonathan Glines <auntieNeo@gmail.com>"
+   ],
+   "name": "kochi-mincho",
+   "platforms": null,
+   "position": "gs/pkgs/data/fonts/kochi-mincho/default.nix:25"
+  },
+  "revs": [
+   "b913409e0bcf93706f2e2f6b25809ab30bd124ec",
+   "b913409e0bcf93706f2e2f6b25809ab30bd124ec"
+  ]
+ }
+}

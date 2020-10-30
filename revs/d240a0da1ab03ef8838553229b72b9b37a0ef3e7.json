@@ -1,0 +1,4 @@
+{
+ "summary": "top-level: Remove cycles: stdenv calls in top-level but not vice versa",
+ "timestamp": "1480278958"
+}

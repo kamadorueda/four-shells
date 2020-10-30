@@ -1,0 +1,4 @@
+{
+ "summary": "* Comment out uclibc because it causes evaluation errors.",
+ "timestamp": "1265411291"
+}

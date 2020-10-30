@@ -1,0 +1,140 @@
+{
+ "2.3e": {
+  "meta": {
+   "description": "Software pipeline for building loci from short-read sequences",
+   "homepage": "http://catchenlab.life.illinois.edu/stacks/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Bruno@bzizou.net",
+     "github": "bzizou",
+     "name": "Bruno Bzeznik"
+    }
+   ],
+   "name": "stacks",
+   "platforms": null,
+   "position": "pkgs/applications/science/biology/stacks/default.nix:14"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "2.4": {
+  "meta": {
+   "description": "Software pipeline for building loci from short-read sequences",
+   "homepage": "http://catchenlab.life.illinois.edu/stacks/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Bruno@bzizou.net",
+     "github": "bzizou",
+     "name": "Bruno Bzeznik"
+    }
+   ],
+   "name": "stacks",
+   "platforms": null,
+   "position": "pkgs/applications/science/biology/stacks/default.nix:14"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "2.41": {
+  "meta": {
+   "description": "Software pipeline for building loci from short-read sequences",
+   "homepage": "http://catchenlab.life.illinois.edu/stacks/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Bruno@bzizou.net",
+     "github": "bzizou",
+     "githubId": 2647566,
+     "name": "Bruno Bzeznik"
+    }
+   ],
+   "name": "stacks",
+   "platforms": null,
+   "position": "pkgs/applications/science/biology/stacks/default.nix:14"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "2.52": {
+  "meta": {
+   "description": "Software pipeline for building loci from short-read sequences",
+   "homepage": "http://catchenlab.life.illinois.edu/stacks/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Bruno@bzizou.net",
+     "github": "bzizou",
+     "githubId": 2647566,
+     "name": "Bruno Bzeznik"
+    }
+   ],
+   "name": "stacks",
+   "platforms": null,
+   "position": "pkgs/applications/science/biology/stacks/default.nix:14"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "2.53": {
+  "meta": {
+   "description": "Software pipeline for building loci from short-read sequences",
+   "homepage": "http://catchenlab.life.illinois.edu/stacks/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "Bruno@bzizou.net",
+     "github": "bzizou",
+     "githubId": 2647566,
+     "name": "Bruno Bzeznik"
+    }
+   ],
+   "name": "stacks",
+   "platforms": null,
+   "position": "pkgs/applications/science/biology/stacks/default.nix:14"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "1.15.7": {
+  "meta": {
+   "description": "Free cross-platform password manager compatible with KeePass",
+   "homepage": "https://keeweb.info/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "sikmir@gmail.com",
+     "github": "sikmir",
+     "githubId": 688044,
+     "keys": [
+      {
+       "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+       "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+      }
+     ],
+     "name": "Nikolay Korotkiy"
+    }
+   ],
+   "name": "keeweb",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/keeweb/default.nix:28"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "1.16.0": {
+  "meta": {
+   "description": "Free cross-platform password manager compatible with KeePass",
+   "homepage": "https://keeweb.info/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "sikmir@gmail.com",
+     "github": "sikmir",
+     "githubId": 688044,
+     "keys": [
+      {
+       "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+       "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+      }
+     ],
+     "name": "Nikolay Korotkiy"
+    }
+   ],
+   "name": "keeweb",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/keeweb/default.nix:28"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "1.16.5": {
+  "meta": {
+   "description": "Free cross-platform password manager compatible with KeePass",
+   "homepage": "https://keeweb.info/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "sikmir@gmail.com",
+     "github": "sikmir",
+     "githubId": 688044,
+     "keys": [
+      {
+       "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+       "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+      }
+     ],
+     "name": "Nikolay Korotkiy"
+    }
+   ],
+   "name": "keeweb",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin",
+    "aarch64-darwin"
+   ],
+   "position": "gs/pkgs/applications/misc/keeweb/default.nix:30"
+  },
+  "revs": [
+   "2020866403e45c73bd35585a00164ebff0b0badf",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

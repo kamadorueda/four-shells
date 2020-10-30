@@ -1,0 +1,4 @@
+{
+ "summary": "libtorrent: use sha256 hash returned by nix-prefetch-url",
+ "timestamp": "1311002583"
+}

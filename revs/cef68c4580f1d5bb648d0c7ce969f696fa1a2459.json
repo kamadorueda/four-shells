@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/nginx: don't hide nginx config errors on nixos-rebuild --switch with reload enabled (#76179)",
+ "timestamp": "1578177563"
+}

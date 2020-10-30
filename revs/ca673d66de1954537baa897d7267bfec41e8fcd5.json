@@ -1,0 +1,4 @@
+{
+ "summary": "policycoreutils: fix i686-linux compilation error, closes #9544",
+ "timestamp": "1440895641"
+}

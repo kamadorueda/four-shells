@@ -1,0 +1,66 @@
+{
+ "1.1.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-stylelint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:260"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "1.2.0": {
+  "meta": {
+   "description": "stylelint extension for coc.nvim",
+   "homepage": "",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-stylelint",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:64254"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "2019-06-19": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-stylelint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:504"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "2019-08-20": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-stylelint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:526"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ }
+}

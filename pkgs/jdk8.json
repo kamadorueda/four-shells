@@ -1,0 +1,66 @@
+{
+ "8u265-ga": {
+  "meta": {
+   "description": "The open-source Java Development Kit",
+   "homepage": "http://openjdk.java.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "githubId": 54799,
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "openjdk",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/development/compilers/openjdk/8.nix:262"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "8u272-b10": {
+  "meta": {
+   "description": "The open-source Java Development Kit",
+   "homepage": "http://openjdk.java.net/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ed@cflags.cc",
+     "github": "edwtjo",
+     "githubId": 54799,
+     "name": "Edward Tj\u00f6rnhammar"
+    }
+   ],
+   "name": "openjdk",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/development/compilers/openjdk/8.nix:262"
+  },
+  "revs": [
+   "005f545f46afd57abd037a37efa6b42fbc07c7c8",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

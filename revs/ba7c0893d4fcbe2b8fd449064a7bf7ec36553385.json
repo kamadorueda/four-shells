@@ -1,0 +1,4 @@
+{
+ "summary": "treewide: remove obsolete attribute goPackagePath in buildGoModule derivations (#95092)",
+ "timestamp": "1597179895"
+}

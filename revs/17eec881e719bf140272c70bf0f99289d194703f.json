@@ -1,0 +1,4 @@
+{
+ "summary": "haskellPackages.Agda: Fix build for ghc 8.10.2 \u2192 8.10.3 upgrade",
+ "timestamp": "1609037833"
+}

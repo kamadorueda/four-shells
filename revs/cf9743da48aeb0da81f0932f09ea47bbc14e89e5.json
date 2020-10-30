@@ -1,0 +1,4 @@
+{
+ "summary": "remove omake_rc1 from all-packages.nix since it doesn't build",
+ "timestamp": "1543771069"
+}

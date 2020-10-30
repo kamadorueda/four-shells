@@ -1,0 +1,4 @@
+{
+ "summary": "i2pd: patch to enable tunnelcfg usage nixos: i2pd service, use tunnelscfg to pass nix tunnel specifications",
+ "timestamp": "1448220911"
+}

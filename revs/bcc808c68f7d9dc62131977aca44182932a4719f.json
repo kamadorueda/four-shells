@@ -1,0 +1,4 @@
+{
+ "summary": "Create /dev/std{in,out,err} symlinks in stage-1",
+ "timestamp": "1604422637"
+}

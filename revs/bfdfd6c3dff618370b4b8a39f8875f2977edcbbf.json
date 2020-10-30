@@ -1,0 +1,4 @@
+{
+ "summary": "vulkan-loader: fix search paths in suid processes",
+ "timestamp": "1487533956"
+}

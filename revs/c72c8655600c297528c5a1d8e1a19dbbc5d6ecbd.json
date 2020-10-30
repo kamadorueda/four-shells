@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv: Define HOST_PATH more loosely when strictDeps isn't set",
+ "timestamp": "1536167735"
+}

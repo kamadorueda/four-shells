@@ -1,0 +1,4 @@
+{
+ "summary": "far2l: no need to fix xterm's path, it is used only when xterm is on $PATH",
+ "timestamp": "1493937251"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "nix-prefetch-git: * Optimized download size in case of references. * Add support for submodules.",
+ "timestamp": "1263803318"
+}

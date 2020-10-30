@@ -1,0 +1,4 @@
+{
+ "summary": "vm/windows: Don't init /nix/store on install.",
+ "timestamp": "1392508081"
+}

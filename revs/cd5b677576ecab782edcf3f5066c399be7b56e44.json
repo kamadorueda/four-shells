@@ -1,0 +1,4 @@
+{
+ "summary": "gcc49 (gcj): do not create separate lib output (cyclical dependency), fix ecj1 linking. Does not affect the hash of normal gcc49",
+ "timestamp": "1460565966"
+}

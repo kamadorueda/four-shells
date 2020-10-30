@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv/setup.sh: make substitute* not drop EOF newline",
+ "timestamp": "1395255411"
+}

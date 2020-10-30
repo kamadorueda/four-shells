@@ -1,0 +1,4 @@
+{
+ "summary": "lesspipe: add dependency on ncurses; actually pull in deps and put them on path",
+ "timestamp": "1532370759"
+}

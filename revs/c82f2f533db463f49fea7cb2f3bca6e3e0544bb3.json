@@ -1,0 +1,4 @@
+{
+ "summary": "Avoiding to make a profiled bootstrap of gcc on armv5tel-linux, because it fails there.",
+ "timestamp": "1281033658"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Made dhcp build (removing its -Werror). gcc 4.4 complained on uninitializated variables.",
+ "timestamp": "1261558532"
+}

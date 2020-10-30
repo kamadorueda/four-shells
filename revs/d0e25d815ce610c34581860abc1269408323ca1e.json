@@ -1,0 +1,4 @@
+{
+ "summary": "release-cross.nix: Drop any platforms not having a single working build",
+ "timestamp": "1468237529"
+}

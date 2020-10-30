@@ -1,0 +1,39 @@
+{
+ "0.14.1": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/janestreet/accessor",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "ocaml4.10.0-accessor",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/development/ocaml-modules/janestreet/janePackage_0_14.nix:12"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

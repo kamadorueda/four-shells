@@ -1,0 +1,4 @@
+{
+ "summary": "make-bootstrap-tools: grab libc from stdenv.cc.libc",
+ "timestamp": "1517875967"
+}

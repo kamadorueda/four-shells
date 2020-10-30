@@ -1,0 +1,4 @@
+{
+ "summary": "* Fix the squashfs build (it links against xz, so xz has   to be in the buildInputs).  While at it, update to   version 4.2.  \"attr\" is no longer needed as a dependency.",
+ "timestamp": "1327081430"
+}

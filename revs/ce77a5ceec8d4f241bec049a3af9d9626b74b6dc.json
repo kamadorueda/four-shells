@@ -1,0 +1,4 @@
+{
+ "summary": "Factor out repeated scriptlets from build-support/release/*.nix.",
+ "timestamp": "1342205919"
+}

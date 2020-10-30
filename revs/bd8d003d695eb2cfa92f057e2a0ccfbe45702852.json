@@ -1,0 +1,4 @@
+{
+ "summary": "* VirtualBox updated to 4.1.10.  Drop the wrapper script since it no   longer seems needed.  Optionally build the Python bindings.  Disable   the Java bindings by default to prevent a gratuitous dependency on   the JDK.",
+ "timestamp": "1332251641"
+}

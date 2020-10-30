@@ -1,0 +1,4 @@
+{
+ "summary": "kerberos: Use mit by default as it is has more upstream support / bugfixes",
+ "timestamp": "1435381576"
+}

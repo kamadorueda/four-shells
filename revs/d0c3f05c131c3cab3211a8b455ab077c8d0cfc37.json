@@ -1,0 +1,4 @@
+{
+ "summary": "* Apply a patch to propagate the --force flag in the legacy drbdadm to   drbdsetup.  Otherwise \"drbdadm primary --force\" won't work as   expected (the kernel will say \"State change failed: Need access to   UpToDate data\").",
+ "timestamp": "1320260089"
+}

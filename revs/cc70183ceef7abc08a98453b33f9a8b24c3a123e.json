@@ -1,0 +1,4 @@
+{
+ "summary": "initrd-network module: initialize network before other pre-LVM commands",
+ "timestamp": "1454495348"
+}

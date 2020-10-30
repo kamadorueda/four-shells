@@ -1,0 +1,802 @@
+{
+ "0.12.0": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git.",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:19"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "0.15.0": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git.",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "32e666aa4bdec7cf2565931248c58d5dd3ee640e"
+  ]
+ },
+ "0.15.2": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git.",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:19"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "0.16.3": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git.",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:19"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "0.18.0": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git.",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:19"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "0.18.1": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git.",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "a5a383a389bfcaf8b0c3ac038cf8701d9e14dda9"
+  ]
+ },
+ "0.18.2": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git.",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4",
+   "bf3f39789dfe739b762ce6768bc9289bfe74c424"
+  ]
+ },
+ "0.18.3": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git.",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "0.19.0": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git.",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "004676ce9c8275598182884c9e5a823a34eaa173",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "0.21.0": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "0.21.1": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "079523587df0c1c03f6d484c37ab6ed3883785ce",
+   "997098b8b5a7d72d08e378ccaac6f5de60cc4dd9"
+  ]
+ },
+ "0.21.4": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "0140aced5353da38b99a838b8a06325fb59e6226",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "0.22.0": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "0188a58e87ed282f7d92fe65e257bc0615175f34",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "0.22.1": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "cc7ce7611924425b4f269da7a9bc3ca7d3ac8514"
+  ]
+ },
+ "0.22.5": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "02589710ba47160d4cb801ffe5d9270bec071da4",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "0.22.6": {
+  "meta": {
+   "description": "Relational database with version control and CLI a-la Git",
+   "homepage": "https://github.com/liquidata-inc/dolt",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "abcz2.uprola@gmail.com",
+     "github": "danbst",
+     "githubId": 743057,
+     "name": "Danylo Hlynskyi"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dolt",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/servers/sql/dolt/default.nix:21"
+  },
+  "revs": [
+   "0306003afe2c1f0bcd7ef8c6921e2d1f95ba8273",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

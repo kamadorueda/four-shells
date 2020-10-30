@@ -1,0 +1,82 @@
+{
+ "2020-04-29": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/peitalin/vim-jsx-typescript/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-jsx-typescript",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5179"
+  },
+  "revs": [
+   "002b700fb597bc670ea4d19597444c43d31cf556",
+   "25865306f08f3d87e390c41065cf7db2f19323e0"
+  ]
+ },
+ "2020-07-02": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/peitalin/vim-jsx-typescript/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-jsx-typescript",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5238"
+  },
+  "revs": [
+   "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "2020-07-08": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/peitalin/vim-jsx-typescript/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-jsx-typescript",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5370"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-11-26": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/peitalin/vim-jsx-typescript/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-jsx-typescript",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5587"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-03": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/peitalin/vim-jsx-typescript/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-jsx-typescript",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5587"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

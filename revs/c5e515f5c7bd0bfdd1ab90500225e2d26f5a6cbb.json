@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/nextcloud: fix inclusion of trusted_domains in override config",
+ "timestamp": "1563880527"
+}

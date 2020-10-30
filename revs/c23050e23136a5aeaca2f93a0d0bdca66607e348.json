@@ -1,0 +1,4 @@
+{
+ "summary": "Revert \"Use PostgreSQL 9.3's `pg_isready` to wait for connectivity\"",
+ "timestamp": "1397258510"
+}

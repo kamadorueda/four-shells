@@ -1,0 +1,4 @@
+{
+ "summary": "Trying to fix the python package 'mechanize'. Anything building with 'mechanize' needs 'clientform' too.",
+ "timestamp": "1269372528"
+}

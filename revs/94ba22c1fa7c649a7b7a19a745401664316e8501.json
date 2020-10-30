@@ -1,0 +1,4 @@
+{
+ "summary": "gnome-podcasts: add dependency gst-plugins-good This fixes \"No decoder available for type 'application/x-id3'\"",
+ "timestamp": "1607370691"
+}

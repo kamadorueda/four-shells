@@ -1,0 +1,637 @@
+{
+ "0.0.0": {
+  "meta": {
+   "description": "A new unix shell, still in its early stages",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "http://spdx.org/licenses/Python-2.0"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Linus Heckemann <git@sphalerite.org>"
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "0016d925e42c28df8666293bb38a440b10101fd8",
+   "92fc55b281aa50ddfc74b135de91ccc4a61e549c"
+  ]
+ },
+ "0.1.0": {
+  "meta": {
+   "description": "A new unix shell, still in its early stages",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "http://spdx.org/licenses/Python-2.0"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    "Linus Heckemann <git@sphalerite.org>"
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "0.3.0": {
+  "meta": {
+   "description": "A new unix shell, still in its early stages",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "http://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "name": "Linus Heckemann"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "0.6.0": {
+  "meta": {
+   "description": "A new unix shell, still in its early stages",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "http://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "name": "Linus Heckemann"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "0.6.pre15": {
+  "meta": {
+   "description": "A new unix shell, still in its early stages",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "http://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "name": "Linus Heckemann"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "0.7.0": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "http://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    },
+    {
+     "email": "alva@skogen.is",
+     "github": "fjallarefur",
+     "githubId": 42881386,
+     "keys": [
+      {
+       "fingerprint": "B422 CFB1 C9EF 73F7 E1E2 698D F53E 3233 42F7 A6D3A",
+       "longkeyid": "ed25519/0xF53E323342F7A6D3"
+      }
+     ],
+     "name": "Alva"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "0.7.pre11": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "http://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    },
+    {
+     "email": "alva@skogen.is",
+     "github": "fjallarefur",
+     "githubId": 42881386,
+     "keys": [
+      {
+       "fingerprint": "B422 CFB1 C9EF 73F7 E1E2 698D F53E 3233 42F7 A6D3A",
+       "longkeyid": "ed25519/0xF53E323342F7A6D3"
+      }
+     ],
+     "name": "Alva"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "0.7.pre3": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "http://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:24"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "6934870810b7a70c2c95b713edf1d817b448c4e2"
+  ]
+ },
+ "0.7.pre9": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "http://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "http://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    },
+    {
+     "email": "alva@skogen.is",
+     "github": "fjallarefur",
+     "githubId": 42881386,
+     "keys": [
+      {
+       "fingerprint": "B422 CFB1 C9EF 73F7 E1E2 698D F53E 3233 42F7 A6D3A",
+       "longkeyid": "ed25519/0xF53E323342F7A6D3"
+      }
+     ],
+     "name": "Alva"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "0.8.1": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "https://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    },
+    {
+     "email": "alva@skogen.is",
+     "github": "fjallarefur",
+     "githubId": 42881386,
+     "keys": [
+      {
+       "fingerprint": "B422 CFB1 C9EF 73F7 E1E2 698D F53E 3233 42F7 A6D3A",
+       "longkeyid": "ed25519/0xF53E323342F7A6D3"
+      }
+     ],
+     "name": "Alva"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "0e9c5297fefa41d2dd941f3dc942b05f00e18324"
+  ]
+ },
+ "0.8.3": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "https://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    },
+    {
+     "email": "alva@skogen.is",
+     "github": "fjallarefur",
+     "githubId": 42881386,
+     "keys": [
+      {
+       "fingerprint": "B422 CFB1 C9EF 73F7 E1E2 698D F53E 3233 42F7 A6D3A",
+       "longkeyid": "ed25519/0xF53E323342F7A6D3"
+      }
+     ],
+     "name": "Alva"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "0087a318864f5a1a057db9fa93e970a6a414fa05",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "0.8.4": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "https://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    },
+    {
+     "email": "alva@skogen.is",
+     "github": "fjallarefur",
+     "githubId": 42881386,
+     "keys": [
+      {
+       "fingerprint": "B422 CFB1 C9EF 73F7 E1E2 698D F53E 3233 42F7 A6D3A",
+       "longkeyid": "ed25519/0xF53E323342F7A6D3"
+      }
+     ],
+     "name": "Alva"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "0.8.5": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "https://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    },
+    {
+     "email": "alva@skogen.is",
+     "github": "fjallarefur",
+     "githubId": 42881386,
+     "keys": [
+      {
+       "fingerprint": "B422 CFB1 C9EF 73F7 E1E2 698D F53E 3233 42F7 A6D3A",
+       "longkeyid": "ed25519/0xF53E323342F7A6D3"
+      }
+     ],
+     "name": "Alva"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "02362007aa755eba15cc7ce486e5095f77f855a0",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "0.8.pre4": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "https://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    },
+    {
+     "email": "alva@skogen.is",
+     "github": "fjallarefur",
+     "githubId": 42881386,
+     "keys": [
+      {
+       "fingerprint": "B422 CFB1 C9EF 73F7 E1E2 698D F53E 3233 42F7 A6D3A",
+       "longkeyid": "ed25519/0xF53E323342F7A6D3"
+      }
+     ],
+     "name": "Alva"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "0.8.pre6": {
+  "meta": {
+   "description": "A new unix shell",
+   "homepage": "https://www.oilshell.org/",
+   "license": [
+    {
+     "fullName": "Python Software Foundation License version 2",
+     "shortName": "psfl",
+     "spdxId": "Python-2.0",
+     "url": "https://spdx.org/licenses/Python-2.0.html"
+    },
+    {
+     "fullName": "Apache License 2.0",
+     "shortName": "asl20",
+     "spdxId": "Apache-2.0",
+     "url": "https://spdx.org/licenses/Apache-2.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    },
+    {
+     "email": "alva@skogen.is",
+     "github": "fjallarefur",
+     "githubId": 42881386,
+     "keys": [
+      {
+       "fingerprint": "B422 CFB1 C9EF 73F7 E1E2 698D F53E 3233 42F7 A6D3A",
+       "longkeyid": "ed25519/0xF53E323342F7A6D3"
+      }
+     ],
+     "name": "Alva"
+    }
+   ],
+   "name": "oil",
+   "platforms": null,
+   "position": "pkgs/shells/oil/default.nix:27"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ }
+}

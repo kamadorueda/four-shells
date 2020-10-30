@@ -1,0 +1,4 @@
+{
+ "summary": "binutils: add support for x86_64 in i686 builds (close #857)",
+ "timestamp": "1378130052"
+}

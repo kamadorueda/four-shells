@@ -1,0 +1,4 @@
+{
+ "summary": "* Revert r31596 (which changes the Qt for KDE 4.7).  This doesn't   belong in the stdenv branch and breaks KDE   (http://hydra.nixos.org/build/2068311).",
+ "timestamp": "1329528622"
+}

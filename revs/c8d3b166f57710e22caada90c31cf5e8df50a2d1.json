@@ -1,0 +1,4 @@
+{
+ "summary": "network-manager/l2tp: add workaround for https://github.com/xelerance/xl2tpd/issues/108",
+ "timestamp": "1466452587"
+}

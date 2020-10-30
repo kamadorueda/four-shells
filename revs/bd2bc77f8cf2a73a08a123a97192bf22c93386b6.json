@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-transformers-compat: fix build with GHC 8.0.x",
+ "timestamp": "1458562645"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* Revert r33928: veth* can also be a bridged interface requiring dhcp.   See e.g. https://nixos.org/repos/nix/configurations/trunk/tud/stan.nix",
+ "timestamp": "1335807971"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Fix evaluation if driSupport32Bit is enabled on NVIDIA",
+ "timestamp": "1364159260"
+}

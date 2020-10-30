@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/prometheus/alertmanager: use DynamicUser instead of nobody",
+ "timestamp": "1554909156"
+}

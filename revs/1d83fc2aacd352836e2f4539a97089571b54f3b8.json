@@ -1,0 +1,4 @@
+{
+ "summary": "bash-completion: fix build on darwin (#107768)",
+ "timestamp": "1609171797"
+}

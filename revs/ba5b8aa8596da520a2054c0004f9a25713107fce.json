@@ -1,0 +1,4 @@
+{
+ "summary": "SDL2: fix cmake interface includes for SDL2::SDL2",
+ "timestamp": "1605095629"
+}

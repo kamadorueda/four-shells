@@ -1,0 +1,4 @@
+{
+ "summary": "xbmc: add libmad to LD_LIBRARY_PATH to enable mp3 file playback",
+ "timestamp": "1410619244"
+}

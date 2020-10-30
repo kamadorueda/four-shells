@@ -1,0 +1,63 @@
+{
+ "1.0.2": {
+  "meta": {
+   "description": "C extension module for Lua which adds bitwise operations on numbers",
+   "homepage": "http://bitop.luajit.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "lua5.1-bitop",
+   "platforms": null,
+   "position": "pkgs/top-level/lua-packages.nix:218"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "1.0.2-3": {
+  "meta": {
+   "description": "Lua Bit Operations Module",
+   "homepage": "http://bitop.luajit.org/",
+   "license": {
+    "fullName": "MIT/X license"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "lua5.1-luabitop",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/lua-modules/generated-packages.nix:393"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

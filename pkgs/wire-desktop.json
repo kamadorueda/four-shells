@@ -1,0 +1,742 @@
+{
+ "3.0.2816": {
+  "meta": {
+   "description": "A modern, secure messenger",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:98"
+  },
+  "revs": [
+   "0009ae3d5e1ad620215c2b8409eeec668de60552",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ },
+ "3.10.2904": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:31"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "6934870810b7a70c2c95b713edf1d817b448c4e2"
+  ]
+ },
+ "3.11.2912": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "arian.vanputten@gmail.com",
+     "github": "arianvp",
+     "githubId": 628387,
+     "name": "Arian van Putten"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:33"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
+  ]
+ },
+ "3.12.2916": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "arian.vanputten@gmail.com",
+     "github": "arianvp",
+     "githubId": 628387,
+     "name": "Arian van Putten"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:33"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "3.15.2922": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "arian.vanputten@gmail.com",
+     "github": "arianvp",
+     "githubId": 628387,
+     "name": "Arian van Putten"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:33"
+  },
+  "revs": [
+   "39b39690faa44f9f65a920326085e559fe17b4c9",
+   "cf77a5fdc1893462792966d5fab6ecadc57e1903"
+  ]
+ },
+ "3.16.2923": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "arian.vanputten@gmail.com",
+     "github": "arianvp",
+     "githubId": 628387,
+     "name": "Arian van Putten"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:33"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "3.17.2924": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "arian.vanputten@gmail.com",
+     "github": "arianvp",
+     "githubId": 628387,
+     "name": "Arian van Putten"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:33"
+  },
+  "revs": [
+   "00df2371122aeb96b4ca80451b1ac7b9b7b8d847",
+   "184241e779e05344a95c30f35615271102522a8a"
+  ]
+ },
+ "3.18.2925": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "arian.vanputten@gmail.com",
+     "github": "arianvp",
+     "githubId": 628387,
+     "name": "Arian van Putten"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:33"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "3.19.2928": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "arian.vanputten@gmail.com",
+     "github": "arianvp",
+     "githubId": 628387,
+     "name": "Arian van Putten"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:34"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "383075f38b94b25ff30ec68a1bb19b35dc9ce4e8"
+  ]
+ },
+ "3.2.2840": {
+  "meta": {
+   "description": "A modern, secure messenger",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:98"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "65c52e11ab066b0e16250ef4c8d8354f3529a5ce"
+  ]
+ },
+ "3.20.2934": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "arian.vanputten@gmail.com",
+     "github": "arianvp",
+     "githubId": 628387,
+     "name": "Arian van Putten"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:35"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "0e9c5297fefa41d2dd941f3dc942b05f00e18324"
+  ]
+ },
+ "3.21.2936": {
+  "meta": {
+   "description": "A modern, secure messenger for everyone",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Wire Personal is a secure, privacy-friendly messenger. It combines useful\nand fun features, audited security, and a beautiful, distinct user\ninterface.  It does not require a phone number to register and chat.\n\n  * End-to-end encrypted chats, calls, and files\n  * Crystal clear voice and video calling\n  * File and screen sharing\n  * Timed messages and chats\n  * Synced across your phone, desktop and tablet\n",
+   "maintainers": [
+    {
+     "email": "arian.vanputten@gmail.com",
+     "github": "arianvp",
+     "githubId": 628387,
+     "name": "Arian van Putten"
+    },
+    {
+     "email": "envy1988@gmail.com",
+     "github": "Kiwi",
+     "githubId": 35715,
+     "keys": [
+      {
+       "fingerprint": "8992 44FC D291 5CA2 0A97  802C 156C 88A5 B0A0 4B2A",
+       "longkeyid": "rsa4096/0x156C88A5B0A04B2A"
+      }
+     ],
+     "name": "Robert Djubek"
+    },
+    {
+     "email": "nnoot@toonn.io",
+     "github": "toonn",
+     "githubId": 1486805,
+     "name": "Toon Nolten"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "WORLDofPEACE"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:35"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "3.3.2872": {
+  "meta": {
+   "description": "A modern, secure messenger",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:103"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "3.5.2881": {
+  "meta": {
+   "description": "A modern, secure messenger",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:105"
+  },
+  "revs": [
+   "0008aa73eb0dec898c4e2e6913af645abd253c35",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "3.6.2885": {
+  "meta": {
+   "description": "A modern, secure messenger",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:105"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "b33e1ac83fc9254898b8fadb6a936a2e215ab8a8"
+  ]
+ },
+ "3.7.2891": {
+  "meta": {
+   "description": "A modern, secure messenger",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:97"
+  },
+  "revs": [
+   "0000bf730b94c299b586b36cd73b2c25d5d7f0e3",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "3.9.2895": {
+  "meta": {
+   "description": "A modern, secure messenger",
+   "homepage": "https://wire.com/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "wire-desktop",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/wire-desktop/default.nix:97"
+  },
+  "revs": [
+   "000463186d471107324c67faecb5c85e9f06521a",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ }
+}

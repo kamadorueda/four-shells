@@ -1,0 +1,4 @@
+{
+ "summary": "Revert \"buildRustPackage: allow patches to fix Cargo.lock\"",
+ "timestamp": "1534155978"
+}

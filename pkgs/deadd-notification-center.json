@@ -1,0 +1,42 @@
+{
+ "1.7.2": {
+  "meta": {
+   "description": "A haskell-written notification center for users that like a desktop with style",
+   "homepage": "https://github.com/phuhl/linux_notification_center",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "pachum99@gmail.com",
+     "github": "Pacman99",
+     "githubId": 16345849,
+     "name": "Parthiv Seetharaman"
+    }
+   ],
+   "name": "deadd-notification-center",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/misc/deadd-notification-center/default.nix:45"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

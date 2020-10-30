@@ -1,0 +1,4 @@
+{
+ "summary": "* Improve the determinism of Perl builds: don't try to download stuff   from CPAN.",
+ "timestamp": "1246542892"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "hackage-packages.nix: update to https://github.com/commercialhaskell/all-cabal-hashes/commit/610dc41e6141b8c7849a5c4af1e7a85346b99dce with hackage2nix v20150807-25-gce03fdf",
+ "timestamp": "1439144498"
+}

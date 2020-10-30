@@ -1,0 +1,4 @@
+{
+ "summary": "Improving the crossStripping. A cross-glibc gets broken if stripped by the native strip. So we now distinguish dontStrip and dontCrossStrip. I updated the expressions for glibc-2.9 and glibc-2.11 accordingly. I could get rid of the cross-glibc depending on the cross-gcc-stage-static.",
+ "timestamp": "1258996017"
+}

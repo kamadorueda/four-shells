@@ -1,0 +1,4 @@
+{
+ "summary": "{grub2,ceph,libs3,socket_wrapper,nss_wrapper}.src: use mirrors, https and fetchFromSavannah to enable better availability for proxied users",
+ "timestamp": "1430253700"
+}

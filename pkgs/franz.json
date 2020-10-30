@@ -1,0 +1,213 @@
+{
+ "4.0.4": {
+  "meta": {
+   "description": "A free messaging app that combines chat & messaging services into one application",
+   "homepage": "https://meetfranz.com",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "gnidorah@yandex.com",
+     "github": "gnidorah",
+     "name": "Alex Ivanov"
+    }
+   ],
+   "name": "franz",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/franz/default.nix:62"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "5.0.0-beta.19": {
+  "meta": {
+   "description": "A free messaging app that combines chat & messaging services into one application",
+   "homepage": "https://meetfranz.com",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "gnidorah@yandex.com",
+     "github": "gnidorah",
+     "name": "Alex Ivanov"
+    }
+   ],
+   "name": "franz",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/franz/default.nix:45"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "5.1.0": {
+  "meta": {
+   "description": "A free messaging app that combines chat & messaging services into one application",
+   "homepage": "https://meetfranz.com",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "gnidorah@yandex.com",
+     "github": "gnidorah",
+     "name": "Alex Ivanov"
+    }
+   ],
+   "name": "franz",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/franz/default.nix:45"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "86e3208ca31bc3dcddc412c59eae2e42107abcec"
+  ]
+ },
+ "5.2.0": {
+  "meta": {
+   "description": "A free messaging app that combines chat & messaging services into one application",
+   "homepage": "https://meetfranz.com",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "gnidorah@yandex.com",
+     "github": "gnidorah",
+     "name": "Alex Ivanov"
+    }
+   ],
+   "name": "franz",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/franz/default.nix:49"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "5.4.1": {
+  "meta": {
+   "description": "A free messaging app that combines chat & messaging services into one application",
+   "homepage": "https://meetfranz.com",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@david.davidtw.co",
+     "github": "davidtwco",
+     "githubId": 1295100,
+     "keys": [
+      {
+       "fingerprint": "5B08 313C 6853 E5BF FA91  A817 0176 0B4F 9F53 F154",
+       "longkeyid": "rsa4096/0x01760B4F9F53F154"
+      }
+     ],
+     "name": "David Wood"
+    }
+   ],
+   "name": "franz",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/franz/default.nix:50"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "5.5.0": {
+  "meta": {
+   "description": "A free messaging app that combines chat & messaging services into one application",
+   "homepage": "https://meetfranz.com",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@david.davidtw.co",
+     "github": "davidtwco",
+     "githubId": 1295100,
+     "keys": [
+      {
+       "fingerprint": "5B08 313C 6853 E5BF FA91  A817 0176 0B4F 9F53 F154",
+       "longkeyid": "rsa4096/0x01760B4F9F53F154"
+      }
+     ],
+     "name": "David Wood"
+    }
+   ],
+   "name": "franz",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/franz/default.nix:12"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "5.6.1": {
+  "meta": {
+   "description": "A free messaging app that combines chat & messaging services into one application",
+   "homepage": "https://meetfranz.com",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@david.davidtw.co",
+     "github": "davidtwco",
+     "githubId": 1295100,
+     "keys": [
+      {
+       "fingerprint": "5B08 313C 6853 E5BF FA91  A817 0176 0B4F 9F53 F154",
+       "longkeyid": "rsa4096/0x01760B4F9F53F154"
+      }
+     ],
+     "name": "David Wood"
+    }
+   ],
+   "name": "franz",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/franz/default.nix:12"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "3.0.100": {
+  "meta": {
+   "description": ".NET SDK 3.0.100",
+   "homepage": "https://dotnet.github.io/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "roman@kuznero.com",
+     "github": "kuznero",
+     "githubId": 449813,
+     "name": "Roman Kuznetsov"
+    }
+   ],
+   "name": "dotnet-sdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/dotnet/buildDotnet.nix:62"
+  },
+  "revs": [
+   "07b8ab4ff791dc8bcfeea643fd9a1fbedc534bbd",
+   "cb8ba82f15e5747adf5eb098460ff3d4c37985c8"
+  ]
+ },
+ "3.0.102": {
+  "meta": {
+   "description": ".NET SDK 3.0.102",
+   "homepage": "https://dotnet.github.io/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "roman@kuznero.com",
+     "github": "kuznero",
+     "githubId": 449813,
+     "name": "Roman Kuznetsov"
+    }
+   ],
+   "name": "dotnet-sdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/dotnet/buildDotnet.nix:63"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "3.0.103": {
+  "meta": {
+   "description": ".NET SDK 3.0.103",
+   "homepage": "https://dotnet.github.io/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "roman@kuznero.com",
+     "github": "kuznero",
+     "githubId": 449813,
+     "name": "Roman Kuznetsov"
+    }
+   ],
+   "name": "dotnet-sdk",
+   "platforms": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/compilers/dotnet/build-dotnet.nix:87"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "pythonPackages.numexpr: fix darwin build by refactoring checkPhase",
+ "timestamp": "1594865503"
+}

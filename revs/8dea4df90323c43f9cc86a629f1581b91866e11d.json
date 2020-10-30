@@ -1,0 +1,4 @@
+{
+ "summary": "lib/modules: Remove _module.checks.*.triggerPath as it's not necessary",
+ "timestamp": "1606768972"
+}

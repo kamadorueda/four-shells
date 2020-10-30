@@ -1,0 +1,56 @@
+{
+ "1.33": {
+  "meta": {
+   "description": "Sega Genesis/Mega Drive emulator",
+   "homepage": "https://dgen.sourceforge.net/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "DGen/SDL is a free, open source emulator for Sega Genesis/Mega Drive\nsystems. DGen was originally written by Dave, then ported to SDL by Joe\nGroff and Phil K. Hornung in 1998.\n\nIt features:\n\n- Game Genie/Hex codes support\n- PAL/NTSC, fullscreen modes\n- Joypad/joystick support\n- Mouse support\n- Highly configurable controls\n- OpenGL textured video output\n- Portable (64\u2010bit, endian safe), runs in Windows using MinGW\n- Screenshots, demos recording and playback\n- Musashi (generic) and StarScream (x86\u2010only) CPU cores\n- Cyclone 68000 and DrZ80 (both ARM\u2010only) CPU cores\n- CZ80 (generic) and MZ80 (generic and x86\u2010only versions)\n- 16\u2010bit, 8000 to 48000Hz sound output\n- Support for 8, 15, 16, 24 and 32 bpp modes\n- Archived/compressed ROMs support\n- M68K debugger (contributed by Edd Barrett)\n- Z80 debugger\n- hqx and scale2x upscaling filters\n- VGM dumping\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "githubId": 5954806,
+     "name": "Anderson Torres"
+    }
+   ],
+   "name": "dgen-sdl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/misc/emulators/dgen-sdl/default.nix:38"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

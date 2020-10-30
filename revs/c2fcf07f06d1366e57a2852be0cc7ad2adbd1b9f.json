@@ -1,0 +1,4 @@
+{
+ "summary": "Use feh only as a fallback if the xserver is actually enabled. Otherwise feh is installed even though no xserver is available.",
+ "timestamp": "1393920623"
+}

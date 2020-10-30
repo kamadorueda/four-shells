@@ -1,0 +1,66 @@
+{
+ "2020-10-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/playground/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-playground",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2835"
+  },
+  "revs": [
+   "002a5f9de16130ac9f8e474de75d9b5eca7bf4bd",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-24": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/playground/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-playground",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3003"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-04": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/playground/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-playground",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3003"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-17": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/playground/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-playground",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3039"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

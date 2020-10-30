@@ -1,0 +1,225 @@
+{
+ "19.12.0": {
+  "meta": {
+   "description": "Citrix Workspace",
+   "homepage": "https://www.citrix.com/de-de/downloads/workspace-app/linux/workspace-app-for-linux-latest.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "citrix-workspace",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/remote/citrix-workspace/default.nix:236"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "19.3.0": {
+  "meta": {
+   "description": "Citrix Workspace",
+   "homepage": "https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "citrix-workspace",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/remote/citrix-workspace/default.nix:209"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "86e3208ca31bc3dcddc412c59eae2e42107abcec"
+  ]
+ },
+ "19.6.0": {
+  "meta": {
+   "description": "Citrix Workspace",
+   "homepage": "https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "citrix-workspace",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/remote/citrix-workspace/default.nix:211"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "19.8.0": {
+  "meta": {
+   "description": "Citrix Workspace",
+   "homepage": "https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "citrix-workspace",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/remote/citrix-workspace/default.nix:224"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "a4896cb4aab132c0bcc32c5df4440f6d3b7ec5de"
+  ]
+ },
+ "20.04.0": {
+  "meta": {
+   "description": "Citrix Workspace",
+   "homepage": "https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "citrix-workspace",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/remote/citrix-workspace/default.nix:247"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "20.06.0": {
+  "meta": {
+   "description": "Citrix Workspace",
+   "homepage": "https://www.citrix.com/de-de/downloads/workspace-app/linux/workspace-app-for-linux-latest.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "citrix-workspace",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/networking/remote/citrix-workspace/default.nix:226"
+  },
+  "revs": [
+   "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "parallel: no dependency on `procps` on Darwin",
+ "timestamp": "1441961568"
+}

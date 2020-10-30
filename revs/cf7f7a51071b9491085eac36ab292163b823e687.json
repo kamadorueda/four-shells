@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/install-grub: Check /boot against /nix/store instead of /nix",
+ "timestamp": "1405263045"
+}

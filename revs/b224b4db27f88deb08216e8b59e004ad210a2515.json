@@ -1,0 +1,4 @@
+{
+ "summary": "qtox: Fix compilation on darwin, remove parallelBuilds, cleanups",
+ "timestamp": "1606418053"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-regex-tdfa: fix build with array 0.5.0.0 and later",
+ "timestamp": "1387453749"
+}

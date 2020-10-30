@@ -1,0 +1,4 @@
+{
+ "summary": "connman: 1.31 -> 1.32 fetch release tarball instead of git checkout and drop autotools",
+ "timestamp": "1462298594"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "fox: fix build with clang >=4 and possibly other versions",
+ "timestamp": "1490209736"
+}

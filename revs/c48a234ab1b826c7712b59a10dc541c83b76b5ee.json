@@ -1,0 +1,4 @@
+{
+ "summary": "dtkcore: only define QT_HOST_DATA if it is empty, enable parallel building",
+ "timestamp": "1535912101"
+}

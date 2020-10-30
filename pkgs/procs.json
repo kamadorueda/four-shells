@@ -1,0 +1,925 @@
+{
+ "0.10.0": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "09852dfc4cad0b18226ff329086d8844daaed4fe"
+  ]
+ },
+ "0.10.1": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "50a487d8fe922e8cfc13303d6604508c4884f920"
+  ]
+ },
+ "0.10.10": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "Br1ght0ne",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "0.10.3": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "0.10.4": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "0.10.5": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "005f545f46afd57abd037a37efa6b42fbc07c7c8",
+   "84dc7b87cddaeb69b6239a70c03525f4256aa5d9"
+  ]
+ },
+ "0.10.7": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "02a1379d454e5749951604035c17ca2651535691",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "0.10.9": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "Br1ght0ne",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "cc7ce7611924425b4f269da7a9bc3ca7d3ac8514"
+  ]
+ },
+ "0.8.16": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:29"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "0.8.5": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "name": "Naoya Hatta"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:21"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "0.9.0": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:21"
+  },
+  "revs": [
+   "00a91d919d6f6cdaecc67a894f372a4195fea9da",
+   "8a3ae55970e339faf8c9d126c37bcac1c71899f2"
+  ]
+ },
+ "0.9.11": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "0.9.18": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "0256aa00616a11434e5f75040509ed0a0e79e191"
+  ]
+ },
+ "0.9.2": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "0.9.20": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    },
+    {
+     "email": "brightone@protonmail.com",
+     "github": "filalex77",
+     "githubId": 12615679,
+     "keys": [
+      {
+       "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+       "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+      }
+     ],
+     "name": "Oleksii Filonenko"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "0.9.5": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "0036573d305dc724ad3acd8f6a406bc6113866cc",
+   "0b91dfedbc4fda3068b58e8514b58f94c7fa972b"
+  ]
+ },
+ "0.9.6": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:19"
+  },
+  "revs": [
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a",
+   "7b9129a98146cff91360419541955f55c5a09aec"
+  ]
+ },
+ "0.9.9": {
+  "meta": {
+   "description": "A modern replacement for ps written in Rust",
+   "homepage": "https://github.com/dalance/procs",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "http://spdx.org/licenses/MIT.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dalance@gmail.com",
+     "github": "dalance",
+     "githubId": 4331004,
+     "name": "Naoya Hatta"
+    }
+   ],
+   "name": "procs",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/tools/admin/procs/default.nix:22"
+  },
+  "revs": [
+   "00b25167ad1aa4166972e365ab8d9449fad6430b",
+   "a7dc5f524ccbb84c9053405977360f4b6adeeabc"
+  ]
+ }
+}

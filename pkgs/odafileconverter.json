@@ -1,0 +1,89 @@
+{
+ "21.11.0.0": {
+  "meta": {
+   "description": "For converting between different versions of .dwg and .dxf",
+   "homepage": "https://www.opendesign.com/guestfiles/oda_file_converter",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nixpkgs@kazlauskas.me",
+     "github": "nagisa",
+     "githubId": 679122,
+     "name": "Simonas Kazlauskas"
+    }
+   ],
+   "name": "oda-file-converter",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/applications/graphics/odafileconverter/default.nix:47"
+  },
+  "revs": [
+   "0081f50505436a5787cbf50af8ef4d9d04620ad6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "21.7.0.0": {
+  "meta": {
+   "description": "For converting between different versions of .dwg and .dxf",
+   "homepage": "https://www.opendesign.com/guestfiles/oda_file_converter",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nixpkgs@kazlauskas.me",
+     "github": "nagisa",
+     "githubId": 679122,
+     "name": "Simonas Kazlauskas"
+    }
+   ],
+   "name": "oda-file-converter",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/graphics/odafileconverter/default.nix:47"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "21.9.0.0": {
+  "meta": {
+   "description": "For converting between different versions of .dwg and .dxf",
+   "homepage": "https://www.opendesign.com/guestfiles/oda_file_converter",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nixpkgs@kazlauskas.me",
+     "github": "nagisa",
+     "githubId": 679122,
+     "name": "Simonas Kazlauskas"
+    }
+   ],
+   "name": "oda-file-converter",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/applications/graphics/odafileconverter/default.nix:47"
+  },
+  "revs": [
+   "ca36a4a15f54bd2a239cfd5c7cbb9a2fb4be0715",
+   "ca36a4a15f54bd2a239cfd5c7cbb9a2fb4be0715"
+  ]
+ }
+}

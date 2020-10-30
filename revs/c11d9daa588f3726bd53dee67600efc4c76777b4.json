@@ -1,0 +1,4 @@
+{
+ "summary": "syslog-ng: Add perl to buildInputs so perl scripts in output are fixed correctly",
+ "timestamp": "1403696671"
+}

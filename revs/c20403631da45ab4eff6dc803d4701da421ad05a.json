@@ -1,0 +1,4 @@
+{
+ "summary": "Factor out \"man\" into a separate module and add \"man\" outputs to system.path",
+ "timestamp": "1446210918"
+}

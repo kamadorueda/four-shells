@@ -1,0 +1,4 @@
+{
+ "summary": "gobjectIntrospection: fix build on darwin (close #832)",
+ "timestamp": "1376537975"
+}

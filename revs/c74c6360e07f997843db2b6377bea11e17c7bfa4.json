@@ -1,0 +1,4 @@
+{
+ "summary": "Fix konfig, in order to propagate its dependencies on configparser and argparse.",
+ "timestamp": "1418337634"
+}

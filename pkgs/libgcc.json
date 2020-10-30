@@ -1,0 +1,98 @@
+{
+ "10.2.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libgcc",
+   "platforms": null,
+   "position": "gs/pkgs/development/libraries/gcc/libgcc/default.nix:8"
+  },
+  "revs": [
+   "027c952090e5fda9badeff944b6b81ca25168f6e",
+   "bf46afde6b22942ea605983f66ee23038986ba07"
+  ]
+ },
+ "7.3.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libgcc",
+   "platforms": null,
+   "position": "pkgs/development/libraries/gcc/libgcc/default.nix:8"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "7.4.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libgcc",
+   "platforms": null,
+   "position": "pkgs/development/libraries/gcc/libgcc/default.nix:8"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "8.3.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libgcc",
+   "platforms": null,
+   "position": "pkgs/development/libraries/gcc/libgcc/default.nix:8"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
+  ]
+ },
+ "9.2.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libgcc",
+   "platforms": null,
+   "position": "pkgs/development/libraries/gcc/libgcc/default.nix:8"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "9.3.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libgcc",
+   "platforms": null,
+   "position": "pkgs/development/libraries/gcc/libgcc/default.nix:8"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

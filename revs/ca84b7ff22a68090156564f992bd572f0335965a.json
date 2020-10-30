@@ -1,0 +1,4 @@
+{
+ "summary": "uclibcCross: convert to using callPackage It doesn't add any unwanted defaults, and it makes cross-building experiments (and cross-building for a new device is always experimental..) way easier.",
+ "timestamp": "1345131597"
+}

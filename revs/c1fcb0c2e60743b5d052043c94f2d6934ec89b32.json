@@ -1,0 +1,4 @@
+{
+ "summary": "Make the setup-hook work again now that nodejs modules reside in lib/node_modules",
+ "timestamp": "1375182005"
+}

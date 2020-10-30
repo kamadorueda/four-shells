@@ -1,0 +1,4 @@
+{
+ "summary": "qtwebkit: fix path for libgdk-x11-2.0, it's in gtk2 apparently",
+ "timestamp": "1556517311"
+}

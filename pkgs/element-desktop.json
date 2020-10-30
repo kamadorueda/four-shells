@@ -1,0 +1,944 @@
+{
+ "1.7.0": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "241ce53b3de411f17d4bd360765c126668cc21b6",
+   "8a58662c40c07c891d09cdf0ad59b789f68d6116"
+  ]
+ },
+ "1.7.1": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "1.7.10": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "383bd9f62f5631e5aae4153b69fa99f98db58815"
+  ]
+ },
+ "1.7.12": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "1.7.13": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "0140aced5353da38b99a838b8a06325fb59e6226",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "1.7.14": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "1.7.15": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "gs/pkgs/applications/networking/instant-messengers/element/element-desktop.nix:76"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "c7928fb076ec65c82d070c499e5fa4b13bbc9458"
+  ]
+ },
+ "1.7.16": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "gs/pkgs/applications/networking/instant-messengers/element/element-desktop.nix:76"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "1.7.2": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "002ecd07e128b7ee5dc4ed23f1da4abbe9007880",
+   "5de26dd52d23259aa74de23834f180ea6d358fa6"
+  ]
+ },
+ "1.7.3": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "bfdf25f3ff5a9f1f379f4372aada780ba27f1892"
+  ]
+ },
+ "1.7.4": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "bf3f39789dfe739b762ce6768bc9289bfe74c424"
+  ]
+ },
+ "1.7.5": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "383075f38b94b25ff30ec68a1bb19b35dc9ce4e8"
+  ]
+ },
+ "1.7.7": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "487fb291d9d0761c118b579ad4cd7bea597d414d"
+  ]
+ },
+ "1.7.8": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    },
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "tristan.helmich+nixos@gmail.com",
+     "github": "fadenb",
+     "githubId": 878822,
+     "name": "Tristan Helmich"
+    },
+    {
+     "email": "code@klandest.in",
+     "github": "mguentner",
+     "githubId": 668926,
+     "name": "Maximilian G\u00fcntner"
+    },
+    {
+     "email": "leo@gaspard.io",
+     "github": "ekleog",
+     "githubId": 411447,
+     "name": "Leo Gaspard"
+    },
+    {
+     "email": "ben.e.saunders@gmail.com",
+     "github": "ralith",
+     "githubId": 104558,
+     "name": "Benjamin Saunders"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "001334b47c6cdfc35e94805380484e75004cdbf5",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "1.7.9": {
+  "meta": {
+   "description": "A feature-rich client for Matrix.org",
+   "homepage": "https://element.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "b4gx3q.nixpkgs@pacien.net",
+     "github": "pacien",
+     "githubId": 1449319,
+     "name": "Pacien Tran-Girard"
+    },
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    },
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "element-desktop",
+   "platforms": [
+    "x86_64-darwin",
+    "x86_64-linux",
+    "i686-linux",
+    "armv7l-linux",
+    "aarch64-linux"
+   ],
+   "position": "pkgs/applications/networking/instant-messengers/element/element-desktop.nix:75"
+  },
+  "revs": [
+   "0056f627a0203501c82a74a59c7553b158cc9642",
+   "07e49512aa1bea7730ebca10aa4a50a33cae34cd"
+  ]
+ }
+}

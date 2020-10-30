@@ -1,0 +1,4 @@
+{
+ "summary": "* Use callPackage for most packages in all-packages.nix.   `callPackage' was described here:",
+ "timestamp": "1280766418"
+}

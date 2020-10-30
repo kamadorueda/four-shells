@@ -1,0 +1,4 @@
+{
+ "summary": "Making the x264 libs build with PIC on non-i686, as it's the only platform I know that does not need PIC for shared libraries.",
+ "timestamp": "1283330084"
+}

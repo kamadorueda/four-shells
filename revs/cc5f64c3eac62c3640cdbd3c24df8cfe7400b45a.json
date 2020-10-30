@@ -1,0 +1,4 @@
+{
+ "summary": "geant4: fix build with enableInventor = true",
+ "timestamp": "1560787817"
+}

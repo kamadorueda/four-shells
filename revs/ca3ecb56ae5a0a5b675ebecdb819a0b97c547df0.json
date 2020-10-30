@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv: change 'echo -n' to 'printf \"%s\"'",
+ "timestamp": "1412882057"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "haskellPackages.hpack: set to newest hpack to avoid conflicting hpack versions in closure",
+ "timestamp": "1534243330"
+}

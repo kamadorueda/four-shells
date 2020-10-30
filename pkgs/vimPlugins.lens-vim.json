@@ -1,0 +1,18 @@
+{
+ "2020-04-24": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/camspiers/lens.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-lens-vim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:1947"
+  },
+  "revs": [
+   "0081f50505436a5787cbf50af8ef4d9d04620ad6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

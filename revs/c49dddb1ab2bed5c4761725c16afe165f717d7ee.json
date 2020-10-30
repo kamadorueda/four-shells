@@ -1,0 +1,4 @@
+{
+ "summary": "Substitute fixOptionSetsFun by multiple functions which are: - well named, - capable to handle the proposal of Eelco Dolstra { imports= [..]; options = {}; config = {}; } in addition to the current { require = [..]; .. } syntax.",
+ "timestamp": "1246897205"
+}

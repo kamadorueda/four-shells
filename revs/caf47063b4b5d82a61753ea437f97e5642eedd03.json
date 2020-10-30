@@ -1,0 +1,4 @@
+{
+ "summary": "dockerTools: test that tar keeps nix binary symlinks intact",
+ "timestamp": "1592494161"
+}

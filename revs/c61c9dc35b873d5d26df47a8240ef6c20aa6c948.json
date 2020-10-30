@@ -1,0 +1,4 @@
+{
+ "summary": "* Drop the \"perl\" prefix from Perl attribute names.  It's redundant   now that Perl packages are in their own namespace   (perlPackages.<pkg>).",
+ "timestamp": "1240231775"
+}

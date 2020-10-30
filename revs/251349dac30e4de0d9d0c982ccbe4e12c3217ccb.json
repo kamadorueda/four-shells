@@ -1,0 +1,4 @@
+{
+ "summary": "wireshark: Do $PATH lookup in wireshark.desktop instead of hardcoding derivation",
+ "timestamp": "1605738658"
+}

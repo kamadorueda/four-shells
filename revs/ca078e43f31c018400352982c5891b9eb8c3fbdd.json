@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-cuda: don't try to build this package on Hydra",
+ "timestamp": "1399897891"
+}

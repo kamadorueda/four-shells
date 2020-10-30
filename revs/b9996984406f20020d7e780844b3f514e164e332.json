@@ -1,0 +1,4 @@
+{
+ "summary": " - add back the plaform, as it is permitted to distribute the binary kernel modules. See https://github.com/NixOS/nixpkgs/pull/145",
+ "timestamp": "1350444563"
+}

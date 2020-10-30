@@ -1,0 +1,4 @@
+{
+ "summary": "* Purity fix in building Python: don't let it search in /usr/include   and /usr/lib to determine what optional modules (like bzip2, zlib,   dl, etc.) to build.  Unfortunately there doesn't seem to be a way to   tell the Python build process to look anywhere else, so I had to   patch setup.py.",
+ "timestamp": "1180276441"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Haskell packages don't mix default.nix and <version>.nix in the same directory",
+ "timestamp": "1391471787"
+}

@@ -1,0 +1,53 @@
+{
+ "2020-11-30": {
+  "meta": {
+   "description": "Userland tools & libraries for interfacing with Raspberry Pi hardware",
+   "homepage": "https://github.com/raspberrypi/userland",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "tuomas.tynkkynen@iki.fi",
+     "github": "dezgeg",
+     "githubId": 579369,
+     "name": "Tuomas Tynkkynen"
+    },
+    {
+     "email": "octavian.cerna@gmail.com",
+     "github": "tavyc",
+     "githubId": 3650609,
+     "name": "Octavian Cerna"
+    },
+    {
+     "email": "tk@drwx.org",
+     "github": "tkerber",
+     "githubId": 5722198,
+     "keys": [
+      {
+       "fingerprint": "556A 403F B0A2 D423 F656  3424 8489 B911 F9ED 617B",
+       "longkeyid": "rsa4096/0x8489B911F9ED617B"
+      }
+     ],
+     "name": "Thomas Kerber"
+    }
+   ],
+   "name": "libraspberrypi-unstable",
+   "platforms": [
+    "armv6l-linux",
+    "armv7l-linux",
+    "aarch64-linux",
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/development/libraries/libraspberrypi/default.nix:34"
+  },
+  "revs": [
+   "0ff6bc488dfdabef29be947bf4425aec946582c0",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

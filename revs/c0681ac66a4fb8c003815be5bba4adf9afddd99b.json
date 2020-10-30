@@ -1,0 +1,4 @@
+{
+ "summary": "openssh: fix cross-compilation after #100906",
+ "timestamp": "1608939187"
+}

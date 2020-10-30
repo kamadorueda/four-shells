@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-packages.nix: enable dynamic linking in GHC 7.7 or later",
+ "timestamp": "1386104631"
+}

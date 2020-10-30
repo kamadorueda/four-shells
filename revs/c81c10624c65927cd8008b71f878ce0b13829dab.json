@@ -1,0 +1,4 @@
+{
+ "summary": "gnupgMinimal: move to all-packages.nix, use from inside systemd",
+ "timestamp": "1596708105"
+}

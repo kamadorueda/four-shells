@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing the builds of apr, apache, subversion and friends when having enabled the ldap support.",
+ "timestamp": "1302361146"
+}

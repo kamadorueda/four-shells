@@ -1,0 +1,4 @@
+{
+ "summary": "Removed CURL_NO_OLDIES as we have a fresh curl version.",
+ "timestamp": "1198255162"
+}

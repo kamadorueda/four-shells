@@ -1,0 +1,4 @@
+{
+ "summary": "* TigerVNC updated to 1.1.0. * Build TigerVNC with TLS and PAM support.  TLS support is important   to support encrypted VNC servers.",
+ "timestamp": "1320951943"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-filestore: disable Haddock phase to fix build with GHC 7.0.4",
+ "timestamp": "1338803176"
+}

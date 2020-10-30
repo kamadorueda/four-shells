@@ -1,0 +1,4 @@
+{
+ "summary": "* Streamline the stdenv bootstrap and resulting closure by removing   some redundant builds (e.g., GMP was built three times). * Updated GMP to 5.0.2. * Updated PPL to 0.11.2. * Remove ad hoc flags to build GCC's dependencies statically.   Instead, use the \u2018makeStaticLibraries\u2019 stdenv adapter. * Build GMP with C++ support by default.",
+ "timestamp": "1323873116"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "libpng12/cross: Don't add zlib for Darwin builds.",
+ "timestamp": "1394602482"
+}

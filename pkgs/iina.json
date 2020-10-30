@@ -1,0 +1,41 @@
+{
+ "1.1.2": {
+  "meta": {
+   "description": "The modern video player for macOS.",
+   "homepage": "http://https://iina.io/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "joerg@thalheim.io",
+     "github": "mic92",
+     "githubId": 96200,
+     "keys": [
+      {
+       "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+       "longkeyid": "rsa4096/0x003F2096411B5F92"
+      }
+     ],
+     "name": "J\u00f6rg Thalheim"
+    }
+   ],
+   "name": "iina",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/applications/video/iina/default.nix:20"
+  },
+  "revs": [
+   "003c48411a02cc3083e2073508189599952d17fd",
+   "003c48411a02cc3083e2073508189599952d17fd"
+  ]
+ }
+}

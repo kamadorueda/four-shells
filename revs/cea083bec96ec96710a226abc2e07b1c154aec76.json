@@ -1,0 +1,4 @@
+{
+ "summary": "* Set the Python search path for Xen's Python scripts.  As an   experiment, do this by patching a line setting sys.path into the   script, rather than using makeWrapper. * Xen requires pythonFull because it needs https/ssl support.",
+ "timestamp": "1284115997"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "fmit: correct stdenv.lib.{optional -> optionals}",
+ "timestamp": "1443560445"
+}

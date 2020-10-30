@@ -1,0 +1,4 @@
+{
+ "summary": "libreoffice: wrapper: fallback to /tmp if /run is not usable",
+ "timestamp": "1553339762"
+}

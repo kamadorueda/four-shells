@@ -1,0 +1,594 @@
+{
+ "4.1.3": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:71"
+  },
+  "revs": [
+   "096ef4f2970d3707370897801d263494754e30a0",
+   "1610427425949dd62b748f2f35d4940c3c755e5c"
+  ]
+ },
+ "4.1.4": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:70"
+  },
+  "revs": [
+   "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
+   "a3f24daa7bc52767e15b5476d6c6b4165db5ee39"
+  ]
+ },
+ "4.1.5": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:65"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
+  ]
+ },
+ "4.1.6": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:65"
+  },
+  "revs": [
+   "005fb92d32c9d5b636846ce30ae01aab81454161",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "4.1.7": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:65"
+  },
+  "revs": [
+   "0017a06717bb18706ac3cb99432034caad0c8b91",
+   "d0bdb55093458bcc9060dbe3c645cef1cb880440"
+  ]
+ },
+ "4.1.8": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@users.noreply.github.com",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:65"
+  },
+  "revs": [
+   "000463186d471107324c67faecb5c85e9f06521a",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "4.1.9": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:64"
+  },
+  "revs": [
+   "0035a337da464b1d534858fe230dbb669f49dc7e",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "4.2.0": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:100"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
+  ]
+ },
+ "4.3.0": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "Worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:95"
+  },
+  "revs": [
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "4.4.0": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:95"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "4.4.1": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "http://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:95"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0256aa00616a11434e5f75040509ed0a0e79e191"
+  ]
+ },
+ "4.4.2": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3",
+    "spdxId": "LGPL-3.0-only",
+    "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:95"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "4.4.3": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3Only",
+    "spdxId": "LGPL-3.0-only",
+    "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:95"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "4.4.4": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3Only",
+    "spdxId": "LGPL-3.0-only",
+    "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:96"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "86b85c079cbcba504927f75199842a64ca1e9cf1"
+  ]
+ },
+ "4.5.0": {
+  "meta": {
+   "description": "File browser designed for elementary OS",
+   "homepage": "https://github.com/elementary/files",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3Only",
+    "spdxId": "LGPL-3.0-only",
+    "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "worldofpeace@protonmail.ch",
+     "github": "worldofpeace",
+     "githubId": 28888242,
+     "name": "worldofpeace"
+    }
+   ],
+   "name": "elementary-files",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/desktops/pantheon/apps/elementary-files/default.nix:96"
+  },
+  "revs": [
+   "001334b47c6cdfc35e94805380484e75004cdbf5",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

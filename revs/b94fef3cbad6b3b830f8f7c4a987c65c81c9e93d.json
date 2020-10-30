@@ -1,0 +1,4 @@
+{
+ "summary": "all-packages.nix: added texLiveFull attribute, which is a working TexLive installation with all supported packages enabled",
+ "timestamp": "1327005917"
+}

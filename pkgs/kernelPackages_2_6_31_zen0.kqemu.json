@@ -1,0 +1,18 @@
+{
+ "1.4.0pre1": {
+  "meta": {
+   "description": " Kernel module for Qemu acceleration ",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "kqemu",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0b25624891b1045953aed021fb649952fbfb1fc0",
+   "bbaf9acc0e44f6f914583d3a066e90f1c03d482c"
+  ]
+ }
+}

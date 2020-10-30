@@ -1,0 +1,4 @@
+{
+ "summary": "nixos: remove redundant services.autossh.enable option",
+ "timestamp": "1446057895"
+}

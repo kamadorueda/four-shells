@@ -1,0 +1,4 @@
+{
+ "summary": "As ludo attented, I remove the 'python-' name prefix for the dateutil python package. I initially wrote it because the original name includes it, but I agree we better don't have it named \"python-python-dateutil\".",
+ "timestamp": "1263155465"
+}

@@ -1,0 +1,1026 @@
+{
+ "0.1.0": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "name": "Patrick Hilhorst"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:29"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ },
+ "0.1.10993": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:31"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "0.1.11146": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:31"
+  },
+  "revs": [
+   "08251935f7a3e0450c07c0bd6131b9af33807204",
+   "997098b8b5a7d72d08e378ccaac6f5de60cc4dd9"
+  ]
+ },
+ "0.1.11458": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:31"
+  },
+  "revs": [
+   "0140aced5353da38b99a838b8a06325fb59e6226",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "0.1.11508": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:31"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "0.1.11540": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/development/tools/misc/circleci-cli/default.nix:31"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "0.1.2307": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:23"
+  },
+  "revs": [
+   "0166be71f6e1526c7c2b636d014b465e324610df",
+   "cd8ffef01b4629980bb77e33a20c24c236ac41be"
+  ]
+ },
+ "0.1.2569": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "emery@vfemail.net",
+     "name": "Emery Hemingway"
+    },
+    {
+     "email": "lucabru@src.gnome.org",
+     "github": "lethalman",
+     "name": "Luca Bruno"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "0.1.5879": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:27"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "0.1.6072": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:29"
+  },
+  "revs": [
+   "001be890f78f04df86938f44c0761676e299ceac",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "0.1.6949": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:31"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "0.1.7179": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:29"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "50a487d8fe922e8cfc13303d6604508c4884f920"
+  ]
+ },
+ "0.1.7523": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:29"
+  },
+  "revs": [
+   "002d38783ab0b570b296dadd4ee1ecfad21a9367",
+   "03f116eaa037ce30670da482f12006d24c49206e"
+  ]
+ },
+ "0.1.7868": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:29"
+  },
+  "revs": [
+   "001cf3f926af996ec6d779f861bcba4ed04c5411",
+   "184241e779e05344a95c30f35615271102522a8a"
+  ]
+ },
+ "0.1.7971": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:29"
+  },
+  "revs": [
+   "004c6c149aae67256853e7cd69a86626a04d02d1",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "0.1.8302": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:29"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "25865306f08f3d87e390c41065cf7db2f19323e0"
+  ]
+ },
+ "0.1.8599": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:29"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "0.1.8945": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/development/tools/misc/circleci-cli/default.nix:31"
+  },
+  "revs": [
+   "c06eab791fc7e39a36b706f85d17f471c54c2581",
+   "c2dd712927276a86332e242d3ed31b3ae883e651"
+  ]
+ },
+ "0.1.9321": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:31"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "0.1.9454": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "githubId": 7075751,
+     "name": "Patrick Hilhorst"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:31"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2018-05-12": {
+  "meta": {
+   "description": "Command to enable you to reproduce the CircleCI environment locally and\nrun jobs as if they were running on the hosted CirleCI application.\n",
+   "homepage": "https://circleci.com/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@hilhorst.be",
+     "github": "Synthetica9",
+     "name": "Patrick Hilhorst"
+    }
+   ],
+   "name": "circleci-cli",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/misc/circleci-cli/default.nix:29"
+  },
+  "revs": [
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
+   "879d14d636ebedfa93b24a7fe6b36155cd8b8946"
+  ]
+ }
+}

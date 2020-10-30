@@ -1,0 +1,4 @@
+{
+ "summary": "fetchgitlocal: use output of `git show` and `git diff` to tell nix whether the source has changed.",
+ "timestamp": "1427857099"
+}

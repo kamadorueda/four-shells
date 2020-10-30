@@ -1,0 +1,4 @@
+{
+ "summary": "arangodb_3_5: fix build on aarch64 and vanilla x86_64",
+ "timestamp": "1565125087"
+}

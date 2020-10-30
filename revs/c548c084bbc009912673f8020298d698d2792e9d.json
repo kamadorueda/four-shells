@@ -1,0 +1,4 @@
+{
+ "summary": "Making gcc-4.5 cross-build to mingw32 too (set by the proper config and libc = \"msvcrt\" in the crossSystem)",
+ "timestamp": "1273170171"
+}

@@ -1,0 +1,20 @@
+{
+ "4.18": {
+  "meta": {
+   "description": "Eclipse IDE for Rust Developers",
+   "homepage": "http://www.eclipse.org/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "eclipse-rust",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/applications/editors/eclipse/build-eclipse.nix:60"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "gnome3: fix build with config.allowAliases=false",
+ "timestamp": "1557753388"
+}

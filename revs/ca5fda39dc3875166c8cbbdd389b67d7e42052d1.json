@@ -1,0 +1,4 @@
+{
+ "summary": "docker.buildUtils: use baseNameOf to allow for slashes in name",
+ "timestamp": "1477926708"
+}

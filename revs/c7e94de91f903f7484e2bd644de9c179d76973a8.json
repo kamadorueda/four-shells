@@ -1,0 +1,4 @@
+{
+ "summary": "lxc: set rootfs path somewhere outside /nix/store",
+ "timestamp": "1397089663"
+}

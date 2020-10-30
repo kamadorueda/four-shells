@@ -1,0 +1,4 @@
+{
+ "summary": "utillinux: fix build w/ncurses, which is ncursesw",
+ "timestamp": "1533690357"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* composedArgsAndFun -> makeOverridable for consistency. * Rename a few single-version packages to \"default.nix\".",
+ "timestamp": "1280391681"
+}

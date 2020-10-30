@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/tests/installer: use flock for all parted calls",
+ "timestamp": "1537611737"
+}

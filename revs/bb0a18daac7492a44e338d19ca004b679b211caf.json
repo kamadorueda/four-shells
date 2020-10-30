@@ -1,0 +1,4 @@
+{
+ "summary": "Adding some kind of build expression for money manager ex. It expects to find its resource files in '.', and it also wants to write at '.'. I think this has to be fixed upstream.",
+ "timestamp": "1264455652"
+}

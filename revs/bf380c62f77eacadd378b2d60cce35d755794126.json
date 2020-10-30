@@ -1,0 +1,4 @@
+{
+ "summary": "Remove monotone from all-packages.nix to see what it real meta.platforms should be",
+ "timestamp": "1294703230"
+}

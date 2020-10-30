@@ -1,0 +1,4 @@
+{
+ "summary": "Fix #19382 set ownership of /var/empty to root:root (cherry picked from commit 4ed85933db8b056b72214fb38e2095e1414e1c49)",
+ "timestamp": "1476007307"
+}

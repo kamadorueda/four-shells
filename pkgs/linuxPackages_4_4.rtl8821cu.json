@@ -1,0 +1,762 @@
+{
+ "4.4.233-unstable-2020-05-16": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "026b4765bada7437c679693491ca2c6b6a1cc35c",
+   "bf3f39789dfe739b762ce6768bc9289bfe74c424"
+  ]
+ },
+ "4.4.234-unstable-2020-05-16": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "a9def8ddbc71033476fe68c358d81524b820d7f0"
+  ]
+ },
+ "4.4.235-unstable-2020-05-16": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "383075f38b94b25ff30ec68a1bb19b35dc9ce4e8"
+  ]
+ },
+ "4.4.236-unstable-2020-05-16": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "c680c499bfef78788b84629fe105df8e4c644032"
+  ]
+ },
+ "4.4.237-unstable-2020-05-16": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "004676ce9c8275598182884c9e5a823a34eaa173",
+   "487fb291d9d0761c118b579ad4cd7bea597d414d"
+  ]
+ },
+ "4.4.238-unstable-2020-05-16": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "00d578a298a92fbb222b19e72100117d1861f2f0",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "4.4.238-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "001334b47c6cdfc35e94805380484e75004cdbf5",
+   "0e9c5297fefa41d2dd941f3dc942b05f00e18324"
+  ]
+ },
+ "4.4.239-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "00daf410b5aba389849b8e01147da7c0c1683d89",
+   "8a10daf5b9d48efb55e1bd72317ed0bcaaf71d50"
+  ]
+ },
+ "4.4.240-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "07e49512aa1bea7730ebca10aa4a50a33cae34cd"
+  ]
+ },
+ "4.4.241-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "4.4.242-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "0140aced5353da38b99a838b8a06325fb59e6226",
+   "cde30d01501c84c2d78fe093e7c2d5d93119b906"
+  ]
+ },
+ "4.4.243-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "019c3bb417153a2b80f483891f7f0981f6d327a8",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "4.4.244-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "01229007553d9322c473c0fa36e3d6c644147e7d",
+   "c54a9864382bc365496b41a600b3103214356ef3"
+  ]
+ },
+ "4.4.245-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "c313d8eb136238fcf296cec38fc90bd65078f6a8"
+  ]
+ },
+ "4.4.246-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "d0a4a0bbd4b1f5aab5a5e49543b1614d2025a0fd"
+  ]
+ },
+ "4.4.247-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "0278e49268735919b3af826ae14f18df35ae55df",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "4.4.248-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "4.4.249-unstable-2020-08-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "06e80a5930a2498e0903a577a7366cf7f4b5e034",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "4.4.249-unstable-2020-12-21": {
+  "meta": {
+   "description": "Realtek rtl8821cu driver",
+   "homepage": "https://github.com/brektrou/rtl8821CU",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "rtl8821cu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/rtl8821cu/default.nix:31"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "daemon: Fix compilation on darwin (#105640)",
+ "timestamp": "1608482961"
+}

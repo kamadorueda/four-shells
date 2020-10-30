@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/libvirtd-service: fix for dnsmasq (dir perms 700 -> 755)",
+ "timestamp": "1384011070"
+}

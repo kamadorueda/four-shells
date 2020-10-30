@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/nextcloud: fix missing quotes arround $* in occ wrapper and replace with $@",
+ "timestamp": "1608480971"
+}

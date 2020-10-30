@@ -1,0 +1,4 @@
+{
+ "summary": "use --with-dbus-daemondir= cause DBUS_DAEMONDIR seems to be broken? dbus-launch no longer reports any errors",
+ "timestamp": "1265856225"
+}

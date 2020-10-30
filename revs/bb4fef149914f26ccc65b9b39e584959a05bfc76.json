@@ -1,0 +1,4 @@
+{
+ "summary": "ruby: use stdenv derivation for patching RubyGems",
+ "timestamp": "1556454652"
+}

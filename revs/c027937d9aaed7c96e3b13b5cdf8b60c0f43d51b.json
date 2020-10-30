@@ -1,0 +1,4 @@
+{
+ "summary": "borgbackup: Moved documentation to NixOS manual and added examples for * creating a local backup * creating a borgbackup server * backing up to a borgbackup server * hints about the Vorta graphical desktop application * Added documentation about Vorta desktop client",
+ "timestamp": "1585640339"
+}

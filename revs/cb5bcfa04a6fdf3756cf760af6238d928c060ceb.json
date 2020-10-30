@@ -1,0 +1,4 @@
+{
+ "summary": "* In the VM tests, apply a patch to increase the 15s timeout on CIFS   operations to 120s.  This is necessary if the host is heavily   loaded.  For instance, in the Hydra build farm, if there are many   concurrent jobs, VM builds often fail because they hit the timeout.",
+ "timestamp": "1277067128"
+}

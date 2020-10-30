@@ -1,0 +1,4 @@
+{
+ "summary": "Use stdenv.lib.licenses.bsd instead of \"bsd\"",
+ "timestamp": "1390082967"
+}

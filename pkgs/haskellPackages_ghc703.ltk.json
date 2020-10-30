@@ -1,0 +1,43 @@
+{
+ "0.10.0.4": {
+  "meta": {
+   "description": "Leksah tool kit",
+   "homepage": "http://www.leksah.org",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>",
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-ltk-ghc7.0.3",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "i686-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "03b9664e25cdde7e3df427017e68f5f88c06c13f",
+   "d12e88df661fdfdd193bcc89930b2ff6a6f1455f"
+  ]
+ },
+ "0.8.0.8": {
+  "meta": {
+   "description": "UI framework used by leksah",
+   "homepage": "",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-ltk-ghc7.0.3",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0026458089ed4a754f75b182b5e903f2242127cc",
+   "477a7ef458c2448c60ec322a6c36f4f0acb4cfc5"
+  ]
+ }
+}

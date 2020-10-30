@@ -1,0 +1,4 @@
+{
+ "summary": "Adding (disabled) time compatibility patch for coreutils - this allows the compilation of older Linux kernels against newer headers (not a recommended practise!)",
+ "timestamp": "1223196114"
+}

@@ -1,0 +1,155 @@
+{
+ "2.3.12": {
+  "meta": {
+   "description": "A simple and private notes app",
+   "homepage": "https://standardnotes.org",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0",
+    "url": "http://spdx.org/licenses/AGPL-3.0.html"
+   },
+   "long_description": "Standard Notes is a private notes app that features unmatched simplicity,\nend-to-end encryption, powerful extensions, and open-source applications.\n",
+   "maintainers": [
+    {
+     "email": "gregoire@martinache.net",
+     "github": "M-Gregoire",
+     "name": "Gregoire Martinache"
+    }
+   ],
+   "name": "standardnotes",
+   "platforms": [
+    "i386-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/editors/standardnotes/default.nix:38"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "3.0.15": {
+  "meta": {
+   "description": "A simple and private notes app",
+   "homepage": "https://standardnotes.org",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0-only",
+    "url": "http://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "Standard Notes is a private notes app that features unmatched simplicity,\nend-to-end encryption, powerful extensions, and open-source applications.\n",
+   "maintainers": [
+    {
+     "email": "gregoire@martinache.net",
+     "github": "M-Gregoire",
+     "githubId": 9469313,
+     "name": "Gregoire Martinache"
+    }
+   ],
+   "name": "standardnotes",
+   "platforms": [
+    "i386-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/editors/standardnotes/default.nix:39"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "3.0.6": {
+  "meta": {
+   "description": "A simple and private notes app",
+   "homepage": "https://standardnotes.org",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3",
+    "spdxId": "AGPL-3.0-only",
+    "url": "http://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "Standard Notes is a private notes app that features unmatched simplicity,\nend-to-end encryption, powerful extensions, and open-source applications.\n",
+   "maintainers": [
+    {
+     "email": "gregoire@martinache.net",
+     "github": "M-Gregoire",
+     "name": "Gregoire Martinache"
+    }
+   ],
+   "name": "standardnotes",
+   "platforms": [
+    "i386-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/editors/standardnotes/default.nix:38"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "3.3.3": {
+  "meta": {
+   "description": "A simple and private notes app",
+   "homepage": "https://standardnotes.org",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "Standard Notes is a private notes app that features unmatched simplicity,\nend-to-end encryption, powerful extensions, and open-source applications.\n",
+   "maintainers": [
+    {
+     "email": "gregoire@martinache.net",
+     "github": "M-Gregoire",
+     "githubId": 9469313,
+     "name": "Gregoire Martinache"
+    }
+   ],
+   "name": "standardnotes",
+   "platforms": [
+    "i386-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/editors/standardnotes/default.nix:48"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "3.5.11": {
+  "meta": {
+   "description": "A simple and private notes app",
+   "homepage": "https://standardnotes.org",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "Standard Notes is a private notes app that features unmatched simplicity,\nend-to-end encryption, powerful extensions, and open-source applications.\n",
+   "maintainers": [
+    {
+     "email": "gregoire@martinache.net",
+     "github": "M-Gregoire",
+     "githubId": 9469313,
+     "name": "Gregoire Martinache"
+    }
+   ],
+   "name": "standardnotes",
+   "platforms": [
+    "i386-linux",
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/applications/editors/standardnotes/default.nix:48"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

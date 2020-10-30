@@ -1,0 +1,386 @@
+{
+ "0.10.1": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:63923"
+  },
+  "revs": [
+   "00d6fff6303531fb9ee4ae9761e888407485ba22",
+   "997098b8b5a7d72d08e378ccaac6f5de60cc4dd9"
+  ]
+ },
+ "0.14.0": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:64558"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "0.15.0": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:64723"
+  },
+  "revs": [
+   "01229007553d9322c473c0fa36e3d6c644147e7d",
+   "9bf997125cd6c9540ea116980e3f2453efa7eb7d"
+  ]
+ },
+ "0.16.0": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:65700"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "0.17.0": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:65720"
+  },
+  "revs": [
+   "00f7db841a144fe187779d542356df0cc691d391",
+   "cc7ce7611924425b4f269da7a9bc3ca7d3ac8514"
+  ]
+ },
+ "0.18.0": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:65783"
+  },
+  "revs": [
+   "0278e49268735919b3af826ae14f18df35ae55df",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "0.19.0": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:65942"
+  },
+  "revs": [
+   "42f5ab510d585417208d7b7286604d5957c417d7",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "0.5.5": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:234"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "09852dfc4cad0b18226ff329086d8844daaed4fe"
+  ]
+ },
+ "0.6.1": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:234"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "184241e779e05344a95c30f35615271102522a8a"
+  ]
+ },
+ "0.7.11": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:236"
+  },
+  "revs": [
+   "026a809387fa6914d646636038692efec6815b5e",
+   "1e70a95d45d30e22791e95bdea344c1bb769fa43"
+  ]
+ },
+ "0.7.12": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:236"
+  },
+  "revs": [
+   "00915d4e6d832b620489b72e828a40f3a57acf00",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "0.7.13": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:236"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5de26dd52d23259aa74de23834f180ea6d358fa6"
+  ]
+ },
+ "0.7.14": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:238"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "bf3f39789dfe739b762ce6768bc9289bfe74c424"
+  ]
+ },
+ "0.7.15": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:239"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "a9def8ddbc71033476fe68c358d81524b820d7f0"
+  ]
+ },
+ "0.7.16": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:636"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "0.7.2": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:237"
+  },
+  "revs": [
+   "001cf3f926af996ec6d779f861bcba4ed04c5411",
+   "5f10cd5e0b1a3d0e610fb3f059f1aa15cbea52ca"
+  ]
+ },
+ "0.7.3": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:238"
+  },
+  "revs": [
+   "004c6c149aae67256853e7cd69a86626a04d02d1",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "0.7.4": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:238"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "44de48a59c0676ddc9c5ef139b94cefc24c22d71"
+  ]
+ },
+ "0.7.7": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:238"
+  },
+  "revs": [
+   "0269421b7b63157a6414cd64e1a4a0b4dd44abe8",
+   "88de3d02314ec069fb8cc66c6e8d87e598174804"
+  ]
+ },
+ "0.7.8": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:238"
+  },
+  "revs": [
+   "002b700fb597bc670ea4d19597444c43d31cf556",
+   "bf278a4cee270defaff113e563c4694a03acc668"
+  ]
+ },
+ "0.7.9": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:238"
+  },
+  "revs": [
+   "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
+   "b15ed4cd156e7caa66b469d19d1284ead4883c6c"
+  ]
+ },
+ "0.8.0": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:59294"
+  },
+  "revs": [
+   "004676ce9c8275598182884c9e5a823a34eaa173",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "0.8.2": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:59404"
+  },
+  "revs": [
+   "0093e4e6a9998f1ff59e79ec31f2341770b7bebb",
+   "4bf5dd0d3c0ecb0af528dc3846ac71f3c3f296e0"
+  ]
+ },
+ "0.9.0": {
+  "meta": {
+   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-rust-analyzer#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-rust-analyzer",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:63862"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "0e9c5297fefa41d2dd941f3dc942b05f00e18324"
+  ]
+ }
+}

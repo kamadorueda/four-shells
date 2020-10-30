@@ -1,0 +1,4 @@
+{
+ "summary": "* Cache nix-pull calls in nixos-install.",
+ "timestamp": "1337952750"
+}

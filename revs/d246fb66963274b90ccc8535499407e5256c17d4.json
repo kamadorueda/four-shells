@@ -1,0 +1,4 @@
+{
+ "summary": "all-packages.nix: remove the haskellPackages_ghcHEAD package set from the top-level",
+ "timestamp": "1421232262"
+}

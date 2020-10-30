@@ -1,0 +1,95 @@
+{
+ "558": {
+  "meta": {
+   "description": "X-Ray Engine 1.6 expansion. Original version was used in S.T.A.L.K.E.R.: Call of Pripyat",
+   "homepage": "https://github.com/OpenXRay/xray-16",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree",
+    "url": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "gnidorah@users.noreply.github.com",
+     "github": "gnidorah",
+     "githubId": 12064730,
+     "name": "gnidorah"
+    }
+   ],
+   "name": "OpenXRay",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/games/openxray/default.nix:68"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "730-july-preview": {
+  "meta": {
+   "description": "X-Ray Engine 1.6 expansion. Original version was used in S.T.A.L.K.E.R.: Call of Pripyat",
+   "homepage": "https://github.com/OpenXRay/xray-16",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree",
+    "url": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "gnidorah@users.noreply.github.com",
+     "github": "gnidorah",
+     "githubId": 12064730,
+     "name": "gnidorah"
+    }
+   ],
+   "name": "OpenXRay",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/games/openxray/default.nix:62"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "784-october-preview": {
+  "meta": {
+   "description": "X-Ray Engine 1.6 expansion. Original version was used in S.T.A.L.K.E.R.: Call of Pripyat",
+   "homepage": "https://github.com/OpenXRay/xray-16",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree",
+    "url": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "gnidorah@users.noreply.github.com",
+     "github": "gnidorah",
+     "githubId": 12064730,
+     "name": "gnidorah"
+    }
+   ],
+   "name": "OpenXRay",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/games/openxray/default.nix:66"
+  },
+  "revs": [
+   "005f545f46afd57abd037a37efa6b42fbc07c7c8",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

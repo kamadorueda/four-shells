@@ -1,0 +1,4 @@
+{
+ "summary": "Patch ghc-paths to interact better with ghcWithPackages.",
+ "timestamp": "1355663704"
+}

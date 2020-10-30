@@ -1,0 +1,4 @@
+{
+ "summary": "bazel: fix the compilation of .proto on Darwin (#63879)",
+ "timestamp": "1561831641"
+}

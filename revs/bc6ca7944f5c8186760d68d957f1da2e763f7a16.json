@@ -1,0 +1,4 @@
+{
+ "summary": "fixed a upstart issue where upsd was never started",
+ "timestamp": "1333193970"
+}

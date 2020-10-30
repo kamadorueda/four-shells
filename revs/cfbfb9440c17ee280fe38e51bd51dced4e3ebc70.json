@@ -1,0 +1,4 @@
+{
+ "summary": "numpy: gfortran and pytest should be nativeBuildInputs",
+ "timestamp": "1537898610"
+}

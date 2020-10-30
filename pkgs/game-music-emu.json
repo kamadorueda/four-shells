@@ -1,0 +1,138 @@
+{
+ "0.6.0": {
+  "meta": {
+   "description": "A collection of video game music file emulators",
+   "homepage": "https://code.google.com/p/game-music-emu/",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "game-music-emu",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/applications/audio/game-music-emu/default.nix:16"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "0.6.1": {
+  "meta": {
+   "description": "A collection of video game music file emulators",
+   "homepage": "https://bitbucket.org/mpyne/game-music-emu/wiki/Home",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1+",
+    "url": "http://spdx.org/licenses/LGPL-2.1+.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "game-music-emu",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/applications/audio/game-music-emu/default.nix:16"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "0.6.3": {
+  "meta": {
+   "description": "A collection of video game music file emulators",
+   "homepage": "https://bitbucket.org/mpyne/game-music-emu/wiki/Home",
+   "license": {
+    "fullName": "GNU Lesser General Public License v2.1 or later",
+    "shortName": "lgpl21Plus",
+    "spdxId": "LGPL-2.1-or-later",
+    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "lucas@ransan.tk",
+     "github": "luc65r",
+     "githubId": 59375051,
+     "name": "Lucas Ransan"
+    }
+   ],
+   "name": "game-music-emu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "or1k-none",
+    "mmix-mmixware",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "gs/pkgs/applications/audio/game-music-emu/default.nix:16"
+  },
+  "revs": [
+   "027c952090e5fda9badeff944b6b81ca25168f6e",
+   "bf46afde6b22942ea605983f66ee23038986ba07"
+  ]
+ }
+}

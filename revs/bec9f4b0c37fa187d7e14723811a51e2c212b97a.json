@@ -1,0 +1,4 @@
+{
+ "summary": "* JasPer: build without OpenGL/X support - it's only used to build a   trivial example program (a barebones image viewer), but it gives   everybody else a dependency on Mesa ;-)",
+ "timestamp": "1237566452"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "hsyslog: build with a recent version of Cabal on GHC 6.10.4 (and don't run Haddock)",
+ "timestamp": "1408877871"
+}

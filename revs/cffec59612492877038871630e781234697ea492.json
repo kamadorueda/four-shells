@@ -1,0 +1,4 @@
+{
+ "summary": "cairo: no openGL on darwin by default (see #692)",
+ "timestamp": "1372582064"
+}

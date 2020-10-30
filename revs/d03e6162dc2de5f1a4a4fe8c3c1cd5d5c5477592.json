@@ -1,0 +1,4 @@
+{
+ "summary": "Update SFML to version 2.2, remove sfml_git, and update MARS (depended on sfml_git)",
+ "timestamp": "1429476411"
+}

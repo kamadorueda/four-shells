@@ -1,0 +1,4 @@
+{
+ "summary": "Setting the gcc --with-arch=fuloong2f only on mips64-linux. (what was there before was a temporary change not representing a working stdenv)",
+ "timestamp": "1283334623"
+}

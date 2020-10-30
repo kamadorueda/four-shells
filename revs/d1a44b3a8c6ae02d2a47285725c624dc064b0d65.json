@@ -1,0 +1,4 @@
+{
+ "summary": "Making bluez install some of its test tools. Mainly, the bluez-simple-agent, that can do a pincode handshake with the user.",
+ "timestamp": "1305930094"
+}

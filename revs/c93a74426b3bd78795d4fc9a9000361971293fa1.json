@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing the gnupatch url; it was taking the alpha snapshot for all the platforms at the time of building the stdenv (because there !(stdenv ? glibc)). I changed that to stdenv.isDarwin, in a guess that it may work for those who experienced problems with the last patch release.",
+ "timestamp": "1286520815"
+}

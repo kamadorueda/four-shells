@@ -1,0 +1,44 @@
+{
+ "1.2": {
+  "meta": {
+   "description": "Userspace utilities for linux-erofs file system",
+   "homepage": "",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    }
+   ],
+   "name": "erofs-utils",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/erofs-utils/default.nix:20"
+  },
+  "revs": [
+   "506f112d8edb4ac5174871330c823f8955a73dc9",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

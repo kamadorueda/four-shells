@@ -1,0 +1,4 @@
+{
+ "summary": "gitaly: use libgit2 from all-packages.nix",
+ "timestamp": "1588095351"
+}

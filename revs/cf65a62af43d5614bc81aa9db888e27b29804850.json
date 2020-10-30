@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/elasticsearch: Make port an integer, add dataDir option, make pure",
+ "timestamp": "1394445869"
+}

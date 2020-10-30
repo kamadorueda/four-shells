@@ -1,0 +1,4 @@
+{
+ "summary": "ghc861: use llvm6 so we're using supported LLVM version",
+ "timestamp": "1531243920"
+}

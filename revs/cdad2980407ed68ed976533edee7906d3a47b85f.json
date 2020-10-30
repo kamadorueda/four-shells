@@ -1,0 +1,4 @@
+{
+ "summary": "* Cairo 1.4.4.  This fixes some bad interaction with the latest   xorg-server (namely, BadMatch crashes in programs such as   gtk-window-decorator in compiz). * Some GTK updates while we're at it.",
+ "timestamp": "1177612653"
+}

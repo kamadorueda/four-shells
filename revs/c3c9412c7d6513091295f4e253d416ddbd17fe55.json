@@ -1,0 +1,4 @@
+{
+ "summary": "git, openssl, curl: Respect $NIX_SSL_CERT_FILE",
+ "timestamp": "1490015480"
+}

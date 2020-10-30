@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing problems with Xscreensaver caused by using stdenv builder",
+ "timestamp": "1276889595"
+}

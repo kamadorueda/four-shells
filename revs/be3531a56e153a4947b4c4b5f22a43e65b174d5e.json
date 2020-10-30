@@ -1,0 +1,4 @@
+{
+ "summary": "Replace with statements of stdenvDefault to rely on pkgs instead of self.",
+ "timestamp": "1458481574"
+}

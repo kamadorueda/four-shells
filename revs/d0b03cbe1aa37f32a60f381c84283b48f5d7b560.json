@@ -1,0 +1,4 @@
+{
+ "summary": "* The vidmode patch was kind of broken (it didn't zero-terminate the   `mode' buffer).",
+ "timestamp": "1245421564"
+}

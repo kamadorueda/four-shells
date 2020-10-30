@@ -1,0 +1,4 @@
+{
+ "summary": "Adding building 'binutils' before building the 'glibc' in stdenv-linux. This should allow keeping the i686-linux boostrap-tools. I updated some days ago the x86_64-linux bootstrap-tools, but that update is not needed anymore. We can revert that boostrap-tools update if anyone wants. Pro: - new gcc building gcc and glibc. Contra: - maybe some old systems (patched red had kernels come to mind) break with that update?",
+ "timestamp": "1282586719"
+}

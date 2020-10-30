@@ -1,0 +1,4 @@
+{
+ "summary": "Wrapping sonic-visualiser so that it finds libX11.so",
+ "timestamp": "1304632880"
+}

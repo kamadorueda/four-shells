@@ -1,0 +1,4 @@
+{
+ "summary": "docs: use a single nix-build for all the generate function docs",
+ "timestamp": "1562243019"
+}

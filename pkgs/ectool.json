@@ -1,0 +1,71 @@
+{
+ "4.10": {
+  "meta": {
+   "description": "Dump the RAM of a laptop's Embedded/Environmental Controller (EC)",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "ectool",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/tools/misc/coreboot-utils/default.nix:69"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "4.11": {
+  "meta": {
+   "description": "Dump the RAM of a laptop's Embedded/Environmental Controller (EC)",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "ectool",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/tools/misc/coreboot-utils/default.nix:69"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "4.12": {
+  "meta": {
+   "description": "Dump the RAM of a laptop's Embedded/Environmental Controller (EC)",
+   "homepage": "https://www.coreboot.org",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "me@pbb.lc",
+     "github": "petabyteboy",
+     "githubId": 3250809,
+     "name": "Milan P\u00e4ssler"
+    }
+   ],
+   "name": "ectool",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/tools/misc/coreboot-utils/default.nix:71"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

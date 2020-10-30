@@ -1,0 +1,118 @@
+{
+ "1.41.0": {
+  "meta": {
+   "description": "Blackfire Profiler PHP module",
+   "homepage": "https://blackfire.io/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "php-blackfire",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/blackfire/php-probe.nix:57"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "0e9c5297fefa41d2dd941f3dc942b05f00e18324"
+  ]
+ },
+ "1.43.0": {
+  "meta": {
+   "description": "Blackfire Profiler PHP module",
+   "homepage": "https://blackfire.io/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "php-blackfire",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/blackfire/php-probe.nix:57"
+  },
+  "revs": [
+   "04b374eb9c843aa275c3f7483f322cf599677d7d",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "1.44.0": {
+  "meta": {
+   "description": "Blackfire Profiler PHP module",
+   "homepage": "https://blackfire.io/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "php-blackfire",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/blackfire/php-probe.nix:57"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "1.46.4": {
+  "meta": {
+   "description": "Blackfire Profiler PHP module",
+   "homepage": "https://blackfire.io/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jtojnar@gmail.com",
+     "github": "jtojnar",
+     "githubId": 705123,
+     "name": "Jan Tojnar"
+    }
+   ],
+   "name": "php-blackfire",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/tools/misc/blackfire/php-probe.nix:58"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

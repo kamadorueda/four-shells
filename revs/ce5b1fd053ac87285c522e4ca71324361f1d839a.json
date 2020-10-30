@@ -1,0 +1,4 @@
+{
+ "summary": "squid: build without -Werror to fix build on GCC 4.8.x",
+ "timestamp": "1365244806"
+}

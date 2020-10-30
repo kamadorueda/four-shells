@@ -1,0 +1,4 @@
+{
+ "summary": "make fetchgit and nix-prefetch-git use --depth 1 to receive only a shallow clone cutting history",
+ "timestamp": "1245977814"
+}

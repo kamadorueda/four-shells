@@ -1,0 +1,122 @@
+{
+ "1.4.1": {
+  "meta": {
+   "description": "Platform Security Assessment Framework",
+   "homepage": "https://github.com/chipsec/chipsec",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "CHIPSEC is a framework for analyzing the security of PC platforms\nincluding hardware, system firmware (BIOS/UEFI), and platform components.\nIt includes a security test suite, tools for accessing various low level\ninterfaces, and forensic capabilities. It can be run on Windows, Linux,\nMac OS X and UEFI shell.\n",
+   "maintainers": [
+    {
+     "email": "git@danielschaefer.me",
+     "github": "johnazoidberg",
+     "githubId": 5307138,
+     "name": "Daniel Sch\u00e4fer"
+    }
+   ],
+   "name": "chipsec",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/security/chipsec/default.nix:27"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "929768261a3ede470eafb58d5b819e1a848aa8bf"
+  ]
+ },
+ "1.4.7": {
+  "meta": {
+   "description": "Platform Security Assessment Framework",
+   "homepage": "https://github.com/chipsec/chipsec",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "CHIPSEC is a framework for analyzing the security of PC platforms\nincluding hardware, system firmware (BIOS/UEFI), and platform components.\nIt includes a security test suite, tools for accessing various low level\ninterfaces, and forensic capabilities. It can be run on Windows, Linux,\nMac OS X and UEFI shell.\n",
+   "maintainers": [
+    {
+     "email": "git@danielschaefer.me",
+     "github": "johnazoidberg",
+     "githubId": 5307138,
+     "name": "Daniel Sch\u00e4fer"
+    }
+   ],
+   "name": "chipsec",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/security/chipsec/default.nix:27"
+  },
+  "revs": [
+   "002b16d965bf4e097167a2077566299e5e96ab2e",
+   "32e666aa4bdec7cf2565931248c58d5dd3ee640e"
+  ]
+ },
+ "1.4.9": {
+  "meta": {
+   "description": "Platform Security Assessment Framework",
+   "homepage": "https://github.com/chipsec/chipsec",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "CHIPSEC is a framework for analyzing the security of PC platforms\nincluding hardware, system firmware (BIOS/UEFI), and platform components.\nIt includes a security test suite, tools for accessing various low level\ninterfaces, and forensic capabilities. It can be run on Windows, Linux,\nMac OS X and UEFI shell.\n",
+   "maintainers": [
+    {
+     "email": "git@danielschaefer.me",
+     "github": "johnazoidberg",
+     "githubId": 5307138,
+     "name": "Daniel Sch\u00e4fer"
+    }
+   ],
+   "name": "chipsec",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/security/chipsec/default.nix:27"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "1.5.1": {
+  "meta": {
+   "description": "Platform Security Assessment Framework",
+   "homepage": "https://github.com/chipsec/chipsec",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "CHIPSEC is a framework for analyzing the security of PC platforms\nincluding hardware, system firmware (BIOS/UEFI), and platform components.\nIt includes a security test suite, tools for accessing various low level\ninterfaces, and forensic capabilities. It can be run on Windows, Linux,\nMac OS X and UEFI shell.\n",
+   "maintainers": [
+    {
+     "email": "git@danielschaefer.me",
+     "github": "johnazoidberg",
+     "githubId": 5307138,
+     "name": "Daniel Sch\u00e4fer"
+    }
+   ],
+   "name": "chipsec",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/tools/security/chipsec/default.nix:27"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ }
+}

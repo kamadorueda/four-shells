@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/jellyfin: added a package option to the options section, defaults to using the default jellyfin package if nixos version is 20.09 or greater, otherwise will default to using the new jellyfin_10_5 derivation for older systems.",
+ "timestamp": "1597592501"
+}

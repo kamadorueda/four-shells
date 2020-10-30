@@ -1,0 +1,4 @@
+{
+ "summary": "gcc: Fix MinGW exception handling so Rust works",
+ "timestamp": "1591410878"
+}

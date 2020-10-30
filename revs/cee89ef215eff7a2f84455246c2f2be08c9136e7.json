@@ -1,0 +1,4 @@
+{
+ "summary": "Pymacs: use buildPythonPackage instead of mkDerivation",
+ "timestamp": "1413305485"
+}

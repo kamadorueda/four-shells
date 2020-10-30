@@ -1,0 +1,4 @@
+{
+ "summary": "sdcc: fix build with glibc-2.20 (from upstream)",
+ "timestamp": "1417045895"
+}

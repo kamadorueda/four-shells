@@ -1,0 +1,4 @@
+{
+ "summary": "emacs2nix: update to fix locale issues and a missing elpa package",
+ "timestamp": "1609190009"
+}

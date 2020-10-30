@@ -1,0 +1,34 @@
+{
+ "2020-08-12": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/jackguo380/vim-lsp-cxx-highlight/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-lsp-cxx-highlight",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5466"
+  },
+  "revs": [
+   "0c6e5e15f8c952f0b2844cead019868e93aedb19",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-23": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/jackguo380/vim-lsp-cxx-highlight/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-lsp-cxx-highlight",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:5828"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

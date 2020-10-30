@@ -1,0 +1,4 @@
+{
+ "summary": "Made more libraries cross compile. fontconfig, libxcb, bzip2, libdrm, zlib... I was trying to cross compile SDL. Many dependencies work, but I ended seeing libX11 not ready for cross compilation. Other xorg libraries cross-compile well. libX11 may need a small patch. The problem is the usual \"configure test cannot be run in cross compilation\", so the configure script halts.",
+ "timestamp": "1258800262"
+}

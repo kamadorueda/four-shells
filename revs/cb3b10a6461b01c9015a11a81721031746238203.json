@@ -1,0 +1,4 @@
+{
+ "summary": "* Added libsmbios for access to Dell-specific hardware features. * Added more optional Hal dependencies.",
+ "timestamp": "1181253732"
+}

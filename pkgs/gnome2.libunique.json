@@ -1,0 +1,35 @@
+{
+ "1.1.6": {
+  "meta": {
+   "description": "A library for writing single instance applications",
+   "homepage": "https://wiki.gnome.org/Attic/LibUnique",
+   "license": {
+    "fullName": "GNU Library General Public License v2.1 only",
+    "shortName": "lgpl21",
+    "spdxId": "LGPL-2.1-only",
+    "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "libunique",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "gs/pkgs/development/libraries/libunique/default.nix:31"
+  },
+  "revs": [
+   "bbe29c055de61e6ce274192eeee4e570dfd49889",
+   "bbe29c055de61e6ce274192eeee4e570dfd49889"
+  ]
+ }
+}

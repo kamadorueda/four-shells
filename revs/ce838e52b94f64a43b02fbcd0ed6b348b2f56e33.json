@@ -1,0 +1,4 @@
+{
+ "summary": "dockerTools.buildImage: do not add /nix/store in the tar stream",
+ "timestamp": "1518515099"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* Revert r14418 - not including the directory in arvg[0] broke   Firefox.",
+ "timestamp": "1238410785"
+}

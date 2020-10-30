@@ -1,0 +1,4 @@
+{
+ "summary": "Trying to make \"make-bootstrap-tools\" include the needed gcc 4.4 dependencies (dynamic libraries of ppl and cloogppl) into the package. We need newer binutils in the bootstrap-tools for the armv5tel in order to be able to build gcc 4.4 from them.",
+ "timestamp": "1259704328"
+}

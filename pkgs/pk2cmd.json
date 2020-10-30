@@ -1,0 +1,18 @@
+{
+ "1.20": {
+  "meta": {
+   "description": "Microchip PIC programming software for the PICKit2 programmer",
+   "homepage": "http://www.microchip.com/pickit2",
+   "license": "nonfree",
+   "long_description": "",
+   "maintainers": [],
+   "name": "pk2cmd",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

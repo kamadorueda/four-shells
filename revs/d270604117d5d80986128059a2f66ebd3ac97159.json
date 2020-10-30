@@ -1,0 +1,4 @@
+{
+ "summary": "nixos: remove redundant services.dovecot2.package option",
+ "timestamp": "1461338477"
+}

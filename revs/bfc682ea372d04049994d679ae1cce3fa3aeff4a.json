@@ -1,0 +1,4 @@
+{
+ "summary": "Mount a ramfs on /run/keys for safe key storage for nixops",
+ "timestamp": "1391605219"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "uwsgi: refactor, throw sensible error if plugin is not found",
+ "timestamp": "1455890419"
+}

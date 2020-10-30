@@ -1,0 +1,4 @@
+{
+ "summary": "openvpn: Fix build for systemd 230",
+ "timestamp": "1464282738"
+}

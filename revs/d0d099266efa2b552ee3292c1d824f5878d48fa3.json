@@ -1,0 +1,4 @@
+{
+ "summary": "postgresql: fix regression in NixOS after update to 11.2 (#56146)",
+ "timestamp": "1550769668"
+}

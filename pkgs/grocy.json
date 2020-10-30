@@ -1,0 +1,170 @@
+{
+ "2.6.0": {
+  "meta": {
+   "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home",
+   "homepage": "https://grocy.info/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "grocy",
+   "platforms": null,
+   "position": "pkgs/servers/grocy/default.nix:29"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "2.6.1": {
+  "meta": {
+   "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home",
+   "homepage": "https://grocy.info/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "grocy",
+   "platforms": null,
+   "position": "pkgs/servers/grocy/default.nix:30"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0256aa00616a11434e5f75040509ed0a0e79e191"
+  ]
+ },
+ "2.6.2": {
+  "meta": {
+   "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home",
+   "homepage": "https://grocy.info/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "grocy",
+   "platforms": null,
+   "position": "pkgs/servers/grocy/default.nix:30"
+  },
+  "revs": [
+   "002b16d965bf4e097167a2077566299e5e96ab2e",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "2.7.0": {
+  "meta": {
+   "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home",
+   "homepage": "https://grocy.info/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "grocy",
+   "platforms": null,
+   "position": "pkgs/servers/grocy/default.nix:35"
+  },
+  "revs": [
+   "056778b3151a591572bbaabd8ce1152aad14e09f",
+   "47bf53ea4036b636976373aa00abd3bf97ab5806"
+  ]
+ },
+ "2.7.1": {
+  "meta": {
+   "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home",
+   "homepage": "https://grocy.info/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "grocy",
+   "platforms": null,
+   "position": "pkgs/servers/grocy/default.nix:35"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "3.0.0": {
+  "meta": {
+   "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home",
+   "homepage": "https://grocy.info/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "maximilian@mbosch.me",
+     "github": "ma27",
+     "githubId": 6025220,
+     "name": "Maximilian Bosch"
+    }
+   ],
+   "name": "grocy",
+   "platforms": null,
+   "position": "gs/pkgs/servers/grocy/default.nix:37"
+  },
+  "revs": [
+   "014a3429ea6c8349bb7ede1ad5597b844731dc14",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

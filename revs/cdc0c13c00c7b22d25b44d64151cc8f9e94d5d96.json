@@ -1,0 +1,4 @@
+{
+ "summary": "buildNodePackage: Remove absolute path to source tarball to avoid runtime dependency",
+ "timestamp": "1345664100"
+}

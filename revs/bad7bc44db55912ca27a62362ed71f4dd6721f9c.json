@@ -1,0 +1,4 @@
+{
+ "summary": "bazel: fix nix-hacks.patch with the latest version of Bazel (#63052)",
+ "timestamp": "1560435158"
+}

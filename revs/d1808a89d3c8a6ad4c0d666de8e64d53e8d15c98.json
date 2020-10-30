@@ -1,0 +1,4 @@
+{
+ "summary": "haskellPackages.{cairo,pango,glib,gtk}: Depend on the stdenv libc instead of glibc",
+ "timestamp": "1315766926"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Updating ardour to the 2.8.12 svn tag (2.8.2 doesn't compile), hopefully this works although the comment from Marc Weber suggests that the hash will change over time. This builds for me but fails to start giving the following error:",
+ "timestamp": "1331936901"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "pkgs/development/libraries/haskell/cabal2nix: added missing regexPosix dependency",
+ "timestamp": "1312883266"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "glibc_multi: fix ldd on x86_64",
+ "timestamp": "1398207087"
+}

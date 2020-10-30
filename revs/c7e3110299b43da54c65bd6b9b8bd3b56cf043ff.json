@@ -1,0 +1,4 @@
+{
+ "summary": "Use $NIXPKGS_CONFIG to determine whether ghostscript has cups support.",
+ "timestamp": "1235742271"
+}

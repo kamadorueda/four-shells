@@ -1,0 +1,4 @@
+{
+ "summary": "Removed Xrender from cairo and add fontconfig to pango on Darwin: this fixes the compilation of graphviz and imagemagick on these platforms",
+ "timestamp": "1363270735"
+}

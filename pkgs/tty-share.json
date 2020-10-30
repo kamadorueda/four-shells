@@ -1,0 +1,42 @@
+{
+ "2.0.0": {
+  "meta": {
+   "description": "Share terminal via browser for remote work or shared sessions",
+   "homepage": "https://tty-share.com",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "andys8@users.noreply.github.com",
+     "github": "andys8",
+     "githubId": 13085980,
+     "name": "Andy"
+    }
+   ],
+   "name": "tty-share",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/misc/tty-share/default.nix:19"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

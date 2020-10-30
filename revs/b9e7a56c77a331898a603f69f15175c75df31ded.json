@@ -1,0 +1,4 @@
+{
+ "summary": "Adding some features in fftw, that I think they should work fine in linux at least. (higher speed, multithread). I also fixed the namings about single/double floats.",
+ "timestamp": "1277397822"
+}

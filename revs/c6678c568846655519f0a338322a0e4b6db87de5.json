@@ -1,0 +1,4 @@
+{
+ "summary": "pycurl: don't pollute $out/lib with system libraries",
+ "timestamp": "1516456422"
+}

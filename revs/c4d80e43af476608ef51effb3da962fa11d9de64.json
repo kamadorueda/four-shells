@@ -1,0 +1,4 @@
+{
+ "summary": "gammu: move pkgconfig and cmake to nativeBuildInputs",
+ "timestamp": "1491352316"
+}

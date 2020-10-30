@@ -1,0 +1,4 @@
+{
+ "summary": "ssdeep: No need to include patchelf in buildInputs",
+ "timestamp": "1474650781"
+}

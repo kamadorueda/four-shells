@@ -1,0 +1,4 @@
+{
+ "summary": "Changing the freemind wrapper, so it doesn't clear the environment at freemind running. It did annoy loosing LANG, and XAUTH things, which use to work fine in other programs. I checked, and it works for me, seeing no segfault as it was written.",
+ "timestamp": "1255470330"
+}

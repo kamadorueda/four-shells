@@ -1,0 +1,4 @@
+{
+ "summary": "openblas: NO_AFFINITY=1 fix for musl",
+ "timestamp": "1515867021"
+}

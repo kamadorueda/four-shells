@@ -1,0 +1,4 @@
+{
+ "summary": "hackage2nix: honor LTS for lambdabot, but not for cabal2spec",
+ "timestamp": "1579173054"
+}

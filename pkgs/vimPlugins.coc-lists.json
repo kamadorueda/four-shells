@@ -1,0 +1,274 @@
+{
+ "1.3.10": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:636"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "1.3.11": {
+  "meta": {
+   "description": "Basic list sources for coc.nvim",
+   "homepage": "https://github.com/neoclide/coc-lists#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:63322"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "1.3.13": {
+  "meta": {
+   "description": "Basic list sources for coc.nvim",
+   "homepage": "https://github.com/neoclide/coc-lists#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:64478"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "1.3.14": {
+  "meta": {
+   "description": "Basic list sources for coc.nvim",
+   "homepage": "https://github.com/neoclide/coc-lists#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:64475"
+  },
+  "revs": [
+   "00f7db841a144fe187779d542356df0cc691d391",
+   "cc7ce7611924425b4f269da7a9bc3ca7d3ac8514"
+  ]
+ },
+ "1.3.16": {
+  "meta": {
+   "description": "Basic list sources for coc.nvim",
+   "homepage": "https://github.com/neoclide/coc-lists#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:64538"
+  },
+  "revs": [
+   "0278e49268735919b3af826ae14f18df35ae55df",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "1.3.7": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:191"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "1.3.8": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/overrides.nix:194"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "2019-07-04": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:383"
+  },
+  "revs": [
+   "00898f0adaac797612d9d447cc632a0238a20653",
+   "304dc5922ef23aea0c16b7331ccb040d2c491f68"
+  ]
+ },
+ "2019-07-08": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:383"
+  },
+  "revs": [
+   "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
+   "182830f542ef693095cd9ba2db29a3d401705bb7"
+  ]
+ },
+ "2019-07-14": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:383"
+  },
+  "revs": [
+   "00eef848b29730b286914e3902c58209265a59f6",
+   "aaf3881a80b4d41466d5e2cd8d36d36e89698186"
+  ]
+ },
+ "2019-07-20": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:383"
+  },
+  "revs": [
+   "01422520124ac176e4b6c1e597a6eee2d11ccf43",
+   "363ba3f40371f5c016aecf07bf62f3a33f755f29"
+  ]
+ },
+ "2019-07-22": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:394"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "2019-08-01": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:394"
+  },
+  "revs": [
+   "0035a337da464b1d534858fe230dbb669f49dc7e",
+   "0a5b8d9bf64b94ec36c61ad4da4c34cda85a7aed"
+  ]
+ },
+ "2019-08-12": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:394"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "2019-12-10": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:416"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "2020-02-10": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:438"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "2020-03-03": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-lists",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:438"
+  },
+  "revs": [
+   "001be890f78f04df86938f44c0761676e299ceac",
+   "46d3cf2c1b45951753c059fc8a1d8c4e6c736785"
+  ]
+ }
+}

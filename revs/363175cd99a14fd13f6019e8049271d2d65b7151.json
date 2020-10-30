@@ -1,0 +1,4 @@
+{
+ "summary": "Revert \"bintools-wrapper: skip dynamic linker for static binaries\"",
+ "timestamp": "1608585642"
+}

@@ -1,0 +1,142 @@
+{
+ "3.0.19": {
+  "meta": {
+   "description": "General GTO integrals for quantum chemistry",
+   "homepage": "http://wiki.sunqm.net/libcint",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "libcint is an open source library for analytical Gaussian integrals.\nIt provides C/Fortran API to evaluate one-electron / two-electron\nintegrals for Cartesian / real-spheric / spinor Gaussian type functions.\n",
+   "maintainers": [
+    {
+     "email": "drisinger+nixpkgs@gmail.com",
+     "github": "drewrisinger",
+     "githubId": 10198051,
+     "name": "Drew Risinger"
+    }
+   ],
+   "name": "libcint",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libcint/default.nix:34"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "3.0.20": {
+  "meta": {
+   "description": "General GTO integrals for quantum chemistry",
+   "homepage": "http://wiki.sunqm.net/libcint",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "libcint is an open source library for analytical Gaussian integrals.\nIt provides C/Fortran API to evaluate one-electron / two-electron\nintegrals for Cartesian / real-spheric / spinor Gaussian type functions.\n",
+   "maintainers": [
+    {
+     "email": "drisinger+nixpkgs@gmail.com",
+     "github": "drewrisinger",
+     "githubId": 10198051,
+     "name": "Drew Risinger"
+    }
+   ],
+   "name": "libcint",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libcint/default.nix:34"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "86b85c079cbcba504927f75199842a64ca1e9cf1"
+  ]
+ },
+ "3.1.1": {
+  "meta": {
+   "description": "General GTO integrals for quantum chemistry",
+   "homepage": "http://wiki.sunqm.net/libcint",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "libcint is an open source library for analytical Gaussian integrals.\nIt provides C/Fortran API to evaluate one-electron / two-electron\nintegrals for Cartesian / real-spheric / spinor Gaussian type functions.\n",
+   "maintainers": [
+    {
+     "email": "drisinger+nixpkgs@gmail.com",
+     "github": "drewrisinger",
+     "githubId": 10198051,
+     "name": "Drew Risinger"
+    }
+   ],
+   "name": "libcint",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libcint/default.nix:34"
+  },
+  "revs": [
+   "001334b47c6cdfc35e94805380484e75004cdbf5",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "4.0.2": {
+  "meta": {
+   "description": "General GTO integrals for quantum chemistry",
+   "homepage": "http://wiki.sunqm.net/libcint",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "libcint is an open source library for analytical Gaussian integrals.\nIt provides C/Fortran API to evaluate one-electron / two-electron\nintegrals for Cartesian / real-spheric / spinor Gaussian type functions.\n",
+   "maintainers": [
+    {
+     "email": "drisinger+nixpkgs@gmail.com",
+     "github": "drewrisinger",
+     "githubId": 10198051,
+     "name": "Drew Risinger"
+    }
+   ],
+   "name": "libcint",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libcint/default.nix:33"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "4.0.6": {
+  "meta": {
+   "description": "General GTO integrals for quantum chemistry",
+   "homepage": "http://wiki.sunqm.net/libcint",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "libcint is an open source library for analytical Gaussian integrals.\nIt provides C/Fortran API to evaluate one-electron / two-electron\nintegrals for Cartesian / real-spheric / spinor Gaussian type functions.\n",
+   "maintainers": [
+    {
+     "email": "drisinger+nixpkgs@gmail.com",
+     "github": "drewrisinger",
+     "githubId": 10198051,
+     "name": "Drew Risinger"
+    }
+   ],
+   "name": "libcint",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libcint/default.nix:33"
+  },
+  "revs": [
+   "011ecb8f904daf95f238cc594f016f15a97cd7f3",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

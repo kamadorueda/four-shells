@@ -1,0 +1,4 @@
+{
+ "summary": "sshd.nix: Disable password logins for root by default",
+ "timestamp": "1345224743"
+}

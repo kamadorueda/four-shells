@@ -1,0 +1,4 @@
+{
+ "summary": "coreutils: Skip sparse cp test as it fails reliably with btrfs on ubuntu 14.04",
+ "timestamp": "1436820539"
+}

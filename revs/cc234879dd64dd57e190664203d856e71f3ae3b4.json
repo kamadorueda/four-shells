@@ -1,0 +1,4 @@
+{
+ "summary": "bazel-watcher: Show version string instead of `{STABLE_GIT_VERSION}`",
+ "timestamp": "1606897994"
+}

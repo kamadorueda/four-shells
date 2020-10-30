@@ -1,0 +1,4 @@
+{
+ "summary": "light: 1.1.2 -> 1.2, use new udev support instead of setuid wrapper.",
+ "timestamp": "1538305916"
+}

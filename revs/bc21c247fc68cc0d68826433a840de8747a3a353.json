@@ -1,0 +1,4 @@
+{
+ "summary": "patch-shebangs.sh: Fix error messages to go to stderr, not '0' file.",
+ "timestamp": "1584749246"
+}

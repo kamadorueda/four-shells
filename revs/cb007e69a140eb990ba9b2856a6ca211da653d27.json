@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv: make symlinks that refer to the same output relative",
+ "timestamp": "1574684594"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/nixos-generate-config.pl: use modulesPath instead of <nixpkgs>",
+ "timestamp": "1587394637"
+}

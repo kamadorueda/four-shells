@@ -1,0 +1,4 @@
+{
+ "summary": "ruby: don't reference groff if not being used (not used by default)",
+ "timestamp": "1518552677"
+}

@@ -1,0 +1,21 @@
+{
+ "1.63-5.9.16": {
+  "meta": {
+   "description": "Ndis driver wrapper for the Linux kernel",
+   "homepage": "https://sourceforge.net/projects/ndiswrapper",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [],
+   "name": "ndiswrapper",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/ndiswrapper/default.nix:40"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

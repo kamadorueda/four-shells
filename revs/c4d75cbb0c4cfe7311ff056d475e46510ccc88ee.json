@@ -1,0 +1,4 @@
+{
+ "summary": "boot.initrd.luks: adding a warning when using FIDO2 with kernel \u2264 5.4",
+ "timestamp": "1579253962"
+}

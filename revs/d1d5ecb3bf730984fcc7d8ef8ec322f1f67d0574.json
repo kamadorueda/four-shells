@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv: perform checks only when evaluating .drv and .out",
+ "timestamp": "1514223525"
+}

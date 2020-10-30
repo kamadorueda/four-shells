@@ -1,0 +1,4 @@
+{
+ "summary": "rustPlatform: don't install artifacts modified by `checkPhase`",
+ "timestamp": "1594740726"
+}

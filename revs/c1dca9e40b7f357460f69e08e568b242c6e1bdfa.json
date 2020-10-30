@@ -1,0 +1,4 @@
+{
+ "summary": "etcd: make all service using etc go to 127.0.0.1:2379 by default",
+ "timestamp": "1478902314"
+}

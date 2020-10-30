@@ -1,0 +1,42 @@
+{
+ "1.0.0": {
+  "meta": {
+   "description": "C-based framework/library for developing CUPS Printer Applications",
+   "homepage": "https://github.com/michaelrsweet/pappl",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jonringer117@gmail.com",
+     "github": "jonringer",
+     "githubId": 7673602,
+     "name": "Jonathan Ringer"
+    }
+   ],
+   "name": "pappl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/printing/pappl/default.nix:56"
+  },
+  "revs": [
+   "02fac027aff09e3422023f059fccf9aec2f41348",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

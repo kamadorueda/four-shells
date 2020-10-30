@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv: set SOURCE_DATE_EPOCH to a value python supports",
+ "timestamp": "1591613578"
+}

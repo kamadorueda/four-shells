@@ -1,0 +1,46 @@
+{
+ "2.0.1": {
+  "meta": {
+   "description": "Block signatures and implementations for MirageOS using Lwt",
+   "homepage": "https://github.com/mirage/mirage-block",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "https://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "This repo contains generic operations over Mirage `BLOCK` devices.\nThis package is specialised to the Lwt concurrency library for IO.\n",
+   "maintainers": [
+    {
+     "email": "Vincent.Laporte@gmail.com",
+     "github": "vbgl",
+     "githubId": 2612464,
+     "name": "Vincent Laporte"
+    }
+   ],
+   "name": "ocaml4.10.0-mirage-block-combinators",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/development/ocaml-modules/mirage-block/combinators.nix:10"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

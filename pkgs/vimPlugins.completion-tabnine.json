@@ -1,0 +1,66 @@
+{
+ "2020-10-01": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/aca/completion-tabnine/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-completion-tabnine",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:537"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2020-10-03": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/aca/completion-tabnine/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-completion-tabnine",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:537"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-10-31": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/aca/completion-tabnine/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-completion-tabnine",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:585"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-08": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/aca/completion-tabnine/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-completion-tabnine",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:585"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

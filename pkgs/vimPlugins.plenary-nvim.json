@@ -1,0 +1,98 @@
+{
+ "2020-11-06": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/plenary.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-plenary-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2847"
+  },
+  "revs": [
+   "002a5f9de16130ac9f8e474de75d9b5eca7bf4bd",
+   "4074d4ad98fb41093c492e5e57492ef65caf1d13"
+  ]
+ },
+ "2020-11-17": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/plenary.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-plenary-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2967"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-09": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/plenary.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-plenary-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3027"
+  },
+  "revs": [
+   "00b8fa792b2d39ef1b42848059ff15d50341decc",
+   "c7928fb076ec65c82d070c499e5fa4b13bbc9458"
+  ]
+ },
+ "2020-12-12": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/plenary.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-plenary-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3027"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "5625941e65bcc31a7bb9064bea411e2167559243"
+  ]
+ },
+ "2020-12-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/plenary.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-plenary-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3039"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/plenary.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-plenary-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:3051"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

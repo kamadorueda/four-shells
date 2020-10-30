@@ -1,0 +1,66 @@
+{
+ "2020-07-25": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/diagnostic-nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-diagnostic-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1031"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-09-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/diagnostic-nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-diagnostic-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1055"
+  },
+  "revs": [
+   "004676ce9c8275598182884c9e5a823a34eaa173",
+   "487fb291d9d0761c118b579ad4cd7bea597d414d"
+  ]
+ },
+ "2020-10-01": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/diagnostic-nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-diagnostic-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1067"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/diagnostic-nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-diagnostic-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1079"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

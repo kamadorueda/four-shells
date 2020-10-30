@@ -1,0 +1,4 @@
+{
+ "summary": "* Change /nix/state back to /nix/var, this broke NixOS...",
+ "timestamp": "1222277920"
+}

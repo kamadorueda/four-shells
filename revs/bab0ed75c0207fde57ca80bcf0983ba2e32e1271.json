@@ -1,0 +1,4 @@
+{
+ "summary": "idea: rename to jetbrains JetBrains IDEs were put under wrong scope which was confusing. Fixes #24453",
+ "timestamp": "1491031279"
+}

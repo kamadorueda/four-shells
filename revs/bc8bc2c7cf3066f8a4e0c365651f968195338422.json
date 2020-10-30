@@ -1,0 +1,4 @@
+{
+ "summary": "hackage2nix: ensure Cabal 2.4.x is still available for older compilers",
+ "timestamp": "1565428998"
+}

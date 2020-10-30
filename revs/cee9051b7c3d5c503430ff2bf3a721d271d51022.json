@@ -1,0 +1,4 @@
+{
+ "summary": "* Get rid of $findUnpacker, it's pointless anyway. * Pass the source file to $unpackCmd via $curSrc.",
+ "timestamp": "1219850553"
+}

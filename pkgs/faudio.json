@@ -1,0 +1,522 @@
+{
+ "19.12": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "http://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "20.01": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "http://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "002fc5fa06868521e7bf134ca45d679cb21cae9a",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "20.02": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "http://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "20.03": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "http://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "32e666aa4bdec7cf2565931248c58d5dd3ee640e"
+  ]
+ },
+ "20.04": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "https://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "20.05": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "https://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "184241e779e05344a95c30f35615271102522a8a"
+  ]
+ },
+ "20.06": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "https://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "20.07": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "https://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "20.08": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "https://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "20.09": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "https://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "00738f9a9bac43ef067303e32f81adaa2509f5eb",
+   "0e9c5297fefa41d2dd941f3dc942b05f00e18324"
+  ]
+ },
+ "20.10": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "https://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "20.11": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "https://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "02a1379d454e5749951604035c17ca2651535691",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "20.12": {
+  "meta": {
+   "description": "XAudio reimplementation focusing to develop a fully accurate DirectX audio library",
+   "homepage": "https://github.com/FNA-XNA/FAudio",
+   "license": {
+    "fullName": "zlib License",
+    "shortName": "zlib",
+    "spdxId": "Zlib",
+    "url": "https://spdx.org/licenses/Zlib.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mariusdavid@laposte.net",
+     "github": "marius851000",
+     "githubId": 22586596,
+     "name": "Marius David"
+    }
+   ],
+   "name": "faudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/development/libraries/faudio/default.nix:21"
+  },
+  "revs": [
+   "02589710ba47160d4cb801ffe5d9270bec071da4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

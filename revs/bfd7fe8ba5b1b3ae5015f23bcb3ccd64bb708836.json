@@ -1,0 +1,4 @@
+{
+ "summary": "nixos: fix taskserver module to evaluate properly when keys are managed manually",
+ "timestamp": "1486488849"
+}

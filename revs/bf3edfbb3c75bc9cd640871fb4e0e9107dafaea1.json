@@ -1,0 +1,4 @@
+{
+ "summary": "nixos-containers: Use systemd 231's --notify-ready flag",
+ "timestamp": "1469719282"
+}

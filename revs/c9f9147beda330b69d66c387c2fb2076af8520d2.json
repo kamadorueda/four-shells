@@ -1,0 +1,4 @@
+{
+ "summary": "buildGoPackage: include goDeps in nix-shell GOPATH",
+ "timestamp": "1466178689"
+}

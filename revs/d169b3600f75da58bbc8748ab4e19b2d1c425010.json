@@ -1,0 +1,4 @@
+{
+ "summary": "Fix HFuse compilation with GHC 7.6.3",
+ "timestamp": "1376669899"
+}

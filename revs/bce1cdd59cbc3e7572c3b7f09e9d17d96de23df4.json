@@ -1,0 +1,4 @@
+{
+ "summary": "fix kernel 3.4+ early cifs mounting (qemu-vm target)",
+ "timestamp": "1346344305"
+}

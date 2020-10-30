@@ -1,0 +1,4 @@
+{
+ "summary": "added cuda cmake flags (allows GPU acceleration of some of the libraries functions)",
+ "timestamp": "1586708565"
+}

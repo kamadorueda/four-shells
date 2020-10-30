@@ -1,0 +1,4 @@
+{
+ "summary": "Virtualbox guest additions: fix runtime dep on which. Patch by Rohan Hart.",
+ "timestamp": "1290939247"
+}

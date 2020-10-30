@@ -1,0 +1,4 @@
+{
+ "summary": "gzip: Don't depend on gzip being in $PATH",
+ "timestamp": "1576445440"
+}

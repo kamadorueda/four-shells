@@ -1,0 +1,4 @@
+{
+ "summary": "lab: manually fixup deps.nix to fix build (via 'replace' in go.mod)",
+ "timestamp": "1552453294"
+}

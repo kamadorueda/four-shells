@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/cfssl: don't create user/group unless service is enabled",
+ "timestamp": "1534882871"
+}

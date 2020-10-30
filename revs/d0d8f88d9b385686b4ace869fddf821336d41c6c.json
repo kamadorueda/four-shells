@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-packages.nix: disable transformers 0.3.0.0 when building with GHC 7.7 or later",
+ "timestamp": "1386104475"
+}

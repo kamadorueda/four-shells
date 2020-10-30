@@ -1,0 +1,4 @@
+{
+ "summary": "* Added Firefox 3.6.  It's not entirely stable yet though.  In   particular it segfaults with the `-P' option.",
+ "timestamp": "1264112639"
+}

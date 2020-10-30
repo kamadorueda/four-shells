@@ -1,0 +1,122 @@
+{
+ "5.1": {
+  "meta": {
+   "description": "A small MIDI visualizer tool, using OpenGL",
+   "homepage": "https://github.com/kosua20/MIDIVisualizer",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ercdll1337@gmail.com",
+     "github": "ericdallo",
+     "githubId": 7820865,
+     "name": "Eric Dallo"
+    }
+   ],
+   "name": "MIDIVisualizer",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/midi-visualizer/default.nix:36"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "5.2": {
+  "meta": {
+   "description": "A small MIDI visualizer tool, using OpenGL",
+   "homepage": "https://github.com/kosua20/MIDIVisualizer",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ercdll1337@gmail.com",
+     "github": "ericdallo",
+     "githubId": 7820865,
+     "name": "Eric Dallo"
+    }
+   ],
+   "name": "MIDIVisualizer",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/midi-visualizer/default.nix:36"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "6.0": {
+  "meta": {
+   "description": "A small MIDI visualizer tool, using OpenGL",
+   "homepage": "https://github.com/kosua20/MIDIVisualizer",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ercdll1337@gmail.com",
+     "github": "ericdallo",
+     "githubId": 7820865,
+     "name": "Eric Dallo"
+    }
+   ],
+   "name": "MIDIVisualizer",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/audio/midi-visualizer/default.nix:36"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

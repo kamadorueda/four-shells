@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/quassel: Temporarily switch back to qt4 since qt5 tls in quassel is broken",
+ "timestamp": "1436140422"
+}

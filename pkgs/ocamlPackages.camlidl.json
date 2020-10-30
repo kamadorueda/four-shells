@@ -1,0 +1,20 @@
+{
+ "1.05": {
+  "meta": {
+   "description": "CamlIDL is a stub code generator and COM binding for Objective Caml",
+   "homepage": "http://caml.inria.fr/pub/old_caml_site/camlidl/",
+   "license": "LGPL",
+   "long_description": "",
+   "maintainers": [
+    "Russell O'Connor <roconnor@theorem.ca>"
+   ],
+   "name": "camlidl",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

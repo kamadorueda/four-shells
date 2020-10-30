@@ -1,0 +1,18 @@
+{
+ "2.4.0": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vdr-servicedemo",
+   "platforms": null,
+   "position": "pkgs/applications/video/vdr/default.nix:13"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ }
+}

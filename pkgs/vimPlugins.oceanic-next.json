@@ -1,0 +1,50 @@
+{
+ "2019-04-10": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mhartington/oceanic-next/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-oceanic-next",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2823"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-11-08": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mhartington/oceanic-next/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-oceanic-next",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2643"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mhartington/oceanic-next/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-oceanic-next",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2871"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

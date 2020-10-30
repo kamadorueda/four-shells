@@ -1,0 +1,82 @@
+{
+ "2020-09-06": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/tjdevries/lsp_extensions.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-lsp_extensions-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1959"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2020-10-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/lsp_extensions.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-lsp_extensions-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1959"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "2020-10-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/lsp_extensions.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-lsp_extensions-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1959"
+  },
+  "revs": [
+   "02d0df518ef3bd54cd98a8bb5af9816c6d3b8b33",
+   "997098b8b5a7d72d08e378ccaac6f5de60cc4dd9"
+  ]
+ },
+ "2020-11-04": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/lsp_extensions.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-lsp_extensions-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1983"
+  },
+  "revs": [
+   "0c6e5e15f8c952f0b2844cead019868e93aedb19",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-11-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-lua/lsp_extensions.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-lsp_extensions-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2055"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

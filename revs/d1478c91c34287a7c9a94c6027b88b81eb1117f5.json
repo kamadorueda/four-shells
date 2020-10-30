@@ -1,0 +1,4 @@
+{
+ "summary": "lib: Allow parsing platform configs with arch of `{riscv,wasm}{32,64}`",
+ "timestamp": "1516915803"
+}

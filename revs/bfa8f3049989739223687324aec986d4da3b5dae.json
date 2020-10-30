@@ -1,0 +1,4 @@
+{
+ "summary": "linux cross stdenv: Use the cross stdenv and `nativeBuildInputs`",
+ "timestamp": "1493171484"
+}

@@ -1,0 +1,984 @@
+{
+ "4.10.2": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project\n",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Rickard Nilsson <rickynils@gmail.com>"
+   ],
+   "name": "solr",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:22"
+  },
+  "revs": [
+   "000c24a43fef598f04cc9435de09a818dfedfdba",
+   "2ed4587b61f0a9b1f8d95c0663d9de633a48853b"
+  ]
+ },
+ "4.10.3": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Rickard Nilsson <rickynils@gmail.com>",
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "solr",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "x86_64-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd",
+    "i686-netbsd",
+    "x86_64-netbsd",
+    "x86_64-solaris"
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:22"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "4.7.0": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project\n",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Rickard Nilsson <rickynils@gmail.com>"
+   ],
+   "name": "solr",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin",
+    "i686-cygwin",
+    "i686-freebsd",
+    "x86_64-freebsd",
+    "i686-openbsd",
+    "x86_64-openbsd"
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:22"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "2c09066dfd1e9f332603993829e128a0261e9840"
+  ]
+ },
+ "7.5.0": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    },
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:29"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "7.6.0": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    },
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:29"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "7.7.1": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    },
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:29"
+  },
+  "revs": [
+   "0015e526c7a3a70db5055b9e68c951a21cc3519f",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "8.0.0": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    },
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/servers/search/solr/8.x.nix:29"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "d0bdb55093458bcc9060dbe3c645cef1cb880440"
+  ]
+ },
+ "8.1.0": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    },
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/servers/search/solr/8.x.nix:29"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "8.1.1": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    },
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-darwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none"
+   ],
+   "position": "pkgs/servers/search/solr/8.x.nix:29"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "8.2.0": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rickynils@gmail.com",
+     "github": "rickynils",
+     "name": "Rickard Nilsson"
+    },
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none"
+   ],
+   "position": "pkgs/servers/search/solr/8.x.nix:29"
+  },
+  "revs": [
+   "0035a337da464b1d534858fe230dbb669f49dc7e",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "8.3.1": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none"
+   ],
+   "position": "pkgs/servers/search/solr/8.x.nix:29"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
+  ]
+ },
+ "8.4.0": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "aarch64-none",
+    "avr-none",
+    "arm-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/servers/search/solr/8.x.nix:29"
+  },
+  "revs": [
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "8.4.1": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs"
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:33"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "8.5.0": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:33"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "8.5.1": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:33"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "8.5.2": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:33"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "8.6.1": {
+  "meta": {
+   "description": "Open source enterprise search platform from the Apache Lucene project",
+   "homepage": "https://lucene.apache.org/solr/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    },
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "solr",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "pkgs/servers/search/solr/default.nix:33"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

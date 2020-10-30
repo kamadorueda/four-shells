@@ -1,0 +1,98 @@
+{
+ "2020-11-06": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/romgrk/barbar.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-barbar-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:224"
+  },
+  "revs": [
+   "04b374eb9c843aa275c3f7483f322cf599677d7d",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/romgrk/barbar.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-barbar-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:224"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "1ad0c8d29208cde9930b4e9f0a174878a9295484"
+  ]
+ },
+ "2020-11-14": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/romgrk/barbar.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-barbar-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:224"
+  },
+  "revs": [
+   "002a5f9de16130ac9f8e474de75d9b5eca7bf4bd",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-26": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/romgrk/barbar.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-barbar-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:236"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-04": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/romgrk/barbar.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-barbar-nvim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:236"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-28": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/romgrk/barbar.nvim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-barbar-nvim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:236"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

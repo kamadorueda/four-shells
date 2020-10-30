@@ -1,0 +1,4 @@
+{
+ "summary": "smartgithg: 18.2.4 -> 18.2.9 Refactored packages:   * adds makeDesktopItem and remove install_freedesktop_items   * replaced buildCommand with preFixup & installPhase   * replaces makeWrapper with wrapGAppsHook",
+ "timestamp": "1564239863"
+}

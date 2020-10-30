@@ -1,0 +1,4 @@
+{
+ "summary": "Python: introduce NIX_PYTHONEXECUTABLE in order to set sys.executable",
+ "timestamp": "1564212634"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "qt4: Add patch for socklen_t on musl, from alpine",
+ "timestamp": "1496323915"
+}

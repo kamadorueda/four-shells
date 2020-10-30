@@ -1,0 +1,4 @@
+{
+ "summary": "Fix some references to deprecated /etc/ssl/certs/ca-bundle.crt",
+ "timestamp": "1454031125"
+}

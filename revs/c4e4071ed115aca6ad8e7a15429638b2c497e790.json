@@ -1,0 +1,4 @@
+{
+ "summary": "programs.zsh.syntax-highlighting: simplify enable option by using `mkEnableOption`",
+ "timestamp": "1496148025"
+}

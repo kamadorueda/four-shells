@@ -1,0 +1,970 @@
+{
+ "14.1.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:12"
+  },
+  "revs": [
+   "003a1ce69dccd0f82e8ec71a3767eb2373fa1fd8",
+   "b920bf3d618cb7e0e9b29db9774274b12b75a974"
+  ]
+ },
+ "14.10.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "1ca7c6e76a5138f7f0f3661c4d372fe15c0905c2",
+   "6c5e621badbb8b89eb186201fc3f53b7bad09689"
+  ]
+ },
+ "14.10.1": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "0079133e4248a855f6247854220e385ef62cd3be",
+   "c0825ddbe925d50be9c1068546a51e34e1835903"
+  ]
+ },
+ "14.11.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "0cc9dd7c16ea3db534274225617c22160eca4311",
+   "b5e48847068f26b2100e885b89db748443df7f70"
+  ]
+ },
+ "14.12.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "01ec8c0999449ec9b44c002cf91541186aab7e06",
+   "d22229eda33d8e55518fad2b31171d9aae4d9b1b"
+  ]
+ },
+ "14.13.1": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "00f0b1d721f459a9b67d071746ca583316e0d70d",
+   "5f6707d1b5420cf2826202ccae9b11aefef72277"
+  ]
+ },
+ "14.14.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "07e49512aa1bea7730ebca10aa4a50a33cae34cd"
+  ]
+ },
+ "14.15.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "14.2.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:12"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "50a487d8fe922e8cfc13303d6604508c4884f920"
+  ]
+ },
+ "14.3.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:12"
+  },
+  "revs": [
+   "002d38783ab0b570b296dadd4ee1ecfad21a9367",
+   "184241e779e05344a95c30f35615271102522a8a"
+  ]
+ },
+ "14.4.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:12"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "14.5.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:12"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "14.6.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:12"
+  },
+  "revs": [
+   "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
+   "71816f100e8ea64add1870d0cc22c7f780db1d03"
+  ]
+ },
+ "14.7.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "5de26dd52d23259aa74de23834f180ea6d358fa6"
+  ]
+ },
+ "14.8.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4",
+   "bf3f39789dfe739b762ce6768bc9289bfe74c424"
+  ]
+ },
+ "14.9.0": {
+  "meta": {
+   "description": "Event-driven I/O framework for the V8 JavaScript engine",
+   "homepage": "https://nodejs.org",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cillian.deroiste@gmail.com",
+     "github": "cillianderoiste",
+     "githubId": 643494,
+     "name": "Cillian de R\u00f3iste"
+    },
+    {
+     "email": "tobias.pflug@gmail.com",
+     "github": "gilligan",
+     "githubId": 27668,
+     "name": "Tobias Pflug"
+    },
+    {
+     "email": "christine.koppelt@gmail.com",
+     "github": "cko",
+     "githubId": 68239,
+     "name": "Christine Koppelt"
+    },
+    {
+     "email": "marsam@users.noreply.github.com",
+     "github": "marsam",
+     "githubId": 65531,
+     "name": "Mario Rodas"
+    }
+   ],
+   "name": "nodejs-slim",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/web/nodejs/v14.nix:11"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Don't disable D-Bus if environment.noXlibs is set",
+ "timestamp": "1380631520"
+}

@@ -1,0 +1,66 @@
+{
+ "2020-11-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RishabhRD/nvim-lsputils/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-lsputils",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2703"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RishabhRD/nvim-lsputils/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-lsputils",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2739"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-11-29": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RishabhRD/nvim-lsputils/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-lsputils",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2739"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-29": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RishabhRD/nvim-lsputils/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-lsputils",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:2775"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

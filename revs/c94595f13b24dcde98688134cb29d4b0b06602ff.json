@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing tarball build (failure evaluating glibcInfo in powerpc-linux)",
+ "timestamp": "1362991315"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "ogre: replace broken hg clone url with http url (to speed up download)",
+ "timestamp": "1443293394"
+}

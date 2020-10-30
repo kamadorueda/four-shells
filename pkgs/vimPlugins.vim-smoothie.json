@@ -1,0 +1,66 @@
+{
+ "2019-12-02": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/psliwka/vim-smoothie/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-smoothie",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6282"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-11-22": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/psliwka/vim-smoothie/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-smoothie",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6776"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/psliwka/vim-smoothie/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-smoothie",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:6825"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-25": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/psliwka/vim-smoothie/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-smoothie",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:6861"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

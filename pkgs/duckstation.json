@@ -1,0 +1,42 @@
+{
+ "2020-12-29": {
+  "meta": {
+   "description": "PlayStation 1 emulator focusing on playability, speed and long-term maintainability",
+   "homepage": "https://github.com/stenzek/duckstation",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "guillaum.bouchard@gmail.com",
+     "github": "guibou",
+     "githubId": 9705357,
+     "name": "Guillaume Bouchard"
+    }
+   ],
+   "name": "duckstation-unstable",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/misc/emulators/duckstation/default.nix:27"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "nixos-generate-config: enforce umask 0022, fixes #30954",
+ "timestamp": "1509400717"
+}

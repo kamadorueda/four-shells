@@ -1,0 +1,4 @@
+{
+ "summary": "pasystray: add patch to fix crash when running under wayland",
+ "timestamp": "1586672280"
+}

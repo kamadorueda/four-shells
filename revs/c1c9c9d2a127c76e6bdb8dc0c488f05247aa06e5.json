@@ -1,0 +1,4 @@
+{
+ "summary": "network-manager: use libnl3, as libnl1 is no longer maintained",
+ "timestamp": "1347020484"
+}

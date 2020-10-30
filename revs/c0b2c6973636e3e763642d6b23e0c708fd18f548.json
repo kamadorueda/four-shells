@@ -1,0 +1,4 @@
+{
+ "summary": "ipxe: fix build by not generating 64bit efi on 32bit systems",
+ "timestamp": "1562568461"
+}

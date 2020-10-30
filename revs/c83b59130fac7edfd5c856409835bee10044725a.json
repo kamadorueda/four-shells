@@ -1,0 +1,4 @@
+{
+ "summary": "libsodium: fix build by removing -lssp",
+ "timestamp": "1443891733"
+}

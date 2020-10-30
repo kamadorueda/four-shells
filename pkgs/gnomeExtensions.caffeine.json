@@ -1,0 +1,167 @@
+{
+ "2017-06-21": {
+  "meta": {
+   "description": "Fill the cup to inhibit auto suspend and screensaver",
+   "homepage": "https://github.com/eonpatapon/gnome-shell-extension-caffeine",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "info@emanueleperuffo.com",
+     "github": "emanueleperuffo",
+     "name": "Emanuele Peruffo"
+    }
+   ],
+   "name": "gnome-shell-extension-caffeine-unstable",
+   "platforms": null,
+   "position": "pkgs/desktops/gnome-3/extensions/caffeine/default.nix:31"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "925b028f1779027d65ef75ecc87563c45805d0c3"
+  ]
+ },
+ "2018-09-25": {
+  "meta": {
+   "description": "Fill the cup to inhibit auto suspend and screensaver",
+   "homepage": "https://github.com/eonpatapon/gnome-shell-extension-caffeine",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "info@emanueleperuffo.com",
+     "github": "emanueleperuffo",
+     "name": "Emanuele Peruffo"
+    }
+   ],
+   "name": "gnome-shell-extension-caffeine-unstable",
+   "platforms": null,
+   "position": "pkgs/desktops/gnome-3/extensions/caffeine/default.nix:31"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "2019-04-02": {
+  "meta": {
+   "description": "Fill the cup to inhibit auto suspend and screensaver",
+   "homepage": "https://github.com/eonpatapon/gnome-shell-extension-caffeine",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "info@emanueleperuffo.com",
+     "github": "emanueleperuffo",
+     "name": "Emanuele Peruffo"
+    }
+   ],
+   "name": "gnome-shell-extension-caffeine-unstable",
+   "platforms": null,
+   "position": "pkgs/desktops/gnome-3/extensions/caffeine/default.nix:31"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "2020-03-13": {
+  "meta": {
+   "description": "Fill the cup to inhibit auto suspend and screensaver",
+   "homepage": "https://github.com/eonpatapon/gnome-shell-extension-caffeine",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "info@emanueleperuffo.com",
+     "github": "emanueleperuffo",
+     "githubId": 5085029,
+     "name": "Emanuele Peruffo"
+    }
+   ],
+   "name": "gnome-shell-extension-caffeine-unstable",
+   "platforms": null,
+   "position": "pkgs/desktops/gnome-3/extensions/caffeine/default.nix:35"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "33": {
+  "meta": {
+   "description": "Fill the cup to inhibit auto suspend and screensaver",
+   "homepage": "https://github.com/eonpatapon/gnome-shell-extension-caffeine",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "info@emanueleperuffo.com",
+     "github": "emanueleperuffo",
+     "githubId": 5085029,
+     "name": "Emanuele Peruffo"
+    }
+   ],
+   "name": "gnome-shell-extension-caffeine",
+   "platforms": null,
+   "position": "pkgs/desktops/gnome-3/extensions/caffeine/default.nix:31"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "37": {
+  "meta": {
+   "description": "Fill the cup to inhibit auto suspend and screensaver",
+   "homepage": "https://github.com/eonpatapon/gnome-shell-extension-caffeine",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "info@emanueleperuffo.com",
+     "github": "emanueleperuffo",
+     "githubId": 5085029,
+     "name": "Emanuele Peruffo"
+    }
+   ],
+   "name": "gnome-shell-extension-caffeine",
+   "platforms": null,
+   "position": "gs/pkgs/desktops/gnome-3/extensions/caffeine/default.nix:35"
+  },
+  "revs": [
+   "0081f50505436a5787cbf50af8ef4d9d04620ad6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

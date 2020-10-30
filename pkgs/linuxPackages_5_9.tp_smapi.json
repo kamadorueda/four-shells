@@ -1,0 +1,362 @@
+{
+ "0.43-5.9": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "00daf410b5aba389849b8e01147da7c0c1683d89",
+   "4078999dc99789f20b8e97e2781bab7222e7ff41"
+  ]
+ },
+ "0.43-5.9.1": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "07e49512aa1bea7730ebca10aa4a50a33cae34cd"
+  ]
+ },
+ "0.43-5.9.10": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "d08ae711cf10f3bbb8e9063c1d3c81d5066a3853"
+  ]
+ },
+ "0.43-5.9.11": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "d0a4a0bbd4b1f5aab5a5e49543b1614d2025a0fd"
+  ]
+ },
+ "0.43-5.9.12": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "0278e49268735919b3af826ae14f18df35ae55df",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "0.43-5.9.14": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "d035211499240c8dfc46acc2e945a0c9f2db8edc"
+  ]
+ },
+ "0.43-5.9.15": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "0127c297132948d6c79a38a8f49f24bcb0d23441",
+   "c232e1c3e81977dd547895a3ff65b16afc8ea1bf"
+  ]
+ },
+ "0.43-5.9.16": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "0.43-5.9.2": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "0.43-5.9.3": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "00d6fff6303531fb9ee4ae9761e888407485ba22",
+   "997098b8b5a7d72d08e378ccaac6f5de60cc4dd9"
+  ]
+ },
+ "0.43-5.9.5": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "0a6cdb667f9a45e86fc90512811e95b628181673",
+   "bc7c121a569752883ec81586558e7eeb118b6496"
+  ]
+ },
+ "0.43-5.9.6": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "c874cad314f134c7d9d6de3d7376ffc96416365b"
+  ]
+ },
+ "0.43-5.9.7": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "0140aced5353da38b99a838b8a06325fb59e6226",
+   "cde30d01501c84c2d78fe093e7c2d5d93119b906"
+  ]
+ },
+ "0.43-5.9.8": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "019c3bb417153a2b80f483891f7f0981f6d327a8",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "0.43-5.9.9": {
+  "meta": {
+   "description": "IBM ThinkPad hardware functions driver",
+   "homepage": "https://github.com/evgeni/tp_smapi",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "tp_smapi",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/tp_smapi/default.nix:41"
+  },
+  "revs": [
+   "01229007553d9322c473c0fa36e3d6c644147e7d",
+   "bf56841327dae27719dfd67fd6cb6473568de0cf"
+  ]
+ }
+}

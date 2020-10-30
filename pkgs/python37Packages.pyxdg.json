@@ -1,0 +1,144 @@
+{
+ "0.25": {
+  "meta": {
+   "description": "Contains implementations of freedesktop.org standards",
+   "homepage": "http://freedesktop.org/wiki/Software/pyxdg",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0",
+    "url": "http://spdx.org/licenses/LGPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "python3.7-pyxdg",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pyxdg/default.nix:20"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "0.26": {
+  "meta": {
+   "description": "Contains implementations of freedesktop.org standards",
+   "homepage": "http://freedesktop.org/wiki/Software/pyxdg",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2",
+    "spdxId": "LGPL-2.0-only",
+    "url": "http://spdx.org/licenses/LGPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "python3.7-pyxdg",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/python-modules/pyxdg/default.nix:20"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "0.27": {
+  "meta": {
+   "description": "Contains implementations of freedesktop.org standards",
+   "homepage": "http://freedesktop.org/wiki/Software/pyxdg",
+   "license": {
+    "fullName": "GNU Library General Public License v2 only",
+    "shortName": "lgpl2Only",
+    "spdxId": "LGPL-2.0-only",
+    "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "domen@dev.si",
+     "github": "domenkozar",
+     "githubId": 126339,
+     "name": "Domen Kozar"
+    }
+   ],
+   "name": "python3.7-pyxdg",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/development/python-modules/pyxdg/default.nix:24"
+  },
+  "revs": [
+   "0081f50505436a5787cbf50af8ef4d9d04620ad6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "nixosTests.ec2: Port tests that depend on common/ec2.nix",
+ "timestamp": "1580633291"
+}

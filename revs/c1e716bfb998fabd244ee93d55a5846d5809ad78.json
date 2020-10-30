@@ -1,0 +1,4 @@
+{
+ "summary": "django: don't wrap template scripts, fixes #3134",
+ "timestamp": "1429207789"
+}

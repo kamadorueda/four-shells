@@ -1,0 +1,4 @@
+{
+ "summary": "nix-prefetch-git: remove call to non-existent print_metadata command; improve hash mismatch error message.",
+ "timestamp": "1483498453"
+}

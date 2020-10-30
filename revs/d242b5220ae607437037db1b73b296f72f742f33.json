@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-bytestring-arbitrary: fix build by passing an older LLVM version",
+ "timestamp": "1426963673"
+}

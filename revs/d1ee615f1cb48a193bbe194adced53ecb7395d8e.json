@@ -1,0 +1,4 @@
+{
+ "summary": "bazel: fix linker flags for darwin",
+ "timestamp": "1582190400"
+}

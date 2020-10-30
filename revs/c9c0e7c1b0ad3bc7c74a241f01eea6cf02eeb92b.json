@@ -1,0 +1,4 @@
+{
+ "summary": "nilfs-utils: fix cross-compilation issue caused by AC_FUNC_MALLOC",
+ "timestamp": "1554558865"
+}

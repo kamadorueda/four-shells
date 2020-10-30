@@ -1,0 +1,81 @@
+{
+ "1.7.0": {
+  "meta": {
+   "description": "An elegant client for the Music Player Daemon",
+   "homepage": "https://www.nongnu.org/sonata/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "Sonata is an elegant client for the Music Player Daemon.\n\nWritten in Python and using the GTK 3 widget set, its features\ninclude:\n\n - Expanded and collapsed views\n - Automatic remote and local album art\n - Library browsing by folders, or by genre/artist/album\n - User-configurable columns\n - Automatic fetching of lyrics\n - Playlist and stream support\n - Support for editing song tags (not in NixOS version)\n - Drag and drop to copy files\n - Popup notification\n - Library and playlist searching, filter as you type\n - Audioscrobbler (last.fm) 1.2 support\n - Multiple MPD profiles\n - Keyboard friendly\n - Support for multimedia keys\n - Commandline control\n - Available in 24 languages\n",
+   "maintainers": [
+    {
+     "email": "dev+nix@rodney.id.au",
+     "github": "rvl",
+     "githubId": 1019641,
+     "name": "Rodney Lorrimar"
+    }
+   ],
+   "name": "sonata",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/audio/sonata/default.nix:52"
+  },
+  "revs": [
+   "02fac027aff09e3422023f059fccf9aec2f41348",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "1.7b1": {
+  "meta": {
+   "description": "An elegant client for the Music Player Daemon",
+   "homepage": "https://www.nongnu.org/sonata/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "Sonata is an elegant client for the Music Player Daemon.\n\nWritten in Python and using the GTK+ 3 widget set, its features\ninclude:\n\n - Expanded and collapsed views\n - Automatic remote and local album art\n - Library browsing by folders, or by genre/artist/album\n - User-configurable columns\n - Automatic fetching of lyrics\n - Playlist and stream support\n - Support for editing song tags (not in NixOS version)\n - Drag and drop to copy files\n - Popup notification\n - Library and playlist searching, filter as you type\n - Audioscrobbler (last.fm) 1.2 support\n - Multiple MPD profiles\n - Keyboard friendly\n - Support for multimedia keys\n - Commandline control\n - Available in 24 languages\n",
+   "maintainers": [
+    {
+     "email": "dev+nix@rodney.id.au",
+     "github": "rvl",
+     "name": "Rodney Lorrimar"
+    }
+   ],
+   "name": "sonata",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/audio/sonata/default.nix:40"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ }
+}

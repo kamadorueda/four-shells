@@ -1,0 +1,4 @@
+{
+ "summary": "gnome3.gdm: fix version 3.14 for being used with gnome-shell 3.20. Closes #16063",
+ "timestamp": "1465656327"
+}

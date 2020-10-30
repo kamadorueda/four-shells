@@ -1,0 +1,4 @@
+{
+ "summary": "postgresql: properly fix permissions issue by in postStart",
+ "timestamp": "1396259580"
+}

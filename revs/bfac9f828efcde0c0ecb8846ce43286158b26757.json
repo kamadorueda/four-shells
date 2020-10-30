@@ -1,0 +1,4 @@
+{
+ "summary": "Bugfix: zc_buildout_nix, replace links to eggs in the store which have been gc-ed",
+ "timestamp": "1381189884"
+}

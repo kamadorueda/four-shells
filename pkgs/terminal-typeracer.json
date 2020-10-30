@@ -1,0 +1,42 @@
+{
+ "2.0.2": {
+  "meta": {
+   "description": "An open source terminal based version of Typeracer written in rust",
+   "homepage": "https://gitlab.com/ttyperacer/terminal-typeracer",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "public@yoctocell.xyz",
+     "github": "yoctocell",
+     "githubId": 40352765,
+     "name": "Yoctocell"
+    }
+   ],
+   "name": "terminal-typeracer",
+   "platforms": [
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "x86_64-windows",
+    "x86_64-redox",
+    "x86_64-none",
+    "x86_64-genode"
+   ],
+   "position": "gs/pkgs/applications/misc/terminal-typeracer/default.nix:28"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

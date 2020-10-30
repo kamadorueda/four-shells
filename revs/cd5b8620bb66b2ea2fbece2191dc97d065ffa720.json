@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv/check-meta: construct name from pname and version if name unavailable",
+ "timestamp": "1565825032"
+}

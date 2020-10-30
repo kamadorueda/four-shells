@@ -1,0 +1,582 @@
+{
+ "1.10.0": {
+  "meta": {
+   "description": "Manages dependencies for your Xcode projects",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "githubId": 5515707,
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "githubId": 714,
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "16ee3d1e09da3113157b38c49bc01c90f91242b7",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "1.5.3": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "name": "Peter Romfeld"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:9"
+  },
+  "revs": [
+   "0028bad962d0184f190474244b9e51d4b840443d",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "1.6.0": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "name": "Peter Romfeld"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:9"
+  },
+  "revs": [
+   "04cb60bc8699f0d0fbd477e28d8d58ecf0e82aaa",
+   "2fff57a416f7cb4b4d0dbe9175cccb1422d38d2a"
+  ]
+ },
+ "1.6.1": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "name": "Peter Romfeld"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:9"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "1.6.2": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "1.7.1": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "002cce23f7e3e4c46fcb96ae012234bd991c9ad0",
+   "d0a442f6e55a3083b87fd73d09d6a32aac0aefbf"
+  ]
+ },
+ "1.7.2": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "86e3208ca31bc3dcddc412c59eae2e42107abcec"
+  ]
+ },
+ "1.7.3": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-darwin",
+    "i686-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "0033313ebf6b595e24032f2798797a470311977b",
+   "126c81b65d7e0099ef89878a2d7b76a180955086"
+  ]
+ },
+ "1.7.4": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
+   "aaf3881a80b4d41466d5e2cd8d36d36e89698186"
+  ]
+ },
+ "1.7.5": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "1.8.4": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "githubId": 5515707,
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "githubId": 714,
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "1.9.0": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "githubId": 5515707,
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "githubId": 714,
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "001be890f78f04df86938f44c0761676e299ceac",
+   "0256aa00616a11434e5f75040509ed0a0e79e191"
+  ]
+ },
+ "1.9.1": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "githubId": 5515707,
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "githubId": 714,
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "1.9.2": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "githubId": 5515707,
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "githubId": 714,
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "006717b79f6e37fc8931117834f0aa342c3c67bb",
+   "184241e779e05344a95c30f35615271102522a8a"
+  ]
+ },
+ "1.9.3": {
+  "meta": {
+   "description": "CocoaPods manages dependencies for your Xcode projects.",
+   "homepage": "https://github.com/CocoaPods/CocoaPods",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "peter.romfeld.hk@gmail.com",
+     "github": "peterromfeldhk",
+     "githubId": 5515707,
+     "name": "Peter Romfeld"
+    },
+    {
+     "email": "lily@sb.org",
+     "github": "lilyball",
+     "githubId": 714,
+     "name": "Lily Ballard"
+    }
+   ],
+   "name": "cocoapods",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/mobile/cocoapods/default.nix:16"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ }
+}

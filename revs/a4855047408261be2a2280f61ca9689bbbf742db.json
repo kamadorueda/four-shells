@@ -1,0 +1,4 @@
+{
+ "summary": "config.users.ldap: do not include nss module if turned off",
+ "timestamp": "1499803180"
+}

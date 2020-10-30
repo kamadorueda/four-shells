@@ -1,0 +1,4 @@
+{
+ "summary": "buildGoPackage: we don't need to build vendored packages",
+ "timestamp": "1459932424"
+}

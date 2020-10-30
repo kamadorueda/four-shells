@@ -1,0 +1,4 @@
+{
+ "summary": "Making the nvidia installer install the file libcuda.so. 'boinc' wants this file.",
+ "timestamp": "1318014069"
+}

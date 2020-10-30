@@ -1,0 +1,4 @@
+{
+ "summary": "go-1.6: fix segfault when using musl",
+ "timestamp": "1458771092"
+}

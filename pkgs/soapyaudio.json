@@ -1,0 +1,42 @@
+{
+ "0.1.1": {
+  "meta": {
+   "description": "SoapySDR plugin for amateur radio and audio devices",
+   "homepage": "https://github.com/pothosware/SoapyAudio",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "me@numin.it",
+     "github": "numinit",
+     "githubId": 369111,
+     "name": "Morgan Jones"
+    }
+   ],
+   "name": "soapyaudio",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/radio/soapyaudio/default.nix:26"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

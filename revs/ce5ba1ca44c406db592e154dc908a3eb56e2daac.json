@@ -1,0 +1,4 @@
+{
+ "summary": "mesa: don't require wayland things with wayland disabled (#50559)",
+ "timestamp": "1542555384"
+}

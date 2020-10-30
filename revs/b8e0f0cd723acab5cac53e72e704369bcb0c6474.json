@@ -1,0 +1,4 @@
+{
+ "summary": "rpm: add openmp when building with clang",
+ "timestamp": "1599712828"
+}

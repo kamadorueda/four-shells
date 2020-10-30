@@ -1,0 +1,4 @@
+{
+ "summary": "* Added option for EC2 keypair. * Added workaround for evaluation * Add support for cluster instances ami generation, only works in us-east-1   for now.",
+ "timestamp": "1334752580"
+}

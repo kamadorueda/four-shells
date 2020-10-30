@@ -1,0 +1,4 @@
+{
+ "summary": "libgcrypt: always pass build and host to configure",
+ "timestamp": "1589490726"
+}

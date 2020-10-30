@@ -1,0 +1,18 @@
+{
+ "0.1.2": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "kquickimageeditor",
+   "platforms": null,
+   "position": "gs/pkgs/development/libraries/kquickimageedit/default.nix:8"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

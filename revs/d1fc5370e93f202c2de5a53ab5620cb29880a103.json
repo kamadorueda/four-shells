@@ -1,0 +1,4 @@
+{
+ "summary": "ghc: pass explicit 'ncurses' path to ./configure instead of finding through the environment",
+ "timestamp": "1421433094"
+}

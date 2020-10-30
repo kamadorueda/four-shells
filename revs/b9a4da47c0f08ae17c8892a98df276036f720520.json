@@ -1,0 +1,4 @@
+{
+ "summary": "go: fix on darwin, make go-1.7 build with clang-3.8. (#18001)",
+ "timestamp": "1472196966"
+}

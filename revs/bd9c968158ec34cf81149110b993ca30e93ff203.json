@@ -1,0 +1,4 @@
+{
+ "summary": "Removing any rest of the trunk's stdenv2, that has a fix in ld-wrapper to make it properly put the rpath for directly passed .so files, and additionally it works much faster than the old ld-wrapper.",
+ "timestamp": "1274820661"
+}

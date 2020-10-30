@@ -1,0 +1,4 @@
+{
+ "summary": "* Don't source /etc/profile in interactive non-login shells, unless it   wasn't sourced in a parent shell (as determined by the environment   variable __ETC_PROFILE_DONE).  This prevents overriden values of   environment variables such as $PATH from being clobbered in   subshells. * Move all aliases to /etc/bashrc (since those are for interactive   use).",
+ "timestamp": "1332124517"
+}

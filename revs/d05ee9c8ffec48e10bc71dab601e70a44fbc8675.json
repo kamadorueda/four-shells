@@ -1,0 +1,4 @@
+{
+ "summary": "pkgsStatic: set BUILD_SHARED_LIBS=OFF for cmake",
+ "timestamp": "1577652052"
+}

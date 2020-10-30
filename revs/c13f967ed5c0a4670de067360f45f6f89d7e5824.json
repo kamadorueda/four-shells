@@ -1,0 +1,4 @@
+{
+ "summary": "Replaced the obsolete 'haskellPlatforms' attribute with the platforms exported by GHC.",
+ "timestamp": "1312883690"
+}

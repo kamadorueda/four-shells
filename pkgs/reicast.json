@@ -1,0 +1,46 @@
+{
+ "20.04": {
+  "meta": {
+   "description": "A multi-platform Sega Dreamcast emulator",
+   "homepage": "https://reicast.com/",
+   "license": [
+    {
+     "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+     "shortName": "bsd3",
+     "spdxId": "BSD-3-Clause",
+     "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    {
+     "fullName": "GNU Library General Public License v2 only",
+     "shortName": "lgpl2Only",
+     "spdxId": "LGPL-2.0-only",
+     "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ivar.scholten@protonmail.com",
+     "github": "IvarWithoutBones",
+     "githubId": 41924494,
+     "name": "Ivar"
+    }
+   ],
+   "name": "reicast",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/misc/emulators/reicast/default.nix:47"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

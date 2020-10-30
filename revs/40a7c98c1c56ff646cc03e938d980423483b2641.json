@@ -1,0 +1,4 @@
+{
+ "summary": "mycli: fix build with sqlparse 0.4.x (#106334)",
+ "timestamp": "1607490055"
+}

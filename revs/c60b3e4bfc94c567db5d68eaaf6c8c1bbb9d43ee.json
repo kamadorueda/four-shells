@@ -1,0 +1,4 @@
+{
+ "summary": "haskellPackages.hakyll: Fix the Darwin build (broken tests)",
+ "timestamp": "1477606239"
+}

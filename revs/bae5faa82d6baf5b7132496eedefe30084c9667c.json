@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/dhcpd: Also try restarting openntpd as it suffers the same dns resolution problem",
+ "timestamp": "1423099994"
+}

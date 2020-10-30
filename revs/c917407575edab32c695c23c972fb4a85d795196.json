@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-texmath: patch to fix build with ghc-8.6.x",
+ "timestamp": "1538129390"
+}

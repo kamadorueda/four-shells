@@ -1,0 +1,4 @@
+{
+ "summary": "haskell.lib.buildFromSdist: Allow overrideCabal [Fixes #45018]",
+ "timestamp": "1539938996"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "nixos: fix qemu_test being used in normal VMs",
+ "timestamp": "1603278129"
+}

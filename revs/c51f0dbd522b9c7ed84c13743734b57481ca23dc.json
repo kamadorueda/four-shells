@@ -1,0 +1,4 @@
+{
+ "summary": "haskell: disable haddock on GHC <7.8 on darwin",
+ "timestamp": "1440100155"
+}

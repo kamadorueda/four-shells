@@ -1,0 +1,4 @@
+{
+ "summary": "Ruby 1.9 parallel build sometimes fails due to races.",
+ "timestamp": "1370896446"
+}

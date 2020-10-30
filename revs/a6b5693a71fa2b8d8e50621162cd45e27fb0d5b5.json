@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/stage-1: set zstd as the default compressor when supported",
+ "timestamp": "1608089829"
+}

@@ -1,0 +1,82 @@
+{
+ "2.23.0": {
+  "meta": {
+   "description": "realtime collaborative visual editor with zero knowlege server",
+   "homepage": "",
+   "license": "AGPL-3.0+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "node_cryptpad",
+   "platforms": null,
+   "position": "pkgs/servers/web-apps/cryptpad/node-packages-generated.nix:739"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "2.25.0": {
+  "meta": {
+   "description": "realtime collaborative visual editor with zero knowlege server",
+   "homepage": "",
+   "license": "AGPL-3.0+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "node-cryptpad",
+   "platforms": null,
+   "position": "pkgs/servers/web-apps/cryptpad/node-packages-generated.nix:703"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "6934870810b7a70c2c95b713edf1d817b448c4e2"
+  ]
+ },
+ "3.0.1": {
+  "meta": {
+   "description": "realtime collaborative visual editor with zero knowlege server",
+   "homepage": "",
+   "license": "AGPL-3.0+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "node_cryptpad",
+   "platforms": null,
+   "position": "pkgs/servers/web-apps/cryptpad/node-packages-generated.nix:703"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "3.13.0": {
+  "meta": {
+   "description": "realtime collaborative visual editor with zero knowlege server",
+   "homepage": "",
+   "license": "AGPL-3.0+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "node_cryptpad",
+   "platforms": null,
+   "position": "pkgs/servers/web-apps/cryptpad/node-packages-generated.nix:727"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "3.20.1": {
+  "meta": {
+   "description": "realtime collaborative visual editor with zero knowlege server",
+   "homepage": "",
+   "license": "AGPL-3.0+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "node_cryptpad",
+   "platforms": null,
+   "position": "pkgs/servers/web-apps/cryptpad/node-packages-generated.nix:737"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "cabal-dev: update to Git version to fix build with ghc 7.6.2",
+ "timestamp": "1361698928"
+}

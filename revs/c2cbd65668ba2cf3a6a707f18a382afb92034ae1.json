@@ -1,0 +1,4 @@
+{
+ "summary": "Getting a better seg3d build. Now it runs from TMPDIR at least. The installation still fails.",
+ "timestamp": "1267713883"
+}

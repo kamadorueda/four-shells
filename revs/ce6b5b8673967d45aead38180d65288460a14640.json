@@ -1,0 +1,4 @@
+{
+ "summary": "aspell: set default aspell data-dir if ASPELL_CONF is not set",
+ "timestamp": "1490738172"
+}

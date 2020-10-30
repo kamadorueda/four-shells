@@ -1,0 +1,4 @@
+{
+ "summary": "* The old evaluator segfaults if the `outPath' attribute is missing.   Work around it for the moment.",
+ "timestamp": "1273670649"
+}

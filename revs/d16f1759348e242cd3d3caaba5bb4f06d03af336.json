@@ -1,0 +1,4 @@
+{
+ "summary": "amdappsdk: Fix download urls and some other things, so derivations for older sdk versions now build succesfully",
+ "timestamp": "1371694938"
+}

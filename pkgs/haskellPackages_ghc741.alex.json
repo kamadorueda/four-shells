@@ -1,0 +1,55 @@
+{
+ "3.0.1": {
+  "meta": {
+   "description": "Alex is a tool for generating lexical analysers in Haskell",
+   "homepage": "http://www.haskell.org/alex/",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>",
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "alex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "bd8428efa13764f3bf6ac7de538afa5f50023aa2"
+  ]
+ },
+ "3.0.2": {
+  "meta": {
+   "description": "Alex is a tool for generating lexical analysers in Haskell",
+   "homepage": "http://www.haskell.org/alex/",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "alex",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "c07854ace45c0693a7dee5de8d30e68452a61968",
+   "c07854ace45c0693a7dee5de8d30e68452a61968"
+  ]
+ }
+}

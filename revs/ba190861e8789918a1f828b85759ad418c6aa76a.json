@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-relude: avoid test suite failure when building with ghc-8.8.x",
+ "timestamp": "1582808111"
+}

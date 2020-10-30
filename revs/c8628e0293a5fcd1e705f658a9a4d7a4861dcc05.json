@@ -1,0 +1,4 @@
+{
+ "summary": "Don't let interfaces get IPv6 addresses if networking.enableIPv6 is false",
+ "timestamp": "1350675661"
+}

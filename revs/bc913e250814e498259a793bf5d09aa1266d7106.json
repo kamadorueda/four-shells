@@ -1,0 +1,4 @@
+{
+ "summary": "all-packages.nix: disable 'xracer' attribute to fix evaluation errors on Hydra",
+ "timestamp": "1312361032"
+}

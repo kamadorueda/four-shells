@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing virtualgl for 'vglrun' to work fine and simple, under xproxy (like tigervnc).",
+ "timestamp": "1279048362"
+}

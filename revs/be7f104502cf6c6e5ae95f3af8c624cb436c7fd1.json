@@ -1,0 +1,4 @@
+{
+ "summary": "sg: add setuid wrapper. (newgrp is a symlink to sg and was already setuid). sudo: add ability for wheel users to change group (as well as user)",
+ "timestamp": "1427755845"
+}

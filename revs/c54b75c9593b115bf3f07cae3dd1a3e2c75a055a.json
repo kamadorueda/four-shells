@@ -1,0 +1,4 @@
+{
+ "summary": "* Get rid of the `(import (__toPath ((toString   ./JustNothing/.. )+\"/\"+args.version+\".nix\")))' hack, you can also just   write `import (./path/to/pkg + \"/${version}.nix)'.",
+ "timestamp": "1196083496"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Fix qtbase cmake for gui plugins [Qt 5.6, 5.9]",
+ "timestamp": "1543694973"
+}

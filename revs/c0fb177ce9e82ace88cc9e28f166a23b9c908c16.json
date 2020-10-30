@@ -1,0 +1,4 @@
+{
+ "summary": "git-annex: pass an older version of QuickCheck to fix build failure of the test suite",
+ "timestamp": "1314355907"
+}

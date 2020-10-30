@@ -1,0 +1,4 @@
+{
+ "summary": "* GHC setup hook: don't generate wrappers around ghc etc., instead   set GHC_PACKAGE_PATH. * Let Cabal generate a package configuration file   ($out/nix-support/ghc-package.conf) instead of a registration   script.",
+ "timestamp": "1240068180"
+}

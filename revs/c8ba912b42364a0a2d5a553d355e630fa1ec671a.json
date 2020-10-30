@@ -1,0 +1,4 @@
+{
+ "summary": "* It makes more sense for \"path\" to point at the top of the Nixpkgs   tree, rather than the pkgs subdirectory.",
+ "timestamp": "1244501007"
+}

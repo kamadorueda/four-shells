@@ -1,0 +1,4 @@
+{
+ "summary": "dhcp: fix build with gcc10",
+ "timestamp": "1591618909"
+}

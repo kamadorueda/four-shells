@@ -1,0 +1,30 @@
+{
+ "3.5.2": {
+  "meta": {
+   "description": "A header-only, tiny and easy to use library for game programming and much more written in modern C++",
+   "homepage": "https://github.com/skypjack/entt",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "twey@twey.co.uk",
+     "github": "Twey",
+     "githubId": 101639,
+     "name": "James \u2018Twey\u2019 Kay"
+    }
+   ],
+   "name": "entt",
+   "platforms": null,
+   "position": "gs/pkgs/development/libraries/entt/default.nix:17"
+  },
+  "revs": [
+   "0ff6bc488dfdabef29be947bf4425aec946582c0",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

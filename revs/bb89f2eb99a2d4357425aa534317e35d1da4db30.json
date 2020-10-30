@@ -1,0 +1,4 @@
+{
+ "summary": "We don't need an explicit uid/gid. We also don't need web to depend on deluged, since it can be started before it.",
+ "timestamp": "1361991970"
+}

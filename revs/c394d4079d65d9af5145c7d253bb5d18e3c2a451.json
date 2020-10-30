@@ -1,0 +1,4 @@
+{
+ "summary": "xmonad: fix build with ghc 7.8.1",
+ "timestamp": "1396190682"
+}

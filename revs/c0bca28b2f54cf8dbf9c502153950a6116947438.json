@@ -1,0 +1,4 @@
+{
+ "summary": "Do not insist on using CONFIG_PAE if we are trying to build a non-PAE kernel",
+ "timestamp": "1263533400"
+}

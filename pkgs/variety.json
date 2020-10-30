@@ -1,0 +1,92 @@
+{
+ "0.7.2-96-g3afe3ab": {
+  "meta": {
+   "description": "A wallpaper manager for Linux systems. It supports numerous desktops and wallpaper sources, including local files and online services: Flickr, Wallhaven, Unsplash, and more",
+   "homepage": "https://github.com/varietywalls/variety",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "zfnmxt@zfnmxt.com",
+     "github": "zfnmxt",
+     "githubId": 37446532,
+     "name": "zfnmxt"
+    }
+   ],
+   "name": "variety",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/applications/misc/variety/default.nix:68"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "0.8.5": {
+  "meta": {
+   "description": "A wallpaper manager for Linux systems",
+   "homepage": "https://github.com/varietywalls/variety",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "Variety is a wallpaper manager for Linux systems. It supports numerous\ndesktops and wallpaper sources, including local files and online services:\nFlickr, Wallhaven, Unsplash, and more.\n\nWhere supported, Variety sits as a tray icon to allow easy pausing and\nresuming. Otherwise, its desktop entry menu provides a similar set of\noptions.\n\nVariety also includes a range of image effects, such as oil painting and\nblur, as well as options to layer quotes and a clock onto the background.\n",
+   "maintainers": [
+    {
+     "email": "torres.anderson.85@protonmail.com",
+     "github": "AndersonTorres",
+     "githubId": 5954806,
+     "name": "Anderson Torres"
+    },
+    {
+     "email": "zfnmxt@zfnmxt.com",
+     "github": "zfnmxt",
+     "githubId": 37446532,
+     "name": "zfnmxt"
+    }
+   ],
+   "name": "variety",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/misc/variety/default.nix:65"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

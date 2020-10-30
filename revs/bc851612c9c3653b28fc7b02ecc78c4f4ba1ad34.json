@@ -1,0 +1,4 @@
+{
+ "summary": "A kludge to avoid removal of zlib from RPATH -- needed for LilyPond build",
+ "timestamp": "1328507367"
+}

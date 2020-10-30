@@ -1,0 +1,81 @@
+{
+ "1.5.8": {
+  "meta": {
+   "description": "Cpuset is a Python application that forms a wrapper around the standard Linux filesystem calls to make using the cpusets facilities in the Linux kernel easier.",
+   "homepage": "https://github.com/wykurz/cpuset",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "wykurz@gmail.com",
+     "github": "wykurz",
+     "name": "Mateusz Wykurz"
+    }
+   ],
+   "name": "cpuset",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/os-specific/linux/cpuset/default.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "1.6": {
+  "meta": {
+   "description": "Python application that forms a wrapper around the standard Linux filesystem calls to make using the cpusets facilities in the Linux kernel easier",
+   "homepage": "https://github.com/lpechacek/cpuset",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "thiagokokada@gmail.com",
+     "github": "thiagokokada",
+     "githubId": 844343,
+     "name": "Thiago K. Okada"
+    },
+    {
+     "email": "wykurz@gmail.com",
+     "github": "wykurz",
+     "githubId": 483465,
+     "name": "Mateusz Wykurz"
+    }
+   ],
+   "name": "cpuset",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/os-specific/linux/cpuset/default.nix:39"
+  },
+  "revs": [
+   "02fac027aff09e3422023f059fccf9aec2f41348",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

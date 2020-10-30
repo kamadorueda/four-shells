@@ -1,0 +1,4 @@
+{
+ "summary": "httpd: disable logging when logFormat = \"none\"",
+ "timestamp": "1404995528"
+}

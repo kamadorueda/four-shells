@@ -1,0 +1,4 @@
+{
+ "summary": "sqlite: do not contaminate dependent libtool-based projects with sqlite dependencies",
+ "timestamp": "1527603643"
+}

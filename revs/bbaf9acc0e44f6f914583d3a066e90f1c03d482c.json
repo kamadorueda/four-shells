@@ -1,0 +1,4 @@
+{
+ "summary": "fix php compilation without xdebug. Not using xdebug is the default now xdebug update to 2.0.5 because I had strange behaviour while running a piece of code",
+ "timestamp": "1256230147"
+}

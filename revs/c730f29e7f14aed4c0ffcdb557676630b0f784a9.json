@@ -1,0 +1,4 @@
+{
+ "summary": "network-scripting: do not run resolvconf if /etc/resolv.conf is managed manually (#56682)",
+ "timestamp": "1552131734"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "syncthing: remove runtime dependency on go",
+ "timestamp": "1484301064"
+}

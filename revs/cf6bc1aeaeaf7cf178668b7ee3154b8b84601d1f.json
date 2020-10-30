@@ -1,0 +1,4 @@
+{
+ "summary": "* Apply a patch to prevent the X server from segfaulting if kwin is   run with swrast_dri (e.g. with the VGA driver).  (NixOS/121)",
+ "timestamp": "1299532594"
+}

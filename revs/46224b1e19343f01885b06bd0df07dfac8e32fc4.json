@@ -1,0 +1,4 @@
+{
+ "summary": "cifs-utils: don't check for AC_FUNC_MALLOC when cross compiling",
+ "timestamp": "1607754278"
+}

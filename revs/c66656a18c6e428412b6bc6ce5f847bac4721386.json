@@ -1,0 +1,4 @@
+{
+ "summary": "gnome-doc-utils: fix build for stores containing '+' character",
+ "timestamp": "1505264523"
+}

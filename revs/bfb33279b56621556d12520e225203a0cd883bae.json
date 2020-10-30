@@ -1,0 +1,4 @@
+{
+ "summary": "linux: Fix kernel build for Linux >= 4.14.90. Fixes #53891.",
+ "timestamp": "1547408486"
+}

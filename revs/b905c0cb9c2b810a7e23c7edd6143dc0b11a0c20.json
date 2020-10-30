@@ -1,0 +1,4 @@
+{
+ "summary": "stfl: use libiconv fix on all non-glibc not just darwin",
+ "timestamp": "1515196785"
+}

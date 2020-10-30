@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/install-grub: Fix symlink installation for boot filesystems which don't support symlinking",
+ "timestamp": "1436146485"
+}

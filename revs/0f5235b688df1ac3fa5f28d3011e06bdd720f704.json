@@ -1,0 +1,4 @@
+{
+ "summary": "findutils: fix build on 32-bit ARM",
+ "timestamp": "1605477504"
+}

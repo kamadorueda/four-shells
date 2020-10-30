@@ -1,0 +1,4 @@
+{
+ "summary": "* Fix the GRUB 1 build on x86_64-linux.  It didn't build because   gcc43_multi is broken in the stdenv branch.  However, for GRUB 1 we   can just use the 32-bit build of GRUB (using callPackage_i686).",
+ "timestamp": "1291645558"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Use Firefox instead of Xulrunner for icedtea7_web: reduces builds on realistic NixPkgs use",
+ "timestamp": "1415144874"
+}

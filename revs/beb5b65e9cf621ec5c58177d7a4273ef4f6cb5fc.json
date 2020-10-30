@@ -1,0 +1,4 @@
+{
+ "summary": "systemd: Make \"systemctl daemon-reexec\" do the right thing on NixOS",
+ "timestamp": "1348253832"
+}

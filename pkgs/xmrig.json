@@ -1,0 +1,931 @@
+{
+ "2.10.0": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:28"
+  },
+  "revs": [
+   "0028bad962d0184f190474244b9e51d4b840443d",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "2.11.0": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "0045164b1517419fdfbd3c5cec2eadb7aae9088a",
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
+  ]
+ },
+ "2.13.1": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "28a5c36d1dbab092a4c2a7544a5036bb759d0ffe"
+  ]
+ },
+ "2.14.1": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "000463186d471107324c67faecb5c85e9f06521a",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "2.14.4": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "2.5.2": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": null,
+   "position": "pkgs/applications/misc/xmrig/default.nix:28"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "2.5.3": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": null,
+   "position": "pkgs/applications/misc/xmrig/default.nix:28"
+  },
+  "revs": [
+   "004111c27e11684d6945f82124110c5f17c1bf01",
+   "479f6960d8d7a48c34bf413019068bcc8822f836"
+  ]
+ },
+ "2.6.1": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:28"
+  },
+  "revs": [
+   "006422d08d7f0576d745baa23328e951e0f7b4c2",
+   "b368a1103b8e088d4a73c5953a610142afd65724"
+  ]
+ },
+ "2.6.2": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:28"
+  },
+  "revs": [
+   "00156c3caea9c651d5d1d3dcafa2a9729dcdbd81",
+   "679d5e8bd5089b6c824a8d0d3d541c3a142460f7"
+  ]
+ },
+ "2.6.3": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:28"
+  },
+  "revs": [
+   "0011f10b5754963a7a993390f1c64a89d883e06d",
+   "517c29935b6e4dec12571e7d101e2b0da220263d"
+  ]
+ },
+ "2.6.4": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:28"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ },
+ "2.8.3": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0+",
+    "url": "http://spdx.org/licenses/GPL-3.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "name": "Franz Pletz"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "3.0.0": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "5.1.0": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "5fe5be3d8690f9cb89ec34c829862572994fb216"
+  ]
+ },
+ "5.10.0": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "00215e5bc0f046b0da8af5f5955b13ee8d915d51",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "5.11.1": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "03f116eaa037ce30670da482f12006d24c49206e"
+  ]
+ },
+ "5.11.2": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "001cf3f926af996ec6d779f861bcba4ed04c5411",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "5.11.3": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "5.4.0": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "00610756df9a235f2de907a18cd8fded638d24e0",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "5.5.1": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "5.5.3": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "5.7.0": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0256aa00616a11434e5f75040509ed0a0e79e191"
+  ]
+ },
+ "6.2.2": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "00593bdb64989e20d10f3ef62c0b02efe2644a72",
+   "3049064aa58137a0385ec1a6f392e5a57587f463"
+  ]
+ },
+ "6.5.3": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "6.6.1": {
+  "meta": {
+   "description": "Monero (XMR) CPU miner",
+   "homepage": "https://github.com/xmrig/xmrig",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "fpletz@fnordicwalking.de",
+     "github": "fpletz",
+     "githubId": 114159,
+     "keys": [
+      {
+       "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+       "longkeyid": "rsa4096/0x846FDED7792617B4"
+      }
+     ],
+     "name": "Franz Pletz"
+    },
+    {
+     "email": "email.ahmedkamal@googlemail.com",
+     "github": "kim0",
+     "githubId": 59667,
+     "name": "Ahmed Kamal"
+    }
+   ],
+   "name": "xmrig",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin"
+   ],
+   "position": "pkgs/applications/misc/xmrig/default.nix:30"
+  },
+  "revs": [
+   "00f7db841a144fe187779d542356df0cc691d391",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "0.3": {
+  "meta": {
+   "description": "A small INI library for Python",
+   "homepage": "https://github.com/mitsuhiko/python-inifile",
+   "license": {
+    "fullName": "BSD Zero Clause License",
+    "shortName": "bsd0",
+    "spdxId": "0BSD",
+    "url": "http://spdx.org/licenses/0BSD.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oliver.huntuk@gmail.com",
+     "name": "Oliver Hunt"
+    }
+   ],
+   "name": "python2.7-inifile",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/python-modules/inifile/default.nix:16"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ }
+}

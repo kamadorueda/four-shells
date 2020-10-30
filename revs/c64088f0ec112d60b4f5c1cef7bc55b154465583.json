@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-streaming-commons: fix build on older GHC versions by way of bytestring-builder",
+ "timestamp": "1421792639"
+}

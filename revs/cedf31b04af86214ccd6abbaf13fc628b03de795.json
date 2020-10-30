@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-brick: override to latest version to fix build with ghc-8.4.x",
+ "timestamp": "1521304298"
+}

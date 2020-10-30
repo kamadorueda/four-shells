@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/docker-containers: Move ExecStartPre/ExecStopPost to preStart/postStop",
+ "timestamp": "1581795876"
+}

@@ -1,0 +1,86 @@
+{
+ "4.5.0": {
+  "meta": {
+   "description": "Standard ML Compiler and Toolkit",
+   "homepage": "https://elsman.com/mlkit/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "athas@sigkill.dk",
+     "github": "athas",
+     "githubId": 55833,
+     "name": "Troels Henriksen"
+    }
+   ],
+   "name": "mlkit",
+   "platforms": null,
+   "position": "pkgs/development/compilers/mlkit/default.nix:19"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "4.5.1": {
+  "meta": {
+   "description": "Standard ML Compiler and Toolkit",
+   "homepage": "https://elsman.com/mlkit/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "athas@sigkill.dk",
+     "github": "athas",
+     "githubId": 55833,
+     "name": "Troels Henriksen"
+    }
+   ],
+   "name": "mlkit",
+   "platforms": null,
+   "position": "pkgs/development/compilers/mlkit/default.nix:19"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "4.5.2": {
+  "meta": {
+   "description": "Standard ML Compiler and Toolkit",
+   "homepage": "https://elsman.com/mlkit/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 or later",
+    "shortName": "gpl2Plus",
+    "spdxId": "GPL-2.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "athas@sigkill.dk",
+     "github": "athas",
+     "githubId": 55833,
+     "name": "Troels Henriksen"
+    }
+   ],
+   "name": "mlkit",
+   "platforms": null,
+   "position": "pkgs/development/compilers/mlkit/default.nix:19"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

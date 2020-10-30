@@ -1,0 +1,197 @@
+{
+ "6.30.223.271-5.10": {
+  "meta": {
+   "description": "Kernel module driver for some Broadcom's wireless cards",
+   "homepage": "http://www.broadcom.com/support/802.11/linux_sta.php",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "githubId": 62577,
+     "name": "Evgeny Egorochkin"
+    }
+   ],
+   "name": "broadcom-sta",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/broadcom-sta/default.nix:61"
+  },
+  "revs": [
+   "046f8835dcb9082beb75bb471c28c832e1b067b6",
+   "8cea3c4866723504108e53893c5fd377b3f5ff8d"
+  ]
+ },
+ "6.30.223.271-5.10.1": {
+  "meta": {
+   "description": "Kernel module driver for some Broadcom's wireless cards",
+   "homepage": "http://www.broadcom.com/support/802.11/linux_sta.php",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "githubId": 62577,
+     "name": "Evgeny Egorochkin"
+    }
+   ],
+   "name": "broadcom-sta",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/broadcom-sta/default.nix:61"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "99061cb6ac8197d456692ccec06a6bfa8354917a"
+  ]
+ },
+ "6.30.223.271-5.10.2": {
+  "meta": {
+   "description": "Kernel module driver for some Broadcom's wireless cards",
+   "homepage": "http://www.broadcom.com/support/802.11/linux_sta.php",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "githubId": 62577,
+     "name": "Evgeny Egorochkin"
+    }
+   ],
+   "name": "broadcom-sta",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/broadcom-sta/default.nix:61"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "6.30.223.271-5.10.3": {
+  "meta": {
+   "description": "Kernel module driver for some Broadcom's wireless cards",
+   "homepage": "http://www.broadcom.com/support/802.11/linux_sta.php",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "githubId": 62577,
+     "name": "Evgeny Egorochkin"
+    }
+   ],
+   "name": "broadcom-sta",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/broadcom-sta/default.nix:61"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a"
+  ]
+ },
+ "6.30.223.271-5.10.4": {
+  "meta": {
+   "description": "Kernel module driver for some Broadcom's wireless cards",
+   "homepage": "http://www.broadcom.com/support/802.11/linux_sta.php",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "phreedom@yandex.ru",
+     "github": "phreedom",
+     "githubId": 62577,
+     "name": "Evgeny Egorochkin"
+    }
+   ],
+   "name": "broadcom-sta",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/broadcom-sta/default.nix:63"
+  },
+  "revs": [
+   "08668447e2f07e1bc92a0a6278102507d3d703a9",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* Fixed Calibre (it was referring to \"python2\", which doesn't exist)   and updated it to 0.8.32.",
+ "timestamp": "1325175766"
+}

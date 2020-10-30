@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/tests/firewall.nix: ping now succeeds in the firewall's default configuration",
+ "timestamp": "1458297810"
+}

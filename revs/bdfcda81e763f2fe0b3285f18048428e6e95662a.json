@@ -1,0 +1,4 @@
+{
+ "summary": "add lowPrioSet and hiPrioSet functions to enable changing of priorities of attrsets with packages such as kde.",
+ "timestamp": "1388024549"
+}

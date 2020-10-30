@@ -1,0 +1,42 @@
+{
+ "2.8.2": {
+  "meta": {
+   "description": "Media Manager for Kodi",
+   "homepage": "https://mediaelch.de/mediaelch/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 only",
+    "shortName": "lgpl3Only",
+    "spdxId": "LGPL-3.0-only",
+    "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "account@buehler.rocks",
+     "github": "Stunkymonkey",
+     "githubId": 1315818,
+     "name": "Felix B\u00fchler"
+    }
+   ],
+   "name": "mediaelch",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/misc/mediaelch/default.nix:36"
+  },
+  "revs": [
+   "014a3429ea6c8349bb7ede1ad5597b844731dc14",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

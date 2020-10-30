@@ -1,0 +1,4 @@
+{
+ "summary": "Use -isystem instead of -I for system headers to avoid warnings when using -pedantic",
+ "timestamp": "1319697585"
+}

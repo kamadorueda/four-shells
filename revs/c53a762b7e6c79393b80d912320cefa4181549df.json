@@ -1,0 +1,4 @@
+{
+ "summary": "evince: add shared_mime_info dir to XDG_DATA_DIRS env variable",
+ "timestamp": "1459000953"
+}

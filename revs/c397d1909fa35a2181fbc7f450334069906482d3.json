@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/mailman: don't keep secrets in the Nix store",
+ "timestamp": "1571593310"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "nixos-generate-config: do not build btrfs-tools when btrfs is not used",
+ "timestamp": "1556194100"
+}

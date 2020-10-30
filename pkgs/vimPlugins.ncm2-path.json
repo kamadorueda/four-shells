@@ -1,0 +1,66 @@
+{
+ "2018-08-01": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-ncm2-path",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:399"
+  },
+  "revs": [
+   "00ed6a6b30d8a9dca57d4b230d540d52eb5656cf",
+   "ceb0d1a5658c1c27b48ef52504809f78cef70e79"
+  ]
+ },
+ "2018-09-12": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-ncm2-path",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "2019-01-11": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-ncm2-path",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1007"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "2019-02-20": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/ncm2/ncm2-path/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-ncm2-path",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2355"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

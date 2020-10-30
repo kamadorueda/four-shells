@@ -1,0 +1,82 @@
+{
+ "2020-08-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/andymass/vim-matchup/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-matchup",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5394"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-09-07": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/andymass/vim-matchup/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-matchup",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5418"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/andymass/vim-matchup/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-matchup",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5840"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-05": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/andymass/vim-matchup/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-matchup",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5840"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "58e72782e37718c51e7ffcffed895138f86ad01a"
+  ]
+ },
+ "2020-12-09": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/andymass/vim-matchup/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-matchup",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:5865"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

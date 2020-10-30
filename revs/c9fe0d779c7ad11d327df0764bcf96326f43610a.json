@@ -1,0 +1,4 @@
+{
+ "summary": "libjpeg(-turbo): drop unneeded autoreconf, fix cross",
+ "timestamp": "1461069946"
+}

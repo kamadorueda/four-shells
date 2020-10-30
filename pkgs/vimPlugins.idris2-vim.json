@@ -1,0 +1,34 @@
+{
+ "2020-05-25": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/edwinb/idris2-vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-idris2-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1658"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-26": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/edwinb/idris2-vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-idris2-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1658"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

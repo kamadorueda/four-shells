@@ -1,0 +1,4 @@
+{
+ "summary": "mono: change default version to \"latest\" (5.8), because 4.0 does not evaluate due to security",
+ "timestamp": "1524937155"
+}

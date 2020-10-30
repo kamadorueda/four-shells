@@ -1,0 +1,4 @@
+{
+ "summary": "platforms.nix: Include RPi 3 serial port in the kernel config",
+ "timestamp": "1517588017"
+}

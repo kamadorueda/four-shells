@@ -1,0 +1,4 @@
+{
+ "summary": "k8s: convert int to string to avoid interpolation error",
+ "timestamp": "1492083103"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Eliminate some optionals/optionalAttrs calls on the hot path",
+ "timestamp": "1412466874"
+}

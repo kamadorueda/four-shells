@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-hpack: disable the test suite to avoid build failures",
+ "timestamp": "1565542066"
+}

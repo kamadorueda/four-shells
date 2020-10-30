@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/zerotier: binds to network-online.target to avoid the 1m30s timeout before kill on shutdown",
+ "timestamp": "1540844560"
+}

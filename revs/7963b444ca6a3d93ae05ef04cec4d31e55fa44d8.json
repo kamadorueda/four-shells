@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-ListLike: patch to fix the build with ghc-8.10.3",
+ "timestamp": "1608923682"
+}

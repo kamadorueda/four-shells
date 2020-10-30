@@ -1,0 +1,4 @@
+{
+ "summary": "* Default compiler changed to GCC 4.2.2. * Fix for NIXPKGS-60 (\"g++ 4.2.0 cannot create dynamically linked executables\").",
+ "timestamp": "1195139998"
+}

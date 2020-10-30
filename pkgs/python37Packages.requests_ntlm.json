@@ -1,0 +1,31 @@
+{
+ "1.1.0": {
+  "meta": {
+   "description": "HTTP NTLM authentication support for python-requests",
+   "homepage": "https://github.com/requests/requests-ntlm",
+   "license": {
+    "fullName": "ISC License",
+    "shortName": "isc",
+    "spdxId": "ISC",
+    "url": "http://spdx.org/licenses/ISC.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@elasticdog.com",
+     "github": "elasticdog",
+     "name": "Aaron Bull Schaefer"
+    }
+   ],
+   "name": "python3.7-requests_ntlm",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/python-modules/requests_ntlm/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

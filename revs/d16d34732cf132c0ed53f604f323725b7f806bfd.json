@@ -1,0 +1,4 @@
+{
+ "summary": "journald service: Increase default rate limit 1000 -> 10000.",
+ "timestamp": "1587486543"
+}

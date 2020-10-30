@@ -1,0 +1,4 @@
+{
+ "summary": "fix travis evaluation by providing explicit libiconv for the rare cases that need it, like uclibc",
+ "timestamp": "1424232626"
+}

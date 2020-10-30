@@ -1,0 +1,4 @@
+{
+ "summary": "vim-utils: restore `beforePlugins` option some plugins require configuration before their plugin definition",
+ "timestamp": "1588789124"
+}

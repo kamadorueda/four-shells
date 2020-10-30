@@ -1,0 +1,4 @@
+{
+ "summary": "lxd: 3.10 -> 3.11, patch vendored go-dqlite to fix w/dqlite 0.2.6",
+ "timestamp": "1552413407"
+}

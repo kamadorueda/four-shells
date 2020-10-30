@@ -1,0 +1,4 @@
+{
+ "summary": "* Install/uninstall all RPMs in one operation.  This is necessary if   the RPMs have dependencies between each other.",
+ "timestamp": "1338472247"
+}

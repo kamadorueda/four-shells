@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/mysql: don't run parts of mysqld.service as root (#61589)",
+ "timestamp": "1559334572"
+}

@@ -1,0 +1,86 @@
+{
+ "1.2.6": {
+  "meta": {
+   "description": "Statically typed, imperative programming language",
+   "homepage": "https://nim-lang.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    }
+   ],
+   "name": "nim-unwrapped",
+   "platforms": null,
+   "position": "pkgs/development/compilers/nim/default.nix:14"
+  },
+  "revs": [
+   "001334b47c6cdfc35e94805380484e75004cdbf5",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "1.4.0": {
+  "meta": {
+   "description": "Statically typed, imperative programming language",
+   "homepage": "https://nim-lang.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    }
+   ],
+   "name": "nim-unwrapped",
+   "platforms": null,
+   "position": "pkgs/development/compilers/nim/default.nix:14"
+  },
+  "revs": [
+   "06deaadb706ad64b9f55ddf934686d1d689f291a",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "1.4.2": {
+  "meta": {
+   "description": "Statically typed, imperative programming language",
+   "homepage": "https://nim-lang.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ehmry@posteo.net",
+     "github": "ehmry",
+     "githubId": 537775,
+     "name": "Emery Hemingway"
+    }
+   ],
+   "name": "nim-unwrapped",
+   "platforms": null,
+   "position": "gs/pkgs/development/compilers/nim/default.nix:14"
+  },
+  "revs": [
+   "0081f50505436a5787cbf50af8ef4d9d04620ad6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

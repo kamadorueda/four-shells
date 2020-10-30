@@ -1,0 +1,4 @@
+{
+ "summary": "Use the same directory layout for user-installed Haskell libraries that GHC uses for its core libraries, so that these files integrate seamlessly into one profile, living right next to each other. This change is eventually going to simply our with-packages wrapper quite a bit.",
+ "timestamp": "1363376295"
+}

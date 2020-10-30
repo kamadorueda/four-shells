@@ -1,0 +1,31 @@
+{
+ "2018-01-07": {
+  "meta": {
+   "description": "SQLite Archive utilities",
+   "homepage": "https://sqlite.org/sqlar",
+   "license": {
+    "fullName": "BSD 2-clause \"Simplified\" License",
+    "shortName": "bsd2",
+    "spdxId": "BSD-2-Clause",
+    "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "nix@wdtz.org",
+     "github": "dtzWill",
+     "name": "Will Dietz"
+    }
+   ],
+   "name": "sqlar",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/libraries/sqlite/sqlar.nix:22"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

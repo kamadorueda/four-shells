@@ -1,0 +1,4 @@
+{
+ "summary": "rust: improve fetch-cargo-deps determinism for non-sandboxed builds",
+ "timestamp": "1492809818"
+}

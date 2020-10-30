@@ -1,0 +1,4 @@
+{
+ "summary": "* Perl BerkeleyDB module: updated to 0.36 since \"make test\" failed in   the old one.",
+ "timestamp": "1234522741"
+}

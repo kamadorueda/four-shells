@@ -1,0 +1,4 @@
+{
+ "summary": "Dummy SBCL property to allow other derivations to build.",
+ "timestamp": "1446946849"
+}

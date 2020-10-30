@@ -1,0 +1,672 @@
+{
+ "2020.1017.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    },
+    {
+     "free": false,
+     "fullName": "Unfree redistributable",
+     "shortName": "unfreeRedistributable"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:100"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020.1121.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    },
+    {
+     "free": false,
+     "fullName": "Unfree redistributable",
+     "shortName": "unfreeRedistributable"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:100"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020.1128.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    },
+    {
+     "free": false,
+     "fullName": "Unfree redistributable",
+     "shortName": "unfreeRedistributable"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:100"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "93335aa252b3067d87ac19aa31b78b6943e94ea8"
+  ]
+ },
+ "2020.1204.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    },
+    {
+     "free": false,
+     "fullName": "Unfree redistributable",
+     "shortName": "unfreeRedistributable"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:100"
+  },
+  "revs": [
+   "0cc6e0a4106f3fc1cc0b765ab0f17b697c3d910d",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020.1225.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    },
+    {
+     "free": false,
+     "fullName": "Unfree redistributable",
+     "shortName": "unfreeRedistributable"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/games/osu-lazer/default.nix:107"
+  },
+  "revs": [
+   "02fac027aff09e3422023f059fccf9aec2f41348",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "2020.707.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:97"
+  },
+  "revs": [
+   "a21ba99681b00a9deddbc16373ce9f78f9c83189",
+   "a21ba99681b00a9deddbc16373ce9f78f9c83189"
+  ]
+ },
+ "2020.712.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:97"
+  },
+  "revs": [
+   "4bbedffe50d981443a94e3c57b136a0b1b520689",
+   "4bbedffe50d981443a94e3c57b136a0b1b520689"
+  ]
+ },
+ "2020.714.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:97"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "2020.725.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:97"
+  },
+  "revs": [
+   "003f88de6502c3a7c07edb3d29f395ca0db5fe5c",
+   "5de26dd52d23259aa74de23834f180ea6d358fa6"
+  ]
+ },
+ "2020.801.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:97"
+  },
+  "revs": [
+   "002ecd07e128b7ee5dc4ed23f1da4abbe9007880",
+   "1127b73eee169ee67b7e34655bcff3047ec732a3"
+  ]
+ },
+ "2020.806.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:100"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "bf3f39789dfe739b762ce6768bc9289bfe74c424"
+  ]
+ },
+ "2020.820.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    },
+    {
+     "free": false,
+     "fullName": "Unfree redistributable",
+     "shortName": "unfreeRedistributable"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:100"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "86b85c079cbcba504927f75199842a64ca1e9cf1"
+  ]
+ },
+ "2020.903.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    },
+    {
+     "free": false,
+     "fullName": "Unfree redistributable",
+     "shortName": "unfreeRedistributable"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:100"
+  },
+  "revs": [
+   "001334b47c6cdfc35e94805380484e75004cdbf5",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020.925.0": {
+  "meta": {
+   "description": "Rhythm is just a *click* away",
+   "homepage": "https://osu.ppy.sh",
+   "license": [
+    {
+     "fullName": "MIT License",
+     "shortName": "mit",
+     "spdxId": "MIT",
+     "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+     "free": false,
+     "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+     "shortName": "cc-by-nc-40",
+     "spdxId": "CC-BY-NC-4.0",
+     "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+    },
+    {
+     "free": false,
+     "fullName": "Unfree redistributable",
+     "shortName": "unfreeRedistributable"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "oxalicc@pm.me",
+     "github": "oxalica",
+     "githubId": 14816024,
+     "keys": [
+      {
+       "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+       "longkeyid": "rsa4096/0xCED392DE0C483D00"
+      }
+     ],
+     "name": "oxalica"
+    }
+   ],
+   "name": "osu-lazer",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/games/osu-lazer/default.nix:100"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ }
+}

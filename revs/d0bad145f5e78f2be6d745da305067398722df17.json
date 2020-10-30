@@ -1,0 +1,4 @@
+{
+ "summary": "perl-modules: do not create perllocal.pod, for determinism",
+ "timestamp": "1397130326"
+}

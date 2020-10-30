@@ -1,0 +1,4 @@
+{
+ "summary": "neovim wrapper: use python.withPackages instead of python.buildEnv",
+ "timestamp": "1531342646"
+}

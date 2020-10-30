@@ -1,0 +1,4 @@
+{
+ "summary": "fix evaluation with `config.allowAliases = false` (#59879)",
+ "timestamp": "1555679643"
+}

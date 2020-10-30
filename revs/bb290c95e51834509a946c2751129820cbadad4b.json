@@ -1,0 +1,4 @@
+{
+ "summary": "nextcloud-client: add inotify dependency when building on linux",
+ "timestamp": "1505172857"
+}

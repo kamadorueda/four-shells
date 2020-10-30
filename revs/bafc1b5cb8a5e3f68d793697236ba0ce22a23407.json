@@ -1,0 +1,4 @@
+{
+ "summary": "* While we're at it, bump OpenSSL to 1.0.0d (with a fix for   CVE-2011-0014).",
+ "timestamp": "1297249344"
+}

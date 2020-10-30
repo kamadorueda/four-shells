@@ -1,0 +1,4 @@
+{
+ "summary": "no-x-libs.nix: Ensure that dbus doesn't use X11",
+ "timestamp": "1473075496"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "sssd: fixup build after bind output changes #21685",
+ "timestamp": "1483989807"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "On Darwin, set NO_APPLE_COMMON_CRYPTO=1 for git builds",
+ "timestamp": "1397505195"
+}

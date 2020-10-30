@@ -1,0 +1,4 @@
+{
+ "summary": "perlPackages.LaTeXML: patch shebangs to use full path to perl on darwin",
+ "timestamp": "1606587468"
+}

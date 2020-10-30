@@ -1,0 +1,4 @@
+{
+ "summary": "* Fix the upower build in the case where /var/lib/upower doesn't exist   already (http://hydra.nixos.org/build/1646705).",
+ "timestamp": "1324422606"
+}

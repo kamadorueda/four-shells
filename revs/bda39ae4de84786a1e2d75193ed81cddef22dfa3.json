@@ -1,0 +1,4 @@
+{
+ "summary": "remove unused parameter from nixos module that is causing trouble with nixops 1.2",
+ "timestamp": "1413720604"
+}

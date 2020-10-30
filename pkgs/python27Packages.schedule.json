@@ -1,0 +1,71 @@
+{
+ "0.3.2": {
+  "meta": {
+   "description": "Python job scheduling for humans",
+   "homepage": "https://github.com/dbader/schedule",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "python2.7-schedule",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/top-level/python-packages.nix:4494"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "0.5.0": {
+  "meta": {
+   "description": "Python job scheduling for humans",
+   "homepage": "https://github.com/dbader/schedule",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "python2.7-schedule",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/python-modules/schedule/default.nix:19"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "0.6.0": {
+  "meta": {
+   "description": "Python job scheduling for humans",
+   "homepage": "https://github.com/dbader/schedule",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "python2.7-schedule",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/python-modules/schedule/default.nix:19"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ }
+}

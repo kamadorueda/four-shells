@@ -1,0 +1,46 @@
+{
+ "11.0.3": {
+  "meta": {
+   "description": "A compiler for NVIDIA GPUs, math libraries, and tools",
+   "homepage": "https://developer.nvidia.com/cuda-toolkit",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "cudatoolkit",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/compilers/cudatoolkit/common.nix:235"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "11.1.1": {
+  "meta": {
+   "description": "A compiler for NVIDIA GPUs, math libraries, and tools",
+   "homepage": "https://developer.nvidia.com/cuda-toolkit",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "cudatoolkit",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/development/compilers/cudatoolkit/common.nix:236"
+  },
+  "revs": [
+   "08668447e2f07e1bc92a0a6278102507d3d703a9",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Print output of `git describe` in `nix-prefetch-git`",
+ "timestamp": "1403647930"
+}

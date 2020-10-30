@@ -1,0 +1,33 @@
+{
+ "1.8": {
+  "meta": {
+   "description": "Provides OAuth 2.0 credentials that can be used with Google Cloud Storage",
+   "homepage": "https://developers.google.com/storage/docs/gspythonlibrary",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Florian Friesdorf <flo@chaoflow.net>",
+    "Domen Kozar <domen@dev.si>"
+   ],
+   "name": "python3.3-gcs-oauth2-boto-plugin",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "x86_64-darwin"
+   ],
+   "position": "gs/pkgs/top-level/python-packages.nix:2403"
+  },
+  "revs": [
+   "b91adb64ce6fdf88e5c2c41f2a8cc0cbc36d8395",
+   "b91adb64ce6fdf88e5c2c41f2a8cc0cbc36d8395"
+  ]
+ }
+}

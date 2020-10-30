@@ -1,0 +1,4 @@
+{
+ "summary": "* Build those Python modules in the Python distribution that require   additional dependencies (e.g. SQLite, X11, or Tcl/Tk) outside the   main Python package (i.e., pythonBase).  This makes pythonFull   unnecessary: you can just pass the additional modules as   buildInputs to packages that require them, e.g.",
+ "timestamp": "1294071911"
+}

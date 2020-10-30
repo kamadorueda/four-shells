@@ -1,0 +1,4 @@
+{
+ "summary": "SDL2_{gfx,mixer,net,ttf}: move libobjc to buildInputs",
+ "timestamp": "1516485464"
+}

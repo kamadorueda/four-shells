@@ -1,0 +1,120 @@
+{
+ "3.4": {
+  "meta": {
+   "description": "",
+   "homepage": "http://freedesktop.org/wiki/Software/LibXklavier",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libxklavier",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000ba6536350b58079484fc64b467ec227e73e26",
+   "b98aa7e40159432daee2315e8dd7fc9c36b59680"
+  ]
+ },
+ "3.9": {
+  "meta": {
+   "description": "",
+   "homepage": "http://freedesktop.org/wiki/Software/LibXklavier",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libxklavier",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000e1c7c2273c6f1c9faaafd82c3f716174eec25",
+   "bc939a87b412ac0ac3cdd47c0a2e8a1dd8aa07c3"
+  ]
+ },
+ "4.0": {
+  "meta": {
+   "description": "",
+   "homepage": "http://freedesktop.org/wiki/Software/LibXklavier",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libxklavier",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0003f76f9b29d92ce7acb8e3f35f3805c91687d6",
+   "5d62c65d6e085481a36c857e8b86f88d80b1c565"
+  ]
+ },
+ "5.0": {
+  "meta": {
+   "description": "",
+   "homepage": "http://freedesktop.org/wiki/Software/LibXklavier",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "libxklavier",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "1a55c4b89f6f6e337d1ca8878bfd8104f3fb6304"
+  ]
+ },
+ "5.3": {
+  "meta": {
+   "description": "Library providing high-level API for X Keyboard Extension known as XKB",
+   "homepage": "http://freedesktop.org/wiki/Software/LibXklavier",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "libxklavier",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libxklavier/default.nix:31"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "5.4": {
+  "meta": {
+   "description": "Library providing high-level API for X Keyboard Extension known as XKB",
+   "homepage": "http://freedesktop.org/wiki/Software/LibXklavier",
+   "license": {
+    "fullName": "GNU Library General Public License v2 or later",
+    "shortName": "lgpl2Plus",
+    "spdxId": "LGPL-2.0+",
+    "url": "http://spdx.org/licenses/LGPL-2.0+.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "libxklavier",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/development/libraries/libxklavier/default.nix:38"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

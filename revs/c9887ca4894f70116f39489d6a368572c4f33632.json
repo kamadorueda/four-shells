@@ -1,0 +1,4 @@
+{
+ "summary": "cabal-install: use native Cabal version when compiling with GHC 7.9.x",
+ "timestamp": "1400320062"
+}

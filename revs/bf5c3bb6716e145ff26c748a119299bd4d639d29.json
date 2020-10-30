@@ -1,0 +1,4 @@
+{
+ "summary": "- libgcc_s seems to be needed after all - eduke32 uses UNIX style options nowadays",
+ "timestamp": "1311594207"
+}

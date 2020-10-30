@@ -1,0 +1,4 @@
+{
+ "summary": "* When doing coverage builds, set useTempPrefix (in case we're doing   an \"installcheck\").",
+ "timestamp": "1332173129"
+}

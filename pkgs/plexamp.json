@@ -1,0 +1,118 @@
+{
+ "3.0.3": {
+  "meta": {
+   "description": "A beautiful Plex music player for audiophiles, curators, and hipsters.",
+   "homepage": "https://plexamp.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "killercup@gmail.com",
+     "github": "killercup",
+     "githubId": 20063,
+     "name": "Pascal Hertleif"
+    }
+   ],
+   "name": "plexamp",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/plexamp/default.nix:33"
+  },
+  "revs": [
+   "30a97cf45cdc1ae460bae17bb43d426b071246f6",
+   "30a97cf45cdc1ae460bae17bb43d426b071246f6"
+  ]
+ },
+ "3.1.1": {
+  "meta": {
+   "description": "A beautiful Plex music player for audiophiles, curators, and hipsters.",
+   "homepage": "https://plexamp.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "killercup@gmail.com",
+     "github": "killercup",
+     "githubId": 20063,
+     "name": "Pascal Hertleif"
+    }
+   ],
+   "name": "plexamp",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/plexamp/default.nix:33"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "3.2.0": {
+  "meta": {
+   "description": "A beautiful Plex music player for audiophiles, curators, and hipsters",
+   "homepage": "https://plexamp.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "killercup@gmail.com",
+     "github": "killercup",
+     "githubId": 20063,
+     "name": "Pascal Hertleif"
+    }
+   ],
+   "name": "plexamp",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/plexamp/default.nix:33"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "3.3.1": {
+  "meta": {
+   "description": "A beautiful Plex music player for audiophiles, curators, and hipsters",
+   "homepage": "https://plexamp.com/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "killercup@gmail.com",
+     "github": "killercup",
+     "githubId": 20063,
+     "name": "Pascal Hertleif"
+    }
+   ],
+   "name": "plexamp",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/plexamp/default.nix:33"
+  },
+  "revs": [
+   "00213ef17f8bc35aae3227012256713d17b1d0d8",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

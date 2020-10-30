@@ -1,0 +1,4 @@
+{
+ "summary": "vm/windows: Use &&, not set -e in runAndSuspend.",
+ "timestamp": "1392585162"
+}

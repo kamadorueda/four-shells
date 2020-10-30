@@ -1,0 +1,130 @@
+{
+ "2018-04-26": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-open-browser-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "925b028f1779027d65ef75ecc87563c45805d0c3"
+  ]
+ },
+ "2018-11-29": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-open-browser-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "2019-11-14": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-open-browser-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2129"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "2020-01-27": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-open-browser-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2250"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "929768261a3ede470eafb58d5b819e1a848aa8bf"
+  ]
+ },
+ "2020-02-07": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-open-browser-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2272"
+  },
+  "revs": [
+   "0030d391d229a2d5983752741d6bc0153dc82f1b",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "2020-02-20": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-open-browser-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2327"
+  },
+  "revs": [
+   "0029baca2ba2b52706f1ff160058128ddcff5575",
+   "0256aa00616a11434e5f75040509ed0a0e79e191"
+  ]
+ },
+ "2020-03-06": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-open-browser-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2338"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "2020-05-20": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/tyru/open-browser.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-open-browser-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2871"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

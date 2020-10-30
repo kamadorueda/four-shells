@@ -1,0 +1,4 @@
+{
+ "summary": "dropbox: add libGL fallback to LD_LIBRARY_PATH",
+ "timestamp": "1450540009"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "nix-prefetch-scripts: make nix-prefetch-git report fetchSubmodules in its JSON output",
+ "timestamp": "1458617178"
+}

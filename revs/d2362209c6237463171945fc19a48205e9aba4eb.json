@@ -1,0 +1,4 @@
+{
+ "summary": "Fix aeson on GHC 8.4",
+ "timestamp": "1548841482"
+}

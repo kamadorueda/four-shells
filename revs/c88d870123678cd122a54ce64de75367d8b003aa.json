@@ -1,0 +1,4 @@
+{
+ "summary": "Haskell packages that require access to libc (for <time.h>, etc.) consistently depend on the (non-existent) attribute 'libc'. That dependency is then fulfilled by defining",
+ "timestamp": "1315845974"
+}

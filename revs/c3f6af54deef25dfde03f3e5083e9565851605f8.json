@@ -1,0 +1,4 @@
+{
+ "summary": "libusb-compat: propagate libusb1 to fix -ludev failures",
+ "timestamp": "1415984933"
+}

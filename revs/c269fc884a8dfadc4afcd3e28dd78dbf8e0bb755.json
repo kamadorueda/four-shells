@@ -1,0 +1,4 @@
+{
+ "summary": "mpv: also disable xineramaSupport & xvSupport on darwin",
+ "timestamp": "1519776178"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Apply patch taken from http://www.linuxfromscratch.org/blfs/view/svn/general/bc.html to fix segfault when using -l option.",
+ "timestamp": "1294283485"
+}

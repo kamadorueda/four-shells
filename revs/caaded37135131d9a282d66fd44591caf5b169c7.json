@@ -1,0 +1,4 @@
+{
+ "summary": "Disable inotify support on SunOS: it\u2019s Linux-specific. This amazingly fixes the coreutils build on SmartOS.",
+ "timestamp": "1446869655"
+}

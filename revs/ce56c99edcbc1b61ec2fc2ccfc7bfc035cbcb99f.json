@@ -1,0 +1,4 @@
+{
+ "summary": "mkDerivation: Don't pass buildInputs to stdenv builder in nativeBuildInputs",
+ "timestamp": "1488377358"
+}

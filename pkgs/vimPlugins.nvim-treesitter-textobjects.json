@@ -1,0 +1,98 @@
+{
+ "2020-11-05": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-treesitter-textobjects",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2667"
+  },
+  "revs": [
+   "002a5f9de16130ac9f8e474de75d9b5eca7bf4bd",
+   "4074d4ad98fb41093c492e5e57492ef65caf1d13"
+  ]
+ },
+ "2020-11-18": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-treesitter-textobjects",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2775"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-20": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-treesitter-textobjects",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2811"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-03": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-treesitter-textobjects",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2811"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "c7928fb076ec65c82d070c499e5fa4b13bbc9458"
+  ]
+ },
+ "2020-12-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-treesitter-textobjects",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:2823"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-treesitter-textobjects",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:2847"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

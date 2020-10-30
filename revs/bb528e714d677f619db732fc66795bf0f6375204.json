@@ -1,0 +1,4 @@
+{
+ "summary": "Fix #9759 SSMTP sendmail wrapper - cfg instead of full path",
+ "timestamp": "1469300338"
+}

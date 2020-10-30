@@ -1,0 +1,4 @@
+{
+ "summary": "ncurses: Add a symlink to the fully suffixed directory which was incorrectly skipped when this code was modified",
+ "timestamp": "1435029926"
+}

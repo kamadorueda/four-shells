@@ -1,0 +1,4 @@
+{
+ "summary": "nixos: make the grsec-lock unit depend on the path it writes to",
+ "timestamp": "1425246416"
+}

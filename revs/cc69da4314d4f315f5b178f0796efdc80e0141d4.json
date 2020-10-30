@@ -1,0 +1,4 @@
+{
+ "summary": "Put /efi and /loader on the main livecd partition for efi booting with unetbootin",
+ "timestamp": "1384471107"
+}

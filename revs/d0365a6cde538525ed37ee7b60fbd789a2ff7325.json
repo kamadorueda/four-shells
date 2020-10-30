@@ -1,0 +1,4 @@
+{
+ "summary": "git-annex: build on Darwin, and rely on cabal to set flags",
+ "timestamp": "1402367303"
+}

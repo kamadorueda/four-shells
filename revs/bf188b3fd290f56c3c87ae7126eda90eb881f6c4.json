@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-http-conduit: patch to support recent versions of base64-bytestring and asn1-data",
+ "timestamp": "1346149731"
+}

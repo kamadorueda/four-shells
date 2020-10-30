@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/postgresql: Change local auth method from ident to peer (#80179)",
+ "timestamp": "1581803735"
+}

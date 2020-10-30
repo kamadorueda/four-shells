@@ -1,0 +1,4 @@
+{
+ "summary": "pandoc: disable test suite to fix the build",
+ "timestamp": "1608295632"
+}

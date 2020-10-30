@@ -1,0 +1,4 @@
+{
+ "summary": "Disabling NLS for the zip at openoffice builders. I think it breaks the builds, based on the nixpkgs diff for the breakage at http://hydra.nixos.org/build/1964660 .",
+ "timestamp": "1330185297"
+}

@@ -1,0 +1,162 @@
+{
+ "2018-07-13": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-tmux-navigator",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "4f43e5fe886374ec918da4bf494710cd58c4adf7"
+  ]
+ },
+ "2018-10-19": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-tmux-navigator",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
+   "925b028f1779027d65ef75ecc87563c45805d0c3"
+  ]
+ },
+ "2018-11-03": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-tmux-navigator",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "2019-01-29": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-tmux-navigator",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3648"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "2019-12-10": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-tmux-navigator",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5651"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "2020-04-23": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/christoomey/vim-tmux-navigator/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-tmux-navigator",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6751"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-09-18": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/christoomey/vim-tmux-navigator/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-tmux-navigator",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6751"
+  },
+  "revs": [
+   "004676ce9c8275598182884c9e5a823a34eaa173",
+   "a42129513d5b923c70a462406062b79f8230ea52"
+  ]
+ },
+ "2020-09-29": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/christoomey/vim-tmux-navigator/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-tmux-navigator",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6763"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-12": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/christoomey/vim-tmux-navigator/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-tmux-navigator",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6847"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "3de98bfc": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vim-tmux-navigator-git",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/default.nix:629"
+  },
+  "revs": [
+   "0005e1896d9bdef48aedcff9e86843351ac024e9",
+   "2f9219918357023484cde6268c50293b253a88c9"
+  ]
+ }
+}

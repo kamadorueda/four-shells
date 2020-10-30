@@ -1,0 +1,4 @@
+{
+ "summary": "Patch 7a20d76 failed when the Haskell expression lacked a meta attribute. This commit fixes that issue.",
+ "timestamp": "1413930192"
+}

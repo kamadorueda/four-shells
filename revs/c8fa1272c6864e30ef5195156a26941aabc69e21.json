@@ -1,0 +1,4 @@
+{
+ "summary": "khal: no need to set LC_ALL, python build bits do this.",
+ "timestamp": "1553573834"
+}

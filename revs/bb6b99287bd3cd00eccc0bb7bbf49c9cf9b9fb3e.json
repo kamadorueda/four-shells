@@ -1,0 +1,4 @@
+{
+ "summary": "cabal2nix: drop obsolete overrides for ghc-8.4.x",
+ "timestamp": "1521292426"
+}

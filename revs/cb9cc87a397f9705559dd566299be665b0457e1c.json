@@ -1,0 +1,4 @@
+{
+ "summary": "kernel.passthru: Don't include meta to be consistent with stdenv.mkDerivation",
+ "timestamp": "1390356778"
+}

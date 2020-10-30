@@ -1,0 +1,4 @@
+{
+ "summary": "mesos service: only pass --zk if quorum > 0",
+ "timestamp": "1431295980"
+}

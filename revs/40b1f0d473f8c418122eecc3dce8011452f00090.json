@@ -1,0 +1,4 @@
+{
+ "summary": "pyopenssl: skip test that fails on i686",
+ "timestamp": "1607852898"
+}

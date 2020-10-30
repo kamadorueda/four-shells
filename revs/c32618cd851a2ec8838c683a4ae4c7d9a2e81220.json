@@ -1,0 +1,4 @@
+{
+ "summary": "openiscsi: fix a file that was broken by upstream changing things to dynamic linking",
+ "timestamp": "1462040891"
+}

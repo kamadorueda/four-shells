@@ -1,0 +1,42 @@
+{
+ "1.0": {
+  "meta": {
+   "description": "Desktop notifications, the UNIX way",
+   "homepage": "https://github.com/Sweets/tiramisu",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "tiramisu is a notification daemon based on dunst that outputs notifications\nto STDOUT in order to allow the user to process notifications any way they\nprefer.\n",
+   "maintainers": [
+    {
+     "email": "42300264+wishfort36@users.noreply.github.com",
+     "github": "wishfort36",
+     "githubId": 42300264,
+     "name": "wishfort36"
+    }
+   ],
+   "name": "tiramisu",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/misc/tiramisu/default.nix:25"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "zsh: Added HELPDIR variable for interactive shells, as the help directory is distribution specific, and will be useful for using `run-help`",
+ "timestamp": "1469788566"
+}

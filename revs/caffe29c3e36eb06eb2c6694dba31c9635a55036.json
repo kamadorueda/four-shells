@@ -1,0 +1,4 @@
+{
+ "summary": "wxPython: Fix runtime error due to library dependencies not in RUNPATH.",
+ "timestamp": "1458129537"
+}

@@ -1,0 +1,130 @@
+{
+ "2019-11-21": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-illuminate",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:4022"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "2020-02-21": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-illuminate",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:4319"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "2020-06-09": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RRethy/vim-illuminate/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-illuminate",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5165"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "2020-08-25": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RRethy/vim-illuminate/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-illuminate",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:4973"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-10-24": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RRethy/vim-illuminate/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-illuminate",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5057"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RRethy/vim-illuminate/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-illuminate",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5322"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RRethy/vim-illuminate/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-illuminate",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:5395"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/RRethy/vim-illuminate/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-illuminate",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:5431"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

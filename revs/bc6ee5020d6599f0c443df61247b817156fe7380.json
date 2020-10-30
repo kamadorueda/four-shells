@@ -1,0 +1,4 @@
+{
+ "summary": "Add isl, the integer set library (needed for cloog, an optional dependency for GCC 4.6.0)",
+ "timestamp": "1301606379"
+}

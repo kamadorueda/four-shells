@@ -1,0 +1,82 @@
+{
+ "2020-08-24": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/AndrewRadev/sideways.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-sideways-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3411"
+  },
+  "revs": [
+   "0cea290a93d7d09dc6c192b7cca35af5ccc47e2a",
+   "0cea290a93d7d09dc6c192b7cca35af5ccc47e2a"
+  ]
+ },
+ "2020-08-31": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/AndrewRadev/sideways.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-sideways-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3027"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-09-07": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/AndrewRadev/sideways.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-sideways-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3051"
+  },
+  "revs": [
+   "0065551641cccec146f6232df213d5cd30109e09",
+   "8ddc83c67fb5d962cdf898aa21e77bad6860c894"
+  ]
+ },
+ "2020-09-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/AndrewRadev/sideways.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-sideways-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3051"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "487fb291d9d0761c118b579ad4cd7bea597d414d"
+  ]
+ },
+ "2020-09-21": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/AndrewRadev/sideways.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-sideways-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3087"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

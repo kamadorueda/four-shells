@@ -1,0 +1,4 @@
+{
+ "summary": "python3Packages.geopandas: fix build with fiona >= 1.8.16",
+ "timestamp": "1609368297"
+}

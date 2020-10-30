@@ -1,0 +1,4 @@
+{
+ "summary": "gcc 4.7: when cross-building for GNU, patch `gnu.h', not `i386/gnu.h'",
+ "timestamp": "1354183081"
+}

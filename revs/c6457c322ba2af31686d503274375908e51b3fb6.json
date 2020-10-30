@@ -1,0 +1,4 @@
+{
+ "summary": "Upgrading sonic-visualiser to 1.9 and adding pkgconfig so that it finds rasqal.h successfully",
+ "timestamp": "1340549502"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "cabal: add support for \"editedCabalFile\" attribute to address https://github.com/NixOS/cabal2nix/issues/84",
+ "timestamp": "1416918165"
+}

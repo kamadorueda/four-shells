@@ -1,0 +1,4 @@
+{
+ "summary": "treewide: remove references to pruneLibtoolFiles, now included by default",
+ "timestamp": "1544396110"
+}

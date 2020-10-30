@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/duosec: replace insecure skey option with secure secretKeyFile option",
+ "timestamp": "1580437123"
+}

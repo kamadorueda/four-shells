@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-threads: disable test suite to avoid intermittent failures",
+ "timestamp": "1423133194"
+}

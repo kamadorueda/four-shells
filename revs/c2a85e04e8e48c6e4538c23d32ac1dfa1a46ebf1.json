@@ -1,0 +1,4 @@
+{
+ "summary": "buildGoPackage: Take into account propagatedBuildInputs during rename",
+ "timestamp": "1431988053"
+}

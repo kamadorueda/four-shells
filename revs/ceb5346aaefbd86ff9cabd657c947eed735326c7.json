@@ -1,0 +1,4 @@
+{
+ "summary": "ruby: workaround __toString issue with toJSON",
+ "timestamp": "1572170400"
+}

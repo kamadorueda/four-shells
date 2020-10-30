@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv-darwin: Shut up some warnings from SDK headers",
+ "timestamp": "1406108866"
+}

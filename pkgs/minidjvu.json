@@ -1,0 +1,20 @@
+{
+ "0.8": {
+  "meta": {
+   "description": "Black-and-white djvu page encoder and decoder that use interpage information",
+   "homepage": "http://djvu.sourceforge.net/djview4.html",
+   "license": "GPLv2+",
+   "long_description": "",
+   "maintainers": [
+    "Llu\u00eds Batlle i Rossell <viric@viric.name>"
+   ],
+   "name": "minidjvu",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

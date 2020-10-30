@@ -1,0 +1,4 @@
+{
+ "summary": "nixos gdm: use AutomaticLogin if delay is zero. Closes #9843",
+ "timestamp": "1442220480"
+}

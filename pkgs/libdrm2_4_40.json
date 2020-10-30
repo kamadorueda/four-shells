@@ -1,0 +1,27 @@
+{
+ "2.4.40": {
+  "meta": {
+   "description": "Library for accessing the kernel's Direct Rendering Manager",
+   "homepage": "http://dri.freedesktop.org/libdrm/",
+   "license": "bsd",
+   "long_description": "",
+   "maintainers": [
+    "Yury G. Kudryashov <urkud+nix@ya.ru>"
+   ],
+   "name": "libdrm",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc-linux",
+    "armv5tel-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "bc9a291779e9438c6bf9b0a09d86c90c58e18585",
+   "bd8428efa13764f3bf6ac7de538afa5f50023aa2"
+  ]
+ }
+}

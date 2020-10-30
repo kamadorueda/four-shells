@@ -1,0 +1,4 @@
+{
+ "summary": "Adding the bootchart capture script. It worked for me, run standalone, not as init. I tried their website renderer, but it did not work for me. It may be shut down, because their last update is for 2006. Next steps: put it into nixos, and build the renderer (java!).",
+ "timestamp": "1256858110"
+}

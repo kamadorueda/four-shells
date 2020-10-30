@@ -1,0 +1,4 @@
+{
+ "summary": "ati_unfree: Create a nixos module for the ati_unfree x11 driver and blacklist the radeon driver when ati_unfree is installed.",
+ "timestamp": "1409910816"
+}

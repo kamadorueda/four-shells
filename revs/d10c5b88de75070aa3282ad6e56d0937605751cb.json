@@ -1,0 +1,4 @@
+{
+ "summary": "acl2: 8.0 -> 8.0.post.2018.09.20; fixes build with fresher SBCL",
+ "timestamp": "1537524427"
+}

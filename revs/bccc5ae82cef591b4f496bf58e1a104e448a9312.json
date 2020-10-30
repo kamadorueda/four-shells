@@ -1,0 +1,4 @@
+{
+ "summary": "swift: remove i686-linux from platforms, limit to x86-64-linux",
+ "timestamp": "1490791336"
+}

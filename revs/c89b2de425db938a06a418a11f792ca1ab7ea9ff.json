@@ -1,0 +1,4 @@
+{
+ "summary": "androidenv: fix the $out/bin symlink for ndk-bundle",
+ "timestamp": "1558664985"
+}

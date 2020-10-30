@@ -1,0 +1,66 @@
+{
+ "20170403-git": {
+  "meta": {
+   "description": "PostgreSQL programming API",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "lisp-postmodern",
+   "platforms": null,
+   "position": "pkgs/development/lisp-modules/define-package.nix:111"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "20180131-git": {
+  "meta": {
+   "description": "PostgreSQL programming API",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "lisp-postmodern",
+   "platforms": null,
+   "position": "pkgs/development/lisp-modules/define-package.nix:111"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "20180430-git": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "lisp-postmodern",
+   "platforms": null,
+   "position": "pkgs/development/lisp-modules/define-package.nix:70"
+  },
+  "revs": [
+   "129dfedaa94c25fec361819aa4d1752034a4b3ff",
+   "bb8aa7f8d1929c006d493d99c01f8745fac82bea"
+  ]
+ },
+ "20201016-git": {
+  "meta": {
+   "description": "PostgreSQL programming API",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "lisp-postmodern",
+   "platforms": null,
+   "position": "pkgs/development/lisp-modules/define-package.nix:111"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

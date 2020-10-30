@@ -1,0 +1,4 @@
+{
+ "summary": "Re-introduce mkStrict function in stable branch, as some packages might still be dependent on it (e.g. nixops). Added a warning that the function is obsolete.",
+ "timestamp": "1383823932"
+}

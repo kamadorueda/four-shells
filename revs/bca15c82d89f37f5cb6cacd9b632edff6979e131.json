@@ -1,0 +1,4 @@
+{
+ "summary": "firefox: disable LTO by default due to segfaults with wayland",
+ "timestamp": "1603414202"
+}

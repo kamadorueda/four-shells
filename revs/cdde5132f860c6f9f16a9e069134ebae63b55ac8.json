@@ -1,0 +1,4 @@
+{
+ "summary": "Removed some obsolete restrictions, so that transitive dependencies are also loaded",
+ "timestamp": "1315944434"
+}

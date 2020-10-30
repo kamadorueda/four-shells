@@ -1,0 +1,4 @@
+{
+ "summary": "syslinux: fix build on gcc10",
+ "timestamp": "1609061981"
+}

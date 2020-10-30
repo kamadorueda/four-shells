@@ -1,0 +1,4 @@
+{
+ "summary": "optipng: use system libpng & zlib, fix cross builds and add support for static builds",
+ "timestamp": "1396309030"
+}

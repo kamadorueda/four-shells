@@ -1,0 +1,42 @@
+{
+ "2.4.5": {
+  "meta": {
+   "description": "An implementation of the CraftOS-PC API written in C++ using SDL",
+   "homepage": "https://www.craftos-pc.cc",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bensiraphob@gmail.com",
+     "github": "siraben",
+     "githubId": 8219659,
+     "name": "Siraphob Phipathananunth"
+    }
+   ],
+   "name": "craftos-pc",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/misc/emulators/craftos-pc/default.nix:37"
+  },
+  "revs": [
+   "02fac027aff09e3422023f059fccf9aec2f41348",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

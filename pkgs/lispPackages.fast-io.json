@@ -1,0 +1,66 @@
+{
+ "20170124-git": {
+  "meta": {
+   "description": "Alternative I/O mechanism to a stream or vector",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "lisp-fast-io",
+   "platforms": null,
+   "position": "pkgs/development/lisp-modules/define-package.nix:82"
+  },
+  "revs": [
+   "0011f9065a1ad1da4db67bec8d535d91b0a78fba",
+   "7731621c81b5cd601a176c2109b44c5295049f20"
+  ]
+ },
+ "20170630-git": {
+  "meta": {
+   "description": "Alternative I/O mechanism to a stream or vector",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "lisp-fast-io",
+   "platforms": null,
+   "position": "pkgs/development/lisp-modules/define-package.nix:111"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "20171023-git": {
+  "meta": {
+   "description": "Alternative I/O mechanism to a stream or vector",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "lisp-fast-io",
+   "platforms": null,
+   "position": "pkgs/development/lisp-modules/define-package.nix:111"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "20200925-git": {
+  "meta": {
+   "description": "Alternative I/O mechanism to a stream or vector",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "lisp-fast-io",
+   "platforms": null,
+   "position": "pkgs/development/lisp-modules/define-package.nix:111"
+  },
+  "revs": [
+   "002c63433929e1eb115a5e64d77f1d344b59c8f4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

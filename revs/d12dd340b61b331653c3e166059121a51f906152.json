@@ -1,0 +1,4 @@
+{
+ "summary": "firewall.nix: Respect networking.enableIPv6 = false",
+ "timestamp": "1348003246"
+}

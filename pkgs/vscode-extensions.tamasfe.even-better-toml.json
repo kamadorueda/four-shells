@@ -1,0 +1,23 @@
+{
+ "0.9.3": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "vscode-extension-tamasfe-even-better-toml",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vscode-extensions/vscode-utils.nix:18"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

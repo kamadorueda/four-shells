@@ -1,0 +1,4 @@
+{
+ "summary": "torbrowser: use stdenv.is64bit",
+ "timestamp": "1434711858"
+}

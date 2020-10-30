@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-paypal-adaptive-hoops: don't try to run the network-related part of the test suite in our chroot environment",
+ "timestamp": "1424027078"
+}

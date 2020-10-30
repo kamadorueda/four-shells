@@ -1,0 +1,4 @@
+{
+ "summary": "buildRustPackage: add `cargoHash` for SRI hashes of vendored deps",
+ "timestamp": "1604821632"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "remove unused file bundler-head.nix (bundler_HEAD is now just an alias for bundler)",
+ "timestamp": "1454473507"
+}

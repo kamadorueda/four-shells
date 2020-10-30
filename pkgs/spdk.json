@@ -1,0 +1,210 @@
+{
+ "18.04": {
+  "meta": {
+   "description": "Set of libraries for fast user-mode storage",
+   "homepage": "http://www.spdk.io",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "spdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/spdk/default.nix:29"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "19.04": {
+  "meta": {
+   "description": "Set of libraries for fast user-mode storage",
+   "homepage": "https://spdk.io/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "spdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/spdk/default.nix:29"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "19.10": {
+  "meta": {
+   "description": "Set of libraries for fast user-mode storage",
+   "homepage": "https://spdk.io/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "spdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/spdk/default.nix:31"
+  },
+  "revs": [
+   "00482247e1a649194dc66ac264c5532a3ef9a9a4",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "19.10.1": {
+  "meta": {
+   "description": "Set of libraries for fast user-mode storage",
+   "homepage": "https://spdk.io/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "spdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/spdk/default.nix:31"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "20.01": {
+  "meta": {
+   "description": "Set of libraries for fast user-mode storage",
+   "homepage": "https://spdk.io/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "spdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/spdk/default.nix:31"
+  },
+  "revs": [
+   "001be890f78f04df86938f44c0761676e299ceac",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "20.01.1": {
+  "meta": {
+   "description": "Set of libraries for fast user-mode storage",
+   "homepage": "https://spdk.io/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "spdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/spdk/default.nix:31"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "20.04.1": {
+  "meta": {
+   "description": "Set of libraries for fast user-mode storage",
+   "homepage": "https://spdk.io/",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "orivej@gmx.fr",
+     "github": "orivej",
+     "githubId": 101514,
+     "name": "Orivej Desh"
+    }
+   ],
+   "name": "spdk",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/spdk/default.nix:61"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

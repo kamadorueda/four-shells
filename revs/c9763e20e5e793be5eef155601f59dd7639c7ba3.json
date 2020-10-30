@@ -1,0 +1,4 @@
+{
+ "summary": "Use HVM instance for EBS creator, guarantees everything is created in the correct zone.",
+ "timestamp": "1400672419"
+}

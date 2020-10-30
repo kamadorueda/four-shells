@@ -1,0 +1,4 @@
+{
+ "summary": "removal of deps' scripts only if easy-install.pth exists",
+ "timestamp": "1330277015"
+}

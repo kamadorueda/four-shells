@@ -1,0 +1,4 @@
+{
+ "summary": "apache-httpd-2.4: build MPMs as DSOs so that the desired one can be selected at run-time",
+ "timestamp": "1341644945"
+}

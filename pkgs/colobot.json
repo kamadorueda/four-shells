@@ -1,0 +1,42 @@
+{
+ "0.1.12-alpha": {
+  "meta": {
+   "description": "Colobot: Gold Edition is a real-time strategy game, where you can program your bots",
+   "homepage": "https://colobot.info/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "freezeboy@users.noreply.github.com",
+     "github": "freezeboy",
+     "githubId": 13279982,
+     "name": "freezeboy"
+    }
+   ],
+   "name": "colobot",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/games/colobot/default.nix:36"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

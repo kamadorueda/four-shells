@@ -1,0 +1,50 @@
+{
+ "13.0.0": {
+  "meta": {
+   "description": "A build system for PureScript projects",
+   "homepage": "https://github.com/purescript-contrib/pulp",
+   "license": "LGPL-3.0+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "node_pulp",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages-v10.nix:67263"
+  },
+  "revs": [
+   "001999e25b746f2ce8e23fc2010f8bb25d10810e",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "14.0.0": {
+  "meta": {
+   "description": "A build system for PureScript projects",
+   "homepage": "https://github.com/purescript-contrib/pulp",
+   "license": "LGPL-3.0+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "node_pulp",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages-v10.nix:73784"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "15.0.0": {
+  "meta": {
+   "description": "A build system for PureScript projects",
+   "homepage": "https://github.com/purescript-contrib/pulp",
+   "license": "LGPL-3.0+",
+   "long_description": "",
+   "maintainers": [],
+   "name": "node_pulp",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:75735"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

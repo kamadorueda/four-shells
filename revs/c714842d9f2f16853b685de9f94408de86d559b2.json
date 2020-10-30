@@ -1,0 +1,4 @@
+{
+ "summary": "patch GHC 7.8.4 on darwin to fix template haskell + hpc",
+ "timestamp": "1431898257"
+}

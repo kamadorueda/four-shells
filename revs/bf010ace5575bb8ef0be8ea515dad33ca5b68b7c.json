@@ -1,0 +1,4 @@
+{
+ "summary": "* Remove the mysterious `_args' attribute because it screws up the   manual generation (causes `nixos-rebuild build-vm' evaluation to   fail in the `networking.ifaces' option).",
+ "timestamp": "1275402256"
+}

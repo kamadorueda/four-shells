@@ -1,0 +1,4 @@
+{
+ "summary": "fix perl Date::Calc (by disabling the bogus tests)",
+ "timestamp": "1420659048"
+}

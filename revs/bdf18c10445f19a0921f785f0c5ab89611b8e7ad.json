@@ -1,0 +1,4 @@
+{
+ "summary": "adns: on darwin, patch the library with install_name_tool",
+ "timestamp": "1420231431"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "scons: add pythonPath attribute to ensure that the python-wrapper recognizes this package as providing a python library",
+ "timestamp": "1390220968"
+}

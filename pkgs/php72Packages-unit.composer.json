@@ -1,0 +1,298 @@
+{
+ "1.10.6": {
+  "meta": {
+   "description": "Dependency Manager for PHP",
+   "homepage": "https://getcomposer.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "php-composer",
+   "platforms": null,
+   "position": "pkgs/top-level/php-packages.nix:98"
+  },
+  "revs": [
+   "0023aaef48e31444eeb22fc7c982c43b9782eef9",
+   "929768261a3ede470eafb58d5b819e1a848aa8bf"
+  ]
+ },
+ "1.7.2": {
+  "meta": {
+   "description": "Dependency Manager for PHP",
+   "homepage": "https://getcomposer.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "composer",
+   "platforms": null,
+   "position": "pkgs/top-level/php-packages.nix:264"
+  },
+  "revs": [
+   "004cb5a694e39bd91b27b0adddc127daf2cb76cb",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "1.8.0": {
+  "meta": {
+   "description": "Dependency Manager for PHP",
+   "homepage": "https://getcomposer.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "composer",
+   "platforms": null,
+   "position": "pkgs/top-level/php-packages.nix:264"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "1.8.4": {
+  "meta": {
+   "description": "Dependency Manager for PHP",
+   "homepage": "https://getcomposer.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "composer",
+   "platforms": null,
+   "position": "pkgs/top-level/php-packages.nix:277"
+  },
+  "revs": [
+   "0017a06717bb18706ac3cb99432034caad0c8b91",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "1.8.5": {
+  "meta": {
+   "description": "Dependency Manager for PHP",
+   "homepage": "https://getcomposer.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "php-composer",
+   "platforms": null,
+   "position": "pkgs/top-level/php-packages.nix:97"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "1.8.6": {
+  "meta": {
+   "description": "Dependency Manager for PHP",
+   "homepage": "https://getcomposer.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "php-composer",
+   "platforms": null,
+   "position": "pkgs/top-level/php-packages.nix:97"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "1.9.0": {
+  "meta": {
+   "description": "Dependency Manager for PHP",
+   "homepage": "https://getcomposer.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "php-composer",
+   "platforms": null,
+   "position": "pkgs/top-level/php-packages.nix:97"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "1.9.1": {
+  "meta": {
+   "description": "Dependency Manager for PHP",
+   "homepage": "https://getcomposer.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "php-composer",
+   "platforms": null,
+   "position": "pkgs/top-level/php-packages.nix:98"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "1.9.3": {
+  "meta": {
+   "description": "Dependency Manager for PHP",
+   "homepage": "https://getcomposer.org/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@glob.in",
+     "github": "globin",
+     "githubId": 1447245,
+     "name": "Robin Gloster"
+    },
+    {
+     "email": "jaka@x-truder.net",
+     "github": "offlinehacker",
+     "githubId": 585547,
+     "name": "Jaka Hudoklin"
+    }
+   ],
+   "name": "php-composer",
+   "platforms": null,
+   "position": "pkgs/top-level/php-packages.nix:102"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "0256aa00616a11434e5f75040509ed0a0e79e191"
+  ]
+ }
+}

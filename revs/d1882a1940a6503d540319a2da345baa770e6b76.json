@@ -1,0 +1,4 @@
+{
+ "summary": "trac: Update to 1.0.1. The old version did not work at all with the current genshi package (0.7).",
+ "timestamp": "1378833567"
+}

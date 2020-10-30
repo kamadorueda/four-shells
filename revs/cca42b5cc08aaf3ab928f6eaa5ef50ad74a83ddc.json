@@ -1,0 +1,4 @@
+{
+ "summary": "development/interpreters/python/2.7: Fix building on Linux 3.x (iirc, that was the problem).",
+ "timestamp": "1316276980"
+}

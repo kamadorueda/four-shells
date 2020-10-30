@@ -1,0 +1,4 @@
+{
+ "summary": "php: fixup build when configured with httpd via nixos",
+ "timestamp": "1457693440"
+}

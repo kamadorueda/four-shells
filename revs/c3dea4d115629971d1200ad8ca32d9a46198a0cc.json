@@ -1,0 +1,4 @@
+{
+ "summary": "systemd-confinement: handle ExecStarts etc being lists",
+ "timestamp": "1599407804"
+}

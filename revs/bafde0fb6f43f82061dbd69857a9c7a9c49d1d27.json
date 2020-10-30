@@ -1,0 +1,4 @@
+{
+ "summary": "patch Qt 5.4.1 to use XDG_CONFIG_DIRS in QSettings",
+ "timestamp": "1429804342"
+}

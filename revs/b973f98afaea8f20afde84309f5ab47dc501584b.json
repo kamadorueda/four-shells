@@ -1,0 +1,4 @@
+{
+ "summary": "Make tulip run without hassle. Unfortunately, some operations repeatably crash tulip even when built vs Qt4.6",
+ "timestamp": "1309513991"
+}

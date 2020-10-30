@@ -1,0 +1,4 @@
+{
+ "summary": "* Make GTK 2.18 the default, and get rid of the deep overrides.  (BTW,   there seems to be a much cleaner solution than deepOverride, namely   call all-packages.nix with an appropriate packageOverrides set.)",
+ "timestamp": "1256825953"
+}

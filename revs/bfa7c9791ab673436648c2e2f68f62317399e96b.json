@@ -1,0 +1,4 @@
+{
+ "summary": "nbd: disable test suite to avoid failures on Hydra (NixOS)",
+ "timestamp": "1305311436"
+}

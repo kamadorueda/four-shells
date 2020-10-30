@@ -1,0 +1,4 @@
+{
+ "summary": "pkgs/tools/package-management/nix/unstable.nix: added support for (impure) NIX_BUILD_CORES variable",
+ "timestamp": "1277303687"
+}

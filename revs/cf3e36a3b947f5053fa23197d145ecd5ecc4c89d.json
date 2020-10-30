@@ -1,0 +1,4 @@
+{
+ "summary": "bash: place interactiveShellInit at the end to be able to override existing settings",
+ "timestamp": "1381485358"
+}

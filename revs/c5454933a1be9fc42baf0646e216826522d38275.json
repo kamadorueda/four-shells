@@ -1,0 +1,4 @@
+{
+ "summary": "nix-prefetch-git: fix output `fetchSubmodules` property",
+ "timestamp": "1529234367"
+}

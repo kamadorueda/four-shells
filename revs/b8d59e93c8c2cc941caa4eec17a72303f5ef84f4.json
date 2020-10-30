@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/networkd: allow RouteMetric= in [DHCPv6] section",
+ "timestamp": "1603997262"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* Move the remaining GHC-dependent packages to haskell-packages.nix.",
+ "timestamp": "1240136842"
+}

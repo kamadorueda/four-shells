@@ -1,0 +1,4 @@
+{
+ "summary": "* Give binutils a lower default priority than the gcc wrapper so that   \"nix-env -i binutils gcc\" will do the Right Thing and not give a   collision.",
+ "timestamp": "1177716607"
+}

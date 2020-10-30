@@ -1,0 +1,164 @@
+{
+ "1.0.0": {
+  "meta": {
+   "description": "Backend for the persistent library using postgresql",
+   "homepage": "http://www.yesodweb.com/book/persistent",
+   "license": {
+    "fullName": "MIT/X11 license",
+    "shortName": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-persistent-postgresql-ghc7.4.1",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "03abf1abbc73df82dc0d0da9c57c4aee1f06c40c",
+   "d11ca5166cba08ce743bf3a48dab055cb34924ec"
+  ]
+ },
+ "1.0.2": {
+  "meta": {
+   "description": "Backend for the persistent library using postgresql",
+   "homepage": "http://www.yesodweb.com/book/persistent",
+   "license": {
+    "fullName": "MIT/X11 license",
+    "shortName": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-persistent-postgresql-ghc7.4.1",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "012a838ea2b02cd92cc3b193729e449bbda8d409",
+   "c2189c49c6735e1f1611e9897686e76ee0dc4fce"
+  ]
+ },
+ "1.1.0": {
+  "meta": {
+   "description": "Backend for the persistent library using postgresql",
+   "homepage": "http://www.yesodweb.com/book/persistent",
+   "license": {
+    "fullName": "MIT/X11 license",
+    "shortName": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-persistent-postgresql-ghc7.4.1",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "006afee7be0a9285942a4d550a4e381ab9b0ca3d",
+   "9adcb636b3765762475486ad06be6eb2ce9fcb73"
+  ]
+ },
+ "1.1.1": {
+  "meta": {
+   "description": "Backend for the persistent library using postgresql",
+   "homepage": "http://www.yesodweb.com/book/persistent",
+   "license": {
+    "fullName": "MIT/X11 license",
+    "shortName": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-persistent-postgresql-ghc7.4.1",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "01adc95b1381e3c70560ac33e2ec7f4541aae699",
+   "69b752de5739054ef42e416e3743ab1b21c33af3"
+  ]
+ },
+ "1.1.2": {
+  "meta": {
+   "description": "Backend for the persistent library using postgresql",
+   "homepage": "http://www.yesodweb.com/book/persistent",
+   "license": {
+    "fullName": "MIT/X11 license",
+    "shortName": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-persistent-postgresql-ghc7.4.1",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "1235f25426f8526d1a39051da781d5494c7b2b39",
+   "bafdf87367798b481fc19eb9e2397ef78c60c267"
+  ]
+ },
+ "1.1.2.1": {
+  "meta": {
+   "description": "Backend for the persistent library using postgresql",
+   "homepage": "http://www.yesodweb.com/book/persistent",
+   "license": {
+    "fullName": "MIT/X11 license",
+    "shortName": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-persistent-postgresql-ghc7.4.1",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0072c442557b4d57fe128bf75775b2912f94b313",
+   "bd8428efa13764f3bf6ac7de538afa5f50023aa2"
+  ]
+ }
+}

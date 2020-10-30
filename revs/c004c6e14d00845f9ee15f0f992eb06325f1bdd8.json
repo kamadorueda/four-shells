@@ -1,0 +1,4 @@
+{
+ "summary": "kernel config: Explicitly enable some stuff not enabled by 'make alldefconfig'",
+ "timestamp": "1472428885"
+}

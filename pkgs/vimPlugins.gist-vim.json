@@ -1,0 +1,100 @@
+{
+ "2014-10-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mattn/gist-vim",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    "Arseniy Seroka <ars.seroka@gmail.com>"
+   ],
+   "name": "vimplugin-gist-vim-git",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/default.nix:86"
+  },
+  "revs": [
+   "005bb796e68b3f69e54ab0c6bc631723eb545136",
+   "b4c81a1f15094120b612ce627600ba13e11d2b1c"
+  ]
+ },
+ "2016-10-10": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-gist-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "0013bc3056604b25299e8601caf4f99cc1f4a910",
+   "925b028f1779027d65ef75ecc87563c45805d0c3"
+  ]
+ },
+ "2018-11-09": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-gist-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "2019-07-08": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-gist-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1270"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "2020-01-09": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-gist-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1336"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "6fea9e5902809220e12b50665072d70d8d507456"
+  ]
+ },
+ "2020-01-29": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-gist-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1413"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ }
+}

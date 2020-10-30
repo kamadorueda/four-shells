@@ -1,0 +1,35 @@
+{
+ "2020-12-04": {
+  "meta": {
+   "description": "Outputs current CPU temperature for OSX.",
+   "homepage": "https://github.com/lavoiesl/osx-cpu-temp",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "dave.nicponski@gmail.com",
+     "github": "virusdave",
+     "githubId": 6148271,
+     "name": "Dave Nicponski"
+    }
+   ],
+   "name": "osx-cpu-temp-unstable",
+   "platforms": [
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/os-specific/darwin/osx-cpu-temp/default.nix:25"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

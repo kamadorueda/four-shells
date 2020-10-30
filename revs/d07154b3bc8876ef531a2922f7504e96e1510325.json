@@ -1,0 +1,4 @@
+{
+ "summary": "FIX: Change local state dir, which must be writable, from \"/nix/store/...glusterfs...\" to \"/var\"",
+ "timestamp": "1418898003"
+}

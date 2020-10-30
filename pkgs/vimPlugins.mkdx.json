@@ -1,0 +1,34 @@
+{
+ "2020-10-12": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/SidOfc/mkdx/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-mkdx",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:2151"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-10": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/SidOfc/mkdx/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-mkdx",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:2151"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "top-level/static.nix: Don\u2019t add -static LDFLAGS in darwin",
+ "timestamp": "1607295876"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "In ghc 7.2.2 (and 7.2.1) deepseq is not yet part of the core set.",
+ "timestamp": "1342381697"
+}

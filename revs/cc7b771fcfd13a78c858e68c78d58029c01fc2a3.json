@@ -1,0 +1,4 @@
+{
+ "summary": "consul: fix output cycle on darwin",
+ "timestamp": "1504909277"
+}

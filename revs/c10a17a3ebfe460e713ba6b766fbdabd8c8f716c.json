@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/udev: Always fail if rules contain FHS paths",
+ "timestamp": "1454514041"
+}

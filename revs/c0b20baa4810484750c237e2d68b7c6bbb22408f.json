@@ -1,0 +1,4 @@
+{
+ "summary": "unset HOME and NIXPKGS_CONFIG in test-eval-release",
+ "timestamp": "1328569641"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "openmpi: add patch for mpi tests on machines with less than 4 cores",
+ "timestamp": "1549542846"
+}

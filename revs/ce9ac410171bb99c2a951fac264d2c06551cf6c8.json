@@ -1,0 +1,4 @@
+{
+ "summary": "protoc-gen-doc: fix build on darwin",
+ "timestamp": "1584787860"
+}

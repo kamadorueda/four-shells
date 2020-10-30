@@ -1,0 +1,4 @@
+{
+ "summary": "unbound: disable lto on static builds (PR #96020)",
+ "timestamp": "1586721782"
+}

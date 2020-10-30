@@ -1,0 +1,4 @@
+{
+ "summary": "Revert \"systemd: oneshot units should be allowed to restart on failure/abort\"",
+ "timestamp": "1397850142"
+}

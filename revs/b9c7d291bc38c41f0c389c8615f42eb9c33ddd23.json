@@ -1,0 +1,4 @@
+{
+ "summary": "haskellPackages: apply GHC specific overrides before GHCJS",
+ "timestamp": "1488730407"
+}

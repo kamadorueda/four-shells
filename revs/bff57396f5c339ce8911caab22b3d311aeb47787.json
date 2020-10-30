@@ -1,0 +1,4 @@
+{
+ "summary": "openjdk: Add a fix for versions of nix not yet supporting multiple outputs",
+ "timestamp": "1313069263"
+}

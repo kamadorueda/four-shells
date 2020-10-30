@@ -1,0 +1,4 @@
+{
+ "summary": "firefox 16: Use the published sha1, and pass the ftp url to fetchurl as a fallback.",
+ "timestamp": "1350064773"
+}

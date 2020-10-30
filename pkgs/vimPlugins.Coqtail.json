@@ -1,0 +1,162 @@
+{
+ "2020-09-08": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:585"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "a3022613181fb1f1ef4e3ea7a45fa9c6b877715a"
+  ]
+ },
+ "2020-09-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:585"
+  },
+  "revs": [
+   "004676ce9c8275598182884c9e5a823a34eaa173",
+   "487fb291d9d0761c118b579ad4cd7bea597d414d"
+  ]
+ },
+ "2020-09-29": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:597"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2020-10-23": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:597"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "2020-10-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:597"
+  },
+  "revs": [
+   "02d0df518ef3bd54cd98a8bb5af9816c6d3b8b33",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-09": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:609"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "1ad0c8d29208cde9930b4e9f0a174878a9295484"
+  ]
+ },
+ "2020-11-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:621"
+  },
+  "revs": [
+   "002a5f9de16130ac9f8e474de75d9b5eca7bf4bd",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-18": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:645"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-02": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:645"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/whonore/Coqtail/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-Coqtail",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:657"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

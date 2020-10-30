@@ -1,0 +1,4 @@
+{
+ "summary": "shadow: disable nscd on non-glibc (musl)",
+ "timestamp": "1515541194"
+}

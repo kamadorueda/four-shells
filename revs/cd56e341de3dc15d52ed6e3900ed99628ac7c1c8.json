@@ -1,0 +1,4 @@
+{
+ "summary": "* Consolidate MPlayer trunk.nix and default.nix into one. * Removed the font because MPlayer doesn't use it anymore (it uses   fontconfig). * Removed rp9codecs because the Real codecs are included in the   \"essential\" codecs package. * Moved win32codecs into the MPlayer Nix expression.",
+ "timestamp": "1271247181"
+}

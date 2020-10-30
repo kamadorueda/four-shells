@@ -1,0 +1,4 @@
+{
+ "summary": "ncurses: fix cross-build by disable stripping",
+ "timestamp": "1544363149"
+}

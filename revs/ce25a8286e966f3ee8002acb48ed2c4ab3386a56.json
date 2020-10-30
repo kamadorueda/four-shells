@@ -1,0 +1,4 @@
+{
+ "summary": "* CONFIG_FB_TILEBLITTING has to be off, otherwise CONFIG_FB_SPLASH   will be disabled (and CONFIG_FB_S3 implies CONFIG_FB_TILEBLITTING).",
+ "timestamp": "1180965922"
+}

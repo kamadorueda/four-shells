@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing the gnused fetchurl hash type, for stdenv-updates to evaluate well",
+ "timestamp": "1271972756"
+}

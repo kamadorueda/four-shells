@@ -1,0 +1,4 @@
+{
+ "summary": "mesa_noglu: Fix search paths for libvulkan_intel.so",
+ "timestamp": "1479759259"
+}

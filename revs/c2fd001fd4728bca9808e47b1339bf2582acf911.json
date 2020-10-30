@@ -1,0 +1,4 @@
+{
+ "summary": "Remove obsolete Agda-executable package; the compiler is not part of 'Agda'.",
+ "timestamp": "1399198655"
+}

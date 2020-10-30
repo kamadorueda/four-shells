@@ -1,0 +1,4 @@
+{
+ "summary": "remove all instances of nix-env -i without -A in the NixOS manual",
+ "timestamp": "1565856586"
+}

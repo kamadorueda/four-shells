@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/icingaweb2, nixos/restya-board, nixos/zoneminder: set phpOptions per phpfpm pool, instead of applying to every phpfpm pool",
+ "timestamp": "1551409958"
+}

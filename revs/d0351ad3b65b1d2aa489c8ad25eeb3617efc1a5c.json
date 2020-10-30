@@ -1,0 +1,4 @@
+{
+ "summary": "chromium: fail build, if SOURCE_DATE_EPOCH not set",
+ "timestamp": "1541642847"
+}

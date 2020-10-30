@@ -1,0 +1,4 @@
+{
+ "summary": "kino: link with lib{avcodec,avutil} explicitly",
+ "timestamp": "1546630430"
+}

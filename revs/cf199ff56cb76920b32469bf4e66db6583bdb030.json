@@ -1,0 +1,4 @@
+{
+ "summary": "linuxPackages.openafs: 1.6.21.1 -> 1.6.22.1 (fixes build with kernel >=4.14)",
+ "timestamp": "1516367910"
+}

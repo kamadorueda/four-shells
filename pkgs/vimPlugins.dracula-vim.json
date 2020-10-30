@@ -1,0 +1,98 @@
+{
+ "2020-07-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/dracula/vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-dracula-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1067"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-10-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/dracula/vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-dracula-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1103"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "2020-11-02": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/dracula/vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-dracula-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1103"
+  },
+  "revs": [
+   "13839daecc61e898d03748145e61a29c8d2a2c42",
+   "80f1e61114c8fe50d0057c469ae5daad4f6762e6"
+  ]
+ },
+ "2020-11-04": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/dracula/vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-dracula-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1115"
+  },
+  "revs": [
+   "0c6e5e15f8c952f0b2844cead019868e93aedb19",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/dracula/vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-dracula-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1115"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-23": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/dracula/vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-dracula-vim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:1163"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

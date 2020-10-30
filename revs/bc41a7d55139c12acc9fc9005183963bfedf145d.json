@@ -1,0 +1,4 @@
+{
+ "summary": "switch to the default versions of numpy and scipy in libgpuarray-cuda",
+ "timestamp": "1466028187"
+}

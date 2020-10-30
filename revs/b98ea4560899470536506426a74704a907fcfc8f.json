@@ -1,0 +1,4 @@
+{
+ "summary": "nixos-version --json: Use builtins.toJSON",
+ "timestamp": "1581344724"
+}

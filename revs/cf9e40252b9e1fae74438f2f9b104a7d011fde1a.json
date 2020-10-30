@@ -1,0 +1,4 @@
+{
+ "summary": "gcc_multi: Fix so binutils wrapper also has glibc_multi",
+ "timestamp": "1504113254"
+}

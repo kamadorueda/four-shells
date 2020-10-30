@@ -1,0 +1,4 @@
+{
+ "summary": "Pass libcap as SDL input to fix the build",
+ "timestamp": "1430060756"
+}

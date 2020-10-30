@@ -1,0 +1,4 @@
+{
+ "summary": "* Move the composition of Haskell packages out of all-packages.nix   into haskell-packages.nix, which depends on an instance of GHC.   This allows a consistent set of packages to be built with the same   GHC.  For instance,",
+ "timestamp": "1240058831"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "lib: Infer `libc` field of platform if not specified",
+ "timestamp": "1495389739"
+}

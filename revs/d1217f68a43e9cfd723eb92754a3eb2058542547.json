@@ -1,0 +1,4 @@
+{
+ "summary": "Reverting eelco's r20469, which was applied due to a misunderstanding with an hydra build. kde44 has worked well enough then and since then.",
+ "timestamp": "1268765837"
+}

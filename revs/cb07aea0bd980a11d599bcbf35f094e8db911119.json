@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-STMonadTrans: disable failing test suite to fix the build",
+ "timestamp": "1478720752"
+}

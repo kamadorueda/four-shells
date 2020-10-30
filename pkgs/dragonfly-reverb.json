@@ -1,0 +1,238 @@
+{
+ "0.9.1": {
+  "meta": {
+   "description": "A hall-style reverb based on freeverb3 algorithms",
+   "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "dragonfly-reverb",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/dragonfly-reverb/default.nix:28"
+  },
+  "revs": [
+   "00064c21cc328fb96b631917220acbc26f232f96",
+   "925ff360bc33876fdb6ff967470e34ff375ce65e"
+  ]
+ },
+ "0.9.4": {
+  "meta": {
+   "description": "A hall-style reverb based on freeverb3 algorithms",
+   "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "dragonfly-reverb",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/dragonfly-reverb/default.nix:30"
+  },
+  "revs": [
+   "001b7a66111b8e1ad3a8f6051a3f8f8d5000706b",
+   "3633b3271dfc644acc63b062feb4f95e88054c42"
+  ]
+ },
+ "1.0.0": {
+  "meta": {
+   "description": "A hall-style reverb based on freeverb3 algorithms",
+   "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "dragonfly-reverb",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/dragonfly-reverb/default.nix:30"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "1.1.4": {
+  "meta": {
+   "description": "A hall-style reverb based on freeverb3 algorithms",
+   "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "dragonfly-reverb",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/dragonfly-reverb/default.nix:36"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "2.0.0": {
+  "meta": {
+   "description": "A hall-style reverb based on freeverb3 algorithms",
+   "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "dragonfly-reverb",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/dragonfly-reverb/default.nix:38"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "3.0.0": {
+  "meta": {
+   "description": "A hall-style reverb based on freeverb3 algorithms",
+   "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "dragonfly-reverb",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/dragonfly-reverb/default.nix:38"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "3.1.1": {
+  "meta": {
+   "description": "A hall-style reverb based on freeverb3 algorithms",
+   "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "dragonfly-reverb",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/dragonfly-reverb/default.nix:38"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "3.2.1": {
+  "meta": {
+   "description": "A hall-style reverb based on freeverb3 algorithms",
+   "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bart@magnetophon.nl",
+     "github": "magnetophon",
+     "githubId": 7645711,
+     "name": "Bart Brouns"
+    }
+   ],
+   "name": "dragonfly-reverb",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/audio/dragonfly-reverb/default.nix:38"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

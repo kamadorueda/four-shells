@@ -1,0 +1,4 @@
+{
+ "summary": "* Make a symlink \"lib64\" to \"lib\" to fix ldd (which looks for the   dynamic linker in lib64 on x86_64).  (NIXOS-54)",
+ "timestamp": "1180013603"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "go-modules: Fix the application of reference removal on packages like mongo-tools",
+ "timestamp": "1440662425"
+}

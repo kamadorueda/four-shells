@@ -1,0 +1,4 @@
+{
+ "summary": "gobject-introspection: move build tools to nativeBuildInputs",
+ "timestamp": "1589747286"
+}

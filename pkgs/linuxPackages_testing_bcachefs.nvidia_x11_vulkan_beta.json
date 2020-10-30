@@ -1,0 +1,176 @@
+{
+ "450.56.11-5.8.0-2020.09.07": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "https://www.nvidia.com/object/unix.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "baracoder@googlemail.com",
+     "github": "baracoder",
+     "githubId": 127523,
+     "name": "Herman Fries"
+    }
+   ],
+   "name": "nvidia-x11",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/os-specific/linux/nvidia-x11/generic.nix:100"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "450.56.11-5.9.0-2020.11.20": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "https://www.nvidia.com/object/unix.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "baracoder@googlemail.com",
+     "github": "baracoder",
+     "githubId": 127523,
+     "name": "Herman Fries"
+    }
+   ],
+   "name": "nvidia-x11",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/nvidia-x11/generic.nix:100"
+  },
+  "revs": [
+   "9bf997125cd6c9540ea116980e3f2453efa7eb7d",
+   "9bf997125cd6c9540ea116980e3f2453efa7eb7d"
+  ]
+ },
+ "455.46.02-5.8.0-2020.09.07": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "https://www.nvidia.com/object/unix.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "baracoder@googlemail.com",
+     "github": "baracoder",
+     "githubId": 127523,
+     "name": "Herman Fries"
+    }
+   ],
+   "name": "nvidia-x11",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/nvidia-x11/generic.nix:100"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "84daff4b8482c3ed5703df995b61d3223240f293"
+  ]
+ },
+ "455.46.02-5.9.0-2020.11.20": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "https://www.nvidia.com/object/unix.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "baracoder@googlemail.com",
+     "github": "baracoder",
+     "githubId": 127523,
+     "name": "Herman Fries"
+    }
+   ],
+   "name": "nvidia-x11",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/nvidia-x11/generic.nix:100"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "6c58f57ad7dd06c980cc8454119e6126354f0305"
+  ]
+ },
+ "455.46.04-5.8.0-2020.09.07": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "https://www.nvidia.com/object/unix.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "baracoder@googlemail.com",
+     "github": "baracoder",
+     "githubId": 127523,
+     "name": "Herman Fries"
+    }
+   ],
+   "name": "nvidia-x11",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/nvidia-x11/generic.nix:100"
+  },
+  "revs": [
+   "91d6b7d09ce94d95eb01d6c93ed935bc9fd09f05",
+   "91d6b7d09ce94d95eb01d6c93ed935bc9fd09f05"
+  ]
+ },
+ "455.46.04-5.9.0-2020.11.20": {
+  "meta": {
+   "description": "X.org driver and kernel module for NVIDIA graphics cards",
+   "homepage": "https://www.nvidia.com/object/unix.html",
+   "license": {
+    "free": false,
+    "fullName": "Unfree redistributable",
+    "shortName": "unfreeRedistributable"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "baracoder@googlemail.com",
+     "github": "baracoder",
+     "githubId": 127523,
+     "name": "Herman Fries"
+    }
+   ],
+   "name": "nvidia-x11",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/os-specific/linux/nvidia-x11/generic.nix:100"
+  },
+  "revs": [
+   "014a3429ea6c8349bb7ede1ad5597b844731dc14",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

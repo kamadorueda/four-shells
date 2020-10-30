@@ -1,0 +1,4 @@
+{
+ "summary": "* Trying to get gcc 4.2.0 to compile... * Compute --enable-languages in the Nix expression instead of in the   builder. * Pass some flags through the Make command line instead of patching   the Makefiles. * gcc: generate code for i686 by default (instead of i386). * gcc: patch out some references to /lib and /usr/lib.",
+ "timestamp": "1179692875"
+}

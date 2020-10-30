@@ -1,0 +1,4 @@
+{
+ "summary": "Adding a key 'exit 0' to myenv. Otherwise it fails to build if pkgconfig is one of the build inputs.",
+ "timestamp": "1301234893"
+}

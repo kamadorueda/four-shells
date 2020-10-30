@@ -1,0 +1,23 @@
+{
+ "0.9.4": {
+  "meta": {
+   "description": "A Nose plugin for integrating JavaScript tests into a Python test suite",
+   "homepage": "https://pypi.org/project/NoseJS/",
+   "license": {
+    "fullName": "Unspecified free software license",
+    "shortName": "free"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "python2.7-NoseJS",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/development/python-modules/nosejs/default.nix:24"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ }
+}

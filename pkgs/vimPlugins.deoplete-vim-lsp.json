@@ -1,0 +1,50 @@
+{
+ "2020-07-24": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/lighttiger2505/deoplete-vim-lsp/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-deoplete-vim-lsp",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:971"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-10-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/lighttiger2505/deoplete-vim-lsp/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-deoplete-vim-lsp",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1007"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-21": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/lighttiger2505/deoplete-vim-lsp/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-deoplete-vim-lsp",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:1067"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

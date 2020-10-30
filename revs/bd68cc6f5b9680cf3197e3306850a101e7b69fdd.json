@@ -1,0 +1,4 @@
+{
+ "summary": "nix-build: Honor user-provided `failureHook'.",
+ "timestamp": "1330449050"
+}

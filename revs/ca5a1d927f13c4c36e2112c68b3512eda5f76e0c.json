@@ -1,0 +1,4 @@
+{
+ "summary": "buildbot: fix .withPlugins to propagate inputs",
+ "timestamp": "1488994784"
+}

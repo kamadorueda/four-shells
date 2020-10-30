@@ -1,0 +1,4 @@
+{
+ "summary": "Made the kernel generate-config \"build as modules as you can\" an option. Sepcifically, a nixpkgs \"platform\" option. So, for PC all remained the same as it was.",
+ "timestamp": "1266348471"
+}

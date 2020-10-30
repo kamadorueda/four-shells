@@ -1,0 +1,4 @@
+{
+ "summary": "gnutls: disable tests (stopped working after last CVE)",
+ "timestamp": "1395092670"
+}

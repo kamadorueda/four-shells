@@ -1,0 +1,4 @@
+{
+ "summary": "dovecot: remove cve patches, as the latest released version includes them all",
+ "timestamp": "1567065870"
+}

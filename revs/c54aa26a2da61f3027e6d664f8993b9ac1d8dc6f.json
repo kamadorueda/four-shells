@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/munin: move from /var/run to /run as using /var/run now emits a warning by systemd's tmpfiles.d. As /var/run is already a symlink to /run, this can't break anything, and data does not need to be migrated.",
+ "timestamp": "1538580997"
+}

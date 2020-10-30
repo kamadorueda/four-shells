@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/sshguard: do not do IPv6 setup/teardown unconditionally",
+ "timestamp": "1606375011"
+}

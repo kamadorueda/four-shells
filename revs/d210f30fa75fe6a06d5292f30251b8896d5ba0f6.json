@@ -1,0 +1,4 @@
+{
+ "summary": "Omit GRUB if boot.loader.grub.device is set to \"nodev\"",
+ "timestamp": "1370347507"
+}

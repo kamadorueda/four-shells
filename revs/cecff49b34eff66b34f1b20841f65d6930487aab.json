@@ -1,0 +1,4 @@
+{
+ "summary": "Moved the cabal build driver function from development/libraries/haskell/cabal to build-support/cabal.",
+ "timestamp": "1329671015"
+}

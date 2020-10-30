@@ -1,0 +1,4 @@
+{
+ "summary": "hackage2nix: stick to older hackage-security version to make cabal-install happy",
+ "timestamp": "1582812253"
+}

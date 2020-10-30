@@ -1,0 +1,4 @@
+{
+ "summary": "tests/installer: Provided test should add symlinks to /dev/disk if udev doesn't",
+ "timestamp": "1399014205"
+}

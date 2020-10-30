@@ -1,0 +1,4 @@
+{
+ "summary": "Stole a patch from gentoo to fix the compilation of libmsn against OpenSSL-1.0.0",
+ "timestamp": "1280396489"
+}

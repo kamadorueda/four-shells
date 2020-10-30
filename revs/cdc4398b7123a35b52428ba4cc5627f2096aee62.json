@@ -1,0 +1,4 @@
+{
+ "summary": "Disable failing test suites for pandoc and tasty-hedgehog to fix builds.",
+ "timestamp": "1550239066"
+}

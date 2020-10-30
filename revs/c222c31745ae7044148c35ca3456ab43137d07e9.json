@@ -1,0 +1,4 @@
+{
+ "summary": "do not patch non-existent bash_completion for old kernels",
+ "timestamp": "1372705486"
+}

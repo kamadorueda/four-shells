@@ -1,0 +1,4 @@
+{
+ "summary": "nixos: ensure TERMINFO is set before user shells are run",
+ "timestamp": "1462968998"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "gimp: add version to derivation, use symlinkJoin for a wrapper",
+ "timestamp": "1461673605"
+}

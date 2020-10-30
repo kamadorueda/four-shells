@@ -1,0 +1,48 @@
+{
+ "1.0": {
+  "meta": {
+   "description": "A client for matrix, the decentralized communication protocol.",
+   "homepage": "https://apps.kde.org/en/neochat",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "m.j.lbach@gmail.com",
+     "github": "mjlbach",
+     "githubId": 13316262,
+     "name": "Michael Lingelbach"
+    },
+    {
+     "email": "peter@hoeg.com",
+     "github": "peterhoeg",
+     "githubId": 722550,
+     "name": "Peter Hoeg"
+    }
+   ],
+   "name": "neochat",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/networking/instant-messengers/neochat/default.nix:61"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

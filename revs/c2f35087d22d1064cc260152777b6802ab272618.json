@@ -1,0 +1,4 @@
+{
+ "summary": "Add ZFS dependencies to the initrd so that the zpool command works. Remove unneeded zfs mount, since zpool automatically mounts everything.",
+ "timestamp": "1382865443"
+}

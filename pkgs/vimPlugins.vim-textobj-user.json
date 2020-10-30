@@ -1,0 +1,66 @@
+{
+ "2017-09-28": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-textobj-user",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:398"
+  },
+  "revs": [
+   "0022708d6d369527aa4ff5da07806203c21533d5",
+   "3a21d5bce24ce280f052411e7e47aee73d2c4f49"
+  ]
+ },
+ "2018-11-19": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-textobj-user",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:4561"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "2019-10-16": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-textobj-user",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5244"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "2020-02-21": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/kana/vim-textobj-user/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-textobj-user",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6679"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

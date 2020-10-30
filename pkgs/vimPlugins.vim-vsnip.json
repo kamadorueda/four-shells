@@ -1,0 +1,306 @@
+{
+ "2020-06-04": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6929"
+  },
+  "revs": [
+   "1e2703cd9c39ab9a800130aeddd65af53ba42419",
+   "1e2703cd9c39ab9a800130aeddd65af53ba42419"
+  ]
+ },
+ "2020-07-28": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6931"
+  },
+  "revs": [
+   "00436f01f86c7aba22ea7299d0bb2ec848731104",
+   "00d8c11a5702868c0cf80ffc97cc896070bd3538"
+  ]
+ },
+ "2020-08-04": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6967"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "a5a383a389bfcaf8b0c3ac038cf8701d9e14dda9"
+  ]
+ },
+ "2020-08-14": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7003"
+  },
+  "revs": [
+   "0030dac5c0d5c0294ca5ae5b751831b1a252aec4",
+   "6dfdc15ac3765e53947f2773c01cc0160ee3d45c"
+  ]
+ },
+ "2020-08-15": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7123"
+  },
+  "revs": [
+   "003fa57c6484a63af1e72470fa2b101f4de7a79e",
+   "990e2f210b95549e441cbaef91fe3787a264ea35"
+  ]
+ },
+ "2020-08-21": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7123"
+  },
+  "revs": [
+   "026b4765bada7437c679693491ca2c6b6a1cc35c",
+   "bf3f39789dfe739b762ce6768bc9289bfe74c424"
+  ]
+ },
+ "2020-08-23": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7147"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "815eaa5206dcc9ffefb2d8dacf10aca1f89c45f6"
+  ]
+ },
+ "2020-08-31": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7219"
+  },
+  "revs": [
+   "008f45f5916dd0fe3d9a591833fb92dce92dc777",
+   "05f3a5362efaed1d7d848ba329087f19f5ae3a77"
+  ]
+ },
+ "2020-09-02": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6835"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-09-14": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6859"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "a3022613181fb1f1ef4e3ea7a45fa9c6b877715a"
+  ]
+ },
+ "2020-09-17": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6895"
+  },
+  "revs": [
+   "008de9ca3cd22658df19276032f5d3f403a51090",
+   "487fb291d9d0761c118b579ad4cd7bea597d414d"
+  ]
+ },
+ "2020-09-23": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6919"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2020-10-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:6943"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-08": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7003"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "1ad0c8d29208cde9930b4e9f0a174878a9295484"
+  ]
+ },
+ "2020-11-14": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7099"
+  },
+  "revs": [
+   "002a5f9de16130ac9f8e474de75d9b5eca7bf4bd",
+   "4074d4ad98fb41093c492e5e57492ef65caf1d13"
+  ]
+ },
+ "2020-11-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7269"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-28": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7329"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-06": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:7329"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/hrsh7th/vim-vsnip/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-vsnip",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:7414"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

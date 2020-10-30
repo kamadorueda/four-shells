@@ -1,0 +1,81 @@
+{
+ "0.3.1": {
+  "meta": {
+   "description": "A plugins which integrates titlebar and window controls into the xfce4-panel",
+   "homepage": "https://github.com/TiZ-EX1/xfce4-namebar-plugin",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jaroslavas@volth.com",
+     "github": "volth",
+     "name": "Jaroslavas Pocepko"
+    }
+   ],
+   "name": "xfce4-namebar-plugin",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/desktops/xfce/panel-plugins/xfce4-namebar-plugin.nix:26"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "1.0.0": {
+  "meta": {
+   "description": "Plugin which integrates titlebar and window controls into the xfce4-panel",
+   "homepage": "https://github.com/HugLifeTiZ/xfce4-namebar-plugin",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jaroslavas@volth.com",
+     "github": "volth",
+     "githubId": 508305,
+     "name": "Jaroslavas Pocepko"
+    }
+   ],
+   "name": "xfce4-namebar-plugin",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/desktops/xfce/panel-plugins/xfce4-namebar-plugin.nix:33"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

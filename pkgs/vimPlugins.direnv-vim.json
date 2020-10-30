@@ -1,0 +1,146 @@
+{
+ "2017-12-29": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-direnv-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "0025ae4ff861b39fcf528e72f6ff8bf173fc4d5d",
+   "925b028f1779027d65ef75ecc87563c45805d0c3"
+  ]
+ },
+ "2018-11-10": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-direnv-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "2019-03-17": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-direnv-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:519"
+  },
+  "revs": [
+   "0017a06717bb18706ac3cb99432034caad0c8b91",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "2019-04-25": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-direnv-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:530"
+  },
+  "revs": [
+   "00361eece32480071fab54bf53d57b8d81dd57f5",
+   "a6d39ee9dba0ec547062b00d7ff5ea7fc569b17e"
+  ]
+ },
+ "2019-04-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/direnv/direnv.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-direnv-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1343"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-09-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/direnv/direnv.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-direnv-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1079"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2020-10-10": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/direnv/direnv.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-direnv-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1079"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/direnv/direnv.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-direnv-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1139"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-20": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/direnv/direnv.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-direnv-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1127"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

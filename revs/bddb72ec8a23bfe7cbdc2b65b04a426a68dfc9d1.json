@@ -1,0 +1,4 @@
+{
+ "summary": "psotgis: - support older versions (which are used by other distributions) - give utilyt scripts nicer names - pg_db_postgis_enable: support loading comments",
+ "timestamp": "1274900470"
+}

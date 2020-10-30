@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing a stdenv problem... 'binutils' where linked with zlib from bootstrap-tools, because zlib was there and binutils were not having an explicit buildInput for zlib. Due to that, we ended up with stdenv (gcc-wrapper) depending on bootstrap-tools as runtime dependency.",
+ "timestamp": "1290349760"
+}

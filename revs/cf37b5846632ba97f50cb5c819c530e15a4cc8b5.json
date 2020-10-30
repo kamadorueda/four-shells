@@ -1,0 +1,4 @@
+{
+ "summary": "Making tigervnc build on armv5tel-linux (setting it not to require the mesa dri)",
+ "timestamp": "1279102916"
+}

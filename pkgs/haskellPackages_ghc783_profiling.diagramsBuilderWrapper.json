@@ -1,0 +1,27 @@
+{
+ "0.6.0.2-profiling-shared-wrapper": {
+  "meta": {
+   "description": "hint-based build service for the diagrams graphics EDSL",
+   "homepage": "http://projects.haskell.org/diagrams",
+   "license": {
+    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+    "shortName": "bsd3",
+    "spdxId": "BSD-3-Clause",
+    "url": "http://spdx.org/licenses/BSD-3-Clause"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-diagrams-builder-ghc7.8.3",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "x86_64-darwin"
+   ],
+   "position": "gs/pkgs/development/libraries/haskell/diagrams/builder/default.nix:22"
+  },
+  "revs": [
+   "bbed7f95cdcb6b99fb3577151612e0b11736e6df",
+   "bbed7f95cdcb6b99fb3577151612e0b11736e6df"
+  ]
+ }
+}

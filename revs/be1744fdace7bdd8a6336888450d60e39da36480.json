@@ -1,0 +1,4 @@
+{
+ "summary": "gst-plugins-good: fix aarch64 builds and make raspi deps optional",
+ "timestamp": "1606768273"
+}

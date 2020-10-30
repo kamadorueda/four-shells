@@ -1,0 +1,66 @@
+{
+ "2020-01-02": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-dadbod",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3736"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "48810b2cfaf39f9278d759ac2a69a84981acb070"
+  ]
+ },
+ "2020-04-09": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/tpope/vim-dadbod/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-dadbod",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:4156"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "2020-04-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/tpope/vim-dadbod/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-dadbod",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:4457"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-08": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/tpope/vim-dadbod/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-dadbod",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:4662"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

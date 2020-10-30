@@ -1,0 +1,4 @@
+{
+ "summary": "epic5: changed rm, cp, chmod to use pkgs.coreutils",
+ "timestamp": "1487445000"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "* Add a function to sort a list. * Add a new property to order NixOS definitions without creating   dependencies between snippets. * Add mkHeader & mkFooter properties (special case of mkOrder).",
+ "timestamp": "1257559195"
+}

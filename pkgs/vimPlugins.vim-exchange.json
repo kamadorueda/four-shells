@@ -1,0 +1,82 @@
+{
+ "2017-01-27": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-exchange",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3923"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "2020-06-24": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/tommcdo/vim-exchange/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-exchange",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:4673"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-11-09": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/tommcdo/vim-exchange/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-exchange",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:4589"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "4074d4ad98fb41093c492e5e57492ef65caf1d13"
+  ]
+ },
+ "2020-11-15": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/tommcdo/vim-exchange/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-exchange",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:4817"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/tommcdo/vim-exchange/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-exchange",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:4902"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

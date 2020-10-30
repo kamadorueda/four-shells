@@ -1,0 +1,30 @@
+{
+ "1.9.3.23": {
+  "meta": {
+   "description": "A free OpenSource 2D MMORPG client",
+   "homepage": "https://manaplus.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "git@sphalerite.org",
+     "github": "lheckemann",
+     "githubId": 341954,
+     "name": "Linus Heckemann"
+    }
+   ],
+   "name": "manaplus",
+   "platforms": null,
+   "position": "gs/pkgs/games/manaplus/default.nix:28"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

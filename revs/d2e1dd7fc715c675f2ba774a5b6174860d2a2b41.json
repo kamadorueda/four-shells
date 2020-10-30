@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/modules: services.syncthing use types.str instead of types.string",
+ "timestamp": "1539492396"
+}

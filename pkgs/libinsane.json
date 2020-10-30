@@ -1,0 +1,114 @@
+{
+ "1.0.3": {
+  "meta": {
+   "description": "Crossplatform access to image scanners (paper eaters only)",
+   "homepage": "https://openpaper.work/en/projects/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0-or-later",
+    "url": "http://spdx.org/licenses/LGPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "symphorien_nixpkgs@xlumurb.eu",
+     "github": "symphorien",
+     "githubId": 12595971,
+     "name": "Guillaume Girol"
+    }
+   ],
+   "name": "libinsane",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libinsane/default.nix:42"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "32e666aa4bdec7cf2565931248c58d5dd3ee640e"
+  ]
+ },
+ "1.0.4": {
+  "meta": {
+   "description": "Crossplatform access to image scanners (paper eaters only)",
+   "homepage": "https://openpaper.work/en/projects/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "symphorien_nixpkgs@xlumurb.eu",
+     "github": "symphorien",
+     "githubId": 12595971,
+     "name": "Guillaume Girol"
+    }
+   ],
+   "name": "libinsane",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libinsane/default.nix:42"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "1.0.7": {
+  "meta": {
+   "description": "Crossplatform access to image scanners (paper eaters only)",
+   "homepage": "https://openpaper.work/en/projects/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "symphorien_nixpkgs@xlumurb.eu",
+     "github": "symphorien",
+     "githubId": 12595971,
+     "name": "Guillaume Girol"
+    }
+   ],
+   "name": "libinsane",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libinsane/default.nix:42"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "1.0.8": {
+  "meta": {
+   "description": "Crossplatform access to image scanners (paper eaters only)",
+   "homepage": "https://openpaper.work/en/projects/",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "symphorien_nixpkgs@xlumurb.eu",
+     "github": "symphorien",
+     "githubId": 12595971,
+     "name": "Guillaume Girol"
+    }
+   ],
+   "name": "libinsane",
+   "platforms": null,
+   "position": "pkgs/development/libraries/libinsane/default.nix:42"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

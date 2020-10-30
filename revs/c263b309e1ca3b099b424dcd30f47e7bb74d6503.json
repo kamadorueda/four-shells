@@ -1,0 +1,4 @@
+{
+ "summary": "Added setup-sh-defs, a draft for composing builder from predefined strings, so that substitution change doesn't ruin every package. Not cleaned..",
+ "timestamp": "1188343701"
+}

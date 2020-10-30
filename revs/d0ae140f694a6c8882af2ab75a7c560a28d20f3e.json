@@ -1,0 +1,4 @@
+{
+ "summary": "Renamed some old glibcCross to libcCross (we can use uclibc in cross builds already). Dealt with the gcc 4.4 expression for it to work well for a native and a cross compiler, adding a pair of patches to get the job done without much side effects. One (libtool problems on -B) comes from the gcc 4.3 expression, while the other fixes a bug already fixed in gcc 4.4.3.",
+ "timestamp": "1260264979"
+}

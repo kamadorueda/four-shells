@@ -1,0 +1,4 @@
+{
+ "summary": "systemd: lower priority to solve collisions with openresolv",
+ "timestamp": "1557312925"
+}

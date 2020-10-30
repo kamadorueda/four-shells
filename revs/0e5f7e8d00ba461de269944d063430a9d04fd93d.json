@@ -1,0 +1,4 @@
+{
+ "summary": "hledger-web: set $HOME to $TMP so that the test suite to succeeds",
+ "timestamp": "1608319065"
+}

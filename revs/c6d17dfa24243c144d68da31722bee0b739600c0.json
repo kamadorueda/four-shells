@@ -1,0 +1,4 @@
+{
+ "summary": "fix up cudatoolkit 6.5 so that nvprof can run",
+ "timestamp": "1430562964"
+}

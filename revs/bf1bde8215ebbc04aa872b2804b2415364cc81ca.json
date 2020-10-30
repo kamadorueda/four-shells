@@ -1,0 +1,4 @@
+{
+ "summary": "Wrap yesod-bin so that yesod devel works with Nix",
+ "timestamp": "1401090508"
+}

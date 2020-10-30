@@ -1,0 +1,4 @@
+{
+ "summary": "Added setup hook that adds a Node package automatically to NODE_PATH, if included in the buildInputs parameter",
+ "timestamp": "1359987693"
+}

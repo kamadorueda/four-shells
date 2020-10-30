@@ -1,0 +1,4 @@
+{
+ "summary": "seq24: fix build failures due to name clash in \"mutex\" class",
+ "timestamp": "1473208043"
+}

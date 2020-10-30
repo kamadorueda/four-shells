@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/kubernetes: don't enable all alpha feature gates for the test cases",
+ "timestamp": "1544964108"
+}

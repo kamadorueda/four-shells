@@ -1,0 +1,4 @@
+{
+ "summary": "Added SublimeText3 support. SublimeText2 and SublimeText3 can be installed side by side. They provide 'sublime', 'sublime2' and 'sublime3' commands. SublimeText3 has lower precedense than SublimeText2 because its in beta mode (for over a year now)",
+ "timestamp": "1390682708"
+}

@@ -1,0 +1,32 @@
+{
+ "1.5": {
+  "meta": {
+   "description": "Astrometric plate solving library",
+   "homepage": "https://github.com/rlancaste/stellarsolver",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "hjones2199@gmail.com",
+     "github": "hjones2199",
+     "githubId": 5525217,
+     "name": "Hunter Jones"
+    }
+   ],
+   "name": "stellarsolver",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/development/libraries/stellarsolver/default.nix:25"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

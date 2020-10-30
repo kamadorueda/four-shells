@@ -1,0 +1,4 @@
+{
+ "summary": "docker-containers: Don't unconditionally prune images (#79253)",
+ "timestamp": "1580938231"
+}

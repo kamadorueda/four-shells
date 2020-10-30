@@ -1,0 +1,18 @@
+{
+ "2.24": {
+  "meta": {
+   "description": "A tool to replace verbatim strings",
+   "homepage": "http://replace.richardlloyd.org.uk/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "replace",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

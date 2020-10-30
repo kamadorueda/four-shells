@@ -1,0 +1,58 @@
+{
+ "1.0.1": {
+  "meta": {
+   "description": "Fast and multi-purpose DNS toolkit",
+   "homepage": "https://github.com/projectdiscovery/dnsx",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "dnsx is a fast and multi-purpose DNS toolkit allow to run multiple\nprobers using retryabledns library, that allows you to perform\nmultiple DNS queries of your choice with a list of user supplied\nresolvers.\n",
+   "maintainers": [
+    {
+     "email": "mail@fabian-affolter.ch",
+     "github": "fabaff",
+     "githubId": 116184,
+     "keys": [
+      {
+       "fingerprint": "2F6C 930F D3C4 7E38 6AFA  4EB4 E23C D2DD 36A4 397F",
+       "longkeyid": "dsa1024/0xE23CD2DD36A4397F"
+      }
+     ],
+     "name": "Fabian Affolter"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "dnsx",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/tools/security/dnsx/default.nix:20"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "haproxy: use getaddrinfo() on Linux (#44489)",
+ "timestamp": "1533485847"
+}

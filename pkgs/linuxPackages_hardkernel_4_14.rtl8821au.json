@@ -1,0 +1,273 @@
+{
+ "4.14.102-156-5.1.5": {
+  "meta": {
+   "description": "rtl8821AU, rtl8812AU and rtl8811AU chipset driver with firmware",
+   "homepage": "https://github.com/zebulon2/rtl8812au",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@oddco.de",
+     "github": "plchldr",
+     "name": "Jonas Beyer"
+    }
+   ],
+   "name": "rtl8821au",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821au/default.nix:34"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "4.14.102-156-5.1.5+41": {
+  "meta": {
+   "description": "rtl8821AU, rtl8812AU and rtl8811AU chipset driver with firmware",
+   "homepage": "https://github.com/zebulon2/rtl8812au",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@oddco.de",
+     "github": "plchldr",
+     "name": "Jonas Beyer"
+    }
+   ],
+   "name": "rtl8821au",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821au/default.nix:34"
+  },
+  "revs": [
+   "0778b2c9ea86a4f30bb88e1686b98ea20d3644be",
+   "0778b2c9ea86a4f30bb88e1686b98ea20d3644be"
+  ]
+ },
+ "4.14.120-160-5.1.5": {
+  "meta": {
+   "description": "rtl8821AU, rtl8812AU and rtl8811AU chipset driver with firmware",
+   "homepage": "https://github.com/zebulon2/rtl8812au",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@oddco.de",
+     "github": "plchldr",
+     "name": "Jonas Beyer"
+    }
+   ],
+   "name": "rtl8821au",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821au/default.nix:34"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "4.14.120-160-5.1.5+41": {
+  "meta": {
+   "description": "rtl8821AU, rtl8812AU and rtl8811AU chipset driver with firmware",
+   "homepage": "https://github.com/zebulon2/rtl8812au",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@oddco.de",
+     "github": "plchldr",
+     "name": "Jonas Beyer"
+    }
+   ],
+   "name": "rtl8821au",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821au/default.nix:34"
+  },
+  "revs": [
+   "000463186d471107324c67faecb5c85e9f06521a",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "4.14.165-172-5.1.5+41": {
+  "meta": {
+   "description": "rtl8821AU, rtl8812AU and rtl8811AU chipset driver with firmware",
+   "homepage": "https://github.com/zebulon2/rtl8812au",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@oddco.de",
+     "github": "plchldr",
+     "githubId": 11639001,
+     "name": "Jonas Beyer"
+    }
+   ],
+   "name": "rtl8821au",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821au/default.nix:38"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "4.14.78-150-5.1.5": {
+  "meta": {
+   "description": "rtl8821AU, rtl8812AU and rtl8811AU chipset driver with firmware",
+   "homepage": "https://github.com/zebulon2/rtl8812au",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@oddco.de",
+     "github": "plchldr",
+     "name": "Jonas Beyer"
+    }
+   ],
+   "name": "rtl8821au",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821au/default.nix:34"
+  },
+  "revs": [
+   "0972bde7d22f10838485682cfc00ad4ef95e8d09",
+   "0972bde7d22f10838485682cfc00ad4ef95e8d09"
+  ]
+ },
+ "4.14.85-152-5.1.5": {
+  "meta": {
+   "description": "rtl8821AU, rtl8812AU and rtl8811AU chipset driver with firmware",
+   "homepage": "https://github.com/zebulon2/rtl8812au",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@oddco.de",
+     "github": "plchldr",
+     "name": "Jonas Beyer"
+    }
+   ],
+   "name": "rtl8821au",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821au/default.nix:34"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c0d2f924590918b0176aaf1f84ccf372ce4f13c4"
+  ]
+ },
+ "4.14.87-153-5.1.5": {
+  "meta": {
+   "description": "rtl8821AU, rtl8812AU and rtl8811AU chipset driver with firmware",
+   "homepage": "https://github.com/zebulon2/rtl8812au",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@oddco.de",
+     "github": "plchldr",
+     "name": "Jonas Beyer"
+    }
+   ],
+   "name": "rtl8821au",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821au/default.nix:34"
+  },
+  "revs": [
+   "0008aa73eb0dec898c4e2e6913af645abd253c35",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "4.14.94-155-5.1.5": {
+  "meta": {
+   "description": "rtl8821AU, rtl8812AU and rtl8811AU chipset driver with firmware",
+   "homepage": "https://github.com/zebulon2/rtl8812au",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "mail@oddco.de",
+     "github": "plchldr",
+     "name": "Jonas Beyer"
+    }
+   ],
+   "name": "rtl8821au",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux"
+   ],
+   "position": "pkgs/os-specific/linux/rtl8821au/default.nix:34"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
+  ]
+ }
+}

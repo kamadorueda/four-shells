@@ -1,0 +1,42 @@
+{
+ "1.0.5": {
+  "meta": {
+   "description": "A Risk of Rain 2 Mod Manager in Bash",
+   "homepage": "https://github.com/foldex/r2mod_cli",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "reedrw5601@gmail.com",
+     "github": "reedrw",
+     "githubId": 21069876,
+     "name": "Reed Williams"
+    }
+   ],
+   "name": "r2mod_cli",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/games/r2mod_cli/default.nix:28"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

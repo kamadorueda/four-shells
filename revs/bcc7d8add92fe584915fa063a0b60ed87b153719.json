@@ -1,0 +1,4 @@
+{
+ "summary": "Texinfo requires GNU awk, mainly during make check. This fixes build on SmartOS.",
+ "timestamp": "1446946745"
+}

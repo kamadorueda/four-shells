@@ -1,0 +1,202 @@
+{
+ "13.24.1": {
+  "meta": {
+   "description": "Software implementation of a telephone private branch exchange (PBX)",
+   "homepage": "https://www.asterisk.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntieNeo",
+     "githubId": 574938,
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "tim.digel@active-group.de",
+     "github": "DerTim1",
+     "githubId": 21953890,
+     "name": "Tim Digel"
+    },
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "githubId": 647076,
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "asterisk",
+   "platforms": null,
+   "position": "pkgs/servers/asterisk/default.nix:74"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "383075f38b94b25ff30ec68a1bb19b35dc9ce4e8"
+  ]
+ },
+ "13.36.0": {
+  "meta": {
+   "description": "Software implementation of a telephone private branch exchange (PBX)",
+   "homepage": "https://www.asterisk.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntieNeo",
+     "githubId": 574938,
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "tim.digel@active-group.de",
+     "github": "DerTim1",
+     "githubId": 21953890,
+     "name": "Tim Digel"
+    },
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "githubId": 647076,
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "asterisk",
+   "platforms": null,
+   "position": "pkgs/servers/asterisk/default.nix:75"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "07e49512aa1bea7730ebca10aa4a50a33cae34cd"
+  ]
+ },
+ "13.37.0": {
+  "meta": {
+   "description": "Software implementation of a telephone private branch exchange (PBX)",
+   "homepage": "https://www.asterisk.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntieNeo",
+     "githubId": 574938,
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "tim.digel@active-group.de",
+     "github": "DerTim1",
+     "githubId": 21953890,
+     "name": "Tim Digel"
+    },
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "githubId": 647076,
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "asterisk",
+   "platforms": null,
+   "position": "pkgs/servers/asterisk/default.nix:75"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "13.37.1": {
+  "meta": {
+   "description": "Software implementation of a telephone private branch exchange (PBX)",
+   "homepage": "https://www.asterisk.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntieNeo",
+     "githubId": 574938,
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "tim.digel@active-group.de",
+     "github": "DerTim1",
+     "githubId": 21953890,
+     "name": "Tim Digel"
+    },
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "githubId": 647076,
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "asterisk",
+   "platforms": null,
+   "position": "pkgs/servers/asterisk/default.nix:75"
+  },
+  "revs": [
+   "0140aced5353da38b99a838b8a06325fb59e6226",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "13.38.0": {
+  "meta": {
+   "description": "Software implementation of a telephone private branch exchange (PBX)",
+   "homepage": "https://www.asterisk.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "auntieNeo@gmail.com",
+     "github": "auntieNeo",
+     "githubId": 574938,
+     "name": "Jonathan Glines"
+    },
+    {
+     "email": "tim.digel@active-group.de",
+     "github": "DerTim1",
+     "githubId": 21953890,
+     "name": "Tim Digel"
+    },
+    {
+     "email": "yorickvanpelt@gmail.com",
+     "github": "yorickvp",
+     "githubId": 647076,
+     "name": "Yorick van Pelt"
+    }
+   ],
+   "name": "asterisk",
+   "platforms": null,
+   "position": "pkgs/servers/asterisk/default.nix:75"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

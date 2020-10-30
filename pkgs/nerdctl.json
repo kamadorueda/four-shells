@@ -1,0 +1,140 @@
+{
+ "0.2.0": {
+  "meta": {
+   "description": "A Docker-compatible CLI for containerd",
+   "homepage": "https://github.com/AkihiroSuda/nerdctl",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "hello+nixpkgs@j-k.io",
+     "github": "06kellyjac",
+     "githubId": 9866621,
+     "name": "Jack"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "nerdctl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/networking/cluster/nerdctl/default.nix:45"
+  },
+  "revs": [
+   "01848454d5e049e90956bd27f8bd7ef7389ca1a8",
+   "5142dd84f8685541a0ad3531f931096b3aad2e25"
+  ]
+ },
+ "0.3.0": {
+  "meta": {
+   "description": "A Docker-compatible CLI for containerd",
+   "homepage": "https://github.com/AkihiroSuda/nerdctl",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "hello+nixpkgs@j-k.io",
+     "github": "06kellyjac",
+     "githubId": 9866621,
+     "name": "Jack"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "nerdctl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/networking/cluster/nerdctl/default.nix:45"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "84daff4b8482c3ed5703df995b61d3223240f293"
+  ]
+ },
+ "0.4.0": {
+  "meta": {
+   "description": "A Docker-compatible CLI for containerd",
+   "homepage": "https://github.com/AkihiroSuda/nerdctl",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "hello+nixpkgs@j-k.io",
+     "github": "06kellyjac",
+     "githubId": 9866621,
+     "name": "Jack"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "nerdctl",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/networking/cluster/nerdctl/default.nix:45"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

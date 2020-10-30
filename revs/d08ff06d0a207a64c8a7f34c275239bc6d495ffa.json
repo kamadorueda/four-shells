@@ -1,0 +1,4 @@
+{
+ "summary": "netbsd.terminfo: break libcurses dep cycle with simple decl of use_env",
+ "timestamp": "1537502205"
+}

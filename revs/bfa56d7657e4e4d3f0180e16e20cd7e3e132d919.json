@@ -1,0 +1,4 @@
+{
+ "summary": "httpd: Only add PHPRC to environment of httpd when enablePHP is true.",
+ "timestamp": "1391199245"
+}

@@ -1,0 +1,128 @@
+{
+ "2.0.0": {
+  "meta": {
+   "description": "Fonts for Scientific and Technical Information eXchange",
+   "homepage": "http://www.stixfonts.org/",
+   "license": {
+    "fullName": "SIL Open Font License 1.1",
+    "shortName": "ofl",
+    "spdxId": "OFL-1.1",
+    "url": "http://spdx.org/licenses/OFL-1.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "robert@rycee.net",
+     "github": "rycee",
+     "name": "Robert Helgesson"
+    }
+   ],
+   "name": "stix-two",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/data/fonts/stix-two/default.nix:19"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "2.0.2": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/stipub/stixfonts",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "stix-two",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2.10": {
+  "meta": {
+   "description": "Fonts for Scientific and Technical Information eXchange",
+   "homepage": "https://www.stixfonts.org/",
+   "license": {
+    "fullName": "SIL Open Font License 1.1",
+    "shortName": "ofl",
+    "spdxId": "OFL-1.1",
+    "url": "https://spdx.org/licenses/OFL-1.1.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "robert@rycee.net",
+     "github": "rycee",
+     "githubId": 798147,
+     "keys": [
+      {
+       "fingerprint": "36CA CF52 D098 CC0E 78FB  0CB1 3573 356C 25C4 24D4",
+       "longkeyid": "rsa4096/0x3573356C25C424D4"
+      }
+     ],
+     "name": "Robert Helgesson"
+    }
+   ],
+   "name": "stix-two",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-cygwin",
+    "i686-freebsd",
+    "i686-linux",
+    "i686-netbsd",
+    "i686-openbsd",
+    "x86_64-cygwin",
+    "x86_64-freebsd",
+    "x86_64-linux",
+    "x86_64-netbsd",
+    "x86_64-openbsd",
+    "x86_64-solaris",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin",
+    "x86_64-windows",
+    "i686-windows",
+    "wasm64-wasi",
+    "wasm32-wasi",
+    "x86_64-redox",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "arm-none",
+    "armv6l-none",
+    "aarch64-none",
+    "avr-none",
+    "i686-none",
+    "x86_64-none",
+    "powerpc-none",
+    "msp430-none",
+    "riscv64-none",
+    "riscv32-none",
+    "vc4-none",
+    "or1k-none",
+    "mmix-mmixware",
+    "js-ghcjs",
+    "aarch64-genode",
+    "i686-genode",
+    "x86_64-genode"
+   ],
+   "position": "gs/pkgs/data/fonts/stix-two/default.nix:20"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

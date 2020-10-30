@@ -1,0 +1,4 @@
+{
+ "summary": "dockerTools.buildImage: support using a layered image in fromImage",
+ "timestamp": "1543943886"
+}

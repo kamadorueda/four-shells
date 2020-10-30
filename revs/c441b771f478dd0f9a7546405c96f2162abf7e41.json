@@ -1,0 +1,4 @@
+{
+ "summary": "libvirt: add python to deps so python bindings are built",
+ "timestamp": "1281550203"
+}

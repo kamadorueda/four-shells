@@ -1,0 +1,4 @@
+{
+ "summary": "ledger-2.6.3: rename the derivation to \"ledger2\" to allow installing this version instead of ledger 3.x (which doesn't support reading GNUCash files)",
+ "timestamp": "1398941805"
+}

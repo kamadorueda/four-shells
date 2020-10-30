@@ -1,0 +1,4 @@
+{
+ "summary": "Making 'release.nix' point to linuxPackages, and not to kernelPackages (the new linux naming in stdenv-updates)",
+ "timestamp": "1263766156"
+}

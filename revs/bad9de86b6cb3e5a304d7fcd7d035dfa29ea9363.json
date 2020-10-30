@@ -1,0 +1,4 @@
+{
+ "summary": "buildLocalCabal: do not set LANG/LOCALE_ARCHIVE on non-linux machines",
+ "timestamp": "1396161988"
+}

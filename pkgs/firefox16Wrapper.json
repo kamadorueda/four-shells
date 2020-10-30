@@ -1,0 +1,50 @@
+{
+ "16.0-with-plugins": {
+  "meta": {
+   "description": "Mozilla Firefox - the browser, reloaded (with plugins: flashplayer-11.2.202.238)",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "firefox",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "c322dc6844f267bd5a87298b42525f0ef6d52480"
+  ]
+ },
+ "16.0.1-with-plugins": {
+  "meta": {
+   "description": "Mozilla Firefox - the browser, reloaded (with plugins: flashplayer-11.2.202.238)",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "firefox",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "006af75c174f76a6722a22641afd6f369f5f32a8",
+   "ccfb0562558b87dc39a695da54e5fbc33b552ad8"
+  ]
+ },
+ "16.0.2-with-plugins": {
+  "meta": {
+   "description": "Mozilla Firefox - the browser, reloaded (with plugins: flashplayer-11.2.202.238)",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "firefox",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "00dedcba80c7dcbda22992d8f73828719a21e970",
+   "c2189c49c6735e1f1611e9897686e76ee0dc4fce"
+  ]
+ }
+}

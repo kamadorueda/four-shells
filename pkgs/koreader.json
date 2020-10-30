@@ -1,0 +1,128 @@
+{
+ "2020.09": {
+  "meta": {
+   "description": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices",
+   "homepage": "https://github.com/koreader/koreader",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "koreader",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/misc/koreader/default.nix:46"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020.10.1": {
+  "meta": {
+   "description": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices",
+   "homepage": "https://github.com/koreader/koreader",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "koreader",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/misc/koreader/default.nix:46"
+  },
+  "revs": [
+   "8c1059399f26dd2df24e667fb794444b2722ef2e",
+   "8c1059399f26dd2df24e667fb794444b2722ef2e"
+  ]
+ },
+ "2020.11": {
+  "meta": {
+   "description": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices",
+   "homepage": "https://github.com/koreader/koreader",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    }
+   ],
+   "name": "koreader",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/misc/koreader/default.nix:46"
+  },
+  "revs": [
+   "01229007553d9322c473c0fa36e3d6c644147e7d",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020.12": {
+  "meta": {
+   "description": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices",
+   "homepage": "https://github.com/koreader/koreader",
+   "license": {
+    "fullName": "GNU Affero General Public License v3.0 only",
+    "shortName": "agpl3Only",
+    "spdxId": "AGPL-3.0-only",
+    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "uuuuuu@protonmail.com",
+     "github": "contrun",
+     "githubId": 32609395,
+     "name": "B YI"
+    },
+    {
+     "email": "neonfuz@gmail.com",
+     "github": "neonfuz",
+     "githubId": 2590830,
+     "name": "Sage Raflik"
+    }
+   ],
+   "name": "koreader",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/applications/misc/koreader/default.nix:46"
+  },
+  "revs": [
+   "00359f25e2e528530c70cecf302186e0e49cc1d4",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

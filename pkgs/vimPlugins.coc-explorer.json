@@ -1,0 +1,290 @@
+{
+ "2020-07-07": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:416"
+  },
+  "revs": [
+   "3b29c023f87e36e554b0ef1f9d98fcadc44838e1",
+   "c4a881c0fb504a57eb3e455eb99375e170206819"
+  ]
+ },
+ "2020-08-12": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:416"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "05f3a5362efaed1d7d848ba329087f19f5ae3a77"
+  ]
+ },
+ "2020-09-01": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:380"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-09-08": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "0065551641cccec146f6232df213d5cd30109e09",
+   "8ddc83c67fb5d962cdf898aa21e77bad6860c894"
+  ]
+ },
+ "2020-09-14": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "a3022613181fb1f1ef4e3ea7a45fa9c6b877715a"
+  ]
+ },
+ "2020-09-17": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "008de9ca3cd22658df19276032f5d3f403a51090",
+   "487fb291d9d0761c118b579ad4cd7bea597d414d"
+  ]
+ },
+ "2020-09-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "004676ce9c8275598182884c9e5a823a34eaa173",
+   "a42129513d5b923c70a462406062b79f8230ea52"
+  ]
+ },
+ "2020-09-28": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2020-10-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "2020-10-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "02d0df518ef3bd54cd98a8bb5af9816c6d3b8b33",
+   "c81a429fb75a15114486cdb8d3dbab7675357e76"
+  ]
+ },
+ "2020-11-01": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "016bfce7d266ac9c8e44c776c86e8394474281a8",
+   "997098b8b5a7d72d08e378ccaac6f5de60cc4dd9"
+  ]
+ },
+ "2020-11-02": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "13839daecc61e898d03748145e61a29c8d2a2c42",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:404"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "4074d4ad98fb41093c492e5e57492ef65caf1d13"
+  ]
+ },
+ "2020-11-18": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:428"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:440"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-09": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:440"
+  },
+  "revs": [
+   "00b8fa792b2d39ef1b42848059ff15d50341decc",
+   "c7928fb076ec65c82d070c499e5fa4b13bbc9458"
+  ]
+ },
+ "2020-12-11": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:440"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/weirongxu/coc-explorer/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-explorer",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:452"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

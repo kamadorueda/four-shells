@@ -1,0 +1,4 @@
+{
+ "summary": "* X.org generator: specify overrides in a Nix expression rather than   in the generator script.  This makes it easier to change the X.org   packages. * Added xfs, twm.",
+ "timestamp": "1240927115"
+}

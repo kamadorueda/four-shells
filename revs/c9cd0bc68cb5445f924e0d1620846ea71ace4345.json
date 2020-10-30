@@ -1,0 +1,4 @@
+{
+ "summary": "ghc-head: fix configure phase to make sure the compiler knows how to use gmp properly",
+ "timestamp": "1418920297"
+}

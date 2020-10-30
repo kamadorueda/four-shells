@@ -1,0 +1,54 @@
+{
+ "2.0.1": {
+  "meta": {
+   "description": "Automatic generation of hslogger functions",
+   "homepage": "",
+   "license": {
+    "fullname": "Public Domain",
+    "shortName": "Public Domain"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-hslogger-template-ghc7.6.1",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "000791e74a511f862081aff90ab27304c88f0aba",
+   "c2189c49c6735e1f1611e9897686e76ee0dc4fce"
+  ]
+ },
+ "2.0.2": {
+  "meta": {
+   "description": "Automatic generation of hslogger functions",
+   "homepage": "",
+   "license": {
+    "fullname": "Public Domain",
+    "shortName": "Public Domain"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-hslogger-template-ghc7.6.1",
+   "platforms": [
+    "x86_64-linux",
+    "i686-linux",
+    "i686-darwin",
+    "x86_64-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0072c442557b4d57fe128bf75775b2912f94b313",
+   "bd8428efa13764f3bf6ac7de538afa5f50023aa2"
+  ]
+ }
+}

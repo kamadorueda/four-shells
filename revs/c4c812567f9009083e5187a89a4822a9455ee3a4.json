@@ -1,0 +1,4 @@
+{
+ "summary": "fontforge: Fix uninterpolated `CMAKE_INSTALL_PREFIX` in RPATH.",
+ "timestamp": "1595992896"
+}

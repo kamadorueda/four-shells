@@ -1,0 +1,4 @@
+{
+ "summary": "* Cabal builder: put the GHC version in the default name attribute  to   disambiguate between package instances built with different GHCs.",
+ "timestamp": "1240071719"
+}

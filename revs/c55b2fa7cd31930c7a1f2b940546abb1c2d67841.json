@@ -1,0 +1,4 @@
+{
+ "summary": "debBuild: install all packages at once to avoid dependency management",
+ "timestamp": "1519043254"
+}

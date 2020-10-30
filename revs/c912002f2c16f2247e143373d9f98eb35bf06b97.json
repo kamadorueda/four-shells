@@ -1,0 +1,4 @@
+{
+ "summary": "pythonPackages.httpretty: fix build on aarch64 (#61516)",
+ "timestamp": "1557919025"
+}

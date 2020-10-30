@@ -1,0 +1,58 @@
+{
+ "1.13": {
+  "meta": {
+   "description": "trash-put made compatible with GNUs rm and rmdir",
+   "homepage": "https://github.com/PhrozenByte/rmtrash",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Put files (and directories) in trash using the `trash-put` command in a\nway that is, otherwise as `trash-put` itself, compatible to GNUs `rm`\nand `rmdir`.\n",
+   "maintainers": [
+    {
+     "email": "peelz.dev+nixpkgs@gmail.com",
+     "github": "louistakepillz",
+     "githubId": 920910,
+     "name": "peelz"
+    }
+   ],
+   "name": "rmtrash",
+   "platforms": null,
+   "position": "pkgs/tools/misc/rmtrash/default.nix:30"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "1.14": {
+  "meta": {
+   "description": "trash-put made compatible with GNUs rm and rmdir",
+   "homepage": "https://github.com/PhrozenByte/rmtrash",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "Put files (and directories) in trash using the `trash-put` command in a\nway that is, otherwise as `trash-put` itself, compatible to GNUs `rm`\nand `rmdir`.\n",
+   "maintainers": [
+    {
+     "email": "peelz.dev+nixpkgs@gmail.com",
+     "github": "louistakepillz",
+     "githubId": 920910,
+     "name": "peelz"
+    }
+   ],
+   "name": "rmtrash",
+   "platforms": null,
+   "position": "pkgs/tools/misc/rmtrash/default.nix:30"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

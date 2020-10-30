@@ -1,0 +1,4 @@
+{
+ "summary": "Adding a note about a change to do in the big-renaming to allow clear buildInputs and buildNativeInputs, on pkgconfig, which now works always as buildDrv even asking for its hostDrv. Key string: cross_renaming",
+ "timestamp": "1258817960"
+}

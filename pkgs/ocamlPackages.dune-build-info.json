@@ -1,0 +1,310 @@
+{
+ "2.5.0": {
+  "meta": {
+   "description": "Embed build information inside executables",
+   "homepage": "https://dune.build/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "http://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bcdarwin@gmail.com",
+     "github": "bcdarwin",
+     "githubId": 164148,
+     "name": "Ben Darwin"
+    }
+   ],
+   "name": "ocaml4.09.1-dune-build-info",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/ocaml-modules/dune-build-info/default.nix:13"
+  },
+  "revs": [
+   "261d7c2f665a079a53146cdc941d308ce90d961f",
+   "cd5c75fcdc04268bcb574506393f4957ec89e727"
+  ]
+ },
+ "2.5.1": {
+  "meta": {
+   "description": "Embed build information inside executables",
+   "homepage": "https://dune.build/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bcdarwin@gmail.com",
+     "github": "bcdarwin",
+     "githubId": 164148,
+     "name": "Ben Darwin"
+    }
+   ],
+   "name": "ocaml4.09.1-dune-build-info",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/ocaml-modules/dune-build-info/default.nix:13"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "184241e779e05344a95c30f35615271102522a8a"
+  ]
+ },
+ "2.6.0": {
+  "meta": {
+   "description": "Embed build information inside executables",
+   "homepage": "https://dune.build/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bcdarwin@gmail.com",
+     "github": "bcdarwin",
+     "githubId": 164148,
+     "name": "Ben Darwin"
+    }
+   ],
+   "name": "ocaml4.10.0-dune-build-info",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/ocaml-modules/dune-build-info/default.nix:13"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "2.6.1": {
+  "meta": {
+   "description": "Embed build information inside executables",
+   "homepage": "https://dune.build/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bcdarwin@gmail.com",
+     "github": "bcdarwin",
+     "githubId": 164148,
+     "name": "Ben Darwin"
+    }
+   ],
+   "name": "ocaml4.10.0-dune-build-info",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/ocaml-modules/dune-build-info/default.nix:13"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "2.6.2": {
+  "meta": {
+   "description": "Embed build information inside executables",
+   "homepage": "https://dune.build/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bcdarwin@gmail.com",
+     "github": "bcdarwin",
+     "githubId": 164148,
+     "name": "Ben Darwin"
+    }
+   ],
+   "name": "ocaml4.10.0-dune-build-info",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/ocaml-modules/dune-build-info/default.nix:13"
+  },
+  "revs": [
+   "002077c0a66d0acce6930e2ff2ab2c7d34244c64",
+   "bf3f39789dfe739b762ce6768bc9289bfe74c424"
+  ]
+ },
+ "2.7.0": {
+  "meta": {
+   "description": "Embed build information inside executables",
+   "homepage": "https://dune.build/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bcdarwin@gmail.com",
+     "github": "bcdarwin",
+     "githubId": 164148,
+     "name": "Ben Darwin"
+    }
+   ],
+   "name": "ocaml4.10.0-dune-build-info",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/ocaml-modules/dune-build-info/default.nix:13"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "05f3a5362efaed1d7d848ba329087f19f5ae3a77"
+  ]
+ },
+ "2.7.1": {
+  "meta": {
+   "description": "Embed build information inside executables",
+   "homepage": "https://dune.build/",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "bcdarwin@gmail.com",
+     "github": "bcdarwin",
+     "githubId": 164148,
+     "name": "Ben Darwin"
+    }
+   ],
+   "name": "ocaml4.10.0-dune-build-info",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/ocaml-modules/dune-build-info/default.nix:13"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

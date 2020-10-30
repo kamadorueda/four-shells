@@ -1,0 +1,4 @@
+{
+ "summary": "Removing references to old zen-kernels that are in archived branches; Updating from zen-sources.org to zen-kernel.org; Updating revision; Adding patch by Pierre to enable external hubs",
+ "timestamp": "1256275314"
+}

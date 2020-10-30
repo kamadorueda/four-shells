@@ -1,0 +1,4 @@
+{
+ "summary": "pkgs/servers/x11/xorg/overrides.nix: dropped override for libXaw on Darwin",
+ "timestamp": "1260374180"
+}

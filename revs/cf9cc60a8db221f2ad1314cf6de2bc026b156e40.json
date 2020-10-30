@@ -1,0 +1,4 @@
+{
+ "summary": "bison: use gz tarball, early stdenv does not have xz",
+ "timestamp": "1387530322"
+}

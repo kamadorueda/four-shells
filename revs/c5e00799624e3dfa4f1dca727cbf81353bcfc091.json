@@ -1,0 +1,4 @@
+{
+ "summary": "libvorbis: use pkgconfig instead of guessing paths. Closes #3014",
+ "timestamp": "1403433547"
+}

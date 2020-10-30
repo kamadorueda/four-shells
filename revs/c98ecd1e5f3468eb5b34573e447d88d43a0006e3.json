@@ -1,0 +1,4 @@
+{
+ "summary": "added git revision to nix hammer pkg to prevent nix build breaks on hammer update",
+ "timestamp": "1414561750"
+}

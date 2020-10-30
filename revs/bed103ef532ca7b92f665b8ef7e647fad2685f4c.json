@@ -1,0 +1,4 @@
+{
+ "summary": "Updating myEnv for the new crossCompiling stdenv, so it puts in the environment buildNativeInputs and not builtInputs.",
+ "timestamp": "1261482560"
+}

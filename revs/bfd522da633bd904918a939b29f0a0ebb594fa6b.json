@@ -1,0 +1,4 @@
+{
+ "summary": "setup-hooks: do not pass missing dirs to find (close #15405)",
+ "timestamp": "1463048339"
+}

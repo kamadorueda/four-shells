@@ -1,0 +1,4 @@
+{
+ "summary": "Add a comment wondering why our static cpio is configured with creation and passthrough capabilities. I may test to see if stdenv can be built without these features (I see no reason why not)",
+ "timestamp": "1302017161"
+}

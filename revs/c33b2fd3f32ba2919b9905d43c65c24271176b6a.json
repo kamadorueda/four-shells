@@ -1,0 +1,4 @@
+{
+ "summary": "* openssl, remove -arch flags also for darwin64",
+ "timestamp": "1259326075"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "nixos-rebuild: do not depend on nix.conf to activate flakes",
+ "timestamp": "1599195180"
+}

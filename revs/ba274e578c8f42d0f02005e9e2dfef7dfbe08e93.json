@@ -1,0 +1,4 @@
+{
+ "summary": "Made graphicsmagick-config not say anything about libraries that would be needed for static linking, because we are linking it dynamically. Made octave link with graphicsmagick to get imread() working.",
+ "timestamp": "1267720870"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "tree-wide: do not use pkgs.extend in nixpkgs",
+ "timestamp": "1606742428"
+}

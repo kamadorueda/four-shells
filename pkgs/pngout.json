@@ -1,0 +1,55 @@
+{
+ "20130221": {
+  "meta": {
+   "description": "A tool that aggressively optimizes the sizes of PNG images",
+   "homepage": "http://advsys.net/ken/utils.htm",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "pngout",
+   "platforms": null,
+   "position": "pkgs/tools/graphics/pngout/default.nix:28"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "20150319": {
+  "meta": {
+   "description": "A tool that aggressively optimizes the sizes of PNG images",
+   "homepage": "http://advsys.net/ken/utils.htm",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "s.vanderburg@tudelft.nl",
+     "github": "svanderburg",
+     "githubId": 1153271,
+     "name": "Sander van der Burg"
+    }
+   ],
+   "name": "pngout",
+   "platforms": null,
+   "position": "pkgs/tools/graphics/pngout/default.nix:28"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

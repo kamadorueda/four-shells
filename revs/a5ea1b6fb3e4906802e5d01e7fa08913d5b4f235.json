@@ -1,0 +1,4 @@
+{
+ "summary": "xorgserver: set log-dir to /var/log instead of the Nix store",
+ "timestamp": "1588525783"
+}

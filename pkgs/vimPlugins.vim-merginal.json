@@ -1,0 +1,34 @@
+{
+ "2020-01-29": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/idanarye/vim-merginal/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-merginal",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5418"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-06": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/idanarye/vim-merginal/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-vim-merginal",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:5864"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

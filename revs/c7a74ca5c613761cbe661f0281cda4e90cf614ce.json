@@ -1,0 +1,4 @@
+{
+ "summary": "Modified SDL2 derivation to work on Mac OSX darwin default to no alsa on darwin default to no x11 support on darwin changed asserts to check for darwin",
+ "timestamp": "1423415294"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Let's see if go_oo will build without system libwpd. The libwpd required by oo.org fails to build.",
+ "timestamp": "1331156906"
+}

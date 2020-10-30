@@ -1,0 +1,4 @@
+{
+ "summary": "cyrus-sasl: fix broken link when building without kerberos",
+ "timestamp": "1552500061"
+}

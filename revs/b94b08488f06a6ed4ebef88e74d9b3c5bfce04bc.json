@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/pulseaudio: don't put 32bit libs in systemPackages",
+ "timestamp": "1426687569"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "pytest: disable tests on pypy Bug in tests. See https://github.com/pytest-dev/pytest/issues/3460",
+ "timestamp": "1547147281"
+}

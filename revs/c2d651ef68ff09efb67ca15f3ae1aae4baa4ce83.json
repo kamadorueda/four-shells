@@ -1,0 +1,4 @@
+{
+ "summary": "Removing static compilation of the driver for cromfs, so the package works again in x86_64",
+ "timestamp": "1240676532"
+}

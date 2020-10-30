@@ -1,0 +1,4 @@
+{
+ "summary": "elfutils: disable -Werror to fix the build",
+ "timestamp": "1365201925"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "treewide: use runtimeShell instead of stdenv.shell whenever possible",
+ "timestamp": "1551181554"
+}

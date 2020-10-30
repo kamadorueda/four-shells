@@ -1,0 +1,4 @@
+{
+ "summary": "buildPythonPackage: add configurePhase, fixes #20926",
+ "timestamp": "1480955379"
+}

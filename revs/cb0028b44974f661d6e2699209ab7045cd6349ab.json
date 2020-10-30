@@ -1,0 +1,4 @@
+{
+ "summary": "pythonPackages.cartopy: fix tests for py2.7 by supplying them with xvfb",
+ "timestamp": "1557008166"
+}

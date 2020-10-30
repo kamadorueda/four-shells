@@ -1,0 +1,4 @@
+{
+ "summary": "Making fbtermStdenv both crossbuild and natively build. It failed to build without overriden patches.",
+ "timestamp": "1325952680"
+}

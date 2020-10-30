@@ -1,0 +1,4 @@
+{
+ "summary": "python.pkgs.tweepy: fix build with pip 10",
+ "timestamp": "1524725607"
+}

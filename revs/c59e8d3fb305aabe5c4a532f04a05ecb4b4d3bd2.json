@@ -1,0 +1,4 @@
+{
+ "summary": "hplip: don't reference gcc in binaries from /share and other locations",
+ "timestamp": "1590954330"
+}

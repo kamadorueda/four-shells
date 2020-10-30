@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv: Emit `phase-started' and `phase-succeeded' events.",
+ "timestamp": "1298647691"
+}

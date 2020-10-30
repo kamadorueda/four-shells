@@ -1,0 +1,4 @@
+{
+ "summary": "Found a new phonon (in 'unstable'), and I think kde-4.4 should be able to link with it. I updated gstreamer too, because this phonon was not finding a header file. As that did not fix much the phonon build, I helped the generic builder with NIX_CFLAGS_COMPILER for phonon to find the proper header files. Either the phonon cmake scripts don't find properly the gstreamer plugins header file, or we install gstreamer in a strange way.",
+ "timestamp": "1266069787"
+}

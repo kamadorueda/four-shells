@@ -1,0 +1,4 @@
+{
+ "summary": "maven-build: use single target in stead of assembly to prevent test from being run twice",
+ "timestamp": "1282225017"
+}

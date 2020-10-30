@@ -1,0 +1,40 @@
+{
+ "0.9.36": {
+  "meta": {
+   "description": "Attribute Grammar System of Universiteit Utrecht",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "uuagc",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0026458089ed4a754f75b182b5e903f2242127cc",
+   "c30ea08c407f287ac87dbe79394ee1e79af68fb6"
+  ]
+ },
+ "0.9.38.6": {
+  "meta": {
+   "description": "Attribute Grammar System of Universiteit Utrecht",
+   "homepage": "http://www.cs.uu.nl/wiki/HUT/WebHome",
+   "license": "GPL",
+   "long_description": "",
+   "maintainers": [
+    "Andres Loeh <ksnixos@andres-loeh.de>"
+   ],
+   "name": "haskell-uuagc-ghc7.0.3",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "i686-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "0be3dae42fb5cd0744e5fea3c9fc72039eef8da0",
+   "d12e88df661fdfdd193bcc89930b2ff6a6f1455f"
+  ]
+ }
+}

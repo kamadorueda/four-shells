@@ -1,0 +1,4 @@
+{
+ "summary": "virt-viewer: fix build, add libcap-ng to build inputs, needed after libvirt update to 1.1.2",
+ "timestamp": "1379284757"
+}

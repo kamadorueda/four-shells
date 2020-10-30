@@ -1,0 +1,4 @@
+{
+ "summary": "avrdude: add extra dependencies: libelf, libftdi1, readline",
+ "timestamp": "1401535174"
+}

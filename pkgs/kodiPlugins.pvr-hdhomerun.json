@@ -1,0 +1,50 @@
+{
+ "2.4.7": {
+  "meta": {
+   "description": "Kodi's HDHomeRun PVR client addon",
+   "homepage": "https://github.com/kodi-pvr/pvr.hdhomerun",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jonathan@titanous.com",
+     "github": "titanous",
+     "name": "Jonathan Rudenberg"
+    }
+   ],
+   "name": "kodi-plugin-pvr-hdhomerun",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/applications/video/kodi/plugins.nix:391"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "3.5.0": {
+  "meta": {
+   "description": "Kodi's HDHomeRun PVR client addon",
+   "homepage": "https://github.com/kodi-pvr/pvr.hdhomerun",
+   "license": null,
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jonathan@titanous.com",
+     "github": "titanous",
+     "name": "Jonathan Rudenberg"
+    }
+   ],
+   "name": "kodi-plugin-pvr-hdhomerun",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/applications/video/kodi/plugins.nix:398"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Adding the itk libraries. Adding a skeleton of the seg3d package. It builds, but libraries and rpaths are wrong. I hope to fix it soon.",
+ "timestamp": "1267486295"
+}

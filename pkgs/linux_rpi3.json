@@ -1,0 +1,177 @@
+{
+ "4.19.118-1.20200601": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    [
+     "armv5tel-linux",
+     "armv6l-linux",
+     "armv7a-linux",
+     "armv7l-linux",
+     "armv7a-darwin",
+     "arm-none",
+     "armv6l-none"
+    ],
+    [
+     "aarch64-linux",
+     "aarch64-darwin",
+     "aarch64-none",
+     "aarch64-genode"
+    ]
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:265"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "4.19.75-1.20190925": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0-only",
+    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    [
+     "armv5tel-linux",
+     "armv6l-linux",
+     "armv7a-linux",
+     "armv7l-linux",
+     "armv7a-darwin",
+     "arm-none",
+     "armv6l-none"
+    ],
+    [
+     "aarch64-linux",
+     "aarch64-darwin",
+     "aarch64-none"
+    ]
+   ],
+   "position": "pkgs/os-specific/linux/kernel/manual-config.nix:265"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "5.4.51-1.20200819": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    [
+     "armv5tel-linux",
+     "armv6l-linux",
+     "armv7a-linux",
+     "armv7l-linux",
+     "armv7a-darwin",
+     "arm-none",
+     "armv6l-none"
+    ],
+    [
+     "aarch64-linux",
+     "aarch64-darwin",
+     "aarch64-none",
+     "aarch64-genode"
+    ]
+   ],
+   "position": "gs/pkgs/os-specific/linux/kernel/manual-config.nix:274"
+  },
+  "revs": [
+   "44dae8d0c8d096ee0cde77115700a41f6e3a40bf",
+   "44dae8d0c8d096ee0cde77115700a41f6e3a40bf"
+  ]
+ },
+ "5.4.79-1.20201201": {
+  "meta": {
+   "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+   "homepage": "https://www.kernel.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aseipp@pobox.com",
+     "github": "thoughtpolice",
+     "githubId": 3416,
+     "name": "Austin Seipp"
+    }
+   ],
+   "name": "linux",
+   "platforms": [
+    [
+     "armv5tel-linux",
+     "armv6l-linux",
+     "armv7a-linux",
+     "armv7l-linux",
+     "armv7a-darwin",
+     "arm-none",
+     "armv6l-none"
+    ],
+    [
+     "aarch64-linux",
+     "aarch64-darwin",
+     "aarch64-none",
+     "aarch64-genode"
+    ]
+   ],
+   "position": "gs/pkgs/os-specific/linux/kernel/manual-config.nix:274"
+  },
+  "revs": [
+   "0ff6bc488dfdabef29be947bf4425aec946582c0",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

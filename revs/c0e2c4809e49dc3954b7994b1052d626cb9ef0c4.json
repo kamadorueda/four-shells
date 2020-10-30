@@ -1,0 +1,4 @@
+{
+ "summary": "cabal-install: fix build for GHC 7.0.x and 7.2.x",
+ "timestamp": "1431970016"
+}

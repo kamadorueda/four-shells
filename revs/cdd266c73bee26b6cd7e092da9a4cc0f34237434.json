@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/gnome3: Implement `sessionPath` through `environment.extraInit`",
+ "timestamp": "1533480540"
+}

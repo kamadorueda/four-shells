@@ -1,0 +1,4 @@
+{
+ "summary": "sd-image-aarch64: Increase CMA memory so RPi3 virtual console works again",
+ "timestamp": "1505506516"
+}

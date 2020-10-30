@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-zlib-conduit fails the Haddock stage because it doesn't define any modules.",
+ "timestamp": "1425466727"
+}

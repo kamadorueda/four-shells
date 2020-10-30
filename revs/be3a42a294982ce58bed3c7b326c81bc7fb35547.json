@@ -1,0 +1,4 @@
+{
+ "summary": "openmpi: Remove libibverbs on unsupported platforms",
+ "timestamp": "1469141744"
+}

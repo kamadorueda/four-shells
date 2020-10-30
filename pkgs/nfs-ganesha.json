@@ -1,0 +1,82 @@
+{
+ "3.3": {
+  "meta": {
+   "description": "NFS server that runs in user space",
+   "homepage": "https://github.com/nfs-ganesha/nfs-ganesha/wiki",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "markus.kowalewski@gmail.com",
+     "github": "markuskowa",
+     "githubId": 26470037,
+     "name": "Markus Kowalewski"
+    }
+   ],
+   "name": "nfs-ganesha",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/servers/nfs-ganesha/default.nix:42"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "3.4": {
+  "meta": {
+   "description": "NFS server that runs in user space",
+   "homepage": "https://github.com/nfs-ganesha/nfs-ganesha/wiki",
+   "license": {
+    "fullName": "GNU Lesser General Public License v3.0 or later",
+    "shortName": "lgpl3Plus",
+    "spdxId": "LGPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "markus.kowalewski@gmail.com",
+     "github": "markuskowa",
+     "githubId": 26470037,
+     "name": "Markus Kowalewski"
+    }
+   ],
+   "name": "nfs-ganesha",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/servers/nfs-ganesha/default.nix:42"
+  },
+  "revs": [
+   "02fac027aff09e3422023f059fccf9aec2f41348",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

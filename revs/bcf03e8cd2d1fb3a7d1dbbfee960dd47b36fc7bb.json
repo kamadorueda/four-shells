@@ -1,0 +1,4 @@
+{
+ "summary": "Revert \"cpython: Optimize dynamic symbol tables, for a 6% speedup.\"",
+ "timestamp": "1591295791"
+}

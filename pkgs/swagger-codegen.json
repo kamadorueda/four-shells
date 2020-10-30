@@ -1,0 +1,80 @@
+{
+ "2.2.1": {
+  "meta": {
+   "description": "Allows generation of API client libraries (SDK generation), server stubs and documentation automatically given an OpenAPI Spec",
+   "homepage": "https://github.com/swagger-api/swagger-codegen",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Raymond Gauthier <jraygauthier@gmail.com>"
+   ],
+   "name": "swagger-codegen",
+   "platforms": null,
+   "position": "pkgs/tools/networking/swagger-codegen/default.nix:29"
+  },
+  "revs": [
+   "0022708d6d369527aa4ff5da07806203c21533d5",
+   "3a21d5bce24ce280f052411e7e47aee73d2c4f49"
+  ]
+ },
+ "2.3.1": {
+  "meta": {
+   "description": "Allows generation of API client libraries (SDK generation), server stubs and documentation automatically given an OpenAPI Spec",
+   "homepage": "https://github.com/swagger-api/swagger-codegen",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "http://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jraygauthier@gmail.com",
+     "github": "jraygauthier",
+     "name": "Raymond Gauthier"
+    }
+   ],
+   "name": "swagger-codegen",
+   "platforms": null,
+   "position": "pkgs/tools/networking/swagger-codegen/default.nix:29"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2.4.17": {
+  "meta": {
+   "description": "Allows generation of API client libraries (SDK generation), server stubs and documentation automatically given an OpenAPI Spec",
+   "homepage": "https://github.com/swagger-api/swagger-codegen",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "jraygauthier@gmail.com",
+     "github": "jraygauthier",
+     "githubId": 4611077,
+     "name": "Raymond Gauthier"
+    }
+   ],
+   "name": "swagger-codegen",
+   "platforms": null,
+   "position": "gs/pkgs/tools/networking/swagger-codegen/default.nix:28"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

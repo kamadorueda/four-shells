@@ -1,0 +1,402 @@
+{
+ "2018-10-14": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "0023e1d0de7c0a61f884f286a1a25326f0c0a568",
+   "925b028f1779027d65ef75ecc87563c45805d0c3"
+  ]
+ },
+ "2018-12-04": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "007dfa8adcdb86c1442eeb07bc65416ec01d8e6f",
+   "427218836457753db735b45b270411ecbf0ee697"
+  ]
+ },
+ "2018-12-09": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "004cb5a694e39bd91b27b0adddc127daf2cb76cb",
+   "5eb428e355b952b45465faf3a11a6f9999731737"
+  ]
+ },
+ "2018-12-13": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/vim-utils.nix:413"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c0d2f924590918b0176aaf1f84ccf372ce4f13c4"
+  ]
+ },
+ "2018-12-25": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1733"
+  },
+  "revs": [
+   "0008aa73eb0dec898c4e2e6913af645abd253c35",
+   "047def418ee726a43b46bce6d93f26e2dd705cb4"
+  ]
+ },
+ "2019-01-04": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1744"
+  },
+  "revs": [
+   "003132c2dd95110a30fc7b28dc71d77ca11d6298",
+   "3c3ac19c43ef1b8b7459f9da1d0d5bd8fcc42fda"
+  ]
+ },
+ "2019-01-21": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1766"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "2019-02-18": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1777"
+  },
+  "revs": [
+   "003ad786c15e880ade44c68c823801c1c4a52348",
+   "4c0837bffbf33abdfa93466764ef439c3cf41249"
+  ]
+ },
+ "2019-03-28": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1777"
+  },
+  "revs": [
+   "005fb92d32c9d5b636846ce30ae01aab81454161",
+   "631c71da83739bb7e5360370afa14afa75846ffe"
+  ]
+ },
+ "2019-04-04": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1788"
+  },
+  "revs": [
+   "0017a06717bb18706ac3cb99432034caad0c8b91",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "2019-04-27": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1832"
+  },
+  "revs": [
+   "0015e885ce6c6bac448b639191123fb39a94aa92",
+   "a6d39ee9dba0ec547062b00d7ff5ea7fc569b17e"
+  ]
+ },
+ "2019-05-14": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1854"
+  },
+  "revs": [
+   "00263c9306107f3ff79ecd185d7e0712fb0560d8",
+   "47aa44ba3768267eba94c08dcbdd9502431bb018"
+  ]
+ },
+ "2019-06-10": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1887"
+  },
+  "revs": [
+   "003b42f33241229dc9094d713f4e88bff9d72d14",
+   "003b42f33241229dc9094d713f4e88bff9d72d14"
+  ]
+ },
+ "2019-06-11": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1887"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "86e3208ca31bc3dcddc412c59eae2e42107abcec"
+  ]
+ },
+ "2019-07-12": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2393"
+  },
+  "revs": [
+   "003ffbe7d6d07c4fcd8f5ca41065736aa53171f0",
+   "363ba3f40371f5c016aecf07bf62f3a33f755f29"
+  ]
+ },
+ "2019-07-20": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2448"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "2019-11-15": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2790"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "2020-01-22": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3021"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "2020-06-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/markonm/traces.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3426"
+  },
+  "revs": [
+   "00761213cd79019680b4641af2c3db66d50c7b56",
+   "6767a2c0345107689aa69aaeb62ea9f5a2d33660"
+  ]
+ },
+ "2020-06-21": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/markonm/traces.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3474"
+  },
+  "revs": [
+   "002b700fb597bc670ea4d19597444c43d31cf556",
+   "25865306f08f3d87e390c41065cf7db2f19323e0"
+  ]
+ },
+ "2020-06-22": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/markonm/traces.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3521"
+  },
+  "revs": [
+   "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
+   "8635793fceeb6e4b5cf74e63b2dfde4093d7b9cc"
+  ]
+ },
+ "2020-07-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/markonm/traces.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3653"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "5de26dd52d23259aa74de23834f180ea6d358fa6"
+  ]
+ },
+ "2020-08-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/markonm/traces.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3413"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-09-24": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/markonm/traces.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3473"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2020-10-13": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/markonm/traces.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-traces-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:3485"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/elasticsearch: fix evaluation on systems without unfree set",
+ "timestamp": "1533305033"
+}

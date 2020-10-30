@@ -1,0 +1,4 @@
+{
+ "summary": "Couchdb: Don't chown /var/log to couchdb (#65347)",
+ "timestamp": "1565393775"
+}

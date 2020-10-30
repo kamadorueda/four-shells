@@ -1,0 +1,4 @@
+{
+ "summary": "* Go back to a slightly older libdrm version, otherwise Mesa's Nouveau   driver fails to build (because libdrm removed some header files on   which it depends).",
+ "timestamp": "1337205363"
+}

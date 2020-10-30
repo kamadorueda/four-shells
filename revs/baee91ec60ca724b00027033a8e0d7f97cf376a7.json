@@ -1,0 +1,4 @@
+{
+ "summary": "cc-wrapper: Check if ld supports -z, fixes darwin",
+ "timestamp": "1457383166"
+}

@@ -1,0 +1,20 @@
+{
+ "0.8.0": {
+  "meta": {
+   "description": "GtkMathView is a C++ rendering engine for MathML documents",
+   "homepage": "http://helm.cs.unibo.it/mml-widget/",
+   "license": "LGPLv3+",
+   "long_description": "",
+   "maintainers": [
+    "Russell O'Connor <roconnor@theorem.ca>"
+   ],
+   "name": "gtkmathview",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

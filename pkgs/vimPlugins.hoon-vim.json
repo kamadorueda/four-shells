@@ -1,0 +1,66 @@
+{
+ "2019-02-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/urbit/hoon.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-hoon-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1538"
+  },
+  "revs": [
+   "008de9ca3cd22658df19276032f5d3f403a51090",
+   "487fb291d9d0761c118b579ad4cd7bea597d414d"
+  ]
+ },
+ "2020-02-19": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/urbit/hoon.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-hoon-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1550"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2020-10-15": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/urbit/hoon.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-hoon-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1550"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-09": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/urbit/hoon.vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-hoon-vim",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:1562"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

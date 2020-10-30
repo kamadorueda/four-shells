@@ -1,0 +1,4 @@
+{
+ "summary": "sysinit.target: Drop the dependency on local-fs.target and swap.target",
+ "timestamp": "1355503374"
+}

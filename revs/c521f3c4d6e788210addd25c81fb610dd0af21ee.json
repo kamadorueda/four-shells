@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-imm: drop non-build related patches so that we ship the same API as Hackage does",
+ "timestamp": "1405351424"
+}

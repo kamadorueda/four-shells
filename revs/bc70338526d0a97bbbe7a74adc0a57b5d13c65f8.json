@@ -1,0 +1,4 @@
+{
+ "summary": "libreoffice: fix build, it doesn't need tcsh anymore",
+ "timestamp": "1471874363"
+}

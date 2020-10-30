@@ -1,0 +1,4 @@
+{
+ "summary": "* Revert both r30278 (cmake upgrade) and r30307 (zlib fix to get cmake   to build).  These are more appropriate to the stdenv branch.  I'll   apply them there.",
+ "timestamp": "1320703546"
+}

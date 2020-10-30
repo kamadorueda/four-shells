@@ -1,0 +1,4 @@
+{
+ "summary": "ohci_pci is required in initrd since kernel 3.11",
+ "timestamp": "1397372288"
+}

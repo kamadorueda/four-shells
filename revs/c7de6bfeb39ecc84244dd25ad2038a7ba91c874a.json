@@ -1,0 +1,4 @@
+{
+ "summary": "Updating cromfs to 1.5.9.1, as the previous did not build with glibc 2.12. Thanks to Bisqwit for the quick reaction.",
+ "timestamp": "1292941668"
+}

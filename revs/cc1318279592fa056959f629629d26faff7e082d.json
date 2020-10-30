@@ -1,0 +1,4 @@
+{
+ "summary": "Create a PIL symlink when installing PIL so the recommended way of importing PIL.something works",
+ "timestamp": "1402466444"
+}

@@ -1,0 +1,32 @@
+{
+ "0.7.9-binary": {
+  "meta": {
+   "description": "A graphical configurator for Kaleidoscope-powered keyboards",
+   "homepage": "https://github.com/keyboardio/Chrysalis",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aw-nixos@meterriblecrew.net",
+     "github": "herrwiese",
+     "githubId": 206242,
+     "name": "Andreas Wiese"
+    }
+   ],
+   "name": "chrysalis",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/applications/misc/chrysalis/default.nix:22"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

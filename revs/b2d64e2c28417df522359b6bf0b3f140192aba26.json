@@ -1,0 +1,4 @@
+{
+ "summary": "python3Packages.jupytext: fix build by adding missing markdown-it-py dep; python3 only",
+ "timestamp": "1607393954"
+}

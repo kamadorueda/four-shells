@@ -1,0 +1,4 @@
+{
+ "summary": "nixos: fix \"nixos-rebuild build-vm-with-bootloader\" for EFI systems",
+ "timestamp": "1608491055"
+}

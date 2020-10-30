@@ -1,0 +1,4 @@
+{
+ "summary": "quassel: make a proper systemd unit (also properly works in containers now)",
+ "timestamp": "1415455147"
+}

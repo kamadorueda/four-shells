@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-network-conduit: disable test suite to fix build errors with GHC 7.4.2",
+ "timestamp": "1390854172"
+}

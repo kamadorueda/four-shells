@@ -1,0 +1,31 @@
+{
+ "0.5.19": {
+  "meta": {
+   "description": "Automatic music downloader for SABnzbd",
+   "homepage": "https:/github.com/rembo10/headphones",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rembo10@users.noreply.github.com",
+     "github": "rembo10",
+     "name": "rembo10"
+    }
+   ],
+   "name": "headphones",
+   "platforms": [
+    {}
+   ],
+   "position": "pkgs/servers/headphones/default.nix:28"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

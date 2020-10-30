@@ -1,0 +1,4 @@
+{
+ "summary": "makeInitrd: don't assume uImage => arm",
+ "timestamp": "1599135427"
+}

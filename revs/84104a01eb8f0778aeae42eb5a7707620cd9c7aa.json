@@ -1,0 +1,4 @@
+{
+ "summary": "haskellPackages.apecs-physics: depend on ApplicationServices on darwin",
+ "timestamp": "1608644496"
+}

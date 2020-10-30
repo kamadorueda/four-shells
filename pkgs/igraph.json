@@ -1,0 +1,161 @@
+{
+ "0.7.1": {
+  "meta": {
+   "description": "The network analysis package",
+   "homepage": "http://igraph.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2",
+    "spdxId": "GPL-2.0",
+    "url": "http://spdx.org/licenses/GPL-2.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cds@corbinsimpson.com",
+     "github": "MostAwesomeDude",
+     "name": "Corbin Simpson"
+    }
+   ],
+   "name": "igraph",
+   "platforms": null,
+   "position": "pkgs/development/libraries/igraph/default.nix:26"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "0.8.2": {
+  "meta": {
+   "description": "The network analysis package",
+   "homepage": "https://igraph.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cds@corbinsimpson.com",
+     "github": "MostAwesomeDude",
+     "githubId": 118035,
+     "name": "Corbin Simpson"
+    }
+   ],
+   "name": "igraph",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/libraries/igraph/default.nix:30"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "0.8.3": {
+  "meta": {
+   "description": "The network analysis package",
+   "homepage": "https://igraph.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cds@corbinsimpson.com",
+     "github": "MostAwesomeDude",
+     "githubId": 118035,
+     "name": "Corbin Simpson"
+    }
+   ],
+   "name": "igraph",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/libraries/igraph/default.nix:30"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "0.8.4": {
+  "meta": {
+   "description": "The network analysis package",
+   "homepage": "https://igraph.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cds@corbinsimpson.com",
+     "github": "MostAwesomeDude",
+     "githubId": 118035,
+     "name": "Corbin Simpson"
+    }
+   ],
+   "name": "igraph",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/libraries/igraph/default.nix:30"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "0.8.5": {
+  "meta": {
+   "description": "The network analysis package",
+   "homepage": "https://igraph.org/",
+   "license": {
+    "fullName": "GNU General Public License v2.0 only",
+    "shortName": "gpl2Only",
+    "spdxId": "GPL-2.0-only",
+    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "cds@corbinsimpson.com",
+     "github": "MostAwesomeDude",
+     "githubId": 118035,
+     "name": "Corbin Simpson"
+    }
+   ],
+   "name": "igraph",
+   "platforms": [
+    "x86_64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "gs/pkgs/development/libraries/igraph/default.nix:30"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

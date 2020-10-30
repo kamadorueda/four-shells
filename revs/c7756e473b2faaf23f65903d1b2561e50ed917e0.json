@@ -1,0 +1,4 @@
+{
+ "summary": "pkgs/applications/version-management/git-and-tools: prefer fetchurl over fetchgit in topGit",
+ "timestamp": "1287873593"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Fixed deterministicness of fetchgit with leaveDotGit",
+ "timestamp": "1407680729"
+}

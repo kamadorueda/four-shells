@@ -1,0 +1,4 @@
+{
+ "summary": "vulkan-loader: Always include /run/opengl-driver(-32)/share in search path.",
+ "timestamp": "1560018031"
+}

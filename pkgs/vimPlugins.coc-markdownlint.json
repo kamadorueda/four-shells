@@ -1,0 +1,162 @@
+{
+ "1.8.0": {
+  "meta": {
+   "description": "Markdownlint extension for coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:64493"
+  },
+  "revs": [
+   "00f7db841a144fe187779d542356df0cc691d391",
+   "cc7ce7611924425b4f269da7a9bc3ca7d3ac8514"
+  ]
+ },
+ "1.9.0": {
+  "meta": {
+   "description": "Markdownlint extension for coc.nvim",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint#readme",
+   "license": "MIT",
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/development/node-packages/node-packages.nix:64556"
+  },
+  "revs": [
+   "0278e49268735919b3af826ae14f18df35ae55df",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ },
+ "2020-07-08": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:548"
+  },
+  "revs": [
+   "3b29c023f87e36e554b0ef1f9d98fcadc44838e1",
+   "c4a881c0fb504a57eb3e455eb99375e170206819"
+  ]
+ },
+ "2020-08-02": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:548"
+  },
+  "revs": [
+   "000bb5ee45e3fa0339ccf64f33a2959c553aeab1",
+   "05f3a5362efaed1d7d848ba329087f19f5ae3a77"
+  ]
+ },
+ "2020-09-02": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:404"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "2020-09-17": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:416"
+  },
+  "revs": [
+   "004676ce9c8275598182884c9e5a823a34eaa173",
+   "487fb291d9d0761c118b579ad4cd7bea597d414d"
+  ]
+ },
+ "2020-09-29": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:416"
+  },
+  "revs": [
+   "002750572a39758aabf552e90b4d0ce65092ba58",
+   "17af5377cfd3babab06d5ff82d0bf3485b475a7f"
+  ]
+ },
+ "2020-10-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:416"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "2020-11-02": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:416"
+  },
+  "revs": [
+   "13839daecc61e898d03748145e61a29c8d2a2c42",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "2020-11-12": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fannheyward/coc-markdownlint/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-coc-markdownlint",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:428"
+  },
+  "revs": [
+   "001a975b752011a2a84413817d1c43a2200e6c74",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ }
+}

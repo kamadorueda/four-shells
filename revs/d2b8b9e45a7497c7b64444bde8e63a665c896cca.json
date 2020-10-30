@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-defaults.nix: drop override of repaExamples attribute in older compilers",
+ "timestamp": "1348481289"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "I don't like cluttering up scripts using many ifs.. Do you like an assertEnvExists function ? I think we might want to use it more than twice in the future.",
+ "timestamp": "1188532720"
+}

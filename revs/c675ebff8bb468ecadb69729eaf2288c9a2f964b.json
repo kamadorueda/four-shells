@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-quickcheck-io: revert hard-coding of HUnit and QuickCheck versions",
+ "timestamp": "1387130932"
+}

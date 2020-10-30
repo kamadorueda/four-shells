@@ -1,0 +1,4 @@
+{
+ "summary": "libressl: do not set noexecstack on Darwin at all",
+ "timestamp": "1565727616"
+}

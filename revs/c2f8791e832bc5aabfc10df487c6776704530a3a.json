@@ -1,0 +1,4 @@
+{
+ "summary": "pypy: added patch to fix build with gcc 4.9.2",
+ "timestamp": "1421247721"
+}

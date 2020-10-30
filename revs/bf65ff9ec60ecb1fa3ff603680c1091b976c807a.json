@@ -1,0 +1,4 @@
+{
+ "summary": "* Use the texinfo-4.13a tarball.  Strangely, the texinfo-4.13 tarball   has a different hash on ftp.nluug.nl, which happens to be the first   mirror for fetchurl, thus building texinfo failed.",
+ "timestamp": "1222129309"
+}

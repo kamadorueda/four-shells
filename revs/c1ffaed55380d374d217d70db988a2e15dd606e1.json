@@ -1,0 +1,4 @@
+{
+ "summary": "Revert \"i3status-rust: 0.14.1 -> 0.14.2\" as it is not a minor version bump",
+ "timestamp": "1604447344"
+}

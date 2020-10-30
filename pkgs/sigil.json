@@ -1,0 +1,437 @@
+{
+ "0.7.4": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://code.google.com/p/sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "sigil",
+   "platforms": null,
+   "position": "pkgs/applications/editors/sigil/default.nix:62"
+  },
+  "revs": [
+   "0000d4029e264262dcf45a822ccf3b48bcacf209",
+   "9f3fe63b5f491db8a2b9daf20d4cdd4f13623542"
+  ]
+ },
+ "0.9.10": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ramkromberg@mail.com",
+     "github": "ramkromberg",
+     "name": "Ram Kromberg"
+    }
+   ],
+   "name": "sigil",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:36"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "c7e1ac5a27dc8eb413dd892079e354f4bd311e40"
+  ]
+ },
+ "0.9.12": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ramkromberg@mail.com",
+     "github": "ramkromberg",
+     "name": "Ram Kromberg"
+    }
+   ],
+   "name": "sigil",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:36"
+  },
+  "revs": [
+   "0015e526c7a3a70db5055b9e68c951a21cc3519f",
+   "be4f84414eb469f441276a299fda26cba8bf7924"
+  ]
+ },
+ "0.9.13": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ramkromberg@mail.com",
+     "github": "ramkromberg",
+     "name": "Ram Kromberg"
+    }
+   ],
+   "name": "sigil",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:36"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "0.9.14": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "sigil",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:37"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "0.9.16": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0-only",
+    "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "sigil",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:37"
+  },
+  "revs": [
+   "0056f627a0203501c82a74a59c7553b158cc9642",
+   "929768261a3ede470eafb58d5b819e1a848aa8bf"
+  ]
+ },
+ "0.9.6": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Ram Kromberg <ramkromberg@mail.com>"
+   ],
+   "name": "sigil",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux"
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:36"
+  },
+  "revs": [
+   "000fb9be33528f867e2355ddedde0836ba7f7a3a",
+   "044ceae2806480555a44c91c386546cffb46ba74"
+  ]
+ },
+ "0.9.7": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Ram Kromberg <ramkromberg@mail.com>"
+   ],
+   "name": "sigil",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mips64el-linux",
+    "i686-linux",
+    "x86_64-linux"
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:36"
+  },
+  "revs": [
+   "00056e76d0a5c1c05d7ad1064702b3d121cd1b98",
+   "0f04bbdc31f75031602d384adedb7292c720e44d"
+  ]
+ },
+ "0.9.9": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3",
+    "spdxId": "GPL-3.0",
+    "url": "http://spdx.org/licenses/GPL-3.0.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "ramkromberg@mail.com",
+     "github": "ramkromberg",
+     "name": "Ram Kromberg"
+    }
+   ],
+   "name": "sigil",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:36"
+  },
+  "revs": [
+   "000482ffc470f798fb3aa1673b39a38680cbb567",
+   "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+  ]
+ },
+ "1.3.0": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "sigil",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:38"
+  },
+  "revs": [
+   "000404944c6da404f013111563bcc0084b270e28",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "1.4.0": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "sigil",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:42"
+  },
+  "revs": [
+   "0188a58e87ed282f7d92fe65e257bc0615175f34",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "1.4.2": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "sigil",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:42"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "cc7ce7611924425b4f269da7a9bc3ca7d3ac8514"
+  ]
+ },
+ "1.4.3": {
+  "meta": {
+   "description": "Free, open source, multi-platform ebook (ePub) editor",
+   "homepage": "https://github.com/Sigil-Ebook/Sigil/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "sigil",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/sigil/default.nix:42"
+  },
+  "revs": [
+   "00617447b268f11223654b4898157cec07423e16",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

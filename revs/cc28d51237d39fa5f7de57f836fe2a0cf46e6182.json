@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/hardened: don't set vm.mmap_min_addr",
+ "timestamp": "1586037162"
+}

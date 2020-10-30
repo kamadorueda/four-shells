@@ -1,0 +1,32 @@
+{
+ "0.1.5": {
+  "meta": {
+   "description": "A decentralized app for code collaboration",
+   "homepage": "https://radicle.xyz/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 or later",
+    "shortName": "gpl3Plus",
+    "spdxId": "GPL-3.0-or-later",
+    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "davidterry@posteo.de",
+     "github": "xwvvvvwx",
+     "githubId": 6689924,
+     "name": "David Terry"
+    }
+   ],
+   "name": "radicle-upstream",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/applications/version-management/git-and-tools/radicle-upstream/default.nix:58"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

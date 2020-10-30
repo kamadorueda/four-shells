@@ -1,0 +1,4 @@
+{
+ "summary": "Instead of using binutils snapshot for the loongson2f, let's use the released version + patches.",
+ "timestamp": "1286491458"
+}

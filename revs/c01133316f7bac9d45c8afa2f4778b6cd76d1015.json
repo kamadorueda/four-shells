@@ -1,0 +1,4 @@
+{
+ "summary": "rust: remove 1.44.1 since firefox and thunderbird build with 1.46",
+ "timestamp": "1600871370"
+}

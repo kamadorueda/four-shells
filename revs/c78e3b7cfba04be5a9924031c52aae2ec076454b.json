@@ -1,0 +1,4 @@
+{
+ "summary": "nixos-option: fix #47722 when missing ~/.nix-defexpr/channels",
+ "timestamp": "1538664737"
+}

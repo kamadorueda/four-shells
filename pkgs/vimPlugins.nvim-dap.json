@@ -1,0 +1,98 @@
+{
+ "2020-11-14": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mfussenegger/nvim-dap/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-dap",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2571"
+  },
+  "revs": [
+   "002a5f9de16130ac9f8e474de75d9b5eca7bf4bd",
+   "4074d4ad98fb41093c492e5e57492ef65caf1d13"
+  ]
+ },
+ "2020-11-15": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mfussenegger/nvim-dap/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-dap",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2631"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-11-27": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mfussenegger/nvim-dap/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-dap",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2667"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-12-03": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mfussenegger/nvim-dap/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-dap",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2667"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "58e72782e37718c51e7ffcffed895138f86ad01a"
+  ]
+ },
+ "2020-12-08": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mfussenegger/nvim-dap/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-dap",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:2679"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-31": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/mfussenegger/nvim-dap/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-dap",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:2703"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

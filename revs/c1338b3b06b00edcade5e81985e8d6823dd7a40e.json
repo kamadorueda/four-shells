@@ -1,0 +1,4 @@
+{
+ "summary": "buildGoPackage: Remove references to the go compiler to reduce closure size for binaries",
+ "timestamp": "1438816983"
+}

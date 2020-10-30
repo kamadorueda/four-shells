@@ -1,0 +1,4 @@
+{
+ "summary": "lib, stdenv: Check `meta.platforms` against host platform and be open world",
+ "timestamp": "1517375463"
+}

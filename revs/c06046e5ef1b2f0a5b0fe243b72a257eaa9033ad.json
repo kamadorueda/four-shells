@@ -1,0 +1,4 @@
+{
+ "summary": "Improving a bit the manpage gzip code. I decided to gzip hard links and soft links, as nix-store --optimise can care better later.",
+ "timestamp": "1299709038"
+}

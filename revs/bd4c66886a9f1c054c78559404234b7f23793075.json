@@ -1,0 +1,4 @@
+{
+ "summary": "xfce4-panel: patch gettext in xfce4-popup-* scripts, fixes #30033",
+ "timestamp": "1509429029"
+}

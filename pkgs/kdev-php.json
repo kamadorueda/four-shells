@@ -1,0 +1,498 @@
+{
+ "5.3.1": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    }
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:25"
+  },
+  "revs": [
+   "0000a86d7cd47005096a292a797d2e02ce29e8d8",
+   "5700232c3fadd8e5f02f21c5e99753544482b4d4"
+  ]
+ },
+ "5.3.2": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:21"
+  },
+  "revs": [
+   "00078b99ee8baded7fc89e9e1e3501068a2c7fff",
+   "a709b1a373b4d6c183c72da1294f5cad53a4f80d"
+  ]
+ },
+ "5.3.3": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "002b853782e939c50da3fa7d424b08346f39eb6f",
+   "c1e3414044cc623e68bb26fe94bf504b46b0ac26"
+  ]
+ },
+ "5.4.0": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "004a2b9ed0161aaddcce72b280be9062dbadfbab",
+   "cce7486deb2be3375c0a58899af5e5ff802bf869"
+  ]
+ },
+ "5.4.1": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "003697b32a3f049058f3e921a7e586023dbcfe10",
+   "2ab19787ce2ac77f7b33e85247b9b28159b4bb95"
+  ]
+ },
+ "5.4.5": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "000f19ff08cfaf6ce89b136ea986fde64f750555",
+   "611258f063f9c1443a5f95db3fc1b6f36bbf4b52"
+  ]
+ },
+ "5.4.6": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "00355c593a62114a8541e9c7535c20e9b6a00f46",
+   "3a18062a441498f165e95fdc88da33af49dbf7d5"
+  ]
+ },
+ "5.5.0": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "0005b13fc5f3c4c3bf3d0bb5f7ea4330b36c0bcc",
+   "274efede850f373256d09423eec2a4ea7eb2153b"
+  ]
+ },
+ "5.5.1": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "0010ae4960d35243e7abb046cd26ddda904a4c63",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "5.5.2": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "5.6.0": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "14a7df6cf1de78a560ad03098882ec8e63886d8e",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "5.6.1": {
+  "meta": {
+   "description": "PHP support for KDevelop",
+   "homepage": "https://www.kdevelop.org",
+   "license": [
+    {
+     "fullName": "GNU General Public License v2.0 only",
+     "shortName": "gpl2Only",
+     "spdxId": "GPL-2.0-only",
+     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    }
+   ],
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "aaron@fosslib.net",
+     "github": "aanderse",
+     "githubId": 7755101,
+     "name": "Aaron Andersen"
+    }
+   ],
+   "name": "kdev-php",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/editors/kdevelop5/kdev-php.nix:18"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

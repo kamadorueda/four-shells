@@ -1,0 +1,4 @@
+{
+ "summary": "haskell-pretty-show: resurrect version 1.2, which is required to build hledger on old versions of GHC",
+ "timestamp": "1386674334"
+}

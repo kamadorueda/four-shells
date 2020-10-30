@@ -1,0 +1,4 @@
+{
+ "summary": "haskellPackages.encoding: fix build with Cabal 2.0",
+ "timestamp": "1524656859"
+}

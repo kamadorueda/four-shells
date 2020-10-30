@@ -1,0 +1,4 @@
+{
+ "summary": "* Disable the GHC setup hook.  It's kind of annoying to have to   rebuild all of GHC every time the setup hook changes.  Thus its   better to factor it out.  (After all, the setup hook doesn't have to   be provided by the GHC package proper; it can also be provided by   some helper package.)",
+ "timestamp": "1239907121"
+}

@@ -1,0 +1,48 @@
+{
+ "0.4.2": {
+  "meta": {
+   "description": "Enables easy access any Linux device behind firewall and NAT",
+   "homepage": "https://shellhub.io/",
+   "license": {
+    "fullName": "Apache License 2.0",
+    "shortName": "asl20",
+    "spdxId": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0.html"
+   },
+   "long_description": "ShellHub is a modern SSH server for remotely accessing Linux devices via\ncommand line (using any SSH client) or web-based user interface, designed\nas an alternative to _sshd_. Think ShellHub as centralized SSH for the the\nedge and cloud computing.\n",
+   "maintainers": [
+    {
+     "email": "otavio.salvador@ossystems.com.br",
+     "github": "otavio",
+     "githubId": 25278,
+     "name": "Otavio Salvador"
+    },
+    {
+     "email": "wael.nasreddine@gmail.com",
+     "github": "kalbasit",
+     "githubId": 87115,
+     "name": "Wael Nasreddine"
+    }
+   ],
+   "name": "shellhub-agent",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux"
+   ],
+   "position": "gs/pkgs/applications/networking/shellhub-agent/default.nix:21"
+  },
+  "revs": [
+   "06edbabe06c47e529bc105bd7fa48fa21bc31738",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

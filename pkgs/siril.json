@@ -1,0 +1,32 @@
+{
+ "0.99.6": {
+  "meta": {
+   "description": "Astronomical image processing tool",
+   "homepage": "https://www.siril.org/",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "hjones2199@gmail.com",
+     "github": "hjones2199",
+     "githubId": 5525217,
+     "name": "Hunter Jones"
+    }
+   ],
+   "name": "siril",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/applications/science/astronomy/siril/default.nix:40"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

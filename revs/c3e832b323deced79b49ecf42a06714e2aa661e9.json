@@ -1,0 +1,4 @@
+{
+ "summary": "stage-1: mkdir -p /mnt-root, it may be created earlier by some hooks",
+ "timestamp": "1434200561"
+}

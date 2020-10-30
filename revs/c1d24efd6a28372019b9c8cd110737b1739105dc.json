@@ -1,0 +1,4 @@
+{
+ "summary": "darwin: R: provide gettext and gfortran as buildInputs on Darwin.",
+ "timestamp": "1461102395"
+}

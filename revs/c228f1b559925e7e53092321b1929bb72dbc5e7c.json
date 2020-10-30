@@ -1,0 +1,4 @@
+{
+ "summary": "opencv3: unbreak build (set \"-DWITH_IPP=OFF\")",
+ "timestamp": "1441138838"
+}

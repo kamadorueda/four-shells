@@ -1,0 +1,4 @@
+{
+ "summary": "* Finish the EBS creation script.  It now takes a --region option to   specify the EC2 region in which the AMI is to be created.  It also   starts an instance booted from the newly created AMI to test it.",
+ "timestamp": "1334316382"
+}

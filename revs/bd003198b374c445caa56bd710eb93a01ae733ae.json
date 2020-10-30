@@ -1,0 +1,4 @@
+{
+ "summary": "openssl: patch not needed anymore for darwin platform, closes #8456",
+ "timestamp": "1434972273"
+}

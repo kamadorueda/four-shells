@@ -1,0 +1,4 @@
+{
+ "summary": "geoclue-2.0: move pkgconfig from buildInputs to nativeBuildInputs",
+ "timestamp": "1506050632"
+}

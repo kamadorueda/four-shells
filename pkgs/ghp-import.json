@@ -1,0 +1,90 @@
+{
+ "0.4.1": {
+  "meta": {
+   "description": "Copy your docs directly to the gh-pages branch",
+   "homepage": "https://github.com/davisp/ghp-import",
+   "license": "Tumbolia Public License",
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rok@garbas.si",
+     "github": "garbas",
+     "name": "Rok Garbas"
+    }
+   ],
+   "name": "ghp-import",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/ghp-import/default.nix:23"
+  },
+  "revs": [
+   "000b9ce78d66ad9cabe17a4670ffacf9d35a6d05",
+   "cc9b4029bc7ec91237ce44d04230b921005db6a0"
+  ]
+ },
+ "0.5.5": {
+  "meta": {
+   "description": "Copy your docs directly to the gh-pages branch",
+   "homepage": "https://github.com/davisp/ghp-import",
+   "license": "Tumbolia Public License",
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "rok@garbas.si",
+     "github": "garbas",
+     "name": "Rok Garbas"
+    }
+   ],
+   "name": "ghp-import",
+   "platforms": [
+    {
+     "kernel": {
+      "_type": "kernel",
+      "execFormat": {
+       "_type": "exec-format",
+       "name": "elf"
+      },
+      "families": {},
+      "name": "linux"
+     }
+    },
+    {
+     "kernel": {
+      "families": {
+       "darwin": {
+        "_type": "exec-format",
+        "name": "darwin"
+       }
+      }
+     }
+    }
+   ],
+   "position": "pkgs/development/tools/ghp-import/default.nix:23"
+  },
+  "revs": [
+   "00005ce0bdbc3c13804adc9a7fd71a02cc0b8db2",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

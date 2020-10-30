@@ -1,0 +1,4 @@
+{
+ "summary": "obs-studio: use qt's mkDerivation to fix xcb plugin abort",
+ "timestamp": "1564489486"
+}

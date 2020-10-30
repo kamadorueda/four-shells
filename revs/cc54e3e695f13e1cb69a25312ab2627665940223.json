@@ -1,0 +1,4 @@
+{
+ "summary": "all-packages.nix: removed recurseIntoAttrs from emacs24Packages",
+ "timestamp": "1339402892"
+}

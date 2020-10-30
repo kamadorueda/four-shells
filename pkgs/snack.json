@@ -1,0 +1,18 @@
+{
+ "2.2.10": {
+  "meta": {
+   "description": "The Snack Sound Toolkit (Tcl)",
+   "homepage": "http://www.speech.kth.se/snack/",
+   "license": "GPL-2",
+   "long_description": "",
+   "maintainers": [],
+   "name": "snack",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "000051b196b82d30d1008c8999502c484ea5bd7d",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

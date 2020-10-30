@@ -1,0 +1,90 @@
+{
+ "0.16.7": {
+  "meta": {
+   "description": "Synchronize calendars and contacts",
+   "homepage": "https://github.com/pimutils/vdirsyncer",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "loewenheim@mailbox.org",
+     "github": "loewenheim",
+     "githubId": 7622248,
+     "name": "Sebastian Zivota"
+    }
+   ],
+   "name": "python3.8-vdirsyncer",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/python-modules/vdirsyncer/stable.nix:82"
+  },
+  "revs": [
+   "0006326d35ed4774d7936aea721ce1a5c8f0b775",
+   "d04017d196aa7053d6ec0766b00e6b3ce0288e74"
+  ]
+ },
+ "0.16.8": {
+  "meta": {
+   "description": "Synchronize calendars and contacts",
+   "homepage": "https://github.com/pimutils/vdirsyncer",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "loewenheim@mailbox.org",
+     "github": "loewenheim",
+     "githubId": 7622248,
+     "name": "Sebastian Zivota"
+    }
+   ],
+   "name": "python3.8-vdirsyncer",
+   "platforms": [
+    "aarch64-linux",
+    "armv5tel-linux",
+    "armv6l-linux",
+    "armv7a-linux",
+    "armv7l-linux",
+    "mipsel-linux",
+    "i686-linux",
+    "x86_64-linux",
+    "powerpc64le-linux",
+    "riscv32-linux",
+    "riscv64-linux",
+    "x86_64-darwin",
+    "i686-darwin",
+    "aarch64-darwin",
+    "armv7a-darwin"
+   ],
+   "position": "pkgs/development/python-modules/vdirsyncer/stable.nix:60"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ }
+}

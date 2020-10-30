@@ -1,0 +1,4 @@
+{
+ "summary": "thunderbird: Add gpg/gpgme dependencies. Fixes #98765.",
+ "timestamp": "1608244146"
+}

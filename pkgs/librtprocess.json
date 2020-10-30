@@ -1,0 +1,32 @@
+{
+ "0.11.0": {
+  "meta": {
+   "description": "Highly optimized library for processing RAW images",
+   "homepage": "https://github.com/CarVac/librtprocess",
+   "license": {
+    "fullName": "GNU General Public License v3.0 only",
+    "shortName": "gpl3Only",
+    "spdxId": "GPL-3.0-only",
+    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "hjones2199@gmail.com",
+     "github": "hjones2199",
+     "githubId": 5525217,
+     "name": "Hunter Jones"
+    }
+   ],
+   "name": "librtprocess",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "gs/pkgs/development/libraries/librtprocess/default.nix:18"
+  },
+  "revs": [
+   "00941cd747e9bc1c3326d1362dbc7e9cfe18cf53",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

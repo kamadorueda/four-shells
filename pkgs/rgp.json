@@ -1,0 +1,107 @@
+{
+ "1.7.0.29": {
+  "meta": {
+   "description": "A tool from AMD that allows for deep inspection of GPU workloads",
+   "homepage": "https://gpuopen.com/gaming-product/radeon-gpu-profiler-rgp/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flakebi@t-online.de",
+     "github": "Flakebi",
+     "githubId": 6499211,
+     "keys": [
+      {
+       "fingerprint": "2F93 661D AC17 EA98 A104  F780 ECC7 55EE 583C 1672",
+       "longkeyid": "rsa4096/0xECC755EE583C1672"
+      }
+     ],
+     "name": "Sebastian Neubauer"
+    }
+   ],
+   "name": "rgp",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/tools/rgp/default.nix:65"
+  },
+  "revs": [
+   "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+   "388ed4e09f3bf9de1b14d043cc0ba5b03183b09b"
+  ]
+ },
+ "1.8": {
+  "meta": {
+   "description": "A tool from AMD that allows for deep inspection of GPU workloads",
+   "homepage": "https://gpuopen.com/gaming-product/radeon-gpu-profiler-rgp/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flakebi@t-online.de",
+     "github": "Flakebi",
+     "githubId": 6499211,
+     "keys": [
+      {
+       "fingerprint": "2F93 661D AC17 EA98 A104  F780 ECC7 55EE 583C 1672",
+       "longkeyid": "rsa4096/0xECC755EE583C1672"
+      }
+     ],
+     "name": "Sebastian Neubauer"
+    }
+   ],
+   "name": "rgp",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/tools/rgp/default.nix:70"
+  },
+  "revs": [
+   "0023908b4ecef4e889a9bb524394f53c014950fe",
+   "25334ec8036247caee5713d988aac49758863be0"
+  ]
+ },
+ "1.9": {
+  "meta": {
+   "description": "A tool from AMD that allows for deep inspection of GPU workloads",
+   "homepage": "https://gpuopen.com/rgp/",
+   "license": {
+    "free": false,
+    "fullName": "Unfree",
+    "shortName": "unfree"
+   },
+   "long_description": "",
+   "maintainers": [
+    {
+     "email": "flakebi@t-online.de",
+     "github": "Flakebi",
+     "githubId": 6499211,
+     "keys": [
+      {
+       "fingerprint": "2F93 661D AC17 EA98 A104  F780 ECC7 55EE 583C 1672",
+       "longkeyid": "rsa4096/0xECC755EE583C1672"
+      }
+     ],
+     "name": "Sebastian Neubauer"
+    }
+   ],
+   "name": "rgp",
+   "platforms": [
+    "x86_64-linux"
+   ],
+   "position": "pkgs/development/tools/rgp/default.nix:70"
+  },
+  "revs": [
+   "00aabed73c73dd053ab182ca1a726b111db9ebf3",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

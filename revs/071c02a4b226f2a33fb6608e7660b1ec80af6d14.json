@@ -1,0 +1,4 @@
+{
+ "summary": "nixos/corerad: use pkgs.formats.toml to generate TOML configuration",
+ "timestamp": "1609272932"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Fixing the build of spidermonkey (on -fPIC) for mips. They enable automatically the -fPIC only on x86_64, while I think most non-i686 needs it.",
+ "timestamp": "1292618485"
+}

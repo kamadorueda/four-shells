@@ -1,0 +1,34 @@
+{
+ "2020-12-16": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fruit-in/brainfuck-vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-brainfuck-vim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:296"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-31": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/fruit-in/brainfuck-vim/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-brainfuck-vim",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:296"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "1": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "haskell-cabal2nix-ghc7.0.2-v1.8-beta",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "i686-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "9754b7d0d76916a7258c4f0a82bae9ed50f6c257",
+   "9754b7d0d76916a7258c4f0a82bae9ed50f6c257"
+  ]
+ },
+ "1.2": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "haskell-cabal2nix-ghc7.0.2",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "358a38fea47657e7f779dcd84525315dd094ec4d",
+   "c10bdc23cd80c167ede24dbe41543bb8c2ca1eef"
+  ]
+ },
+ "1.7": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "haskell-cabal2nix-ghc7.0.2",
+   "platforms": [
+    "i686-linux",
+    "x86_64-linux",
+    "i686-darwin"
+   ],
+   "position": ""
+  },
+  "revs": [
+   "159611d423092ab1fe1d84416efaaa0753d80878",
+   "cda8010b96fc420539819a8d60cd490f6f3c40af"
+  ]
+ },
+ "10": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "haskell-cabal2nix-ghc7.0.2-v1.8-beta",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0ce8c08099da40f2787b5b3b77b27558c5d7c793",
+   "0ce8c08099da40f2787b5b3b77b27558c5d7c793"
+  ]
+ },
+ "11": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "haskell-cabal2nix-ghc7.0.2-v1.8-beta",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "20d78ba0a9e7630255cd5f492946d5a5c72d4290",
+   "c13f967ed5c0a4670de067360f45f6f89d7e5824"
+  ]
+ },
+ "12": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "haskell-cabal2nix-ghc7.0.2-v1.8-beta",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "d12e88df661fdfdd193bcc89930b2ff6a6f1455f",
+   "d12e88df661fdfdd193bcc89930b2ff6a6f1455f"
+  ]
+ },
+ "3": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "haskell-cabal2nix-ghc7.0.2-v1.8-beta",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "b5cfebc23e2f8b7e5501306302cae23792f8c399",
+   "b5cfebc23e2f8b7e5501306302cae23792f8c399"
+  ]
+ },
+ "4": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "haskell-cabal2nix-ghc7.0.2-v1.8-beta",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "455a83d8369deb9fd0b25ac1b46e298116055519",
+   "d0fa51f7093e26519892177fda4cedff8dc8a03a"
+  ]
+ },
+ "7": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "haskell-cabal2nix-ghc7.0.2-v1.8-beta",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0069e583cd6c53ca840cfeb39157739cb43a920d",
+   "532511e7f5aa0193419069ef39da22c0e4031d00"
+  ]
+ },
+ "9": {
+  "meta": {
+   "description": "Convert Cabal files into Nix build instructions",
+   "homepage": "http://github.com/peti/cabal2nix",
+   "license": {
+    "fullName": "BSD license (3 clause)",
+    "shortName": "BSD-3",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+   },
+   "long_description": "",
+   "maintainers": [
+    "Peter Simons <simons@cryp.to>"
+   ],
+   "name": "haskell-cabal2nix-ghc7.0.2-v1.8-beta",
+   "platforms": null,
+   "position": ""
+  },
+  "revs": [
+   "0be3dae42fb5cd0744e5fea3c9fc72039eef8da0",
+   "d0e60c71304109bea84d420ea26a8d048167cad2"
+  ]
+ }
+}

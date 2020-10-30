@@ -1,0 +1,4 @@
+{
+ "summary": "boost: Fix static library builds. (link=static and runtime-link=static together breaks Boost's build scripts.)",
+ "timestamp": "1521722739"
+}

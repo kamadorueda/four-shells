@@ -1,0 +1,4 @@
+{
+ "summary": "buildGoModule: fix cross-compilation with CGO_ENABLED=1",
+ "timestamp": "1608856533"
+}

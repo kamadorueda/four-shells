@@ -1,0 +1,50 @@
+{
+ "2020-08-20": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/chuling/ci_dark/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-ci_dark",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:380"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-11-07": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/chuling/ci_dark/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-ci_dark",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:368"
+  },
+  "revs": [
+   "00401a2f75e6286c9db6018748f1734485660d3c",
+   "61b94d70722d3e6deb62bc0af8474d69d2070b89"
+  ]
+ },
+ "2020-12-25": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/chuling/ci_dark/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-ci_dark",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:392"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "gradle: Fix gradle-2.12 on Linux to find libstdc++.so reference in native library.",
+ "timestamp": "1459375649"
+}

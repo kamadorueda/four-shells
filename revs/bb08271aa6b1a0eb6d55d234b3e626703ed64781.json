@@ -1,0 +1,4 @@
+{
+ "summary": "SMBFS: Disable byte-range locking in Samba's TDB.",
+ "timestamp": "1330643276"
+}

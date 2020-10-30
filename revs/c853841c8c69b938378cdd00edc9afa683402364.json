@@ -1,0 +1,4 @@
+{
+ "summary": "log4cxx: Fix build by adding missing includes.",
+ "timestamp": "1385130505"
+}

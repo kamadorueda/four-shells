@@ -1,0 +1,4 @@
+{
+ "summary": "Fix users.*.extraGroups for users.mutableUsers = true.",
+ "timestamp": "1399296876"
+}

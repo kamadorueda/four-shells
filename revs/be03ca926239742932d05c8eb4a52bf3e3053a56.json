@@ -1,0 +1,4 @@
+{
+ "summary": "fix goimports build, use buildGoPackage",
+ "timestamp": "1433267980"
+}

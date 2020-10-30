@@ -1,0 +1,4 @@
+{
+ "summary": "postgresqlPackages: mark pg_auto_failover and pipelinedb broken for PG < 11",
+ "timestamp": "1565825249"
+}

@@ -1,0 +1,4 @@
+{
+ "summary": "Added xmove - proxy X server which can move its clients to another one. Useful with Xvfb - so you can save your X session during needed reload of X.",
+ "timestamp": "1182807978"
+}

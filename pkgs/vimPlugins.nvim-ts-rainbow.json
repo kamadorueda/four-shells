@@ -1,0 +1,66 @@
+{
+ "2020-11-25": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/p00f/nvim-ts-rainbow/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-ts-rainbow",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2823"
+  },
+  "revs": [
+   "01098517eaed090acec27d68f441d63dcf7c548c",
+   "25290cc980458d945509312ee9dae8b8ef594db9"
+  ]
+ },
+ "2020-11-30": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/p00f/nvim-ts-rainbow/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-ts-rainbow",
+   "platforms": null,
+   "position": "pkgs/misc/vim-plugins/generated.nix:2823"
+  },
+  "revs": [
+   "04cb54ae08eb8e3490d95f2377f9aa852e5019f6",
+   "c7928fb076ec65c82d070c499e5fa4b13bbc9458"
+  ]
+ },
+ "2020-12-15": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/p00f/nvim-ts-rainbow/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-ts-rainbow",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:2847"
+  },
+  "revs": [
+   "00f6d352bd4598bdcd6b5c9884430e9e2d6084a6",
+   "a931ec9cdf3ada6c9cb45983b7fe1808b765e524"
+  ]
+ },
+ "2020-12-18": {
+  "meta": {
+   "description": "",
+   "homepage": "https://github.com/p00f/nvim-ts-rainbow/",
+   "license": null,
+   "long_description": "",
+   "maintainers": [],
+   "name": "vimplugin-nvim-ts-rainbow",
+   "platforms": null,
+   "position": "gs/pkgs/misc/vim-plugins/generated.nix:2859"
+  },
+  "revs": [
+   "00ae86d7bdd05ca88ce74024fa874e63e34bd73a",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

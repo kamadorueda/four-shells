@@ -1,0 +1,4 @@
+{
+ "summary": "stdenv: don't overwrite $NIX_ENFORCE_PURITY setting",
+ "timestamp": "1456744226"
+}

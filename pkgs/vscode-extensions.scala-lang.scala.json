@@ -1,0 +1,44 @@
+{
+ "0.3.8": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "vscode-extension-scala-lang-scala",
+   "platforms": null,
+   "position": "pkgs/misc/vscode-extensions/vscode-utils.nix:18"
+  },
+  "revs": [
+   "0126c86672b7d14843225df16ddfefd7091eabe7",
+   "bc503a2de179a720ecb072751b663af52aa8541d"
+  ]
+ },
+ "0.4.5": {
+  "meta": {
+   "description": "",
+   "homepage": "",
+   "license": {
+    "fullName": "MIT License",
+    "shortName": "mit",
+    "spdxId": "MIT",
+    "url": "https://spdx.org/licenses/MIT.html"
+   },
+   "long_description": "",
+   "maintainers": [],
+   "name": "vscode-extension-scala-lang-scala",
+   "platforms": null,
+   "position": "pkgs/misc/vscode-extensions/vscode-utils.nix:18"
+  },
+  "revs": [
+   "02a1379d454e5749951604035c17ca2651535691",
+   "7138a338b58713e0dea22ddab6a6785abec7376a"
+  ]
+ }
+}

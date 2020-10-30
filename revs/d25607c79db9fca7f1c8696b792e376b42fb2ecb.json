@@ -1,0 +1,4 @@
+{
+ "summary": "Fix pci_get_bus_and_slot removed in kernel 4.17",
+ "timestamp": "1525508543"
+}

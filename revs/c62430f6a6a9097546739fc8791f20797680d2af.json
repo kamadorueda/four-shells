@@ -1,0 +1,4 @@
+{
+ "summary": "ghc version bump to latest stable release 6.12.1 make cabal expression add etxra library paths only if they exist. Adding myself as maintainer so that the buildfarm builds ghc.",
+ "timestamp": "1262591072"
+}

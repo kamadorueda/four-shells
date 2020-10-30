@@ -1,0 +1,4 @@
+{
+ "summary": "seeks: use gcc5, no upstream patch/version available that builds with gcc6",
+ "timestamp": "1505044166"
+}

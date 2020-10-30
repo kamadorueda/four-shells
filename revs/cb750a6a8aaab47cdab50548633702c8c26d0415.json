@@ -1,0 +1,4 @@
+{
+ "summary": "freesweep: use fetchFromGitHub instead of fetchurl as per #32997",
+ "timestamp": "1542264519"
+}

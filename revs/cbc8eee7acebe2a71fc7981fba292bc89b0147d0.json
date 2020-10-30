@@ -1,0 +1,4 @@
+{
+ "summary": "* stdenv: new attribute is64bit. * stdenv: for convience, provide the library functions in   pkgs/lib/default.nix through the lib attribute.",
+ "timestamp": "1180013538"
+}
