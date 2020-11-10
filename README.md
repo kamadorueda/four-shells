@@ -168,7 +168,7 @@ Which has 4 outputs, and one of them is:
       - Announce the IPFS CID into the remote key value service so it can be used
         to translate future requests:
 
-        POST http://some.key.value.service/api/announce/17g1n8hxhq7h5h4jh0vy15pp6l1yyy1rg9mdq3pi60znnj53dzzz/to/QmPW7pVJGdV4wkANRgZDmTnMiQvUrwy4EnQpVn4qHAdrTj
+        POST http://some.key.value.service/api/announce/sha256:17g1n8hxhq7h5h4jh0vy15pp6l1yyy1rg9mdq3pi60znnj53dzzz/to/QmPW7pVJGdV4wkANRgZDmTnMiQvUrwy4EnQpVn4qHAdrTj
 
 #### Translation service security considerations
 

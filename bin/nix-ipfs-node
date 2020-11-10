@@ -1,0 +1,9 @@
+#! /usr/bin/env nix-shell
+#!   nix-shell -i bash
+#!   nix-shell --option restrict-eval false
+#!   nix-shell --option sandbox false
+#!   nix-shell --show-trace
+#!   nix-shell nix-ipfs-node.nix
+#  shellcheck shell=bash
+
+echo 'nix-ipfs-node'
