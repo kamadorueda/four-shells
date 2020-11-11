@@ -1,9 +1,16 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
-#!   nix-shell --option restrict-eval false
-#!   nix-shell --option sandbox false
-#!   nix-shell --show-trace
+#!   nix-shell --pure
 #!   nix-shell nix-ipfs-node.nix
 #  shellcheck shell=bash
+
+export PYTHONPATH="${repoSrcNixIPFSNode}:${PYTHONPATH}"
+
+uvicorn \
+  --host '127.0.0.1' \
+  --interface 'asgi3' \
+  --loop 'uvloop' \
+  --port '8888' \
+  'nix_ipfs_node.asgi:APP'
 
 echo 'nix-ipfs-node'

@@ -9,16 +9,14 @@ in
 
       install "$repoBin/"* "$out/bin"
       cp -r "$repoBuild" "$out/build"
-      cp -r "$repoSrcCoordinator" "$out/src_coordinator"
-      cp -r "$repoSrcNode" "$out/src_node"
+      cp -r "$repoSrc" "$out/src"
     '';
 
     name = "nix-ipfs";
 
     repoBin = ./bin;
     repoBuild = ./build;
-    repoSrcCoordinator= ./src_coordinator;
-    repoSrcNode = ./src_node;
+    repoSrc= ./src;
 
     src = repoBin;
   }

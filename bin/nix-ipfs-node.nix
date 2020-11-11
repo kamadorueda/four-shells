@@ -6,5 +6,10 @@ in
     name = "nix-ipfs-node";
 
     buildInputs = [
+      nixpkgs.python38
+      nixpkgs.python38Packages.starlette
+      nixpkgs.python38Packages.uvicorn
     ];
+
+    repoSrcNixIPFSNode = ../src/nix_ipfs_node;
   }
