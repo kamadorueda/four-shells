@@ -8,6 +8,7 @@ in
       name = "nix-ipfs-node";
 
       buildInputs = [
+        nixpkgs.cacert
         nixpkgs.python38
         nixpkgs.python38Packages.aiohttp
         nixpkgs.python38Packages.starlette
