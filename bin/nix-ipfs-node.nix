@@ -2,14 +2,17 @@ let
   sources = import ../build/deps/sources.nix;
   nixpkgs = import sources.nixpkgs { };
 in
-  nixpkgs.stdenv.mkDerivation rec {
-    name = "nix-ipfs-node";
+  nixpkgs.stdenv.mkDerivation (
+       (import ../build/deps/ctx.nix)
+    // (rec {
+      name = "nix-ipfs-node";
 
-    buildInputs = [
-      nixpkgs.python38
-      nixpkgs.python38Packages.starlette
-      nixpkgs.python38Packages.uvicorn
-    ];
+      buildInputs = [
+        nixpkgs.python38
+        nixpkgs.python38Packages.starlette
+        nixpkgs.python38Packages.uvicorn
+      ];
 
-    repoSrcNixIPFSNode = ../src/nix_ipfs_node;
-  }
+      repoSrcNixIPFSNode = ../src/nix_ipfs_node;
+    })
+  )
