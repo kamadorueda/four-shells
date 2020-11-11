@@ -1,6 +1,7 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
 #!   nix-shell --pure
+#!   nix-shell --keep BURP
 #!   nix-shell --keep NIX_IPFS_NODE_PORT
 #!   nix-shell --keep NIX_IPFS_NODE_SUBSTITUTER
 #!   nix-shell nix-ipfs-node.nix
@@ -12,6 +13,12 @@ function main {
   export PYTHONPATH="${repoSrcNixIPFSNode}:${PYTHONPATH}"
 
       ensure_configuration \
+  &&  if test -n "${BURP:-}"
+      then
+            echo "Using BURP proxy: http://127.0.0.1:${BURP}" \
+        &&  export HTTP_PROXY="http://127.0.0.1:${BURP}" \
+        &&  export HTTPS_PROXY="http://127.0.0.1:${BURP}"
+      fi \
   &&  uvicorn \
         --host '127.0.0.1' \
         --interface 'asgi3' \
