@@ -15,6 +15,7 @@ from starlette.responses import (
 # Local libraries
 from nix_ipfs_node import (
     config,
+    http,
 )
 
 
@@ -27,37 +28,22 @@ async def route(request: Request):
     # Override host header with the proxied substituter
     headers['host'] = config.SUBSTITUTER_NETLOC
 
-    async def streamer():
-        async with aiohttp.ClientSession(
-            connector=aiohttp.TCPConnector(
-                verify_ssl=False,
-            ),
-            timeout=aiohttp.ClientTimeout(
-                total=60,
-                connect=None,
-                sock_read=None,
-                sock_connect=None,
-            ),
-            trust_env=True,
-        ) as session:
-            async with session.request(
-                headers=headers,
-                method=method,
-                url=url,
-            ) as response:
-                yield response.status
+    async def generate_content():
+        async with http.request(
+            headers=headers,
+            method=method,
+            url=url,
+        ) as response:
+            yield response.status
 
-                while True:
-                    chunk = await response.content.read(1024)
-                    if not chunk:
-                        break
-                    yield chunk
+            async for chunk in http.stream_response(response):
+                yield chunk
 
-    content = streamer()
-    status_code = await content.asend(None)
+    content_generator = generate_content()
+    status_code = await content_generator.asend(None)
 
     return StreamingResponse(
-        content=content,
+        content=content_generator,
         media_type='application/octet-stream',
         status_code=status_code,
     )
