@@ -1,5 +1,5 @@
 {
-  srcCtxSh = ../ctx.sh;
-  srcLibCommonSh = ../utils/common.sh;
-  srcLibShoptsSh = ../utils/shopts.sh;
+  srcBuildCtxSh = ../ctx.sh;
+  srcBuildUtilsCommonSh = ../utils/common.sh;
+  srcBuildUtilsShoptsSh = ../utils/shopts.sh;
 }

@@ -1,35 +1,22 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
 #!   nix-shell --pure
+#!   nix-shell --keep NIX_IPFS_NODE_PORT
 #!   nix-shell --keep NIX_IPFS_NODE_SUBSTITUTER
 #!   nix-shell nix-ipfs-node.nix
 #  shellcheck shell=bash
 
-source "${srcCtxSh}"
-
-function ensure_variable {
-  local var="${1}"
-
-  if test -z "${!var:-}"
-  then
-        echo "Please export ${var} as environment variable" \
-    &&  return 1
-  fi
-}
+source "${srcBuildCtxSh}"
 
 function main {
   export PYTHONPATH="${repoSrcNixIPFSNode}:${PYTHONPATH}"
 
-      echo 'Configuration:' \
-  &&  echo \
-  &&  ensure_variable 'NIX_IPFS_NODE_SUBSTITUTER' \
-  &&  echo "NIX_IPFS_NODE_SUBSTITUTER         = ${NIX_IPFS_NODE_SUBSTITUTER}" \
-  &&  echo \
+      ensure_configuration \
   &&  uvicorn \
         --host '127.0.0.1' \
         --interface 'asgi3' \
         --loop 'uvloop' \
-        --port '8888' \
+        --port "${NIX_IPFS_NODE_PORT}" \
         'nix_ipfs_node.asgi:APP'
 }
 
