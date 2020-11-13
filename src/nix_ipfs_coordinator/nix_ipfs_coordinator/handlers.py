@@ -1,6 +1,7 @@
 # Standard library
-import json
-import os
+from typing import (
+    Optional,
+)
 
 # Third party libraries
 import aioredis
@@ -8,8 +9,7 @@ from starlette.requests import (
     Request,
 )
 from starlette.responses import (
-    Response,
-    StreamingResponse,
+    JSONResponse,
 )
 
 # Local libraries
@@ -33,13 +33,36 @@ async def on_startup() -> None:
     )
 
 
-async def api_nix_nar_xz_hash_delete(request: Request) -> Response:
-    return
+async def api_nix_nar_xz_hash_delete(request: Request) -> JSONResponse:
+    nix_nar_xz_hash: str = request.path_params['nix_nar_xz_hash']
+
+    success: bool = await persistence.delete(nix_nar_xz_hash)
+
+    return JSONResponse({
+        'nix_nar_xz_hash': nix_nar_xz_hash,
+        'success': success,
+    })
 
 
-async def api_nix_nar_xz_hash_get(request: Request) -> Response:
-    return
+async def api_nix_nar_xz_hash_get(request: Request) -> JSONResponse:
+    nix_nar_xz_hash: str = request.path_params['nix_nar_xz_hash']
+
+    ipfs_cid: Optional[str] = await persistence.get(nix_nar_xz_hash)
+
+    return JSONResponse({
+        'nix_nar_xz_hash': nix_nar_xz_hash,
+        'ipfs_cid': ipfs_cid,
+    })
 
 
-async def api_nix_nar_xz_hash_post(request: Request) -> Response:
-    return
+async def api_nix_nar_xz_hash_post(request: Request) -> JSONResponse:
+    nix_nar_xz_hash: str = request.path_params['nix_nar_xz_hash']
+    ipfs_cid: str = request.path_params['ipfs_cid']
+
+    success: bool = await persistence.set(nix_nar_xz_hash, ipfs_cid)
+
+    return JSONResponse({
+        'ipfs_cid': ipfs_cid,
+        'nix_nar_xz_hash': nix_nar_xz_hash,
+        'success': success,
+    })
