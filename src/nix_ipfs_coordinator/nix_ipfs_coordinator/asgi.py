@@ -10,6 +10,20 @@ from nix_ipfs_coordinator import (
 # Constants
 APP = Starlette(
     routes=[
-        Route('/{path:path}', handlers.route),
+        Route(
+            path='/api/nix_nar_xz_hash/{nix_nar_xz_hash:str}',
+            endpoint=handlers.api_nix_nar_xz_hash_delete,
+            methods=['DELETE'],
+        ),
+        Route(
+            path='/api/nix_nar_xz_hash/{nix_nar_xz_hash:str}',
+            endpoint=handlers.api_nix_nar_xz_hash_get,
+            methods=['GET'],
+        ),
+        Route(
+            path='/api/nix_nar_xz_hash/{nix_nar_xz_hash:str}/{ipfs_cid:str}',
+            endpoint=handlers.api_nix_nar_xz_hash_post,
+            methods=['POST'],
+        ),
     ],
 )

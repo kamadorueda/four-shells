@@ -3,6 +3,7 @@ import os
 import urllib.parse
 
 # Constants
+COORDINATOR_URL = os.environ['NIX_IPFS_COORDINATOR_URL']
 PORT = os.environ['NIX_IPFS_NODE_PORT']
 
 _SUBSTITUTER = urllib.parse.urlparse(os.environ['NIX_IPFS_NODE_SUBSTITUTER'])

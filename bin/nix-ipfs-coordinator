@@ -2,6 +2,7 @@
 #!   nix-shell -i bash
 #!   nix-shell --pure
 #!   nix-shell --keep BURP
+#!   nix-shell --keep NIX_IPFS_COORDINATOR_DATA_STORE_STRING
 #!   nix-shell --keep NIX_IPFS_COORDINATOR_PORT
 #!   nix-shell nix-ipfs-coordinator.nix
 #  shellcheck shell=bash

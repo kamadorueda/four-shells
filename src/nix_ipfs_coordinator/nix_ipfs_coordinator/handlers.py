@@ -18,5 +18,13 @@ from nix_ipfs_coordinator import (
 )
 
 
-async def route(request: Request):
+async def api_nix_nar_xz_hash_delete(request: Request):
+    return
+
+
+async def api_nix_nar_xz_hash_get(request: Request):
+    return
+
+
+async def api_nix_nar_xz_hash_post(request: Request):
     return

@@ -2,6 +2,7 @@
 
 function utils_nix_ipfs_coordinator_ensure_configuration {
   local required_vars=(
+    NIX_IPFS_COORDINATOR_DATA_STORE_STRING
     NIX_IPFS_COORDINATOR_PORT
   )
 
