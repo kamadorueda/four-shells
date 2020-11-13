@@ -13,6 +13,7 @@ in
         nixpkgs.python38Packages.aiohttp
         nixpkgs.python38Packages.starlette
         nixpkgs.python38Packages.uvicorn
+        nixpkgs.python38Packages.uvloop
       ];
 
       repoSrcNixIpfsNode = ../src/nix_ipfs_node;

@@ -9,6 +9,12 @@ from nix_ipfs_coordinator import (
 
 # Constants
 APP = Starlette(
+    on_startup=[
+        handlers.on_startup,
+    ],
+    on_shutdown=[
+        handlers.on_shutdown,
+    ],
     routes=[
         Route(
             path='/api/nix_nar_xz_hash/{nix_nar_xz_hash:str}',

@@ -10,9 +10,10 @@ in
       buildInputs = [
         nixpkgs.cacert
         nixpkgs.python38
-        nixpkgs.python38Packages.aiohttp
+        nixpkgs.python38Packages.aioredis
         nixpkgs.python38Packages.starlette
         nixpkgs.python38Packages.uvicorn
+        nixpkgs.python38Packages.uvloop
       ];
 
       repoSrcNixIpfsCoordinator = ../src/nix_ipfs_coordinator;
