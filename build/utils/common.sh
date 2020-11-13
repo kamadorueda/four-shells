@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 
-function ensure_variable {
+function utils_ensure_variable {
   local var="${1}"
 
   if test -z "${!var:-}"
@@ -10,17 +10,13 @@ function ensure_variable {
   fi
 }
 
-function ensure_configuration {
-      echo 'Configuration:' \
-  &&  echo \
-  &&  for var in \
-        NIX_IPFS_NODE_PORT \
-        NIX_IPFS_NODE_SUBSTITUTER \
+function utils_configure_proxy {
+  local port="${1}"
 
-      do
-            ensure_variable "${var}" \
-        &&  echo "${var} = ${!var}" \
-        ||  return 1
-      done \
-  &&  echo
+  if test -n "${port}"
+  then
+        echo "Using BURP proxy: http://127.0.0.1:${port}" \
+    &&  export HTTP_PROXY="http://127.0.0.1:${port}" \
+    &&  export HTTPS_PROXY="http://127.0.0.1:${port}"
+  fi
 }

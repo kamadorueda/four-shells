@@ -15,6 +15,6 @@ in
         nixpkgs.python38Packages.uvicorn
       ];
 
-      repoSrcNixIpfsNode = ../src/nix_ipfs_node;
+      repoSrcNixIpfsCoordinator = ../src/nix_ipfs_coordinator;
     })
   )

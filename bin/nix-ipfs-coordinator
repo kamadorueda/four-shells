@@ -2,24 +2,23 @@
 #!   nix-shell -i bash
 #!   nix-shell --pure
 #!   nix-shell --keep BURP
-#!   nix-shell --keep NIX_IPFS_NODE_PORT
-#!   nix-shell --keep NIX_IPFS_NODE_SUBSTITUTER
-#!   nix-shell nix-ipfs-node.nix
+#!   nix-shell --keep NIX_IPFS_COORDINATOR_PORT
+#!   nix-shell nix-ipfs-coordinator.nix
 #  shellcheck shell=bash
 
 source "${srcBuildCtxSh}"
 
 function main {
-  export PYTHONPATH="${repoSrcNixIpfsNode}:${PYTHONPATH}"
+  export PYTHONPATH="${repoSrcNixIpfsCoordinator}:${PYTHONPATH}"
 
-      utils_nix_ipfs_node_ensure_configuration \
+      utils_nix_ipfs_coordinator_ensure_configuration \
   &&  utils_configure_proxy "${BURP:-}" \
   &&  uvicorn \
         --host '127.0.0.1' \
         --interface 'asgi3' \
         --loop 'uvloop' \
-        --port "${NIX_IPFS_NODE_PORT}" \
-        'nix_ipfs_node.asgi:APP'
+        --port "${NIX_IPFS_COORDINATOR_PORT}" \
+        'nix_ipfs_coordinator.asgi:APP'
 }
 
 main "${@}"
