@@ -38,10 +38,7 @@ async def api_nix_nar_xz_hash_delete(request: Request) -> JSONResponse:
 
     success: bool = await persistence.delete(nix_nar_xz_hash)
 
-    return JSONResponse({
-        'nix_nar_xz_hash': nix_nar_xz_hash,
-        'success': success,
-    })
+    return JSONResponse({'success': success})
 
 
 async def api_nix_nar_xz_hash_get(request: Request) -> JSONResponse:
@@ -49,10 +46,7 @@ async def api_nix_nar_xz_hash_get(request: Request) -> JSONResponse:
 
     ipfs_cid: Optional[str] = await persistence.get(nix_nar_xz_hash)
 
-    return JSONResponse({
-        'nix_nar_xz_hash': nix_nar_xz_hash,
-        'ipfs_cid': ipfs_cid,
-    })
+    return JSONResponse({'ipfs_cid': ipfs_cid})
 
 
 async def api_nix_nar_xz_hash_post(request: Request) -> JSONResponse:
@@ -61,8 +55,4 @@ async def api_nix_nar_xz_hash_post(request: Request) -> JSONResponse:
 
     success: bool = await persistence.set(nix_nar_xz_hash, ipfs_cid)
 
-    return JSONResponse({
-        'ipfs_cid': ipfs_cid,
-        'nix_nar_xz_hash': nix_nar_xz_hash,
-        'success': success,
-    })
+    return JSONResponse({'success': success})
