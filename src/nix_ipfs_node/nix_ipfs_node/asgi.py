@@ -10,6 +10,10 @@ from nix_ipfs_node import (
 # Constants
 APP = Starlette(
     routes=[
-        Route('/{path:path}', handlers.route),
+        Route(
+            path='/{path:path}',
+            endpoint=handlers.route,
+            methods=['GET'],
+        ),
     ],
 )
