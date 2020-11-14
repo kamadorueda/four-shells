@@ -17,18 +17,18 @@ APP = Starlette(
     ],
     routes=[
         Route(
-            path='/api/nix_nar_xz_hash/{nix_nar_xz_hash:str}',
-            endpoint=handlers.api_nix_nar_xz_hash_delete,
+            path='/api/host/{host:str}/hash/{hash:str}',
+            endpoint=handlers.api_host___hash____delete,
             methods=['DELETE'],
         ),
         Route(
-            path='/api/nix_nar_xz_hash/{nix_nar_xz_hash:str}',
-            endpoint=handlers.api_nix_nar_xz_hash_get,
+            path='/api/host/{host:str}/hash/{hash:str}',
+            endpoint=handlers.api_host___hash____get,
             methods=['GET'],
         ),
         Route(
-            path='/api/nix_nar_xz_hash/{nix_nar_xz_hash:str}/{ipfs_cid:str}',
-            endpoint=handlers.api_nix_nar_xz_hash_post,
+            path='/api/host/{host:str}/hash/{hash:str}/cid/{cid:str}',
+            endpoint=handlers.api_host___hash____cid___post,
             methods=['POST'],
         ),
     ],

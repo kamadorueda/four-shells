@@ -33,26 +33,29 @@ async def on_startup() -> None:
     )
 
 
-async def api_nix_nar_xz_hash_delete(request: Request) -> JSONResponse:
-    nix_nar_xz_hash: str = request.path_params['nix_nar_xz_hash']
+async def api_host___hash____delete(request: Request) -> JSONResponse:
+    hash: str = request.path_params['hash']
+    host: str = request.path_params['host']
 
-    success: bool = await persistence.delete(nix_nar_xz_hash)
+    success: bool = await persistence.delete(host, hash)
 
     return JSONResponse({'success': success})
 
 
-async def api_nix_nar_xz_hash_get(request: Request) -> JSONResponse:
-    nix_nar_xz_hash: str = request.path_params['nix_nar_xz_hash']
+async def api_host___hash____get(request: Request) -> JSONResponse:
+    hash: str = request.path_params['hash']
+    host: str = request.path_params['host']
 
-    ipfs_cid: Optional[str] = await persistence.get(nix_nar_xz_hash)
+    cid: Optional[str] = await persistence.get(host, hash)
 
-    return JSONResponse({'ipfs_cid': ipfs_cid})
+    return JSONResponse({'cid': cid})
 
 
-async def api_nix_nar_xz_hash_post(request: Request) -> JSONResponse:
-    nix_nar_xz_hash: str = request.path_params['nix_nar_xz_hash']
-    ipfs_cid: str = request.path_params['ipfs_cid']
+async def api_host___hash____cid___post(request: Request) -> JSONResponse:
+    cid: str = request.path_params['cid']
+    hash: str = request.path_params['hash']
+    host: str = request.path_params['host']
 
-    success: bool = await persistence.set(nix_nar_xz_hash, ipfs_cid)
+    success: bool = await persistence.set(host, hash, cid)
 
     return JSONResponse({'success': success})
