@@ -42,10 +42,11 @@ async def request(
             method=method,
             url=url,
         ) as response:
+            response.raise_for_status()
             yield response
 
 
-async def stream_response(
+async def iterate_response_chunks(
     *,
     chunk_size: int = 1024,
     response: aiohttp.ClientResponse,
@@ -57,23 +58,50 @@ async def stream_response(
             break
 
 
+async def iterate_file_chunks(
+    *,
+    chunk_size: int = 1024,
+    path: str,
+) -> AsyncIterable[bytes]:
+    async with aiofiles.open(path) as handle:
+        while True:
+            if chunk := await handle.read(chunk_size):
+                yield chunk
+            else:
+                break
+
+
 @contextlib.asynccontextmanager
 async def stream_response_to_tmp_file(
     *,
     chunk_size: int = 1024,
     response: aiohttp.ClientResponse,
 ) -> str:
-    file, lock = config.get_ephemeral_file()
+    path, lock = config.get_ephemeral_file()
 
     async with lock:
-        async with aiofiles.open(file, 'w') as handle:
-            async for chunk in stream_response(
+        async with aiofiles.open(path, 'w') as handle:
+            async for chunk in iterate_response_chunks(
                 chunk_size=chunk_size,
                 response=response,
             ):
                 await handle.write(chunk)
 
-        yield file
+        yield path
+
+
+async def stream_from_tmp_file(
+    *,
+    chunk_size: int = 1024,
+    path: str,
+) -> StreamingResponse:
+    return StreamingResponse(
+        content=stream_from_tmp_file(
+            chunk_size=chunk_size,
+            path=path,
+        ),
+        media_type='application/octet-stream',
+    )
 
 
 async def stream_from_substituter(
@@ -90,7 +118,7 @@ async def stream_from_substituter(
         ) as response:
             yield response.status
 
-            async for chunk in stream_response(response=response):
+            async for chunk in iterate_response_chunks(response=response):
                 yield chunk
 
     content_generator = generate_content()
