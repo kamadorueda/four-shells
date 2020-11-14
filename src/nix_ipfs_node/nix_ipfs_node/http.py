@@ -77,9 +77,7 @@ async def stream_response_to_tmp_file(
     chunk_size: int = 1024,
     response: aiohttp.ClientResponse,
 ) -> str:
-    path, lock = config.get_ephemeral_file()
-
-    async with lock:
+    async with config.ephemeral_file() as path:
         async with aiofiles.open(path, 'wb') as handle:
             async for chunk in iterate_response_chunks(
                 chunk_size=chunk_size,

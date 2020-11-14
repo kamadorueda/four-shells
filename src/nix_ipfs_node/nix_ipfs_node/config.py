@@ -1,6 +1,7 @@
 # Standard library
 import asyncio
 from contextlib import (
+    asynccontextmanager,
     suppress,
 )
 from itertools import (
@@ -61,8 +62,12 @@ def build_ipfs_url(cid: str) -> str:
     return f'http://127.0.0.1:{IPFS_GATEWAY_PORT}/{cid}'
 
 
-def get_ephemeral_file() -> Tuple[str, asyncio.Lock]:
-    return next(_DATA_EPH_FILES_ITER)
+@asynccontextmanager
+def ephemeral_file() -> Tuple[str, asyncio.Lock]:
+    path, lock = next(_DATA_EPH_FILES_ITER)
+
+    async with lock:
+        yield path
 
 
 def patch_substituter_headers(headers: Headers) -> Dict[str, str]:
