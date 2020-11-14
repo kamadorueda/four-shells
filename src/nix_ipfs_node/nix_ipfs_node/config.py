@@ -50,11 +50,15 @@ def build_coordinator_url(path: str, **kwargs: str) -> str:
         key: urllib.parse.quote_plus(val) for key, val in kwargs.items()
     })
 
-    return f'{COORDINATOR_URL}{path}'
+    return f'{COORDINATOR_URL}/{path}'
 
 
 def build_substituter_url(path: str) -> str:
     return f'{SUBSTITUTER}/{path}'
+
+
+def build_ipfs_url(cid: str) -> str:
+    return f'http://127.0.0.1:{IPFS_GATEWAY_PORT}/{cid}'
 
 
 def get_ephemeral_file() -> Tuple[str, asyncio.Lock]:

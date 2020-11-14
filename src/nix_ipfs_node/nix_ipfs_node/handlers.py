@@ -43,31 +43,39 @@ async def _simple_proxy_to_substituter(request: Request) -> Response:
 async def route_get__nar_info(
     headers: Headers,
     request: Request,
-    url: str,
 ) -> Response:
+    # Check the upstream substituter .narinfo
     async with http.request(
         headers=headers,
         method=request.method,
-        url=url,
+        url=config.build_substituter_url(request.path_params['path']),
     ) as response:
-        content = await response.content.read(config.MAX_FILE_READ)
+        nar_info_content = await response.content.read(config.MAX_FILE_READ)
 
-    nar_info = nix_config.parse_bytes(content)
-    drv_hash = nar_info['FileHash:'][0]
+    # Inspect the .narinfo
+    nar_info = nix_config.parse_bytes(nar_info_content)
+    nar_xz_hash = nar_info['FileHash:'][0]
     nar_xz_url = nar_info['URL:'][0]
 
-    # Download the .nar.xz file and add it to IPFS
-    async with http.request(
-        headers=headers,
-        method='GET',
-        url=config.build_substituter_url(nar_xz_url),
-    ) as response:
-        async with http.stream_response_to_tmp_file(
-            response=response,
-        ) as path:
-            cid = await ipfs.add(path)
+    # Check if this nar_xz_hash has a translation
+    if nar_xz_cid := await http.coordinator_get(nar_xz_hash):
+        # Translation exists
+        pass
+    else:
+        # Translation does not exist
+        # Download the .nar.xz and add it to ipfs
+        async with http.request(
+            headers=headers,
+            method=request.method,
+            url=config.build_substituter_url(nar_xz_url),
+        ) as response:
+            async with http.stream_response_to_tmp_file(
+                response=response,
+            ) as path:
+                nar_xz_cid = await ipfs.add(path)
 
-    await http.coordinator_post(drv_hash, cid)
+        # Announce the nar_xz_cid to the coordinator
+        await http.coordinator_post(nar_xz_hash, nar_xz_cid)
 
     return await _simple_proxy_to_substituter(request)
 
@@ -75,26 +83,23 @@ async def route_get__nar_info(
 async def route_get__nar_xz(
     headers: Headers,
     request: Request,
-    url: str,
 ) -> Response:
     return await _simple_proxy_to_substituter(request)
 
 
 async def route_get(request: Request) -> Response:
-    url: str = config.build_substituter_url(request.path_params['path'])
+    path: str = request.path_params['path']
     headers = config.patch_substituter_headers(request.headers)
 
-    if url.endswith('.narinfo'):
+    if path.endswith('.narinfo'):
         return await route_get__nar_info(
             headers=headers,
             request=request,
-            url=url,
         )
-    if url.endswith('.nar.xz'):
+    if path.endswith('.nar.xz'):
         return await route_get__nar_xz(
             headers=headers,
             request=request,
-            url=url,
         )
 
     return await _simple_proxy_to_substituter(request)

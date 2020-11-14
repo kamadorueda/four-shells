@@ -137,7 +137,7 @@ async def coordinator_delete(hash: str) -> bool:
         url=config.build_coordinator_url(
             hash=hash,
             host=config.SUBSTITUTER_NETLOC,
-            path='/api/host/{host}/hash/{hash}',
+            path='api/host/{host}/hash/{hash}',
         ),
     ) as response:
         response.raise_for_status()
@@ -152,7 +152,7 @@ async def coordinator_get(hash: str) -> Optional[str]:
         url=config.build_coordinator_url(
             hash=hash,
             host=config.SUBSTITUTER_NETLOC,
-            path='/api/host/{host}/hash/{hash}',
+            path='api/host/{host}/hash/{hash}',
         ),
     ) as response:
         response.raise_for_status()
@@ -168,7 +168,7 @@ async def coordinator_post(hash: str, cid: str) -> bool:
             cid=cid,
             hash=hash,
             host=config.SUBSTITUTER_NETLOC,
-            path='/api/host/{host}/hash/{hash}/cid/{cid}',
+            path='api/host/{host}/hash/{hash}/cid/{cid}',
         ),
     ) as response:
         response.raise_for_status()
