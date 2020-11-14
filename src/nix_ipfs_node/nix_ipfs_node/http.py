@@ -1,6 +1,8 @@
 # Standard library
 import aiohttp
+import aiofiles
 import contextlib
+from uuid import uuid4 as uuid
 from typing import (
     AsyncIterable,
     Optional,
@@ -53,6 +55,25 @@ async def stream_response(
             yield chunk
         else:
             break
+
+
+@contextlib.asynccontextmanager
+async def stream_response_to_tmp_file(
+    *,
+    chunk_size: int = 1024,
+    response: aiohttp.ClientResponse,
+) -> str:
+    file, lock = config.get_ephemeral_file()
+
+    async with lock:
+        async with aiofiles.open(file, 'w') as handle:
+            async for chunk in stream_response(
+                chunk_size=chunk_size,
+                response=response,
+            ):
+                await handle.write(chunk)
+
+        yield file
 
 
 async def stream_from_substituter(
