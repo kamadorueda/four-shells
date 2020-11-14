@@ -14,6 +14,12 @@ from starlette.responses import (
     StreamingResponse,
 )
 
+# local libraries
+from nix_ipfs_node import (
+    config,
+)
+
+
 @contextlib.asynccontextmanager
 async def request(
     *,
@@ -74,3 +80,49 @@ async def stream_from_substituter(
         media_type='application/octet-stream',
         status_code=status_code,
     )
+
+
+async def coordinator_delete(hash: str) -> bool:
+    async with request(
+        method='DELETE',
+        url=config.build_coordinator_url(
+            hash=hash,
+            host=config.SUBSTITUTER_NETLOC,
+            path='/api/host/{host}/hash/{hash}',
+        ),
+    ) as response:
+        response.raise_for_status()
+        result = await response.json()
+
+        return result['success'] == True
+
+
+async def coordinator_get(hash: str) -> Optional[str]:
+    async with request(
+        method='GET',
+        url=config.build_coordinator_url(
+            hash=hash,
+            host=config.SUBSTITUTER_NETLOC,
+            path='/api/host/{host}/hash/{hash}',
+        ),
+    ) as response:
+        response.raise_for_status()
+        result = await response.json()
+
+        return result['cid']
+
+
+async def coordinator_post(hash: str, cid: str) -> bool:
+    async with request(
+        method='POST',
+        url=config.build_coordinator_url(
+            cid=cid,
+            hash=hash,
+            host=config.SUBSTITUTER_NETLOC,
+            path='/api/host/{host}/hash/{hash}/cid/{cid}',
+        ),
+    ) as response:
+        response.raise_for_status()
+        result = await response.json()
+
+        return result['success'] == True
