@@ -50,7 +50,7 @@ def build_coordinator_url(path: str, **kwargs: str) -> str:
         key: urllib.parse.quote_plus(val) for key, val in kwargs.items()
     })
 
-    return f'{COORDINATOR_URL}/{path}'
+    return f'{COORDINATOR_URL}{path}'
 
 
 def build_substituter_url(path: str) -> str:

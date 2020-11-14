@@ -112,9 +112,31 @@ async def daemon() -> None:
     async def daemon_stderr():
         while True:
             if err := await process.stderr.readline():
-                await log('info', 'IPFS Daemon stdout: %s', err[:-1].decode())
+                await log('error', 'IPFS Daemon stdout: %s', err[:-1].decode())
             else:
                 break
 
     asyncio.create_task(daemon_stdout())
     asyncio.create_task(daemon_stderr())
+
+
+async def add(path: str) -> str:
+    command: Tuple[str, ...] = (
+        'ipfs',
+        'add',
+        '--chunker', 'size-1024',
+        '--hash', 'sha2-256',
+        '--quieter',
+        '--pin',
+        path,
+    )
+
+    code, out, err = await system.read(*command, env=ENV)
+    cid = out.decode()
+
+    if code == 0:
+        await log('info', 'IPFS added cid: %s', cid)
+    else:
+        await _raise(code=code, command=command, err=err, out=out)
+
+    return cid

@@ -24,6 +24,7 @@ async def on_startup() -> None:
     await ipfs.configurate()
     await ipfs.daemon()
 
+
 async def on_shutdown() -> None:
     pass
 
@@ -39,7 +40,7 @@ async def _simple_proxy_to_substituter(request: Request) -> Response:
     )
 
 
-async def route_get__narinfo(
+async def route_get__nar_info(
     headers: Headers,
     request: Request,
     url: str,
@@ -50,12 +51,33 @@ async def route_get__narinfo(
         url=url,
     ) as response:
         content = await response.content.read(config.MAX_FILE_READ)
-        nar_info = nix_config.parse_bytes(content)
 
-        narinfo_hash = nar_info['FileHash:']
-        nar_url = nar_info['URL:']
+    nar_info = nix_config.parse_bytes(content)
+    drv_hash = nar_info['FileHash:'][0]
+    nar_xz_url = nar_info['URL:'][0]
 
-        return await _simple_proxy_to_substituter(request)
+    # Download the .nar.xz file and add it to IPFS
+    async with http.request(
+        headers=headers,
+        method='GET',
+        url=config.build_substituter_url(nar_xz_url),
+    ) as response:
+        async with http.stream_response_to_tmp_file(
+            response=response,
+        ) as path:
+            cid = await ipfs.add(path)
+
+    await http.coordinator_post(drv_hash, cid)
+
+    return await _simple_proxy_to_substituter(request)
+
+
+async def route_get__nar_xz(
+    headers: Headers,
+    request: Request,
+    url: str,
+) -> Response:
+    return await _simple_proxy_to_substituter(request)
 
 
 async def route_get(request: Request) -> Response:
@@ -63,14 +85,17 @@ async def route_get(request: Request) -> Response:
     headers = config.patch_substituter_headers(request.headers)
 
     if url.endswith('.narinfo'):
-        return await route_get__narinfo(
+        return await route_get__nar_info(
             headers=headers,
             request=request,
             url=url,
         )
-
     if url.endswith('.nar.xz'):
-        return await _simple_proxy_to_substituter(request)
+        return await route_get__nar_xz(
+            headers=headers,
+            request=request,
+            url=url,
+        )
 
     return await _simple_proxy_to_substituter(request)
 
