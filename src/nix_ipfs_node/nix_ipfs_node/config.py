@@ -1,6 +1,14 @@
 # Standard library
 import os
 import urllib.parse
+from typing import (
+    Dict,
+)
+
+# Third party libraries
+from starlette.datastructures import (
+    Headers,
+)
 
 # Environment
 COORDINATOR_URL = os.environ['NIX_IPFS_COORDINATOR_URL']
