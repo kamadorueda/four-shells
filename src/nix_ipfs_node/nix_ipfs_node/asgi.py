@@ -13,11 +13,27 @@ from nix_ipfs_node import (
 
 # Constants
 APP = Starlette(
+    on_startup=[
+        handlers.on_startup,
+    ],
+    on_shutdown=[
+        handlers.on_shutdown,
+    ],
     routes=[
         Route(
             path='/{path:path}',
-            endpoint=handlers.route,
+            endpoint=handlers.route_get,
             methods=['GET'],
+        ),
+        Route(
+            path='/{path:path}',
+            endpoint=handlers.route_head,
+            methods=['HEAD'],
+        ),
+        Route(
+            path='/{path:path}',
+            endpoint=handlers.route_post,
+            methods=['POST'],
         ),
     ],
 )

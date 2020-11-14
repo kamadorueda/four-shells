@@ -63,7 +63,7 @@ async def iterate_file_chunks(
     chunk_size: int = 1024,
     path: str,
 ) -> AsyncIterable[bytes]:
-    async with aiofiles.open(path) as handle:
+    async with aiofiles.open(path, 'rb') as handle:
         while True:
             if chunk := await handle.read(chunk_size):
                 yield chunk
@@ -80,7 +80,7 @@ async def stream_response_to_tmp_file(
     path, lock = config.get_ephemeral_file()
 
     async with lock:
-        async with aiofiles.open(path, 'w') as handle:
+        async with aiofiles.open(path, 'wb') as handle:
             async for chunk in iterate_response_chunks(
                 chunk_size=chunk_size,
                 response=response,
@@ -96,7 +96,7 @@ async def stream_from_tmp_file(
     path: str,
 ) -> StreamingResponse:
     return StreamingResponse(
-        content=stream_from_tmp_file(
+        content=iterate_file_chunks(
             chunk_size=chunk_size,
             path=path,
         ),
