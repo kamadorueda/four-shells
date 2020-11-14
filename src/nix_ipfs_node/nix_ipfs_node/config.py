@@ -23,6 +23,9 @@ from starlette.datastructures import (
 # Environment
 COORDINATOR_URL = os.environ['NIX_IPFS_NODE_COORDINATOR_URL']
 DATA_DIR = os.environ['NIX_IPFS_NODE_DATA_DIR']
+IPFS_API_PORT = os.environ['NIX_IPFS_NODE_IPFS_API_PORT']
+IPFS_GATEWAY_PORT = os.environ['NIX_IPFS_NODE_IPFS_GATEWAY_PORT']
+IPFS_SWARM_PORT = os.environ['NIX_IPFS_NODE_IPFS_SWARM_PORT']
 PORT = os.environ['NIX_IPFS_NODE_PORT']
 
 # Constants
@@ -70,7 +73,6 @@ def side_effects() -> None:
     with suppress(FileNotFoundError):
         shutil.rmtree(DATA_EPH)
     os.makedirs(DATA_EPH, mode=0o700)
-    os.makedirs(DATA_IPFS, mode=0o700, exist_ok=True)
 
     for eph_file in DATA_EPH_FILES:
         DATA_EPH_FILES[eph_file] = asyncio.Lock()

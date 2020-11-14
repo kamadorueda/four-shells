@@ -9,6 +9,7 @@ in
 
       buildInputs = [
         nixpkgs.cacert
+        nixpkgs.ipfs
         nixpkgs.python38
         nixpkgs.python38Packages.aiohttp
         nixpkgs.python38Packages.starlette
