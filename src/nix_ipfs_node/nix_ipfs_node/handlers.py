@@ -14,12 +14,15 @@ from starlette.responses import (
 from nix_ipfs_node import (
     config,
     http,
+    ipfs,
     nix_config,
 )
 
 async def on_startup() -> None:
     config.side_effects()
-
+    await ipfs.init()
+    await ipfs.configurate()
+    await ipfs.daemon()
 
 async def on_shutdown() -> None:
     pass
