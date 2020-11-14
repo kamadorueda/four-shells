@@ -1,5 +1,8 @@
 # Third party libraries
 import aiofiles
+from starlette.datastructures import (
+    Headers,
+)
 from starlette.requests import (
     Request,
 )
@@ -33,30 +36,40 @@ async def _simple_proxy_to_substituter(request: Request) -> Response:
     )
 
 
-async def route_get(request: Request) -> Response:
-    url: str = config.build_substituter_url(request.path_params['path'])
-    headers = config.patch_substituter_headers(request.headers)
-
+async def route_get__narinfo(
+    headers: Headers,
+    request: Request,
+    url: str,
+) -> Response:
     async with http.request(
         headers=headers,
         method=request.method,
         url=url,
     ) as response:
-        async with http.stream_response_to_tmp_file(response=response) as path:
+        content = await response.content.read(config.MAX_FILE_READ)
+        nar_info = nix_config.parse_bytes(content)
 
-            if url.endswith('.narinfo'):
-                async with aiofiles.open(path) as handle:
-                    content = await handle.read(config.MAX_FILE_READ)
+        narinfo_hash = nar_info['FileHash:']
+        nar_url = nar_info['URL:']
 
-                nar_info = nix_config.parse(content)
-
-                print(nar_info)
-                nar_hash = nar_info['FileHash:']
+        return await _simple_proxy_to_substituter(request)
 
 
+async def route_get(request: Request) -> Response:
+    url: str = config.build_substituter_url(request.path_params['path'])
+    headers = config.patch_substituter_headers(request.headers)
 
-        # Pass through
-        return await http.stream_from_tmp_file(path=path)
+    if url.endswith('.narinfo'):
+        return await route_get__narinfo(
+            headers=headers,
+            request=request,
+            url=url,
+        )
+
+    if url.endswith('.nar.xz'):
+        return await _simple_proxy_to_substituter(request)
+
+    return await _simple_proxy_to_substituter(request)
 
 
 async def route_head(request: Request) -> Response:
