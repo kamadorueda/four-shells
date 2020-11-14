@@ -177,6 +177,9 @@ Which has 4 outputs, and one of them is:
 
     As long as there are more active good users than bad users the network grows safe.
 
+1.  When the server fetches the upstream substituter, the substituter may
+    return a sufficiently big file as to consume the entire server memory.
+
 ## User experience
 
 What a user who wants to use the binary cache over IPFS need to do is:
