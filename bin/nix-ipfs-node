@@ -2,7 +2,8 @@
 #!   nix-shell -i bash
 #!   nix-shell --pure
 #!   nix-shell --keep BURP
-#!   nix-shell --keep NIX_IPFS_COORDINATOR_URL
+#!   nix-shell --keep NIX_IPFS_NODE_COORDINATOR_URL
+#!   nix-shell --keep NIX_IPFS_NODE_DATA_DIR
 #!   nix-shell --keep NIX_IPFS_NODE_PORT
 #!   nix-shell --keep NIX_IPFS_NODE_SUBSTITUTER
 #!   nix-shell nix-ipfs-node.nix

@@ -2,7 +2,8 @@
 
 function utils_nix_ipfs_node_ensure_configuration {
   local required_vars=(
-    NIX_IPFS_COORDINATOR_URL
+    NIX_IPFS_NODE_COORDINATOR_URL
+    NIX_IPFS_NODE_DATA_DIR
     NIX_IPFS_NODE_PORT
     NIX_IPFS_NODE_SUBSTITUTER
   )

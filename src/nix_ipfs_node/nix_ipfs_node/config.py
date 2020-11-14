@@ -11,10 +11,12 @@ from starlette.datastructures import (
 )
 
 # Environment
-COORDINATOR_URL = os.environ['NIX_IPFS_COORDINATOR_URL']
+COORDINATOR_URL = os.environ['NIX_IPFS_NODE_COORDINATOR_URL']
+DATA_DIR = os.environ['NIX_IPFS_NODE_DATA_DIR']
 PORT = os.environ['NIX_IPFS_NODE_PORT']
 
 # Constants
+DATA_DIR: str = os.path.abspath(os.path.expanduser(DATA_DIR))
 MAX_AGGRESSIVE_READ = 1048576  # 1 MiB
 
 _SUBSTITUTER = urllib.parse.urlparse(os.environ['NIX_IPFS_NODE_SUBSTITUTER'])
