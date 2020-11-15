@@ -1,6 +1,14 @@
-# Creating a Nix binary cache over IPFS
+# Table of contents
 
-## Why
+<!-- http://ecotrust-canada.github.io/markdown-toc/ -->
+
+- [Why](#why)
+- [Manual](#manual)
+- [What are we building](#what-are-we-building)
+- [Contributing](#contributing)
+- [Sponsors](#sponsors)
+
+# Why
 
 Because it benefits all parties involved economically, technically and in freedom:
 
@@ -9,11 +17,15 @@ Because it benefits all parties involved economically, technically and in freedo
 - https://www.geeksforgeeks.org/difference-between-http-and-ipfs/
 - https://github.com/NixOS/nix/issues/859
 
-## What are we building
+# Manual
+
+Please read the [manual](./docs/manual.md).
+
+# What are we building
 
 Please read the [whitepaper and implementation](./docs/whitepaper.md).
 
-## Contributing
+# Contributing
 
 There are many ways of contributing, not necessarily technical:
 
@@ -22,7 +34,7 @@ There are many ways of contributing, not necessarily technical:
 - Use the software and let us know your experience, ideas, or problems.
 - Help us triaging issues, writing docs, or writing code.
 
-## Sponsors
+# Sponsors
 
 This and other [Free and Open Source](https://en.wikipedia.org/wiki/FOSS) projects are possible by the financial contributions of some amazing members,
 
