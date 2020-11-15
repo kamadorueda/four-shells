@@ -58,8 +58,18 @@ def build_substituter_url(path: str) -> str:
     return f'{SUBSTITUTER}/{path}'
 
 
-def build_ipfs_url(cid: str) -> str:
+def build_ipfs_gateway_url(cid: str) -> str:
     return f'http://127.0.0.1:{IPFS_GATEWAY_PORT}/{cid}'
+
+
+def build_ipfs_api_url(path: str, *args: Tuple[str, str]) -> str:
+    query_params = (
+        '?' + urllib.parse.urlencode(args)
+        if args
+        else ''
+    )
+
+    return f'http://127.0.0.1:{IPFS_API_PORT}/{path}{query_params}'
 
 
 @asynccontextmanager
