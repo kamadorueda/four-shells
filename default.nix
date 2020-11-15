@@ -12,6 +12,15 @@ in
       cp -r "$repoSrc" "$out/src"
     '';
 
+    meta = with nixpkgs.stdenv.lib; {
+      description = "A Nix implementation of binary caches over IPFS";
+      homepage = "https://github.com/kamadorueda/nix-ipfs";
+      license = licenses.gpl3;
+      maintainers = with maintainers; [
+        kamadorueda
+      ];
+    };
+
     name = "nix-ipfs";
 
     repoBin = ./bin;
@@ -19,4 +28,6 @@ in
     repoSrc= ./src;
 
     src = repoBin;
+
+    version = "2020.11";
   }
