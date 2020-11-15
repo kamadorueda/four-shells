@@ -17,6 +17,10 @@ from nix_ipfs_node import (
     ipfs,
     nix_config,
 )
+from nix_ipfs_node.log import (
+    log,
+)
+
 
 async def on_startup() -> None:
     config.side_effects()
@@ -29,26 +33,23 @@ async def on_shutdown() -> None:
     pass
 
 
-async def _simple_proxy_to_substituter(request: Request) -> Response:
-    url: str = config.build_substituter_url(request.path_params['path'])
-    headers = config.patch_substituter_headers(request.headers)
-
+async def proxy_to_substituter(request: Request) -> Response:
     return await http.stream_from_substituter(
-        headers=headers,
+        headers=config.patch_substituter_headers(request.headers),
         method=request.method,
-        url=url,
+        url=config.build_substituter_url(request.url.path[1:]),
     )
 
 
-async def route_get__nar_info(
-    headers: Headers,
-    request: Request,
-) -> Response:
+async def proxy_as_narinfo(request: Request) -> Response:
+    drv_hash: str = request.path_params['drv_hash']
+    headers = config.patch_substituter_headers(request.headers)
+
     # Check the upstream substituter .narinfo
     async with http.request(
         headers=headers,
         method=request.method,
-        url=config.build_substituter_url(request.path_params['path']),
+        url=config.build_substituter_url(f'{drv_hash}.narinfo'),
     ) as response:
         nar_info_content = await response.content.read(config.MAX_FILE_READ)
 
@@ -77,37 +78,23 @@ async def route_get__nar_info(
         # Announce the nar_xz_cid to the coordinator
         await http.coordinator_post(nar_xz_hash, nar_xz_cid)
 
-    return await _simple_proxy_to_substituter(request)
+    return await proxy_to_substituter(request)
 
 
-async def route_get__nar_xz(
-    headers: Headers,
-    request: Request,
-) -> Response:
-    return await _simple_proxy_to_substituter(request)
+async def proxy_as_nar_xz(request: Request) -> Response:
+    nar_xz_hash: str = request.path_params['nar_xz_hash']
+    nar_xz_hash = f'sha256:{nar_xz_hash}'
 
+    # Check if it's available on IPFS
+    if nar_xz_cid := await http.coordinator_get(nar_xz_hash):
+        await log('info', 'nar_xz_hash: %s, is on coordinator', nar_xz_hash)
+        if await ipfs.is_available(nar_xz_cid):
+            await log('info', 'nar_xz_cid: %s, is on IPFS, streaming', nar_xz_cid)
+            async with ipfs.get(nar_xz_cid) as path:
+                return await http.stream_from_tmp_file(path=path)
+        else:
+            await log('info', 'nar_xz_cid: %s, is on IPFS', nar_xz_cid)
+    else:
+        await log('info', 'nar_xz_hash: %s, is not on coordinator', nar_xz_hash)
 
-async def route_get(request: Request) -> Response:
-    path: str = request.path_params['path']
-    headers = config.patch_substituter_headers(request.headers)
-
-    if path.endswith('.narinfo'):
-        return await route_get__nar_info(
-            headers=headers,
-            request=request,
-        )
-    if path.endswith('.nar.xz'):
-        return await route_get__nar_xz(
-            headers=headers,
-            request=request,
-        )
-
-    return await _simple_proxy_to_substituter(request)
-
-
-async def route_head(request: Request) -> Response:
-    return await _simple_proxy_to_substituter(request)
-
-
-async def route_post(request: Request) -> Response:
-    return await _simple_proxy_to_substituter(request)
+    return await proxy_to_substituter(request)

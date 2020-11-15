@@ -12,6 +12,14 @@ from nix_ipfs_node import (
 )
 
 # Constants
+PATHS_NAR_INFO = [
+    '/{drv_hash:str}.narinfo',
+]
+PATHS_NAR_XZ = [
+    '/nar/{nar_xz_hash:str}.nar.xz',
+]
+
+
 APP = Starlette(
     on_startup=[
         handlers.on_startup,
@@ -20,20 +28,17 @@ APP = Starlette(
         handlers.on_shutdown,
     ],
     routes=[
-        Route(
-            path='/{path:path}',
-            endpoint=handlers.route_get,
-            methods=['GET'],
+        # Handle possible .narinfo requests
+        *(
+            Route(path, handlers.proxy_as_narinfo, methods=['GET'])
+            for path in PATHS_NAR_INFO
         ),
-        Route(
-            path='/{path:path}',
-            endpoint=handlers.route_head,
-            methods=['HEAD'],
+        # Handle possible .nar.xz requests
+        *(
+            Route(path, handlers.proxy_as_nar_xz, methods=['GET'])
+            for path in PATHS_NAR_XZ
         ),
-        Route(
-            path='/{path:path}',
-            endpoint=handlers.route_post,
-            methods=['POST'],
-        ),
+        # Base case, just proxy to upstream
+        Route('/{path:path}', handlers.proxy_to_substituter),
     ],
 )

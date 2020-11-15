@@ -73,7 +73,7 @@ def build_ipfs_api_url(path: str, *args: Tuple[str, str]) -> str:
 
 
 @asynccontextmanager
-def ephemeral_file() -> Tuple[str, asyncio.Lock]:
+async def ephemeral_file() -> Tuple[str, asyncio.Lock]:
     path, lock = next(_DATA_EPH_FILES_ITER)
 
     async with lock:

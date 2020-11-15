@@ -146,11 +146,26 @@ async def add(path: str) -> str:
     return cid
 
 
+async def is_available(cid: str, *, timeout: str = '5s') -> bool:
+    command: Tuple[str, ...] = (
+        'ipfs',
+        '--timeout', timeout,
+        'cat',
+        '--length', '1',
+        cid,
+    )
+
+    code, *_ = await system.read(*command, env=ENV)
+
+    return code == 0
+
+
 @asynccontextmanager
-async def get(cid: str) -> str:
+async def get(cid: str, *, timeout: str = '60s') -> str:
     async with config.ephemeral_file() as path:
         command: Tuple[str, ...] = (
             'ipfs',
+            '--timeout', timeout,
             'get',
             '--output', path,
             cid,
