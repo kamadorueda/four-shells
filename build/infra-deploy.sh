@@ -3,7 +3,7 @@
 #!   nix-shell --keep TF_AWS_ACCESS_KEY_ID
 #!   nix-shell --keep TF_AWS_SECRET_ACCESS_KEY
 #!   nix-shell --pure
-#!   nix-shell ./deps/infra-test.nix
+#!   nix-shell ./deps/infra-deploy.nix
 #  shellcheck shell=bash
 
 source "${srcBuildCtxSh}"
@@ -19,8 +19,8 @@ function main {
     &&  terraform init \
     &&  echo '[INFO] Linting...' \
     &&  tflint --config tflint.hcl \
-    &&  echo '[INFO] Planning infrastructure changes...' \
-    &&  terraform plan -lock=false -refresh=true \
+    &&  echo '[INFO] Deploying infrastructure changes...' \
+    &&  terraform apply -auto-approve -refresh=true \
   &&  popd \
   ||  return 1
 }
