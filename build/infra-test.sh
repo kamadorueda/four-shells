@@ -9,8 +9,8 @@
 source "${srcBuildCtxSh}"
 
 function main {
-  export AWS_ACCESS_KEY_ID="${ROOT_AWS_ACCESS_KEY_ID}"
-  export AWS_SECRET_ACCESS_KEY="${ROOT_AWS_SECRET_ACCESS_KEY}"
+  export TF_VAR_aws_access_key_id="${ROOT_AWS_ACCESS_KEY_ID}"
+  export TF_VAR_aws_secret_access_key="${ROOT_AWS_SECRET_ACCESS_KEY}"
 
       pushd infra/ \
     &&  echo '[INFO] Initializing' \
