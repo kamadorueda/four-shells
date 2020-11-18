@@ -25,6 +25,52 @@ resource "aws_route_table_association" "public_1" {
   subnet_id = aws_subnet.public_1.id
 }
 
+resource "aws_security_group" "four_shells_lb" {
+  name = "4shells"
+  egress {
+    from_port = 0
+    to_port = 0
+    protocol = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  ingress {
+    from_port = 80
+    to_port = 80
+    protocol = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  ingress {
+    from_port = 443
+    to_port = 443
+    protocol = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  vpc_id = aws_vpc.four_shells.id
+}
+
+resource "aws_security_group" "four_shells_ecs" {
+  egress {
+    from_port = 0
+    to_port = 0
+    protocol = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  ingress {
+    from_port = 0
+    to_port = 0
+    protocol = "-1"
+    security_groups = [aws_security_group.four_shells_lb.id]
+  }
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  name = "4shells"
+  vpc_id = aws_vpc.four_shells.id
+}
+
 resource "aws_subnet" "public_1" {
   availability_zone = "${var.region}a"
   cidr_block = "192.168.0.0/24"
