@@ -17,9 +17,11 @@ function main {
       pushd infra/ \
     &&  echo '[INFO] Initializing' \
     &&  terraform init \
-    &&  echo '[INFO] Linting...' \
+    &&  echo '[INFO] Linting' \
     &&  tflint --config tflint.hcl \
-    &&  echo '[INFO] Planning infrastructure changes...' \
+    &&  echo '[INFO] Generating dependency graph' \
+    &&  terraform graph | dot -o ./dependency-graph.svg -T svg /dev/stdin \
+    &&  echo '[INFO] Planning infrastructure changes' \
     &&  terraform plan -lock=false -refresh=true \
   &&  popd \
   ||  return 1

@@ -8,6 +8,7 @@ in
       name = "infra-test";
 
       buildInputs = [
+        nixpkgs.graphviz
         nixpkgs.terraform_0_13
         nixpkgs.tflint
       ];
