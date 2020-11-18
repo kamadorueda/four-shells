@@ -1,3 +1,17 @@
+resource "aws_internet_gateway" "four_shells" {
+  tags = {
+    "Name" = "4shells"
+    "management:product" = "4shells"
+  }
+  vpc_id = aws_vpc.four_shells.id
+}
+
+resource "aws_route" "four_shells" {
+  destination_cidr_block = "0.0.0.0/0"
+  gateway_id = aws_internet_gateway.four_shells.id
+  route_table_id = aws_vpc.four_shells.default_route_table_id
+}
+
 resource "aws_route_table" "public" {
   tags = {
     "Name" = "4shells"
