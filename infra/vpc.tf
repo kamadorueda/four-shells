@@ -1,7 +1,7 @@
 resource "aws_internet_gateway" "four_shells" {
   tags = {
-    "Name" = "4shells"
     "management:product" = "4shells"
+    "Name" = "4shells"
   }
   vpc_id = aws_vpc.four_shells.id
 }
@@ -14,8 +14,8 @@ resource "aws_route" "four_shells" {
 
 resource "aws_route_table" "public" {
   tags = {
-    "Name" = "public"
     "management:product" = "4shells"
+    "Name" = "public"
   }
   vpc_id = aws_vpc.four_shells.id
 }
@@ -46,8 +46,8 @@ resource "aws_security_group" "four_shells_lb" {
   }
   name = "four_shells_lb"
   tags = {
-    "Name" = "four_shells_lb"
     "management:product" = "4shells"
+    "Name" = "four_shells_lb"
   }
   vpc_id = aws_vpc.four_shells.id
 }
@@ -73,8 +73,8 @@ resource "aws_security_group" "four_shells_ecs" {
   }
   name = "four_shells_ecs"
   tags = {
-    "Name" = "four_shells_ecs"
     "management:product" = "4shells"
+    "Name" = "four_shells_ecs"
   }
   vpc_id = aws_vpc.four_shells.id
 }
@@ -83,8 +83,8 @@ resource "aws_subnet" "public_1" {
   availability_zone = "${var.region}a"
   cidr_block = "192.168.0.0/24"
   tags = {
-    "Name" = "public_1"
     "management:product" = "4shells"
+    "Name" = "public_1"
   }
   vpc_id = aws_vpc.four_shells.id
 }
@@ -98,7 +98,7 @@ resource "aws_vpc" "four_shells" {
   enable_dns_support = true
   instance_tenancy = "default"
   tags = {
-    "Name" = "4shells"
     "management:product" = "4shells"
+    "Name" = "4shells"
   }
 }
