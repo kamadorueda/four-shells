@@ -14,7 +14,7 @@ resource "aws_route" "four_shells" {
 
 resource "aws_route_table" "public" {
   tags = {
-    "Name" = "4shells"
+    "Name" = "public"
     "management:product" = "4shells"
   }
   vpc_id = aws_vpc.four_shells.id
@@ -26,7 +26,6 @@ resource "aws_route_table_association" "public_1" {
 }
 
 resource "aws_security_group" "four_shells_lb" {
-  name = "4shells"
   egress {
     from_port = 0
     to_port = 0
@@ -44,6 +43,11 @@ resource "aws_security_group" "four_shells_lb" {
     to_port = 443
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
+  }
+  name = "four_shells_lb"
+  tags = {
+    "Name" = "four_shells_lb"
+    "management:product" = "4shells"
   }
   vpc_id = aws_vpc.four_shells.id
 }
@@ -67,7 +71,11 @@ resource "aws_security_group" "four_shells_ecs" {
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
-  name = "4shells"
+  name = "four_shells_ecs"
+  tags = {
+    "Name" = "four_shells_ecs"
+    "management:product" = "4shells"
+  }
   vpc_id = aws_vpc.four_shells.id
 }
 
@@ -75,7 +83,7 @@ resource "aws_subnet" "public_1" {
   availability_zone = "${var.region}a"
   cidr_block = "192.168.0.0/24"
   tags = {
-    "Name" = "4shells"
+    "Name" = "public_1"
     "management:product" = "4shells"
   }
   vpc_id = aws_vpc.four_shells.id
