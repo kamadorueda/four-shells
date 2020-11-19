@@ -154,6 +154,27 @@ resource "aws_ecs_cluster" "four_shells" {
   }
 }
 
+resource "aws_ecs_service" "four_shells" {
+  cluster = aws_ecs_cluster.four_shells.id
+  depends_on = [
+    aws_alb_listener.four_shells,
+    aws_iam_role_policy.ecs_service,
+  ]
+  desired_count = 0
+  iam_role = aws_iam_role.ecs_service.arn
+  load_balancer {
+    target_group_arn = aws_alb_target_group.four_shells.arn
+    container_name = "4shells"
+    container_port = 8400
+  }
+  name = "4shells"
+  tags = {
+    "management:product" = "4shells"
+    "Name" = "4shells"
+  }
+  task_definition = aws_ecs_task_definition.four_shells.arn
+}
+
 resource "aws_ecs_task_definition" "four_shells" {
   container_definitions = jsonencode([
     {
