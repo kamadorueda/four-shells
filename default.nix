@@ -4,14 +4,22 @@ let
 in
   nixpkgs.stdenv.mkDerivation rec {
     installPhase = ''
-      mkdir -p "$out"
-      mkdir -p "$out/bin"
+      in=$out/in/$name
 
-      install "$repoBin/"* "$out/bin"
-      cp -r "$repoBuild" "$out/build"
-      cp -r "$repoSrc" "$out/src"
+      mkdir -p $in
+      mkdir -p $out/bin
+
+      cp -r $src/* $in
+
+      for binary in \
+        nix-ipfs-node \
+        nix-ipfs-coordinator \
+
+      do
+        echo cd $in \&\& ./bin/$binary > $out/bin/$binary
+        chmod +x $out/bin/$binary
+      done
     '';
-
     meta = with nixpkgs.stdenv.lib; {
       description = "A Nix implementation of binary caches over IPFS";
       homepage = "https://github.com/kamadorueda/nix-ipfs";
@@ -20,14 +28,10 @@ in
         kamadorueda
       ];
     };
-
     name = "nix-ipfs";
-
-    repoBin = ./bin;
-    repoBuild = ./build;
-    repoSrc= ./src;
-
-    src = repoBin;
-
+    src = builtins.path {
+      inherit name;
+      path = ./.;
+    };
     version = "2020.11";
   }
