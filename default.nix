@@ -4,7 +4,7 @@ let
 in
   nixpkgs.stdenv.mkDerivation rec {
     installPhase = ''
-      in=$out/in/4shells
+      in=$out/in/$name
 
       mkdir -p $in
       mkdir -p $out/bin
