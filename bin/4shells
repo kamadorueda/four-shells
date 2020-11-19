@@ -1,0 +1,22 @@
+#! /usr/bin/env nix-shell
+#!   nix-shell -i bash
+#!   nix-shell --pure
+#!   nix-shell 4shells.nix
+#  shellcheck shell=bash
+
+source "${srcBuildCtxSh}"
+
+function main {
+  export PYTHONPATH="${repoSrcNixIpfsNode}:${PYTHONPATH}"
+
+      utils_nix_ipfs_node_ensure_configuration \
+  &&  utils_configure_proxy "${BURP:-}" \
+  &&  uvicorn \
+        --host '127.0.0.1' \
+        --interface 'asgi3' \
+        --loop 'uvloop' \
+        --port "8400" \
+        'four_shells.asgi:APP'
+}
+
+main "${@}"
