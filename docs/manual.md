@@ -4,9 +4,8 @@
 
 - [Introduction](#introduction)
 - [Installing](#installing)
-  * [Latest release](#latest-release)
-  * [From source](#from-source)
-
+- [Components](#components)
+- [Using Nix-IPFS in your system](#using-nix-ipfs-in-your-system)
 
 # Introduction
 
@@ -26,20 +25,62 @@ enabling many powerful features:
 
 # Installing
 
-## Latest release
+You can install the latest release in your host system with:
 
-You can install the latest release with:
+`$ nix-env -i -f https://github.com/kamadorueda/nix-ipfs/archive/latest.tar.gz`
 
-```bash
-nix-env -i -f https://github.com/kamadorueda/nix-ipfs/archive/latest.tar.gz
-```
-
-## From source
-
-Clone the repository and then install from source:
+Alternatively if you clone the repository you can install from it:
 
 `/my/repositories/nix-ipfs $ ./build/install.sh`
 
-You can also use live commands without installing:
+You can also use live commands without installing anything in your host:
 
-`/my/repositories/nix-ipfs $ ./bin/<command>`
+`/my/repositories/nix-ipfs $ ./bin/<binary>`
+
+# Components
+
+The project is made up of three components:
+
+- **Node**
+
+  The component you need to execute in order to have an instance of Nix-IPFS working in your system.
+
+  Binary: `$ nix-ipfs-node`
+
+- **Coordinator**
+
+  A micro-service exposing required functionality for the different nix-ipfs-node's to work.
+
+  This is only for core developers of Nix-IPFS,
+  a public running instance is running and ready to use (keep reading).
+
+  Binary: `$ nix-ipfs-coordinator`
+
+# Using Nix-IPFS in your system
+
+Just install and run: `$ nix-ipfs-node`.
+
+Some required environment variables configure the node.
+We highly recommend you to add them permanently to your shell profile or something similar.
+
+```bash
+# Binary cache to follow
+export NIX_IPFS_NODE_SUBSTITUTER='https://cache.nixos.org'
+
+# Directory where to save data
+export NIX_IPFS_NODE_DATA_DIR='~/.nix-ipfs'
+
+# IPFS Daemon Ports
+export NIX_IPFS_NODE_IPFS_API_PORT='8889'
+export NIX_IPFS_NODE_IPFS_GATEWAY_PORT='8890'
+export NIX_IPFS_NODE_IPFS_SWARM_PORT='8891'
+
+# This node port
+export NIX_IPFS_NODE_PORT='8888'
+
+# Coordinator to connect to.
+# This is pending to deploy, for now.
+# Go back in a few days when I finish deploying the server:
+#   https://github.com/kamadorueda/4shells.com
+export NIX_IPFS_NODE_COORDINATOR_URL
+```
