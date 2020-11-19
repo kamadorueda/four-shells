@@ -17,6 +17,11 @@ APP = Starlette(
     ],
     routes=[
         Route(
+            path='/',
+            endpoint=handlers.home,
+            methods=['GET'],
+        ),
+        Route(
             path='/ping',
             endpoint=handlers.ping,
             methods=['GET'],

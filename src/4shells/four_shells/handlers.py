@@ -15,5 +15,9 @@ async def on_startup() -> None:
     pass
 
 
+async def home(request: Request) -> Response:
+    return Response('Welcome!')
+
+
 async def ping(request: Request) -> Response:
     return Response()
