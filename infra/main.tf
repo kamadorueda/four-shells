@@ -9,6 +9,7 @@ data "aws_iam_policy_document" "admin" {
       "ec2:*",
       "ecr:*",
       "ecs:*",
+      "elasticloadbalancing:*",
       "iam:*",
       "logs:*",
       "s3:*",
@@ -78,6 +79,34 @@ provider "aws" {
   region = var.region
 }
 
+resource "aws_alb_target_group" "four_shells" {
+  health_check {
+    path = "/ping"
+    matcher = "200"
+  }
+  name = "4shells"
+  port = 80
+  protocol = "HTTP"
+  tags = {
+    "management:product" = "4shells"
+    "Name" = "4shells"
+  }
+  vpc_id = aws_vpc.four_shells.id
+}
+
+resource "aws_alb_listener" "four_shells" {
+  default_action {
+    type = "forward"
+    target_group_arn = aws_alb_target_group.four_shells.arn
+  }
+  depends_on = [
+    aws_alb_target_group.four_shells,
+  ]
+  load_balancer_arn = aws_lb.four_shells.id
+  port = "80"
+  protocol = "HTTP"
+}
+
 resource "aws_autoscaling_group" "four_shells" {
   desired_capacity = 0
   health_check_type = "EC2"
@@ -98,7 +127,8 @@ resource "aws_autoscaling_group" "four_shells" {
     },
   ]
   vpc_zone_identifier = [
-    aws_subnet.public_1.id,
+    aws_subnet.public_a.id,
+    aws_subnet.public_b.id,
   ]
 }
 
@@ -128,7 +158,7 @@ resource "aws_ecs_task_definition" "four_shells" {
   container_definitions = jsonencode([
     {
       command = [
-        "echo"
+        "4shells"
       ]
       cpu = 1
       environment = [
@@ -148,7 +178,7 @@ resource "aws_ecs_task_definition" "four_shells" {
       name = "4shells"
       portMappings = [
         {
-          containerPort = 8000
+          containerPort = 8400
           hostPort = 0
           protocol = "tcp"
         }
@@ -240,6 +270,23 @@ resource "aws_launch_configuration" "four_shells" {
   user_data = file("${path.module}/ecs_user_data.sh")
 }
 
+resource "aws_lb" "four_shells" {
+  internal = false
+  load_balancer_type = "application"
+  name = "4shells"
+  security_groups = [
+    aws_security_group.four_shells_lb.id,
+  ]
+  subnets = [
+    aws_subnet.public_a.id,
+    aws_subnet.public_b.id,
+  ]
+  tags = {
+    "management:product" = "4shells"
+    "Name" = "4shells"
+  }
+}
+
 resource "aws_route" "four_shells" {
   destination_cidr_block = "0.0.0.0/0"
   gateway_id = aws_internet_gateway.four_shells.id
@@ -254,9 +301,14 @@ resource "aws_route_table" "public" {
   vpc_id = aws_vpc.four_shells.id
 }
 
-resource "aws_route_table_association" "public_1" {
+resource "aws_route_table_association" "public_a" {
   route_table_id = aws_route_table.public.id
-  subnet_id = aws_subnet.public_1.id
+  subnet_id = aws_subnet.public_a.id
+}
+
+resource "aws_route_table_association" "public_b" {
+  route_table_id = aws_route_table.public.id
+  subnet_id = aws_subnet.public_b.id
 }
 
 resource "aws_security_group" "four_shells_lb" {
@@ -313,12 +365,22 @@ resource "aws_security_group" "four_shells_ecs" {
   vpc_id = aws_vpc.four_shells.id
 }
 
-resource "aws_subnet" "public_1" {
+resource "aws_subnet" "public_a" {
   availability_zone = "${var.region}a"
   cidr_block = "192.168.0.0/24"
   tags = {
     "management:product" = "4shells"
-    "Name" = "public_1"
+    "Name" = "public_a"
+  }
+  vpc_id = aws_vpc.four_shells.id
+}
+
+resource "aws_subnet" "public_b" {
+  availability_zone = "${var.region}b"
+  cidr_block = "192.168.1.0/24"
+  tags = {
+    "management:product" = "4shells"
+    "Name" = "public_b"
   }
   vpc_id = aws_vpc.four_shells.id
 }
@@ -339,10 +401,10 @@ resource "aws_vpc" "four_shells" {
 
 terraform {
   backend "s3" {
-    bucket  = "4shells-infra-states"
+    bucket = "4shells-infra-states"
     encrypt = true
-    key     = "infra.tfstate"
-    region  = "us-east-1"
+    key = "infra.tfstate"
+    region = "us-east-1"
   }
   required_providers {
     aws = {
