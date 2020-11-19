@@ -2,6 +2,7 @@ data "aws_iam_policy_document" "admin" {
   statement {
     effect = "Allow"
     actions = [
+      "autoscaling:*",
       "dynamodb:*",
       "ec2:*",
       "ecr:*",
