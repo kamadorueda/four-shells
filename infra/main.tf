@@ -160,7 +160,8 @@ resource "aws_ecs_service" "four_shells" {
     aws_alb_listener.four_shells,
     aws_iam_role_policy.ecs_service,
   ]
-  desired_count = 0
+  desired_count = 1
+  force_new_deployment = true
   iam_role = aws_iam_role.ecs_service.arn
   load_balancer {
     target_group_arn = aws_alb_target_group.four_shells.arn
@@ -282,7 +283,7 @@ resource "aws_internet_gateway" "four_shells" {
 resource "aws_launch_configuration" "four_shells" {
   associate_public_ip_address = true
   iam_instance_profile = aws_iam_instance_profile.ecs.name
-  image_id = "ami-059628695ae4c249b"
+  image_id = "ami-088beb3aba8c353f1"
   instance_type = "t2.micro"
   name = "4shells"
   security_groups = [
