@@ -15,12 +15,7 @@ function main {
   export AWS_SECRET_ACCESS_KEY="${TF_AWS_SECRET_ACCESS_KEY}"
 
       pushd infra/ \
-    &&  echo '[INFO] Initializing' \
-    &&  terraform init \
-    &&  echo '[INFO] Linting' \
-    &&  tflint --config tflint.hcl \
-    &&  echo '[INFO] Generating dependency graph' \
-    &&  terraform graph | dot -o ./dependency-graph.svg -T svg /dev/stdin \
+    &&  utils_terraform_prepare \
     &&  echo '[INFO] Planning infrastructure changes' \
     &&  terraform plan -lock=false -refresh=true \
   &&  popd \

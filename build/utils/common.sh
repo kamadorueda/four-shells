@@ -20,3 +20,17 @@ function utils_configure_proxy {
     &&  export HTTPS_PROXY="http://127.0.0.1:${port}"
   fi
 }
+
+function utils_terraform_prepare {
+      echo '[INFO] Formatting' \
+  &&  terraform fmt -recursive . \
+  &&  if ! test -e .terraform/
+      then
+            echo '[INFO] Initializing' \
+        &&  terraform init
+      fi \
+  &&  echo '[INFO] Linting' \
+  &&  tflint --config tflint.hcl \
+  &&  echo '[INFO] Generating dependency graph' \
+  &&  terraform graph | dot -o ./dependency-graph.svg -T svg /dev/stdin
+}

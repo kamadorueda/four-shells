@@ -15,10 +15,7 @@ function main {
   export AWS_SECRET_ACCESS_KEY="${TF_AWS_SECRET_ACCESS_KEY}"
 
       pushd infra/ \
-    &&  echo '[INFO] Initializing' \
-    &&  terraform init \
-    &&  echo '[INFO] Linting...' \
-    &&  tflint --config tflint.hcl \
+    &&  utils_terraform_prepare \
     &&  echo '[INFO] Deploying infrastructure changes...' \
     &&  terraform apply -auto-approve -refresh=true \
   &&  popd \

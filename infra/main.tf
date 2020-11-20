@@ -18,10 +18,9 @@ data "aws_iam_policy_document" "admin" {
   }
 }
 
-data "aws_iam_policy_document" "ecs" {
+data "aws_iam_policy_document" "four_shells_ecs" {
   statement {
     actions = ["sts:AssumeRole"]
-    effect = "Allow"
     principals {
       identifiers = [
         "ecs.amazonaws.com",
@@ -32,146 +31,91 @@ data "aws_iam_policy_document" "ecs" {
   }
 }
 
-data "aws_iam_policy_document" "ecs_instance" {
-  statement {
-    actions = [
-      "cloudwatch:*",
-      "ecs:*",
-      "ec2:*",
-      "elasticloadbalancing:*",
-      "s3:*",
-      "logs:*",
-    ]
-    effect = "Allow"
-    resources = ["*"]
-  }
-}
-
-data "aws_iam_policy_document" "ecs_service" {
-  statement {
-    actions = [
-      "elasticloadbalancing:Describe*",
-      "elasticloadbalancing:DeregisterInstancesFromLoadBalancer",
-      "elasticloadbalancing:DeregisterTargets",
-      "elasticloadbalancing:RegisterInstancesWithLoadBalancer",
-      "elasticloadbalancing:RegisterTargets",
-      "ec2:AuthorizeSecurityGroupIngress",
-      "ec2:Describe*",
-    ]
-    effect = "Allow"
-    resources = ["*"]
-  }
-}
-
 output "admin_key" {
   sensitive = true
-  value = aws_iam_access_key.admin.id
+  value     = aws_iam_access_key.admin.id
 }
 
 output "admin_secret" {
   sensitive = true
-  value = aws_iam_access_key.admin.secret
+  value     = aws_iam_access_key.admin.secret
 }
 
 provider "aws" {
   access_key = var.access_key
   secret_key = var.secret_key
-  region = var.region
-}
-
-resource "aws_alb_target_group" "four_shells" {
-  health_check {
-    path = "/ping"
-    matcher = "200"
-  }
-  name = "4shells"
-  port = 80
-  protocol = "HTTP"
-  tags = {
-    "management:product" = "4shells"
-    "Name" = "4shells"
-  }
-  vpc_id = aws_vpc.four_shells.id
-}
-
-resource "aws_alb_listener" "four_shells" {
-  default_action {
-    type = "forward"
-    target_group_arn = aws_alb_target_group.four_shells.arn
-  }
-  depends_on = [
-    aws_alb_target_group.four_shells,
-  ]
-  load_balancer_arn = aws_lb.four_shells.id
-  port = "80"
-  protocol = "HTTP"
+  region     = var.region
 }
 
 resource "aws_autoscaling_group" "four_shells" {
-  desired_capacity = 1
-  health_check_type = "EC2"
-  launch_configuration = aws_launch_configuration.four_shells.name
-  max_size = 1
-  min_size = 0
-  name = "4shells"
+  desired_capacity          = var.replicas
+  health_check_grace_period = 300
+  health_check_type         = "EC2"
+  launch_configuration      = aws_launch_configuration.four_shells.name
+  lifecycle {
+    create_before_destroy = true
+  }
+  max_size = var.replicas
+  min_size = var.replicas
+  name     = "four_shells"
   tags = [
     {
-      key = "Name"
-      propagate_at_launch = false
-      value = "4shells"
+      key                 = "Name"
+      propagate_at_launch = true
+      value               = "four_shells"
     },
     {
-      key = "management:product"
-      propagate_at_launch = false
-      value = "4shells"
+      key                 = "management:product"
+      propagate_at_launch = true
+      value               = "four_shells"
     },
   ]
   vpc_zone_identifier = [
-    aws_subnet.public_a.id,
-    aws_subnet.public_b.id,
+    aws_subnet.four_shells_public_a.id,
+    aws_subnet.four_shells_public_b.id,
   ]
 }
 
 resource "aws_cloudwatch_log_group" "four_shells" {
-  name = "/ecs/4shells"
+  name              = "/ecs/four_shells"
   retention_in_days = 1
   tags = {
-    "management:product" = "4shells"
-    "Name" = "4shells"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
   }
 }
 
 resource "aws_cloudwatch_log_stream" "four_shells" {
   log_group_name = aws_cloudwatch_log_group.four_shells.name
-  name = "4shells"
+  name           = "four_shells"
 }
 
 resource "aws_ecs_cluster" "four_shells" {
-  name = "4shells"
+  name = "four_shells"
   tags = {
-    "management:product" = "4shells"
-    "Name" = "4shells"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
   }
 }
 
 resource "aws_ecs_service" "four_shells" {
   cluster = aws_ecs_cluster.four_shells.id
-  depends_on = [
-    aws_alb_listener.four_shells,
-    aws_iam_role_policy.ecs_service,
-  ]
-  desired_count = 1
-  force_new_deployment = true
-  iam_role = aws_iam_role.ecs_service.arn
-  load_balancer {
-    target_group_arn = aws_alb_target_group.four_shells.arn
-    container_name = "4shells"
-    container_port = 8400
-  }
-  name = "4shells"
+  // depends_on = [
+  //   aws_alb_listener.four_shells,
+  //   aws_iam_role_policy.four_shells_ecs_service,
+  // ]
+  desired_count = var.replicas
+  // force_new_deployment = true
+  // iam_role = aws_iam_role.four_shells_ecs_service.arn
+  // load_balancer {
+  //   target_group_arn = aws_alb_target_group.four_shells.arn
+  //   container_name = "four_shells"
+  //   container_port = 8400
+  // }
+  name = "four_shells"
   tags = {
-    "management:product" = "4shells"
-    "Name" = "4shells"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
   }
   task_definition = aws_ecs_task_definition.four_shells.arn
 }
@@ -179,258 +123,214 @@ resource "aws_ecs_service" "four_shells" {
 resource "aws_ecs_task_definition" "four_shells" {
   container_definitions = jsonencode([
     {
-      command = [
-        "4shells"
-      ]
-      cpu = 1
-      environment = [
-      ]
-      essential = true
-      image = "docker.pkg.github.com/kamadorueda/4shells.com/4shells.com:latest"
-      links = []
-      logConfiguration = {
-        logDriver = "awslogs"
-        options = {
-          awslogs-group = aws_cloudwatch_log_group.four_shells.name
-          awslogs-region = var.region
-          awslogs-stream-prefix = aws_cloudwatch_log_stream.four_shells.name
-        }
-      }
-      memory = 900
-      name = "4shells"
+      command     = ["4shells"]
+      cpu         = 1
+      environment = []
+      essential   = true
+      image       = "docker.pkg.github.com/kamadorueda/4shells.com/4shells.com:latest"
+      memory      = 512
+      name        = "four_shells"
       portMappings = [
         {
           containerPort = 8400
-          hostPort = 0
-          protocol = "tcp"
-        }
+          hostPort      = 0
+          protocol      = "tcp"
+        },
       ]
     },
   ])
-  family = "4shells"
+  family = "four_shells"
   tags = {
-    "management:product" = "4shells"
-    "Name" = "4shells"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
   }
 }
 
 resource "aws_iam_access_key" "admin" {
-  user = aws_iam_user.admin.name
+  user   = aws_iam_user.admin.name
   status = "Active"
 }
 
-resource "aws_iam_instance_profile" "ecs" {
-  name = "ecs"
-  role = aws_iam_role.ecs.name
+resource "aws_iam_instance_profile" "four_shells_ecs" {
+  name = "four_shells_ecs"
+  role = aws_iam_role.four_shells_ecs.name
 }
 
 resource "aws_iam_policy" "admin" {
-  name = "admin"
+  name   = "admin"
   policy = data.aws_iam_policy_document.admin.json
 }
 
-resource "aws_iam_role" "ecs" {
-  assume_role_policy = data.aws_iam_policy_document.ecs.json
-  name = "ecs"
+resource "aws_iam_role" "four_shells_ecs" {
+  assume_role_policy = data.aws_iam_policy_document.four_shells_ecs.json
+  name               = "four_shells_ecs"
   tags = {
-    "management:product" = "4shells"
-    "Name" = "ecs"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells_ecs"
   }
 }
 
-resource "aws_iam_role" "ecs_service" {
-  assume_role_policy = data.aws_iam_policy_document.ecs.json
-  name = "ecs_service"
-  tags = {
-    "management:product" = "4shells"
-    "Name" = "ecs_service"
-  }
-}
-
-resource "aws_iam_role_policy" "ecs_instance" {
-  name = "ecs_instance"
-  policy = data.aws_iam_policy_document.ecs_instance.json
-  role = aws_iam_role.ecs.id
-}
-
-resource "aws_iam_role_policy" "ecs_service" {
-  name = "ecs_service_role_policy"
-  policy = data.aws_iam_policy_document.ecs_service.json
-  role = aws_iam_role.ecs_service.id
+resource "aws_iam_role_policy_attachment" "four_shells_ecs" {
+  role       = aws_iam_role.four_shells_ecs.name
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role"
 }
 
 resource "aws_iam_user" "admin" {
   name = "admin"
   tags = {
-    "management:product" = "4shells"
-    "Name" = "admin"
+    "management:product" = "four_shells"
+    "Name"               = "admin"
   }
 }
 
 resource "aws_iam_user_policy_attachment" "admin" {
-  user = "admin"
+  user       = "admin"
   policy_arn = aws_iam_policy.admin.arn
 }
 
 resource "aws_internet_gateway" "four_shells" {
   tags = {
-    "management:product" = "4shells"
-    "Name" = "4shells"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
   }
   vpc_id = aws_vpc.four_shells.id
+}
+
+resource "aws_key_pair" "four_shells" {
+  key_name   = "four_shells"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2vjw0Q8yT4TJWSfdkcgm2FPaIwetGNo9FmHG2I/xXP+EB3GddUMbhHA4v9w8jvsbuxEmkYiMPwOO/1q/8dFjuUaRR22y3N0hNFGxPDvQeUuZFl7HH4kZ60Yki0uHiCgbJds+qmDZvpYeiZsGuOYO/AaQjMcMduEcKoLpzIOZiM3bWSkotblJTaukSf/9zUvGAsYL//S/uE4DANnKg1p9XNNFLOCcDoxJpGR9oT6c+lsw9rJpkXSSES6+72WPctN5GCRdujXytF30CY040bO16dflzG8YDhb/QK6MdqEKHL12mN0ijWnfJa9e8AsQ9I3WudmFavxgk6J/uWHTWCxyt"
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
+  }
 }
 
 resource "aws_launch_configuration" "four_shells" {
   associate_public_ip_address = true
-  iam_instance_profile = aws_iam_instance_profile.ecs.name
-  image_id = "ami-088beb3aba8c353f1"
-  instance_type = "t2.micro"
-  name = "4shells"
+  iam_instance_profile        = aws_iam_instance_profile.four_shells_ecs.name
+  image_id                    = "ami-0f161e6034a6262d8"
+  instance_type               = "t2.micro"
+  key_name                    = aws_key_pair.four_shells.key_name
+  lifecycle {
+    create_before_destroy = true
+  }
+  name_prefix = "four_shells_"
   security_groups = [
     aws_security_group.four_shells_ecs.id,
   ]
-  user_data = file("${path.module}/ecs_user_data.sh")
+  user_data = "#!/bin/bash\necho ECS_CLUSTER=${aws_ecs_cluster.four_shells.name} >> /etc/ecs/ecs.config"
 }
 
-resource "aws_lb" "four_shells" {
-  internal = false
-  load_balancer_type = "application"
-  name = "4shells"
-  security_groups = [
-    aws_security_group.four_shells_lb.id,
-  ]
-  subnets = [
-    aws_subnet.public_a.id,
-    aws_subnet.public_b.id,
-  ]
-  tags = {
-    "management:product" = "4shells"
-    "Name" = "4shells"
+resource "aws_route_table" "four_shells_public" {
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.four_shells.id
   }
-}
-
-resource "aws_route" "four_shells" {
-  destination_cidr_block = "0.0.0.0/0"
-  gateway_id = aws_internet_gateway.four_shells.id
-  route_table_id = aws_vpc.four_shells.default_route_table_id
-}
-
-resource "aws_route_table" "public" {
   tags = {
-    "management:product" = "4shells"
-    "Name" = "public"
+    "management:product" = "four_shells"
+    "Name"               = "public"
   }
   vpc_id = aws_vpc.four_shells.id
 }
 
-resource "aws_route_table_association" "public_a" {
-  route_table_id = aws_route_table.public.id
-  subnet_id = aws_subnet.public_a.id
+resource "aws_route_table_association" "four_shells_public_a" {
+  route_table_id = aws_route_table.four_shells_public.id
+  subnet_id      = aws_subnet.four_shells_public_a.id
 }
 
-resource "aws_route_table_association" "public_b" {
-  route_table_id = aws_route_table.public.id
-  subnet_id = aws_subnet.public_b.id
-}
-
-resource "aws_security_group" "four_shells_lb" {
-  egress {
-    from_port = 0
-    to_port = 0
-    protocol = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-  ingress {
-    from_port = 80
-    to_port = 80
-    protocol = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-  ingress {
-    from_port = 443
-    to_port = 443
-    protocol = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-  name = "four_shells_lb"
-  tags = {
-    "management:product" = "4shells"
-    "Name" = "four_shells_lb"
-  }
-  vpc_id = aws_vpc.four_shells.id
+resource "aws_route_table_association" "four_shells_public_b" {
+  route_table_id = aws_route_table.four_shells_public.id
+  subnet_id      = aws_subnet.four_shells_public_b.id
 }
 
 resource "aws_security_group" "four_shells_ecs" {
   egress {
-    from_port = 0
-    to_port = 0
-    protocol = "-1"
     cidr_blocks = ["0.0.0.0/0"]
+    from_port   = 0
+    protocol    = "-1"
+    to_port     = 0
   }
   ingress {
-    from_port = 0
-    to_port = 0
-    protocol = "-1"
-    security_groups = [aws_security_group.four_shells_lb.id]
-  }
-  ingress {
-    from_port = 22
-    to_port = 22
-    protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
+    from_port   = 0
+    protocol    = "-1"
+    to_port     = 0
   }
   name = "four_shells_ecs"
   tags = {
-    "management:product" = "4shells"
-    "Name" = "four_shells_ecs"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells_ecs"
   }
   vpc_id = aws_vpc.four_shells.id
 }
 
-resource "aws_subnet" "public_a" {
+resource "aws_security_group" "four_shells_lb" {
+  egress {
+    cidr_blocks = ["0.0.0.0/0"]
+    from_port   = 0
+    protocol    = "-1"
+    to_port     = 0
+  }
+  ingress {
+    cidr_blocks = ["0.0.0.0/0"]
+    from_port   = 80
+    protocol    = "tcp"
+    to_port     = 80
+  }
+  ingress {
+    cidr_blocks = ["0.0.0.0/0"]
+    from_port   = 443
+    protocol    = "tcp"
+    to_port     = 443
+  }
+  name = "four_shells_lb"
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "four_shells_lb"
+  }
+  vpc_id = aws_vpc.four_shells.id
+}
+
+resource "aws_subnet" "four_shells_public_a" {
   availability_zone = "${var.region}a"
-  cidr_block = "192.168.0.0/24"
+  cidr_block        = "10.0.0.0/18"
   tags = {
-    "management:product" = "4shells"
-    "Name" = "public_a"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells_public_a"
   }
   vpc_id = aws_vpc.four_shells.id
 }
 
-resource "aws_subnet" "public_b" {
+resource "aws_subnet" "four_shells_public_b" {
   availability_zone = "${var.region}b"
-  cidr_block = "192.168.1.0/24"
+  cidr_block        = "10.0.64.0/18"
   tags = {
-    "management:product" = "4shells"
-    "Name" = "public_b"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells_public_b"
   }
   vpc_id = aws_vpc.four_shells.id
 }
 
 resource "aws_vpc" "four_shells" {
-  assign_generated_ipv6_cidr_block = false
-  cidr_block = "192.168.0.0/16"
-  enable_classiclink = false
-  enable_classiclink_dns_support = false
-  enable_dns_hostnames = false
-  enable_dns_support = true
-  instance_tenancy = "default"
+  cidr_block           = "10.0.0.0/16"
+  enable_dns_hostnames = true
+  enable_dns_support   = true
   tags = {
-    "management:product" = "4shells"
-    "Name" = "4shells"
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
   }
 }
 
 terraform {
   backend "s3" {
-    bucket = "4shells-infra-states"
+    bucket  = "four_shells-infra-states"
     encrypt = true
-    key = "infra.tfstate"
-    region = "us-east-1"
+    key     = "infra.tfstate"
+    region  = "us-east-1"
   }
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = "3.15.0"
     }
   }
@@ -439,8 +339,80 @@ terraform {
 
 variable "access_key" {}
 
+variable "replicas" {
+  default = 0
+}
+
 variable "region" {
   default = "us-east-1"
 }
 
 variable "secret_key" {}
+
+# Attempts
+
+// resource "aws_alb_target_group" "four_shells" {
+//   health_check {
+//     path = "/ping"
+//     matcher = "200"
+//   }
+//   name = "four_shells"
+//   port = 80
+//   protocol = "HTTP"
+//   tags = {
+//     "management:product" = "four_shells"
+//     "Name" = "four_shells"
+//   }
+//   vpc_id = aws_vpc.four_shells.id
+// }
+
+// resource "aws_alb_listener" "four_shells" {
+//   default_action {
+//     type = "forward"
+//     target_group_arn = aws_alb_target_group.four_shells.arn
+//   }
+//   depends_on = [
+//     aws_alb_target_group.four_shells,
+//   ]
+//   load_balancer_arn = aws_lb.four_shells.id
+//   port = "80"
+//   protocol = "HTTP"
+// }
+
+// resource "aws_iam_role" "four_shells_ecs_service" {
+//   assume_role_policy = data.aws_iam_policy_document.four_shells_ecs.json
+//   name = "four_shells_ecs_service"
+//   tags = {
+//     "management:product" = "four_shells"
+//     "Name" = "four_shells_ecs_service"
+//   }
+// }
+
+// resource "aws_iam_role_policy" "four_shells_ecs_instance" {
+//   name = "four_shells_ecs_instance"
+//   policy = data.aws_iam_policy_document.four_shells_ecs_instance.json
+//   role = aws_iam_role.four_shells_ecs.id
+// }
+
+// resource "aws_iam_role_policy" "four_shells_ecs_service" {
+//   name = "ecs_service_role_policy"
+//   policy = data.aws_iam_policy_document.four_shells_ecs_service.json
+//   role = aws_iam_role.four_shells_ecs_service.id
+// }
+
+// resource "aws_lb" "four_shells" {
+//   internal = false
+//   load_balancer_type = "application"
+//   name = "four_shells"
+//   security_groups = [
+//     aws_security_group.four_shells_lb.id,
+//   ]
+//   subnets = [
+//     aws_subnet.four_shells_public_a.id,
+//     aws_subnet.four_shells_public_b.id,
+//   ]
+//   tags = {
+//     "management:product" = "four_shells"
+//     "Name" = "four_shells"
+//   }
+// }
