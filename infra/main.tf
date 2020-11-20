@@ -108,7 +108,7 @@ resource "aws_alb_listener" "four_shells" {
 }
 
 resource "aws_autoscaling_group" "four_shells" {
-  desired_capacity = 0
+  desired_capacity = 1
   health_check_type = "EC2"
   launch_configuration = aws_launch_configuration.four_shells.name
   max_size = 1
