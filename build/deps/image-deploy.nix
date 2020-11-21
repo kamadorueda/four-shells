@@ -22,7 +22,7 @@ in
         config.Entrypoint = ["bash" "-c"];
         contents = pkgs.dependencies ++ [ nixpkgs.bash ];
         maxLayers = 125;
-        name = "4shells";
+        name = "oci";
         tag = "latest";
       };
     })

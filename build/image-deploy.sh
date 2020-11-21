@@ -20,7 +20,7 @@ function main {
       echo "[INFO] Loading: ${oci}" \
   &&  docker load --input "${oci}" \
   &&  echo "[INFO] Tagging: ${target}" \
-  &&  docker tag '4shells' "${target}" \
+  &&  docker tag 'oci' "${target}" \
   &&  echo "[INFO] Authenticating to: ${registry}" \
   &&  aws ecr get-login-password --region "${region}" \
         | docker login --username AWS --password-stdin "${registry}" \

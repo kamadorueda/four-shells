@@ -18,7 +18,7 @@ cp --no-target-directory --recursive "${srcServer}" "${out}/server"
     srcBin \
     srcBuild \
     srcBuildCtxSh \
-    srcBuildUtils4ShellsSh \
+    srcBuildUtilsFourShellsSh \
     srcBuildUtilsCommonSh \
     srcBuildUtilsShoptsSh \
     srcServer \

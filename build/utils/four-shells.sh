@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 
-function utils_nix_ipfs_node_ensure_configuration {
+function utils_four_shells_ensure_configuration {
   local required_vars=(
   )
 

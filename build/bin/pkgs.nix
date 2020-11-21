@@ -34,8 +34,8 @@ let
   utilsGetDeps = builtins.getAttr "deps";
 
   attrs = {
-    attr4Shells = {
-      bin = "4shells";
+    attrFourShells = {
+      bin = "four-shells";
       deps = [
         nixpkgs.cacert
         nixpkgs.python38
@@ -44,7 +44,7 @@ let
         nixpkgs.python38Packages.uvicorn
         nixpkgs.python38Packages.uvloop
       ];
-      description = "4shells.com server";
+      description = "Four Shells server";
     };
   };
   # Map(name -> derivation)

@@ -1,6 +1,6 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
-#!   nix-shell --attr derivations.attr4Shells
+#!   nix-shell --attr derivations.attrFourShells
 #!   nix-shell --keep BURP
 #!   nix-shell --pure
 #!   nix-shell ../build/bin/pkgs.nix
@@ -11,7 +11,7 @@ source "${srcBuildCtxSh}"
 function main {
   export PYTHONPATH="${srcServer}:${PYTHONPATH}"
 
-      utils_nix_ipfs_node_ensure_configuration \
+      utils_four_shells_ensure_configuration \
   &&  utils_configure_proxy "${BURP:-}" \
   &&  uvicorn \
         --host '0.0.0.0' \
