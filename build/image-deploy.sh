@@ -1,7 +1,8 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
-#!   nix-shell --keep ADMIN_AWS_ACCESS_KEY_ID
-#!   nix-shell --keep ADMIN_AWS_SECRET_ACCESS_KEY
+#!   nix-shell --keep AWS_ACCESS_KEY_ID_ADMIN
+#!   nix-shell --keep AWS_ACCOUNT_ID
+#!   nix-shell --keep AWS_SECRET_ACCESS_KEY_ADMIN
 #!   nix-shell --pure
 #!   nix-shell ./deps/image-deploy.nix
 #  shellcheck shell=bash
@@ -9,13 +10,12 @@
 source "${srcBuildCtxSh}"
 
 function main {
-  export AWS_ACCESS_KEY_ID="${ADMIN_AWS_ACCESS_KEY_ID}"
-  export AWS_SECRET_ACCESS_KEY="${ADMIN_AWS_SECRET_ACCESS_KEY}"
-  local account_id='791877604510'
+  export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_ADMIN}"
+  export AWS_ACCOUNT_ID
+  export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_ADMIN}"
   local region='us-east-1'
-  local registry="${account_id}.dkr.ecr.${region}.amazonaws.com"
-  local repository='four_shells'
-  local target="${registry}/${repository}:latest"
+  local registry="${AWS_ACCOUNT_ID}.dkr.ecr.${region}.amazonaws.com"
+  local target="${registry}/four_shells:latest"
 
       echo "[INFO] Building: ${target}" \
   &&  docker build --file 'Dockerfile' --tag "${target}" "$(mktemp -d)" \
