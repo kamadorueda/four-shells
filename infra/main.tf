@@ -31,6 +31,17 @@ data "aws_iam_policy_document" "four_shells_ecs" {
   }
 }
 
+data "aws_iam_policy_document" "four_shells_ecs_service" {
+  statement {
+    actions = [
+      "ec2:*",
+      "elasticloadbalancing:*",
+    ]
+    effect    = "Allow"
+    resources = ["*"]
+  }
+}
+
 output "admin_key" {
   sensitive = true
   value     = aws_iam_access_key.admin.id
@@ -90,6 +101,34 @@ resource "aws_cloudwatch_log_stream" "four_shells" {
   name           = "four_shells"
 }
 
+resource "aws_ecr_repository" "four_shells" {
+  name = "four_shells"
+  tags = {
+    "Name"               = "four_shells"
+    "management:product" = "four_shells"
+  }
+}
+
+resource "aws_ecr_lifecycle_policy" "four_shells" {
+  repository = aws_ecr_repository.four_shells.name
+
+  policy = jsonencode({
+    rules = [
+      {
+        action = {
+          type = "expire"
+        }
+        rulePriority = 1
+        selection = {
+          countType   = "imageCountMoreThan",
+          countNumber = 1,
+          tagStatus   = "untagged"
+        }
+      },
+    ],
+  })
+}
+
 resource "aws_ecs_cluster" "four_shells" {
   name = "four_shells"
   tags = {
@@ -100,18 +139,18 @@ resource "aws_ecs_cluster" "four_shells" {
 
 resource "aws_ecs_service" "four_shells" {
   cluster = aws_ecs_cluster.four_shells.id
-  // depends_on = [
-  //   aws_alb_listener.four_shells,
-  //   aws_iam_role_policy.four_shells_ecs_service,
-  // ]
+  depends_on = [
+    aws_lb_listener.four_shells,
+    aws_iam_role_policy.four_shells_ecs_service,
+  ]
   desired_count = var.replicas
   // force_new_deployment = true
-  // iam_role = aws_iam_role.four_shells_ecs_service.arn
-  // load_balancer {
-  //   target_group_arn = aws_alb_target_group.four_shells.arn
-  //   container_name = "four_shells"
-  //   container_port = 8400
-  // }
+  iam_role = aws_iam_role.four_shells_ecs_service.arn
+  load_balancer {
+    target_group_arn = aws_lb_target_group.four_shells.arn
+    container_name   = "four_shells"
+    container_port   = 8400
+  }
   name = "four_shells"
   tags = {
     "management:product" = "four_shells"
@@ -127,8 +166,8 @@ resource "aws_ecs_task_definition" "four_shells" {
       cpu         = 1
       environment = []
       essential   = true
-      image       = "docker.pkg.github.com/kamadorueda/4shells.com/4shells.com:latest"
-      memory      = 512
+      image       = "791877604510.dkr.ecr.us-east-1.amazonaws.com/four_shells:latest"
+      memory      = 900
       name        = "four_shells"
       portMappings = [
         {
@@ -168,6 +207,21 @@ resource "aws_iam_role" "four_shells_ecs" {
     "management:product" = "four_shells"
     "Name"               = "four_shells_ecs"
   }
+}
+
+resource "aws_iam_role" "four_shells_ecs_service" {
+  assume_role_policy = data.aws_iam_policy_document.four_shells_ecs.json
+  name               = "four_shells_ecs_service"
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "four_shells_ecs_service"
+  }
+}
+
+resource "aws_iam_role_policy" "four_shells_ecs_service" {
+  name   = "ecs_service_role_policy"
+  policy = data.aws_iam_policy_document.four_shells_ecs_service.json
+  role   = aws_iam_role.four_shells_ecs_service.id
 }
 
 resource "aws_iam_role_policy_attachment" "four_shells_ecs" {
@@ -219,6 +273,54 @@ resource "aws_launch_configuration" "four_shells" {
     aws_security_group.four_shells_ecs.id,
   ]
   user_data = "#!/bin/bash\necho ECS_CLUSTER=${aws_ecs_cluster.four_shells.name} >> /etc/ecs/ecs.config"
+}
+
+resource "aws_lb" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb
+  internal           = false
+  load_balancer_type = "application"
+  name               = "four-shells"
+  security_groups = [
+    aws_security_group.four_shells_lb.id,
+  ]
+  subnets = [
+    aws_subnet.four_shells_public_a.id,
+    aws_subnet.four_shells_public_b.id,
+  ]
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
+  }
+}
+
+resource "aws_lb_listener" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.four_shells.arn
+  }
+  depends_on = [
+    aws_lb_target_group.four_shells,
+  ]
+  load_balancer_arn = aws_lb.four_shells.id
+  port              = "80"
+  protocol          = "HTTP"
+}
+
+resource "aws_lb_target_group" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_target_group
+  health_check {
+    path    = "/ping"
+    matcher = "200"
+  }
+  name     = "four-shells"
+  port     = 80
+  protocol = "HTTP"
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
+  }
+  vpc_id = aws_vpc.four_shells.id
 }
 
 resource "aws_route_table" "four_shells_public" {
@@ -340,7 +442,7 @@ terraform {
 variable "access_key" {}
 
 variable "replicas" {
-  default = 0
+  default = 1
 }
 
 variable "region" {
@@ -350,69 +452,3 @@ variable "region" {
 variable "secret_key" {}
 
 # Attempts
-
-// resource "aws_alb_target_group" "four_shells" {
-//   health_check {
-//     path = "/ping"
-//     matcher = "200"
-//   }
-//   name = "four_shells"
-//   port = 80
-//   protocol = "HTTP"
-//   tags = {
-//     "management:product" = "four_shells"
-//     "Name" = "four_shells"
-//   }
-//   vpc_id = aws_vpc.four_shells.id
-// }
-
-// resource "aws_alb_listener" "four_shells" {
-//   default_action {
-//     type = "forward"
-//     target_group_arn = aws_alb_target_group.four_shells.arn
-//   }
-//   depends_on = [
-//     aws_alb_target_group.four_shells,
-//   ]
-//   load_balancer_arn = aws_lb.four_shells.id
-//   port = "80"
-//   protocol = "HTTP"
-// }
-
-// resource "aws_iam_role" "four_shells_ecs_service" {
-//   assume_role_policy = data.aws_iam_policy_document.four_shells_ecs.json
-//   name = "four_shells_ecs_service"
-//   tags = {
-//     "management:product" = "four_shells"
-//     "Name" = "four_shells_ecs_service"
-//   }
-// }
-
-// resource "aws_iam_role_policy" "four_shells_ecs_instance" {
-//   name = "four_shells_ecs_instance"
-//   policy = data.aws_iam_policy_document.four_shells_ecs_instance.json
-//   role = aws_iam_role.four_shells_ecs.id
-// }
-
-// resource "aws_iam_role_policy" "four_shells_ecs_service" {
-//   name = "ecs_service_role_policy"
-//   policy = data.aws_iam_policy_document.four_shells_ecs_service.json
-//   role = aws_iam_role.four_shells_ecs_service.id
-// }
-
-// resource "aws_lb" "four_shells" {
-//   internal = false
-//   load_balancer_type = "application"
-//   name = "four_shells"
-//   security_groups = [
-//     aws_security_group.four_shells_lb.id,
-//   ]
-//   subnets = [
-//     aws_subnet.four_shells_public_a.id,
-//     aws_subnet.four_shells_public_b.id,
-//   ]
-//   tags = {
-//     "management:product" = "four_shells"
-//     "Name" = "four_shells"
-//   }
-// }
