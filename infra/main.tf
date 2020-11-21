@@ -264,6 +264,16 @@ resource "aws_iam_role_policy_attachment" "four_shells_ecs" {
   policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role"
 }
 
+resource "aws_iam_server_certificate" "four_shells" {
+  name_prefix      = "four_shells_"
+  certificate_body = acme_certificate.four_shells.certificate_pem
+  private_key      = tls_private_key.four_shells_certificate.private_key_pem
+
+  lifecycle {
+    create_before_destroy = true
+  }
+}
+
 resource "aws_iam_user" "admin" {
   name = "admin"
   tags = {
