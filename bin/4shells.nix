@@ -8,6 +8,7 @@ in
       name = "4shells";
 
       buildInputs = [
+        nixpkgs.aioextensions
         nixpkgs.cacert
         nixpkgs.ipfs
         nixpkgs.python38
