@@ -144,7 +144,7 @@ resource "aws_ecs_service" "four_shells" {
     aws_iam_role_policy.four_shells_ecs_service,
   ]
   desired_count = var.replicas
-  // force_new_deployment = true
+  force_new_deployment = true
   iam_role = aws_iam_role.four_shells_ecs_service.arn
   load_balancer {
     target_group_arn = aws_lb_target_group.four_shells.arn

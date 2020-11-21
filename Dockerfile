@@ -6,10 +6,7 @@ LABEL 'org.opencontainers.image.source' 'https://github.com/kamadorueda/4shells.
 
 # Constants
 ENV FOUR_SHELLS_REPO https://github.com/kamadorueda/4shells.com
-ENV FOUR_SHELLS_REV c62f34fee27217956248451005b7710e52313f5d
-
-ENV NIX_IPFS_REPO https://github.com/kamadorueda/nix-ipfs
-ENV NIX_IPFS_REV aa9b05cf18498c4020a607831876fc5337cd1bfc
+ENV FOUR_SHELLS_REV a5e434b5acc5cd1c26f0f9509f71fa2482b4b720
 
 # Install all products from their respective sources
 RUN   true \
