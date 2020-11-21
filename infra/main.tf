@@ -174,7 +174,7 @@ resource "aws_ecs_capacity_provider" "four_shells" {
       maximum_scaling_step_size = 1
       minimum_scaling_step_size = 1
       status                    = "ENABLED"
-      target_capacity           = 1
+      target_capacity           = 100
     }
     managed_termination_protection = "ENABLED"
   }
