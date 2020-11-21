@@ -429,7 +429,7 @@ resource "aws_vpc" "four_shells" {
 
 terraform {
   backend "s3" {
-    bucket  = "four_shells-infra-states"
+    bucket  = "4shells-infra-states"
     encrypt = true
     key     = "infra.tfstate"
     region  = "us-east-1"
