@@ -1,5 +1,5 @@
 let
-  sources = import ./sources.nix;
+  sources = import ./nix/sources.nix;
   nixpkgs = import sources.nixpkgs { };
 in
   nixpkgs.stdenv.mkDerivation (
