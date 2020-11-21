@@ -66,6 +66,8 @@ provider "aws" {
   region     = var.region
 }
 
+provider "tls" {}
+
 resource "acme_certificate" "four_shells" {
   account_key_pem         = acme_registration.four_shells.account_key_pem
   certificate_request_pem = tls_cert_request.four_shells.cert_request_pem
@@ -84,6 +86,7 @@ resource "acme_registration" "four_shells" {
 }
 
 resource "aws_autoscaling_group" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/autoscaling_group
   desired_capacity          = var.service_replicas
   health_check_grace_period = 300
   health_check_type         = "EC2"
@@ -165,6 +168,7 @@ resource "aws_ecs_cluster" "four_shells" {
 }
 
 resource "aws_ecs_service" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_service
   cluster = aws_ecs_cluster.four_shells.id
   depends_on = [
     aws_lb_listener.four_shells_http,
@@ -188,6 +192,7 @@ resource "aws_ecs_service" "four_shells" {
 }
 
 resource "aws_ecs_task_definition" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition
   container_definitions = jsonencode([
     {
       command     = ["4shells"]
@@ -517,6 +522,10 @@ terraform {
     acme = {
       source  = "terraform-providers/acme"
       version = "1.5.0"
+    }
+    tls = {
+      source  = "hashicorp/tls"
+      version = "3.0.0"
     }
   }
   required_version = "0.13.5"
