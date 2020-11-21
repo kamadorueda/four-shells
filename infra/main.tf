@@ -52,6 +52,10 @@ output "admin_secret" {
   value     = aws_iam_access_key.admin.secret
 }
 
+provider "acme" {
+  server_url = "https://acme-v02.api.letsencrypt.org/directory"
+}
+
 provider "aws" {
   access_key = var.access_key
   secret_key = var.secret_key
