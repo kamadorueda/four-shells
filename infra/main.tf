@@ -202,6 +202,10 @@ resource "aws_ecs_cluster" "four_shells" {
 
 resource "aws_ecs_service" "four_shells" {
   # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_service
+  capacity_provider_strategy {
+    capacity_provider = aws_ecs_capacity_provider.four_shells.name
+    weight            = 100
+  }
   cluster = aws_ecs_cluster.four_shells.id
   depends_on = [
     aws_lb_listener.four_shells_http,
