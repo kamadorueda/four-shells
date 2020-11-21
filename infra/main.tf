@@ -160,7 +160,7 @@ resource "aws_ecr_lifecycle_policy" "four_shells" {
 }
 
 resource "aws_ecs_cluster" "four_shells" {
-  name = "four_shells"
+  name = var.aws_ecs_cluster_name
   tags = {
     "management:product" = "four_shells"
     "Name"               = "four_shells"
@@ -323,7 +323,7 @@ resource "aws_launch_configuration" "four_shells" {
   security_groups = [
     aws_security_group.four_shells_ecs.id,
   ]
-  user_data = "#!/bin/bash\necho ECS_CLUSTER=${aws_ecs_cluster.four_shells.name} >> /etc/ecs/ecs.config"
+  user_data = "#!/bin/bash\necho ECS_CLUSTER=${var.aws_ecs_cluster_name} >> /etc/ecs/ecs.config"
 }
 
 resource "aws_lb" "four_shells" {
@@ -534,6 +534,10 @@ terraform {
 variable "acme_email_address" {}
 
 variable "aws_access_key_id" {}
+
+variable "aws_ecs_cluster_name" {
+  default = "four_shells"
+}
 
 variable "aws_secret_access_key" {}
 
