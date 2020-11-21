@@ -59,15 +59,15 @@ provider "aws" {
 }
 
 resource "aws_autoscaling_group" "four_shells" {
-  desired_capacity          = var.replicas
+  desired_capacity          = var.service_replicas
   health_check_grace_period = 300
   health_check_type         = "EC2"
   launch_configuration      = aws_launch_configuration.four_shells.name
   lifecycle {
     create_before_destroy = true
   }
-  max_size = var.replicas
-  min_size = var.replicas
+  max_size = var.service_replicas
+  min_size = var.service_replicas
   name     = "four_shells"
   tags = [
     {
@@ -143,9 +143,9 @@ resource "aws_ecs_service" "four_shells" {
     aws_lb_listener.four_shells,
     aws_iam_role_policy.four_shells_ecs_service,
   ]
-  desired_count = var.replicas
-  force_new_deployment = true
-  iam_role = aws_iam_role.four_shells_ecs_service.arn
+  desired_count        = var.service_replicas
+  force_new_deployment = var.service_deploy_on_each_apply
+  iam_role             = aws_iam_role.four_shells_ecs_service.arn
   load_balancer {
     target_group_arn = aws_lb_target_group.four_shells.arn
     container_name   = "four_shells"
@@ -441,14 +441,18 @@ terraform {
 
 variable "access_key" {}
 
-variable "replicas" {
-  default = 1
-}
-
 variable "region" {
   default = "us-east-1"
 }
 
 variable "secret_key" {}
+
+variable "service_deploy_on_each_apply" {
+  default = false
+}
+
+variable "service_replicas" {
+  default = 1
+}
 
 # Attempts
