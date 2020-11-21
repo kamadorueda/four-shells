@@ -167,7 +167,8 @@ resource "aws_ecs_cluster" "four_shells" {
 resource "aws_ecs_service" "four_shells" {
   cluster = aws_ecs_cluster.four_shells.id
   depends_on = [
-    aws_lb_listener.four_shells,
+    aws_lb_listener.four_shells_http,
+    aws_lb_listener.four_shells_https,
     aws_iam_role_policy.four_shells_ecs_service,
   ]
   desired_count        = var.service_replicas
@@ -338,7 +339,7 @@ resource "aws_lb" "four_shells" {
   }
 }
 
-resource "aws_lb_listener" "four_shells" {
+resource "aws_lb_listener" "four_shells_http" {
   # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener
   default_action {
     type             = "forward"
@@ -350,6 +351,22 @@ resource "aws_lb_listener" "four_shells" {
   load_balancer_arn = aws_lb.four_shells.id
   port              = "80"
   protocol          = "HTTP"
+}
+
+resource "aws_lb_listener" "four_shells_https" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener
+  certificate_arn = aws_iam_server_certificate.four_shells.arn
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.four_shells.arn
+  }
+  depends_on = [
+    aws_lb_target_group.four_shells,
+  ]
+  load_balancer_arn = aws_lb.four_shells.id
+  port              = "443"
+  protocol          = "HTTPS"
+  ssl_policy        = "ELBSecurityPolicy-2016-08"
 }
 
 resource "aws_lb_target_group" "four_shells" {
