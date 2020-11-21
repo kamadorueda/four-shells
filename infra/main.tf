@@ -109,6 +109,7 @@ resource "aws_autoscaling_group" "four_shells" {
 }
 
 resource "aws_cloudwatch_log_group" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group
   name              = "/ecs/four_shells"
   retention_in_days = 1
   tags = {
@@ -118,6 +119,7 @@ resource "aws_cloudwatch_log_group" "four_shells" {
 }
 
 resource "aws_cloudwatch_log_stream" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_stream
   log_group_name = aws_cloudwatch_log_group.four_shells.name
   name           = "four_shells"
 }
@@ -188,8 +190,16 @@ resource "aws_ecs_task_definition" "four_shells" {
       environment = []
       essential   = true
       image       = "791877604510.dkr.ecr.us-east-1.amazonaws.com/four_shells:latest"
-      memory      = 900
-      name        = "four_shells"
+      logConfiguration = {
+        logDriver = "awslogs"
+        options = {
+          awslogs-group         = aws_cloudwatch_log_group.four_shells.name
+          awslogs-region        = var.region
+          awslogs-stream-prefix = aws_cloudwatch_log_stream.four_shells.name
+        }
+      }
+      memory = 900
+      name   = "four_shells"
       portMappings = [
         {
           containerPort = 8400
