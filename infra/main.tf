@@ -96,7 +96,7 @@ resource "aws_autoscaling_group" "four_shells" {
   }
   max_instance_lifetime = 604800
   max_size              = 2 * var.service_replicas
-  min_size              = var.service_replicas
+  min_size              = 0
   name                  = "four_shells"
   protect_from_scale_in = true
   tags = [
@@ -174,7 +174,7 @@ resource "aws_ecs_capacity_provider" "four_shells" {
       maximum_scaling_step_size = 1
       minimum_scaling_step_size = 1
       status                    = "ENABLED"
-      target_capacity           = var.service_replicas
+      target_capacity           = 100
     }
     managed_termination_protection = "ENABLED"
   }
