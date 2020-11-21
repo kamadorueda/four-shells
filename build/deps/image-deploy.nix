@@ -10,11 +10,23 @@ in
   nixpkgs.stdenv.mkDerivation (
        (import ./ctx.nix)
     // (rec {
-      name = "build-image";
+      name = "image-deploy";
 
       buildInputs = [
         awscli2
         nixpkgs.docker
       ];
+
+      oci = nixpkgs.dockerTools.buildLayeredImage {
+        config = {
+          Entrypoint = ["sh" "-c"];
+        };
+        contents = [
+          (import ../../build/bin/pkgs.nix)
+        ];
+        maxLayers = 125;
+        name = "4shells";
+        tag = "latest";
+      };
     })
   )
