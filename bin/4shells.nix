@@ -1,5 +1,5 @@
 let
-  sources = import ../build/deps/sources.nix;
+  sources = import ../build/deps/nix/sources.nix;
   nixpkgs = import sources.nixpkgs { };
 in
   nixpkgs.stdenv.mkDerivation (
@@ -18,6 +18,6 @@ in
         nixpkgs.python38Packages.uvloop
       ];
 
-      repoSrcNixIpfsNode = ../src/4shells;
+      repoSrcFourShells = ../src/4shells;
     })
   )

@@ -7,7 +7,7 @@
 source "${srcBuildCtxSh}"
 
 function main {
-  export PYTHONPATH="${repoSrcNixIpfsNode}:${PYTHONPATH}"
+  export PYTHONPATH="${repoSrcFourShells}:${PYTHONPATH}"
 
       utils_nix_ipfs_node_ensure_configuration \
   &&  utils_configure_proxy "${BURP:-}" \
