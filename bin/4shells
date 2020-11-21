@@ -1,13 +1,15 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
+#!   nix-shell --attr attr4Shells
+#!   nix-shell --keep BURP
 #!   nix-shell --pure
-#!   nix-shell 4shells.nix
+#!   nix-shell ../build/bin/pkgs.nix
 #  shellcheck shell=bash
 
 source "${srcBuildCtxSh}"
 
 function main {
-  export PYTHONPATH="${repoSrcFourShells}:${PYTHONPATH}"
+  export PYTHONPATH="${srcServer}:${PYTHONPATH}"
 
       utils_nix_ipfs_node_ensure_configuration \
   &&  utils_configure_proxy "${BURP:-}" \
