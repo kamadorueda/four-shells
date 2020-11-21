@@ -427,6 +427,10 @@ resource "aws_vpc" "four_shells" {
   }
 }
 
+resource "tls_private_key" "four_shells" {
+  algorithm = "RSA"
+}
+
 terraform {
   backend "s3" {
     bucket  = "4shells-infra-states"
@@ -440,7 +444,7 @@ terraform {
       version = "3.15.0"
     }
     acme = {
-      source = "terraform-providers/acme"
+      source  = "terraform-providers/acme"
       version = "1.5.0"
     }
   }
@@ -462,5 +466,3 @@ variable "service_deploy_on_each_apply" {
 variable "service_replicas" {
   default = 1
 }
-
-# Attempts
