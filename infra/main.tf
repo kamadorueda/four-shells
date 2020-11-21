@@ -94,10 +94,17 @@ resource "aws_autoscaling_group" "four_shells" {
   lifecycle {
     create_before_destroy = true
   }
-  max_size = 2 * var.service_replicas
-  min_size = var.service_replicas
-  name     = "four_shells"
+  max_instance_lifetime = 604800
+  max_size              = 2 * var.service_replicas
+  min_size              = var.service_replicas
+  name                  = "four_shells"
+  protect_from_scale_in = true
   tags = [
+    {
+      key                 = "AmazonECSManaged"
+      propagate_at_launch = true
+      value               = ""
+    },
     {
       key                 = "Name"
       propagate_at_launch = true
@@ -159,7 +166,33 @@ resource "aws_ecr_lifecycle_policy" "four_shells" {
   })
 }
 
+resource "aws_ecs_capacity_provider" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_capacity_provider
+  auto_scaling_group_provider {
+    auto_scaling_group_arn = aws_autoscaling_group.four_shells.arn
+    managed_scaling {
+      maximum_scaling_step_size = 1
+      minimum_scaling_step_size = 1
+      status                    = "ENABLED"
+      target_capacity           = var.service_replicas
+    }
+    managed_termination_protection = "ENABLED"
+  }
+  name = "four_shells"
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "four_shells"
+  }
+}
+
 resource "aws_ecs_cluster" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_cluster
+  capacity_providers = [
+    aws_ecs_capacity_provider.four_shells.name,
+  ]
+  default_capacity_provider_strategy {
+    capacity_provider = aws_ecs_capacity_provider.four_shells.name
+  }
   name = var.aws_ecs_cluster_name
   tags = {
     "management:product" = "four_shells"
@@ -178,6 +211,11 @@ resource "aws_ecs_service" "four_shells" {
   desired_count        = var.service_replicas
   force_new_deployment = var.service_deploy_on_each_apply
   iam_role             = aws_iam_role.four_shells_ecs_service.arn
+  lifecycle {
+    ignore_changes = [
+      desired_count,
+    ]
+  }
   load_balancer {
     target_group_arn = aws_lb_target_group.four_shells.arn
     container_name   = "four_shells"
