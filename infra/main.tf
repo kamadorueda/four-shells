@@ -87,7 +87,7 @@ resource "aws_autoscaling_group" "four_shells" {
   lifecycle {
     create_before_destroy = true
   }
-  max_size = var.service_replicas
+  max_size = 2 * var.service_replicas
   min_size = var.service_replicas
   name     = "four_shells"
   tags = [
@@ -110,7 +110,7 @@ resource "aws_autoscaling_group" "four_shells" {
 
 resource "aws_cloudwatch_log_group" "four_shells" {
   # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group
-  name              = "/ecs/four_shells"
+  name              = "/four_shells"
   retention_in_days = 1
   tags = {
     "management:product" = "four_shells"
@@ -193,7 +193,7 @@ resource "aws_ecs_task_definition" "four_shells" {
       logConfiguration = {
         logDriver = "awslogs"
         options = {
-          awslogs-group         = aws_cloudwatch_log_group.four_shells.name
+          awslogs-group         = aws_cloudwatch_log_stream.four_shells.log_group_name
           awslogs-region        = var.region
           awslogs-stream-prefix = aws_cloudwatch_log_stream.four_shells.name
         }
