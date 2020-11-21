@@ -75,7 +75,7 @@ resource "acme_certificate" "four_shells" {
 }
 
 resource "acme_registration" "four_shells" {
-  account_key_pem = tls_private_key.four_shells.private_key_pem
+  account_key_pem = tls_private_key.four_shells_registry.private_key_pem
   email_address   = var.acme_email_address
 }
 
@@ -446,14 +446,18 @@ resource "aws_vpc" "four_shells" {
 
 resource "tls_cert_request" "four_shells" {
   key_algorithm   = "RSA"
-  private_key_pem = tls_private_key.four_shells.private_key_pem
+  private_key_pem = tls_private_key.four_shells_certificate.private_key_pem
   subject {
     common_name  = "*.4shells.com"
     organization = "Four Shells"
   }
 }
 
-resource "tls_private_key" "four_shells" {
+resource "tls_private_key" "four_shells_certificate" {
+  algorithm = "RSA"
+}
+
+resource "tls_private_key" "four_shells_registry" {
   algorithm = "RSA"
 }
 
