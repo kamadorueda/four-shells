@@ -69,6 +69,7 @@ resource "aws_cloudwatch_log_stream" "four_shells" {
 }
 
 resource "aws_ecr_repository" "four_shells" {
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository
   name = "four_shells"
   tags = {
     "Name"               = "four_shells"
@@ -171,7 +172,7 @@ resource "aws_ecs_task_definition" "four_shells" {
       cpu         = 1
       environment = []
       essential   = true
-      image       = "791877604510.dkr.ecr.us-east-1.amazonaws.com/four_shells:latest"
+      image       = "${aws_ecr_repository.four_shells.repository_url}:latest"
       logConfiguration = {
         logDriver = "awslogs"
         options = {

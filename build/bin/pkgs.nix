@@ -3,7 +3,7 @@ let
   sources = import ../deps/nix/sources.nix;
   nixpkgs = import sources.nixpkgs { };
 
-  derive = {
+  utilsDerive = {
     bin,
     deps,
     description,
@@ -27,11 +27,14 @@ let
         srcBin = ../../bin;
         srcBuild = ../../build;
         srcServer = ../../server;
+
+        shebang = "#! ${nixpkgs.bash}/bin/bash";
       })
     );
-in
-  {
-    attr4Shells = derive {
+  utilsGetDeps = builtins.getAttr "deps";
+
+  attrs = {
+    attr4Shells = {
       bin = "4shells";
       deps = [
         nixpkgs.cacert
@@ -43,4 +46,17 @@ in
       ];
       description = "4shells.com server";
     };
+  };
+  # Map(name -> derivation)
+  attrsDerivations = builtins.mapAttrs (k: v: utilsDerive v) attrs;
+  # List(derivation)
+  attrsDerivationsFullList = builtins.attrValues attrsDerivations;
+  # Map(name -> dependencies)
+  attrsDependencies = builtins.mapAttrs (k: v: v.deps) attrs;
+  # List(dependencies)
+  attrsDependenciesFullList = builtins.concatLists (builtins.attrValues attrsDependencies);
+in
+  rec {
+    derivations = attrsDerivations;
+    dependencies = attrsDependenciesFullList ++ attrsDerivationsFullList;
   }

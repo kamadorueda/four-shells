@@ -1,6 +1,6 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
-#!   nix-shell --attr attr4Shells
+#!   nix-shell --attr derivations.attr4Shells
 #!   nix-shell --keep BURP
 #!   nix-shell --pure
 #!   nix-shell ../build/bin/pkgs.nix

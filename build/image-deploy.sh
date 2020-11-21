@@ -17,8 +17,10 @@ function main {
   local registry="${AWS_ACCOUNT_ID}.dkr.ecr.${region}.amazonaws.com"
   local target="${registry}/four_shells:latest"
 
-      echo "[INFO] Building: ${target}" \
-  &&  docker build --file 'Dockerfile' --tag "${target}" "$(mktemp -d)" \
+      echo "[INFO] Loading: ${oci}" \
+  &&  docker load --input "${oci}" \
+  &&  echo "[INFO] Tagging: ${target}" \
+  &&  docker tag '4shells' "${target}" \
   &&  echo "[INFO] Authenticating to: ${registry}" \
   &&  aws ecr get-login-password --region "${region}" \
         | docker login --username AWS --password-stdin "${registry}" \

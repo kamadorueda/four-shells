@@ -1,6 +1,7 @@
 let
   sources = import ./nix/sources.nix;
   nixpkgs = import sources.nixpkgs { };
+  pkgs = import ../../build/bin/pkgs.nix;
 
   awscli2 = (import (nixpkgs.fetchzip {
     url = "https://github.com/nixos/nixpkgs/archive/024f5b30e0a3231dbe99c30192f92ba0058d95f5.zip";
@@ -18,12 +19,8 @@ in
       ];
 
       oci = nixpkgs.dockerTools.buildLayeredImage {
-        config = {
-          Entrypoint = ["sh" "-c"];
-        };
-        contents = [
-          (import ../../build/bin/pkgs.nix)
-        ];
+        config.Entrypoint = ["bash" "-c"];
+        contents = pkgs.dependencies ++ [ nixpkgs.bash ];
         maxLayers = 125;
         name = "4shells";
         tag = "latest";

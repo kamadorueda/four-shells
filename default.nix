@@ -1,1 +1,4 @@
-import ./build/bin/pkgs.nix
+let
+  pkgs = import ./build/bin/pkgs.nix;
+in
+  pkgs.derivations
