@@ -4,8 +4,9 @@ let
   nixpkgs = import sources.nixpkgs { };
 
   derive = {
-    deps,
     bin,
+    deps,
+    description,
   }:
     nixpkgs.stdenv.mkDerivation (
         (import ../deps/ctx.nix)
@@ -17,7 +18,7 @@ let
         buildInputs = deps;
 
         meta = with nixpkgs.stdenv.lib; {
-          description = "";
+          description = description;
           homepage = "https://4shells.com/${bin}";
           license = licenses.gpl3;
           maintainers = with maintainers; [ kamadorueda ];
@@ -40,5 +41,6 @@ in
         nixpkgs.python38Packages.uvicorn
         nixpkgs.python38Packages.uvloop
       ];
+      description = "4shells.com server";
     };
   }
