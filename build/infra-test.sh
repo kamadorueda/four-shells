@@ -11,10 +11,10 @@
 source "${srcBuildCtxSh}"
 
 function main {
-  export TF_VAR_access_key="${TF_AWS_ACCESS_KEY_ID}"
+  export TF_VAR_aws_access_key_id="${TF_AWS_ACCESS_KEY_ID}"
+  export TF_VAR_aws_secret_access_key="${TF_AWS_SECRET_ACCESS_KEY}"
   export TF_VAR_acme_email_address="${ACME_EMAIL_ADDRESS}"
   export TF_VAR_cf_dns_api_token="${CF_DNS_API_TOKEN}"
-  export TF_VAR_secret_key="${TF_AWS_SECRET_ACCESS_KEY}"
   export AWS_ACCESS_KEY_ID="${TF_AWS_ACCESS_KEY_ID}"
   export AWS_SECRET_ACCESS_KEY="${TF_AWS_SECRET_ACCESS_KEY}"
 

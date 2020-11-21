@@ -57,8 +57,8 @@ provider "acme" {
 }
 
 provider "aws" {
-  access_key = var.access_key
-  secret_key = var.secret_key
+  access_key = var.aws_access_key_id
+  secret_key = var.aws_secret_access_key
   region     = var.region
 }
 
@@ -477,17 +477,17 @@ terraform {
   required_version = "0.13.5"
 }
 
-variable "access_key" {}
-
 variable "acme_email_address" {}
+
+variable "aws_access_key_id" {}
+
+variable "aws_secret_access_key" {}
 
 variable "cf_dns_api_token" {}
 
 variable "region" {
   default = "us-east-1"
 }
-
-variable "secret_key" {}
 
 variable "service_deploy_on_each_apply" {
   default = false
