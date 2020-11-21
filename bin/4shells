@@ -12,10 +12,10 @@ function main {
       utils_nix_ipfs_node_ensure_configuration \
   &&  utils_configure_proxy "${BURP:-}" \
   &&  uvicorn \
-        --host '127.0.0.1' \
+        --host '0.0.0.0' \
         --interface 'asgi3' \
         --loop 'uvloop' \
-        --port "8400" \
+        --port '8400' \
         'four_shells.asgi:APP'
 }
 
