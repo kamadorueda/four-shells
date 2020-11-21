@@ -439,6 +439,9 @@ terraform {
       source  = "hashicorp/aws"
       version = "3.15.0"
     }
+    acme = {
+      source = "terraform-providers/acme"
+    }
   }
   required_version = "0.13.5"
 }
