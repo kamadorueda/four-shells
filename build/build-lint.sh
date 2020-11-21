@@ -1,7 +1,7 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
 #!   nix-shell --pure
-#!   nix-shell ./deps/build-lint.nix
+#!   nix-shell ../build/deps/build-lint.nix
 #  shellcheck shell=bash
 
 source "${srcBuildCtxSh}"

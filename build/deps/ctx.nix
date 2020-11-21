@@ -1,6 +1,6 @@
 {
-  srcBuildCtxSh = ../ctx.sh;
-  srcBuildUtilsFourShellsSh = ../utils/four-shells.sh;
-  srcBuildUtilsCommonSh = ../utils/common.sh;
-  srcBuildUtilsShoptsSh = ../utils/shopts.sh;
+  srcBuildCtxSh = ../../build/ctx.sh;
+  srcBuildUtilsFourShellsSh = ../../build/utils/four-shells.sh;
+  srcBuildUtilsCommonSh = ../../build/utils/common.sh;
+  srcBuildUtilsShoptsSh = ../../build/utils/shopts.sh;
 }

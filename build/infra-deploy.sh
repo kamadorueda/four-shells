@@ -5,7 +5,7 @@
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_TF
 #!   nix-shell --keep CF_DNS_API_TOKEN
 #!   nix-shell --pure
-#!   nix-shell ./deps/infra-deploy.nix
+#!   nix-shell ../build/deps/infra-deploy.nix
 #  shellcheck shell=bash
 
 source "${srcBuildCtxSh}"

@@ -1,6 +1,6 @@
 let
-  math = import ../deps/math.nix;
-  sources = import ../deps/nix/sources.nix;
+  math = import ../../build/deps/math.nix;
+  sources = import ../../build/deps/nix/sources.nix;
   nixpkgs = import sources.nixpkgs { };
 
   utilsDerive = {
@@ -9,7 +9,7 @@ let
     description,
   }:
     nixpkgs.stdenv.mkDerivation (
-        (import ../deps/ctx.nix)
+        (import ../../build/deps/ctx.nix)
       // (rec {
         pname = bin;
         version = "${math.currentYearStr}.11";

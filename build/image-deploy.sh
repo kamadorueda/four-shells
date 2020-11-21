@@ -4,7 +4,7 @@
 #!   nix-shell --keep AWS_ACCOUNT_ID
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_ADMIN
 #!   nix-shell --pure
-#!   nix-shell ./deps/image-deploy.nix
+#!   nix-shell ../build/deps/image-deploy.nix
 #  shellcheck shell=bash
 
 source "${srcBuildCtxSh}"

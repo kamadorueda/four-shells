@@ -32,5 +32,5 @@ function utils_terraform_prepare {
   &&  echo '[INFO] Linting' \
   &&  tflint --config tflint.hcl \
   &&  echo '[INFO] Generating dependency graph' \
-  &&  terraform graph | dot -o ./dependency-graph.svg -T svg /dev/stdin
+  &&  terraform graph | dot -o ../infra/dependency-graph.svg -T svg /dev/stdin
 }

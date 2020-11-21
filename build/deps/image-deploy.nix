@@ -1,5 +1,5 @@
 let
-  sources = import ./nix/sources.nix;
+  sources = import ../../build/deps/nix/sources.nix;
   nixpkgs = import sources.nixpkgs { };
   pkgs = import ../../build/bin/pkgs.nix;
 
@@ -9,7 +9,7 @@ let
   }) { }).awscli2;
 in
   nixpkgs.stdenv.mkDerivation (
-       (import ./ctx.nix)
+       (import ../../build/deps/ctx.nix)
     // (rec {
       name = "image-deploy";
 
