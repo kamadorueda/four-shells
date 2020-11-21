@@ -62,6 +62,23 @@ provider "aws" {
   region     = var.region
 }
 
+resource "acme_certificate" "four_shells" {
+  account_key_pem         = acme_registration.four_shells.account_key_pem
+  certificate_request_pem = tls_cert_request.four_shells.cert_request_pem
+
+  dns_challenge {
+    provider = "cloudflare"
+    config = {
+      CF_DNS_API_TOKEN = var.cf_dns_api_token
+    }
+  }
+}
+
+resource "acme_registration" "four_shells" {
+  account_key_pem = tls_private_key.four_shells.private_key_pem
+  email_address   = var.acme_email_address
+}
+
 resource "aws_autoscaling_group" "four_shells" {
   desired_capacity          = var.service_replicas
   health_check_grace_period = 300
@@ -427,6 +444,15 @@ resource "aws_vpc" "four_shells" {
   }
 }
 
+resource "tls_cert_request" "four_shells" {
+  key_algorithm   = "RSA"
+  private_key_pem = tls_private_key.four_shells.private_key_pem
+  subject {
+    common_name  = "*.4shells.com"
+    organization = "Four Shells"
+  }
+}
+
 resource "tls_private_key" "four_shells" {
   algorithm = "RSA"
 }
@@ -452,6 +478,10 @@ terraform {
 }
 
 variable "access_key" {}
+
+variable "acme_email_address" {}
+
+variable "cf_dns_api_token" {}
 
 variable "region" {
   default = "us-east-1"
