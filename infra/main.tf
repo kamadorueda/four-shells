@@ -52,6 +52,10 @@ output "admin_secret" {
   value     = aws_iam_access_key.admin.secret
 }
 
+output "four_shells_lb_dns" {
+  value = aws_lb.four_shells.dns_name
+}
+
 provider "acme" {
   server_url = "https://acme-v02.api.letsencrypt.org/directory"
 }
