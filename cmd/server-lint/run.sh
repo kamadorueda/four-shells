@@ -1,5 +1,6 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
+#!   nix-shell --option sandbox false
 #!   nix-shell --pure
 #!   nix-shell ../../cmd/server-lint
 #  shellcheck shell=bash
