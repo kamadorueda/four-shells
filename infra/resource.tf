@@ -168,24 +168,24 @@ resource "aws_ecs_task_definition" "four_shells" {
   # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition
   container_definitions = jsonencode([
     {
-      command     = ["four-shells"]
-      cpu         = 1
+      command = ["four-shells"]
+      cpu     = 1
       environment = [
         {
-          name = "AWS_ACCESS_KEY_ID_SERVER"
+          name  = "AWS_ACCESS_KEY_ID_SERVER"
           value = aws_iam_access_key.server.id
         },
         {
-          name = "AWS_REGION"
+          name  = "AWS_REGION"
           value = var.region
         },
         {
-          name = "AWS_SECRET_ACCESS_KEY_SERVER"
+          name  = "AWS_SECRET_ACCESS_KEY_SERVER"
           value = aws_iam_access_key.server.secret
         },
       ]
-      essential   = true
-      image       = "${aws_ecr_repository.four_shells.repository_url}:latest"
+      essential = true
+      image     = "${aws_ecr_repository.four_shells.repository_url}:latest"
       logConfiguration = {
         logDriver = "awslogs"
         options = {
