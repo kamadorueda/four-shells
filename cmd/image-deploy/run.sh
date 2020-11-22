@@ -21,6 +21,7 @@ function main {
   &&  docker load --input "${oci}" \
   &&  echo "[INFO] Tagging: ${target}" \
   &&  docker tag 'oci' "${target}" \
+  &&  read -p '[INFO] Press enter to authenticate and push image' \
   &&  echo "[INFO] Authenticating to: ${registry}" \
   &&  aws ecr get-login-password --region "${region}" \
         | docker login --username AWS --password-stdin "${registry}" \
