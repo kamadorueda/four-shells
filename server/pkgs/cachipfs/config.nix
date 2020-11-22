@@ -6,8 +6,8 @@ in
     reqs = [
       nixpkgs.python38
       nixpkgs.python38Packages.aioextensions
+      nixpkgs.python38Packages.boto3
       nixpkgs.python38Packages.starlette
-      nixpkgs.python38Packages.uvicorn
       nixpkgs.python38Packages.uvloop
     ];
   }

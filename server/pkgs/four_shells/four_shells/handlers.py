@@ -7,6 +7,17 @@ from starlette.requests import (
 from starlette.responses import (
     Response,
 )
+from starlette.schemas import (
+    SchemaGenerator,
+)
+
+# Constants
+SCHEMA = SchemaGenerator({
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Four Shells",
+    },
+})
 
 
 async def on_shutdown() -> None:
@@ -23,5 +34,13 @@ async def home(request: Request) -> Response:
 
 
 async def ping(request: Request) -> Response:
-    """Route for /ping."""
+    """
+    responses:
+      200:
+        description: Ping the server in order to perform a health check.
+    """
     return Response()
+
+
+def schema(request: Request) -> Response:
+    return SCHEMA.OpenAPIResponse(request)

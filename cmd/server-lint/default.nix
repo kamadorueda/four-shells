@@ -13,5 +13,7 @@ in
         nixpkgs.mypy
         py-deps.derivations.prospector
       ];
+
+      srcServer = ../../server;
     })
   )

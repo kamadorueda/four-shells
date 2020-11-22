@@ -8,6 +8,9 @@
 source "${srcBuildUtilsCtxLibSh}"
 
 function main {
+  export PYTHONPATH="${srcServer}/pkgs/cachipfs:${PYTHONPATH}"
+  export PYTHONPATH="${srcServer}/pkgs/four_shells:${PYTHONPATH}"
+
   for pkg in \
     server/pkgs/cachipfs \
     server/pkgs/four_shells \
@@ -15,12 +18,12 @@ function main {
   do
         echo "[INFO] Checking static typing: ${pkg}" \
     &&  mypy \
+          --ignore-missing-imports \
           --strict \
           --pretty \
           "${pkg}" \
     &&  echo "[INFO] Linting: ${pkg}" \
     &&  prospector \
-          --doc-warnings \
           --full-pep8 \
           --strictness veryhigh \
           --test-warnings \
