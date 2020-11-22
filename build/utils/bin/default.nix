@@ -35,7 +35,7 @@ let
   utilsGetDeps = builtins.getAttr "deps";
 
   attrs = {
-    attrFourShells = {
+    fourShells = {
       bin = "four-shells";
       deps = serverPkgsConfig.reqs;
       description = "Four Shells server";
@@ -51,6 +51,7 @@ let
   attrsDependenciesFullList = builtins.concatLists (builtins.attrValues attrsDependencies);
 in
   rec {
+    allDependencies = attrsDependenciesFullList ++ attrsDerivationsFullList;
+    dependencies = attrsDependencies;
     derivations = attrsDerivations;
-    dependencies = attrsDependenciesFullList ++ attrsDerivationsFullList;
   }

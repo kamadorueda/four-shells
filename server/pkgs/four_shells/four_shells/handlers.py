@@ -1,23 +1,24 @@
+"""Server routes."""
+
 # Third party libraries
-from starlette.requests import (
-    Request,
-)
 from starlette.responses import (
     Response,
 )
 
 
 async def on_shutdown() -> None:
-    pass
+    """Server shutdown script."""
 
 
 async def on_startup() -> None:
-    pass
+    """Server startup script."""
 
 
-async def home(request: Request) -> Response:
+async def home() -> Response:
+    """Route for /."""
     return Response('Welcome!')
 
 
-async def ping(request: Request) -> Response:
+async def ping() -> Response:
+    """Route for /ping."""
     return Response()
