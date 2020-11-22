@@ -25,7 +25,7 @@ resource "aws_autoscaling_group" "four_shells" {
     create_before_destroy = true
   }
   max_instance_lifetime = 604800
-  max_size              = 2 * var.service_replicas
+  max_size              = var.service_replicas + 1
   min_size              = 0
   name                  = "four_shells"
   protect_from_scale_in = true
