@@ -204,6 +204,11 @@ resource "aws_iam_access_key" "admin" {
   status = "Active"
 }
 
+resource "aws_iam_access_key" "server" {
+  user   = aws_iam_user.server.name
+  status = "Active"
+}
+
 resource "aws_iam_instance_profile" "four_shells_ecs" {
   name = "four_shells_ecs"
   role = aws_iam_role.four_shells_ecs.name
@@ -212,6 +217,11 @@ resource "aws_iam_instance_profile" "four_shells_ecs" {
 resource "aws_iam_policy" "admin" {
   name   = "admin"
   policy = data.aws_iam_policy_document.admin.json
+}
+
+resource "aws_iam_policy" "server" {
+  name   = "server"
+  policy = data.aws_iam_policy_document.server.json
 }
 
 resource "aws_iam_role" "four_shells_ecs" {
@@ -261,9 +271,22 @@ resource "aws_iam_user" "admin" {
   }
 }
 
+resource "aws_iam_user" "server" {
+  name = "server"
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "server"
+  }
+}
+
 resource "aws_iam_user_policy_attachment" "admin" {
   user       = "admin"
   policy_arn = aws_iam_policy.admin.arn
+}
+
+resource "aws_iam_user_policy_attachment" "server" {
+  user       = "server"
+  policy_arn = aws_iam_policy.server.arn
 }
 
 resource "aws_internet_gateway" "four_shells" {

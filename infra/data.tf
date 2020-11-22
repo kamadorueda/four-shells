@@ -41,3 +41,13 @@ data "aws_iam_policy_document" "four_shells_ecs_service" {
     resources = ["*"]
   }
 }
+
+data "aws_iam_policy_document" "server" {
+  statement {
+    effect = "Allow"
+    actions = [
+      "dynamodb:*",
+    ]
+    resources = ["*"]
+  }
+}

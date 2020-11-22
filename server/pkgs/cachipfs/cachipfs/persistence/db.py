@@ -9,8 +9,8 @@ from cachipfs import (
 
 # Constants
 RESOURCE = boto3.resource(
-    aws_access_key_id=config.AWS_ACCESS_KEY_ID,
-    aws_secret_access_key=config.AWS_SECRET_ACCESS_KEY,
+    aws_access_key_id=config.AWS_ACCESS_KEY_ID_SERVER,
+    aws_secret_access_key=config.AWS_SECRET_ACCESS_KEY_SERVER,
     config=botocore.config.Config(
         max_pool_connections=128,
         parameter_validation=False,
