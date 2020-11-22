@@ -10,12 +10,12 @@ source "${srcBuildUtilsCtxLibSh}"
 function main {
   export PYTHONPATH="${srcServer}/pkgs/cachipfs:${PYTHONPATH}"
   export PYTHONPATH="${srcServer}/pkgs/four_shells:${PYTHONPATH}"
+  local pkgs=(
+    server/pkgs/cachipfs
+    server/pkgs/four_shells
+  )
 
-  for pkg in \
-    server/pkgs/cachipfs \
-    server/pkgs/four_shells \
-
-  do
+  for pkg in "${pkgs[@]}"
         echo "[INFO] Checking static typing: ${pkg}" \
     &&  mypy \
           --ignore-missing-imports \
