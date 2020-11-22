@@ -3,13 +3,13 @@
 #!   nix-shell --attr derivations.attrFourShells
 #!   nix-shell --keep BURP
 #!   nix-shell --pure
-#!   nix-shell ../build/bin/pkgs.nix
+#!   nix-shell ../build/utils/bin
 #  shellcheck shell=bash
 
 source "${srcBuildUtilsCtxLibSh}"
 
 function main {
-  export PYTHONPATH="${srcServer}:${PYTHONPATH}"
+  export PYTHONPATH="${srcServer}/pkgs/four_shells:${PYTHONPATH}"
 
       utils_four_shells_ensure_configuration \
   &&  utils_configure_proxy "${BURP:-}" \
