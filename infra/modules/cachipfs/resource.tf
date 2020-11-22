@@ -5,14 +5,14 @@
 #    - attr: attr_value
 #
 # accounts:
-#  id:
+#  email:
 #    balance: integer
-#    namespaces: [ns1, ns2, ...]
-#    tokens: [token1, token2, ...]
+#    namespaces: [id1, id2, ...]
 #
 # namespaces:
 #  id:
 #    name: ns_name
+#    tokens: [id1, id2, ...]
 #
 # objects:
 #  ns, key:
@@ -21,11 +21,11 @@
 
 resource "aws_dynamodb_table" "cachipfs_accounts" {
   attribute {
-    name = "id"
+    name = "email"
     type = "S"
   }
   billing_mode = "PAY_PER_REQUEST"
-  hash_key     = "id"
+  hash_key     = "email"
   name         = "cachipfs_accounts"
   tags = {
     "management:product" = "cachipfs"

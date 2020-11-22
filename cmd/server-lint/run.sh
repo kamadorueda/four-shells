@@ -16,6 +16,7 @@ function main {
   )
 
   for pkg in "${pkgs[@]}"
+  do
         echo "[INFO] Checking static typing: ${pkg}" \
     &&  mypy \
           --ignore-missing-imports \

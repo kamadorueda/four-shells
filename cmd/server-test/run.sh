@@ -1,5 +1,8 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
+#!   nix-shell --keep AWS_ACCESS_KEY_ID_SERVER
+#!   nix-shell --keep AWS_REGION
+#!   nix-shell --keep AWS_SECRET_ACCESS_KEY_SERVER
 #!   nix-shell --pure
 #!   nix-shell ../../cmd/server-test
 #  shellcheck shell=bash
