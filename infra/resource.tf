@@ -170,7 +170,20 @@ resource "aws_ecs_task_definition" "four_shells" {
     {
       command     = ["four-shells"]
       cpu         = 1
-      environment = []
+      environment = [
+        {
+          name = "AWS_ACCESS_KEY_ID_SERVER"
+          value = aws_iam_access_key.server.id
+        },
+        {
+          name = "AWS_REGION"
+          value = var.region
+        },
+        {
+          name = "AWS_SECRET_ACCESS_KEY_SERVER"
+          value = aws_iam_access_key.server.secret
+        },
+      ]
       essential   = true
       image       = "${aws_ecr_repository.four_shells.repository_url}:latest"
       logConfiguration = {
