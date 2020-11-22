@@ -1,6 +1,6 @@
 let
-  math = import ../../build/deps/math.nix;
-  sources = import ../../build/deps/nix/sources.nix;
+  math = import ../../../build/utils/math;
+  sources = import ../../../build/deps/nix/sources.nix;
   nixpkgs = import sources.nixpkgs { };
 
   utilsDerive = {
@@ -9,7 +9,7 @@ let
     description,
   }:
     nixpkgs.stdenv.mkDerivation (
-        (import ../../build/deps/ctx.nix)
+        (import ../../../build/utils/ctx)
       // (rec {
         pname = bin;
         version = "${math.currentYearStr}.11";
@@ -24,9 +24,9 @@ let
           maintainers = with maintainers; [ kamadorueda ];
         };
 
-        srcBin = ../../bin;
-        srcBuild = ../../build;
-        srcServer = ../../server;
+        srcBin = ../../../bin;
+        srcBuild = ../../../build;
+        srcServer = ../../../server;
 
         shebang = "#! ${nixpkgs.bash}/bin/bash";
       })

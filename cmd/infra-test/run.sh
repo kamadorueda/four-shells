@@ -5,10 +5,10 @@
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_TF
 #!   nix-shell --keep CF_DNS_API_TOKEN
 #!   nix-shell --pure
-#!   nix-shell ../build/deps/infra-test.nix
+#!   nix-shell ../../cmd/infra-test
 #  shellcheck shell=bash
 
-source "${srcBuildCtxSh}"
+source "${srcBuildUtilsCtxLibSh}"
 
 function main {
   export TF_VAR_acme_email_address="${ACME_EMAIL_ADDRESS}"

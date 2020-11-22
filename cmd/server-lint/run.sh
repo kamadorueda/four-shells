@@ -1,9 +1,10 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
-#!   nix-shell ../build/deps/server-lint.nix
+#!   nix-shell --pure
+#!   nix-shell ../../cmd/server-lint
 #  shellcheck shell=bash
 
-source "${srcBuildCtxSh}"
+source "${srcBuildUtilsCtxLibSh}"
 
 function main {
       echo "[INFO] Checking static typing" \

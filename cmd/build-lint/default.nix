@@ -3,14 +3,12 @@ let
   nixpkgs = import sources.nixpkgs { };
 in
   nixpkgs.stdenv.mkDerivation (
-       (import ../../build/deps/ctx.nix)
+       (import ../../build/utils/ctx)
     // (rec {
-      name = "infra-test";
+      name = "build-lint";
 
       buildInputs = [
-        nixpkgs.graphviz
-        nixpkgs.terraform_0_13
-        nixpkgs.tflint
+        nixpkgs.shellcheck
       ];
     })
   )

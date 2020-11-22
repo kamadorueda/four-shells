@@ -1,10 +1,10 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
 #!   nix-shell --pure
-#!   nix-shell ../build/deps/build-lint.nix
+#!   nix-shell ../../cmd/build-lint
 #  shellcheck shell=bash
 
-source "${srcBuildCtxSh}"
+source "${srcBuildUtilsCtxLibSh}"
 
 function main {
       echo "[INFO] Linting" \

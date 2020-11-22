@@ -3,7 +3,7 @@ let
   nixpkgs = import sources.nixpkgs { };
 in
   nixpkgs.stdenv.mkDerivation (
-       (import ../../build/deps/ctx.nix)
+       (import ../../build/utils/ctx)
     // (rec {
       name = "infra-deploy";
 

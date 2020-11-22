@@ -6,7 +6,7 @@
 #!   nix-shell ../build/bin/pkgs.nix
 #  shellcheck shell=bash
 
-source "${srcBuildCtxSh}"
+source "${srcBuildUtilsCtxLibSh}"
 
 function main {
   export PYTHONPATH="${srcServer}:${PYTHONPATH}"

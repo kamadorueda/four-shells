@@ -4,10 +4,10 @@
 #!   nix-shell --keep AWS_ACCOUNT_ID
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_ADMIN
 #!   nix-shell --pure
-#!   nix-shell ../build/deps/image-deploy.nix
+#!   nix-shell ../../cmd/image-deploy
 #  shellcheck shell=bash
 
-source "${srcBuildCtxSh}"
+source "${srcBuildUtilsCtxLibSh}"
 
 function main {
   export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_ADMIN}"

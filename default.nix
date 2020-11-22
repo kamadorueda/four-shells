@@ -1,4 +1,4 @@
 let
-  pkgs = import ./build/bin/pkgs.nix;
+  bin = import ./build/utils/bin;
 in
-  pkgs.derivations
+  bin.derivations

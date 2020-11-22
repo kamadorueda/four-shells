@@ -19,10 +19,10 @@ cp --no-target-directory --recursive "${srcServer}" "${out}/server"
     PYTHONPATH \
     srcBin \
     srcBuild \
-    srcBuildCtxSh \
-    srcBuildUtilsFourShellsSh \
-    srcBuildUtilsCommonSh \
-    srcBuildUtilsShoptsSh \
+    srcBuildUtilsCtxLibSh \
+    srcBuildUtilsFourShellsLibSh \
+    srcBuildUtilsCommonLibSh \
+    srcBuildUtilsShoptsLibSh \
     srcServer \
 
   do
