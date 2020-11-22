@@ -9,6 +9,7 @@ source "${srcBuildUtilsCtxLibSh}"
 
 function main {
   for pkg in \
+    server/pkgs/cachipfs \
     server/pkgs/four_shells \
 
   do
