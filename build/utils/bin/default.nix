@@ -33,7 +33,12 @@ let
       })
     );
   utilsGetDeps = builtins.getAttr "deps";
-
+  utilsGetPythonpath = deps: builtins.concatStringsSep ":"  [
+    (nixpkgs.lib.makeSearchPath "lib/python3.9/site-packages" deps)
+    (nixpkgs.lib.makeSearchPath "lib/python3.8/site-packages" deps)
+    (nixpkgs.lib.makeSearchPath "lib/python3.7/site-packages" deps)
+    (nixpkgs.lib.makeSearchPath "lib/python3.6/site-packages" deps)
+  ];
   attrs = {
     fourShells = {
       bin = "four-shells";
@@ -49,9 +54,12 @@ let
   attrsDependencies = builtins.mapAttrs (k: v: v.deps) attrs;
   # List(dependencies)
   attrsDependenciesFullList = builtins.concatLists (builtins.attrValues attrsDependencies);
+  # Map(name -> pythonpath)
+  attrsPythonpaths = builtins.mapAttrs (k: v: utilsGetPythonpath v) attrsDependencies;
 in
   rec {
     allDependencies = attrsDependenciesFullList ++ attrsDerivationsFullList;
     dependencies = attrsDependencies;
     derivations = attrsDerivations;
+    pythonpaths = attrsPythonpaths;
   }
