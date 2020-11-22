@@ -1,31 +1,38 @@
-"""ASGI of the server."""
+"""Routing of the server."""
 
 # Third party libraries
-from starlette.applications import Starlette
-from starlette.routing import Route
-
-# Local libraries
-from four_shells import (
-    handlers,
+from starlette.routing import (
+    Mount,
+    Route,
+    Router,
 )
 
+# Local libraries
+import cachipfs.asgi
+import four_shells.handlers
+
+
 # Constants
-APP = Starlette(
+APP = Router(
     on_startup=[
-        handlers.on_startup,
+        four_shells.handlers.on_startup,
     ],
     on_shutdown=[
-        handlers.on_shutdown,
+        four_shells.handlers.on_shutdown,
     ],
     routes=[
         Route(
             path='/',
-            endpoint=handlers.home,
+            endpoint=four_shells.handlers.home,
             methods=['GET'],
+        ),
+        Mount(
+            app=cachipfs.asgi.APP,
+            path='/cachipfs',
         ),
         Route(
             path='/ping',
-            endpoint=handlers.ping,
+            endpoint=four_shells.handlers.ping,
             methods=['GET'],
         ),
     ],

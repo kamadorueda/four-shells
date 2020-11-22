@@ -20,8 +20,3 @@ async def on_startup() -> None:
 async def home(request: Request) -> Response:
     """Route for /."""
     return Response('Welcome!')
-
-
-async def ping(request: Request) -> Response:
-    """Route for /ping."""
-    return Response()

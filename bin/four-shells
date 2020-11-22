@@ -9,6 +9,7 @@
 source "${srcBuildUtilsCtxLibSh}"
 
 function main {
+  export PYTHONPATH="${srcServer}/pkgs/cachipfs:${PYTHONPATH}"
   export PYTHONPATH="${srcServer}/pkgs/four_shells:${PYTHONPATH}"
 
       utils_four_shells_ensure_configuration \
