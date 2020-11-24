@@ -4,6 +4,8 @@
 #!   nix-shell --keep AWS_ACCESS_KEY_ID_SERVER
 #!   nix-shell --keep AWS_REGION
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_SERVER
+#!   nix-shell --keep GOOGLE_OAUTH_CLIENT_ID_SERVER
+#!   nix-shell --keep GOOGLE_OAUTH_SECRET_SERVER
 #!   nix-shell --keep BURP
 #!   nix-shell --pure
 #!   nix-shell ../build/utils/bin

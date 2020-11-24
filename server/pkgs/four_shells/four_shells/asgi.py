@@ -4,6 +4,12 @@
 from starlette.applications import (
     Starlette,
 )
+from starlette.middleware import (
+    Middleware,
+)
+from starlette.middleware.sessions import (
+    SessionMiddleware,
+)
 from starlette.routing import (
     Mount,
     Route,
@@ -12,21 +18,33 @@ from starlette.routing import (
 
 # Local libraries
 import cachipfs.asgi
-import four_shells.handlers
+from four_shells import (
+    config,
+    handlers,
+)
 
 
 # Constants
 APP = Starlette(
+    middleware=[
+        Middleware(
+            cls=SessionMiddleware,
+            https_only=config.PRODUCTION,
+            max_age=300,
+            same_site='lax',
+            secret_key=config.SERVER_STATE_COOKIE_SECRET,
+            session_cookie='four_shells_state',
+        ),
+    ],
     on_startup=[
-        four_shells.handlers.on_startup,
+        handlers.on_startup,
     ],
     on_shutdown=[
-        four_shells.handlers.on_shutdown,
+        handlers.on_shutdown,
     ],
     routes=[
         Route(
-            endpoint=four_shells.handlers.home,
-            include_in_schema=False,
+            endpoint=handlers.home,
             methods=['GET'],
             path='/',
         ),
@@ -35,15 +53,25 @@ APP = Starlette(
             path='/cachipfs',
         ),
         Route(
-            path='/ping',
-            endpoint=four_shells.handlers.ping,
+            endpoint=handlers.oauth_google_init,
+            path='/oauth/google/init',
             methods=['GET'],
         ),
         Route(
-            path='/schema',
-            endpoint=four_shells.handlers.schema,
-            include_in_schema=False,
+            endpoint=handlers.oauth_google_receive,
+            name='oauth_google_receive',
+            path='/oauth/google/receive',
             methods=['GET'],
+        ),
+        Route(
+            endpoint=handlers.ping,
+            methods=['GET'],
+            path='/ping',
+        ),
+        Route(
+            endpoint=handlers.schema,
+            methods=['GET'],
+            path='/schema',
         )
     ],
 )

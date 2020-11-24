@@ -183,6 +183,18 @@ resource "aws_ecs_task_definition" "four_shells" {
           name  = "AWS_SECRET_ACCESS_KEY_SERVER"
           value = aws_iam_access_key.server.secret
         },
+        {
+          name  = "GOOGLE_OAUTH_CLIENT_ID_SERVER"
+          value = aws_iam_access_key.server.secret
+        },
+        {
+          name  = "GOOGLE_OAUTH_SECRET_SERVER"
+          value = aws_iam_access_key.server.secret
+        },
+        {
+          name  = "PRODUCTION"
+          value = "true"
+        },
       ]
       essential = true
       image     = "${aws_ecr_repository.four_shells.repository_url}:latest"

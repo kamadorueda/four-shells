@@ -6,6 +6,8 @@ in
     reqs = [
       nixpkgs.python38
       nixpkgs.python38Packages.aioextensions
+      nixpkgs.python38Packages.authlib
+      nixpkgs.python38Packages.httpx
       nixpkgs.python38Packages.starlette
       nixpkgs.python38Packages.uvloop
     ];

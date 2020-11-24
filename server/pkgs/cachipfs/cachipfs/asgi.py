@@ -17,7 +17,6 @@ APP = Router(
         Route(
             path='/',
             endpoint=cachipfs.handlers.home,
-            include_in_schema=False,
             methods=['GET'],
         ),
         Mount(
