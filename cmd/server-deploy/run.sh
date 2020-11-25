@@ -9,7 +9,7 @@
 #!   nix-shell --keep GOOGLE_OAUTH_CLIENT_ID_SERVER
 #!   nix-shell --keep GOOGLE_OAUTH_SECRET_SERVER
 #!   nix-shell --pure
-#!   nix-shell ../../cmd/oci
+#!   nix-shell ../../cmd/server-deploy
 #  shellcheck shell=bash
 
 source "${srcBuildUtilsCtxLibSh}"
