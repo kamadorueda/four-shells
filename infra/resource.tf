@@ -186,9 +186,8 @@ resource "aws_ecs_service" "four_shells" {
     aws_lb_listener.four_shells_https,
     aws_iam_role_policy.four_shells_ecs_service,
   ]
-  desired_count        = var.service_replicas
-  force_new_deployment = var.service_deploy_on_each_apply
-  iam_role             = aws_iam_role.four_shells_ecs_service.arn
+  desired_count = var.service_replicas
+  iam_role      = aws_iam_role.four_shells_ecs_service.arn
   lifecycle {
     ignore_changes = [
       desired_count,

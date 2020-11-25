@@ -18,8 +18,8 @@ function main {
   export TF_VAR_aws_access_key_id="${AWS_ACCESS_KEY_ID_TF}"
   export TF_VAR_aws_secret_access_key="${AWS_SECRET_ACCESS_KEY_TF}"
   export TF_VAR_cf_dns_api_token="${CF_DNS_API_TOKEN}"
-  export TF_VAR_google_oauth_secret_server="${GOOGLE_OAUTH_CLIENT_ID_SERVER}"
-  export TF_VAR_google_oauth_client_id_server="${GOOGLE_OAUTH_SECRET_SERVER}"
+  export TF_VAR_google_oauth_client_id_server="${GOOGLE_OAUTH_CLIENT_ID_SERVER}"
+  export TF_VAR_google_oauth_secret_server="${GOOGLE_OAUTH_SECRET_SERVER}"
   export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_TF}"
   export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_TF}"
 

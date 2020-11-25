@@ -19,10 +19,6 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "service_deploy_on_each_apply" {
-  default = false
-}
-
 variable "service_replicas" {
   default = 1
 }
