@@ -11,17 +11,19 @@ from starlette.templating import (
 )
 
 # Constants
+AWS_CLOUDFRONT_DOMAIN: str = environ['AWS_CLOUDFRONT_DOMAIN']
 PRODUCTION: bool = 'PRODUCTION' in environ
+GOOGLE_OAUTH_CLIENT_ID_SERVER: str = environ['GOOGLE_OAUTH_CLIENT_ID_SERVER']
 GOOGLE_OAUTH_CLIENT_ID_SERVER: str = environ['GOOGLE_OAUTH_CLIENT_ID_SERVER']
 GOOGLE_OAUTH_SECRET_SERVER: str = environ['GOOGLE_OAUTH_SECRET_SERVER']
 SERVER_PATH_PUBLIC: str = environ['SERVER_PATH_PUBLIC']
 SERVER_STATE_COOKIE_SECRET: str = secrets.token_hex(64)
 
 # Derived
-CDN: str = (
-    'https://raw.githubusercontent.com/kamadorueda/four-shells/main/server/public'
+CDN: str = 'https://' + (
+    AWS_CLOUDFRONT_DOMAIN
     if PRODUCTION
-    else 'https://localhost:8401'
+    else 'localhost:8401'
 )
 
 

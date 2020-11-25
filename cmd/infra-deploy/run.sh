@@ -2,6 +2,7 @@
 #!   nix-shell -i bash
 #!   nix-shell --keep ACME_EMAIL_ADDRESS
 #!   nix-shell --keep AWS_ACCESS_KEY_ID_TF
+#!   nix-shell --keep AWS_CLOUDFRONT_DOMAIN
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_TF
 #!   nix-shell --keep CF_DNS_API_TOKEN
 #!   nix-shell --keep GOOGLE_OAUTH_CLIENT_ID_SERVER

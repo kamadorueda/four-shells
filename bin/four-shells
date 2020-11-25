@@ -2,6 +2,7 @@
 #!   nix-shell -i bash
 #!   nix-shell --attr derivations.fourShells
 #!   nix-shell --keep AWS_ACCESS_KEY_ID_SERVER
+#!   nix-shell --keep AWS_CLOUDFRONT_DOMAIN
 #!   nix-shell --keep AWS_REGION
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_SERVER
 #!   nix-shell --keep GOOGLE_OAUTH_CLIENT_ID_SERVER

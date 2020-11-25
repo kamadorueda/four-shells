@@ -3,6 +3,7 @@
 function utils_server_ensure_configuration {
   local required_vars=(
     AWS_ACCESS_KEY_ID_SERVER
+    AWS_CLOUDFRONT_DOMAIN
     AWS_REGION
     AWS_SECRET_ACCESS_KEY_SERVER
     GOOGLE_OAUTH_CLIENT_ID_SERVER

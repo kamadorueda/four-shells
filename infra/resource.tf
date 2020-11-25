@@ -219,6 +219,10 @@ resource "aws_ecs_task_definition" "four_shells" {
           value = aws_iam_access_key.server.id
         },
         {
+          name  = "AWS_CLOUDFRONT_DOMAIN"
+          value = aws_cloudfront_distribution.four_shells_public_content.domain_name
+        },
+        {
           name  = "AWS_REGION"
           value = var.region
         },

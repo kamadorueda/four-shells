@@ -2,22 +2,22 @@ output "four_shells_lb_dns" {
   value = aws_lb.four_shells.dns_name
 }
 
-output "four_shells_public_content" {
-  value = aws_cloudfront_distribution.four_shells_public_content.domain_name
-}
-
-output "key_admin" {
+output "AWS_ACCESS_KEY_ID_ADMIN" {
   value = aws_iam_access_key.admin.id
 }
 
-output "key_server" {
+output "AWS_ACCESS_KEY_ID_SERVER" {
   value = aws_iam_access_key.server.id
 }
 
-output "secret_admin" {
+output "AWS_CLOUDFRONT_DOMAIN" {
+  value = aws_cloudfront_distribution.four_shells_public_content.domain_name
+}
+
+output "AWS_SECRET_ACCESS_KEY_ADMIN" {
   value = aws_iam_access_key.admin.secret
 }
 
-output "secret_server" {
+output "AWS_SECRET_ACCESS_KEY_SERVER" {
   value = aws_iam_access_key.server.secret
 }
