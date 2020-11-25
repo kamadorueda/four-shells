@@ -52,6 +52,49 @@ resource "aws_autoscaling_group" "four_shells" {
   ]
 }
 
+resource "aws_cloudfront_distribution" "four_shells_public_content" {
+  default_cache_behavior {
+    target_origin_id = "aws_s3_bucket.four_shells_public_content"
+    allowed_methods  = ["GET", "HEAD"]
+    cached_methods   = ["GET", "HEAD"]
+    compress         = true
+    default_ttl      = 60
+    forwarded_values {
+      query_string = false
+      cookies {
+        forward = "none"
+      }
+    }
+    max_ttl                = 60
+    min_ttl                = 60
+    smooth_streaming       = false
+    viewer_protocol_policy = "https-only"
+  }
+  enabled = true
+  origin {
+    domain_name = aws_s3_bucket.four_shells_public_content.bucket_regional_domain_name
+    origin_id   = "aws_s3_bucket.four_shells_public_content"
+    s3_origin_config {
+      origin_access_identity = aws_cloudfront_origin_access_identity.four_shells_public_content.cloudfront_access_identity_path
+    }
+  }
+  price_class = "PriceClass_100"
+  restrictions {
+    geo_restriction {
+      restriction_type = "none"
+    }
+  }
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "four_shells_public_content"
+  }
+  viewer_certificate {
+    cloudfront_default_certificate = true
+  }
+}
+
+resource "aws_cloudfront_origin_access_identity" "four_shells_public_content" {}
+
 resource "aws_cloudwatch_log_group" "four_shells" {
   # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group
   name              = "/four_shells"
@@ -499,6 +542,20 @@ resource "aws_subnet" "four_shells_public_b" {
     "Name"               = "four_shells_public_b"
   }
   vpc_id = aws_vpc.four_shells.id
+}
+
+resource "aws_s3_bucket" "four_shells_public_content" {
+  acl    = "private"
+  bucket = "four-shells-public-content"
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "four_shells_public_content"
+  }
+}
+
+resource "aws_s3_bucket_policy" "four_shells_public_content" {
+  bucket = aws_s3_bucket.four_shells_public_content.id
+  policy = data.aws_iam_policy_document.four_shells_public_content.json
 }
 
 resource "aws_vpc" "four_shells" {

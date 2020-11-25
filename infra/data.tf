@@ -5,6 +5,7 @@ data "aws_iam_policy_document" "admin" {
     effect = "Allow"
     actions = [
       "autoscaling:*",
+      "cloudfront:*",
       "dynamodb:*",
       "ec2:*",
       "ecr:*",
@@ -49,5 +50,19 @@ data "aws_iam_policy_document" "server" {
       "dynamodb:*",
     ]
     resources = ["*"]
+  }
+}
+
+data "aws_iam_policy_document" "four_shells_public_content" {
+  statement {
+    actions = ["s3:GetObject"]
+    effect  = "Allow"
+    principals {
+      identifiers = [
+        aws_cloudfront_origin_access_identity.four_shells_public_content.iam_arn
+      ]
+      type = "AWS"
+    }
+    resources = ["${aws_s3_bucket.four_shells_public_content.arn}/*"]
   }
 }

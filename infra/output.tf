@@ -2,6 +2,10 @@ output "four_shells_lb_dns" {
   value = aws_lb.four_shells.dns_name
 }
 
+output "four_shells_public_content" {
+  value = aws_cloudfront_distribution.four_shells_public_content.domain_name
+}
+
 output "key_admin" {
   value = aws_iam_access_key.admin.id
 }
