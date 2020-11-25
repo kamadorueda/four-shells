@@ -228,11 +228,11 @@ resource "aws_ecs_task_definition" "four_shells" {
         },
         {
           name  = "GOOGLE_OAUTH_CLIENT_ID_SERVER"
-          value = aws_iam_access_key.server.secret
+          value = var.google_oauth_client_id_server
         },
         {
           name  = "GOOGLE_OAUTH_SECRET_SERVER"
-          value = aws_iam_access_key.server.secret
+          value = var.google_oauth_secret_server
         },
         {
           name  = "PRODUCTION"

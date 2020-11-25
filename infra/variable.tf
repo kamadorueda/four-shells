@@ -11,6 +11,10 @@ variable "aws_secret_access_key" {}
 
 variable "cf_dns_api_token" {}
 
+variable "google_oauth_secret_server" {}
+
+variable "google_oauth_client_id_server" {}
+
 variable "region" {
   default = "us-east-1"
 }
