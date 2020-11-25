@@ -44,7 +44,7 @@ APP = Starlette(
     ],
     routes=[
         Route(
-            endpoint=handlers.home,
+            endpoint=handlers.index,
             methods=['GET'],
             path='/',
         ),
@@ -54,14 +54,14 @@ APP = Starlette(
         ),
         Route(
             endpoint=handlers.oauth_google_init,
-            path='/oauth/google/init',
             methods=['GET'],
+            path='/oauth/google/init',
         ),
         Route(
             endpoint=handlers.oauth_google_receive,
+            methods=['GET'],
             name='oauth_google_receive',
             path='/oauth/google/receive',
-            methods=['GET'],
         ),
         Route(
             endpoint=handlers.ping,
@@ -72,6 +72,7 @@ APP = Starlette(
             endpoint=handlers.schema,
             methods=['GET'],
             path='/schema',
-        )
+        ),
+
     ],
 )

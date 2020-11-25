@@ -10,8 +10,9 @@
 source "${srcBuildUtilsCtxLibSh}"
 
 function main {
-  export PYTHONPATH="${srcServer}/pkgs/cachipfs:${PYTHONPATH}"
-  export PYTHONPATH="${srcServer}/pkgs/four_shells:${PYTHONPATH}"
+  export PYTHONPATH="${srcServerPkgs}/cachipfs:${PYTHONPATH}"
+  export PYTHONPATH="${srcServerPkgs}/four_shells:${PYTHONPATH}"
+  export SERVER_PATH_PUBLIC="${srcServerPublic}"
   local pkgs=(
     server/pkgs/cachipfs/cachipfs
     server/pkgs/four_shells/four_shells

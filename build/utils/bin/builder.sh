@@ -1,12 +1,16 @@
 #  shellcheck shell=bash
 
 source "${stdenv}/setup"
+source "${srcBuildUtilsCtxLibSh}"
 
 mkdir "${out}"
 mkdir "${out}/bin"
+mkdir "${out}/build"
+mkdir "${out}/server"
 
 cp --no-target-directory --recursive "${srcBuild}" "${out}/build"
-cp --no-target-directory --recursive "${srcServer}" "${out}/server"
+cp --no-target-directory --recursive "${srcServerPkgs}" "${out}/server/pkgs"
+cp --no-target-directory --recursive "${srcServerPublic}" "${out}/server/public"
 
 {
   # Patch shebang
@@ -23,7 +27,8 @@ cp --no-target-directory --recursive "${srcServer}" "${out}/server"
     srcBuildUtilsServerLibSh \
     srcBuildUtilsCommonLibSh \
     srcBuildUtilsShoptsLibSh \
-    srcServer \
+    srcServerPkgs \
+    srcServerPublic \
 
   do
     echo "export ${var}='${!var}'"

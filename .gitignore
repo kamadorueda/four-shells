@@ -1,6 +1,8 @@
 # ._[a-z][0-9]*
 /infra/.terraform
 /infra/dependency-graph.svg
+/server/front/node_modules/
+/server/public/static/
 /**/.coverage
 /**/__pycache__
 /**/coverage

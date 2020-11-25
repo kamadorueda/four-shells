@@ -11,7 +11,7 @@ in
   nixpkgs.stdenv.mkDerivation (
        (import ../../build/utils/ctx)
     // (rec {
-      name = "image-deploy";
+      name = "oci";
 
       buildInputs = [
         awscli2

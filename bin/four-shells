@@ -6,6 +6,7 @@
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_SERVER
 #!   nix-shell --keep GOOGLE_OAUTH_CLIENT_ID_SERVER
 #!   nix-shell --keep GOOGLE_OAUTH_SECRET_SERVER
+#!   nix-shell --keep PRODUCTION
 #!   nix-shell --keep BURP
 #!   nix-shell --pure
 #!   nix-shell ../build/utils/bin
@@ -14,8 +15,9 @@
 source "${srcBuildUtilsCtxLibSh}"
 
 function main {
-  export PYTHONPATH="${srcServer}/pkgs/cachipfs:${PYTHONPATH}"
-  export PYTHONPATH="${srcServer}/pkgs/four_shells:${PYTHONPATH}"
+  export PYTHONPATH="${srcServerPkgs}/cachipfs:${PYTHONPATH}"
+  export PYTHONPATH="${srcServerPkgs}/four_shells:${PYTHONPATH}"
+  export SERVER_PATH_PUBLIC="${srcServerPublic}"
 
       utils_server_ensure_configuration \
   &&  utils_configure_proxy "${BURP:-}" \

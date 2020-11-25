@@ -48,9 +48,12 @@ async def on_startup() -> None:
     """Server startup script."""
 
 
-async def home(request: Request) -> Response:
-    """Route for /."""
-    return Response('Welcome!')
+def index(request: Request) -> Response:
+    return config.TPL.TemplateResponse('react.html', {
+        'css': config.from_cdn('/static/index.css'),
+        'js': config.from_cdn('/static/index.js'),
+        'request': request,
+    })
 
 
 async def oauth_google_init(request: Request) -> Response:

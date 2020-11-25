@@ -27,7 +27,8 @@ let
 
         srcBin = ../../../bin;
         srcBuild = ../../../build;
-        srcServer = ../../../server;
+        srcServerPkgs = ../../../server/pkgs;
+        srcServerPublic = ../../../server/public;
 
         shebang = "#! ${nixpkgs.bash}/bin/bash";
       })
