@@ -1,5 +1,15 @@
 # [Four shells](https://4shells.com)
 
+Website, server, infrastructure and orchestration for:
+
+- **CachIPFS**: Implementation of a Nix Binary Cache over IPFS,
+
+  Formerly: https://github.com/kamadorueda/nix-ipfs
+
+- **NixDB**: A database with Nix packages from all versions, all commits and all channels,
+
+  Formerly: https://github.com/kamadorueda/nixpkgs-db
+
 ## Philosophy
 
 - Dependencies as code:
