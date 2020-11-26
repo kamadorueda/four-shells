@@ -48,7 +48,13 @@ function main {
   &&  aws ecr get-login-password --region "${region}" \
         | docker login --username AWS --password-stdin "${registry}" \
   &&  echo "[INFO] Pushing: ${target}" \
-  &&  docker push "${target}"
+  &&  docker push "${target}" \
+  &&  echo "[INFO] Rolling out to production" \
+  &&  aws ecs update-service \
+        --cluster four_shells \
+        --force-new-deployment \
+        --service four_shells \
+
 }
 
 main "${@}"
