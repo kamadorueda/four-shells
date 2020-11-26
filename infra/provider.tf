@@ -3,9 +3,9 @@ provider "acme" {
 }
 
 provider "aws" {
-  access_key = var.aws_access_key_id
-  secret_key = var.aws_secret_access_key
-  region     = var.region
+  access_key = var.AWS_ACCESS_KEY_ID_TF
+  secret_key = var.AWS_SECRET_ACCESS_KEY_TF
+  region     = var.AWS_REGION
 }
 
 provider "tls" {}

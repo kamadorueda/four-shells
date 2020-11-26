@@ -32,8 +32,8 @@ APP = Starlette(
             https_only=config.PRODUCTION,
             max_age=config.SESSION_DURATION,
             same_site='lax',
-            secret_key=config.SERVER_STATE_COOKIE_SECRET,
-            session_cookie='four_shells_state',
+            secret_key=config.SESSION_SECRET,
+            session_cookie=config.SESSION_COOKIE,
         ),
     ],
     on_startup=[

@@ -9,6 +9,7 @@
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_SERVER
 #!   nix-shell --keep GOOGLE_OAUTH_CLIENT_ID_SERVER
 #!   nix-shell --keep GOOGLE_OAUTH_SECRET_SERVER
+#!   nix-shell --keep SERVER_SESSION_SECRET
 #!   nix-shell --pure
 #!   nix-shell ../../../cmd/server-deploy/back
 #  shellcheck shell=bash
@@ -18,9 +19,9 @@ source "${srcBuildUtilsCtxLibSh}"
 function main {
   export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_ADMIN}"
   export AWS_ACCOUNT_ID
+  export AWS_REGION
   export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_ADMIN}"
-  local region='us-east-1'
-  local registry="${AWS_ACCOUNT_ID}.dkr.ecr.${region}.amazonaws.com"
+  local registry="${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
   local target="${registry}/four_shells:latest"
 
       echo "[INFO] Loading: ${oci}" \
@@ -37,6 +38,7 @@ function main {
         --env "GOOGLE_OAUTH_CLIENT_ID_SERVER=${GOOGLE_OAUTH_CLIENT_ID_SERVER}" \
         --env "GOOGLE_OAUTH_SECRET_SERVER=${GOOGLE_OAUTH_SECRET_SERVER}" \
         --env "PRODUCTION=true" \
+        --env "SERVER_SESSION_SECRET=${SERVER_SESSION_SECRET}" \
         --publish 8400:8400 \
         --tty \
         "${target}" \
@@ -45,7 +47,7 @@ function main {
   &&  read -N 1 -p '[INFO] Press any key to deploy production server' -r \
   &&  echo \
   &&  echo "[INFO] Authenticating to: ${registry}" \
-  &&  aws ecr get-login-password --region "${region}" \
+  &&  aws ecr get-login-password --region "${AWS_REGION}" \
         | docker login --username AWS --password-stdin "${registry}" \
   &&  echo "[INFO] Pushing: ${target}" \
   &&  docker push "${target}" \

@@ -5,14 +5,14 @@ resource "acme_certificate" "four_shells" {
   dns_challenge {
     provider = "cloudflare"
     config = {
-      CF_DNS_API_TOKEN = var.cf_dns_api_token
+      CF_DNS_API_TOKEN = var.CF_DNS_API_TOKEN
     }
   }
 }
 
 resource "acme_registration" "four_shells" {
   account_key_pem = tls_private_key.four_shells_registry.private_key_pem
-  email_address   = var.acme_email_address
+  email_address   = var.ACME_EMAIL_ADDRESS
 }
 
 resource "aws_autoscaling_group" "four_shells" {
@@ -167,7 +167,7 @@ resource "aws_ecs_cluster" "four_shells" {
   default_capacity_provider_strategy {
     capacity_provider = aws_ecs_capacity_provider.four_shells.name
   }
-  name = var.aws_ecs_cluster_name
+  name = var.AWS_ECS_CLUSTER_NAME
   tags = {
     "management:product" = "four_shells"
     "Name"               = "four_shells"
@@ -223,7 +223,7 @@ resource "aws_ecs_task_definition" "four_shells" {
         },
         {
           name  = "AWS_REGION"
-          value = var.region
+          value = var.AWS_REGION
         },
         {
           name  = "AWS_SECRET_ACCESS_KEY_SERVER"
@@ -231,15 +231,19 @@ resource "aws_ecs_task_definition" "four_shells" {
         },
         {
           name  = "GOOGLE_OAUTH_CLIENT_ID_SERVER"
-          value = var.google_oauth_client_id_server
+          value = var.GOOGLE_OAUTH_CLIENT_ID_SERVER
         },
         {
           name  = "GOOGLE_OAUTH_SECRET_SERVER"
-          value = var.google_oauth_secret_server
+          value = var.GOOGLE_OAUTH_SECRET_SERVER
         },
         {
           name  = "PRODUCTION"
           value = "true"
+        },
+        {
+          name  = "SERVER_SESSION_SECRET"
+          value = var.SERVER_SESSION_SECRET
         },
       ]
       essential = true
@@ -248,7 +252,7 @@ resource "aws_ecs_task_definition" "four_shells" {
         logDriver = "awslogs"
         options = {
           awslogs-group         = aws_cloudwatch_log_stream.four_shells.log_group_name
-          awslogs-region        = var.region
+          awslogs-region        = var.AWS_REGION
           awslogs-stream-prefix = aws_cloudwatch_log_stream.four_shells.name
         }
       }
@@ -390,7 +394,7 @@ resource "aws_launch_configuration" "four_shells" {
   security_groups = [
     aws_security_group.four_shells_ecs.id,
   ]
-  user_data = "#!/bin/bash\necho ECS_CLUSTER=${var.aws_ecs_cluster_name} >> /etc/ecs/ecs.config"
+  user_data = "#!/bin/bash\necho ECS_CLUSTER=${var.AWS_ECS_CLUSTER_NAME} >> /etc/ecs/ecs.config"
 }
 
 resource "aws_lb" "four_shells" {
@@ -528,7 +532,7 @@ resource "aws_security_group" "four_shells_lb" {
 }
 
 resource "aws_subnet" "four_shells_public_a" {
-  availability_zone = "${var.region}a"
+  availability_zone = "${var.AWS_REGION}a"
   cidr_block        = "10.0.0.0/18"
   tags = {
     "management:product" = "four_shells"
@@ -538,7 +542,7 @@ resource "aws_subnet" "four_shells_public_a" {
 }
 
 resource "aws_subnet" "four_shells_public_b" {
-  availability_zone = "${var.region}b"
+  availability_zone = "${var.AWS_REGION}b"
   cidr_block        = "10.0.64.0/18"
   tags = {
     "management:product" = "four_shells"

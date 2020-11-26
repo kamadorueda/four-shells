@@ -16,8 +16,9 @@ PRODUCTION: bool = 'PRODUCTION' in environ
 GOOGLE_OAUTH_CLIENT_ID_SERVER: str = environ['GOOGLE_OAUTH_CLIENT_ID_SERVER']
 GOOGLE_OAUTH_SECRET_SERVER: str = environ['GOOGLE_OAUTH_SECRET_SERVER']
 SERVER_PATH_PUBLIC: str = environ['SERVER_PATH_PUBLIC']
-SERVER_STATE_COOKIE_SECRET: str = secrets.token_hex(64)
+SESSION_SECRET: str = environ['SERVER_SESSION_SECRET']
 SESSION_DURATION: int = 86400
+SESSION_COOKIE: str = 'four_shells_session'
 
 # Derived
 CDN: str = 'https://' + (

@@ -1,23 +1,23 @@
 
-variable "acme_email_address" {}
+variable "ACME_EMAIL_ADDRESS" {}
 
-variable "aws_access_key_id" {}
+variable "AWS_ACCESS_KEY_ID_TF" {}
 
-variable "aws_ecs_cluster_name" {
+variable "AWS_ECS_CLUSTER_NAME" {
   default = "four_shells"
 }
 
-variable "aws_secret_access_key" {}
+variable "AWS_REGION" {}
 
-variable "cf_dns_api_token" {}
+variable "AWS_SECRET_ACCESS_KEY_TF" {}
 
-variable "google_oauth_secret_server" {}
+variable "CF_DNS_API_TOKEN" {}
 
-variable "google_oauth_client_id_server" {}
+variable "GOOGLE_OAUTH_SECRET_SERVER" {}
 
-variable "region" {
-  default = "us-east-1"
-}
+variable "GOOGLE_OAUTH_CLIENT_ID_SERVER" {}
+
+variable "SERVER_SESSION_SECRET" {}
 
 variable "service_replicas" {
   default = 1

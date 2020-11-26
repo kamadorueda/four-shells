@@ -8,6 +8,8 @@ function utils_server_ensure_configuration {
     AWS_SECRET_ACCESS_KEY_SERVER
     GOOGLE_OAUTH_CLIENT_ID_SERVER
     GOOGLE_OAUTH_SECRET_SERVER
+    SERVER_PATH_PUBLIC
+    SERVER_SESSION_SECRET
   )
 
       echo 'Configuration:' \

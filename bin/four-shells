@@ -8,6 +8,7 @@
 #!   nix-shell --keep GOOGLE_OAUTH_CLIENT_ID_SERVER
 #!   nix-shell --keep GOOGLE_OAUTH_SECRET_SERVER
 #!   nix-shell --keep PRODUCTION
+#!   nix-shell --keep SERVER_SESSION_SECRET
 #!   nix-shell --keep BURP
 #!   nix-shell --pure
 #!   nix-shell ../build/utils/bin
