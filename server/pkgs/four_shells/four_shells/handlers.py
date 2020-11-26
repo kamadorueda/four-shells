@@ -52,6 +52,8 @@ async def on_startup() -> None:
 
 
 def index(request: Request) -> Response:
+    request.session.clear()
+
     return config.TPL.TemplateResponse('react.html', {
         'js': config.from_cdn('/static/index.js'),
         'request': request,
