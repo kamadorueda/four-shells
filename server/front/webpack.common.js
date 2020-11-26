@@ -7,7 +7,7 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const common = {
   entry: {
     index: "./src/index.jsx",
-    dashboard: "./src/dashboard.jsx",
+    console: "./src/console.jsx",
   },
   module: {
     rules: [
@@ -99,10 +99,10 @@ const dev = {
       "webpack/hot/only-dev-server",
       "./src/index.jsx",
     ],
-    dashboard: [
+    console: [
       "webpack-dev-server/client?https://localhost:8401",
       "webpack/hot/only-dev-server",
-      "./src/dashboard.jsx",
+      "./src/console.jsx",
     ],
   },
   mode: "development",

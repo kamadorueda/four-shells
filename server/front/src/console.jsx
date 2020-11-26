@@ -3,9 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Local
-import { Dashboard } from './components/Dashboard';
+import { Console } from './components/Console';
 
 ReactDOM.render(
-  React.createElement(Dashboard),
+  React.createElement(Console),
   document.getElementById("root"),
 );

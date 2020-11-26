@@ -49,10 +49,10 @@ APP = Starlette(
             path='/',
         ),
         Route(
-            endpoint=handlers.dashboard,
+            endpoint=handlers.console,
             methods=['GET'],
-            name='dashboard',
-            path='/dashboard',
+            name='console',
+            path='/console',
         ),
         Mount(
             app=cachipfs.asgi.APP,
