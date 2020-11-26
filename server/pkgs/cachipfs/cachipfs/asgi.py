@@ -2,26 +2,40 @@
 
 # Third party libraries
 from starlette.routing import (
-    Mount,
     Route,
-    Router,
+)
+from starlette.applications import (
+    Starlette,
 )
 
 # Local libraries
-import cachipfs.handlers
-import cachipfs.api.asgi
+from cachipfs import (
+    handlers,
+)
 
 # Constants
-APP = Router(
+APP = Starlette(
+    on_startup=[
+        handlers.on_startup,
+    ],
+    on_shutdown=[
+        handlers.on_shutdown,
+    ],
     routes=[
         Route(
-            path='/',
-            endpoint=cachipfs.handlers.home,
+            path='/v1/hash/{hash:str}',
+            endpoint=handlers.api_delete_hash,
+            methods=['DELETE'],
+        ),
+        Route(
+            path='/v1/hash/{hash:str}',
+            endpoint=handlers.api_get_hash,
             methods=['GET'],
         ),
-        Mount(
-            path='/api/v1',
-            app=cachipfs.api.asgi.APP,
-        )
+        Route(
+            path='/v1/hash/{hash:str}/cid/{cid:str}',
+            endpoint=handlers.api_set_hash,
+            methods=['POST'],
+        ),
     ],
 )

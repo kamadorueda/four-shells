@@ -92,7 +92,7 @@ const common = {
 
 const dev = {
   ...common,
-  devtool: "cheap-module-source-map",
+  devtool: "source-map",
   entry: {
     index: [
       "webpack-dev-server/client?https://localhost:8401",
@@ -114,7 +114,7 @@ const dev = {
   },
   output: {
     ...common.output,
-    publicPath: "https://localhost:8401/static",
+    publicPath: "https://localhost:8401/static/",
   },
   plugins: [
     ...common.plugins,

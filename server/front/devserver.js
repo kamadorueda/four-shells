@@ -28,6 +28,7 @@ const serverConfig = {
   sockHost: HOST,
   sockPort: PORT,
   stats: devConfig.stats,
+  watchContentBase: true,
 };
 
 const devServer = new WebpackDevServer(

@@ -1,5 +1,8 @@
 """Application route handlers."""
 
+# Standard library
+import json
+
 # Third party libraries
 from authlib.integrations.starlette_client import (
     OAuth,
@@ -8,7 +11,7 @@ from starlette.requests import (
     Request,
 )
 from starlette.responses import (
-    Response,
+    RedirectResponse, Response,
 )
 from starlette.schemas import (
     SchemaGenerator,
@@ -53,6 +56,16 @@ def index(request: Request) -> Response:
         'css': config.from_cdn('/static/index.css'),
         'js': config.from_cdn('/static/index.js'),
         'request': request,
+        'state': json.dumps(request.session),
+    })
+
+
+def dashboard(request: Request) -> Response:
+    return config.TPL.TemplateResponse('react.html', {
+        'css': config.from_cdn('/static/dashboard.css'),
+        'js': config.from_cdn('/static/dashboard.js'),
+        'request': request,
+        'state': json.dumps(request.session),
     })
 
 
@@ -69,7 +82,7 @@ async def oauth_google_receive(request: Request) -> Response:
 
     request.session['email'] = data['email']
 
-    return Response(f'{data}')
+    return RedirectResponse(request.url_for('dashboard'))
 
 
 async def ping(request: Request) -> Response:

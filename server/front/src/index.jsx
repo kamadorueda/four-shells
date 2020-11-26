@@ -1,13 +1,9 @@
+// Third party
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Index = () => {
-  return (
-    <React.StrictMode>
-      <h1>Welcome!!</h1>
-    </React.StrictMode>
-  );
-}
+// Local
+import { Index } from './components/Index';
 
 ReactDOM.render(
   React.createElement(Index),

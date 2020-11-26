@@ -30,7 +30,7 @@ APP = Starlette(
         Middleware(
             cls=SessionMiddleware,
             https_only=config.PRODUCTION,
-            max_age=300,
+            max_age=config.SESSION_DURATION,
             same_site='lax',
             secret_key=config.SERVER_STATE_COOKIE_SECRET,
             session_cookie='four_shells_state',
@@ -48,9 +48,15 @@ APP = Starlette(
             methods=['GET'],
             path='/',
         ),
+        Route(
+            endpoint=handlers.dashboard,
+            methods=['GET'],
+            name='dashboard',
+            path='/dashboard',
+        ),
         Mount(
             app=cachipfs.asgi.APP,
-            path='/cachipfs',
+            path='/api/cachipfs',
         ),
         Route(
             endpoint=handlers.oauth_google_init,
