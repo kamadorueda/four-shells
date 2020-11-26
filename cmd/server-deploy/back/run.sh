@@ -42,7 +42,7 @@ function main {
         "${target}" \
         four-shells \
   &&  echo \
-  &&  read -N 1 -p '[INFO] Press any key to deploy production server' \
+  &&  read -N 1 -p '[INFO] Press any key to deploy production server' -r \
   &&  echo \
   &&  echo "[INFO] Authenticating to: ${registry}" \
   &&  aws ecr get-login-password --region "${region}" \

@@ -10,6 +10,7 @@ function main {
       echo "[INFO] Linting" \
   &&  find '.' \
         -name '*.sh' \
+        -not -wholename '*/node_modules/*' \
         -exec \
           shellcheck \
             --exclude SC1090,SC2154 \
