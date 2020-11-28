@@ -11,6 +11,7 @@ from starlette.requests import (
     Request,
 )
 from starlette.responses import (
+    JSONResponse,
     Response,
 )
 
@@ -32,7 +33,7 @@ async def namespaces_create(request: Request) -> Response:
     token_write: str = create_secret()
 
     try:
-        success: bool = await persistence.update(
+        await persistence.update(
             ConditionExpression=Attr('id').not_exists(),
             ExpressionAttributeNames={
                 '#name': 'name',
@@ -56,9 +57,11 @@ async def namespaces_create(request: Request) -> Response:
         )
 
     except ClientError as exc:
-        if exc.response['Error']['Code'] == 'ConditionalCheckFailedException':
-            success = False
-        else:
-            raise exc
+        raise exc
 
-    return success
+    return JSONResponse({
+        'id': ns_id,
+        'name': name,
+        'token_read': token_read,
+        'token_write': token_write,
+    })
