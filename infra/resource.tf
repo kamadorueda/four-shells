@@ -132,6 +132,7 @@ resource "aws_dynamodb_table" "cachipfs_namespaces" {
   # (id): {
   #   account: str
   #   name: int
+  #   token_admin: str
   #   token_read: str
   #   token_write: str
   # }

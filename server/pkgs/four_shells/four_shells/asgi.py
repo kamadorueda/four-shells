@@ -41,6 +41,11 @@ APP = Starlette(
     ],
     routes=[
         Route(
+            endpoint=four_shells.cachipfs.handlers.namespace_rotate,
+            methods=['POST'],
+            path='/api/v1/cachipfs/namespace/{id:str}/rotate/{entity:str}',
+        ),
+        Route(
             endpoint=four_shells.cachipfs.handlers.namespaces_create,
             methods=['POST'],
             path='/api/v1/cachipfs/namespace/{name:str}',

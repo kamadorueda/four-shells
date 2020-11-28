@@ -22,7 +22,7 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 
 // Local libraries
-import { useGet } from '../../api';
+import { useGet, usePost } from '../../api';
 import { CopyToClipboard } from '../CopyToClipboard';
 
 const useStyles = makeStyles((theme) => ({
@@ -34,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
 export const Namespace = () => {
   const { id } = useParams();
   const classes = useStyles();
+  const [visibleA, setVisibleA] = useState(false);
   const [visibleR, setVisibleR] = useState(false);
   const [visibleW, setVisibleW] = useState(false);
 
@@ -43,8 +44,26 @@ export const Namespace = () => {
     data: namespaceGetData,
     loading: namespaceLoading,
   } = useGet('/api/v1/cachipfs/namespace/{id}', {}, { id });
+  const {
+    call: namespacePost,
+  } = usePost('/api/v1/cachipfs/namespace/{id}/rotate/{entity}', {});
 
   // Handlers
+  const rotateAOnClick = () => {
+    namespacePost({ id, entity: 'token_admin'});
+    setTimeout(namespaceGet, 2000);
+  };
+  const rotateROnClick = () => {
+    namespacePost({ id, entity: 'token_read'});
+    setTimeout(namespaceGet, 2000);
+  };
+  const rotateWOnClick = () => {
+    namespacePost({ id, entity: 'token_write'});
+    setTimeout(namespaceGet, 2000);
+  };
+  const visibleAOnClick = () => {
+    setVisibleA(!visibleA);
+  };
   const visibleROnClick = () => {
     setVisibleR(!visibleR);
   };
@@ -92,7 +111,7 @@ export const Namespace = () => {
                 <FileCopyOutlined />
               </IconButton>
             </CopyToClipboard>
-            <IconButton>
+            <IconButton onClick={rotateROnClick}>
               <CachedOutlined />
             </IconButton>
           </CardActions>
@@ -117,7 +136,32 @@ export const Namespace = () => {
                 <FileCopyOutlined />
               </IconButton>
             </CopyToClipboard>
-            <IconButton>
+            <IconButton onClick={rotateWOnClick}>
+              <CachedOutlined />
+            </IconButton>
+          </CardActions>
+        </Card>
+        <br />
+        <Card>
+          <CardHeader
+            avatar={<Avatar><VpnKeyOutlined /></Avatar>}
+            title="Admin Access Token"
+          />
+          <CardContent>
+            <Typography variant="body2" color="textSecondary" component="p">
+              {visibleA ? namespaceGetData.token_admin : '*'.repeat(32)}
+            </Typography>
+          </CardContent>
+          <CardActions disableSpacing>
+            <IconButton onClick={visibleAOnClick} >
+              {visibleA ? <VisibilityOffOutlined /> : <VisibilityOutlined />}
+            </IconButton>
+            <CopyToClipboard content={namespaceGetData.token_admin}>
+              <IconButton>
+                <FileCopyOutlined />
+              </IconButton>
+            </CopyToClipboard>
+            <IconButton onClick={rotateAOnClick}>
               <CachedOutlined />
             </IconButton>
           </CardActions>

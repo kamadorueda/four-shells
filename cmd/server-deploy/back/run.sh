@@ -56,6 +56,7 @@ function main {
         --cluster four_shells \
         --force-new-deployment \
         --service four_shells \
+      | cat \
 
 }
 

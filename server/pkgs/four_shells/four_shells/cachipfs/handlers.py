@@ -27,16 +27,21 @@ from four_shells import (
     authz,
     persistence,
 )
-from four_shells.utils import (
+from four_shells.utils.errors import (
+    api_error_boundary,
+)
+from four_shells.utils.security import (
     create_secret,
 )
 
 
+@api_error_boundary
 @authz.requires_session
 async def namespaces_create(request: Request) -> Response:
     account: str = request.session['email']
     name: str = request.path_params['name']
     ns_id: str = create_secret()
+    token_admin: str = create_secret()
     token_read: str = create_secret()
     token_write: str = create_secret()
 
@@ -46,12 +51,14 @@ async def namespaces_create(request: Request) -> Response:
             ExpressionAttributeNames={
                 '#account': 'account',
                 '#name': 'name',
+                '#token_admin': 'token_admin',
                 '#token_read': 'token_read',
                 '#token_write': 'token_write',
             },
             ExpressionAttributeValues={
                 ':account': account,
                 ':name': name,
+                ':token_admin': token_admin,
                 ':token_read': token_read,
                 ':token_write': token_write,
             },
@@ -62,6 +69,7 @@ async def namespaces_create(request: Request) -> Response:
             UpdateExpression=(
                 'SET #account = :account,'
                 '    #name = :name,'
+                '    #token_admin = :token_admin,'
                 '    #token_read = :token_read,'
                 '    #token_write = :token_write'
             ),
@@ -73,6 +81,7 @@ async def namespaces_create(request: Request) -> Response:
     return JSONResponse({'id': ns_id})
 
 
+@api_error_boundary
 @authz.requires_session
 async def namespaces_delete(request: Request) -> Response:
     ns_id: str = request.path_params['id']
@@ -91,6 +100,7 @@ async def namespaces_delete(request: Request) -> Response:
     return JSONResponse({'ok': success})
 
 
+@api_error_boundary
 @authz.requires_session
 async def namespaces_get(request: Request) -> Response:
     ns_id: str = request.path_params['id']
@@ -107,6 +117,7 @@ async def namespaces_get(request: Request) -> Response:
     return JSONResponse(namespace)
 
 
+@api_error_boundary
 @authz.requires_session
 async def namespaces_list(request: Request) -> Response:
     account: str = request.session['email']
@@ -128,3 +139,35 @@ async def namespaces_list(request: Request) -> Response:
         }
         for namespace in namespaces
     ])
+
+
+@api_error_boundary
+@authz.requires_session
+async def namespace_rotate(request: Request) -> Response:
+    ns_id: str = request.path_params['id']
+    entity: str = request.path_params['entity']
+
+    if entity not in {
+        'token_admin',
+        'token_read',
+        'token_write',
+    }:
+        raise ValueError('Invalid token entity')
+
+    try:
+        await persistence.update(
+            ExpressionAttributeNames={
+                '#entity': entity,
+            },
+            ExpressionAttributeValues={
+                ':entity': create_secret(),
+            },
+            Key={'id': ns_id},
+            table=persistence.TableEnum.cachipfs_namespaces,
+            UpdateExpression='SET #entity = :entity',
+        )
+
+    except ClientError as exc:
+        raise exc
+
+    return JSONResponse({'ok': True})

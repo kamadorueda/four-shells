@@ -57,7 +57,7 @@ def test_client_with_session(test_account_email: str) -> TestClient:
 
 
 @pytest.fixture(autouse=True, scope='function')
-def test_client_with_session_raiser(test_account_email: str) -> TestClient:
+def test_client_session(test_account_email: str) -> TestClient:
     client = TestClient(asgi.APP)
     _login(client, test_account_email)
 
