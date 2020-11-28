@@ -17,6 +17,9 @@ const common = {
         use: {
           loader: 'babel-loader',
           options: {
+            plugins: [
+              ["@babel/transform-runtime"],
+            ],
             presets: [
               '@babel/preset-env',
               '@babel/preset-react',

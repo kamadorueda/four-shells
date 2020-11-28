@@ -109,4 +109,10 @@ async def namespaces_list(request: Request) -> Response:
     except ClientError as exc:
         raise exc
 
-    return JSONResponse([namespace['id'] for namespace in namespaces])
+    return JSONResponse([
+        {
+            'id': namespace['id'],
+            'name': namespace['name'],
+        }
+        for namespace in namespaces
+    ])

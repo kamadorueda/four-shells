@@ -1,4 +1,5 @@
 // Third party
+import { SnackbarProvider } from 'notistack';
 import React from 'react';
 import {
   BrowserRouter as Router,
@@ -32,14 +33,16 @@ export const Console = () => {
     <React.StrictMode>
       <CssBaseline />
       <div className={classes.root}>
-        <Router basename="/console">
-          <ConsoleAppBar />
-          <Switch>
-            <Route path="/cachipfs" component={CachIPFS} />
-            <Redirect to="/cachipfs" />
-          </Switch>
-          <Copyright />
-        </Router>
+        <SnackbarProvider maxSnack={3}>
+          <Router basename="/console">
+            <ConsoleAppBar />
+            <Switch>
+              <Route path="/cachipfs" component={CachIPFS} />
+              <Redirect to="/cachipfs" />
+            </Switch>
+            <Copyright />
+          </Router>
+        </SnackbarProvider>
       </div>
     </React.StrictMode>
   );

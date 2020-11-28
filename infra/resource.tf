@@ -145,10 +145,11 @@ resource "aws_dynamodb_table" "cachipfs_namespaces" {
   }
   billing_mode = "PAY_PER_REQUEST"
   global_secondary_index {
-    hash_key        = "account"
-    name            = "account__id"
-    projection_type = "KEYS_ONLY"
-    range_key       = "id"
+    hash_key           = "account"
+    name               = "account__id"
+    non_key_attributes = ["name"]
+    projection_type    = "INCLUDE"
+    range_key          = "id"
   }
   hash_key = "id"
   name     = "cachipfs_namespaces"
