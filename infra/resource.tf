@@ -112,6 +112,10 @@ resource "aws_cloudwatch_log_stream" "four_shells" {
 }
 
 resource "aws_dynamodb_table" "accounts" {
+  # (email): {
+  #   balance: int
+  #   cachipfs_namespaces: List[str]
+  # }
   attribute {
     name = "email"
     type = "S"
@@ -122,6 +126,25 @@ resource "aws_dynamodb_table" "accounts" {
   tags = {
     "management:product" = "four_shells"
     "Name"               = "accounts"
+  }
+}
+
+resource "aws_dynamodb_table" "cachipfs_namespaces" {
+  # (id): {
+  #   name: int
+  #   token_read: str
+  #   token_write: str
+  # }
+  attribute {
+    name = "id"
+    type = "S"
+  }
+  billing_mode = "PAY_PER_REQUEST"
+  hash_key     = "id"
+  name         = "cachipfs_namespaces"
+  tags = {
+    "management:product" = "cachipfs"
+    "Name"               = "cachipfs_namespaces"
   }
 }
 
