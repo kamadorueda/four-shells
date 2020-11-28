@@ -70,11 +70,7 @@ async def namespaces_create(request: Request) -> Response:
     except ClientError as exc:
         raise exc
 
-    return JSONResponse({
-        'id': ns_id,
-        'token_read': token_read,
-        'token_write': token_write,
-    })
+    return JSONResponse({'id': ns_id})
 
 
 @authz.requires_session
@@ -93,6 +89,22 @@ async def namespaces_delete(request: Request) -> Response:
         raise exc
 
     return JSONResponse({'ok': success})
+
+
+@authz.requires_session
+async def namespaces_get(request: Request) -> Response:
+    ns_id: str = request.path_params['id']
+
+    try:
+        namespace = await persistence.get(
+            Key={'id': ns_id},
+            table=persistence.TableEnum.cachipfs_namespaces,
+        )
+
+    except ClientError as exc:
+        raise exc
+
+    return JSONResponse(namespace)
 
 
 @authz.requires_session
