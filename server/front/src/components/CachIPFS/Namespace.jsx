@@ -23,6 +23,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 // Local libraries
 import { useGet } from '../../api';
+import { CopyToClipboard } from '../CopyToClipboard';
 
 const useStyles = makeStyles((theme) => ({
   listNested: {
@@ -84,11 +85,13 @@ export const Namespace = () => {
           </CardContent>
           <CardActions disableSpacing>
             <IconButton onClick={visibleROnClick} >
-              {visibleR ? <VisibilityOutlined /> : <VisibilityOffOutlined />}
+              {visibleR ? <VisibilityOffOutlined /> : <VisibilityOutlined />}
             </IconButton>
-            <IconButton>
-              <FileCopyOutlined />
-            </IconButton>
+            <CopyToClipboard content={namespaceGetData.token_read}>
+              <IconButton>
+                <FileCopyOutlined />
+              </IconButton>
+            </CopyToClipboard>
             <IconButton>
               <CachedOutlined />
             </IconButton>
@@ -107,11 +110,13 @@ export const Namespace = () => {
           </CardContent>
           <CardActions disableSpacing>
             <IconButton onClick={visibleWOnClick} >
-              {visibleW ? <VisibilityOutlined /> : <VisibilityOffOutlined />}
+              {visibleW ? <VisibilityOffOutlined /> : <VisibilityOutlined />}
             </IconButton>
-            <IconButton>
-              <FileCopyOutlined />
-            </IconButton>
+            <CopyToClipboard content={namespaceGetData.token_write}>
+              <IconButton>
+                <FileCopyOutlined />
+              </IconButton>
+            </CopyToClipboard>
             <IconButton>
               <CachedOutlined />
             </IconButton>

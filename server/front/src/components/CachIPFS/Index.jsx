@@ -55,7 +55,7 @@ export const Index = () => {
   const namespaceOnCreate = () => {
     setNamespaceCreateIsOpen(false);
     namespacePost({ name: namespaceCreateName });
-    namespacesGet();
+    setTimeout(namespacesGet, 2000);
     setNamespaceCreateName("");
   };
   const namespaceCreateOnChangeName = (event) => {
