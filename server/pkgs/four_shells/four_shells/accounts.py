@@ -19,26 +19,22 @@ from four_shells import (
 
 async def ensure_account_exists(*, email: str) -> bool:
     balance: int = 1_000_000
-    cachipfs_namespaces: List[str] = []
 
     try:
         success: bool = await persistence.update(
             ConditionExpression=Attr('email').not_exists(),
             ExpressionAttributeNames={
                 '#balance': 'balance',
-                '#cachipfs_namespaces': 'cachipfs_namespaces',
             },
             ExpressionAttributeValues={
                 ':balance': balance,
-                ':cachipfs_namespaces': cachipfs_namespaces,
             },
             Key={
-                'email': email.lower(),
+                'email': email,
             },
             table=persistence.TableEnum.accounts,
             UpdateExpression=(
-                'SET #balance = :balance,'
-                '    #cachipfs_namespaces = :cachipfs_namespaces'
+                'SET #balance = :balance'
             ),
         )
 

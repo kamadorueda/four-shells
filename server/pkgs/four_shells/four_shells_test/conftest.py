@@ -19,6 +19,15 @@ from four_shells import (
     config,
 )
 
+def _login(client: TestClient, email: str) -> None:
+    signer = TimestampSigner(config.SESSION_SECRET)
+
+    session_cookie = signer.sign(b64encode(json.dumps({
+        'email': email,
+    }).encode())).decode()
+
+    client.cookies[config.SESSION_COOKIE] = session_cookie
+
 
 @pytest.fixture(autouse=True, scope='session')
 def test_account_email() -> str:
@@ -33,14 +42,23 @@ def test_client() -> TestClient:
 
 
 @pytest.fixture(autouse=True, scope='function')
+def test_client_raiser() -> TestClient:
+    client = TestClient(asgi.APP)
+
+    return client
+
+
+@pytest.fixture(autouse=True, scope='function')
 def test_client_with_session(test_account_email: str) -> TestClient:
     client = TestClient(asgi.APP, raise_server_exceptions=False)
-    signer = TimestampSigner(config.SESSION_SECRET)
+    _login(client, test_account_email)
 
-    session_cookie = signer.sign(b64encode(json.dumps({
-        'email': test_account_email,
-    }).encode())).decode()
+    return client
 
-    client.cookies[config.SESSION_COOKIE] = session_cookie
+
+@pytest.fixture(autouse=True, scope='function')
+def test_client_with_session_raiser(test_account_email: str) -> TestClient:
+    client = TestClient(asgi.APP)
+    _login(client, test_account_email)
 
     return client

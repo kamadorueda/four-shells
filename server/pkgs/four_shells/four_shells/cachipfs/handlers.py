@@ -27,6 +27,7 @@ from four_shells.utils import (
 
 @authz.requires_session
 async def namespaces_create(request: Request) -> Response:
+    account: str = request.session['email']
     name: str = request.path_params['name']
     ns_id: str = create_secret()
     token_read: str = create_secret()
@@ -36,11 +37,13 @@ async def namespaces_create(request: Request) -> Response:
         await persistence.update(
             ConditionExpression=Attr('id').not_exists(),
             ExpressionAttributeNames={
+                '#account': 'account',
                 '#name': 'name',
                 '#token_read': 'token_read',
                 '#token_write': 'token_write',
             },
             ExpressionAttributeValues={
+                ':account': account,
                 ':name': name,
                 ':token_read': token_read,
                 ':token_write': token_write,
@@ -48,10 +51,11 @@ async def namespaces_create(request: Request) -> Response:
             Key={
                 'id': ns_id,
             },
-            table=persistence.TableEnum.accounts,
+            table=persistence.TableEnum.cachipfs_namespaces,
             UpdateExpression=(
-                'SET #name = :name,'
-                '    #token_read = :token_read'
+                'SET #account = :account,'
+                '    #name = :name,'
+                '    #token_read = :token_read,'
                 '    #token_write = :token_write'
             ),
         )
@@ -61,7 +65,6 @@ async def namespaces_create(request: Request) -> Response:
 
     return JSONResponse({
         'id': ns_id,
-        'name': name,
         'token_read': token_read,
         'token_write': token_write,
     })

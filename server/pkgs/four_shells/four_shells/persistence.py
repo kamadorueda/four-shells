@@ -34,6 +34,7 @@ RESOURCE: Any = boto3.resource(
 
 class TableEnum(Enum):
     accounts: str = 'accounts'
+    cachipfs_namespaces: str = 'cachipfs_namespaces'
 
 
 # References:
