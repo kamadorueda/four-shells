@@ -12,32 +12,33 @@ from boto3.dynamodb.conditions import (
 )
 
 # Local libraries
-from cachipfs import (
+from four_shells import (
     persistence,
 )
 
 
 async def ensure_account_exists(*, email: str) -> bool:
     balance: int = 1_000_000
-    namespaces: List[str] = []
+    cachipfs_namespaces: List[str] = []
 
     try:
         success: bool = await persistence.update(
             ConditionExpression=Attr('email').not_exists(),
             ExpressionAttributeNames={
                 '#balance': 'balance',
-                '#namespaces': 'namespaces',
+                '#cachipfs_namespaces': 'cachipfs_namespaces',
             },
             ExpressionAttributeValues={
                 ':balance': balance,
-                ':namespaces': namespaces,
+                ':cachipfs_namespaces': cachipfs_namespaces,
             },
             Key={
                 'email': email.lower(),
             },
             table=persistence.TableEnum.accounts,
             UpdateExpression=(
-                'SET #balance = :balance, #namespaces = :namespaces'
+                'SET #balance = :balance,'
+                '    #cachipfs_namespaces = :cachipfs_namespaces'
             ),
         )
 

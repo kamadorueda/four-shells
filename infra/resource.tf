@@ -111,6 +111,20 @@ resource "aws_cloudwatch_log_stream" "four_shells" {
   name           = "four_shells"
 }
 
+resource "aws_dynamodb_table" "accounts" {
+  attribute {
+    name = "email"
+    type = "S"
+  }
+  billing_mode = "PAY_PER_REQUEST"
+  hash_key     = "email"
+  name         = "accounts"
+  tags = {
+    "management:product" = "four_shells"
+    "Name"               = "accounts"
+  }
+}
+
 resource "aws_ecr_repository" "four_shells" {
   # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository
   name = "four_shells"

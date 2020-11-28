@@ -20,6 +20,7 @@ from starlette.schemas import (
 
 # Local libraries
 from four_shells import (
+    accounts,
     config,
 )
 
@@ -80,10 +81,13 @@ async def oauth_google_start(request: Request) -> Response:
 async def oauth_google_finish(request: Request) -> Response:
     token = await OAUTH.google.authorize_access_token(request)
     data = await OAUTH.google.parse_id_token(request, token)
+    email = data['email']
 
-    request.session['email'] = data['email']
+    if await accounts.ensure_account_exists(email=email):
+        request.session['email'] = email
+        return RedirectResponse('/console/')
 
-    return RedirectResponse('/console/')
+    raise Exception(f'Unable to create account for email: {email}')
 
 
 async def ping(request: Request) -> Response:

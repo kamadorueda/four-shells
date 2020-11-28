@@ -3,7 +3,6 @@ from os import (
     environ,
     path,
 )
-import secrets
 
 # Third party library
 from starlette.templating import (
@@ -11,7 +10,10 @@ from starlette.templating import (
 )
 
 # Constants
+AWS_ACCESS_KEY_ID_SERVER: str = environ['AWS_ACCESS_KEY_ID_SERVER']
 AWS_CLOUDFRONT_DOMAIN: str = environ['AWS_CLOUDFRONT_DOMAIN']
+AWS_REGION: str = environ['AWS_REGION']
+AWS_SECRET_ACCESS_KEY_SERVER: str = environ['AWS_SECRET_ACCESS_KEY_SERVER']
 PRODUCTION: bool = 'PRODUCTION' in environ
 GOOGLE_OAUTH_CLIENT_ID_SERVER: str = environ['GOOGLE_OAUTH_CLIENT_ID_SERVER']
 GOOGLE_OAUTH_SECRET_SERVER: str = environ['GOOGLE_OAUTH_SECRET_SERVER']

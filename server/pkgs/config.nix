@@ -1,9 +1,15 @@
 let
-  configs = [
-    (import ../../server/pkgs/cachipfs/config.nix)
-    (import ../../server/pkgs/four_shells/config.nix)
-  ];
+  sources = import ../../build/deps/nix/sources.nix;
+  nixpkgs = import sources.nixpkgs { };
 in
   {
-    reqs = builtins.concatLists (builtins.map (builtins.getAttr "reqs") configs);
+    reqs = [
+      nixpkgs.python38
+      nixpkgs.python38Packages.aioextensions
+      nixpkgs.python38Packages.boto3
+      nixpkgs.python38Packages.authlib
+      nixpkgs.python38Packages.httpx
+      nixpkgs.python38Packages.starlette
+      nixpkgs.python38Packages.uvloop
+    ];
   }

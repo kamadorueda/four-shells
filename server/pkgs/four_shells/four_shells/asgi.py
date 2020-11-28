@@ -11,13 +11,11 @@ from starlette.middleware.sessions import (
     SessionMiddleware,
 )
 from starlette.routing import (
-    Mount,
     Route,
 )
 
 
 # Local libraries
-import cachipfs.asgi
 from four_shells import (
     config,
     handlers,
@@ -43,10 +41,6 @@ APP = Starlette(
         handlers.on_shutdown,
     ],
     routes=[
-        Mount(
-            app=cachipfs.asgi.APP,
-            path='/api/cachipfs',
-        ),
         Route(
             endpoint=handlers.console,
             methods=['GET'],

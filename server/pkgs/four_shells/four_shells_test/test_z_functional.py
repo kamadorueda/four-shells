@@ -4,7 +4,7 @@ from aioextensions import (
 )
 
 # Local libraries
-from cachipfs import (
+from four_shells import (
     accounts,
 )
 

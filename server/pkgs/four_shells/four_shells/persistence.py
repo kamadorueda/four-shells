@@ -4,8 +4,6 @@ from enum import (
 )
 from typing import (
     Any,
-    List,
-    NamedTuple,
 )
 
 # Third party libraries
@@ -16,7 +14,7 @@ import boto3
 import botocore.config
 
 # Local libraries
-from cachipfs import (
+from four_shells import (
     config,
 )
 
@@ -35,28 +33,7 @@ RESOURCE: Any = boto3.resource(
 
 
 class TableEnum(Enum):
-    accounts: str = 'cachipfs_accounts'
-    namespaces: str = 'cachipfs_namespaces'
-    objects: str = 'cachipfs_objects'
-
-
-class Account(NamedTuple):
-    id: int  # Hash key
-    balance: int
-    email: str
-    namespaces: List[str]
-    tokens: List[str]
-
-
-class Namespace(NamedTuple):
-    id: int  # Hash key
-    name: List[str]
-
-
-class Object(NamedTuple):
-    key: List[str]  # Range key
-    namespace: int  # Hash key
-    value: List[str]
+    accounts: str = 'accounts'
 
 
 # References:
