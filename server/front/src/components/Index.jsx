@@ -6,20 +6,19 @@ import {
   Container,
   CssBaseline,
   Grid,
-  Link,
   Toolbar,
   Typography,
 } from '@material-ui/core';
 
 // Local libraries
-import { useStyles } from '../styles';
+import { useStylesIndex } from '../classes';
+import { Copyright } from './Copyright';
 
 export const Index = () => {
-  const classes = useStyles();
-  const currentYear = new Date().getFullYear();
+  const classes = useStylesIndex();
 
   const doLogin = () => {
-    window.location.assign('/oauth/google/init')
+    window.location.assign('/oauth/google/start')
   };
 
   return (
@@ -27,8 +26,8 @@ export const Index = () => {
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
-          <Typography variant="h6" color="inherit" noWrap>
-            Four Shells /&gt;
+          <Typography component="h1" variant="h6" color="inherit" noWrap>
+            Four Shells
           </Typography>
         </Toolbar>
       </AppBar>
@@ -59,10 +58,7 @@ export const Index = () => {
           </Container>
         </div>
       </main>
-
-      <Typography variant="body2" color="textSecondary" align="center">
-        Copyright © <Link color="inherit" href="/">Four Shells</Link> {currentYear}.
-      </Typography>
+      <Copyright />
     </React.StrictMode>
   );
 }

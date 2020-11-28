@@ -1,15 +1,27 @@
 // Third party
 import React from 'react';
-import CssBaseline from '@material-ui/core/CssBaseline';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom";
+import {
+  CssBaseline,
+} from '@material-ui/core';
 
+// Local libraries
+import { useStylesConsole } from '../classes';
+import { CachIPFS } from './CachIPFS';
+import { Copyright } from './Copyright';
+import { ConsoleAppBar } from './ConsoleAppBar';
+
+// Constants
 const nullish = [null, undefined];
 
 export const Console = () => {
+  const classes = useStylesConsole();
   const { state } = window;
-
-  const doLogout = () => {
-    window.location.assign('/')
-  };
 
   // Redirect to index as there is no state to work from
   if (nullish.includes(state) || nullish.includes(state.email)) {
@@ -19,9 +31,16 @@ export const Console = () => {
   return (
     <React.StrictMode>
       <CssBaseline />
-      <h1>Welcome {state.email}!!</h1>
-
-      <button onClick={doLogout}>Logout</button>
+      <div className={classes.root}>
+        <Router basename="/console">
+          <ConsoleAppBar />
+          <Switch>
+            <Route path="/cachipfs" component={CachIPFS} />
+            <Redirect to="/cachipfs" />
+          </Switch>
+          <Copyright />
+        </Router>
+      </div>
     </React.StrictMode>
   );
 }

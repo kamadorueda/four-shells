@@ -11,7 +11,8 @@ from starlette.requests import (
     Request,
 )
 from starlette.responses import (
-    RedirectResponse, Response,
+    RedirectResponse,
+    Response,
 )
 from starlette.schemas import (
     SchemaGenerator,
@@ -69,20 +70,20 @@ def console(request: Request) -> Response:
     })
 
 
-async def oauth_google_init(request: Request) -> Response:
+async def oauth_google_start(request: Request) -> Response:
     return await OAUTH.google.authorize_redirect(
         request,
-        request.url_for('oauth_google_receive'),
+        request.url_for('oauth_google_finish'),
     )
 
 
-async def oauth_google_receive(request: Request) -> Response:
+async def oauth_google_finish(request: Request) -> Response:
     token = await OAUTH.google.authorize_access_token(request)
     data = await OAUTH.google.parse_id_token(request, token)
 
     request.session['email'] = data['email']
 
-    return RedirectResponse(request.url_for('console'))
+    return RedirectResponse('/console/')
 
 
 async def ping(request: Request) -> Response:

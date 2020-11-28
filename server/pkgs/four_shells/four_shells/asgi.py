@@ -43,31 +43,25 @@ APP = Starlette(
         handlers.on_shutdown,
     ],
     routes=[
-        Route(
-            endpoint=handlers.index,
-            methods=['GET'],
-            path='/',
-        ),
-        Route(
-            endpoint=handlers.console,
-            methods=['GET'],
-            name='console',
-            path='/console',
-        ),
         Mount(
             app=cachipfs.asgi.APP,
             path='/api/cachipfs',
         ),
         Route(
-            endpoint=handlers.oauth_google_init,
+            endpoint=handlers.console,
             methods=['GET'],
-            path='/oauth/google/init',
+            path='/console/{path:path}',
         ),
         Route(
-            endpoint=handlers.oauth_google_receive,
+            endpoint=handlers.oauth_google_start,
             methods=['GET'],
-            name='oauth_google_receive',
-            path='/oauth/google/receive',
+            path='/oauth/google/start',
+        ),
+        Route(
+            endpoint=handlers.oauth_google_finish,
+            methods=['GET'],
+            name='oauth_google_finish',
+            path='/oauth/google/finish',
         ),
         Route(
             endpoint=handlers.ping,
@@ -79,6 +73,10 @@ APP = Starlette(
             methods=['GET'],
             path='/schema',
         ),
-
+        Route(
+            endpoint=handlers.index,
+            methods=['GET'],
+            path='/{path:path}',
+        ),
     ],
 )
