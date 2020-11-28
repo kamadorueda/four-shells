@@ -1,59 +1,62 @@
 // Third party
 import React from 'react';
-import { useLocation } from 'react-router-dom';
 
 import {
   AppBar,
-  Badge,
   Box,
   Breadcrumbs,
-  Button,
-  Container,
-  CssBaseline,
-  Divider,
-  Drawer,
-  Grid,
-  IconButton,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  Menu,
-  MenuItem,
+  Link,
   Paper,
-  Select,
-  Tab,
-  TabPanel,
-  Tabs,
   Toolbar,
   Typography,
 } from '@material-ui/core';
-import {
-  PowerSettingsNew,
-} from '@material-ui/icons';
+import { makeStyles } from '@material-ui/core/styles';
 
-// Local libraries
-import { useStylesConsole } from '../classes';
+const useStyles = makeStyles((theme) => ({
+  navigation: {
+    flexGrow: 1,
+    padding: theme.spacing(0.5),
+  },
+  title: {
+    flexGrow: 1,
+  },
+}));
 
-const COMPONENTS_MAPPING = {
-  cachipfs: "CachIPFS",
+const NavigationContext = () => {
+  const classes = useStyles();
+  const pathname = window.location.pathname;
+  const components = pathname.split('/').filter((component) => component);
+  const componentsMap = {
+    '/console': 'Console',
+    '/console/cachipfs': 'CachIPFS',
+    '/console/cachipfs/namespace': 'Namespace',
+  };
+
+  return (
+    <Paper>
+      <Box className={classes.navigation}>
+        <Breadcrumbs itemsAfterCollapse={2} itemsBeforeCollapse={0} maxItems={3}>
+          <Link color="inherit" href="/">
+            Home
+          </Link>
+          {components.map((_, index) => {
+            const to = `/${components.slice(0, index + 1).join('/')}`;
+
+            return <Link color="inherit" href={to}>
+              {componentsMap[to] === undefined
+                ? components[index].slice(0, 7)
+                : componentsMap[to]}
+            </Link>;
+          })}
+        </Breadcrumbs>
+      </Box>
+    </Paper>
+  );
 };
 
-const computeTitle = (path) => (
-  path
-    .split('/')
-    .filter((component) => component)
-    .map((component) => COMPONENTS_MAPPING[component] || component)
-    .join(' › ')
-);
-
 export const ConsoleAppBar = () => {
-  const classes = useStylesConsole();
-  const location = useLocation();
-
-  const doLogout = () => {
-    window.location.assign('/')
-  };
+  const classes = useStyles();
+  const { email } = window.state;
 
   return (
     <React.StrictMode>
@@ -63,16 +66,13 @@ export const ConsoleAppBar = () => {
             component="h1"
             variant="h6"
             color="inherit"
-            noWrap
             className={classes.title}
           >
-            {computeTitle(location.pathname)}
+            {email}
           </Typography>
-          <IconButton color="inherit" onClick={doLogout}>
-            <PowerSettingsNew />
-          </IconButton>
         </Toolbar>
       </AppBar>
+      <NavigationContext />
     </React.StrictMode>
   );
 };

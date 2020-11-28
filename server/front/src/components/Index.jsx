@@ -9,13 +9,23 @@ import {
   Toolbar,
   Typography,
 } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
 // Local libraries
-import { useStylesIndex } from '../classes';
 import { Copyright } from './Copyright';
 
+export const useStyles = makeStyles((theme) => ({
+  bodyContent: {
+    backgroundColor: theme.palette.background.paper,
+    padding: theme.spacing(8, 0, 6),
+  },
+  indexLoginButtons: {
+    marginTop: theme.spacing(4),
+  },
+}));
+
 export const Index = () => {
-  const classes = useStylesIndex();
+  const classes = useStyles();
 
   const doLogin = () => {
     window.location.assign('/oauth/google/start')

@@ -5,9 +5,7 @@ import {
   Dialog,
   DialogActions,
   DialogContent,
-  DialogContentText,
   DialogTitle,
-  TextField,
 } from '@material-ui/core';
 
 export const FormDialog = ({

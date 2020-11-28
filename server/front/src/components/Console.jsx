@@ -10,9 +10,9 @@ import {
 import {
   CssBaseline,
 } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
 // Local libraries
-import { useStylesConsole } from '../classes';
 import { Index as CachIPFSIndex } from './CachIPFS/Index';
 import { Namespace as CachIPFSNamespace } from './CachIPFS/Namespace';
 import { Copyright } from './Copyright';
@@ -21,8 +21,11 @@ import { ConsoleAppBar } from './ConsoleAppBar';
 // Constants
 const nullish = [null, undefined];
 
+const useStyles = makeStyles((theme) => ({
+}));
+
 export const Console = () => {
-  const classes = useStylesConsole();
+  const classes = useStyles();
   const { state } = window;
 
   // Redirect to index as there is no state to work from
@@ -37,6 +40,7 @@ export const Console = () => {
         <SnackbarProvider maxSnack={3}>
           <Router basename="/console">
             <ConsoleAppBar />
+            <br />
             <Switch>
               <Route path="/cachipfs/namespace/:id" component={CachIPFSNamespace} />
               <Route path="/cachipfs" component={CachIPFSIndex} />
