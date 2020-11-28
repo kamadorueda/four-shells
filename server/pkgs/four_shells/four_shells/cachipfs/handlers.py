@@ -1,11 +1,18 @@
 """Application route handlers."""
 
+# Standard library
+from typing import (
+    Any,
+    List,
+)
+
 # Third party libraries
 from botocore.exceptions import (
     ClientError,
 )
 from boto3.dynamodb.conditions import (
     Attr,
+    Key,
 )
 from starlette.requests import (
     Request,
@@ -68,3 +75,38 @@ async def namespaces_create(request: Request) -> Response:
         'token_read': token_read,
         'token_write': token_write,
     })
+
+
+@authz.requires_session
+async def namespaces_delete(request: Request) -> Response:
+    ns_id: str = request.path_params['id']
+
+    try:
+        success: bool = await persistence.delete(
+            Key={
+                'id': ns_id,
+            },
+            table=persistence.TableEnum.cachipfs_namespaces,
+        )
+
+    except ClientError as exc:
+        raise exc
+
+    return JSONResponse({'ok': success})
+
+
+@authz.requires_session
+async def namespaces_list(request: Request) -> Response:
+    account: str = request.session['email']
+
+    try:
+        namespaces: List[Any] = await persistence.query(
+            IndexName='account__id',
+            KeyConditionExpression=Key('account').eq(account),
+            table=persistence.TableEnum.cachipfs_namespaces,
+        )
+
+    except ClientError as exc:
+        raise exc
+
+    return JSONResponse([namespace['id'] for namespace in namespaces])

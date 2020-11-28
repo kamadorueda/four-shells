@@ -4,6 +4,8 @@ from enum import (
 )
 from typing import (
     Any,
+    List,
+    Tuple,
 )
 
 # Third party libraries
@@ -46,9 +48,25 @@ class TableEnum(Enum):
 async def get(*, table: TableEnum, **kwargs: Any) -> Any:
     table_resource: Any = RESOURCE.Table(table.value)
 
+    kwargs['ReturnConsumedCapacity'] = 'NONE'
     response = await in_thread(table_resource.get_item, **kwargs)
 
     return response
+
+
+async def query(*, table: TableEnum, **kwargs: Any) -> Tuple[Any, ...]:
+    table_resource: Any = RESOURCE.Table(table.value)
+
+    kwargs['ReturnConsumedCapacity'] = 'NONE'
+    response = await in_thread(table_resource.query, **kwargs)
+    result: List[Any] = response['Items']
+
+    while 'LastEvaluatedKey' in response:
+        kwargs['ExclusiveStartKey'] = response['LastEvaluatedKey']
+        response = await in_thread(table_resource.query, **kwargs)
+        result.extend(response['Items'])
+
+    return tuple(result)
 
 
 async def update(*, table: TableEnum, **kwargs: Any) -> bool:
@@ -63,6 +81,7 @@ async def update(*, table: TableEnum, **kwargs: Any) -> bool:
 async def delete(*, table: TableEnum, **kwargs: Any) -> bool:
     table_resource: Any = RESOURCE.Table(table.value)
 
+    kwargs['ReturnConsumedCapacity'] = 'NONE'
     response = await in_thread(table_resource.delete_item, **kwargs)
 
     return response['ResponseMetadata']['HTTPStatusCode'] == 200

@@ -46,6 +46,16 @@ APP = Starlette(
             path='/api/v1/cachipfs/namespace/{name:str}',
         ),
         Route(
+            endpoint=four_shells.cachipfs.handlers.namespaces_delete,
+            methods=['DELETE'],
+            path='/api/v1/cachipfs/namespace/{id:str}',
+        ),
+        Route(
+            endpoint=four_shells.cachipfs.handlers.namespaces_list,
+            methods=['GET'],
+            path='/api/v1/cachipfs/namespaces',
+        ),
+        Route(
             endpoint=four_shells.handlers.console,
             methods=['GET'],
             path='/console/{path:path}',

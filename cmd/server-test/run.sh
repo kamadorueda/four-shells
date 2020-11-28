@@ -35,6 +35,7 @@ function main {
           --no-cov-on-fail \
           --show-capture no \
           --verbose \
+          --verbose \
           "${pkg}_test" \
     ||  return 1
   done
