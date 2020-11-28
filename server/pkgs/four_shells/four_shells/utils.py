@@ -1,8 +1,6 @@
 # Standard library
-from uuid import (
-    uuid4 as uuid,
-)
+import secrets
 
 
-def get_identifier() -> str:
-    return uuid().hex
+def create_secret() -> str:
+    return secrets.token_hex(16)

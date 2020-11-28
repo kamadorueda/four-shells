@@ -16,10 +16,9 @@ from starlette.routing import (
 
 
 # Local libraries
-from four_shells import (
-    config,
-    handlers,
-)
+import four_shells.config
+import four_shells.handlers
+import four_shells.cachipfs.handlers
 
 
 # Constants
@@ -27,48 +26,53 @@ APP = Starlette(
     middleware=[
         Middleware(
             cls=SessionMiddleware,
-            https_only=config.PRODUCTION,
-            max_age=config.SESSION_DURATION,
+            https_only=four_shells.config.PRODUCTION,
+            max_age=four_shells.config.SESSION_DURATION,
             same_site='lax',
-            secret_key=config.SESSION_SECRET,
-            session_cookie=config.SESSION_COOKIE,
+            secret_key=four_shells.config.SESSION_SECRET,
+            session_cookie=four_shells.config.SESSION_COOKIE,
         ),
     ],
     on_startup=[
-        handlers.on_startup,
+        four_shells.handlers.on_startup,
     ],
     on_shutdown=[
-        handlers.on_shutdown,
+        four_shells.handlers.on_shutdown,
     ],
     routes=[
         Route(
-            endpoint=handlers.console,
+            endpoint=four_shells.cachipfs.handlers.namespaces_create,
+            methods=['POST'],
+            path='/api/v1/cachipfs/namespace/{name:str}',
+        ),
+        Route(
+            endpoint=four_shells.handlers.console,
             methods=['GET'],
             path='/console/{path:path}',
         ),
         Route(
-            endpoint=handlers.oauth_google_start,
+            endpoint=four_shells.handlers.oauth_google_start,
             methods=['GET'],
             path='/oauth/google/start',
         ),
         Route(
-            endpoint=handlers.oauth_google_finish,
+            endpoint=four_shells.handlers.oauth_google_finish,
             methods=['GET'],
             name='oauth_google_finish',
             path='/oauth/google/finish',
         ),
         Route(
-            endpoint=handlers.ping,
+            endpoint=four_shells.handlers.ping,
             methods=['GET'],
             path='/ping',
         ),
         Route(
-            endpoint=handlers.schema,
+            endpoint=four_shells.handlers.schema,
             methods=['GET'],
             path='/schema',
         ),
         Route(
-            endpoint=handlers.index,
+            endpoint=four_shells.handlers.index,
             methods=['GET'],
             path='/{path:path}',
         ),

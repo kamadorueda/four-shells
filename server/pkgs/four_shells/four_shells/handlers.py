@@ -21,6 +21,7 @@ from starlette.schemas import (
 # Local libraries
 from four_shells import (
     accounts,
+    authz,
     config,
 )
 
@@ -63,6 +64,7 @@ def index(request: Request) -> Response:
     })
 
 
+@authz.requires_session_sync
 def console(request: Request) -> Response:
     return config.TPL.TemplateResponse('react.html', {
         'js': config.from_cdn('/static/console.js'),
