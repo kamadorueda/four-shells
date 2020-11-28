@@ -6,17 +6,18 @@ import {
   Container,
   DialogContentText,
   Grid,
+  Link,
   Paper,
   TextField,
   Typography,
 } from '@material-ui/core';
 
 // Local libraries
-import { useGet, usePost } from '../api';
-import { useStylesConsole } from '../classes';
-import { FormDialog } from './FormDialog';
+import { useGet, usePost } from '../../api';
+import { useStylesConsole } from '../../classes';
+import { FormDialog } from '../FormDialog';
 
-export const CachIPFS = () => {
+export const Index = () => {
   const classes = useStylesConsole();
 
   const [namespaceCreateIsOpen, setNamespaceCreateIsOpen] = useState(false);
@@ -53,9 +54,11 @@ export const CachIPFS = () => {
       </Typography>
       <Container maxWidth="sm">
         <Grid container spacing={2}>
-          {namespacesGetData.map(({ name }) => (
+          {namespacesGetData.map(({ id, name }) => (
             <Grid item xs>
-              <Paper className={classes.paper}>{name}</Paper>
+              <Link href={`/console/cachipfs/namespace/${encodeURIComponent(id)}`}>
+                <Paper className={classes.paper}>{name}</Paper>
+              </Link>
             </Grid>
           ))}
         </Grid>

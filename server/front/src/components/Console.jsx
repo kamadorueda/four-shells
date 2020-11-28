@@ -13,7 +13,8 @@ import {
 
 // Local libraries
 import { useStylesConsole } from '../classes';
-import { CachIPFS } from './CachIPFS';
+import { Index as CachIPFSIndex } from './CachIPFS/Index';
+import { Namespace as CachIPFSNamespace } from './CachIPFS/Namespace';
 import { Copyright } from './Copyright';
 import { ConsoleAppBar } from './ConsoleAppBar';
 
@@ -37,7 +38,8 @@ export const Console = () => {
           <Router basename="/console">
             <ConsoleAppBar />
             <Switch>
-              <Route path="/cachipfs" component={CachIPFS} />
+              <Route path="/cachipfs/namespace/:id" component={CachIPFSNamespace} />
+              <Route path="/cachipfs" component={CachIPFSIndex} />
               <Redirect to="/cachipfs" />
             </Switch>
             <Copyright />
