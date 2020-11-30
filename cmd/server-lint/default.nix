@@ -14,7 +14,7 @@ in
         py-deps.derivations.prospector
       ];
 
-      srcServerPkgs = ../../server/pkgs;
+      srcServerBack = ../../server/back;
       srcServerPublic = ../../server/public;
     })
   )

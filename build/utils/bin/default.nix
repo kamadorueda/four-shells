@@ -2,7 +2,8 @@ let
   math = import ../../../build/utils/math;
   sources = import ../../../build/deps/nix/sources.nix;
   nixpkgs = import sources.nixpkgs { };
-  serverPkgsConfig = import ../../../server/pkgs/config.nix;
+  clientConfig = import ../../../client/config.nix;
+  serverBackConfig = import ../../../server/back/config.nix;
 
   utilsDerive = {
     bin,
@@ -13,21 +14,22 @@ let
         (import ../../../build/utils/ctx)
       // (rec {
         pname = bin;
-        version = "${math.currentYearStr}.11";
+        version = "${math.currentYearStr}.12";
 
         builder = ./builder.sh;
         buildInputs = deps;
 
         meta = with nixpkgs.stdenv.lib; {
           description = description;
-          homepage = "https://4shells.com/${bin}";
+          homepage = "https://4shells.com";
           license = licenses.gpl3;
           maintainers = with maintainers; [ kamadorueda ];
         };
 
         srcBin = ../../../bin;
         srcBuild = ../../../build;
-        srcServerPkgs = ../../../server/pkgs;
+        srcClient = ../../../client;
+        srcServerBack = ../../../server/back;
         srcServerPublic = ../../../server/public;
 
         shebang = "#! ${nixpkgs.bash}/bin/bash";
@@ -41,10 +43,15 @@ let
     (nixpkgs.lib.makeSearchPath "lib/python3.6/site-packages" deps)
   ];
   attrs = {
-    fourShells = {
-      bin = "four-shells";
-      deps = serverPkgsConfig.reqs;
-      description = "Four Shells server";
+    fourShellsClient = {
+      bin = "4s";
+      deps = clientConfig.reqs;
+      description = "Four Shells Client";
+    };
+    fourShellsServerBack = {
+      bin = "4s-server-back";
+      deps = serverBackConfig.reqs;
+      description = "Four Shells Server Back-End";
     };
   };
   # Map(name -> derivation)

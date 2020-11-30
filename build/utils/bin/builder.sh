@@ -9,7 +9,8 @@ mkdir "${out}/build"
 mkdir "${out}/server"
 
 cp --no-target-directory --recursive "${srcBuild}" "${out}/build"
-cp --no-target-directory --recursive "${srcServerPkgs}" "${out}/server/pkgs"
+cp --no-target-directory --recursive "${srcClient}" "${out}/client"
+cp --no-target-directory --recursive "${srcServerBack}" "${out}/server/back"
 cp --no-target-directory --recursive "${srcServerPublic}" "${out}/server/public"
 
 {
@@ -27,7 +28,8 @@ cp --no-target-directory --recursive "${srcServerPublic}" "${out}/server/public"
     srcBuildUtilsServerLibSh \
     srcBuildUtilsCommonLibSh \
     srcBuildUtilsShoptsLibSh \
-    srcServerPkgs \
+    srcClient \
+    srcServerBack \
     srcServerPublic \
 
   do

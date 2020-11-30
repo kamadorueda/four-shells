@@ -259,7 +259,7 @@ resource "aws_ecs_task_definition" "four_shells" {
   # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition
   container_definitions = jsonencode([
     {
-      command = ["four-shells"]
+      command = ["4s-server-back"]
       cpu     = 1
       environment = [
         {

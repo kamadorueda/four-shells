@@ -13,7 +13,7 @@ in
         nixpkgs.python38Packages.pytestcov
       ];
 
-      srcServerPkgs = ../../server/pkgs;
+      srcServerBack = ../../server/back;
       srcServerPublic = ../../server/public;
     })
   )

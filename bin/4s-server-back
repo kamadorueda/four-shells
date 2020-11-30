@@ -1,6 +1,6 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
-#!   nix-shell --attr derivations.fourShells
+#!   nix-shell --attr derivations.fourShellsServerBack
 #!   nix-shell --keep AWS_ACCESS_KEY_ID_SERVER
 #!   nix-shell --keep AWS_CLOUDFRONT_DOMAIN
 #!   nix-shell --keep AWS_REGION
@@ -17,8 +17,7 @@
 source "${srcBuildUtilsCtxLibSh}"
 
 function main {
-  export PYTHONPATH="${srcServerPkgs}/cachipfs:${PYTHONPATH}"
-  export PYTHONPATH="${srcServerPkgs}/four_shells:${PYTHONPATH}"
+  export PYTHONPATH="${srcServerBack}:${PYTHONPATH}"
   export SERVER_PATH_PUBLIC="${srcServerPublic}"
 
       utils_server_ensure_configuration \
