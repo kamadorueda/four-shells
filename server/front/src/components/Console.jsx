@@ -28,7 +28,7 @@ const nullish = [null, undefined];
 const useStyles = makeStyles((theme) => ({
 }));
 
-export const Console = () => {
+export const Console = ({ bigScreen }) => {
   const classes = useStyles();
   const { state } = window;
 
@@ -38,24 +38,21 @@ export const Console = () => {
   }
 
   return (
-    <React.StrictMode>
-      <CssBaseline />
-      <ThemeProvider theme={THEME}>
-        <div className={classes.root}>
-          <SnackbarProvider maxSnack={3}>
-            <Router basename="/console">
-              <ConsoleAppBar />
-              <br />
-              <Switch>
-                <Route path="/cachipfs/namespace/:id" component={CachIPFSNamespace} />
-                <Route path="/cachipfs" component={CachIPFSIndex} />
-                <Redirect to="/cachipfs" />
-              </Switch>
-              <Copyright />
-            </Router>
-          </SnackbarProvider>
-        </div>
-      </ThemeProvider>
-    </React.StrictMode>
+    <React.Fragment>
+      <div className={classes.root}>
+        <SnackbarProvider maxSnack={3}>
+          <Router basename="/console">
+            <ConsoleAppBar />
+            <br />
+            <Switch>
+              <Route path="/cachipfs/namespace/:id" component={CachIPFSNamespace} />
+              <Route path="/cachipfs" component={CachIPFSIndex} />
+              <Redirect to="/cachipfs" />
+            </Switch>
+            <Copyright />
+          </Router>
+        </SnackbarProvider>
+      </div>
+    </React.Fragment>
   );
 }

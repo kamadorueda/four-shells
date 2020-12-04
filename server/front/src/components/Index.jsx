@@ -4,19 +4,19 @@ import {
   AppBar,
   Button,
   Container,
-  CssBaseline,
   Grid,
+  Link,
+  Paper,
   Toolbar,
   Typography,
 } from '@material-ui/core';
 import {
   makeStyles,
-  ThemeProvider,
 } from '@material-ui/core/styles';
 
 // Local libraries
 import { Copyright } from './Copyright';
-import { THEME } from '../theme';
+import { URLS } from '../constants';
 
 export const useStyles = makeStyles((theme) => ({
   bodyContent: {
@@ -26,12 +26,12 @@ export const useStyles = makeStyles((theme) => ({
   indexLoginButtons: {
     marginTop: theme.spacing(4),
   },
-  title: {
-    flex: 1,
+  logoPaper: {
+    background: theme.palette.primary.main,
   },
 }));
 
-export const Index = () => {
+export const Index = ({ bigScreen }) => {
   const classes = useStyles();
 
   const doLogin = () => {
@@ -39,51 +39,58 @@ export const Index = () => {
   };
 
   return (
-    <React.StrictMode>
-      <CssBaseline />
-      <ThemeProvider theme={THEME}>
-        <AppBar position="relative">
-          <Toolbar>
-            <Typography
-              align="center"
-              component="h1"
-              variant="h6"
-              color="inherit"
-              noWrap
-            >
-              Four Shells
+    <React.Fragment>
+      <AppBar position="static" color="primary">
+        <Toolbar>
+          <Typography
+            color="inherit"
+            component="h1"
+            variant="h6"
+          >
+            <Link href='/' color="inherit">
+              <b>Four Shells</b>, work in progress!
+            </Link>
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      <AppBar position="static" color="secondary">
+        <Toolbar>
+          <Button><Link href={URLS.products} color="inherit">
+            Products
+          </Link></Button>
+          <Button><Link href={URLS.docs} color="inherit">
+            Docs
+          </Link></Button>
+          <Button><Link href={URLS.source} color="inherit">
+            Source
+          </Link></Button>
+          <Button><Link href={URLS.sponsors} color="inherit">
+            Sponsors
+          </Link></Button>
+        </Toolbar>
+      </AppBar>
+      <main>
+        <div className={classes.bodyContent}>
+          <Container maxWidth="lg">
+            <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
+              Software enables productivity
             </Typography>
-          </Toolbar>
-        </AppBar>
-
-        <main>
-          <div className={classes.bodyContent}>
-            <Container maxWidth="lg">
-              <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
-                Software enables productivity
-              </Typography>
-              <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                Consistent tools to improve your workflows and power up your systems.
-              </Typography>
-              <div className={classes.indexLoginButtons}>
-                <Grid container spacing={2} justify="center">
-                  <Grid item>
-                    <Button color="primary" onClick={doLogin} variant="contained" >
-                      Login to the console
-                    </Button>
-                  </Grid>
-                  <Grid item>
-                    <Button color="primary" onClick={doLogin} variant="outlined" >
-                      Get started
-                    </Button>
-                  </Grid>
+            <Typography variant="h5" align="center" color="textSecondary" paragraph>
+              Consistent tools to improve your workflows and power up your systems.
+            </Typography>
+            <div className={classes.indexLoginButtons}>
+              <Grid container spacing={2} justify="center">
+                <Grid item>
+                  <Button color="primary" onClick={doLogin} variant="contained" >
+                    Login to the console
+                  </Button>
                 </Grid>
-              </div>
-            </Container>
-          </div>
-        </main>
-        <Copyright />
-      </ThemeProvider>
-    </React.StrictMode>
+              </Grid>
+            </div>
+          </Container>
+        </div>
+      </main>
+      <Copyright />
+    </React.Fragment>
   );
 }
