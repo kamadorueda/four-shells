@@ -67,7 +67,7 @@ export const Index = () => {
 
   return (
     <React.StrictMode>
-      <Container maxWidth="sm">
+      <Container maxWidth="lg">
         <Typography component="h2" variant="h5" align="center" color="textPrimary">
           Binary Caches
         </Typography>

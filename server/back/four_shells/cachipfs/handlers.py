@@ -36,7 +36,7 @@ from four_shells.utils.security import (
 
 
 @api_error_boundary
-@authz.requires
+# @authz.requires
 async def namespace_associate(request: Request) -> Response:
     ns_id: str = request.path_params['id']
 

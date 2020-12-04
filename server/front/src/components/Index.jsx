@@ -9,10 +9,14 @@ import {
   Toolbar,
   Typography,
 } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import {
+  makeStyles,
+  ThemeProvider,
+} from '@material-ui/core/styles';
 
 // Local libraries
 import { Copyright } from './Copyright';
+import { THEME } from '../theme';
 
 export const useStyles = makeStyles((theme) => ({
   bodyContent: {
@@ -21,6 +25,9 @@ export const useStyles = makeStyles((theme) => ({
   },
   indexLoginButtons: {
     marginTop: theme.spacing(4),
+  },
+  title: {
+    flex: 1,
   },
 }));
 
@@ -34,41 +41,49 @@ export const Index = () => {
   return (
     <React.StrictMode>
       <CssBaseline />
-      <AppBar position="relative">
-        <Toolbar>
-          <Typography component="h1" variant="h6" color="inherit" noWrap>
-            Four Shells
-          </Typography>
-        </Toolbar>
-      </AppBar>
+      <ThemeProvider theme={THEME}>
+        <AppBar position="relative">
+          <Toolbar>
+            <Typography
+              align="center"
+              component="h1"
+              variant="h6"
+              color="inherit"
+              noWrap
+            >
+              Four Shells
+            </Typography>
+          </Toolbar>
+        </AppBar>
 
-      <main>
-        <div className={classes.bodyContent}>
-          <Container maxWidth="sm">
-            <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
-              Software enables productivity
-            </Typography>
-            <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Consistent tools to improve your workflows and power up your systems.
-            </Typography>
-            <div className={classes.indexLoginButtons}>
-              <Grid container spacing={2} justify="center">
-                <Grid item>
-                  <Button color="primary" onClick={doLogin} variant="contained" >
-                    Login to the console
-                  </Button>
+        <main>
+          <div className={classes.bodyContent}>
+            <Container maxWidth="lg">
+              <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
+                Software enables productivity
+              </Typography>
+              <Typography variant="h5" align="center" color="textSecondary" paragraph>
+                Consistent tools to improve your workflows and power up your systems.
+              </Typography>
+              <div className={classes.indexLoginButtons}>
+                <Grid container spacing={2} justify="center">
+                  <Grid item>
+                    <Button color="primary" onClick={doLogin} variant="contained" >
+                      Login to the console
+                    </Button>
+                  </Grid>
+                  <Grid item>
+                    <Button color="primary" onClick={doLogin} variant="outlined" >
+                      Get started
+                    </Button>
+                  </Grid>
                 </Grid>
-                <Grid item>
-                  <Button color="primary" onClick={doLogin} variant="outlined" >
-                    Get started
-                  </Button>
-                </Grid>
-              </Grid>
-            </div>
-          </Container>
-        </div>
-      </main>
-      <Copyright />
+              </div>
+            </Container>
+          </div>
+        </main>
+        <Copyright />
+      </ThemeProvider>
     </React.StrictMode>
   );
 }
