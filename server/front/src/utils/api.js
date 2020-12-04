@@ -3,7 +3,7 @@ import { useSnackbar } from 'notistack';
 import { useEffect, useState } from 'react';
 
 // Local libraries
-import { fmt } from './utils/string';
+import { fmt } from './string';
 
 const request = (method, path, params, { enqueueSnackbar, setData, setLoading }) => {
   setLoading(true);

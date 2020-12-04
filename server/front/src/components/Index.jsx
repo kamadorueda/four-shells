@@ -16,7 +16,7 @@ import {
 
 // Local libraries
 import { Copyright } from './Copyright';
-import { URLS } from '../constants';
+import { URLS } from '../utils/constants';
 
 export const useStyles = makeStyles((theme) => ({
   bodyContent: {

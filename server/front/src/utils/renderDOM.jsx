@@ -1,4 +1,4 @@
-// Third party
+// Third party libraries
 import {
   CssBaseline,
   ThemeProvider,
@@ -7,26 +7,27 @@ import {
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// Local
-import { Console } from './components/Console';
+// Local libraries
 import { THEME } from './theme';
 
-const Wrapper = () => {
+const Child = ({ generator }) => {
   const bigScreen = useMediaQuery((theme) => theme.breakpoints.up('lg'));
 
-  return <Console bigScreen={bigScreen} />;
+  return generator({ bigScreen });
 };
 
-const Root = () => (
+const Root = ({ generator}) => (
   <React.StrictMode>
     <CssBaseline />
     <ThemeProvider theme={THEME}>
-      <Wrapper />
+      <Child generator={generator} />
     </ThemeProvider>
   </React.StrictMode>
 );
 
-ReactDOM.render(
-  React.createElement(Root),
-  document.getElementById("root"),
-);
+export const render = (generator) => {
+  ReactDOM.render(
+    React.createElement(Root, { generator }),
+    document.getElementById('root'),
+  );
+};

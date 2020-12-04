@@ -20,7 +20,7 @@ import { Index as CachIPFSIndex } from './CachIPFS/Index';
 import { Namespace as CachIPFSNamespace } from './CachIPFS/Namespace';
 import { Copyright } from './Copyright';
 import { ConsoleAppBar } from './ConsoleAppBar';
-import { THEME } from '../theme';
+import { THEME } from '../utils/theme';
 
 // Constants
 const nullish = [null, undefined];
