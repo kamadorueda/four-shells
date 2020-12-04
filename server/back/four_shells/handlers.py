@@ -73,6 +73,14 @@ def console(request: Request) -> Response:
     })
 
 
+def docs(request: Request) -> Response:
+    return config.TPL.TemplateResponse('react.html', {
+        'js': config.from_cdn('/static/docs.js'),
+        'request': request,
+        'state': json.dumps(request.session),
+    })
+
+
 async def oauth_google_start(request: Request) -> Response:
     return await OAUTH.google.authorize_redirect(
         request,

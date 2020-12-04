@@ -76,6 +76,11 @@ APP = Starlette(
             path='/console{path:path}',
         ),
         Route(
+            endpoint=four_shells.handlers.docs,
+            methods=['GET'],
+            path='/docs{path:path}',
+        ),
+        Route(
             endpoint=four_shells.handlers.oauth_google_start,
             methods=['GET'],
             path='/oauth/google/start',

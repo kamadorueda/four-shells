@@ -6,7 +6,8 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 const common = {
   entry: {
-    console: "./src/entrypoints//console.jsx",
+    console: "./src/entrypoints/console.jsx",
+    docs: "./src/entrypoints/docs.jsx",
     index: "./src/entrypoints/index.jsx",
   },
   module: {
@@ -101,6 +102,11 @@ const dev = {
       "webpack-dev-server/client?https://localhost:8401",
       "webpack/hot/only-dev-server",
       "./src/entrypoints/console.jsx",
+    ],
+    docs: [
+      "webpack-dev-server/client?https://localhost:8401",
+      "webpack/hot/only-dev-server",
+      "./src/entrypoints/docs.jsx",
     ],
     index: [
       "webpack-dev-server/client?https://localhost:8401",
