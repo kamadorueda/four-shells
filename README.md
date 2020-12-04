@@ -38,7 +38,7 @@ This and other [Free and Open Source](https://en.wikipedia.org/wiki/FOSS) projec
 
 Thank you so much for your support!
 
-|                                  |                        |
+| Emblem                           | Member                 |
 |:--------------------------------:|:-----------------------|
 | [![Fluid Attacks][0_img]][0_url] | [Fluid Attacks][0_url] |
 |                                  | [Nathan Fish][1_url]   |
