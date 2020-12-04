@@ -1,0 +1,18 @@
+#! /usr/bin/env nix-shell
+#!   nix-shell -i bash
+#!   nix-shell --attr derivations.fourShellsClient
+#!   nix-shell --keep BURP
+#!   nix-shell --pure
+#!   nix-shell ../build/utils/bin
+#  shellcheck shell=bash
+
+source "${srcBuildUtilsCtxLibSh}"
+
+function main {
+  export PYTHONPATH="${srcClient}:${PYTHONPATH}"
+
+      utils_configure_proxy "${BURP:-}" \
+  &&  python3 "${srcClient}/four_shells/cli.py" "${@}"
+}
+
+main "${@}"

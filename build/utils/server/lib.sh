@@ -1,5 +1,24 @@
 # shellcheck shell=bash
 
+function _ensure_configuration {
+      echo 'Configuration:' \
+  &&  echo \
+  &&  for var in "${@}"
+      do
+            utils_ensure_variable "${var}" \
+        &&  echo "${var} = ${!var}" \
+        ||  return 1
+      done \
+  &&  echo
+}
+
+function utils_client_ensure_configuration {
+  local required_vars=(
+  )
+
+  _ensure_configuration "${required_vars[@]}"
+}
+
 function utils_server_ensure_configuration {
   local required_vars=(
     AWS_ACCESS_KEY_ID_SERVER
@@ -12,13 +31,5 @@ function utils_server_ensure_configuration {
     SERVER_SESSION_SECRET
   )
 
-      echo 'Configuration:' \
-  &&  echo \
-  &&  for var in "${required_vars[@]}"
-      do
-            utils_ensure_variable "${var}" \
-        &&  echo "${var} = ${!var}" \
-        ||  return 1
-      done \
-  &&  echo
+  _ensure_configuration "${required_vars[@]}"
 }
