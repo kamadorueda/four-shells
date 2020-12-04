@@ -1,7 +1,7 @@
 import {
   common,
+  cyan,
   grey,
-  yellow,
 } from '@material-ui/core/colors';
 import {
   createMuiTheme,
@@ -18,9 +18,9 @@ export const THEME = createMuiTheme({
     },
     secondary: {
       contrastText: common['black'],
-      dark: yellow[200],
-      light: yellow[50],
-      main: yellow[100],
+      dark: cyan[200],
+      light: cyan[50],
+      main: cyan[100],
     },
   },
 });

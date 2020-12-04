@@ -40,7 +40,7 @@ export const Index = ({ bigScreen }) => {
 
   return (
     <React.Fragment>
-      <AppBar position="static" color="primary">
+      <AppBar position="sticky" color="primary">
         <Toolbar>
           <Typography
             color="inherit"
@@ -54,17 +54,17 @@ export const Index = ({ bigScreen }) => {
         </Toolbar>
       </AppBar>
       <AppBar position="static" color="secondary">
-        <Toolbar>
-          <Button><Link href={URLS.products} color="inherit">
+        <Toolbar variant='dense'>
+          <Button size="small"><Link href={URLS.products} color="inherit">
             Products
           </Link></Button>
-          <Button><Link href={URLS.docs} color="inherit">
+          <Button size="small"><Link href={URLS.docs} color="inherit">
             Docs
           </Link></Button>
-          <Button><Link href={URLS.source} color="inherit">
+          <Button size="small"><Link href={URLS.source} color="inherit">
             Source
           </Link></Button>
-          <Button><Link href={URLS.sponsors} color="inherit">
+          <Button size="small"><Link href={URLS.sponsors} color="inherit">
             Sponsors
           </Link></Button>
         </Toolbar>

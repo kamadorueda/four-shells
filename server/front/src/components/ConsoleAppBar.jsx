@@ -5,6 +5,7 @@ import {
   AppBar,
   Box,
   Breadcrumbs,
+  Button,
   Link,
   Paper,
   Toolbar,
@@ -13,11 +14,13 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-  navigation: {
-    flexGrow: 1,
-    padding: theme.spacing(0.5),
+  consoleTitle: {
+    margin: theme.spacing(2),
   },
-  title: {
+  breadcrumb: {
+    backgroundColor: theme.palette.secondary.main,
+  },
+  navigation: {
     flexGrow: 1,
   },
 }));
@@ -33,25 +36,34 @@ const NavigationContext = () => {
   };
 
   return (
-    <Paper>
-      <Box className={classes.navigation}>
-        <Breadcrumbs itemsAfterCollapse={2} itemsBeforeCollapse={0} maxItems={3}>
-          <Link color="inherit" href="/">
-            Home
-          </Link>
-          {components.map((_, index) => {
-            const to = `/${components.slice(0, index + 1).join('/')}`;
+    <AppBar position="static" color="secondary">
+      <Toolbar variant='dense'>
+        <Button color='inherit' size="small"><Link color="primary" href="/">
+          Home
+        </Link></Button>
+        {components.map((_, index) => {
+          const to = `/${components.slice(0, index + 1).join('/')}`;
 
-            return <Link color="inherit" href={to}>
-              {componentsMap[to] === undefined
-                ? components[index].slice(0, 7)
-                : componentsMap[to]}
-            </Link>;
-          })}
-        </Breadcrumbs>
-      </Box>
-    </Paper>
+          return (
+            <React.Fragment>
+              /
+              <Button color='inherit' size="small"><Link color="primary" href={to}>
+                {componentsMap[to] === undefined
+                  ? components[index].slice(0, 7)
+                  : componentsMap[to]}
+              </Link></Button>
+            </React.Fragment>
+          );
+        })}
+      </Toolbar>
+    </AppBar>
   );
+};
+
+const formatEmail = (email) => {
+  const username = email.split('@').slice(0, 1).join('');
+
+  return `${username[0].toUpperCase()}${username.slice(1).toLowerCase()}`;
 };
 
 export const ConsoleAppBar = () => {
@@ -60,15 +72,14 @@ export const ConsoleAppBar = () => {
 
   return (
     <React.StrictMode>
-      <AppBar position="relative">
+      <AppBar position="sticky" color="primary">
         <Toolbar>
           <Typography
+            color="inherit"
             component="h1"
             variant="h6"
-            color="inherit"
-            className={classes.title}
           >
-            {email}
+            {formatEmail(email)}'s Console
           </Typography>
         </Toolbar>
       </AppBar>
