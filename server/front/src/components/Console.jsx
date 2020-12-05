@@ -15,14 +15,20 @@ import {
 } from '@material-ui/core/styles';
 
 // Local libraries
+import { BarBreadcrumb } from './BarBreadcrumb';
+import { BarMain } from './BarMain';
 import { Index as CachIPFSIndex } from './CachIPFS/Index';
 import { Namespace as CachIPFSNamespace } from './CachIPFS/Namespace';
 import { Copyright } from './Copyright';
-import { ConsoleAppBar } from './ConsoleAppBar';
-import { THEME } from '../utils/theme';
 
 // Constants
 const nullish = [null, undefined];
+
+const formatEmail = (email) => {
+  const username = email.split('@').slice(0, 1).join('');
+
+  return `${username[0].toUpperCase()}${username.slice(1).toLowerCase()}`;
+};
 
 const useStyles = makeStyles((theme) => ({
 }));
@@ -38,7 +44,10 @@ export const Console = ({ bigScreen }) => {
 
   return (
     <React.Fragment>
-      <ConsoleAppBar />
+      <BarMain>
+        {formatEmail(state.email)}'s Console
+      </BarMain>
+      <BarBreadcrumb />
       <Container maxWidth="lg">
         <SnackbarProvider maxSnack={3}>
           <Router basename="/console">

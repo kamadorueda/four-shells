@@ -18,6 +18,7 @@ import {
 import { BarMain } from './BarMain';
 import { BarNav } from './BarNav';
 import { Copyright } from './Copyright';
+import { DocsHome } from './DocsHome';
 
 const useStyles = makeStyles((theme) => ({
 }));
@@ -36,6 +37,8 @@ export const Docs = ({ bigScreen }) => {
           <Router basename="/docs">
             <br />
             <Switch>
+              {/* <Route path="/" component={DocsHome} /> */}
+              {/* <Redirect to="/" /> */}
             </Switch>
             <Copyright />
           </Router>
