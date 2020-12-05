@@ -9,6 +9,7 @@ import {
   CardMedia,
   Container,
   Grid,
+  Link,
   Paper,
   Typography,
 } from '@material-ui/core';
@@ -45,14 +46,18 @@ export const useStyles = makeStyles((theme) => ({
 
 export const ProductCard = ({
   description,
+  docs,
   image,
   title,
 }) => {
   const classes = useStyles();
+  const onClick = () => {
+    window.location.assign(docs);
+  };
 
   return (
     <Card className={classes.productCard}>
-      <CardActionArea>
+      <CardActionArea onClick={onClick}>
         <CardContent>
           <Typography className={classes.productText} gutterBottom variant="h5">
             {title}
@@ -71,7 +76,9 @@ export const ProductCard = ({
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Learn More
+          <Link href={docs}>
+            Learn More
+          </Link>
         </Button>
       </CardActions>
     </Card>
@@ -104,6 +111,7 @@ export const Index = ({ bigScreen }) => {
           <Grid item>
             <ProductCard
               description="Database with Nix packages from all versions, all commits and all channels."
+              docs='/docs/nixdb'
               image={nix_db_300x158}
               title="NixDB"
             />
@@ -111,6 +119,7 @@ export const Index = ({ bigScreen }) => {
           <Grid item>
             <ProductCard
               description="Encrypted Nix binary cache over IPFS."
+              docs='/docs/cachipfs'
               image={nix_db_300x158}
               title="CachIPFS"
             />
