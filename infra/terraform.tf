@@ -6,13 +6,13 @@ terraform {
     region  = "us-east-1"
   }
   required_providers {
+    acme = {
+      source  = "vancluever/acme"
+      version = "1.6.3"
+    }
     aws = {
       source  = "hashicorp/aws"
       version = "3.15.0"
-    }
-    acme = {
-      source  = "terraform-providers/acme"
-      version = "1.5.0"
     }
     tls = {
       source  = "hashicorp/tls"
