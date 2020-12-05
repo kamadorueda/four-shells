@@ -82,9 +82,6 @@ const common = {
     }),
   ],
   resolve: {
-    alias: {
-      components: path.join(__dirname, "src", "components"),
-    },
     extensions: [".js", ".jsx"],
   },
   stats: {

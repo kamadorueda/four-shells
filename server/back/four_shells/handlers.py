@@ -57,8 +57,8 @@ async def on_startup() -> None:
 def index(request: Request) -> Response:
     return config.TPL.TemplateResponse('react.html', {
         'js': config.from_cdn('/static/index.js'),
+        'globals': config.get_globals(request),
         'request': request,
-        'state': json.dumps(request.session),
     })
 
 
@@ -66,16 +66,16 @@ def index(request: Request) -> Response:
 def console(request: Request) -> Response:
     return config.TPL.TemplateResponse('react.html', {
         'js': config.from_cdn('/static/console.js'),
+        'globals': config.get_globals(request),
         'request': request,
-        'state': json.dumps(request.session),
     })
 
 
 def docs(request: Request) -> Response:
     return config.TPL.TemplateResponse('react.html', {
         'js': config.from_cdn('/static/docs.js'),
+        'globals': config.get_globals(request),
         'request': request,
-        'state': json.dumps(request.session),
     })
 
 

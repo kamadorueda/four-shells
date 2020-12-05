@@ -15,6 +15,7 @@ import {
 } from '@material-ui/core/styles';
 
 // Local libraries
+import { globalEmail } from '../../utils/globals';
 import { BarBreadcrumb } from '../BarBreadcrumb';
 import { BarMain } from '../BarMain';
 import { Index as CachipfsIndex} from './cachipfs/Index';
@@ -35,17 +36,16 @@ const useStyles = makeStyles((theme) => ({
 
 export const Index = ({ bigScreen }) => {
   const classes = useStyles();
-  const { state } = window;
 
-  // Redirect to index as there is no state to work from
-  if (nullish.includes(state) || nullish.includes(state.email)) {
+  // Redirect to index as there is no session
+  if (nullish.includes(globalEmail)) {
     doLogout()
   }
 
   return (
     <React.Fragment>
       <BarMain>
-        {formatEmail(state.email)}'s Console
+        {formatEmail(globals.session.email)}'s Console
       </BarMain>
       <BarBreadcrumb />
       <Container maxWidth="lg">

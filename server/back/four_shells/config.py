@@ -1,7 +1,14 @@
 # Standard library
+import json
 from os import (
     environ,
     path,
+)
+from starlette.requests import (
+    Request,
+)
+from typing import (
+    Dict,
 )
 
 # Third party library
@@ -32,6 +39,12 @@ CDN: str = 'https://' + (
 
 def from_cdn(location: str) -> str:
     return CDN + location
+
+
+def get_globals(request: Request) -> Dict[str, str]:
+    return json.dumps({
+        'session': request.session,
+    })
 
 
 # Templating engine
