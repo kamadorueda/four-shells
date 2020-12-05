@@ -49,7 +49,7 @@ const common = {
         ],
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/,
+        test: /\.(gif|jpe?g|png|svg)$/,
         use: [
           {
             loader: 'file-loader',
@@ -70,6 +70,17 @@ const common = {
           },
         ],
       },
+      {
+        test: /\.md$/,
+        use: [
+          {
+            loader: 'raw-loader',
+            options: {
+              esModule: false,
+            },
+          },
+        ],
+      },
     ],
   },
   output: {
@@ -80,9 +91,15 @@ const common = {
     new MiniCssExtractPlugin({
       filename: "[name].css",
     }),
+    new webpack.ProvidePlugin({
+      process: 'process/browser',
+    }),
   ],
   resolve: {
     extensions: [".js", ".jsx"],
+    fallback: {
+      "path": require.resolve("path-browserify"),
+    },
   },
   stats: {
     children: true,

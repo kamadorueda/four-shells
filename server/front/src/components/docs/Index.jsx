@@ -18,7 +18,8 @@ import {
 import { BarMain } from '../BarMain';
 import { BarNav } from '../BarNav';
 import { Copyright } from '../Copyright';
-import { DocsHome } from './DocsHome';
+import { Markdown } from '../Markdown';
+import Home from './Home.md';
 
 const useStyles = makeStyles((theme) => ({
 }));
@@ -37,8 +38,10 @@ export const Index = ({ bigScreen }) => {
           <Router basename="/docs">
             <br />
             <Switch>
-              {/* <Route path="/" component={DocsHome} /> */}
-              {/* <Redirect to="/" /> */}
+              <Route path="/">
+                <Markdown content={Home} />
+              </Route>
+              <Redirect to="/" />
             </Switch>
             <Copyright />
           </Router>

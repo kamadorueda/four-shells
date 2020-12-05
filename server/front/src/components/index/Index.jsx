@@ -95,7 +95,7 @@ export const Index = ({ bigScreen }) => {
           <Typography variant="h5" align="center" color="textSecondary" paragraph>
             Consistent tools that improve your workflows,
             while aiming towards decentralization,
-            freedom of choice, and open core values.
+            freedom of choice, privacy and open core values.
           </Typography>
         </div>
       </Container>
