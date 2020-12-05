@@ -18,7 +18,8 @@ import {
 import { BarMain } from '../BarMain';
 import { BarNav } from '../BarNav';
 import { Copyright } from '../Copyright';
-import { Markdown } from '../Markdown';
+import { renderMarkdown } from '../Markdown';
+import Cachipfs from './Cachipfs.md';
 import Home from './Home.md';
 
 const useStyles = makeStyles((theme) => ({
@@ -26,21 +27,36 @@ const useStyles = makeStyles((theme) => ({
 
 export const Index = ({ bigScreen }) => {
   const classes = useStyles();
+  const pages = [
+    {
+      content: Cachipfs,
+      path: '/cachipfs',
+      product: 'CachIPFS',
+    },
+    {
+      content: Home,
+      path: '/',
+      product: 'Four Shells',
+    },
+  ];
 
   return (
     <React.Fragment>
       <BarMain>
         <b>Four Shells</b>, work in progress!
       </BarMain>
-      <BarNav products sponsors source login />
+      <BarNav login products source sponsors/>
       <Container maxWidth="lg">
         <SnackbarProvider maxSnack={3}>
           <Router basename="/docs">
             <br />
             <Switch>
-              <Route path="/">
-                <Markdown content={Home} />
-              </Route>
+              {pages.map(({ content, path, product }) => (
+                <Route
+                  path={path}
+                  component={renderMarkdown({ content, product })}
+                />
+              ))}
               <Redirect to="/" />
             </Switch>
             <Copyright />
