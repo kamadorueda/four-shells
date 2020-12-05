@@ -229,7 +229,9 @@ resource "aws_ecs_service" "four_shells" {
     capacity_provider = aws_ecs_capacity_provider.four_shells.name
     weight            = 100
   }
-  cluster = aws_ecs_cluster.four_shells.id
+  cluster                            = aws_ecs_cluster.four_shells.id
+  deployment_maximum_percent         = 100
+  deployment_minimum_healthy_percent = 0
   depends_on = [
     aws_lb_listener.four_shells_http,
     aws_lb_listener.four_shells_https,
