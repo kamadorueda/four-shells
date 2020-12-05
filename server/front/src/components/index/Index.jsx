@@ -36,7 +36,7 @@ export const Index = ({ bigScreen }) => {
       <BarMain>
         <b>Four Shells</b>, work in progress!
       </BarMain>
-      <BarNav docs products sponsors source />
+      <BarNav docs sponsors source />
       <Container maxWidth="lg">
         <br />
         <br />

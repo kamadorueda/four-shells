@@ -10,18 +10,12 @@ import { URLS } from '../utils/constants';
 
 export const BarNav = ({
   docs,
-  products,
   sponsors,
   source,
 }) => {
   return (
     <AppBar position="static" color="secondary">
       <Toolbar variant='dense'>
-        {products ? (
-          <Button size="small"><Link href={URLS.products} color="inherit">
-            Products
-          </Link></Button>
-        ) : undefined}
         {docs ? (
           <Button size="small"><Link href={URLS.docs} color="inherit">
           Docs
