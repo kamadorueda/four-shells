@@ -82,14 +82,14 @@ const MarkDownBlock = ({ content }) => (
   />
 );
 
-export const Markdown = ({ content, product }) => (
+export const Markdown = ({ content, title }) => (
   <React.Fragment>
-    <MarkDownBlock content={`# ${product} documentation`} />
+    <MarkDownBlock content={`# ${title}`} />
     <MarkDownBlock content={getTableOfContents(content)} />
     <MarkDownBlock content={content} />
   </React.Fragment>
 );
 
-export const renderMarkdown = ({ content, product }) => () => (
-  <Markdown content={content} product={product} />
+export const renderMarkdown = ({ content, title }) => () => (
+  <Markdown content={content} title={title} />
 );

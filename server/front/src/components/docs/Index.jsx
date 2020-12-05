@@ -21,6 +21,7 @@ import { Copyright } from '../Copyright';
 import { renderMarkdown } from '../Markdown';
 import Cachipfs from './Cachipfs.md';
 import Home from './Home.md';
+import Sponsors from './Sponsors.md';
 
 const useStyles = makeStyles((theme) => ({
 }));
@@ -31,12 +32,17 @@ export const Index = ({ bigScreen }) => {
     {
       content: Cachipfs,
       path: '/cachipfs',
-      product: 'CachIPFS',
+      title: 'Welcome to CachIPFS documentation!',
+    },
+    {
+      content: Sponsors,
+      path: '/sponsors',
+      title: 'A small thank you',
     },
     {
       content: Home,
       path: '/',
-      product: 'Four Shells',
+      title: 'Welcome to Four Shells documentation',
     },
   ];
 
@@ -51,10 +57,10 @@ export const Index = ({ bigScreen }) => {
           <Router basename="/docs">
             <br />
             <Switch>
-              {pages.map(({ content, path, product }) => (
+              {pages.map(({ content, path, title }) => (
                 <Route
                   path={path}
-                  component={renderMarkdown({ content, product })}
+                  component={renderMarkdown({ content, title })}
                 />
               ))}
               <Redirect to="/" />
