@@ -14,6 +14,7 @@ in
 
       buildInputs = [
         awscli2
+        nixpkgs.git
         nixpkgs.nodejs
       ];
     })
