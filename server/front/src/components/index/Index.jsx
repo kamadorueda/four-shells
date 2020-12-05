@@ -9,6 +9,7 @@ import {
   CardMedia,
   Container,
   Grid,
+  Paper,
   Typography,
 } from '@material-ui/core';
 import {
@@ -24,17 +25,27 @@ import nix_db_300x158 from '../../../static/nix_db_300x158.png';
 export const useStyles = makeStyles((theme) => ({
   indexLoginButtons: {
     marginTop: theme.spacing(4),
+    marginBottom: theme.spacing(4),
   },
   logoPaper: {
     background: theme.palette.primary.main,
   },
+  mainCaption: {
+    marginBottom: theme.spacing(4),
+    marginTop: theme.spacing(4),
+  },
   productCard: {
     maxWidth: 300,
+  },
+  productText: {
+    flex: 1,
+    textAlign: 'center',
   },
 }));
 
 export const ProductCard = ({
   description,
+  image,
   title,
 }) => {
   const classes = useStyles();
@@ -42,16 +53,18 @@ export const ProductCard = ({
   return (
     <Card className={classes.productCard}>
       <CardActionArea>
+        <CardContent>
+          <Typography className={classes.productText} gutterBottom variant="h5">
+            {title}
+          </Typography>
+        </CardContent>
         <CardMedia
           component="img"
           height="158"
-          image={nix_db_300x158}
+          image={image}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            {title}
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography className={classes.productText} variant="body2" color="textSecondary">
             {description}
           </Typography>
         </CardContent>
@@ -68,38 +81,41 @@ export const ProductCard = ({
 export const Index = ({ bigScreen }) => {
   const classes = useStyles();
 
-  const doLogin = () => {
-    window.location.assign('/oauth/google/start')
-  };
-
   return (
     <React.Fragment>
       <BarMain>
         <b>Four Shells</b>, work in progress!
       </BarMain>
-      <BarNav docs sponsors source />
-      <Container maxWidth="lg">
-        <br />
-        <br />
-        <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
-          Software enables productivity
-        </Typography>
-        <Typography variant="h5" align="center" color="textSecondary" paragraph>
-          Consistent tools to improve your workflows and power up your systems.
-        </Typography>
-        <div className={classes.indexLoginButtons}>
-          <Grid container spacing={2} justify="center">
-            <Grid item>
-              <Button color="primary" onClick={doLogin} variant="contained" >
-                Login to the console
-              </Button>
-            </Grid>
-          </Grid>
+      <BarNav docs sponsors source login />
+      <Container maxWidth="md">
+        <div className={classes.mainCaption}>
+          <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
+            Software boosts the world
+          </Typography>
+          <Typography variant="h5" align="center" color="textSecondary" paragraph>
+            Consistent tools that improve your workflows,
+            while aiming towards decentralization,
+            freedom of choice, and open core values.
+          </Typography>
         </div>
-        <ProductCard
-          description="A database with Nix packages from all versions, all commits and all channels."
-          title="NixDB"
-        />
+      </Container>
+      <Container maxWidth="lg">
+        <Grid container spacing={2} justify="center">
+          <Grid item>
+            <ProductCard
+              description="Database with Nix packages from all versions, all commits and all channels."
+              image={nix_db_300x158}
+              title="NixDB"
+            />
+          </Grid>
+          <Grid item>
+            <ProductCard
+              description="Encrypted Nix binary cache over IPFS."
+              image={nix_db_300x158}
+              title="CachIPFS"
+            />
+          </Grid>
+        </Grid>
       </Container>
       <Copyright />
     </React.Fragment>
