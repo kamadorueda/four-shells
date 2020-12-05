@@ -2,8 +2,8 @@
 import React from 'react';
 
 // Local
-import { Docs } from '../components/Docs';
+import { Index } from '../components/docs/Index';
 import { render } from '../utils/renderDOM';
 
 // Side effects
-render((props) => <Docs {...props} />)
+render((props) => <Index {...props} />)

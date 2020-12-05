@@ -15,15 +15,15 @@ import {
 } from '@material-ui/core/styles';
 
 // Local libraries
-import { BarMain } from './BarMain';
-import { BarNav } from './BarNav';
-import { Copyright } from './Copyright';
+import { BarMain } from '../BarMain';
+import { BarNav } from '../BarNav';
+import { Copyright } from '../Copyright';
 import { DocsHome } from './DocsHome';
 
 const useStyles = makeStyles((theme) => ({
 }));
 
-export const Docs = ({ bigScreen }) => {
+export const Index = ({ bigScreen }) => {
   const classes = useStyles();
 
   return (

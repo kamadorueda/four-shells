@@ -15,11 +15,11 @@ import {
 } from '@material-ui/core/styles';
 
 // Local libraries
-import { BarBreadcrumb } from './BarBreadcrumb';
-import { BarMain } from './BarMain';
-import { Index as CachIPFSIndex } from './CachIPFS/Index';
-import { Namespace as CachIPFSNamespace } from './CachIPFS/Namespace';
-import { Copyright } from './Copyright';
+import { BarBreadcrumb } from '../BarBreadcrumb';
+import { BarMain } from '../BarMain';
+import { Index as CachipfsIndex} from './cachipfs/Index';
+import { Namespace as CachipfsNamespace } from './cachipfs/Namespace';
+import { Copyright } from '../Copyright';
 
 // Constants
 const nullish = [null, undefined];
@@ -33,7 +33,7 @@ const formatEmail = (email) => {
 const useStyles = makeStyles((theme) => ({
 }));
 
-export const Console = ({ bigScreen }) => {
+export const Index = ({ bigScreen }) => {
   const classes = useStyles();
   const { state } = window;
 
@@ -53,8 +53,8 @@ export const Console = ({ bigScreen }) => {
           <Router basename="/console">
             <br />
             <Switch>
-              <Route path="/cachipfs/namespace/:id" component={CachIPFSNamespace} />
-              <Route path="/cachipfs" component={CachIPFSIndex} />
+              <Route path="/cachipfs/namespace/:id" component={CachipfsNamespace} />
+              <Route path="/cachipfs" component={CachipfsIndex} />
               <Redirect to="/cachipfs" />
             </Switch>
             <Copyright />

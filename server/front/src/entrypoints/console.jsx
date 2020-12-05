@@ -2,8 +2,8 @@
 import React from 'react';
 
 // Local
-import { Console } from '../components/Console';
+import { Index } from '../components/console/Index';
 import { render } from '../utils/renderDOM';
 
 // Side effects
-render((props) => <Console {...props} />)
+render((props) => <Index {...props} />)

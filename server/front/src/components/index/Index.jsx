@@ -11,9 +11,9 @@ import {
 } from '@material-ui/core/styles';
 
 // Local libraries
-import { BarMain } from './BarMain';
-import { BarNav } from './BarNav';
-import { Copyright } from './Copyright';
+import { BarMain } from '../BarMain';
+import { BarNav } from '../BarNav';
+import { Copyright } from '../Copyright';
 
 export const useStyles = makeStyles((theme) => ({
   indexLoginButtons: {

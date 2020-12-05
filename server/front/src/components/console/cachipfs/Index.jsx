@@ -13,8 +13,8 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 
 // Local libraries
-import { useGet, usePost } from '../../utils/api';
-import { FormDialog } from '../FormDialog';
+import { useGet, usePost } from '../../../utils/api';
+import { FormDialog } from '../../FormDialog';
 
 const useStyles = makeStyles((theme) => ({
   centered: {
