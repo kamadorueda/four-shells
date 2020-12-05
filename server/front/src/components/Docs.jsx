@@ -8,19 +8,16 @@ import {
   Redirect
 } from "react-router-dom";
 import {
-  CssBaseline,
+  Container,
 } from '@material-ui/core';
 import {
   makeStyles,
-  ThemeProvider,
 } from '@material-ui/core/styles';
 
 // Local libraries
-import { Index as CachIPFSIndex } from './CachIPFS/Index';
-import { Namespace as CachIPFSNamespace } from './CachIPFS/Namespace';
+import { BarMain } from './BarMain';
+import { BarNav } from './BarNav';
 import { Copyright } from './Copyright';
-import { ConsoleAppBar } from './ConsoleAppBar';
-import { THEME } from '../utils/theme';
 
 const useStyles = makeStyles((theme) => ({
 }));
@@ -30,7 +27,11 @@ export const Docs = ({ bigScreen }) => {
 
   return (
     <React.Fragment>
-      <div className={classes.root}>
+      <BarMain>
+        <b>Four Shells</b>, work in progress!
+      </BarMain>
+      <BarNav products sponsors source />
+      <Container maxWidth="lg">
         <SnackbarProvider maxSnack={3}>
           <Router basename="/docs">
             <br />
@@ -39,7 +40,7 @@ export const Docs = ({ bigScreen }) => {
             <Copyright />
           </Router>
         </SnackbarProvider>
-      </div>
+      </Container>
     </React.Fragment>
   );
 }

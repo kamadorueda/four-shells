@@ -8,11 +8,10 @@ import {
   Redirect
 } from "react-router-dom";
 import {
-  CssBaseline,
+  Container,
 } from '@material-ui/core';
 import {
   makeStyles,
-  ThemeProvider,
 } from '@material-ui/core/styles';
 
 // Local libraries
@@ -39,10 +38,10 @@ export const Console = ({ bigScreen }) => {
 
   return (
     <React.Fragment>
-      <div className={classes.root}>
+      <ConsoleAppBar />
+      <Container maxWidth="lg">
         <SnackbarProvider maxSnack={3}>
           <Router basename="/console">
-            <ConsoleAppBar />
             <br />
             <Switch>
               <Route path="/cachipfs/namespace/:id" component={CachIPFSNamespace} />
@@ -52,7 +51,7 @@ export const Console = ({ bigScreen }) => {
             <Copyright />
           </Router>
         </SnackbarProvider>
-      </div>
+      </Container>
     </React.Fragment>
   );
 }
