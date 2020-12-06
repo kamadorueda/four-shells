@@ -18,6 +18,7 @@ import {
 
 // Local libraries
 import { Progress } from '../Progress';
+import { useFetchJSON } from './utils';
 
 // Constants
 const DEFAULT_PKG = 'nix';
@@ -52,33 +53,51 @@ const searchString = (item, list) => {
     .map((x) => x[1]);
 }
 
+const Pkg = ({ pkg }) => {
+  const dataSource = `/data/pkgs/${pkg}.json`;
+  const dataJSON = useFetchJSON(dataSource, {});
+  const data =  Object.entries(dataJSON).reverse();
+
+  if (data.length === 0) {
+    return <Progress />
+  }
+
+  const lastData = data[0][1];
+  const pkgLink = `/pkg/${encodeURIComponent(pkg)}`;
+
+  return (
+    <React.Fragment>
+      xx
+    </React.Fragment>
+  )
+};
+
 export const Search = ({ pkgs, revs }) => {
   if (pkgs.length === 0 || revs.length === 0) {
     return <Progress />
   }
 
-  // Pagination
   const [page, setPage] = useState(1);
-  const pages = Math.round(pkgs.length / RESULTS_PER_PAGE, 0);
-  const pageOnChange = (_, newValue) => {
-    setPage(newValue);
-  };
-
-  // Selected Package
-  const [pkg, setPkg] = useState(DEFAULT_PKG);
-  const pkgOnChange = (event) => {
-    setPkg(event.target.value);
-  };
-
-  // Matching packages
   const [matchingPkgs, setMatchingPkgs] = useState(
     searchString(DEFAULT_PKG, pkgs),
   );
-  const [endPage, startPage] = [
-    Math.min((page - 0) * RESULTS_PER_PAGE + 0, matchingPkgs.length),
-    Math.min((page - 1) * RESULTS_PER_PAGE + 1, matchingPkgs.length),
-  ];
-  const matchingPkgsOnPage = matchingPkgs.slice(startPage - 1, endPage);
+
+  const pages = Math.round(matchingPkgs.length / RESULTS_PER_PAGE, 0);
+  const endPage = Math.min((page - 0) * RESULTS_PER_PAGE + 0, matchingPkgs.length);
+  const startPage = Math.min((page - 1) * RESULTS_PER_PAGE + 1, matchingPkgs.length);
+
+  let deferTimer = setTimeout(() => {}, 100)
+
+  const pageOnChange = (_, newValue) => {
+    setPage(newValue);
+  };
+  const pkgOnChange = (event) => {
+    clearTimeout(deferTimer)
+    deferTimer = setTimeout(() => {
+      setPage(1);
+      setMatchingPkgs(searchString(event.target.value, pkgs));
+    }, 300)
+  };
 
   return (
     <React.StrictMode>
@@ -91,14 +110,16 @@ export const Search = ({ pkgs, revs }) => {
             <TextField
               label="Package"
               onChange={pkgOnChange}
-              value={pkg}
+              defaultValue={DEFAULT_PKG}
             />
           </Grid>
         </Grid>
         <br />
         <Pagination count={pages} page={page} onChange={pageOnChange} />
         <br />
-        {JSON.stringify(matchingPkgsOnPage)}
+        {matchingPkgs
+          .slice(startPage - 1, endPage)
+          .map((pkg) => <Pkg pkg={pkg} />)}
       </Container>
     </React.StrictMode>
   );

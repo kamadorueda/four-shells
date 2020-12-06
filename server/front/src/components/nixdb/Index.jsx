@@ -18,33 +18,12 @@ import { renderMarkdown } from '../Markdown';
 import About from './About.md';
 import Contributing from './Contributing.md';
 import { Search } from './Search';
+import { useFetchJSON } from './utils';
 import { BarNav } from './BarNav';
 
-const DATA_URL = 'https://raw.githubusercontent.com/kamadorueda/nixpkgs-db/latest';
-
-const fetchJSON = async (url) => {
-  let response = await fetch(url);
-
-  while (!response.ok || response.status !== 200) {
-    response = await fetch(url);
-  }
-
-  return await response.json();
-};
-
-const useFetchJSON = (url, defaultData) => {
-  const [data, setData] = useState(defaultData);
-
-  useEffect(() => {
-    (async () => setData(await fetchJSON(url)))();
-  }, [url]);
-
-  return data;
-}
-
 export const Index = ({ bigScreen }) => {
-  const pkgs = useFetchJSON(`${DATA_URL}/data/pkgs.json`, []);
-  const revs = useFetchJSON(`${DATA_URL}/data/revs.json`, []);
+  const pkgs = useFetchJSON(`/data/pkgs.json`, []);
+  const revs = useFetchJSON(`/data/revs.json`, []);
 
   return (
     <React.Fragment>
