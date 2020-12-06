@@ -1,10 +1,10 @@
 // Third party libraries
-import {
-  Link,
-} from '@material-ui/core';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
+
+// Local libraries
+import { CodeBlock } from './Code';
 
 const renderBreak = () => (
   <br />
@@ -23,17 +23,15 @@ const renderHeading = ({ children, level }) => {
 
   return (
     <h2 id={id}>
-      <Link href={`#${id}`}>
-        {children}
-      </Link>
+      {renderLink({ children, href: `#${id}` })}
     </h2>
   );
 };
 
 const renderLink = ({ href, children }) => (
-  <Link href={href}>
+  <a href={href} target="_blank" rel='noreferrer noopener'>
     {children}
-  </Link>
+  </a>
 );
 
 const renderText = ({ children }) => (
@@ -45,20 +43,28 @@ const renderText = ({ children }) => (
 const getAnchorId = (text) => text.toLowerCase().replaceAll(' ', '-');
 
 const getTableOfContents = (content) => {
-  const lines = content
-    .split('\n')
-    .filter((line) => line.startsWith('#'))
+  let inBlock = false;
+  let titles = []
+  for (let line of content.split('\n')) {
+    if (line.startsWith('#') && !inBlock) {
+      titles.push(line);
+    } else if (line.startsWith('```')) {
+      inBlock = !inBlock;
+    }
+  }
+
+  titles = titles
     .map((line) => line.split(' '))
     .map((components) => ({
       level: components.slice(0, 1).join(' ').length,
       title: components.slice(1).join(' '),
     }));
 
-  if (lines.length > 0) {
+  if (titles.length > 0) {
     let toc = [];
     toc.push('# Table of contents');
     toc.push();
-    for (const { level, title } of lines) {
+    for (const { level, title } of titles) {
       toc.push(`- ${' '.repeat(level)} [${title}](#${getAnchorId(title)})`);
     }
 
@@ -82,14 +88,13 @@ const MarkDownBlock = ({ content }) => (
   />
 );
 
-export const Markdown = ({ content, title }) => (
+export const Markdown = ({ content }) => (
   <React.Fragment>
-    <MarkDownBlock content={`# ${title}`} />
     <MarkDownBlock content={getTableOfContents(content)} />
     <MarkDownBlock content={content} />
   </React.Fragment>
 );
 
-export const renderMarkdown = ({ content, title }) => () => (
-  <Markdown content={content} title={title} />
+export const renderMarkdown = ({ content }) => () => (
+  <Markdown content={content} />
 );

@@ -32,17 +32,14 @@ export const Index = ({ bigScreen }) => {
     {
       content: Cachipfs,
       path: '/cachipfs',
-      title: 'Welcome to CachIPFS documentation!',
     },
     {
       content: Sponsors,
       path: '/sponsors',
-      title: 'A small thank you',
     },
     {
       content: Home,
       path: '/',
-      title: 'Welcome to the docs!',
     },
   ];
 
@@ -57,11 +54,11 @@ export const Index = ({ bigScreen }) => {
           <Router basename="/docs">
             <br />
             <Switch>
-              {pages.map(({ content, path, title }) => (
+              {pages.map(({ content, path }) => (
                 <Route
                   key={path}
                   path={path}
-                  component={renderMarkdown({ content, title })}
+                  component={renderMarkdown({ content })}
                 />
               ))}
               <Redirect to="/" />

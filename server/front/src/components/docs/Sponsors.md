@@ -1,3 +1,5 @@
+# A small thank you
+
 This and other
 [Free and Open Source](https://en.wikipedia.org/wiki/FOSS)
 projects are possible by the financial contributions of some amazing members.
