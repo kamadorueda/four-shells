@@ -21,6 +21,11 @@ export const BarNav = () => {
             Contributing
           </Link>
         </Button>
+        <Button size="small">
+          <Link href='/nixdb/search' color="inherit">
+            Search
+          </Link>
+        </Button>
       </Toolbar>
     </AppBar>
   );
