@@ -71,14 +71,19 @@ APP = Starlette(
             path='/api/v1/cachipfs/namespaces',
         ),
         Route(
-            endpoint=four_shells.handlers.console,
+            endpoint=four_shells.handlers.cachipfs,
             methods=['GET'],
-            path='/console{path:path}',
+            path='/cachipfs{path:path}',
         ),
         Route(
             endpoint=four_shells.handlers.docs,
             methods=['GET'],
             path='/docs{path:path}',
+        ),
+        Route(
+            endpoint=four_shells.handlers.nixdb,
+            methods=['GET'],
+            path='/nixdb{path:path}',
         ),
         Route(
             endpoint=four_shells.handlers.oauth_google_start,

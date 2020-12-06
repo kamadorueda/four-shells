@@ -54,6 +54,14 @@ async def on_startup() -> None:
     """Server startup script."""
 
 
+def cachipfs(request: Request) -> Response:
+    return config.TPL.TemplateResponse('react.html', {
+        'js': config.from_cdn('/static/cachipfs.js'),
+        'globals': config.get_globals(request),
+        'request': request,
+    })
+
+
 def index(request: Request) -> Response:
     return config.TPL.TemplateResponse('react.html', {
         'js': config.from_cdn('/static/index.js'),
@@ -62,18 +70,17 @@ def index(request: Request) -> Response:
     })
 
 
-@authz.requires_session_sync
-def console(request: Request) -> Response:
+def docs(request: Request) -> Response:
     return config.TPL.TemplateResponse('react.html', {
-        'js': config.from_cdn('/static/console.js'),
+        'js': config.from_cdn('/static/docs.js'),
         'globals': config.get_globals(request),
         'request': request,
     })
 
 
-def docs(request: Request) -> Response:
+def nixdb(request: Request) -> Response:
     return config.TPL.TemplateResponse('react.html', {
-        'js': config.from_cdn('/static/docs.js'),
+        'js': config.from_cdn('/static/nixdb.js'),
         'globals': config.get_globals(request),
         'request': request,
     })

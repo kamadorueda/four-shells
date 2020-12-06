@@ -20,7 +20,6 @@ import { BarNav } from '../BarNav';
 import { Copyright } from '../Copyright';
 import { renderMarkdown } from '../Markdown';
 import Cachipfs from './Cachipfs.md';
-import Nixdb from './Nixdb.md';
 import Home from './Home.md';
 import Sponsors from './Sponsors.md';
 
@@ -34,11 +33,6 @@ export const Index = ({ bigScreen }) => {
       content: Cachipfs,
       path: '/cachipfs',
       title: 'Welcome to CachIPFS documentation!',
-    },
-    {
-      content: Nixdb,
-      path: '/nixdb',
-      title: 'Welcome to NixDB documentation!',
     },
     {
       content: Sponsors,
@@ -57,7 +51,7 @@ export const Index = ({ bigScreen }) => {
       <BarMain>
         <b>Four Shells</b>, work in progress!
       </BarMain>
-      <BarNav login products source sponsors/>
+      <BarNav products source sponsors/>
       <Container maxWidth="lg">
         <SnackbarProvider maxSnack={3}>
           <Router basename="/docs">

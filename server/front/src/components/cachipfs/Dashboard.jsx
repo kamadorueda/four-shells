@@ -13,8 +13,8 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 
 // Local libraries
-import { useGet, usePost } from '../../../utils/api';
-import { FormDialog } from '../../FormDialog';
+import { ensureActiveSession, useGet, usePost } from '../../utils/api';
+import { FormDialog } from '../FormDialog';
 
 const useStyles = makeStyles((theme) => ({
   centered: {
@@ -36,7 +36,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export const Index = () => {
+export const Dashboard = () => {
+  ensureActiveSession();
+
   const classes = useStyles();
 
   const [namespaceCreateIsOpen, setNamespaceCreateIsOpen] = useState(false);

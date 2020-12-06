@@ -6,9 +6,10 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 const common = {
   entry: {
-    console: "./src/entrypoints/console.jsx",
+    cachipfs: "./src/entrypoints/cachipfs.jsx",
     docs: "./src/entrypoints/docs.jsx",
     index: "./src/entrypoints/index.jsx",
+    nixdb: "./src/entrypoints/nixdb.jsx",
   },
   module: {
     rules: [
@@ -112,10 +113,10 @@ const dev = {
   ...common,
   devtool: "source-map",
   entry: {
-    console: [
+    cachipfs: [
       "webpack-dev-server/client?https://localhost:8401",
       "webpack/hot/only-dev-server",
-      "./src/entrypoints/console.jsx",
+      "./src/entrypoints/cachipfs.jsx",
     ],
     docs: [
       "webpack-dev-server/client?https://localhost:8401",
@@ -126,6 +127,11 @@ const dev = {
       "webpack-dev-server/client?https://localhost:8401",
       "webpack/hot/only-dev-server",
       "./src/entrypoints/index.jsx",
+    ],
+    nixdb: [
+      "webpack-dev-server/client?https://localhost:8401",
+      "webpack/hot/only-dev-server",
+      "./src/entrypoints/nixdb.jsx",
     ],
   },
   mode: "development",

@@ -22,8 +22,8 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 
 // Local libraries
-import { useGet, usePost } from '../../../utils/api';
-import { CopyToClipboard } from '../../CopyToClipboard';
+import { useGet, usePost } from '../../utils/api';
+import { CopyToClipboard } from '../CopyToClipboard';
 
 const useStyles = makeStyles((theme) => ({
   listNested: {

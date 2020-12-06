@@ -19,9 +19,10 @@ export const BarBreadcrumb = () => {
   const pathname = window.location.pathname;
   const components = pathname.split('/').filter((component) => component);
   const componentsMap = {
-    '/console': 'Console',
-    '/console/cachipfs': 'CachIPFS',
-    '/console/cachipfs/namespace': 'Namespace',
+    '/': 'Home',
+    '/cachipfs': 'CachIPFS',
+    '/cachipfs/namespace': 'Namespace',
+    '/nixdb': 'NixDB',
   };
 
   return (

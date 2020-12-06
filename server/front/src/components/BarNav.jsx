@@ -9,31 +9,13 @@ import {
 import { URLS } from '../utils/constants';
 
 export const BarNav = ({
-  docs,
-  login,
   products,
   sponsors,
   source,
 }) => {
-  const doLogin = () => {
-    window.location.assign('/oauth/google/start')
-  };
-
   return (
     <AppBar position="static" color="secondary">
       <Toolbar variant='dense'>
-        {docs ? (
-          <Button size="small"><Link href={URLS.docs} color="inherit">
-          Docs
-          </Link></Button>
-        ) : undefined}
-        {login ? (
-          <Button onClick={doLogin} size="small">
-            <Link color="inherit">
-              Login
-            </Link>
-          </Button>
-        ) : undefined}
         {products ? (
           <Button size="small"><Link href={URLS.products} color="inherit">
           Products

@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Local
-import { Index } from '../components/console/Index';
+import { Index } from '../components/cachipfs/Index';
 import { render } from '../utils/renderDOM';
 
 // Side effects

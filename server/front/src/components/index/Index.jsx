@@ -45,6 +45,7 @@ export const useStyles = makeStyles((theme) => ({
 }));
 
 export const ProductCard = ({
+  console,
   description,
   docs,
   image,
@@ -76,10 +77,17 @@ export const ProductCard = ({
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          <Link href={docs}>
-            Learn More
+          <Link href={console}>
+            Get started
           </Link>
         </Button>
+        {docs === undefined ? undefined : (
+          <Button size="small" color="primary">
+            <Link href={docs}>
+              Learn More
+            </Link>
+          </Button>
+        )}
       </CardActions>
     </Card>
   );
@@ -93,7 +101,7 @@ export const Index = ({ bigScreen }) => {
       <BarMain>
         <b>Four Shells</b>, work in progress!
       </BarMain>
-      <BarNav docs sponsors source login />
+      <BarNav sponsors source />
       <Container maxWidth="md">
         <div className={classes.mainCaption}>
           <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
@@ -111,7 +119,7 @@ export const Index = ({ bigScreen }) => {
           <Grid item>
             <ProductCard
               description="Database with Nix packages from all versions, all commits and all channels."
-              docs='/docs/nixdb'
+              console='/nixdb'
               image={nix_db_300x158}
               title="NixDB"
             />
@@ -119,6 +127,7 @@ export const Index = ({ bigScreen }) => {
           <Grid item>
             <ProductCard
               description="Encrypted Nix binary cache over IPFS."
+              console='/cachipfs'
               docs='/docs/cachipfs'
               image={nix_db_300x158}
               title="CachIPFS"

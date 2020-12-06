@@ -28,6 +28,14 @@ const request = (method, path, params, { enqueueSnackbar, setData, setLoading })
     })
 };
 
+export const doLogin = (next) => {
+  window.location.assign(`/oauth/google/start?next=${encodeURIComponent(next)}`);
+};
+
+export const OnClickDoLogin = (next) => () => {
+  doLogin(next);
+};
+
 export const useGet = (path, initialData, params={}) => {
   const { enqueueSnackbar } = useSnackbar();
   const [data, setData] = useState(initialData);
@@ -66,4 +74,19 @@ export const useDelete = (path, initialData) => {
   };
 
   return { data, loading, call };
+}
+
+export const globalEmail = () => window.globals?.session?.email;
+
+export const globalSession = () => window.globals?.session;
+
+export const hasActiveSession = () => (
+  ![null, undefined].includes(globalEmail)
+);
+
+export const ensureActiveSession = () => {
+  // Redirect to index as there is no session
+  if (!hasActiveSession()) {
+    window.location.assign('/')
+  }
 }
