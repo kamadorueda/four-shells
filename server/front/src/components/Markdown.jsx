@@ -95,6 +95,6 @@ export const Markdown = ({ content }) => (
   </React.Fragment>
 );
 
-export const renderMarkdown = ({ content }) => () => (
+export const renderMarkdown = (content) => () => (
   <Markdown content={content} />
 );

@@ -33,8 +33,8 @@ export const Index = ({ bigScreen }) => (
         <Router basename="/nixdb">
           <br />
           <Switch>
-            <Route path="/about" component={renderMarkdown({ content: About, title: "About NixDB" })}/>
-            <Route path="/contributing" component={renderMarkdown({ content: Contributing, title: "Contributing to NixDB" })}/>
+            <Route path="/about" component={renderMarkdown(About)}/>
+            <Route path="/contributing" component={renderMarkdown(Contributing)}/>
             <Route path="/" component={Home} />
             <Redirect to="/" />
           </Switch>

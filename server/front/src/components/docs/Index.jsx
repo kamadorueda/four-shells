@@ -29,18 +29,9 @@ const useStyles = makeStyles((theme) => ({
 export const Index = ({ bigScreen }) => {
   const classes = useStyles();
   const pages = [
-    {
-      content: Cachipfs,
-      path: '/cachipfs',
-    },
-    {
-      content: Sponsors,
-      path: '/sponsors',
-    },
-    {
-      content: Home,
-      path: '/',
-    },
+    { content: Cachipfs, path: '/cachipfs' },
+    { content: Sponsors, path: '/sponsors' },
+    { content: Home, path: '/' },
   ];
 
   return (
@@ -58,7 +49,7 @@ export const Index = ({ bigScreen }) => {
                 <Route
                   key={path}
                   path={path}
-                  component={renderMarkdown({ content })}
+                  component={renderMarkdown(content)}
                 />
               ))}
               <Redirect to="/" />
