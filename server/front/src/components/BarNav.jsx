@@ -17,17 +17,17 @@ export const BarNav = ({
     <AppBar position="static" color="secondary">
       <Toolbar variant='dense'>
         {products ? (
-          <Button size="small"><Link href={URLS.products} color="inherit">
+          <Button size="small"><Link href='/' color="inherit">
           Products
           </Link></Button>
         ) : undefined}
         {source ? (
-          <Button size="small"><Link href={URLS.source} color="inherit">
+          <Button size="small"><Link href='/docs/source' color="inherit">
             Source
           </Link></Button>
         ) : undefined}
         {sponsors ? (
-          <Button size="small"><Link href={URLS.sponsors} color="inherit">
+          <Button size="small"><Link href='/docs/sponsors' color="inherit">
             Sponsors
           </Link></Button>
         ) : undefined}

@@ -22,6 +22,11 @@ export const BarNav = () => {
           </Link>
         </Button>
         <Button size="small">
+          <Link href='/docs/source' color="inherit">
+            Source
+          </Link>
+        </Button>
+        <Button size="small">
           <Link href='/nixdb/search' color="inherit">
             Search
           </Link>

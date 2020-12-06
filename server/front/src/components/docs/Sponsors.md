@@ -1,4 +1,4 @@
-# A small thank you
+# Sponsors
 
 This and other
 [Free and Open Source](https://en.wikipedia.org/wiki/FOSS)

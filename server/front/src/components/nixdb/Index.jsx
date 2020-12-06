@@ -19,7 +19,6 @@ import About from './About.md';
 import Contributing from './Contributing.md';
 import { Search } from './Search';
 import { BarNav } from './BarNav';
-import { FavoriteBorderOutlined } from '@material-ui/icons';
 
 const DATA_URL = 'https://raw.githubusercontent.com/kamadorueda/nixpkgs-db/latest';
 
