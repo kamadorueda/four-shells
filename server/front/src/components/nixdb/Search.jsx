@@ -7,10 +7,10 @@ import {
   Typography,
 } from '@material-ui/core';
 
-export const Search = () => (
+export const Search = ({ pkgs, revs }) => (
   <React.StrictMode>
     <Container maxWidth="md">
-      asdf
+      {pkgs.length}
     </Container>
   </React.StrictMode>
 );

@@ -29,7 +29,7 @@ const renderHeading = ({ children, level }) => {
 };
 
 const renderLink = ({ href, children }) => (
-  <a href={href} target="_blank" rel='noreferrer noopener'>
+  <a href={href} rel='noreferrer noopener'>
     {children}
   </a>
 );
