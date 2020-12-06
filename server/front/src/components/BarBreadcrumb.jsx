@@ -21,7 +21,8 @@ export const BarBreadcrumb = () => {
   const componentsMap = {
     '/': 'Home',
     '/cachipfs': 'CachIPFS',
-    '/cachipfs/namespace': 'Namespace',
+    '/cachipfs/dashboard': 'Dashboard',
+    '/cachipfs/dashboard/namespace': 'Namespace',
     '/nixdb': 'NixDB',
   };
 
@@ -31,9 +32,10 @@ export const BarBreadcrumb = () => {
         <Button color='inherit' size="small">
           <Link color="primary" href="/">Home</Link>
         </Button>
-        {components
-          .map((_, index) => `/${components.slice(0, index + 1).join('/')}`)
-          .map((to) => (
+        {components.map((_, index) => {
+          const to = `/${components.slice(0, index + 1).join('/')}`;
+
+          return (
             <React.Fragment>
               /
               <Button color='inherit' key={to} size="small">
@@ -44,7 +46,8 @@ export const BarBreadcrumb = () => {
                 </Link>
               </Button>
             </React.Fragment>
-          ))}
+          );
+        })}
       </Toolbar>
     </AppBar>
   );

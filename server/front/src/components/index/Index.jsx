@@ -53,7 +53,7 @@ export const ProductCard = ({
 }) => {
   const classes = useStyles();
   const onClick = () => {
-    window.location.assign(docs);
+    window.location.assign(console);
   };
 
   return (

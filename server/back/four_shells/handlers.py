@@ -87,6 +87,8 @@ def nixdb(request: Request) -> Response:
 
 
 async def oauth_google_start(request: Request) -> Response:
+    request.session['next_url'] = request.query_params['next']
+
     return await OAUTH.google.authorize_redirect(
         request,
         request.url_for('oauth_google_finish'),
@@ -97,10 +99,14 @@ async def oauth_google_finish(request: Request) -> Response:
     token = await OAUTH.google.authorize_access_token(request)
     data = await OAUTH.google.parse_id_token(request, token)
     email = data['email'].lower()
+    next_url = request.session.pop('next_url', '')
+
+    if next_url not in {'/cachipfs/dashboard'}:
+        raise ValueError('Invalid next URL')
 
     if await accounts.ensure_account_exists(email=email):
         request.session['email'] = email
-        return RedirectResponse('/console/')
+        return RedirectResponse(next_url)
 
     raise Exception(f'Unable to create account for email: {email}')
 

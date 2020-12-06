@@ -31,11 +31,11 @@ export const Index = ({ bigScreen }) => (
     <BarMain>
       {hasActiveSession() ? (
         <React.Fragment>
-          CachIPFS
+          {formatEmail(globals.session.email)}'s CachIPFS
         </React.Fragment>
       ) : (
         <React.Fragment>
-          {formatEmail(globals.session.email)}'s CachIPFS
+          CachIPFS
         </React.Fragment>
       )}
     </BarMain>

@@ -91,7 +91,7 @@ export const Dashboard = () => {
         <ul className={classes.chipList}>
           {namespacesGetData.map(({ id, name }) => (
             <li key={id}>
-              <Link href={`/console/cachipfs/namespace/${encodeURIComponent(id)}`}>
+              <Link href={`/cachipfs/dashboard/namespace/${encodeURIComponent(id)}`}>
                 <Chip className={classes.chip} color="primary" label={name} variant="outlined" />
               </Link>
             </li>

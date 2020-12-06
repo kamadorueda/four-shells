@@ -28,12 +28,12 @@ const request = (method, path, params, { enqueueSnackbar, setData, setLoading })
     })
 };
 
-export const doLogin = (next) => {
-  window.location.assign(`/oauth/google/start?next=${encodeURIComponent(next)}`);
-};
+export const getLoginURL = (next) => (
+  `/oauth/google/start?next=${encodeURIComponent(next)}`
+);
 
-export const OnClickDoLogin = (next) => () => {
-  doLogin(next);
+export const doLogin = (next) => {
+  window.location.assign(getLoginURL(next));
 };
 
 export const useGet = (path, initialData, params={}) => {
@@ -81,7 +81,7 @@ export const globalEmail = () => window.globals?.session?.email;
 export const globalSession = () => window.globals?.session;
 
 export const hasActiveSession = () => (
-  ![null, undefined].includes(globalEmail)
+  ![null, undefined].includes(globalEmail())
 );
 
 export const ensureActiveSession = () => {
