@@ -3,9 +3,13 @@ import Levenshtein from 'levenshtein';
 import React, { useState } from 'react';
 import {
   Button,
+  Card,
+  CardActionArea,
+  CardContent,
   Container,
   Grid,
   Link,
+  makeStyles,
   TextField,
   Typography,
 } from '@material-ui/core';
@@ -22,7 +26,7 @@ import { useFetchJSON } from './utils';
 
 // Constants
 const DEFAULT_PKG = 'nix';
-const RESULTS_PER_PAGE = 10;
+const RESULTS_PER_PAGE = 12;
 
 const levenshtein = (a, b) => new Levenshtein(a, b).distance;
 
@@ -53,7 +57,17 @@ const searchString = (item, list) => {
     .map((x) => x[1]);
 }
 
+const useStyles = makeStyles((theme) => ({
+  card: {
+    flex: 1,
+  },
+  pagination: {
+    flex: 1,
+  },
+}));
+
 const Pkg = ({ pkg }) => {
+  const classes = useStyles();
   const dataSource = `/data/pkgs/${pkg}.json`;
   const dataJSON = useFetchJSON(dataSource, {});
   const data =  Object.entries(dataJSON).reverse();
@@ -66,9 +80,17 @@ const Pkg = ({ pkg }) => {
   const pkgLink = `/pkg/${encodeURIComponent(pkg)}`;
 
   return (
-    <React.Fragment>
-      xx
-    </React.Fragment>
+    <Card className={classes.card}>
+      <CardContent>
+        <Typography>
+          {pkg}
+          {pkg === lastData.meta.name ? "" : ` (${lastData.meta.name})`}
+        </Typography>
+        <Typography className={classes.productText} variant="body2" color="textSecondary">
+          {lastData.meta.description}
+        </Typography>
+      </CardContent>
+    </Card>
   )
 };
 
@@ -76,6 +98,8 @@ export const Search = ({ pkgs, revs }) => {
   if (pkgs.length === 0 || revs.length === 0) {
     return <Progress />
   }
+
+  const classes = useStyles();
 
   const [page, setPage] = useState(1);
   const [matchingPkgs, setMatchingPkgs] = useState(
@@ -115,11 +139,29 @@ export const Search = ({ pkgs, revs }) => {
           </Grid>
         </Grid>
         <br />
-        <Pagination count={pages} page={page} onChange={pageOnChange} />
+        <Grid container>
+          <Pagination
+            color='secondary'
+            className={classes.pagination}
+            count={pages}
+            page={page}
+            onChange={pageOnChange}
+          />
+        </Grid>
         <br />
-        {matchingPkgs
-          .slice(startPage - 1, endPage)
-          .map((pkg) => <Pkg pkg={pkg} />)}
+        <Grid
+          alignItems="stretch"
+          container
+          spacing={2}
+        >
+          {matchingPkgs
+            .slice(startPage - 1, endPage)
+            .map((pkg) => (
+              <Grid item key={pkg} xs={12} sm={6} md={3} lg={2} xl={1}>
+                <Pkg key={pkg} pkg={pkg} />
+              </Grid>
+            ))}
+        </Grid>
       </Container>
     </React.StrictMode>
   );
