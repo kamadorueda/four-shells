@@ -50,6 +50,8 @@ export const Index = ({ bigScreen }) => {
           </Router>
         </SnackbarProvider>
       </Container>
+      <br />
+      <br />
       <Typography variant='body2' color='textSecondary' align='center'>
         A total of {pkgs.length} packages and {revs.length} commits put in your hands! <br />
       </Typography>
