@@ -80,7 +80,6 @@ const Pkg = ({ pkg }) => {
   }
 
   const lastData = data[0][1];
-  const pkgLink = `/pkg/${encodeURIComponent(pkg)}`;
   const description = lastData.meta.description
     ? lastData.meta.description
     : lastData.meta.longDescription
@@ -91,7 +90,10 @@ const Pkg = ({ pkg }) => {
     <Card className={classes.card} variant='outlined'>
       <CardContent>
         <Typography gutterBottom>
-          <Link style={{ color: THEME.own.link }}>
+          <Link
+            href={`/nixdb/pkg/${encodeURIComponent(pkg)}`}
+            style={{ color: THEME.own.link }}
+          >
             <b>{pkg}</b>
             {pkg === lastData.meta.name
               ? undefined

@@ -20,6 +20,7 @@ import Contributing from './Contributing.md';
 import { Search } from './Search';
 import { useFetchJSON } from './utils';
 import { BarNav } from './BarNav';
+import { Pkg } from './Pkg';
 
 export const Index = ({ bigScreen }) => {
   const pkgs = useFetchJSON(`/data/pkgs.json`, []);
@@ -42,6 +43,8 @@ export const Index = ({ bigScreen }) => {
             <Switch>
               <Route path='/about' component={renderMarkdown(About)}/>
               <Route path='/contributing' component={renderMarkdown(Contributing)}/>
+              <Route path='/pkg/:pkg/:version' component={Pkg}/>
+              <Route path='/pkg/:pkg' component={Pkg}/>
               <Route path='/search'>
                 <Search pkgs={pkgs} revs={revs} />
               </Route>
