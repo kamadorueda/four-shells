@@ -27,9 +27,13 @@ export const Index = ({ bigScreen }) => {
 
   return (
     <React.Fragment>
-      <BarMain>
-        NixDB
-      </BarMain>
+      <BarMain
+        products
+        source
+        sponsors
+        title='NixDB'
+        titleLink='/'
+      />
       <BarNav />
       <Container maxWidth="lg">
         <SnackbarProvider maxSnack={3}>

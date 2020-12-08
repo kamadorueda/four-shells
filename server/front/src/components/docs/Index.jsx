@@ -16,7 +16,6 @@ import {
 
 // Local libraries
 import { BarMain } from '../BarMain';
-import { BarNav } from '../BarNav';
 import { Copyright } from '../Copyright';
 import { renderMarkdown } from '../Markdown';
 import Cachipfs from './Cachipfs.md';
@@ -38,10 +37,13 @@ export const Index = ({ bigScreen }) => {
 
   return (
     <React.Fragment>
-      <BarMain>
-        <b>Four Shells</b>, work in progress!
-      </BarMain>
-      <BarNav products source sponsors/>
+      <BarMain
+        products
+        source
+        sponsors
+        title='Four Shells'
+        titleLink='/'
+      />
       <Container maxWidth="lg">
         <SnackbarProvider maxSnack={3}>
           <Router basename="/docs">

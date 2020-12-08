@@ -10,7 +10,6 @@ import {
   Container,
   Grid,
   Link,
-  Paper,
   Typography,
 } from '@material-ui/core';
 import {
@@ -19,7 +18,6 @@ import {
 
 // Local libraries
 import { BarMain } from '../BarMain';
-import { BarNav } from '../BarNav';
 import { Copyright } from '../Copyright';
 import nix_db_300x158 from '../../../static/nix_db_300x158.png';
 
@@ -98,10 +96,12 @@ export const Index = ({ bigScreen }) => {
 
   return (
     <React.Fragment>
-      <BarMain>
-        <b>Four Shells</b>, work in progress!
-      </BarMain>
-      <BarNav sponsors source />
+      <BarMain
+        source
+        sponsors
+        title='Four Shells'
+        titleLink='/'
+      />
       <Container maxWidth="md">
         <div className={classes.mainCaption}>
           <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>

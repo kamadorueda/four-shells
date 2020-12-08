@@ -28,17 +28,13 @@ const formatEmail = (email) => {
 
 export const Index = ({ bigScreen }) => (
   <React.Fragment>
-    <BarMain>
-      {hasActiveSession() ? (
-        <React.Fragment>
-          {formatEmail(globals.session.email)}'s CachIPFS
-        </React.Fragment>
-      ) : (
-        <React.Fragment>
-          CachIPFS
-        </React.Fragment>
-      )}
-    </BarMain>
+    <BarMain
+      products
+      source
+      sponsors
+      title={hasActiveSession() ? `${formatEmail(globals.session.email)}'s CachIPFS` : 'CachIPFS'}
+      titleLink={hasActiveSession() ? '/cachipfs/dashboard' : '/cachipfs'}
+    />
     <BarBreadcrumb />
     <Container maxWidth="lg">
       <SnackbarProvider maxSnack={3}>

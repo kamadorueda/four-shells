@@ -8,7 +8,7 @@ import {
 } from '@material-ui/core';
 
 // Local libraries
-import { getLoginURL } from '../../utils/api';
+import { getLoginURL, hasActiveSession } from '../../utils/api';
 
 export const Home = () => (
   <React.StrictMode>
@@ -24,9 +24,15 @@ export const Home = () => (
         <br />
         <br />
         <Button color="secondary" variant="contained">
-          <Link href={getLoginURL('/cachipfs/dashboard')}>
-            Login
-          </Link>
+          {hasActiveSession() ? (
+            <Link href={'/cachipfs/dashboard'}>
+              Dashboard
+            </Link>
+          ) : (
+            <Link href={getLoginURL('/cachipfs/dashboard')}>
+              Login
+            </Link>
+          )}
         </Button>
         &nbsp;
         <Button color="primary" variant="outlined">

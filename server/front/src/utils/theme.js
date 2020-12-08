@@ -11,15 +11,9 @@ import {
 export const THEME = createMuiTheme({
   palette: {
     primary: {
-      contrastText: common['white'],
-      dark: grey['A100'],
-      light: grey[800],
       main: grey[900],
     },
     secondary: {
-      contrastText: common['black'],
-      dark: cyan[200],
-      light: cyan[50],
       main: cyan[100],
     },
   },
