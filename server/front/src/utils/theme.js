@@ -1,7 +1,7 @@
 import {
-  common,
   cyan,
   grey,
+  lightBlue,
 } from '@material-ui/core/colors';
 import {
   createMuiTheme,
@@ -16,5 +16,8 @@ export const THEME = createMuiTheme({
     secondary: {
       main: cyan[100],
     },
+  },
+  own: {
+    link: lightBlue[600],
   },
 });

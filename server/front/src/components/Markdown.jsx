@@ -1,9 +1,11 @@
 // Third party libraries
+import { Divider, Link, Typography } from '@material-ui/core';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
 
 // Local libraries
+import { THEME } from '../utils/theme';
 import { CodeBlock } from './Code';
 
 const renderBreak = () => (
@@ -22,22 +24,22 @@ const renderHeading = ({ children, level }) => {
   const id = getAnchorId(children[0].props.children);
 
   return (
-    <h2 id={id}>
+    <Typography component='h2' id={id}>
       {renderLink({ children, href: `#${id}` })}
-    </h2>
+    </Typography>
   );
 };
 
 const renderLink = ({ href, children }) => (
-  <a href={href} rel='noreferrer noopener'>
-    {children}
-  </a>
+  <Link href={href} style={{ color: THEME.own.link }}>
+    <b>{children}</b>
+  </Link>
 );
 
 const renderText = ({ children }) => (
-  <span>
+  <Typography component='span'>
     {children}
-  </span>
+  </Typography>
 );
 
 const getAnchorId = (text) => text.toLowerCase().replaceAll(' ', '-');
@@ -65,7 +67,7 @@ const getTableOfContents = (content) => {
     toc.push('# Table of contents');
     toc.push();
     for (const { level, title } of titles) {
-      toc.push(`- ${' '.repeat(level)} [${title}](#${getAnchorId(title)})`);
+      toc.push(`1. ${' '.repeat(level)} [${title}](#${getAnchorId(title)})`);
     }
 
     return toc.join('\n');
@@ -91,6 +93,10 @@ const MarkDownBlock = ({ content }) => (
 export const Markdown = ({ content }) => (
   <React.Fragment>
     <MarkDownBlock content={getTableOfContents(content)} />
+    <br />
+    <Divider />
+    <br />
+    <br />
     <MarkDownBlock content={content} />
   </React.Fragment>
 );
