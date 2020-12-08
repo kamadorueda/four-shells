@@ -1,15 +1,15 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
-const TerserPlugin = require("terser-webpack-plugin");
+const TerserPlugin = require('terser-webpack-plugin');
 const webpack = require('webpack');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 const common = {
   entry: {
-    cachipfs: "./src/entrypoints/cachipfs.jsx",
-    docs: "./src/entrypoints/docs.jsx",
-    index: "./src/entrypoints/index.jsx",
-    nixdb: "./src/entrypoints/nixdb.jsx",
+    cachipfs: './src/entrypoints/cachipfs.jsx',
+    docs: './src/entrypoints/docs.jsx',
+    index: './src/entrypoints/index.jsx',
+    nixdb: './src/entrypoints/nixdb.jsx',
   },
   module: {
     rules: [
@@ -19,8 +19,10 @@ const common = {
         use: {
           loader: 'babel-loader',
           options: {
+            cacheCompression: false,
+            cacheDirectory: true,
             plugins: [
-              ["@babel/transform-runtime"],
+              ['@babel/transform-runtime'],
             ],
             presets: [
               '@babel/preset-env',
@@ -85,21 +87,21 @@ const common = {
     ],
   },
   output: {
-    filename: "[name].js",
-    path: path.resolve(__dirname, "../public/static"),
+    filename: '[name].js',
+    path: path.resolve(__dirname, '../public/static'),
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[name].css",
+      filename: '[name].css',
     }),
     new webpack.ProvidePlugin({
       process: 'process/browser',
     }),
   ],
   resolve: {
-    extensions: [".js", ".jsx"],
+    extensions: ['.js', '.jsx'],
     fallback: {
-      "path": require.resolve("path-browserify"),
+      'path': require.resolve('path-browserify'),
     },
   },
   stats: {
@@ -111,30 +113,30 @@ const common = {
 
 const dev = {
   ...common,
-  devtool: "source-map",
+  devtool: 'eval',
   entry: {
     cachipfs: [
-      "webpack-dev-server/client?https://localhost:8401",
-      "webpack/hot/only-dev-server",
-      "./src/entrypoints/cachipfs.jsx",
+      'webpack-dev-server/client?https://localhost:8401',
+      'webpack/hot/only-dev-server',
+      './src/entrypoints/cachipfs.jsx',
     ],
     docs: [
-      "webpack-dev-server/client?https://localhost:8401",
-      "webpack/hot/only-dev-server",
-      "./src/entrypoints/docs.jsx",
+      'webpack-dev-server/client?https://localhost:8401',
+      'webpack/hot/only-dev-server',
+      './src/entrypoints/docs.jsx',
     ],
     index: [
-      "webpack-dev-server/client?https://localhost:8401",
-      "webpack/hot/only-dev-server",
-      "./src/entrypoints/index.jsx",
+      'webpack-dev-server/client?https://localhost:8401',
+      'webpack/hot/only-dev-server',
+      './src/entrypoints/index.jsx',
     ],
     nixdb: [
-      "webpack-dev-server/client?https://localhost:8401",
-      "webpack/hot/only-dev-server",
-      "./src/entrypoints/nixdb.jsx",
+      'webpack-dev-server/client?https://localhost:8401',
+      'webpack/hot/only-dev-server',
+      './src/entrypoints/nixdb.jsx',
     ],
   },
-  mode: "development",
+  mode: 'development',
   module: {
     ...common.module,
     rules: [
@@ -143,7 +145,7 @@ const dev = {
   },
   output: {
     ...common.output,
-    publicPath: "https://localhost:8401/static/",
+    publicPath: 'https://localhost:8401/static/',
   },
   plugins: [
     ...common.plugins,
@@ -154,7 +156,7 @@ const dev = {
 const prod = {
   ...common,
   bail: true,
-  mode: "production",
+  mode: 'production',
   module: {
     ...common.module,
     rules: [
