@@ -2,10 +2,15 @@
 import Levenshtein from 'levenshtein';
 import React, { useState } from 'react';
 import {
+  Button,
   Card,
+  CardActionArea,
+  CardActions,
   CardContent,
+  Chip,
   Container,
   Grid,
+  Link,
   makeStyles,
   TextField,
   Typography,
@@ -20,6 +25,7 @@ import {
 // Local libraries
 import { Progress } from '../Progress';
 import { useFetchJSON } from './utils';
+import { THEME } from '../../utils/theme';
 
 // Constants
 const DEFAULT_PKG = 'nix';
@@ -75,18 +81,36 @@ const Pkg = ({ pkg }) => {
 
   const lastData = data[0][1];
   const pkgLink = `/pkg/${encodeURIComponent(pkg)}`;
+  const description = lastData.meta.description
+    ? lastData.meta.description
+    : lastData.meta.longDescription
+      ? lastData.meta.longDescription
+      : '';
 
   return (
-    <Card className={classes.card}>
+    <Card className={classes.card} variant='outlined'>
       <CardContent>
-        <Typography>
-          {pkg}
-          {pkg === lastData.meta.name ? '' : ` (${lastData.meta.name})`}
+        <Typography gutterBottom>
+          <Link style={{ color: THEME.own.link }}>
+            <b>{pkg}</b>
+            {pkg === lastData.meta.name
+              ? undefined
+              : <React.Fragment><br />{lastData.meta.name}</React.Fragment>}
+          </Link>
         </Typography>
-        <Typography className={classes.productText} variant='body2' color='textSecondary'>
-          {lastData.meta.description}
-        </Typography>
+        {description ? (
+          <Typography color='textSecondary' gutterBottom variant='body2'>
+            {description}
+          </Typography>
+        ) : undefined}
       </CardContent>
+      <CardActions>
+        <Chip
+          label={`${data.length} version${data.length >= 2 ? "s" : ""} available`}
+          size='small'
+          variant='outlined'
+        />
+      </CardActions>
     </Card>
   )
 };
@@ -154,7 +178,7 @@ export const Search = ({ pkgs, revs }) => {
           {matchingPkgs
             .slice(startPage - 1, endPage)
             .map((pkg) => (
-              <Grid item key={pkg} xs={12} sm={6} md={3} lg={2} xl={1}>
+              <Grid item key={pkg} xs={12} sm={6} md={4} lg={4} xl={3}>
                 <Pkg key={pkg} pkg={pkg} />
               </Grid>
             ))}
