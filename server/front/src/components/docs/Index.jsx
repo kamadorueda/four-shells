@@ -6,7 +6,7 @@ import {
   Switch,
   Route,
   Redirect
-} from "react-router-dom";
+} from 'react-router-dom';
 import {
   Container,
 } from '@material-ui/core';
@@ -44,9 +44,9 @@ export const Index = ({ bigScreen }) => {
         title='Four Shells'
         titleLink='/'
       />
-      <Container maxWidth="lg">
+      <Container maxWidth='lg'>
         <SnackbarProvider maxSnack={3}>
-          <Router basename="/docs">
+          <Router basename='/docs'>
             <br />
             <Switch>
               {pages.map(({ content, path }) => (
@@ -56,7 +56,7 @@ export const Index = ({ bigScreen }) => {
                   component={renderMarkdown(content)}
                 />
               ))}
-              <Redirect to="/" />
+              <Redirect to='/' />
             </Switch>
             <Copyright />
           </Router>

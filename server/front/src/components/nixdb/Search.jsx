@@ -2,13 +2,10 @@
 import Levenshtein from 'levenshtein';
 import React, { useState } from 'react';
 import {
-  Button,
   Card,
-  CardActionArea,
   CardContent,
   Container,
   Grid,
-  Link,
   makeStyles,
   TextField,
   Typography,
@@ -84,9 +81,9 @@ const Pkg = ({ pkg }) => {
       <CardContent>
         <Typography>
           {pkg}
-          {pkg === lastData.meta.name ? "" : ` (${lastData.meta.name})`}
+          {pkg === lastData.meta.name ? '' : ` (${lastData.meta.name})`}
         </Typography>
-        <Typography className={classes.productText} variant="body2" color="textSecondary">
+        <Typography className={classes.productText} variant='body2' color='textSecondary'>
           {lastData.meta.description}
         </Typography>
       </CardContent>
@@ -125,14 +122,14 @@ export const Search = ({ pkgs, revs }) => {
 
   return (
     <React.StrictMode>
-      <Container maxWidth="md">
-        <Grid container spacing={1} alignItems="flex-end">
+      <Container maxWidth='md'>
+        <Grid container spacing={1} alignItems='flex-end'>
           <Grid item>
             <SearchOutlined />
           </Grid>
           <Grid item>
             <TextField
-              label="Package"
+              label='Package'
               onChange={pkgOnChange}
               defaultValue={DEFAULT_PKG}
             />
@@ -150,7 +147,7 @@ export const Search = ({ pkgs, revs }) => {
         </Grid>
         <br />
         <Grid
-          alignItems="stretch"
+          alignItems='stretch'
           container
           spacing={2}
         >

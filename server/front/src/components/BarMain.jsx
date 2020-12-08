@@ -2,6 +2,7 @@
 import React from 'react';
 import {
   AppBar,
+  Box,
   Container,
   IconButton,
   Link,
@@ -12,6 +13,7 @@ import {
   Toolbar,
   Typography,
 } from '@material-ui/core';
+import { CodeOutlined } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
   navbarDisplayFlex: {
@@ -38,6 +40,8 @@ export const BarMain = ({
       <Toolbar>
         <Container className={classes.navbarDisplayFlex} maxWidth='lg'>
           <IconButton edge='start' color='inherit'>
+            <CodeOutlined />
+            &nbsp;
             <Link href={titleLink} color='inherit'>
               <Typography component='h1' variant='h6'>
                 {title}
@@ -53,14 +57,14 @@ export const BarMain = ({
               </Link>
             ) : undefined}
             {source ? (
-              <Link href='/' color='inherit'>
+              <Link href='/docs/source' color='inherit'>
                 <ListItem button>
                   <ListItemText primary='Source' color='textSecondary' />
                 </ListItem>
               </Link>
             ) : undefined}
             {sponsors ? (
-              <Link href='/' color='inherit'>
+              <Link href='/docs/sponsors' color='inherit'>
                 <ListItem button>
                   <ListItemText primary='Sponsors' color='textSecondary' />
                 </ListItem>

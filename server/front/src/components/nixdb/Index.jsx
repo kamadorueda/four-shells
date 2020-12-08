@@ -6,7 +6,7 @@ import {
   Switch,
   Route,
   Redirect
-} from "react-router-dom";
+} from 'react-router-dom';
 import {
   Container, Link, Typography,
 } from '@material-ui/core';
@@ -32,25 +32,25 @@ export const Index = ({ bigScreen }) => {
         source
         sponsors
         title='NixDB'
-        titleLink='/'
+        titleLink='/nixdb'
       />
       <BarNav />
-      <Container maxWidth="lg">
+      <Container maxWidth='lg'>
         <SnackbarProvider maxSnack={3}>
-          <Router basename="/nixdb">
+          <Router basename='/nixdb'>
             <br />
             <Switch>
-              <Route path="/about" component={renderMarkdown(About)}/>
-              <Route path="/contributing" component={renderMarkdown(Contributing)}/>
-              <Route path="/search">
+              <Route path='/about' component={renderMarkdown(About)}/>
+              <Route path='/contributing' component={renderMarkdown(Contributing)}/>
+              <Route path='/search'>
                 <Search pkgs={pkgs} revs={revs} />
               </Route>
-              <Redirect to="/search" />
+              <Redirect to='/search' />
             </Switch>
           </Router>
         </SnackbarProvider>
       </Container>
-      <Typography variant="body2" color="textSecondary" align="center">
+      <Typography variant='body2' color='textSecondary' align='center'>
         A total of {pkgs.length} packages and {revs.length} commits put in your hands! <br />
       </Typography>
       <Copyright />

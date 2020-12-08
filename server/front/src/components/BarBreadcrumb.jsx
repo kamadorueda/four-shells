@@ -27,10 +27,10 @@ export const BarBreadcrumb = () => {
   };
 
   return (
-    <AppBar position="static" color="secondary">
+    <AppBar position='static' color='secondary'>
       <Toolbar variant='dense'>
-        <Button color='inherit' size="small">
-          <Link color="primary" href="/">Home</Link>
+        <Button color='inherit' size='small'>
+          <Link color='primary' href='/'>Home</Link>
         </Button>
         {components.map((_, index) => {
           const to = `/${components.slice(0, index + 1).join('/')}`;
@@ -38,8 +38,8 @@ export const BarBreadcrumb = () => {
           return (
             <React.Fragment>
               /
-              <Button color='inherit' key={to} size="small">
-                <Link color="primary" href={to}>
+              <Button color='inherit' key={to} size='small'>
+                <Link color='primary' href={to}>
                   {componentsMap[to] === undefined
                     ? components[index].slice(0, 7)
                     : componentsMap[to]}

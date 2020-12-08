@@ -6,7 +6,7 @@ import {
   Switch,
   Route,
   Redirect
-} from "react-router-dom";
+} from 'react-router-dom';
 import {
   Container,
 } from '@material-ui/core';
@@ -36,15 +36,15 @@ export const Index = ({ bigScreen }) => (
       titleLink={hasActiveSession() ? '/cachipfs/dashboard' : '/cachipfs'}
     />
     <BarBreadcrumb />
-    <Container maxWidth="lg">
+    <Container maxWidth='lg'>
       <SnackbarProvider maxSnack={3}>
-        <Router basename="/cachipfs">
+        <Router basename='/cachipfs'>
           <br />
           <Switch>
-            <Route path="/dashboard/namespace/:id" component={Namespace} />
-            <Route path="/dashboard" component={Dashboard} />
-            <Route path="/" component={Home} />
-            <Redirect to="/" />
+            <Route path='/dashboard/namespace/:id' component={Namespace} />
+            <Route path='/dashboard' component={Dashboard} />
+            <Route path='/' component={Home} />
+            <Redirect to='/' />
           </Switch>
           <Copyright />
         </Router>

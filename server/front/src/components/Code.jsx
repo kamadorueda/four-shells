@@ -9,17 +9,17 @@ import { FileCopyOutlined } from '@material-ui/icons';
 const onCopy = () => alert('Copied!');
 
 export const CopyButton = ({ content, type }) => {
-  const style = { color: "#007bff" };
+  const style = { color: '#007bff' };
 
   let inner;
   switch (type) {
-    case "icon":
+    case 'icon':
       inner = <span style={style}><FileCopyOutlined /></span>
       break;
-    case "icon+copy":
+    case 'icon+copy':
       inner = <span style={style}><FileCopyOutlined /> Copy</span>
       break;
-    case "icon+copy+center":
+    case 'icon+copy+center':
       inner = <center style={style}><FileCopyOutlined /> Copy</center>
       break;
     default:
@@ -59,7 +59,7 @@ export const Code = ({
         content={contentD}
         lang={lang}
       />
-      {copyable ? <CopyButton content={contentD} type="icon+copy+center" /> : undefined }
+      {copyable ? <CopyButton content={contentD} type='icon+copy+center' /> : undefined }
     </React.Fragment>
   );
 };

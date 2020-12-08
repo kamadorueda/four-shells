@@ -21,15 +21,15 @@ export const FormDialog = ({
 
   return (
     <Dialog open={isOpen} onClose={dialogOnClose}>
-      <DialogTitle id="form-dialog-title">{title}</DialogTitle>
+      <DialogTitle id='form-dialog-title'>{title}</DialogTitle>
       <DialogContent>
         {content}
       </DialogContent>
       <DialogActions>
-        <Button onClick={dialogOnClose} color="secondary">
+        <Button onClick={dialogOnClose} color='secondary'>
           Cancel
         </Button>
-        <Button onClick={onContinue} color="primary">
+        <Button onClick={onContinue} color='primary'>
           Continue
         </Button>
       </DialogActions>

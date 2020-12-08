@@ -42,7 +42,7 @@ export const Dashboard = () => {
   const classes = useStyles();
 
   const [namespaceCreateIsOpen, setNamespaceCreateIsOpen] = useState(false);
-  const [namespaceCreateName, setNamespaceCreateName] = useState("");
+  const [namespaceCreateName, setNamespaceCreateName] = useState('');
 
   // API
   const {
@@ -58,7 +58,7 @@ export const Dashboard = () => {
     setNamespaceCreateIsOpen(false);
     namespacePost({ name: namespaceCreateName });
     setTimeout(namespacesGet, 2000);
-    setNamespaceCreateName("");
+    setNamespaceCreateName('');
   };
   const namespaceCreateOnChangeName = (event) => {
     setNamespaceCreateName(event.target.value);
@@ -69,11 +69,11 @@ export const Dashboard = () => {
 
   return (
     <React.StrictMode>
-      <Container maxWidth="lg">
-        <Typography component="h2" variant="h5" align="center" color="textPrimary">
+      <Container maxWidth='lg'>
+        <Typography component='h2' variant='h5' align='center' color='textPrimary'>
           Binary Caches
         </Typography>
-        <Typography color="textSecondary">
+        <Typography color='textSecondary'>
           <br />
           A Binary Cache can store Nixpkgs, Nix builds,
           and in a more general sense /nix/store paths.
@@ -85,22 +85,22 @@ export const Dashboard = () => {
           <br />
           <br />
         </Typography>
-        <Typography component="h2" variant="h6" align="center" color="textPrimary">
+        <Typography component='h2' variant='h6' align='center' color='textPrimary'>
           Your Binary Caches
         </Typography>
         <ul className={classes.chipList}>
           {namespacesGetData.map(({ id, name }) => (
             <li key={id}>
               <Link href={`/cachipfs/dashboard/namespace/${encodeURIComponent(id)}`}>
-                <Chip className={classes.chip} color="primary" label={name} variant="outlined" />
+                <Chip className={classes.chip} color='primary' label={name} variant='outlined' />
               </Link>
             </li>
           ))}
         </ul>
       </Container>
       <div className={classes.centered}>
-        <ButtonGroup color="primary">
-          <Button color="primary" onClick={namespaceCreateOnClick} variant="contained">
+        <ButtonGroup color='primary'>
+          <Button color='primary' onClick={namespaceCreateOnClick} variant='contained'>
             Create
           </Button>
         </ButtonGroup>
@@ -113,7 +113,7 @@ export const Dashboard = () => {
               autoFocus
               fullWidth
               onChange={namespaceCreateOnChangeName}
-              margin="dense"
+              margin='dense'
               value={namespaceCreateName}
             />
           </React.Fragment>

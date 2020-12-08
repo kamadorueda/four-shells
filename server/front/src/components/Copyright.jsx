@@ -17,11 +17,11 @@ export const Copyright = () => {
       <br />
       <Divider />
       <br />
-      <Typography variant="body2" color="textSecondary" align="center">
+      <Typography variant='body2' color='textSecondary' align='center'>
         Please help us improve by <Link href={URLS.issues}>reporting issues</Link> &hearts;
         <br />
         <br />
-        Copyright © <Link color="inherit" href="/">Four Shells</Link> {currentYear}.
+        Copyright © <Link color='inherit' href='/'>Four Shells</Link> {currentYear}.
       </Typography>
       <br />
     </React.Fragment>

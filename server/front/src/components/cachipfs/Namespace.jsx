@@ -77,11 +77,11 @@ export const Namespace = () => {
 
   return (
     <React.Fragment>
-      <Container maxWidth="xs">
-        <Typography component="h2" variant="h5" align="center" color="textPrimary">
+      <Container maxWidth='xs'>
+        <Typography component='h2' variant='h5' align='center' color='textPrimary'>
           Using <b>{namespaceGetData.name.toUpperCase()}</b> Binary Cache
         </Typography>
-        <Typography color="textSecondary">
+        <Typography color='textSecondary'>
           <br />
           In order to configure Nix to use this binary cache you'll need
           to configure your <b>cachipfs</b> client with the following tokens.
@@ -95,10 +95,10 @@ export const Namespace = () => {
         <Card>
           <CardHeader
             avatar={<Avatar><VpnKeyOutlined /></Avatar>}
-            title="Read Access Token"
+            title='Read Access Token'
           />
           <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography variant='body2' color='textSecondary' component='p'>
               {visibleR ? namespaceGetData.token_read : '*'.repeat(32)}
             </Typography>
           </CardContent>
@@ -120,10 +120,10 @@ export const Namespace = () => {
         <Card>
           <CardHeader
             avatar={<Avatar><VpnKeyOutlined /></Avatar>}
-            title="Write Access Token"
+            title='Write Access Token'
           />
           <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography variant='body2' color='textSecondary' component='p'>
               {visibleW ? namespaceGetData.token_write : '*'.repeat(32)}
             </Typography>
           </CardContent>
@@ -145,10 +145,10 @@ export const Namespace = () => {
         <Card>
           <CardHeader
             avatar={<Avatar><VpnKeyOutlined /></Avatar>}
-            title="Admin Access Token"
+            title='Admin Access Token'
           />
           <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography variant='body2' color='textSecondary' component='p'>
               {visibleA ? namespaceGetData.token_admin : '*'.repeat(32)}
             </Typography>
           </CardContent>

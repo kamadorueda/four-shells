@@ -58,29 +58,29 @@ export const ProductCard = ({
     <Card className={classes.productCard}>
       <CardActionArea onClick={onClick}>
         <CardContent>
-          <Typography className={classes.productText} gutterBottom variant="h5">
+          <Typography className={classes.productText} gutterBottom variant='h5'>
             {title}
           </Typography>
         </CardContent>
         <CardMedia
-          component="img"
-          height="158"
+          component='img'
+          height='158'
           image={image}
         />
         <CardContent>
-          <Typography className={classes.productText} variant="body2" color="textSecondary">
+          <Typography className={classes.productText} variant='body2' color='textSecondary'>
             {description}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size='small' color='primary'>
           <Link href={console}>
             Get started
           </Link>
         </Button>
         {docs === undefined ? undefined : (
-          <Button size="small" color="primary">
+          <Button size='small' color='primary'>
             <Link href={docs}>
               Learn More
             </Link>
@@ -102,35 +102,35 @@ export const Index = ({ bigScreen }) => {
         title='Four Shells'
         titleLink='/'
       />
-      <Container maxWidth="md">
+      <Container maxWidth='md'>
         <div className={classes.mainCaption}>
-          <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
+          <Typography component='h1' variant='h3' align='center' color='textPrimary' gutterBottom>
             Software boosts the world
           </Typography>
-          <Typography variant="h5" align="center" color="textSecondary" paragraph>
+          <Typography variant='h5' align='center' color='textSecondary' paragraph>
             Consistent tools that improve your workflows,
             while aiming towards decentralization,
             freedom of choice, privacy and open core values.
           </Typography>
         </div>
       </Container>
-      <Container maxWidth="lg">
-        <Grid container spacing={2} justify="center">
+      <Container maxWidth='lg'>
+        <Grid container spacing={2} justify='center'>
           <Grid item>
             <ProductCard
-              description="Database with Nix packages from all versions, all commits and all channels."
+              description='Database with Nix packages from all versions, all commits and all channels.'
               console='/nixdb'
               image={nix_db_300x158}
-              title="NixDB"
+              title='NixDB'
             />
           </Grid>
           <Grid item>
             <ProductCard
-              description="Encrypted Nix binary cache over IPFS."
+              description='Encrypted Nix binary cache over IPFS.'
               console='/cachipfs'
               docs='/docs/cachipfs'
               image={nix_db_300x158}
-              title="CachIPFS"
+              title='CachIPFS'
             />
           </Grid>
         </Grid>
