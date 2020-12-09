@@ -1,7 +1,7 @@
 // Third party libraries
 import { useEffect, useState } from 'react';
 
-const DATA_URL = 'https://raw.githubusercontent.com/kamadorueda/nixpkgs-db/latest';
+export const DATA_URL = 'https://raw.githubusercontent.com/kamadorueda/four-shells/data-nixdb';
 
 const fetchJSON = async (url) => {
   let response = await fetch(url);

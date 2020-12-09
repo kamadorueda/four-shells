@@ -51,17 +51,15 @@ We index every piece of the Nixpkgs history in order to provide versions lookups
 Attribute        Description                       Versions  License
 kubernetes-helm  A package manager for kubernetes  30        Apache License 2.0
 
-  https://kamadorueda.github.io/nixpkgs-db/#/pkg/kubernetes-helm/3.4.0
-  https://kamadorueda.github.io/nixpkgs-db/#/pkg/kubernetes-helm/3.3.4
-  https://kamadorueda.github.io/nixpkgs-db/#/pkg/kubernetes-helm/3.3.1
+  https://4shells.com/nixdb/pkg/kubernetes-helm/3.4.0
+  https://4shells.com/nixdb/pkg/kubernetes-helm/3.3.4
+  https://4shells.com/nixdb/pkg/kubernetes-helm/3.3.1
   ...
 ```
 
 And cool badges that you can add to your project:
 
-[![](https://img.shields.io/endpoint?color=brightgreen&label=Kubernetes+Helm&labelColor=grey&logo=NixOS&logoColor=white&style=flat&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkamadorueda%2Fnixpkgs-db%2Flatest%2Fdata%2Fbadges%2Fkubernetes-helm.json)](https://kamadorueda.github.io/nixpkgs-db/#/pkg/kubernetes-helm)
-
-We even give you the command to install the version you want in your system!
+[![](https://img.shields.io/endpoint?color=green&label=kubernetes&labelColor=grey&logo=NixOS&logoColor=white&style=flat&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkamadorueda%2Ffour-shells%2Fdata-nixdb%2Fbadges%2Fkubernetes.json)](https://4shells.com/nixdb/pkg/kubernetes)
 
 ```bash
 # Launch a Nix Shell with version 3.4.0 found in Nixpkgs Database
@@ -89,4 +87,4 @@ This project is entirely [Free and Open Source Software](https://en.wikipedia.or
 
 You can read more about the technical details [here](https://www.patreon.com/posts/creating-zero-43586691).
 
-And by the way, we welcome [contributions](/nixpkgs-db/#/contributing) :)
+And by the way, we welcome [contributions](/nixdb/contributing) :)

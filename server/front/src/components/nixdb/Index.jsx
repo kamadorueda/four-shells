@@ -23,8 +23,8 @@ import { BarNav } from './BarNav';
 import { Pkg } from './Pkg';
 
 export const Index = ({ bigScreen }) => {
-  const pkgs = useFetchJSON(`/data/pkgs.json`, []);
-  const revs = useFetchJSON(`/data/revs.json`, []);
+  const pkgs = useFetchJSON(`/pkgs.json`, []);
+  const revs = useFetchJSON(`/revs.json`, []);
 
   return (
     <React.Fragment>
@@ -55,9 +55,11 @@ export const Index = ({ bigScreen }) => {
       </Container>
       <br />
       <br />
-      <Typography variant='body2' color='textSecondary' align='center'>
-        A total of {pkgs.length} packages and {revs.length} commits put in your hands! <br />
-      </Typography>
+      {pkgs.length > 0 && revs.length > 0 ? (
+        <Typography variant='body2' color='textSecondary' align='center'>
+          A total of {pkgs.length} packages and {revs.length} commits put in your hands! <br />
+        </Typography>
+      ) : undefined}
       <Copyright />
     </React.Fragment>
   );

@@ -10,11 +10,11 @@ We genuinely appreciate people who are trying to improve this database.
 There are many ways to contribute, not necessarily technical:
 
 - Tell other people of the work being done here.
-- Star or fork the [repository](https://github.com/kamadorueda/nixpkgs-db),
+- Star or fork the [repository](https://github.com/kamadorueda/four-shells),
   this help us with funding and popularity.
 - Help us improve the user interface.
 - Fire up an issue! we welcome ideas, feature requests and problems.
-- [Become a sponsor of the project](/nixpkgs-db/#/sponsor).
+- [Become a sponsor of the project](/docs/sponsors).
 
 We also thank the following contributions:
 

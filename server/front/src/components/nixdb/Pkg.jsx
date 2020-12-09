@@ -18,7 +18,7 @@ import { Code } from '../Code';
 
 // Local libraries
 import { Progress } from '../Progress';
-import { useFetchJSON } from './utils';
+import { DATA_URL, useFetchJSON } from './utils';
 
 // Constants
 const FORMATS_FUNCTIONS = {
@@ -75,7 +75,7 @@ export const badge = ({
   url.searchParams.set('logo', logo);
   url.searchParams.set('logoColor', logoColor);
   url.searchParams.set('style', style);
-  url.searchParams.set('url', `https://raw.githubusercontent.com/kamadorueda/nixpkgs-db/latest/data/badges/${pkg}.json`);
+  url.searchParams.set('url', `${DATA_URL}/badges/${pkg}.json`);
 
   return url.toString();
 }
@@ -231,7 +231,7 @@ const Badge = ({ pkg }) => {
 export const Pkg = () => {
   const { pkg, version } = useParams();
 
-  const dataJSON = useFetchJSON(`/data/pkgs/${pkg}.json`, {});
+  const dataJSON = useFetchJSON(`/pkgs/${pkg}.json`, {});
   const data =  Object.entries(dataJSON).reverse();
 
   if (data.length === 0) {

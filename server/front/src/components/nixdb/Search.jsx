@@ -71,8 +71,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Pkg = ({ pkg }) => {
   const classes = useStyles();
-  const dataSource = `/data/pkgs/${pkg}.json`;
-  const dataJSON = useFetchJSON(dataSource, {});
+  const dataJSON = useFetchJSON(`/pkgs/${pkg}.json`, {});
   const data =  Object.entries(dataJSON).reverse();
 
   if (data.length === 0) {
