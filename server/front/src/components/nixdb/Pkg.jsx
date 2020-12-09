@@ -22,60 +22,60 @@ import { useFetchJSON } from './utils';
 
 // Constants
 const FORMATS_FUNCTIONS = {
-  "AsciiDoc": (imageURL, linkURL) => `
-    image:${imageURL}[link="${linkURL}"]
+  'AsciiDoc': (imageURL, linkURL) => `
+    image:${imageURL}[link='${linkURL}']
   `,
-  "HTML": (imageURL, linkURL) => `
-    <a href="${linkURL}">
-      <img src="${imageURL}">
+  'HTML': (imageURL, linkURL) => `
+    <a href='${linkURL}'>
+      <img src='${imageURL}'>
     </a>
   `,
-  "Markdown": (imageURL, linkURL) => `
+  'Markdown': (imageURL, linkURL) => `
     [![](${imageURL})](${linkURL})
   `,
-  "ReStructuredText": (imageURL, linkURL) => `
+  'ReStructuredText': (imageURL, linkURL) => `
     .. image:: ${imageURL}
       :target: ${linkURL}
   `,
 };
 const FORMATS = Object.keys(FORMATS_FUNCTIONS);
 export const COLORS = [
-  "blue",
-  "blueviolet",
-  "brightgreen",
-  "green",
-  "lightgrey",
-  "orange",
-  "red",
-  "yellow",
-  "yellowgreen",
+  'blue',
+  'blueviolet',
+  'brightgreen',
+  'green',
+  'lightgrey',
+  'orange',
+  'red',
+  'yellow',
+  'yellowgreen',
 ];
 
 export const STYLES = [
-  "flat",
-  "flat-square",
-  "plastic",
-  "for-the-badge",
+  'flat',
+  'flat-square',
+  'plastic',
+  'for-the-badge',
 ];
 
 export const badge = ({
-  color = "green",
+  color = 'green',
   label,
-  labelColor = "grey",
-  logo = "NixOS",
-  logoColor = "white",
+  labelColor = 'grey',
+  logo = 'NixOS',
+  logoColor = 'white',
   pkg,
-  style = "flat",
+  style = 'flat',
 }) => {
-  const url = new URL("https://img.shields.io/endpoint");
+  const url = new URL('https://img.shields.io/endpoint');
 
-  url.searchParams.set("color", color);
-  url.searchParams.set("label", label === undefined ? pkg : label);
-  url.searchParams.set("labelColor", labelColor);
-  url.searchParams.set("logo", logo);
-  url.searchParams.set("logoColor", logoColor);
-  url.searchParams.set("style", style);
-  url.searchParams.set("url", `https://raw.githubusercontent.com/kamadorueda/nixpkgs-db/latest/data/badges/${pkg}.json`);
+  url.searchParams.set('color', color);
+  url.searchParams.set('label', label === undefined ? pkg : label);
+  url.searchParams.set('labelColor', labelColor);
+  url.searchParams.set('logo', logo);
+  url.searchParams.set('logoColor', logoColor);
+  url.searchParams.set('style', style);
+  url.searchParams.set('url', `https://raw.githubusercontent.com/kamadorueda/nixpkgs-db/latest/data/badges/${pkg}.json`);
 
   return url.toString();
 }
@@ -129,7 +129,7 @@ const formatPlatforms = (platforms) => {
 
   for (let platform of platforms) {
     switch (typeof platform) {
-      case "string":
+      case 'string':
         formatted.push(platform);
         break;
       default:
@@ -142,7 +142,7 @@ const formatPlatforms = (platforms) => {
 const Badge = ({ pkg }) => {
   const [badgeId, setBadgeId] = useState('flat/blue');
   const [badgesData, setBadgesData] = useState([]);
-  const [content, setContent] = useState("");
+  const [content, setContent] = useState('');
   const [format, setFormat] = useState(FORMATS[2]);
   const [label, setLabel] = useState(pkg);
 
@@ -183,19 +183,19 @@ const Badge = ({ pkg }) => {
       <DefinitionText content='Add the badge of your preference to your project!'/>
       <DefinitionText content='It will tell your users the number of releases they can install with Nix and link to this page so they can get more information!'/>
       <br />
-      <FormControl variant="outlined">
+      <FormControl variant='outlined'>
         <InputLabel>Format</InputLabel>
         <Select
           value={format}
           onChange={onChangeFormat}
-          label="Format"
+          label='Format'
         >
           {FORMATS.map((f) => <MenuItem key={f} value={f}>{f}</MenuItem>)}
         </Select>
         <br />
         <TextField
           defaultValue={pkg}
-          label="Custom label"
+          label='Custom label'
           onChange={onChangeLabel}
           value={label}
           variant='outlined'
@@ -260,7 +260,7 @@ export const Pkg = () => {
 
       # Version: ${version}
       ${pkg} = (import (pkgs.fetchzip {
-        url = "https://github.com/nixos/nixpkgs/archive/${versionDataLastRev}.zip";
+        url = 'https://github.com/nixos/nixpkgs/archive/${versionDataLastRev}.zip';
         # Please update this hash with the one nix says on the first build attempt
         sha256 = "0000000000000000000000000000000000000000000000000000000000000000";
       }) { }).${pkg};

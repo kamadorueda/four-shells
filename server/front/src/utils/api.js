@@ -16,14 +16,14 @@ const request = (method, path, params, { enqueueSnackbar, setData, setLoading })
       throw Error('Request failed');
     })
     .then((data) => {
-      if (method != "get") {
-        enqueueSnackbar("Success!", { variant: "success" });
+      if (method != 'get') {
+        enqueueSnackbar('Success!', { variant: 'success' });
       }
       setData(data);
       setLoading(false);
     })
     .catch((error) => {
-      enqueueSnackbar(`An error has occurred: ${error}`, { variant: "error" });
+      enqueueSnackbar(`An error has occurred: ${error}`, { variant: 'error' });
       setLoading(false);
     })
 };
@@ -42,7 +42,7 @@ export const useGet = (path, initialData, params={}) => {
   const [loading, setLoading] = useState(true);
 
   const call = () => {
-    request("get", path, params, { enqueueSnackbar, setData, setLoading });
+    request('get', path, params, { enqueueSnackbar, setData, setLoading });
   };
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export const usePost = (path, initialData) => {
   const [loading, setLoading] = useState(true);
 
   const call = (params={}) => {
-    request("post", path, params, { enqueueSnackbar, setData, setLoading });
+    request('post', path, params, { enqueueSnackbar, setData, setLoading });
   };
 
   return { data, loading, call };
@@ -70,7 +70,7 @@ export const useDelete = (path, initialData) => {
   const [loading, setLoading] = useState(true);
 
   const call = (params={}) => {
-    request("delete", path, params, { enqueueSnackbar, setData, setLoading });
+    request('delete', path, params, { enqueueSnackbar, setData, setLoading });
   };
 
   return { data, loading, call };

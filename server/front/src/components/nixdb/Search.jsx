@@ -108,7 +108,7 @@ const Pkg = ({ pkg }) => {
       </CardContent>
       <CardActions>
         <Chip
-          label={`${data.length} version${data.length >= 2 ? "s" : ""} available`}
+          label={`${data.length} version${data.length >= 2 ? 's' : ''} available`}
           size='small'
           variant='outlined'
         />
