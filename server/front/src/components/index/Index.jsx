@@ -126,7 +126,7 @@ export const Index = ({ bigScreen }) => {
           </Grid>
           <Grid item>
             <ProductCard
-              description='Encrypted Nix binary cache over IPFS.'
+              description='Encrypted Nix binary cache over IPFS. Work in progress!'
               console='/cachipfs'
               docs='/docs/cachipfs'
               image={nix_db_300x158}
