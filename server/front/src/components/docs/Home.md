@@ -60,7 +60,7 @@ We thank the following members for their contributions:
 
   Contributed by [Kevin Amado](https://github.com/kamadorueda)
 
-# Sponsors
+## Sponsors
 
 This and other
 [Free and Open Source](https://en.wikipedia.org/wiki/FOSS)
@@ -74,9 +74,8 @@ Thank you so much for your support!
 | [![Nathan Fish][1_img]][1_url]       | [Nathan Fish][1_url]     |
 | [![Alejandra Gómez][2_img]][2_url]   | [Alejandra Gómez][2_url] |
 
-You also can be part of it,
-either by [Contributing to the project](/docs#contributing)
-or [Sponsoring me on Patreon](https://www.patreon.com/kamadorueda).
+You also can be part of this list by
+[Sponsoring me on Patreon](https://www.patreon.com/kamadorueda).
 
 It goes far beyond the money.
 It's about the people who have found their lives a little bit better thanks to the project!
@@ -92,7 +91,7 @@ It's about the people who have found their lives a little bit better thanks to t
 
 This project is kind of a monolith in the sense that everything lives
 on the same repository.
-This has some reasons but mostly is because I think it makes things simpler.
+This has some reasons but mostly is because we think it makes things simpler.
 
 The project structure is more or less the following:
 
@@ -111,11 +110,6 @@ There are other _not very important_ folders that you can ignore for now:
 - `/client`: a CLI (work in progress)
 - `/infra`: Terraform files to describe the infrastructure
 
-
-## Help
-
-Email me! `kamadorueda [at] gmail [dot] com`, I'll be happy to help.
-
 ## Local environment
 
 Requirements:
@@ -123,9 +117,11 @@ Requirements:
 1.  Linux (preferably) or Windows WSL (slow here because of virtualization)
 1.  Having Nix installed in your system: https://nixos.org/download.html
 1.  Please clone and locate your shell at the root of the repository,
-    you'll need 2 shells (I need 4, that's why Four Shells!)
+    you'll need 2 shells (we need 4, that's why **Four Shells**!)
 1.  You'll need a local back-end and a local front-end server:
-    1.  Back-end: Run `./cmd/server-local/back/run.sh`
+    1.  Back-end:
+
+        Run `./cmd/server-local/back/run.sh`
 
         ```
         four-shells$ ./cmd/server-local/back/run.sh
@@ -152,7 +148,9 @@ Requirements:
 
         You can quit by pressing CTRL + C
 
-    1.  Front-end: Run `./cmd/server-local/front/run.sh`
+    1.  Front-end:
+
+        Run `./cmd/server-local/front/run.sh`
 
         The output is similar to this, once you modify and save a file
         the front-end server will automatically reload with the changes.
@@ -165,7 +163,11 @@ Requirements:
         webpack 5.10.0 compiled successfully in 1045 ms
         ℹ ｢wdm｣: Compiled successfully.
         ```
-1.  Visit http://localhost:8400 and you are ready to hack!
+1.  Visit [http://localhost:8400](http://localhost:8400) and you are ready to hack!
+
+## Help
+
+Email me! `kamadorueda [at] gmail [dot] com`, I'll be happy to help.
 
 ## Technical Philosophy
 
