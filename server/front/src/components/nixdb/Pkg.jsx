@@ -4,23 +4,51 @@ import {
   CardContent,
   FormControl,
   Grid,
+  IconButton,
   InputLabel,
+  Link,
   MenuItem,
-  Radio,
   RadioGroup,
   Select,
   TextField,
   Typography,
 } from '@material-ui/core';
+import {
+  ArrowForwardOutlined,
+  MemoryOutlined,
+  PersonOutlineOutlined,
+  RadioButtonUncheckedOutlined,
+} from '@material-ui/icons';
 import React, { useEffect, useState } from 'react';
 import { Redirect, useParams } from 'react-router-dom';
-import { Code } from '../Code';
 
 // Local libraries
+import { THEME } from '../../utils/theme';
+import { Code } from '../Code';
 import { Progress } from '../Progress';
+import { SplitDiv } from '../SplitDiv';
 import { DATA_URL, useFetchJSON } from './utils';
 
 // Constants
+const COLORS = [
+  'blue',
+  'blueviolet',
+  'brightgreen',
+  'green',
+  'lightgrey',
+  'orange',
+  'red',
+  'yellow',
+  'yellowgreen',
+];
+
+const STYLES = [
+  'flat',
+  'flat-square',
+  'plastic',
+  'for-the-badge',
+];
+
 const FORMATS_FUNCTIONS = {
   'AsciiDoc': (imageURL, linkURL) => `
     image:${imageURL}[link='${linkURL}']
@@ -38,27 +66,10 @@ const FORMATS_FUNCTIONS = {
       :target: ${linkURL}
   `,
 };
+
 const FORMATS = Object.keys(FORMATS_FUNCTIONS);
-export const COLORS = [
-  'blue',
-  'blueviolet',
-  'brightgreen',
-  'green',
-  'lightgrey',
-  'orange',
-  'red',
-  'yellow',
-  'yellowgreen',
-];
 
-export const STYLES = [
-  'flat',
-  'flat-square',
-  'plastic',
-  'for-the-badge',
-];
-
-export const badge = ({
+const badge = ({
   color = 'green',
   label,
   labelColor = 'grey',
@@ -92,8 +103,13 @@ const Definition = ({
   </CardContent>
 );
 
-const DefinitionText = ({ content }) => (
-  <Typography color='textSecondary' gutterBottom variant='body2'>
+const DefinitionText = ({ icon, content }) => (
+  <Typography component='span' color='textSecondary' gutterBottom variant='body2'>
+    {icon ? (
+      <IconButton size='small'>
+        {icon}
+      </IconButton>
+    ) : undefined}
     {content}
   </Typography>
 );
@@ -167,9 +183,9 @@ const Badge = ({ pkg }) => {
     setContent(newBadgesData[0].badgeContent);
   }, [format, label, linkURL, pkg])
 
-  const onBadgeSelection = (content) => (event) => {
+  const onBadgeSelection = (content, radioID) => () => {
     setContent(content);
-    setBadgeId(event.target.value);
+    setBadgeId(radioID);
   };
   const onChangeFormat = (event) => {
     setFormat(event.target.value);
@@ -182,6 +198,7 @@ const Badge = ({ pkg }) => {
     <React.Fragment>
       <DefinitionText content='Add the badge of your preference to your project!'/>
       <DefinitionText content='It will tell your users the number of releases they can install with Nix and link to this page so they can get more information!'/>
+      <br />
       <br />
       <FormControl variant='outlined'>
         <InputLabel>Format</InputLabel>
@@ -203,20 +220,26 @@ const Badge = ({ pkg }) => {
       </FormControl>
       <br />
       <br />
-      <Grid container>
+      <Grid container spacing={0}>
         <RadioGroup row>
           {badgesData.map(({ badgeContent, color, imageURL, style }) => {
             const radioID = `${style}/${color}`;
 
             return (
-              <Grid item xs={12} sm={6} md={4}>
-                <Radio
-                  checked={radioID == badgeId}
-                  onChange={onBadgeSelection(badgeContent)}
-                  size='small'
-                  value={radioID}
+              <Grid item xs={12} sm={6} md={4} lg={4} xl={4}>
+                <SplitDiv
+                  left={
+                    <IconButton
+                      onClick={onBadgeSelection(badgeContent, radioID)}
+                      size='small'
+                    >
+                      {radioID === badgeId
+                        ? <ArrowForwardOutlined />
+                        : <RadioButtonUncheckedOutlined />}
+                    </IconButton>
+                  }
+                  right={<img alt={radioID} src={imageURL}/>}
                 />
-                <img alt={radioID} src={imageURL}/>
               </Grid>
             );
           })}
@@ -283,10 +306,19 @@ export const Pkg = () => {
         <DefinitionText content={version} />
       </Definition>
       <Definition title='All versions'>
-        <Grid container>
+        <Grid container spacing={0}>
           {versions.map((v) => (
-            <Grid key={v} item xs={6} sm={4} md={3} lg={3} xl={2}>
-              <DefinitionText content={v} />
+            <Grid key={v} item xs={6} sm={6} md={4} lg={4} xl={3}>
+              <DefinitionText
+                content={
+                  <Link
+                    href={`/nixdb/pkg/${encodeURIComponent(pkg)}/${encodeURIComponent(v)}`}
+                    style={{ color: THEME.own.link}}
+                  >
+                    {v}
+                  </Link>
+                }
+              />
             </Grid>
           ))}
         </Grid>
@@ -304,10 +336,13 @@ export const Pkg = () => {
         <DefinitionText content={versionData?.meta?.license?.fullName}/>
       </Definition>
       <Definition title='Maintainers'>
-        <Grid container>
+        <Grid container spacing={0}>
           {formatMaintainers(versionData?.meta?.maintainers).map((m) => (
-            <Grid key={m} item xs={6} sm={4} md={3} lg={3} xl={2}>
-              <DefinitionText content={m} />
+            <Grid key={m} item xs={6} sm={6} md={4} lg={4} xl={3}>
+              <DefinitionText
+                icon={<PersonOutlineOutlined/>}
+                content={m}
+              />
             </Grid>
           ))}
         </Grid>
@@ -330,10 +365,13 @@ export const Pkg = () => {
         } />
       </Definition>
       <Definition title='Available platforms'>
-        <Grid container>
+        <Grid container spacing={0}>
           {formatPlatforms(versionData?.meta?.platforms).map((p) => (
-            <Grid key={p} item xs={6} sm={4} md={3} lg={3} xl={2}>
-              <DefinitionText content={p} />
+            <Grid key={p} item xs={6} sm={6} md={4} lg={4} xl={3}>
+              <DefinitionText
+                icon={<MemoryOutlined/>}
+                content={p}
+              />
             </Grid>
           ))}
         </Grid>

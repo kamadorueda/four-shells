@@ -123,7 +123,7 @@ Requirements:
 
         Run `./cmd/server-local/back/run.sh`
 
-        ```
+        ```bash
         four-shells$ ./cmd/server-local/back/run.sh
 
         [INFO] Launching local back-end server!
@@ -155,13 +155,12 @@ Requirements:
         The output is similar to this, once you modify and save a file
         the front-end server will automatically reload with the changes.
 
-        ```
+        ```bash
+        four-shells$ ./cmd/server-local/front/run.sh
+
         [INFO] Launching local front-end server!
 
-        # ...
-
         webpack 5.10.0 compiled successfully in 1045 ms
-        ℹ ｢wdm｣: Compiled successfully.
         ```
 1.  Visit [http://localhost:8400](http://localhost:8400) and you are ready to hack!
 

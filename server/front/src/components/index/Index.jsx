@@ -122,7 +122,7 @@ export const Index = ({ bigScreen }) => {
             <ProductCard
               description='Database with Nix packages from all versions, all commits and all channels.'
               console='/nixdb'
-              docs='/docs#nixdb'
+              docs='/nixdb/about'
               image={nix_db_300x158}
               title='NixDB'
             />
@@ -131,7 +131,6 @@ export const Index = ({ bigScreen }) => {
             <ProductCard
               description='Encrypted Nix binary cache over IPFS. Work in progress!'
               console='/cachipfs'
-              docs='/docs#cachipfs'
               image={nix_db_300x158}
               title='CachIPFS'
             />

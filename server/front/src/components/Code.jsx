@@ -6,6 +6,7 @@ import { defaultStyle as style } from 'react-syntax-highlighter/dist/esm/styles/
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { FileCopyOutlined } from '@material-ui/icons';
 import { IconButton } from '@material-ui/core';
+import { SplitDiv } from './SplitDiv';
 
 const onCopy = () => alert('Copied!');
 
@@ -43,17 +44,15 @@ export const Code = ({
 
   if (copyable) {
     return (
-      <div style={{ display: 'flex' }}>
-        <div style={{ margin: 'auto' }}>
-          <CopyButton content={contentD} type='icon+copy' />
-        </div>
-        <div style={{ flex: '1' }}>
+      <SplitDiv
+        left={<CopyButton content={contentD} type='icon+copy' />}
+        right={
           <Highlight
             content={contentD}
             lang={lang}
           />
-        </div>
-      </div>
+        }
+      />
     );
   }
 
