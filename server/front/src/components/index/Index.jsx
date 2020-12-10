@@ -97,6 +97,8 @@ export const Index = ({ bigScreen }) => {
   return (
     <React.Fragment>
       <BarMain
+        docs
+        home
         source
         sponsors
         title='Four Shells'

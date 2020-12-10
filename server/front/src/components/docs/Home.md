@@ -118,6 +118,54 @@ Email me! `kamadorueda [at] gmail [dot] com`, I'll be happy to help.
 
 ## Local environment
 
+Requirements:
+
+1.  Linux (preferably) or Windows WSL (slow here because of virtualization)
+1.  Having Nix installed in your system: https://nixos.org/download.html
+1.  Please clone and locate your shell at the root of the repository,
+    you'll need 2 shells (I need 4, that's why Four Shells!)
+1.  You'll need a local back-end and a local front-end server:
+    1.  Back-end: Run `./cmd/server-local/back/run.sh`
+
+        ```
+        four-shells$ ./cmd/server-local/back/run.sh
+
+        [INFO] Launching local back-end server!
+        [WARNING] Please be aware that login functionality wont work
+
+        Configuration:
+
+        AWS_ACCESS_KEY_ID_SERVER = test
+        AWS_CLOUDFRONT_DOMAIN = test
+        AWS_REGION = us-east-1
+        AWS_SECRET_ACCESS_KEY_SERVER = test
+        GOOGLE_OAUTH_CLIENT_ID_SERVER = test
+        GOOGLE_OAUTH_SECRET_SERVER = test
+        SERVER_PATH_PUBLIC = /nix/store/w2fw9lxc7qz2j87zi1xf6f2bzf7haz6v-public
+        SERVER_SESSION_SECRET = test
+
+        INFO:     Started server process [3475269]
+        INFO:     Waiting for application startup.
+        INFO:     Application startup complete.
+        INFO:     Uvicorn running on http://0.0.0.0:8400 (Press CTRL+C to quit)
+        ```
+
+        You can quit by pressing CTRL + C
+
+    1.  Front-end: Run `./cmd/server-local/front/run.sh`
+
+        The output is similar to this, once you modify and save a file
+        the front-end server will automatically reload with the changes.
+
+        ```
+        [INFO] Launching local front-end server!
+
+        # ...
+
+        webpack 5.10.0 compiled successfully in 1045 ms
+        ℹ ｢wdm｣: Compiled successfully.
+        ```
+1.  Visit http://localhost:8400 and you are ready to hack!
 
 ## Technical Philosophy
 

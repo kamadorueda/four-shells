@@ -26,7 +26,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export const BarMain = ({
-  products,
+  docs,
+  home,
   source,
   sponsors,
   title,
@@ -48,10 +49,17 @@ export const BarMain = ({
             </Link>
           </IconButton>
           <List className={classes.navDisplayFlex} component='nav'>
-            {products ? (
+            {docs ? (
+              <Link href='/docs' color='inherit'>
+                <ListItem button>
+                  <ListItemText primary='Docs' color='textSecondary' />
+                </ListItem>
+              </Link>
+            ) : undefined}
+            {home ? (
               <Link href='/' color='inherit'>
                 <ListItem button>
-                  <ListItemText primary='Products' color='textSecondary' />
+                  <ListItemText primary='Home' color='textSecondary' />
                 </ListItem>
               </Link>
             ) : undefined}

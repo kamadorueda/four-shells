@@ -34,7 +34,8 @@ export const Index = ({ bigScreen }) => {
   return (
     <React.Fragment>
       <BarMain
-        products
+        docs
+        home
         source
         sponsors
         title='Four Shells'

@@ -10,7 +10,7 @@ in
   nixpkgs.stdenv.mkDerivation (
        (import ../../../build/utils/ctx)
     // (rec {
-      name = "server-build";
+      name = "server-deploy";
 
       buildInputs = [
         awscli2

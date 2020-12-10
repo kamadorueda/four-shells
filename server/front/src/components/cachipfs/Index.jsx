@@ -29,7 +29,8 @@ const formatEmail = (email) => {
 export const Index = ({ bigScreen }) => (
   <React.Fragment>
     <BarMain
-      products
+      docs
+      home
       source
       sponsors
       title={hasActiveSession() ? `${formatEmail(globals.session.email)}'s CachIPFS` : 'CachIPFS'}
