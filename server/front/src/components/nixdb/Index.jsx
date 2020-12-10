@@ -16,7 +16,6 @@ import { BarMain } from '../BarMain';
 import { Copyright } from '../Copyright';
 import { renderMarkdown } from '../Markdown';
 import About from './About.md';
-import Contributing from './Contributing.md';
 import { Search } from './Search';
 import { useFetchJSON } from './utils';
 import { BarNav } from './BarNav';
@@ -42,7 +41,6 @@ export const Index = ({ bigScreen }) => {
             <br />
             <Switch>
               <Route path='/about' component={renderMarkdown(About)}/>
-              <Route path='/contributing' component={renderMarkdown(Contributing)}/>
               <Route path='/pkg/:pkg/:version' component={Pkg}/>
               <Route path='/pkg/:pkg' component={Pkg}/>
               <Route path='/search'>

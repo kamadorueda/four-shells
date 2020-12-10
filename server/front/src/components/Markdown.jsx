@@ -67,7 +67,7 @@ const getTableOfContents = (content) => {
     toc.push('# Table of contents');
     toc.push();
     for (const { level, title } of titles) {
-      toc.push(`1. ${' '.repeat(level)} [${title}](#${getAnchorId(title)})`);
+      toc.push(`${'   '.repeat(level)}1. [${title}](#${getAnchorId(title)})`);
     }
 
     return toc.join('\n');

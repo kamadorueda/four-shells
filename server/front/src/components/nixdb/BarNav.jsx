@@ -17,7 +17,7 @@ export const BarNav = () => {
           </Link>
         </Button>
         <Button size='small'>
-          <Link href='/nixdb/contributing' color='inherit'>
+          <Link href='/docs#contributing' color='inherit'>
             Contributing
           </Link>
         </Button>

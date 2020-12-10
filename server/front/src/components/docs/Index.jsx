@@ -18,10 +18,8 @@ import {
 import { BarMain } from '../BarMain';
 import { Copyright } from '../Copyright';
 import { renderMarkdown } from '../Markdown';
-import Cachipfs from './Cachipfs.md';
 import Home from './Home.md';
 import Source from './Source.md';
-import Sponsors from './Sponsors.md';
 
 const useStyles = makeStyles((theme) => ({
 }));
@@ -29,9 +27,7 @@ const useStyles = makeStyles((theme) => ({
 export const Index = ({ bigScreen }) => {
   const classes = useStyles();
   const pages = [
-    { content: Cachipfs, path: '/cachipfs' },
     { content: Source, path: '/source' },
-    { content: Sponsors, path: '/sponsors' },
     { content: Home, path: '/' },
   ];
 

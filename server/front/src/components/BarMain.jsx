@@ -2,7 +2,6 @@
 import React from 'react';
 import {
   AppBar,
-  Box,
   Container,
   IconButton,
   Link,
@@ -64,7 +63,7 @@ export const BarMain = ({
               </Link>
             ) : undefined}
             {sponsors ? (
-              <Link href='/docs/sponsors' color='inherit'>
+              <Link href='/docs#sponsors' color='inherit'>
                 <ListItem button>
                   <ListItemText primary='Sponsors' color='textSecondary' />
                 </ListItem>
