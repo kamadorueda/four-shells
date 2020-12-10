@@ -21,6 +21,7 @@ import {
 } from '@material-ui/icons';
 import React, { useEffect, useState } from 'react';
 import { Redirect, useParams } from 'react-router-dom';
+import compareVersions from 'compare-versions';
 
 // Local libraries
 import { THEME } from '../../utils/theme';
@@ -255,19 +256,31 @@ export const Pkg = () => {
   const { pkg, version } = useParams();
 
   const dataJSON = useFetchJSON(`/pkgs/${pkg}.json`, {});
-  const data =  Object.entries(dataJSON).reverse();
+  const data =  Object.entries(dataJSON);
 
   if (data.length === 0) {
     return <Progress />
   }
 
-  if (version === undefined) {
-    return <Redirect to={`/pkg/${encodeURIComponent(pkg)}/${encodeURIComponent(data[0][0])}`} />;
+  let versions = data.map(([version, _]) => version);
+
+  try {
+    const sortedVersions = versions.sort(compareVersions);
+    versions = sortedVersions;
+  } catch {
+    // Version(s) are not valid semver so fall back to original data sort.
+    // (Unfortunately a number of libraries do not quite use fully "correct" semantic versioning).
   }
 
+  versions = versions.reverse();
+
   const versionData = dataJSON[version];
+
+  if (version === undefined || versionData === undefined) {
+    return <Redirect to={`/pkg/${encodeURIComponent(pkg)}/${encodeURIComponent(versions[0])}`} />;
+  }
+
   const versionDataLastRev = versionData?.revs[1];
-  const versions = data.map(([version, _]) => version);
   const nixpkgs = `https://github.com/NixOS/nixpkgs/archive/${versionDataLastRev}.tar.gz`;
   const nixEnv = `
     # Version: ${version}
