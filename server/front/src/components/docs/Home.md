@@ -81,10 +81,9 @@ Thank you so much for your support!
 | [![Alejandra Gómez][2_img]][2_url]   | [Alejandra Gómez][2_url] |
 
 You also can be part of this list by
-[Sponsoring me on Patreon](https://www.patreon.com/kamadorueda).
+[Sponsoring @kamadorueda on Patreon](https://www.patreon.com/kamadorueda).
 
-It goes far beyond the money.
-It's about the people who have found their lives a little bit better thanks to the project!
+Every penny goes to build and host the project, promise!
 
 [0_img]: https://github.com/kamadorueda/four-shells/raw/main/static/sponsors/fluid_attacks.png
 [0_url]: https://fluidattacks.com
