@@ -80,11 +80,13 @@ const MarkDownBlock = ({ content }) => (
   <ReactMarkdown
     children={content}
     plugins={[gfm]}
+    // node_modules/react-markdown/lib/renderers.js
     renderers={{
       break: renderBreak,
       code: renderCode,
       heading: renderHeading,
       link: renderLink,
+      linkReference: renderLink,
       text: renderText,
     }}
   />
