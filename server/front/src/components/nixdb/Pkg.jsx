@@ -252,34 +252,42 @@ const Badge = ({ pkg }) => {
   );
 }
 
+const getVersionsFromPkgData = (data) => {
+  let versions = data.map(([version, _]) => version);
+
+  try {
+    versions = versions.sort(compareVersions).reverse();
+  } catch {
+    // Version(s) are not valid semver so fall back to original data sort.
+    // (Unfortunately a number of libraries do not quite use fully "correct" semantic versioning).
+    versions = versions.reverse();
+  }
+
+  return versions;
+}
+
 export const Pkg = () => {
   const { pkg, version } = useParams();
 
   const dataJSON = useFetchJSON(`/pkgs/${pkg}.json`, {});
   const data =  Object.entries(dataJSON);
 
+  // While data is an empty list we should show a progress to the user
   if (data.length === 0) {
     return <Progress />
   }
 
-  let versions = data.map(([version, _]) => version);
+  // At this point the user may have accessed a package but no version
+  // Let's sort versions semantically
+  const versions = getVersionsFromPkgData(data);
 
-  try {
-    const sortedVersions = versions.sort(compareVersions);
-    versions = sortedVersions;
-  } catch {
-    // Version(s) are not valid semver so fall back to original data sort.
-    // (Unfortunately a number of libraries do not quite use fully "correct" semantic versioning).
-  }
-
-  versions = versions.reverse();
-
-  const versionData = dataJSON[version];
-
-  if (version === undefined || versionData === undefined) {
+  // If there is no version let's redirect to the latest version
+  if (version === undefined) {
     return <Redirect to={`/pkg/${encodeURIComponent(pkg)}/${encodeURIComponent(versions[0])}`} />;
   }
 
+  // We have now a version, let's display the data
+  const versionData = dataJSON[version];
   const versionDataLastRev = versionData?.revs[1];
   const nixpkgs = `https://github.com/NixOS/nixpkgs/archive/${versionDataLastRev}.tar.gz`;
   const nixEnv = `
