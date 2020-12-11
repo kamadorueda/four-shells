@@ -39,6 +39,12 @@ firing up a local environment:
 
 We thank the following members for their contributions:
 
+- [NixDB] Versions used to be sorted alphabetically and sometimes that
+  rendered a weird ordering.
+  Now they are sorted by semver which is very realistic!
+
+  Contributed by [Benjamin Borowski](https://github.com/typeoneerror)
+
 - [NixDB] The website used to block when a user entered or deleted a character in the
   search bar.
   It's now fluid and fast!

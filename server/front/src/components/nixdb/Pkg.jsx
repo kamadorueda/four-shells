@@ -260,6 +260,7 @@ const getVersionsFromPkgData = (data) => {
   } catch {
     // Version(s) are not valid semver so fall back to original data sort.
     // (Unfortunately a number of libraries do not quite use fully "correct" semantic versioning).
+    // Default sort is alphabetical, basically
     versions = versions.reverse();
   }
 
@@ -286,7 +287,7 @@ export const Pkg = () => {
     return <Redirect to={`/pkg/${encodeURIComponent(pkg)}/${encodeURIComponent(versions[0])}`} />;
   }
 
-  // We have now a version, let's display the data
+  // We have now a version, let's display its associated data
   const versionData = dataJSON[version];
   const versionDataLastRev = versionData?.revs[1];
   const nixpkgs = `https://github.com/NixOS/nixpkgs/archive/${versionDataLastRev}.tar.gz`;
