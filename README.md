@@ -5,7 +5,7 @@ Four Shells is a community-driven [Free and Open Source](https://en.wikipedia.or
 - [NixDB](https://4shells.com/nixdb): Database with Nix packages from all versions, all commits and all channels.
 - [CachIPFS](https://4shells.com/cachipfs): Encrypted Nix binary cache over IPFS.
 
-We are deployed at [https://4shells.com](https://4shells.com), docs, contributing and developing guidelines are [there](https://4shells.com/docs), too.
+We are deployed at [4shells.com](https://4shells.com), docs, contributing and developing guidelines are [there](https://4shells.com/docs), too.
 
 See you there!
 
