@@ -11,7 +11,7 @@ import ReactDOM from 'react-dom';
 import { THEME } from './theme';
 
 const Child = ({ generator }) => {
-  const bigScreen = useMediaQuery((theme) => theme.breakpoints.up('lg'));
+  const bigScreen = useMediaQuery((theme) => theme.breakpoints.up('md'));
 
   return generator({ bigScreen });
 };

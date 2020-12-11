@@ -97,6 +97,7 @@ export const Index = ({ bigScreen }) => {
   return (
     <React.Fragment>
       <BarMain
+        bigScreen={bigScreen}
         docs
         home
         source

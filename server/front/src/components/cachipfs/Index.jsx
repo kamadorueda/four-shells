@@ -29,6 +29,7 @@ const formatEmail = (email) => {
 export const Index = ({ bigScreen }) => (
   <React.Fragment>
     <BarMain
+      bigScreen={bigScreen}
       docs
       home
       source
