@@ -11,7 +11,9 @@ See you there!
 
 # Contributors and Sponsors
 
-This would not be possible without you and as a small thank you we have written some special words to you:
+This wouldn't be possible without the help of some amazing members.
+
+We have written some special words to you!
 
 - [Contributors](https://4shells.com/docs#contributors)
 - [Sponsors](https://4shells.com/docs#sponsors)
