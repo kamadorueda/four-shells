@@ -1,5 +1,4 @@
 # Standard libraries
-import logging
 import os
 
 # Third party libraries
@@ -31,7 +30,7 @@ def main(
     *,
     data_dir: str,
     debug: bool,
-):
+) -> None:
     config.DATA = os.path.abspath(os.path.expanduser(data_dir))
     config.DATA_CACHIPFS = os.path.join(config.DATA, 'cachipfs')
     config.DATA_CACHIPFS_REPO = os.path.join(config.DATA_CACHIPFS, 'repo')
@@ -73,7 +72,7 @@ def main_cachipfs(
     cachipfs_gateway_port: int,
     cachipfs_node_port: int,
     cachipfs_swarm_port: int,
-):
+) -> None:
     config.CACHIPFS_API_PORT = cachipfs_api_port
     config.CACHIPFS_GATEWAY_PORT = cachipfs_gateway_port
     config.CACHIPFS_NODE_PORT = cachipfs_node_port
@@ -84,7 +83,7 @@ def main_cachipfs(
     name='daemon',
 )
 def main_cachipfs_daemon(
-):
+) -> None:
     uvicorn.run(
         app='four_shells.cachipfs:APP',
         host='127.0.0.1',
