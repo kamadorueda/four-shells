@@ -9,11 +9,6 @@ from typing import (
     Tuple,
 )
 
-# Third party libraries
-from aioextensions import (
-    collect,
-)
-
 # Local libraries
 from four_shells import (
     config,
@@ -126,10 +121,8 @@ async def daemon() -> None:
             else:
                 break
 
-    await collect((
-        daemon_stdout(),
-        daemon_stderr(),
-    ))
+    asyncio.create_task(daemon_stdout())
+    asyncio.create_task(daemon_stderr())
 
 
 async def add(path: str) -> str:

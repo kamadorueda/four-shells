@@ -1,6 +1,5 @@
 # Standard library
 import logging
-import sys
 from typing import (
     Any,
 )
@@ -11,24 +10,7 @@ from aioextensions import (
 )
 
 # Private constants
-_FORMAT: str = '[%(levelname)s] %(message)s'
 _LOGGER: logging.Logger = logging.getLogger('Skims')
-_LOGGER_FORMATTER: logging.Formatter = logging.Formatter(_FORMAT)
-_LOGGER_HANDLER: logging.StreamHandler = logging.StreamHandler()
-
-
-def configure() -> None:
-    _LOGGER.setLevel(logging.INFO)
-    _LOGGER.addHandler(_LOGGER_HANDLER)
-    _LOGGER_HANDLER.setLevel(logging.INFO)
-    _LOGGER_HANDLER.setFormatter(_LOGGER_FORMATTER)
-    _LOGGER_HANDLER.setStream(sys.stdout)
-
-
-
-def set_level(level: int) -> None:
-    _LOGGER.setLevel(level)
-    _LOGGER_HANDLER.setLevel(level)
 
 
 def blocking_log(level: str, msg: str, *args: Any, **kwargs: Any) -> None:
@@ -55,7 +37,3 @@ async def log_exception(
     **meta_data: str,
 ) -> None:
     await in_thread(blocking_log_exception, level, exception, **meta_data)
-
-
-# Side effects
-configure()

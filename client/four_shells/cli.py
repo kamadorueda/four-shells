@@ -3,16 +3,12 @@ import logging
 import os
 
 # Third party libraries
-from aioextensions import (
-    run,
-)
 import click
+import uvicorn
 
 # Local libraries
 from four_shells import (
-    cachipfs,
     config,
-    logs,
 )
 
 
@@ -36,13 +32,11 @@ def main(
     data_dir: str,
     debug: bool,
 ):
-    if debug:
-        logs.set_level(logging.DEBUG)
-
     config.DATA = os.path.abspath(os.path.expanduser(data_dir))
     config.DATA_CACHIPFS = os.path.join(config.DATA, 'cachipfs')
     config.DATA_CACHIPFS_REPO = os.path.join(config.DATA_CACHIPFS, 'repo')
     config.DATA_EPHEMERAL = os.path.join(config.DATA, 'ephemeral')
+    config.DEBUG = debug
 
     os.makedirs(config.DATA, mode=0o700, exist_ok=True)
     os.makedirs(config.DATA_CACHIPFS, mode=0o700, exist_ok=True)
@@ -91,7 +85,14 @@ def main_cachipfs(
 )
 def main_cachipfs_daemon(
 ):
-    run(cachipfs.daemon())
+    uvicorn.run(
+        app='four_shells.cachipfs:APP',
+        host='127.0.0.1',
+        log_level='debug' if config.DEBUG else 'info',
+        loop='uvloop',
+        port=config.CACHIPFS_NODE_PORT,
+        workers=1,
+    )
 
 
 if __name__ == '__main__':
