@@ -4,6 +4,9 @@ from starlette.applications import (
 )
 
 # Local libraries
+from four_shells import (
+    config,
+)
 from four_shells.cachipfs import (
     ipfs,
 )
@@ -13,6 +16,7 @@ async def on_startup() -> None:
     await ipfs.init()
     await ipfs.configurate()
     await ipfs.daemon()
+    config.spawn_ephemeral_files()
 
 
 # Constats

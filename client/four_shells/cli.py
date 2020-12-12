@@ -18,13 +18,13 @@ from four_shells import (
     ),
 )
 @click.option(
-    '--debug',
-    is_flag=True,
-)
-@click.option(
     '--data-dir',
     default='~/.four-shells',
     type=str,
+)
+@click.option(
+    '--debug',
+    is_flag=True,
 )
 def main(
     *,
@@ -95,4 +95,6 @@ def main_cachipfs_daemon(
 
 
 if __name__ == '__main__':
-    main(prog_name='4s')
+    main(
+        prog_name='4s',
+    )

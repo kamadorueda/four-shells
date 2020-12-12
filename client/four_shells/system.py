@@ -1,11 +1,19 @@
 # Standard library
 import asyncio
+from contextlib import (
+    asynccontextmanager,
+)
 import os
 from typing import (
     Any,
     Dict,
     Optional,
     Tuple,
+)
+
+# Local libraries
+from four_shells import (
+    config,
 )
 
 
@@ -34,6 +42,14 @@ async def call(
     )
 
     return process
+
+
+@asynccontextmanager
+async def ephemeral_file() -> Tuple[str, asyncio.Lock]:
+    path, lock = next(config.DATA_EPHEMERAL_FILES_ITER)
+
+    async with lock:
+        yield path
 
 
 async def read(
