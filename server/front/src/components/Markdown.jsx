@@ -25,7 +25,7 @@ const renderHeading = ({ children, level }) => {
 
   return (
     <React.Fragment>
-      <span id={id} style={{ position: 'relative', top: '-90px' }} />
+      <span id={id} style={{ position: 'relative', top: '-80px' }} />
       <Typography component='h2'>
         {renderLink({ children, href: `#${id}` })}
       </Typography>

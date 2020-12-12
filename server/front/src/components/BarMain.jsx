@@ -104,7 +104,11 @@ export const BarMain = ({
             <React.Fragment>
               <List className={classes.navDisplayFlex} component='nav'>
                 <ListItem button>
-                  <IconButton style={{ color: 'white' }} onClick={drawerOnOpen}>
+                  <IconButton
+                    onClick={drawerOnOpen}
+                    size='small'
+                    style={{ color: 'white' }}
+                  >
                     <MenuOutlined />
                   </IconButton>
                 </ListItem>
