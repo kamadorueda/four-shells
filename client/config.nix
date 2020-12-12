@@ -4,6 +4,7 @@ let
 in
   {
     reqs = [
+      nixpkgs.ipfs
       nixpkgs.python38
       nixpkgs.python38Packages.aioextensions
       nixpkgs.python38Packages.starlette
