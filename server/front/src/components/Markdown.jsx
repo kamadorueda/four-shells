@@ -24,9 +24,12 @@ const renderHeading = ({ children, level }) => {
   const id = getAnchorId(children[0].props.children);
 
   return (
-    <Typography component='h2' id={id}>
-      {renderLink({ children, href: `#${id}` })}
-    </Typography>
+    <React.Fragment>
+      <span id={id} style={{ position: 'relative', top: '-90px' }} />
+      <Typography component='h2'>
+        {renderLink({ children, href: `#${id}` })}
+      </Typography>
+    </React.Fragment>
   );
 };
 
