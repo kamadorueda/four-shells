@@ -86,16 +86,16 @@ You also can be part of this list by
 
 Every penny goes to build and host the project, promise!
 
-[0_img]: https://github.com/kamadorueda/four-shells/raw/main/server/front/static/sponsors/fluid_attacks.png
+[0_img]: https://github.com/kamadorueda/four-shells/raw/main/front/static/sponsors/fluid_attacks.png
 [0_url]: https://fluidattacks.com
 
-[1_img]: https://github.com/kamadorueda/four-shells/raw/main/server/front/static/sponsors/anonymous.png
+[1_img]: https://github.com/kamadorueda/four-shells/raw/main/front/static/sponsors/anonymous.png
 [1_url]: https://github.com/lordcirth
 
-[2_img]: https://github.com/kamadorueda/four-shells/raw/main/server/front/static/sponsors/anonymous.png
+[2_img]: https://github.com/kamadorueda/four-shells/raw/main/front/static/sponsors/anonymous.png
 [2_url]: https://www.linkedin.com/in/alejandra-g%C3%B3mez-r-618a10138
 
-[3_img]: https://github.com/kamadorueda/four-shells/raw/main/server/front/static/sponsors/precision_nutrition.png
+[3_img]: https://github.com/kamadorueda/four-shells/raw/main/front/static/sponsors/precision_nutrition.png
 [3_url]: https://precisionnutrition.com
 
 # Developing
