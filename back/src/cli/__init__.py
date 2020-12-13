@@ -7,10 +7,8 @@ from starlette.templating import Jinja2Templates
 import uvicorn
 
 # Local libraries
-from config import (
-    common as common_config,
-    server as server_config,
-)
+import config.common
+import config.server
 
 
 @click.group(
@@ -36,18 +34,18 @@ def main(
     data: str,
     debug: bool,
 ) -> None:
-    common_config.DATA = os.path.abspath(os.path.expanduser(data))
-    common_config.DATA_CACHIPFS = os.path.join(common_config.DATA, 'cachipfs')
-    common_config.DATA_CACHIPFS_REPO = os.path.join(common_config.DATA_CACHIPFS, 'repo')
-    common_config.DATA_EPHEMERAL = os.path.join(common_config.DATA, 'ephemeral')
-    common_config.DEBUG = debug
+    config.common.DATA = os.path.abspath(os.path.expanduser(data))
+    config.common.DATA_CACHIPFS = os.path.join(config.common.DATA, 'cachipfs')
+    config.common.DATA_CACHIPFS_REPO = os.path.join(config.common.DATA_CACHIPFS, 'repo')
+    config.common.DATA_EPHEMERAL = os.path.join(config.common.DATA, 'ephemeral')
+    config.common.DEBUG = debug
 
-    os.makedirs(common_config.DATA, mode=0o700, exist_ok=True)
-    os.makedirs(common_config.DATA_CACHIPFS, mode=0o700, exist_ok=True)
-    os.makedirs(common_config.DATA_CACHIPFS_REPO, mode=0o700, exist_ok=True)
-    os.makedirs(common_config.DATA_EPHEMERAL, mode=0o700, exist_ok=True)
+    os.makedirs(config.common.DATA, mode=0o700, exist_ok=True)
+    os.makedirs(config.common.DATA_CACHIPFS, mode=0o700, exist_ok=True)
+    os.makedirs(config.common.DATA_CACHIPFS_REPO, mode=0o700, exist_ok=True)
+    os.makedirs(config.common.DATA_EPHEMERAL, mode=0o700, exist_ok=True)
 
-    common_config.spawn_ephemeral_paths()
+    config.common.spawn_ephemeral_paths()
 
 
 @main.command(
@@ -121,33 +119,33 @@ def main_server(
     google_oauth_secret: str,
     session_secret: str,
 ) -> None:
-    server_config.AWS_ACCESS_KEY_ID = aws_access_key_id
-    server_config.AWS_CLOUDFRONT_DOMAIN = aws_cloudfront_domain
-    server_config.AWS_REGION = aws_region
-    server_config.AWS_SECRET_ACCESS_KEY = aws_secret_access_key
-    server_config.CDN = 'https://' + (
+    config.server.AWS_ACCESS_KEY_ID = aws_access_key_id
+    config.server.AWS_CLOUDFRONT_DOMAIN = aws_cloudfront_domain
+    config.server.AWS_REGION = aws_region
+    config.server.AWS_SECRET_ACCESS_KEY = aws_secret_access_key
+    config.server.CDN = 'https://' + (
         aws_cloudfront_domain
         if production
         else 'localhost:8401'
     )
-    server_config.GOOGLE_OAUTH_CLIENT_ID = google_oauth_client_id
-    server_config.GOOGLE_OAUTH_SECRET = google_oauth_secret
-    server_config.PRODUCTION = production
-    server_config.SESSION_SECRET = session_secret
-    server_config.TPL = Jinja2Templates(
+    config.server.GOOGLE_OAUTH_CLIENT_ID = google_oauth_client_id
+    config.server.GOOGLE_OAUTH_SECRET = google_oauth_secret
+    config.server.PRODUCTION = production
+    config.server.SESSION_SECRET = session_secret
+    config.server.TPL = Jinja2Templates(
         directory=os.path.join(
             os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
             'templates',
         ),
     )
-    server_config.TPL.env.autoescape = False
-    server_config.TPL.env.globals['from_cdn'] = server_config.from_cdn
+    config.server.TPL.env.autoescape = False
+    config.server.TPL.env.globals['from_cdn'] = config.server.from_cdn
 
     uvicorn.run(
         app='server.asgi:APP',
         host=host,
         interface='asgi3',
-        log_level='debug' if common_config.DEBUG else 'info',
+        log_level='debug' if config.common.DEBUG else 'info',
         loop='uvloop',
         port=port,
         workers=1,
@@ -160,4 +158,4 @@ if __name__ == '__main__':
             prog_name='4s',
         )
     finally:
-        common_config.delete_ephemeral_paths()
+        config.common.delete_ephemeral_paths()

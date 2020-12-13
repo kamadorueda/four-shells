@@ -20,8 +20,8 @@ import config.server
 
 # Constants
 RESOURCE: Any = boto3.resource(
-    aws_access_key_id=config.server.AWS_ACCESS_KEY_ID_SERVER,
-    aws_secret_access_key=config.server.AWS_SECRET_ACCESS_KEY_SERVER,
+    aws_access_key_id=config.server.AWS_ACCESS_KEY_ID,
+    aws_secret_access_key=config.server.AWS_SECRET_ACCESS_KEY,
     config=botocore.config.Config(
         max_pool_connections=128,
         parameter_validation=False,

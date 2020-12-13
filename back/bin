@@ -19,12 +19,7 @@ function main {
   export PYTHONPATH="${srcBack}/src:${PYTHONPATH}"
 
       utils_configure_proxy "${BURP:-}" \
-  &&  uvicorn \
-        --host '0.0.0.0' \
-        --interface 'asgi3' \
-        --loop 'uvloop' \
-        --port '8400' \
-        'server.asgi:APP'
+  &&  python3 "${srcBack}/src/cli/__init__.py" "${@}"
 }
 
 main "${@}"

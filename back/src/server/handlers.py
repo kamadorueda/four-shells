@@ -28,8 +28,8 @@ from server import (
 OAUTH = OAuth()
 OAUTH.register(
     name='google',
-    client_id=config.server.GOOGLE_OAUTH_CLIENT_ID_SERVER,
-    client_secret=config.server.GOOGLE_OAUTH_SECRET_SERVER,
+    client_id=config.server.GOOGLE_OAUTH_CLIENT_ID,
+    client_secret=config.server.GOOGLE_OAUTH_SECRET,
     server_metadata_url=(
         'https://accounts.google.com/.well-known/openid-configuration'
     ),
