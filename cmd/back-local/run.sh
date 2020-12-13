@@ -10,6 +10,8 @@ function main {
         --aws-secret-access-key "${AWS_SECRET_ACCESS_KEY_SERVER:-test}" \
         --google-oauth-client-id "${GOOGLE_OAUTH_CLIENT_ID_SERVER:-test}" \
         --google-oauth-secret "${GOOGLE_OAUTH_SECRET_SERVER:-test}" \
+        --host 'localhost' \
+        --port '8400' \
         --session-secret "${SERVER_SESSION_SECRET:-test}" \
 
 }

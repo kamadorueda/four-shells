@@ -83,18 +83,14 @@ def main(
 )
 @click.option(
     '--host',
-    default='0.0.0.0',
     help='Bind server to this host',
     required=True,
-    show_default=True,
     type=str,
 )
 @click.option(
     '--port',
-    default=8400,
     help='Bind server to this port',
     required=True,
-    show_default=True,
     type=int,
 )
 @click.option(
