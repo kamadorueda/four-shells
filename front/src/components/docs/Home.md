@@ -106,19 +106,15 @@ This has some reasons but mostly is because we think it makes things simpler.
 
 The project structure is more or less the following:
 
+- `/back`: Backend server, written in Python, mostly in charge of rendering NixDB templates
+  and handling CachIPFS related operations
 - `/cmd`: common commands to wrap developing operations
-- `/server`
-  - `/back`: Backend server, written in Python, mostly in charge of rendering NixDB templates
-    and handling CachIPFS related operations
-  - `/front`: Front-end server, written in Javascript and React, mostly in charge
-    of rendering the web user interface
-  - `/public`: Static files, basically
+- `/front`: Front-end server, written in Javascript and React, mostly in charge
+  of rendering the web user interface
 
 There are other _not very important_ folders that you can ignore for now:
 
-- `/bin`: a few executables
 - `/build`: build system functions and Nix expressions
-- `/client`: a CLI (work in progress)
 - `/infra`: Terraform files to describe the infrastructure
 
 ## Local environment
