@@ -17,7 +17,7 @@ function main {
       echo '[INFO] Building front' \
   &&  rm -rf "${source}" \
   &&  git checkout -- "${source}" \
-  &&  pushd server/front \
+  &&  pushd front \
     &&  npm install \
     &&  npm run-script build \
   &&  popd \

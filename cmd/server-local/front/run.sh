@@ -9,7 +9,7 @@ source "${srcBuildUtilsCtxLibSh}"
 function main {
       echo '[INFO] Launching local front-end server!' \
   &&  echo \
-  &&  pushd server/front \
+  &&  pushd front \
     &&  npm install \
     &&  npm run-script serve \
   &&  popd \
