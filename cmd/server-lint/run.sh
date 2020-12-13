@@ -9,9 +9,7 @@ source "${srcBuildUtilsCtxLibSh}"
 
 function main {
   export PYTHONPATH="${srcBack}:${PYTHONPATH}"
-  local pkgs=(
-    back/four_shells
-  )
+  local pkgs=( back/src/* )
 
   for pkg in "${pkgs[@]}"
   do

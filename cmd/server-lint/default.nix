@@ -9,7 +9,7 @@ in
     // (rec {
       name = "server-lint";
 
-      buildInputs = bin.dependencies.fourShells ++ [
+      buildInputs = bin.dependencies.fourShellsServerBack ++ [
         nixpkgs.mypy
         py-deps.derivations.prospector
       ];
