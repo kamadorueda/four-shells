@@ -42,13 +42,8 @@ let
     (nixpkgs.lib.makeSearchPath "lib/python3.6/site-packages" deps)
   ];
   attrs = {
-    fourShellsClient = {
-      bin = "4s";
-      deps = clientConfig.reqs;
-      description = "Four Shells Client";
-    };
     fourShellsServerBack = {
-      bin = "4s-server-back";
+      bin = "4s";
       deps = serverBackConfig.reqs;
       description = "Four Shells Server Back-End";
     };

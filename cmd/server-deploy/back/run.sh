@@ -42,7 +42,7 @@ function main {
         --publish 8400:8400 \
         --tty \
         "${target}" \
-        4s-server-back \
+        4s \
   &&  echo \
   &&  read -N 1 -p '[INFO] Press any key to deploy production server' -r \
   &&  echo \
