@@ -49,7 +49,7 @@ def get_globals(request: Request) -> Dict[str, str]:
 # Templating engine
 TPL = Jinja2Templates(
     directory=path.join(
-        path.dirname(path.dirname(__file__)),
+        path.dirname(path.dirname(path.dirname(__file__))),
         'templates',
     )
 )

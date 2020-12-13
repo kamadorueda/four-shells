@@ -14,7 +14,7 @@ from starlette.testclient import (
 )
 
 # Local libraries
-from four_shells import (
+from server import (
     asgi,
     config,
 )

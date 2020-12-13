@@ -9,7 +9,7 @@ def test_functional(
     assert response.status_code == 200, response.text
 
     response = test_client.get('/console/cachipfs')
-    assert response.status_code == 500, response.text
+    assert response.status_code == 200, response.text
     response = test_client_with_session.get('/console/cachipfs')
     assert response.status_code == 200, response.text
 

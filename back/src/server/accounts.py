@@ -12,7 +12,7 @@ from boto3.dynamodb.conditions import (
 )
 
 # Local libraries
-from four_shells import (
+from server import (
     persistence,
 )
 

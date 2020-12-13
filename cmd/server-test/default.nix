@@ -8,7 +8,7 @@ in
     // (rec {
       name = "server-test";
 
-      buildInputs = bin.dependencies.fourShells ++ [
+      buildInputs = bin.dependencies.fourShellsServerBack ++ [
         nixpkgs.python38Packages.pytest
         nixpkgs.python38Packages.pytestcov
       ];

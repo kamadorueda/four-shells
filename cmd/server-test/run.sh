@@ -15,29 +15,24 @@
 source "${srcBuildUtilsCtxLibSh}"
 
 function main {
-  export PYTHONPATH="${srcBack}:${PYTHONPATH}"
-  local pkgs=(
-    back/four_shells
-  )
+  export PYTHONPATH="${srcBack}/src:${PYTHONPATH}"
 
-  for pkg in "${pkgs[@]}"
-  do
-        echo "[INFO] Testing: ${pkg}" \
-    &&  pytest \
-          --capture tee-sys \
-          --cov-branch \
-          --cov-report 'term' \
-          --cov-report "html:${pkg}/coverage" \
-          --cov "${pkg}" \
-          --disable-pytest-warnings \
-          --exitfirst \
-          --no-cov-on-fail \
-          --show-capture no \
-          --verbose \
-          --verbose \
-          "${pkg}_test" \
-    ||  return 1
-  done
+      pushd back \
+  &&  pytest \
+        --capture tee-sys \
+        --cov-branch \
+        --cov-report 'term' \
+        --cov-report "html:coverage" \
+        --cov 'back' \
+        --disable-pytest-warnings \
+        --exitfirst \
+        --no-cov-on-fail \
+        --show-capture no \
+        --verbose \
+        --verbose \
+        --verbose \
+  ||  return 1
+
 }
 
 main "${@}"

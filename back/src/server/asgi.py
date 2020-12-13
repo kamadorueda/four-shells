@@ -16,9 +16,9 @@ from starlette.routing import (
 
 
 # Local libraries
-import four_shells.config
-import four_shells.handlers
-import four_shells.cachipfs.handlers
+import server.config
+import server.handlers
+import server.cachipfs.handlers
 
 
 # Constants
@@ -26,88 +26,88 @@ APP = Starlette(
     middleware=[
         Middleware(
             cls=SessionMiddleware,
-            https_only=four_shells.config.PRODUCTION,
-            max_age=four_shells.config.SESSION_DURATION,
+            https_only=server.config.PRODUCTION,
+            max_age=server.config.SESSION_DURATION,
             same_site='lax',
-            secret_key=four_shells.config.SESSION_SECRET,
-            session_cookie=four_shells.config.SESSION_COOKIE,
+            secret_key=server.config.SESSION_SECRET,
+            session_cookie=server.config.SESSION_COOKIE,
         ),
     ],
     on_startup=[
-        four_shells.handlers.on_startup,
+        server.handlers.on_startup,
     ],
     on_shutdown=[
-        four_shells.handlers.on_shutdown,
+        server.handlers.on_shutdown,
     ],
     routes=[
         Route(
-            endpoint=four_shells.cachipfs.handlers.namespace_associate,
+            endpoint=server.cachipfs.handlers.namespace_associate,
             methods=['POST'],
             path='/api/v1/cachipfs/namespace/{id:str}/associate',
         ),
         Route(
-            endpoint=four_shells.cachipfs.handlers.namespace_rotate,
+            endpoint=server.cachipfs.handlers.namespace_rotate,
             methods=['POST'],
             path='/api/v1/cachipfs/namespace/{id:str}/rotate/{entity:str}',
         ),
         Route(
-            endpoint=four_shells.cachipfs.handlers.namespaces_create,
+            endpoint=server.cachipfs.handlers.namespaces_create,
             methods=['POST'],
             path='/api/v1/cachipfs/namespace/{name:str}',
         ),
         Route(
-            endpoint=four_shells.cachipfs.handlers.namespaces_delete,
+            endpoint=server.cachipfs.handlers.namespaces_delete,
             methods=['DELETE'],
             path='/api/v1/cachipfs/namespace/{id:str}',
         ),
         Route(
-            endpoint=four_shells.cachipfs.handlers.namespaces_get,
+            endpoint=server.cachipfs.handlers.namespaces_get,
             methods=['GET'],
             path='/api/v1/cachipfs/namespace/{id:str}',
         ),
         Route(
-            endpoint=four_shells.cachipfs.handlers.namespaces_list,
+            endpoint=server.cachipfs.handlers.namespaces_list,
             methods=['GET'],
             path='/api/v1/cachipfs/namespaces',
         ),
         Route(
-            endpoint=four_shells.handlers.cachipfs,
+            endpoint=server.handlers.cachipfs,
             methods=['GET'],
             path='/cachipfs{path:path}',
         ),
         Route(
-            endpoint=four_shells.handlers.docs,
+            endpoint=server.handlers.docs,
             methods=['GET'],
             path='/docs{path:path}',
         ),
         Route(
-            endpoint=four_shells.handlers.nixdb,
+            endpoint=server.handlers.nixdb,
             methods=['GET'],
             path='/nixdb{path:path}',
         ),
         Route(
-            endpoint=four_shells.handlers.oauth_google_start,
+            endpoint=server.handlers.oauth_google_start,
             methods=['GET'],
             path='/oauth/google/start',
         ),
         Route(
-            endpoint=four_shells.handlers.oauth_google_finish,
+            endpoint=server.handlers.oauth_google_finish,
             methods=['GET'],
             name='oauth_google_finish',
             path='/oauth/google/finish',
         ),
         Route(
-            endpoint=four_shells.handlers.ping,
+            endpoint=server.handlers.ping,
             methods=['GET'],
             path='/ping',
         ),
         Route(
-            endpoint=four_shells.handlers.schema,
+            endpoint=server.handlers.schema,
             methods=['GET'],
             path='/schema',
         ),
         Route(
-            endpoint=four_shells.handlers.index,
+            endpoint=server.handlers.index,
             methods=['GET'],
             path='/{path:path}',
         ),

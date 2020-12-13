@@ -16,7 +16,7 @@ import boto3
 import botocore.config
 
 # Local libraries
-from four_shells import (
+from server import (
     config,
 )
 

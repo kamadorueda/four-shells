@@ -23,14 +23,14 @@ from starlette.responses import (
 )
 
 # Local libraries
-from four_shells import (
+from server import (
     authz,
     persistence,
 )
-from four_shells.utils.errors import (
+from server.utils.errors import (
     api_error_boundary,
 )
-from four_shells.utils.security import (
+from server.utils.security import (
     create_secret,
 )
 

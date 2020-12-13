@@ -19,7 +19,7 @@ from starlette.schemas import (
 )
 
 # Local libraries
-from four_shells import (
+from server import (
     accounts,
     authz,
     config,
