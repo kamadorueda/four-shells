@@ -13,6 +13,6 @@ in
         nixpkgs.python38Packages.pytestcov
       ];
 
-      srcServerBack = ../../server/back;
+      srcBack = ../../back;
     })
   )

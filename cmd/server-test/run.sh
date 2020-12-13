@@ -15,9 +15,9 @@
 source "${srcBuildUtilsCtxLibSh}"
 
 function main {
-  export PYTHONPATH="${srcServerBack}:${PYTHONPATH}"
+  export PYTHONPATH="${srcBack}:${PYTHONPATH}"
   local pkgs=(
-    server/back/four_shells
+    back/four_shells
   )
 
   for pkg in "${pkgs[@]}"

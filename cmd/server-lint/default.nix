@@ -14,6 +14,6 @@ in
         py-deps.derivations.prospector
       ];
 
-      srcServerBack = ../../server/back;
+      srcBack = ../../back;
     })
   )

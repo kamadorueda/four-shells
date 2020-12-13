@@ -3,7 +3,7 @@ let
   sources = import ../../sources.nix;
   nixpkgs = import sources.nixpkgs { };
   clientConfig = import ../../client/config.nix;
-  serverBackConfig = import ../../server/back/config.nix;
+  serverBackConfig = import ../../back/config.nix;
 
   utilsDerive = {
     bin,
@@ -29,7 +29,7 @@ let
         srcBin = ../../bin;
         srcBuild = ../../build;
         srcClient = ../../client;
-        srcServerBack = ../../server/back;
+        srcBack = ../../back;
 
         shebang = "#! ${nixpkgs.bash}/bin/bash";
       })
