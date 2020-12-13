@@ -19,18 +19,17 @@ from starlette.schemas import (
 )
 
 # Local libraries
+import config.server
 from server import (
     accounts,
-    authz,
-    config,
 )
 
 # Constants
 OAUTH = OAuth()
 OAUTH.register(
     name='google',
-    client_id=config.GOOGLE_OAUTH_CLIENT_ID_SERVER,
-    client_secret=config.GOOGLE_OAUTH_SECRET_SERVER,
+    client_id=config.server.GOOGLE_OAUTH_CLIENT_ID_SERVER,
+    client_secret=config.server.GOOGLE_OAUTH_SECRET_SERVER,
     server_metadata_url=(
         'https://accounts.google.com/.well-known/openid-configuration'
     ),
@@ -55,33 +54,33 @@ async def on_startup() -> None:
 
 
 def cachipfs(request: Request) -> Response:
-    return config.TPL.TemplateResponse('react.html', {
-        'js': config.from_cdn('/static/cachipfs.js'),
-        'globals': config.get_globals(request),
+    return config.server.TPL.TemplateResponse('react.html', {
+        'js': config.server.from_cdn('/static/cachipfs.js'),
+        'globals': config.server.get_globals(request),
         'request': request,
     })
 
 
 def index(request: Request) -> Response:
-    return config.TPL.TemplateResponse('react.html', {
-        'js': config.from_cdn('/static/index.js'),
-        'globals': config.get_globals(request),
+    return config.server.TPL.TemplateResponse('react.html', {
+        'js': config.server.from_cdn('/static/index.js'),
+        'globals': config.server.get_globals(request),
         'request': request,
     })
 
 
 def docs(request: Request) -> Response:
-    return config.TPL.TemplateResponse('react.html', {
-        'js': config.from_cdn('/static/docs.js'),
-        'globals': config.get_globals(request),
+    return config.server.TPL.TemplateResponse('react.html', {
+        'js': config.server.from_cdn('/static/docs.js'),
+        'globals': config.server.get_globals(request),
         'request': request,
     })
 
 
 def nixdb(request: Request) -> Response:
-    return config.TPL.TemplateResponse('react.html', {
-        'js': config.from_cdn('/static/nixdb.js'),
-        'globals': config.get_globals(request),
+    return config.server.TPL.TemplateResponse('react.html', {
+        'js': config.server.from_cdn('/static/nixdb.js'),
+        'globals': config.server.get_globals(request),
         'request': request,
     })
 

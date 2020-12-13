@@ -16,7 +16,7 @@ from starlette.routing import (
 
 
 # Local libraries
-import server.config
+import config.server
 import server.handlers
 import server.cachipfs.handlers
 
@@ -26,11 +26,11 @@ APP = Starlette(
     middleware=[
         Middleware(
             cls=SessionMiddleware,
-            https_only=server.config.PRODUCTION,
-            max_age=server.config.SESSION_DURATION,
+            https_only=config.server.PRODUCTION,
+            max_age=config.server.SESSION_DURATION,
             same_site='lax',
-            secret_key=server.config.SESSION_SECRET,
-            session_cookie=server.config.SESSION_COOKIE,
+            secret_key=config.server.SESSION_SECRET,
+            session_cookie=config.server.SESSION_COOKIE,
         ),
     ],
     on_startup=[

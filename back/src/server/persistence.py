@@ -16,19 +16,17 @@ import boto3
 import botocore.config
 
 # Local libraries
-from server import (
-    config,
-)
+import config.server
 
 # Constants
 RESOURCE: Any = boto3.resource(
-    aws_access_key_id=config.AWS_ACCESS_KEY_ID_SERVER,
-    aws_secret_access_key=config.AWS_SECRET_ACCESS_KEY_SERVER,
+    aws_access_key_id=config.server.AWS_ACCESS_KEY_ID_SERVER,
+    aws_secret_access_key=config.server.AWS_SECRET_ACCESS_KEY_SERVER,
     config=botocore.config.Config(
         max_pool_connections=128,
         parameter_validation=False,
     ),
-    region_name=config.AWS_REGION,
+    region_name=config.server.AWS_REGION,
     service_name='dynamodb',
     verify=False,
 )

@@ -14,19 +14,19 @@ from starlette.testclient import (
 )
 
 # Local libraries
+import config.server
 from server import (
     asgi,
-    config,
 )
 
 def _login(client: TestClient, email: str) -> None:
-    signer = TimestampSigner(config.SESSION_SECRET)
+    signer = TimestampSigner(config.server.SESSION_SECRET)
 
     session_cookie = signer.sign(b64encode(json.dumps({
         'email': email,
     }).encode())).decode()
 
-    client.cookies[config.SESSION_COOKIE] = session_cookie
+    client.cookies[config.server.SESSION_COOKIE] = session_cookie
 
 
 @pytest.fixture(autouse=True, scope='session')
