@@ -20,7 +20,7 @@ in
       ];
 
       oci = nixpkgs.dockerTools.buildLayeredImage {
-        config.Entrypoint = ["bash" "-c"];
+        config.Entrypoint = ["bash" "-c" "$@" "_"];
         contents = builtins.concatLists [
           back.dependencies
           [
