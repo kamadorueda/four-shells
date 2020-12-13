@@ -1,4 +1,3 @@
-let
-  bin = import ./build/bin;
-in
-  bin.derivations
+{
+  back = (import ./back).derivation;
+}

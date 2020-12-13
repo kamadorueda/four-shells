@@ -132,10 +132,10 @@ Requirements:
 1.  You'll need a local back-end and a local front-end server:
     1.  Back-end:
 
-        Run `./cmd/server-local/back/run.sh`
+        Run `./cmd/back-local/run.sh`
 
         ```bash
-        four-shells$ ./cmd/server-local/back/run.sh
+        four-shells$ ./cmd/back-local/run.sh
 
         [INFO] Launching local back-end server!
         [WARNING] Please be aware that login functionality wont work
@@ -160,13 +160,13 @@ Requirements:
 
     1.  Front-end:
 
-        Run `./cmd/server-local/front/run.sh`
+        Run `./cmd/front-local/run.sh`
 
         The output is similar to this, once you modify and save a file
         the front-end server will automatically reload with the changes.
 
         ```bash
-        four-shells$ ./cmd/server-local/front/run.sh
+        four-shells$ ./cmd/front-local/run.sh
 
         [INFO] Launching local front-end server!
 

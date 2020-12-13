@@ -11,10 +11,10 @@
 #!   nix-shell --keep GOOGLE_OAUTH_SECRET_SERVER
 #!   nix-shell --keep SERVER_SESSION_SECRET
 #!   nix-shell --pure
-#!   nix-shell ../../../cmd/server-deploy/back
+#!   nix-shell ../../cmd/oci-deploy
 #  shellcheck shell=bash
 
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 function main {
   export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_ADMIN}"

@@ -3,10 +3,10 @@
 #!   nix-shell --pure
 #!   nix-shell --keep AWS_ACCESS_KEY_ID_ADMIN
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_ADMIN
-#!   nix-shell ../../../cmd/server-deploy/front
+#!   nix-shell ../../cmd/front-deploy
 #  shellcheck shell=bash
 
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 function main {
   export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_ADMIN}"

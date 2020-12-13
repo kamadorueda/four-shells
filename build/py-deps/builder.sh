@@ -1,7 +1,7 @@
 #  shellcheck shell=bash
 
 source "${stdenv}/setup"
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 function main {
       mkdir "${out}" \

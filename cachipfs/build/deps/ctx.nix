@@ -1,7 +1,7 @@
 {
   srcBuildCtxSh = ../ctx.sh;
-  srcBuildUtilsCommonSh = ../utils/common.sh;
-  srcBuildUtilsNixIpfsCoordinator = ../utils/nix_ipfs_coordinator.sh;
-  srcBuildUtilsNixIpfsNode = ../utils/nix_ipfs_node.sh;
-  srcBuildUtilsShoptsSh = ../utils/shopts.sh;
+  srcBuildCommonSh = ../utils/common.sh;
+  srcBuildNixIpfsCoordinator = ../utils/nix_ipfs_coordinator.sh;
+  srcBuildNixIpfsNode = ../utils/nix_ipfs_node.sh;
+  srcBuildShoptsSh = ../utils/shopts.sh;
 }

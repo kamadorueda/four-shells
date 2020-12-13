@@ -1,6 +1,5 @@
 {
-  srcBuildUtilsCtxLibSh = ../../build/ctx/lib.sh;
-  srcBuildUtilsCommonLibSh = ../../build/common/lib.sh;
-  srcBuildUtilsServerLibSh = ../../build/server/lib.sh;
-  srcBuildUtilsShoptsLibSh = ../../build/shopts/lib.sh;
+  srcBuildCtxLibSh = ../../build/ctx/lib.sh;
+  srcBuildLibCommonSh = ../../build/lib/common.sh;
+  srcBuildShoptsLibSh = ../../build/shopts/lib.sh;
 }

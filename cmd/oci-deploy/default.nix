@@ -1,7 +1,8 @@
 let
-  sources = import ../../../sources.nix;
+  back = import ../../back;
   nixpkgs = import sources.nixpkgs { };
-  bin = import ../../../build/bin;
+  root = import ../../default.nix;
+  sources = import ../../sources.nix;
 
   awscli2 = (import (nixpkgs.fetchzip {
     url = "https://github.com/nixos/nixpkgs/archive/024f5b30e0a3231dbe99c30192f92ba0058d95f5.zip";
@@ -9,9 +10,9 @@ let
   }) { }).awscli2;
 in
   nixpkgs.stdenv.mkDerivation (
-       (import ../../../build/ctx)
+       (import ../../build/ctx)
     // (rec {
-      name = "server-deploy";
+      name = "oci-deploy";
 
       buildInputs = [
         awscli2
@@ -20,7 +21,13 @@ in
 
       oci = nixpkgs.dockerTools.buildLayeredImage {
         config.Entrypoint = ["bash" "-c"];
-        contents = bin.allDependencies ++ [ nixpkgs.bash ];
+        contents = builtins.concatLists [
+          back.dependencies
+          [
+            nixpkgs.bash
+            root.back
+          ]
+        ];
         maxLayers = 125;
         name = "oci";
         tag = "latest";

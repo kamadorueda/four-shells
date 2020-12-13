@@ -1,6 +1,5 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
-#!   nix-shell --attr derivations.fourShellsServerBack
 #!   nix-shell --keep AWS_ACCESS_KEY_ID_SERVER
 #!   nix-shell --keep AWS_CLOUDFRONT_DOMAIN
 #!   nix-shell --keep AWS_REGION
@@ -11,16 +10,15 @@
 #!   nix-shell --keep SERVER_SESSION_SECRET
 #!   nix-shell --keep BURP
 #!   nix-shell --pure
-#!   nix-shell ../build/bin
+#!   nix-shell --show-trace
 #  shellcheck shell=bash
 
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 function main {
   export PYTHONPATH="${srcBack}/src:${PYTHONPATH}"
 
-      utils_server_ensure_configuration \
-  &&  utils_configure_proxy "${BURP:-}" \
+      utils_configure_proxy "${BURP:-}" \
   &&  uvicorn \
         --host '0.0.0.0' \
         --interface 'asgi3' \

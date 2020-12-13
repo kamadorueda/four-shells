@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 
-source "${srcBuildUtilsCommonSh}"
-source "${srcBuildUtilsNixIpfsCoordinator}"
-source "${srcBuildUtilsNixIpfsNode}"
-source "${srcBuildUtilsShoptsSh}"
+source "${srcBuildCommonSh}"
+source "${srcBuildNixIpfsCoordinator}"
+source "${srcBuildNixIpfsNode}"
+source "${srcBuildShoptsSh}"

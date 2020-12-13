@@ -1,15 +1,5 @@
 # shellcheck shell=bash
 
-function utils_ensure_variable {
-  local var="${1}"
-
-  if test -z "${!var:-}"
-  then
-        echo "Please export ${var} as environment variable" \
-    &&  return 1
-  fi
-}
-
 function utils_configure_proxy {
   local port="${1}"
 
@@ -18,6 +8,28 @@ function utils_configure_proxy {
         echo "Using BURP proxy: http://127.0.0.1:${port}" \
     &&  export HTTP_PROXY="http://127.0.0.1:${port}" \
     &&  export HTTPS_PROXY="http://127.0.0.1:${port}"
+  fi
+}
+
+function utils_ensure_configuration {
+      echo 'Configuration:' \
+  &&  echo \
+  &&  for var in "${@}"
+      do
+            utils_ensure_variable "${var}" \
+        &&  echo "${var} = ${!var}" \
+        ||  return 1
+      done \
+  &&  echo
+}
+
+function utils_ensure_variable {
+  local var="${1}"
+
+  if test -z "${!var:-}"
+  then
+        echo "Please export ${var} as environment variable" \
+    &&  return 1
   fi
 }
 

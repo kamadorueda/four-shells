@@ -2,10 +2,10 @@
 #!   nix-shell -i bash
 #!   nix-shell --option sandbox false
 #!   nix-shell --pure
-#!   nix-shell ../../cmd/server-lint
+#!   nix-shell ../../cmd/back-lint
 #  shellcheck shell=bash
 
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 function main {
   export PYTHONPATH="${srcBack}:${PYTHONPATH}"

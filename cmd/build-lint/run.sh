@@ -4,7 +4,7 @@
 #!   nix-shell ../../cmd/build-lint
 #  shellcheck shell=bash
 
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 function main {
       echo "[INFO] Linting" \

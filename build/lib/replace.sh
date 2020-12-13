@@ -1,7 +1,7 @@
 #  shellcheck shell=bash
 
 source "${stdenv}/setup"
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 mkdir "${out}"
 mkdir "${out}/bin"
@@ -9,7 +9,6 @@ mkdir "${out}/build"
 mkdir "${out}/server"
 
 cp --no-target-directory --recursive "${srcBuild}" "${out}/build"
-cp --no-target-directory --recursive "${srcClient}" "${out}/client"
 cp --no-target-directory --recursive "${srcBack}" "${out}/back"
 
 {
@@ -21,13 +20,10 @@ cp --no-target-directory --recursive "${srcBack}" "${out}/back"
   for var in \
     PATH \
     PYTHONPATH \
-    srcBin \
     srcBuild \
-    srcBuildUtilsCtxLibSh \
-    srcBuildUtilsServerLibSh \
-    srcBuildUtilsCommonLibSh \
-    srcBuildUtilsShoptsLibSh \
-    srcClient \
+    srcBuildCtxLibSh \
+    srcBuildLibCommonSh \
+    srcBuildShoptsLibSh \
     srcBack \
 
   do
@@ -38,7 +34,7 @@ cp --no-target-directory --recursive "${srcBack}" "${out}/back"
   # Append original script
   echo '# Original script starts below'
   echo '#'
-  cat "${srcBin}/${pname}"
+  cat "${binary}"
 } > "${out}/bin/${pname}"
 
 # Make executable

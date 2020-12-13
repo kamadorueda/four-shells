@@ -9,10 +9,10 @@
 #!   nix-shell --keep GOOGLE_OAUTH_SECRET_SERVER
 #!   nix-shell --keep SERVER_SESSION_SECRET
 #!   nix-shell --pure
-#!   nix-shell ../../cmd/server-test
+#!   nix-shell ../../cmd/back-test
 #  shellcheck shell=bash
 
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 function main {
   export PYTHONPATH="${srcBack}/src:${PYTHONPATH}"

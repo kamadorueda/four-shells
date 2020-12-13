@@ -9,7 +9,7 @@ function main {
       GOOGLE_OAUTH_CLIENT_ID_SERVER='test' \
       GOOGLE_OAUTH_SECRET_SERVER='test' \
       SERVER_SESSION_SECRET='test' \
-      ./bin/4s \
+      ./back/bin \
 
 }
 

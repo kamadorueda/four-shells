@@ -13,7 +13,7 @@
 #!   nix-shell ../../cmd/infra-test
 #  shellcheck shell=bash
 
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 function main {
   export TF_VAR_ACME_EMAIL_ADDRESS="${ACME_EMAIL_ADDRESS}"

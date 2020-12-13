@@ -1,10 +1,10 @@
 #! /usr/bin/env nix-shell
 #!   nix-shell -i bash
 #!   nix-shell --pure
-#!   nix-shell ../../../cmd/server-local/front
+#!   nix-shell ../../cmd/front-local
 #  shellcheck shell=bash
 
-source "${srcBuildUtilsCtxLibSh}"
+source "${srcBuildCtxLibSh}"
 
 function main {
       echo '[INFO] Launching local front-end server!' \
@@ -13,7 +13,7 @@ function main {
     &&  npm install \
     &&  npm run-script serve \
   &&  popd \
-
+  ||  return 1
 }
 
 main "${@}"
