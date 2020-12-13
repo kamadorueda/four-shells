@@ -1,7 +1,7 @@
 let
-  sources = import ../../../build/deps/nix/sources.nix;
+  sources = import ../../../sources.nix;
   nixpkgs = import sources.nixpkgs { };
-  bin = import ../../../build/utils/bin;
+  bin = import ../../../build/bin;
 
   awscli2 = (import (nixpkgs.fetchzip {
     url = "https://github.com/nixos/nixpkgs/archive/024f5b30e0a3231dbe99c30192f92ba0058d95f5.zip";
@@ -9,7 +9,7 @@ let
   }) { }).awscli2;
 in
   nixpkgs.stdenv.mkDerivation (
-       (import ../../../build/utils/ctx)
+       (import ../../../build/ctx)
     // (rec {
       name = "server-deploy";
 

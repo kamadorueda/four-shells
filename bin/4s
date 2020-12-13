@@ -3,7 +3,7 @@
 #!   nix-shell --attr derivations.fourShellsClient
 #!   nix-shell --keep BURP
 #!   nix-shell --pure
-#!   nix-shell ../build/utils/bin
+#!   nix-shell ../build/bin
 #  shellcheck shell=bash
 
 source "${srcBuildUtilsCtxLibSh}"

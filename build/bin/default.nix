@@ -1,9 +1,9 @@
 let
-  math = import ../../../build/utils/math;
-  sources = import ../../../build/deps/nix/sources.nix;
+  math = import ../../build/math;
+  sources = import ../../sources.nix;
   nixpkgs = import sources.nixpkgs { };
-  clientConfig = import ../../../client/config.nix;
-  serverBackConfig = import ../../../server/back/config.nix;
+  clientConfig = import ../../client/config.nix;
+  serverBackConfig = import ../../server/back/config.nix;
 
   utilsDerive = {
     bin,
@@ -11,7 +11,7 @@ let
     description,
   }:
     nixpkgs.stdenv.mkDerivation (
-        (import ../../../build/utils/ctx)
+        (import ../../build/ctx)
       // (rec {
         pname = bin;
         version = "${math.currentYearStr}.12";
@@ -26,11 +26,11 @@ let
           maintainers = with maintainers; [ kamadorueda ];
         };
 
-        srcBin = ../../../bin;
-        srcBuild = ../../../build;
-        srcClient = ../../../client;
-        srcServerBack = ../../../server/back;
-        srcServerPublic = ../../../server/public;
+        srcBin = ../../bin;
+        srcBuild = ../../build;
+        srcClient = ../../client;
+        srcServerBack = ../../server/back;
+        srcServerPublic = ../../server/public;
 
         shebang = "#! ${nixpkgs.bash}/bin/bash";
       })

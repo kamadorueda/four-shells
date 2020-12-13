@@ -1,4 +1,4 @@
 let
-  bin = import ./build/utils/bin;
+  bin = import ./build/bin;
 in
   bin.derivations

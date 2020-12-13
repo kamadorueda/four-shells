@@ -1,5 +1,5 @@
 let
-  sources = import ../../../build/deps/nix/sources.nix;
+  sources = import ../../../sources.nix;
   nixpkgs = import sources.nixpkgs { };
 
   awscli2 = (import (nixpkgs.fetchzip {
@@ -8,7 +8,7 @@ let
   }) { }).awscli2;
 in
   nixpkgs.stdenv.mkDerivation (
-       (import ../../../build/utils/ctx)
+       (import ../../../build/ctx)
     // (rec {
       name = "server-deploy";
 

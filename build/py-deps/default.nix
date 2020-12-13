@@ -1,10 +1,10 @@
 let
-  sources = import ../../../build/deps/nix/sources.nix;
+  sources = import ../../sources.nix;
   nixpkgs = import sources.nixpkgs { };
 
   build = { reqs, deps, py }:
     nixpkgs.stdenv.mkDerivation (
-        (import ../../../build/utils/ctx)
+        (import ../../build/ctx)
       // (rec {
         name = "build-reqs";
         builder = ./builder.sh;
