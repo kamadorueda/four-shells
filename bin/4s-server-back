@@ -18,7 +18,6 @@ source "${srcBuildUtilsCtxLibSh}"
 
 function main {
   export PYTHONPATH="${srcServerBack}:${PYTHONPATH}"
-  export SERVER_PATH_PUBLIC="${srcServerPublic}"
 
       utils_server_ensure_configuration \
   &&  utils_configure_proxy "${BURP:-}" \

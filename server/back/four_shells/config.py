@@ -24,7 +24,6 @@ AWS_SECRET_ACCESS_KEY_SERVER: str = environ['AWS_SECRET_ACCESS_KEY_SERVER']
 PRODUCTION: bool = 'PRODUCTION' in environ
 GOOGLE_OAUTH_CLIENT_ID_SERVER: str = environ['GOOGLE_OAUTH_CLIENT_ID_SERVER']
 GOOGLE_OAUTH_SECRET_SERVER: str = environ['GOOGLE_OAUTH_SECRET_SERVER']
-SERVER_PATH_PUBLIC: str = environ['SERVER_PATH_PUBLIC']
 SESSION_SECRET: str = environ['SERVER_SESSION_SECRET']
 SESSION_DURATION: int = 86400
 SESSION_COOKIE: str = 'four_shells_session'
@@ -48,6 +47,11 @@ def get_globals(request: Request) -> Dict[str, str]:
 
 
 # Templating engine
-TPL = Jinja2Templates(path.join(SERVER_PATH_PUBLIC, 'templates'))
+TPL = Jinja2Templates(
+    directory=path.join(
+        path.dirname(path.dirname(__file__)),
+        'templates',
+    )
+)
 TPL.env.autoescape = False
 TPL.env.globals['from_cdn'] = from_cdn

@@ -88,7 +88,7 @@ const common = {
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, '../server/public/static'),
+    path: path.resolve(__dirname, '../public/static'),
   },
   plugins: [
     new MiniCssExtractPlugin({

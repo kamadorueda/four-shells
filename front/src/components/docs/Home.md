@@ -148,7 +148,6 @@ Requirements:
         AWS_SECRET_ACCESS_KEY_SERVER = test
         GOOGLE_OAUTH_CLIENT_ID_SERVER = test
         GOOGLE_OAUTH_SECRET_SERVER = test
-        SERVER_PATH_PUBLIC = /nix/store/w2fw9lxc7qz2j87zi1xf6f2bzf7haz6v-public
         SERVER_SESSION_SECRET = test
 
         INFO:     Started server process [3475269]

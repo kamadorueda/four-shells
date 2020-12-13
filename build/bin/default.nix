@@ -30,7 +30,6 @@ let
         srcBuild = ../../build;
         srcClient = ../../client;
         srcServerBack = ../../server/back;
-        srcServerPublic = ../../server/public;
 
         shebang = "#! ${nixpkgs.bash}/bin/bash";
       })

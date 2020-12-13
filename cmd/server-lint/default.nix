@@ -15,6 +15,5 @@ in
       ];
 
       srcServerBack = ../../server/back;
-      srcServerPublic = ../../server/public;
     })
   )

@@ -11,7 +11,6 @@ mkdir "${out}/server"
 cp --no-target-directory --recursive "${srcBuild}" "${out}/build"
 cp --no-target-directory --recursive "${srcClient}" "${out}/client"
 cp --no-target-directory --recursive "${srcServerBack}" "${out}/server/back"
-cp --no-target-directory --recursive "${srcServerPublic}" "${out}/server/public"
 
 {
   # Patch shebang
@@ -30,7 +29,6 @@ cp --no-target-directory --recursive "${srcServerPublic}" "${out}/server/public"
     srcBuildUtilsShoptsLibSh \
     srcClient \
     srcServerBack \
-    srcServerPublic \
 
   do
     echo "export ${var}='${!var}'"

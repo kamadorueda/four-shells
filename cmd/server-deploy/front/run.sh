@@ -11,7 +11,7 @@ source "${srcBuildUtilsCtxLibSh}"
 function main {
   export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_ADMIN}"
   export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_ADMIN}"
-  local source='server/public'
+  local source='public'
   local target='s3://four-shells-public-content'
 
       echo '[INFO] Building front' \

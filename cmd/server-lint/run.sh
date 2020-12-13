@@ -9,7 +9,6 @@ source "${srcBuildUtilsCtxLibSh}"
 
 function main {
   export PYTHONPATH="${srcServerBack}:${PYTHONPATH}"
-  export SERVER_PATH_PUBLIC="${srcServerPublic}"
   local pkgs=(
     server/back/four_shells
   )
