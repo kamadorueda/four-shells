@@ -9,11 +9,12 @@ from typing import (
 )
 
 # Local libraries
-import system
+import ipfs
 from logs import (
     log,
 )
 import nix
+import system
 
 
 async def publish(nix_store_paths: Tuple[str, ...]) -> bool:
@@ -23,7 +24,7 @@ async def publish(nix_store_paths: Tuple[str, ...]) -> bool:
             with contextlib.suppress(SystemError):
                 await nix.copy(f'file://{directory}', nix_store_path)
 
-        for nar_path in os.listdir(directory):
+        for nar_path in await system.recurse_dir(directory):
             nar_path = os.path.join(directory, nar_path)
 
-            await log('info', 'Nar: %s', nar_path)
+            await ipfs.add(nar_path)

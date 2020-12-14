@@ -4,6 +4,13 @@ import asyncio
 from contextlib import (
     asynccontextmanager,
 )
+from itertools import (
+    chain,
+)
+from operator import (
+    attrgetter,
+    methodcaller,
+)
 import os
 import shutil
 from typing import (
@@ -16,6 +23,7 @@ from typing import (
 # Third party libraries
 from aioextensions import (
     in_thread,
+    collect,
 )
 
 # Local libraries
@@ -76,8 +84,8 @@ async def ephemeral_dir() -> str:
 async def raise_from_cmd(
     code: int,
     command: Tuple[str, ...],
-    err: bytes,
-    out: bytes,
+    err: bytes = b'',
+    out: bytes = b'',
 ) -> None:
     await log(
         'error',
@@ -87,11 +95,27 @@ async def raise_from_cmd(
         'Stderr: %s\n',
         command,
         code,
-        out.decode(),
-        err.decode(),
+        out.decode() if out else '',
+        err.decode() if err else '',
     )
 
     raise SystemError()
+
+
+async def recurse_dir(path: str) -> Tuple[str, ...]:
+    try:
+        scanner = tuple(os.scandir(path))
+    except FileNotFoundError:
+        scanner = tuple()
+
+    dirs = map(attrgetter('path'), filter(methodcaller('is_dir'), scanner))
+    files = map(attrgetter('path'), filter(methodcaller('is_file'), scanner))
+
+    tree: Tuple[str, ...] = tuple(chain(
+        files, *await collect(tuple(map(recurse_dir, dirs))),
+    ))
+
+    return tree
 
 
 async def read(

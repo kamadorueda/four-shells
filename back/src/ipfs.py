@@ -33,7 +33,7 @@ async def add(path: str) -> str:
     )
 
     code, out, err = await system.read(*command, env=get_env())
-    cid = out.decode()
+    cid = out.decode()[:-1]
 
     if code == 0:
         await log('info', 'IPFS added cid: %s', cid)

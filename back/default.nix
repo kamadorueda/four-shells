@@ -5,6 +5,7 @@ let
 in
   rec {
     dependencies = [
+      nixpkgs.ipfs
       nixpkgs.nix
       nixpkgs.python38
       nixpkgs.python38Packages.aioextensions

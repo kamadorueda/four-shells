@@ -23,14 +23,12 @@ async def copy(dir: str, path: str) -> bool:
         path,
     )
 
-    code, out, err = await system.read(*command)
+    code, *_ = await system.read(*command, stderr=None, stdout=None)
 
     if code != 0:
         await system.raise_from_cmd(
             code=code,
             command=command,
-            err=err,
-            out=out,
         )
 
     return code == 0
