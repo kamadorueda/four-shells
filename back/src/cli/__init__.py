@@ -34,6 +34,17 @@ def main(
     data: str,
     debug: bool,
 ) -> None:
+    main_config(
+        data=data,
+        debug=debug,
+    )
+
+
+def main_config(
+    *,
+    data: str,
+    debug: bool,
+) -> None:
     config.common.DATA = os.path.abspath(os.path.expanduser(data))
     config.common.DATA_CACHIPFS = os.path.join(config.common.DATA, 'cachipfs')
     config.common.DATA_CACHIPFS_REPO = os.path.join(config.common.DATA_CACHIPFS, 'repo')
@@ -115,6 +126,39 @@ def main_server(
     google_oauth_secret: str,
     session_secret: str,
 ) -> None:
+    main_server_config(
+        aws_access_key_id=aws_access_key_id,
+        aws_cloudfront_domain=aws_cloudfront_domain,
+        aws_region=aws_region,
+        aws_secret_access_key=aws_secret_access_key,
+        production=production,
+        google_oauth_client_id=google_oauth_client_id,
+        google_oauth_secret=google_oauth_secret,
+        session_secret=session_secret,
+    )
+
+    uvicorn.run(
+        app='server.asgi:APP',
+        host=host,
+        interface='asgi3',
+        log_level='debug' if config.common.DEBUG else 'info',
+        loop='uvloop',
+        port=port,
+        workers=1,
+    )
+
+
+def main_server_config(
+    *,
+    aws_access_key_id: str,
+    aws_cloudfront_domain: str,
+    aws_region: str,
+    aws_secret_access_key: str,
+    production: bool,
+    google_oauth_client_id: str,
+    google_oauth_secret: str,
+    session_secret: str,
+) -> None:
     config.server.AWS_ACCESS_KEY_ID = aws_access_key_id
     config.server.AWS_CLOUDFRONT_DOMAIN = aws_cloudfront_domain
     config.server.AWS_REGION = aws_region
@@ -136,16 +180,6 @@ def main_server(
     )
     config.server.TPL.env.autoescape = False
     config.server.TPL.env.globals['from_cdn'] = config.server.from_cdn
-
-    uvicorn.run(
-        app='server.asgi:APP',
-        host=host,
-        interface='asgi3',
-        log_level='debug' if config.common.DEBUG else 'info',
-        loop='uvloop',
-        port=port,
-        workers=1,
-    )
 
 
 if __name__ == '__main__':

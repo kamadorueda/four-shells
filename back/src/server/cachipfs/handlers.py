@@ -30,7 +30,7 @@ from server import (
 from server.utils.errors import (
     api_error_boundary,
 )
-from server.utils.security import (
+from utils.security import (
     create_secret,
 )
 
