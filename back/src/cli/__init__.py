@@ -1,7 +1,13 @@
 # Standard libraries
 import os
+from typing import (
+    Tuple,
+)
 
 # Third party libraries
+from aioextensions import (
+    run,
+)
 import click
 from starlette.templating import (
     Jinja2Templates,
@@ -9,6 +15,7 @@ from starlette.templating import (
 import uvicorn
 
 # Local libraries
+import cachipfs
 import config.cachipfs
 import config.common
 import config.server
@@ -62,7 +69,7 @@ def main_config(
     config.common.spawn_ephemeral_paths()
 
 
-@main.command(
+@main.group(
     name='cachipfs',
 )
 @click.option(
@@ -85,6 +92,23 @@ def main_cachipfs_config(
     ipfs_repo: str,
 ) -> None:
     config.cachipfs.IPFS_REPO = ipfs_repo
+
+
+@main_cachipfs.command(
+    name='publish',
+    help='Publish Nix-store paths to CachIPFS',
+)
+@click.argument(
+    'nix_store_paths',
+    metavar='NIX_STORE_PATH',
+    nargs=-1,
+    type=str,
+)
+def main_cachipfs_publish(
+    *,
+    nix_store_paths: Tuple[str, ...],
+) -> None:
+    run(cachipfs.publish(nix_store_paths))
 
 
 @main.command(

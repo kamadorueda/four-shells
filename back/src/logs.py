@@ -1,5 +1,6 @@
 # Standard library
 import logging
+import sys
 from typing import (
     Any,
 )
@@ -10,10 +11,20 @@ from aioextensions import (
 )
 
 # Private constants
-_LOGGER: logging.Logger = logging.getLogger('Skims')
+_LOGGER: logging.Logger = logging.getLogger('4s')
 
 
 def blocking_log(level: str, msg: str, *args: Any, **kwargs: Any) -> None:
+    if not _LOGGER.hasHandlers():
+        _LOGGER.addHandler(logging.StreamHandler())
+        _LOGGER.setLevel(logging.INFO)
+
+        _LOGGER.handlers[0].setFormatter(
+            logging.Formatter('[%(levelname)s] %(message)s'),
+        )
+        _LOGGER.handlers[0].setLevel(logging.INFO)
+        _LOGGER.handlers[0].setStream(sys.stdout)
+
     getattr(_LOGGER, level)(msg, *args, **kwargs)
 
 

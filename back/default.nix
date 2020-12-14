@@ -5,6 +5,7 @@ let
 in
   rec {
     dependencies = [
+      nixpkgs.nix
       nixpkgs.python38
       nixpkgs.python38Packages.aioextensions
       nixpkgs.python38Packages.boto3

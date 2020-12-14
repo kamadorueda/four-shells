@@ -20,6 +20,9 @@ from aioextensions import (
 
 # Local libraries
 import config.common
+from logs import (
+    log,
+)
 
 
 async def call(
@@ -65,9 +68,30 @@ async def ephemeral_dir() -> str:
     path, lock = next(config.common.DATA_EPHEMERAL_DIRS_ITER)
 
     async with lock:
-        await in_thread(shutil.rmtree(path, ignore_errors=True))
+        await in_thread(shutil.rmtree, path, ignore_errors=True)
 
         yield path
+
+
+async def raise_from_cmd(
+    code: int,
+    command: Tuple[str, ...],
+    err: bytes,
+    out: bytes,
+) -> None:
+    await log(
+        'error',
+        'Command: %s\n'
+        'Exit code: %s\n'
+        'Stdout: %s\n'
+        'Stderr: %s\n',
+        command,
+        code,
+        out.decode(),
+        err.decode(),
+    )
+
+    raise SystemError()
 
 
 async def read(

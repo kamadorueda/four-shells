@@ -1,9 +1,7 @@
 # Standard library
-import asyncio
 from contextlib import (
     asynccontextmanager,
 )
-import json
 from typing import (
     Dict,
     Tuple,
@@ -23,27 +21,6 @@ def get_env() -> Dict[str, str]:
     }
 
 
-async def _raise(
-    code: int,
-    command: Tuple[str, ...],
-    err: bytes,
-    out: bytes,
-) -> None:
-    await log(
-        'error',
-        'Command: %s\n'
-        'Exit code: %s\n'
-        'Stdout: %s\n'
-        'Stderr: %s\n',
-        command,
-        code,
-        out.decode(),
-        err.decode(),
-    )
-
-    raise SystemError()
-
-
 async def add(path: str) -> str:
     command: Tuple[str, ...] = (
         'ipfs',
@@ -61,7 +38,12 @@ async def add(path: str) -> str:
     if code == 0:
         await log('info', 'IPFS added cid: %s', cid)
     else:
-        await _raise(code=code, command=command, err=err, out=out)
+        await system.raise_from_cmd(
+            code=code,
+            command=command,
+            err=err,
+            out=out,
+        )
 
     return cid
 
@@ -96,6 +78,11 @@ async def get(cid: str, *, timeout: str = '60s') -> str:
         if code == 0:
             await log('info', 'IPFS got cid: %s', cid)
         else:
-            await _raise(code=code, command=command, err=err, out=out)
+            await system.raise_from_cmd(
+                code=code,
+                command=command,
+                err=err,
+                out=out,
+            )
 
         yield path
