@@ -3,10 +3,13 @@ import os
 
 # Third party libraries
 import click
-from starlette.templating import Jinja2Templates
+from starlette.templating import (
+    Jinja2Templates,
+)
 import uvicorn
 
 # Local libraries
+import config.cachipfs
 import config.common
 import config.server
 
@@ -57,6 +60,31 @@ def main_config(
     os.makedirs(config.common.DATA_EPHEMERAL, mode=0o700, exist_ok=True)
 
     config.common.spawn_ephemeral_paths()
+
+
+@main.command(
+    name='cachipfs',
+)
+@click.option(
+    '--ipfs-repo',
+    default='~/.ipfs',
+    help='IPFS repository path',
+    type=str,
+)
+def main_cachipfs(
+    *,
+    ipfs_repo: str,
+) -> None:
+    main_cachipfs_config(
+        ipfs_repo=ipfs_repo,
+    )
+
+
+def main_cachipfs_config(
+    *,
+    ipfs_repo: str,
+) -> None:
+    config.cachipfs.IPFS_REPO = ipfs_repo
 
 
 @main.command(

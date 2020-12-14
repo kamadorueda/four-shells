@@ -23,15 +23,15 @@ from starlette.responses import (
 )
 
 # Local libraries
+from security import (
+    create_secret,
+)
 from server import (
     authz,
     persistence,
 )
 from server.utils.errors import (
     api_error_boundary,
-)
-from utils.security import (
-    create_secret,
 )
 
 
