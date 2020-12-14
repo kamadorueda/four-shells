@@ -261,42 +261,21 @@ resource "aws_ecs_task_definition" "four_shells" {
   # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition
   container_definitions = jsonencode([
     {
-      command = ["4s"]
-      cpu     = 1
-      environment = [
-        {
-          name  = "AWS_ACCESS_KEY_ID_SERVER"
-          value = aws_iam_access_key.server.id
-        },
-        {
-          name  = "AWS_CLOUDFRONT_DOMAIN"
-          value = aws_cloudfront_distribution.four_shells_public_content.domain_name
-        },
-        {
-          name  = "AWS_REGION"
-          value = var.AWS_REGION
-        },
-        {
-          name  = "AWS_SECRET_ACCESS_KEY_SERVER"
-          value = aws_iam_access_key.server.secret
-        },
-        {
-          name  = "GOOGLE_OAUTH_CLIENT_ID_SERVER"
-          value = var.GOOGLE_OAUTH_CLIENT_ID_SERVER
-        },
-        {
-          name  = "GOOGLE_OAUTH_SECRET_SERVER"
-          value = var.GOOGLE_OAUTH_SECRET_SERVER
-        },
-        {
-          name  = "PRODUCTION"
-          value = "true"
-        },
-        {
-          name  = "SERVER_SESSION_SECRET"
-          value = var.SERVER_SESSION_SECRET
-        },
+      command = [
+        "4s",
+        "server",
+        "--aws-access-key-id", aws_iam_access_key.server.id,
+        "--aws-cloudfront-domain", aws_cloudfront_distribution.four_shells_public_content.domain_name,
+        "--aws-region", var.AWS_REGION,
+        "--aws-secret-access-key", aws_iam_access_key.server.secret,
+        "--google-oauth-client-id", var.GOOGLE_OAUTH_CLIENT_ID_SERVER,
+        "--google-oauth-secret", var.GOOGLE_OAUTH_SECRET_SERVER,
+        "--host", "0.0.0.0",
+        "--port", "8400",
+        "--production",
+        "--session-secret", var.SERVER_SESSION_SECRET,
       ]
+      cpu       = 1
       essential = true
       image     = "${aws_ecr_repository.four_shells.repository_url}:latest"
       logConfiguration = {
