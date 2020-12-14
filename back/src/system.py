@@ -1,14 +1,21 @@
 # Standard library
+import aiofiles
 import asyncio
 from contextlib import (
     asynccontextmanager,
 )
 import os
+import shutil
 from typing import (
     Any,
     Dict,
     Optional,
     Tuple,
+)
+
+# Third party libraries
+from aioextensions import (
+    in_thread,
 )
 
 # Local libraries
@@ -43,10 +50,23 @@ async def call(
 
 
 @asynccontextmanager
-async def ephemeral_file() -> Tuple[str, asyncio.Lock]:
+async def ephemeral_file() -> str:
     path, lock = next(config.common.DATA_EPHEMERAL_FILES_ITER)
 
     async with lock:
+        async with aiofiles.open(path, 'w'):
+            pass
+
+        yield path
+
+
+@asynccontextmanager
+async def ephemeral_dir() -> str:
+    path, lock = next(config.common.DATA_EPHEMERAL_DIRS_ITER)
+
+    async with lock:
+        await in_thread(shutil.rmtree(path, ignore_errors=True))
+
         yield path
 
 
