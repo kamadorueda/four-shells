@@ -138,18 +138,13 @@ Requirements:
 
         Configuration:
 
-        AWS_ACCESS_KEY_ID_SERVER = test
-        AWS_CLOUDFRONT_DOMAIN = test
-        AWS_REGION = us-east-1
-        AWS_SECRET_ACCESS_KEY_SERVER = test
-        GOOGLE_OAUTH_CLIENT_ID_SERVER = test
-        GOOGLE_OAUTH_SECRET_SERVER = test
-        SERVER_SESSION_SECRET = test
+        [INFO] Launching local back-end server!
+        [WARNING] Please be aware that login functionality wont work
 
-        INFO:     Started server process [3475269]
+        INFO:     Started server process [3898829]
         INFO:     Waiting for application startup.
         INFO:     Application startup complete.
-        INFO:     Uvicorn running on http://0.0.0.0:8400 (Press CTRL+C to quit)
+        INFO:     Uvicorn running on http://localhost:8400 (Press CTRL+C to quit)
         ```
 
         You can quit by pressing CTRL + C
