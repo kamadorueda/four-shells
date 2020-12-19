@@ -76,6 +76,7 @@ def main_config(
     '--ipfs-repo',
     default='~/.ipfs',
     help='IPFS repository path',
+    show_default=True,
     type=str,
 )
 def main_cachipfs(

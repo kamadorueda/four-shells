@@ -1,30 +1,43 @@
 # Standard library
-import contextlib
-from glob import (
-    iglob as glob,
-)
 import os
 from typing import (
     Tuple,
 )
 
+# Third party libraries
+from aioextensions import (
+    collect,
+)
+
 # Local libraries
 import ipfs
-from logs import (
-    log,
-)
 import nix
 import system
 
 
-async def publish(nix_store_paths: Tuple[str, ...]) -> bool:
+async def publish_one_add_to_ipfs(path: str) -> bool:
+    success, _ = await ipfs.add(path)
+    return success
+
+
+async def publish_one_serialize_nix_store_path(
+    directory: str,
+    nix_store_path: str,
+) -> bool:
+    success = await nix.copy(f'file://{directory}', nix_store_path)
+    return success
+
+
+async def publish_one(nix_store_path: str) -> bool:
     async with system.ephemeral_dir() as directory:
-        for nix_store_path in nix_store_paths:
-            await log('info', 'Serializing: %s', nix_store_path)
-            with contextlib.suppress(SystemError):
-                await nix.copy(f'file://{directory}', nix_store_path)
+        return await publish_one_serialize_nix_store_path(
+            directory,
+            nix_store_path,
+        ) and await collect(tuple(
+            publish_one_add_to_ipfs(os.path.join(directory, nar_path))
+            for nar_path in await system.recurse_dir(directory)
+        ))
 
-        for nar_path in await system.recurse_dir(directory):
-            nar_path = os.path.join(directory, nar_path)
 
-            await ipfs.add(nar_path)
+async def publish(nix_store_paths: Tuple[str, ...]) -> bool:
+    return all(await collect(tuple(map(publish_one, nix_store_paths))))

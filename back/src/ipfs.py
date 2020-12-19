@@ -21,7 +21,7 @@ def get_env() -> Dict[str, str]:
     }
 
 
-async def add(path: str) -> str:
+async def add(path: str) -> Tuple[bool, str]:
     command: Tuple[str, ...] = (
         'ipfs',
         'add',
@@ -38,14 +38,9 @@ async def add(path: str) -> str:
     if code == 0:
         await log('info', 'IPFS added cid: %s', cid)
     else:
-        await system.raise_from_cmd(
-            code=code,
-            command=command,
-            err=err,
-            out=out,
-        )
+        await system.log_error(code=code, command=command, err=err, out=out)
 
-    return cid
+    return code == 0, cid
 
 
 async def is_available(cid: str, *, timeout: str = '5s') -> bool:
@@ -63,7 +58,7 @@ async def is_available(cid: str, *, timeout: str = '5s') -> bool:
 
 
 @asynccontextmanager
-async def get(cid: str, *, timeout: str = '60s') -> str:
+async def get(cid: str, *, timeout: str = '60s') -> Tuple[bool, str]:
     async with config.ephemeral_file() as path:
         command: Tuple[str, ...] = (
             'ipfs',
@@ -78,11 +73,6 @@ async def get(cid: str, *, timeout: str = '60s') -> str:
         if code == 0:
             await log('info', 'IPFS got cid: %s', cid)
         else:
-            await system.raise_from_cmd(
-                code=code,
-                command=command,
-                err=err,
-                out=out,
-            )
+            await system.log_error(code=code, command=command, err=err, out=out)
 
-        yield path
+        yield code == 0, path

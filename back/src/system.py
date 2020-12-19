@@ -81,25 +81,30 @@ async def ephemeral_dir() -> str:
         yield path
 
 
-async def raise_from_cmd(
+async def log_error(
     code: int,
     command: Tuple[str, ...],
     err: bytes = b'',
     out: bytes = b'',
 ) -> None:
-    await log(
-        'error',
+    msg: str = (
         'Command: %s\n'
         'Exit code: %s\n'
-        'Stdout: %s\n'
-        'Stderr: %s\n',
+    )
+    args = (
         command,
         code,
-        out.decode() if out else '',
-        err.decode() if err else '',
     )
 
-    raise SystemError()
+    if out:
+        msg += 'Stdout: %s\n'
+        args += (out.decode(),)
+
+    if err:
+        msg += 'Stderr: %s\n'
+        args += (err.decode(),)
+
+    await log('error', msg, *args)
 
 
 async def recurse_dir(path: str) -> Tuple[str, ...]:
