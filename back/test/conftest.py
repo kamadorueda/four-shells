@@ -6,6 +6,9 @@ import json
 import os
 
 # Third party libraries
+from aioextensions import (
+    run_decorator,
+)
 import pytest
 from itsdangerous import (
     TimestampSigner,
@@ -36,10 +39,14 @@ cli.main_server_config(
 # Local libraries
 import config.server
 from server import (
+    accounts,
     asgi,
 )
 
-def _login(client: TestClient, email: str) -> None:
+
+async def _login(client: TestClient, email: str) -> None:
+    await accounts.ensure_account_exists(email=email)
+
     signer = TimestampSigner(config.server.SESSION_SECRET)
 
     session_cookie = signer.sign(b64encode(json.dumps({
@@ -62,23 +69,9 @@ def test_client() -> TestClient:
 
 
 @pytest.fixture(scope='function')
-def test_client_raiser() -> TestClient:
-    client = TestClient(asgi.APP)
-
-    return client
-
-
-@pytest.fixture(scope='function')
-def test_client_with_session(test_account_email: str) -> TestClient:
+@run_decorator
+async def test_client_with_session(test_account_email: str) -> TestClient:
     client = TestClient(asgi.APP, raise_server_exceptions=False)
-    _login(client, test_account_email)
-
-    return client
-
-
-@pytest.fixture(scope='function')
-def test_client_session(test_account_email: str) -> TestClient:
-    client = TestClient(asgi.APP)
-    _login(client, test_account_email)
+    await _login(client, test_account_email)
 
     return client

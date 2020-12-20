@@ -18,7 +18,6 @@ from starlette.routing import (
 # Local libraries
 import config.server
 import server.handlers
-import server.cachipfs.handlers
 
 
 # Constants
