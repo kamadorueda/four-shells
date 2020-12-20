@@ -9,6 +9,7 @@ from aioextensions import (
     run,
 )
 import click
+from logs import blocking_log
 from starlette.templating import (
     Jinja2Templates,
 )
@@ -104,6 +105,7 @@ def main_cachipfs_config(
 ) -> None:
     config.cachipfs.API_TOKEN = api_token
     data = run(server_api.api_v1_cachipfs_config_get())
+    blocking_log('info', 'Welcome %s!', data.email)
     config.cachipfs.ENCRYPTION_KEY = data.cachipfs_encryption_key
     config.cachipfs.IPFS_REPO = ipfs_repo
 
