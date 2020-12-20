@@ -15,28 +15,34 @@ import nix
 import system
 
 
-async def publish_one_add_to_ipfs(path: str) -> bool:
-    success, _ = await ipfs.add(path)
-    return success
-
-
-async def publish_one_serialize_nix_store_path(
-    directory: str,
-    nix_store_path: str,
-) -> bool:
-    success = await nix.copy(f'file://{directory}', nix_store_path)
-    return success
-
-
 async def publish_one(nix_store_path: str) -> bool:
     async with system.ephemeral_dir() as directory:
-        return await publish_one_serialize_nix_store_path(
-            directory,
-            nix_store_path,
-        ) and await collect(tuple(
-            publish_one_add_to_ipfs(os.path.join(directory, nar_path))
+        # Serialize the nix_store_path into NAR formatted paths
+        if not await nix.copy(f'file://{directory}', nix_store_path):
+            return False
+
+        # Absolute NAR formatted paths
+        nar_paths = tuple(
+            nar_path
             for nar_path in await system.recurse_dir(directory)
-        ))
+            if os.path.basename(nar_path) not in {'nix-cache-info'}
+        )
+
+        # Tuple[success, cid]
+        results = await collect(tuple(map(ipfs.add, nar_paths)))
+
+        # Check all files were added to IPFS successfully
+        if not all(success for success, _ in results):
+            return False
+
+        for cid, nar_path in zip(
+            (cid for _, cid in results),
+            (os.path.relpath(nar_path, directory) for nar_path in nar_paths),
+        ):
+            # Announce to coordinator
+            pass
+
+    return True
 
 
 async def publish(nix_store_paths: Tuple[str, ...]) -> bool:

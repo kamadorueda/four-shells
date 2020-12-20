@@ -36,7 +36,7 @@ async def add(path: str) -> Tuple[bool, str]:
     cid = out.decode()[:-1]
 
     if code == 0:
-        await log('info', 'IPFS added cid: %s', cid)
+        await log('info', 'IPFS added path: %s, cid: %s', path, cid)
     else:
         await system.log_error(code=code, command=command, err=err, out=out)
 
