@@ -17,20 +17,18 @@ from server import (
 
 async def ensure_account_exists(*, email: str) -> bool:
     cachipfs_api_token: int = create_secret()
-    cachipfs_id: int = create_secret()
+    cachipfs_encryption_key: int = create_secret()
 
     try:
         success: bool = await persistence.update(
             ConditionExpression=Attr('email').not_exists(),
             ExpressionAttributeNames={
                 '#cachipfs_api_token': 'cachipfs_api_token',
-                '#cachipfs_id': 'cachipfs_id',
-                '#cachipfs_trusted_ids': 'cachipfs_trusted_ids',
+                '#cachipfs_encryption_key': 'cachipfs_encryption_key',
             },
             ExpressionAttributeValues={
                 ':cachipfs_api_token': cachipfs_api_token,
-                ':cachipfs_id': cachipfs_id,
-                ':cachipfs_trusted_ids': {cachipfs_id},
+                ':cachipfs_encryption_key': cachipfs_encryption_key,
             },
             Key={
                 'email': email,
@@ -38,8 +36,7 @@ async def ensure_account_exists(*, email: str) -> bool:
             table=persistence.TableEnum.accounts,
             UpdateExpression=(
                 'SET #cachipfs_api_token = :cachipfs_api_token,'
-                '    #cachipfs_id = :cachipfs_id,'
-                '    #cachipfs_trusted_ids = :cachipfs_trusted_ids'
+                '    #cachipfs_encryption_key = :cachipfs_encryption_key,'
             ),
         )
 
