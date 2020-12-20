@@ -114,8 +114,7 @@ resource "aws_cloudwatch_log_stream" "four_shells" {
 resource "aws_dynamodb_table" "accounts" {
   # (email): {
   #   cachipfs_api_token: uuid
-  #   cachipfs_id: uuid
-  #   cachipfs_trusted_ids: uuid
+  #   cachipfs_encryption_key: uuid
   # }
   attribute {
     name = "email"
@@ -129,8 +128,7 @@ resource "aws_dynamodb_table" "accounts" {
     hash_key = "cachipfs_api_token"
     name     = "cachipfs_api_token"
     non_key_attributes = [
-      "cachipfs_id",
-      "cachipfs_trusted_ids",
+      "cachipfs_encryption_key",
     ]
     projection_type = "INCLUDE"
   }
@@ -144,11 +142,12 @@ resource "aws_dynamodb_table" "accounts" {
 }
 
 resource "aws_dynamodb_table" "cachipfs_objects" {
-  # (nar_path, cachipfs_id): {
+  # (nar_path, email): {
   #   cid: str
+  #   ttl: int
   # }
   attribute {
-    name = "cachipfs_id"
+    name = "email"
     type = "S"
   }
   attribute {
@@ -158,10 +157,14 @@ resource "aws_dynamodb_table" "cachipfs_objects" {
   billing_mode = "PAY_PER_REQUEST"
   hash_key     = "nar_path"
   name         = "cachipfs_objects"
-  range_key    = "cachipfs_id"
+  range_key    = "email"
   tags = {
     "management:product" = "cachipfs"
     "Name"               = "cachipfs_objects"
+  }
+  ttl {
+    attribute_name = "ttl"
+    enabled        = true
   }
 }
 
