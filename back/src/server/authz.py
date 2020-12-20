@@ -5,10 +5,17 @@ from functools import (
 from typing import (
     Any,
     Callable,
+    NamedTuple,
     TypeVar,
+)
+from boto3.dynamodb.conditions import (
+    Key,
 )
 
 # Third party libraries
+from server import (
+    persistence,
+)
 from starlette.requests import (
     Request,
 )
@@ -47,3 +54,35 @@ def requires_session_sync(function: TFun) -> TFun:
         raise PermissionError('Session required, please authenticate first')
 
     return wrapper
+
+
+class CachipfsAPIToken(NamedTuple):
+    cachipfs_api_token: str
+    cachipfs_encryption_key: str
+    email: str
+
+
+async def validate_cachipfs_api_token(request: Request) -> CachipfsAPIToken:
+    cachipfs_api_token: str = request.headers.get('authorization')
+
+    if not cachipfs_api_token:
+        raise PermissionError('Missing Authorization header')
+
+    data = await persistence.query(
+        IndexName='cachipfs_api_token',
+        KeyConditionExpression=(
+            Key('cachipfs_api_token').eq(cachipfs_api_token)
+        ),
+        table=persistence.TableEnum.accounts,
+    )
+
+    if not data:
+        raise PermissionError('Invalid API token')
+
+    data = data[0]
+
+    return CachipfsAPIToken(
+        cachipfs_api_token=data['cachipfs_api_token'],
+        cachipfs_encryption_key=data['cachipfs_encryption_key'],
+        email=data['email'],
+    )

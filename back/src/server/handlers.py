@@ -1,10 +1,9 @@
-"""Application route handlers."""
-
 # Third party libraries
 from authlib.integrations.starlette_client import (
     OAuth,
 )
 from server.utils.data import (
+    get_ttl,
     json_cast,
 )
 from starlette.requests import (
@@ -68,6 +67,37 @@ async def api_v1_me(request: Request) -> Response:
     )
 
     return JSONResponse(json_cast(namespace))
+
+
+@api_error_boundary
+async def api_v1_cachipfs_publish(request: Request) -> Response:
+    data = await authz.validate_cachipfs_api_token(request)
+
+    cid: str = request.path_params['cid']
+    email: str = data.email
+    nar_path: str = request.path_params['nar_path']
+
+    success = await persistence.update(
+        ExpressionAttributeNames={
+            '#cid': 'cid',
+            '#ttl': 'ttl',
+        },
+        ExpressionAttributeValues={
+            ':cid': cid,
+            ':ttl': get_ttl(2419200),
+        },
+        Key={
+            'email': email,
+            'nar_path': nar_path,
+        },
+        table=persistence.TableEnum.cachipfs_objects,
+        UpdateExpression=(
+            'SET #cid = :cid,'
+            '    #ttl = :ttl'
+        ),
+    )
+
+    return JSONResponse({'ok': success})
 
 
 def cachipfs(request: Request) -> Response:

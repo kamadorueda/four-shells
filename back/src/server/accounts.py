@@ -36,7 +36,7 @@ async def ensure_account_exists(*, email: str) -> bool:
             table=persistence.TableEnum.accounts,
             UpdateExpression=(
                 'SET #cachipfs_api_token = :cachipfs_api_token,'
-                '    #cachipfs_encryption_key = :cachipfs_encryption_key,'
+                '    #cachipfs_encryption_key = :cachipfs_encryption_key'
             ),
         )
 
