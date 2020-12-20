@@ -70,6 +70,16 @@ async def api_v1_me(request: Request) -> Response:
 
 
 @api_error_boundary
+async def api_v1_cachipfs_config_get(request: Request) -> Response:
+    data = await authz.validate_cachipfs_api_token(request)
+
+    return JSONResponse({
+        'cachipfs_encryption_key': data.cachipfs_encryption_key,
+        'email': data.email,
+    })
+
+
+@api_error_boundary
 async def api_v1_cachipfs_objects_get(request: Request) -> Response:
     data = await authz.validate_cachipfs_api_token(request)
 

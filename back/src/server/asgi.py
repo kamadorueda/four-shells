@@ -45,6 +45,11 @@ APP = Starlette(
             path='/api/v1/me',
         ),
         Route(
+            endpoint=server.handlers.api_v1_cachipfs_config_get,
+            methods=['GET'],
+            path='/api/v1/cachipfs/config',
+        ),
+        Route(
             endpoint=server.handlers.api_v1_cachipfs_objects_get,
             methods=['GET'],
             path='/api/v1/cachipfs/objects/{nar_path:str}',
