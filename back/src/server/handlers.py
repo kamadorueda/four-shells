@@ -1,16 +1,17 @@
 """Application route handlers."""
 
-# Standard library
-import json
-
 # Third party libraries
 from authlib.integrations.starlette_client import (
     OAuth,
+)
+from server.utils.data import (
+    json_cast,
 )
 from starlette.requests import (
     Request,
 )
 from starlette.responses import (
+    JSONResponse,
     RedirectResponse,
     Response,
 )
@@ -22,6 +23,11 @@ from starlette.schemas import (
 import config.server
 from server import (
     accounts,
+    authz,
+    persistence,
+)
+from server.utils.errors import (
+    api_error_boundary,
 )
 
 # Constants
@@ -51,6 +57,17 @@ async def on_shutdown() -> None:
 
 async def on_startup() -> None:
     """Server startup script."""
+
+
+@api_error_boundary
+@authz.requires_session
+async def api_v1_me(request: Request) -> Response:
+    namespace = await persistence.get(
+        Key={'email': request.session['email']},
+        table=persistence.TableEnum.accounts,
+    )
+
+    return JSONResponse(json_cast(namespace))
 
 
 def cachipfs(request: Request) -> Response:

@@ -17,7 +17,6 @@ import { BarBreadcrumb } from '../BarBreadcrumb';
 import { BarMain } from '../BarMain';
 import { Dashboard } from './Dashboard';
 import { Home } from './Home';
-import { Namespace } from './Namespace';
 import { Copyright } from '../Copyright';
 
 const formatEmail = (email) => {
@@ -43,7 +42,6 @@ export const Index = ({ bigScreen }) => (
         <Router basename='/cachipfs'>
           <br />
           <Switch>
-            <Route path='/dashboard/namespace/:id' component={Namespace} />
             <Route path='/dashboard' component={Dashboard} />
             <Route path='/' component={Home} />
             <Redirect to='/' />
