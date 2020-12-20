@@ -113,11 +113,26 @@ resource "aws_cloudwatch_log_stream" "four_shells" {
 
 resource "aws_dynamodb_table" "accounts" {
   # (email): {
-  #   balance: int
+  #   cachipfs_api_token: uuid
+  #   cachipfs_id: uuid
+  #   cachipfs_trusted_ids: uuid
   # }
   attribute {
     name = "email"
     type = "S"
+  }
+  attribute {
+    name = "cachipfs_api_token"
+    type = "S"
+  }
+  global_secondary_index {
+    hash_key = "cachipfs_api_token"
+    name     = "cachipfs_api_token"
+    non_key_attributes = [
+      "cachipfs_id",
+      "cachipfs_trusted_ids",
+    ]
+    projection_type = "INCLUDE"
   }
   billing_mode = "PAY_PER_REQUEST"
   hash_key     = "email"
@@ -128,35 +143,25 @@ resource "aws_dynamodb_table" "accounts" {
   }
 }
 
-resource "aws_dynamodb_table" "cachipfs_namespaces" {
-  # (id): {
-  #   account: str
-  #   name: int
-  #   token_admin: str
-  #   token_read: str
-  #   token_write: str
+resource "aws_dynamodb_table" "cachipfs_objects" {
+  # (nar_path, cachipfs_id): {
+  #   cid: str
   # }
   attribute {
-    name = "id"
+    name = "cachipfs_id"
     type = "S"
   }
   attribute {
-    name = "account"
+    name = "nar_path"
     type = "S"
   }
   billing_mode = "PAY_PER_REQUEST"
-  global_secondary_index {
-    hash_key           = "account"
-    name               = "account__id"
-    non_key_attributes = ["name"]
-    projection_type    = "INCLUDE"
-    range_key          = "id"
-  }
-  hash_key = "id"
-  name     = "cachipfs_namespaces"
+  hash_key     = "nar_path"
+  name         = "cachipfs_objects"
+  range_key    = "cachipfs_id"
   tags = {
     "management:product" = "cachipfs"
-    "Name"               = "cachipfs_namespaces"
+    "Name"               = "cachipfs_objects"
   }
 }
 
