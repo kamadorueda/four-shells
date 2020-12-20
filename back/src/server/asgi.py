@@ -41,36 +41,6 @@ APP = Starlette(
     ],
     routes=[
         Route(
-            endpoint=server.cachipfs.handlers.namespace_associate,
-            methods=['POST'],
-            path='/api/v1/cachipfs/namespace/{id:str}/associate',
-        ),
-        Route(
-            endpoint=server.cachipfs.handlers.namespace_rotate,
-            methods=['POST'],
-            path='/api/v1/cachipfs/namespace/{id:str}/rotate/{entity:str}',
-        ),
-        Route(
-            endpoint=server.cachipfs.handlers.namespaces_create,
-            methods=['POST'],
-            path='/api/v1/cachipfs/namespace/{name:str}',
-        ),
-        Route(
-            endpoint=server.cachipfs.handlers.namespaces_delete,
-            methods=['DELETE'],
-            path='/api/v1/cachipfs/namespace/{id:str}',
-        ),
-        Route(
-            endpoint=server.cachipfs.handlers.namespaces_get,
-            methods=['GET'],
-            path='/api/v1/cachipfs/namespace/{id:str}',
-        ),
-        Route(
-            endpoint=server.cachipfs.handlers.namespaces_list,
-            methods=['GET'],
-            path='/api/v1/cachipfs/namespaces',
-        ),
-        Route(
             endpoint=server.handlers.cachipfs,
             methods=['GET'],
             path='/cachipfs{path:path}',

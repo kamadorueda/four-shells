@@ -1,8 +1,3 @@
-# Standard library
-from typing import (
-    List,
-)
-
 # Third party libraries
 from botocore.exceptions import (
     ClientError,
@@ -12,29 +7,39 @@ from boto3.dynamodb.conditions import (
 )
 
 # Local libraries
+from security import (
+    create_secret,
+)
 from server import (
     persistence,
 )
 
 
 async def ensure_account_exists(*, email: str) -> bool:
-    balance: int = 1_000_000
+    cachipfs_api_token: int = create_secret()
+    cachipfs_id: int = create_secret()
 
     try:
         success: bool = await persistence.update(
             ConditionExpression=Attr('email').not_exists(),
             ExpressionAttributeNames={
-                '#balance': 'balance',
+                '#cachipfs_api_token': 'cachipfs_api_token',
+                '#cachipfs_id': 'cachipfs_id',
+                '#cachipfs_trusted_ids': 'cachipfs_trusted_ids',
             },
             ExpressionAttributeValues={
-                ':balance': balance,
+                ':cachipfs_api_token': cachipfs_api_token,
+                ':cachipfs_id': cachipfs_id,
+                ':cachipfs_trusted_ids': {cachipfs_id},
             },
             Key={
                 'email': email,
             },
             table=persistence.TableEnum.accounts,
             UpdateExpression=(
-                'SET #balance = :balance'
+                'SET #cachipfs_api_token = :cachipfs_api_token,'
+                '    #cachipfs_id = :cachipfs_id,'
+                '    #cachipfs_trusted_ids = :cachipfs_trusted_ids'
             ),
         )
 

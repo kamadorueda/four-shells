@@ -36,12 +36,6 @@ from server.utils.errors import (
 
 
 @api_error_boundary
-# @authz.requires
-async def namespace_associate(request: Request) -> Response:
-    ns_id: str = request.path_params['id']
-
-
-@api_error_boundary
 @authz.requires_session
 async def namespaces_create(request: Request) -> Response:
     account: str = request.session['email']
