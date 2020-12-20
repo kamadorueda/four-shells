@@ -70,7 +70,25 @@ async def api_v1_me(request: Request) -> Response:
 
 
 @api_error_boundary
-async def api_v1_cachipfs_publish(request: Request) -> Response:
+async def api_v1_cachipfs_objects_get(request: Request) -> Response:
+    data = await authz.validate_cachipfs_api_token(request)
+
+    email: str = data.email
+    nar_path: str = request.path_params['nar_path']
+
+    data = await persistence.get(
+        Key={
+            'email': email,
+            'nar_path': nar_path,
+        },
+        table=persistence.TableEnum.cachipfs_objects,
+    )
+
+    return JSONResponse({'cid': data.get('cid')})
+
+
+@api_error_boundary
+async def api_v1_cachipfs_objects_post(request: Request) -> Response:
     data = await authz.validate_cachipfs_api_token(request)
 
     cid: str = request.path_params['cid']

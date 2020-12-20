@@ -49,7 +49,7 @@ async def get(*, table: TableEnum, **kwargs: Any) -> Any:
     kwargs['ReturnConsumedCapacity'] = 'NONE'
     response = await in_thread(table_resource.get_item, **kwargs)
 
-    return response['Item']
+    return response.get('Item', {})
 
 
 async def query(*, table: TableEnum, **kwargs: Any) -> Tuple[Any, ...]:
