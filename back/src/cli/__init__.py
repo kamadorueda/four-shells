@@ -19,6 +19,7 @@ import cachipfs
 import config.cachipfs
 import config.common
 import config.server
+import server_api
 
 
 @click.group(
@@ -73,6 +74,12 @@ def main_config(
     name='cachipfs',
 )
 @click.option(
+    '--api-token',
+    help='You API token, grab yours at https://4shells.com/cachipfs',
+    required=True,
+    type=str,
+)
+@click.option(
     '--ipfs-repo',
     default='~/.ipfs',
     help='IPFS repository path',
@@ -81,17 +88,23 @@ def main_config(
 )
 def main_cachipfs(
     *,
+    api_token: str,
     ipfs_repo: str,
 ) -> None:
     main_cachipfs_config(
+        api_token=api_token,
         ipfs_repo=ipfs_repo,
     )
 
 
 def main_cachipfs_config(
     *,
+    api_token: str,
     ipfs_repo: str,
 ) -> None:
+    config.cachipfs.API_TOKEN = api_token
+    data = run(server_api.api_v1_cachipfs_config_get())
+    config.cachipfs.ENCRYPTION_KEY = data.cachipfs_encryption_key
     config.cachipfs.IPFS_REPO = ipfs_repo
 
 

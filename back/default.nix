@@ -8,6 +8,7 @@ in
       nixpkgs.ipfs
       nixpkgs.nix
       nixpkgs.python38
+      nixpkgs.python38Packages.aiohttp
       nixpkgs.python38Packages.aioextensions
       nixpkgs.python38Packages.boto3
       nixpkgs.python38Packages.authlib

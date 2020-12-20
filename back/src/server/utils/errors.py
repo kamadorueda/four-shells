@@ -24,11 +24,11 @@ def api_error_boundary(function: TFun) -> TFun:
         try:
             return await function(*args, **kwargs)
         except Exception as exc:
+            error_type = f'{type(exc).__module__}.{type(exc).__name__}'
+            error = str()
             return JSONResponse(
                 content={
-                    'ok': False,
-                    'error': str(exc),
-                    'error_type': f'{type(exc).__module__}.{type(exc).__name__}',
+                    'error': f'error_type: {exc}',
                 },
                 status_code=400,
             )
