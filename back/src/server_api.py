@@ -6,6 +6,9 @@ from typing import (
     NamedTuple,
     Optional,
 )
+from aioextensions import (
+    rate_limited,
+)
 
 # Third party libraries
 import aiohttp
@@ -18,13 +21,20 @@ from logs import (
 
 # Constants
 ENDPOINT: str = 'https://4shells.com'
+DELAY_BETWEEN_REQUESTS_IN_SECONDS: int = 2
 # ENDPOINT: str = 'http://localhost:8400'
+
 
 class Error(Exception):
     pass
 
 
 @contextlib.asynccontextmanager
+@rate_limited(
+    max_calls=1,
+    max_calls_period=DELAY_BETWEEN_REQUESTS_IN_SECONDS,
+    min_seconds_between_calls=DELAY_BETWEEN_REQUESTS_IN_SECONDS,
+)
 async def api(
     *,
     headers: Dict[str, str],
