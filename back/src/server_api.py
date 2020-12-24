@@ -1,5 +1,4 @@
 # Standard library
-import contextlib
 from typing import (
     Any,
     Dict,
@@ -21,21 +20,15 @@ from logs import (
 
 # Constants
 ENDPOINT: str = 'https://4shells.com'
-DELAY_BETWEEN_REQUESTS_IN_SECONDS: int = 2
 # ENDPOINT: str = 'http://localhost:8400'
+DELAY_BETWEEN_REQUESTS_IN_SECONDS: int = 2
 
 
 class Error(Exception):
     pass
 
 
-@contextlib.asynccontextmanager
-@rate_limited(
-    max_calls=1,
-    max_calls_period=DELAY_BETWEEN_REQUESTS_IN_SECONDS,
-    min_seconds_between_calls=DELAY_BETWEEN_REQUESTS_IN_SECONDS,
-)
-async def api(
+async def api_no_rate_limited(
     *,
     headers: Dict[str, str],
     method: str,
@@ -59,25 +52,27 @@ async def api(
                 await log('error', '%s', data['error'])
                 raise Error(data['error'])
 
-            yield data
+            return data
 
 
-@contextlib.asynccontextmanager
-async def api_cachipfs(
+@rate_limited(
+    max_calls=1,
+    max_calls_period=DELAY_BETWEEN_REQUESTS_IN_SECONDS,
+    min_seconds_between_calls=DELAY_BETWEEN_REQUESTS_IN_SECONDS,
+)
+async def api(
     *,
+    headers: Dict[str, str],
     method: str,
     params: Optional[Dict[str, str]] = None,
     path: str,
 ) -> Dict[str, Any]:
-    async with api(
-        headers={
-            'authorization': config.cachipfs.API_TOKEN,
-        },
+    return await api_no_rate_limited(
+        headers=headers,
         method=method,
         params=params,
         path=path,
-    ) as data:
-        yield data
+    )
 
 
 class V1CachipfsConfigGet(NamedTuple):
@@ -86,29 +81,29 @@ class V1CachipfsConfigGet(NamedTuple):
 
 
 async def api_v1_cachipfs_config_get() -> V1CachipfsConfigGet:
-    async with api_cachipfs(
+    data = await api_no_rate_limited(
+        headers={'authorization': config.cachipfs.API_TOKEN},
         method='GET',
         path='/api/v1/cachipfs/config',
-    ) as data:
-        return V1CachipfsConfigGet(
-            cachipfs_encryption_key=data['cachipfs_encryption_key'],
-            email=data['email'],
-        )
+    )
+
+    return V1CachipfsConfigGet(
+        cachipfs_encryption_key=data['cachipfs_encryption_key'],
+        email=data['email'],
+    )
 
 
 async def api_v1_cachipfs_objects_post(
     cid: str,
     nar_path: str,
 ) -> None:
-
     await log('info', 'Announcing to cachipfs cid: %s', cid)
-
-    async with api_cachipfs(
+    await api(
+        headers={'authorization': config.cachipfs.API_TOKEN},
         method='POST',
         params=dict(
             cid=cid,
             nar_path=nar_path,
         ),
-        path=f'/api/v1/cachipfs/objects'
-    ):
-        pass
+        path='/api/v1/cachipfs/objects'
+    )
