@@ -52,12 +52,12 @@ APP = Starlette(
         Route(
             endpoint=server.handlers.api_v1_cachipfs_objects_get,
             methods=['GET'],
-            path='/api/v1/cachipfs/objects/{nar_path:str}',
+            path='/api/v1/cachipfs/objects',
         ),
         Route(
             endpoint=server.handlers.api_v1_cachipfs_objects_post,
             methods=['POST'],
-            path='/api/v1/cachipfs/objects/{nar_path:str}/{cid:str}',
+            path='/api/v1/cachipfs/objects',
         ),
         Route(
             endpoint=server.handlers.cachipfs,
