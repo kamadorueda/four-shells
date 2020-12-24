@@ -28,7 +28,6 @@ RESOURCE: Any = boto3.resource(
     ),
     region_name=config.server.AWS_REGION,
     service_name='dynamodb',
-    verify=False,
 )
 
 
