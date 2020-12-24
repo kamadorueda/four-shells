@@ -8,6 +8,9 @@ from typing import (
 )
 
 # Local libraries
+from concurrency import (
+    never_concurrent,
+)
 import config.cachipfs
 from logs import (
     log,
@@ -21,6 +24,7 @@ def get_env() -> Dict[str, str]:
     }
 
 
+@never_concurrent
 async def add(path: str) -> Tuple[bool, str]:
     command: Tuple[str, ...] = (
         'ipfs',

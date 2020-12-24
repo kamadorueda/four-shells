@@ -125,7 +125,7 @@ async def api_v1_cachipfs_objects_post(request: Request) -> Response:
         ),
     )
 
-    return JSONResponse({'ok': success})
+    return JSONResponse({} if success else {'error': 'An error occurred'})
 
 
 def cachipfs(request: Request) -> Response:

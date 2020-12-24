@@ -5,6 +5,9 @@ from typing import (
     Dict,
     NamedTuple,
 )
+from urllib.parse import (
+    quote_plus,
+)
 
 # Third party libraries
 import aiohttp
@@ -22,19 +25,21 @@ class Error(Exception):
 
 @contextlib.asynccontextmanager
 async def api(
+    headers: Dict[str, str],
     method: str,
     path: str,
-    *args: Any,
-    **kwargs: Any,
 ) -> Dict[str, Any]:
     async with aiohttp.ClientSession() as session:
         async with session.request(
+            headers=headers,
             method=method,
             url=f'https://4shells.com{path}',
-            *args,
-            **kwargs,
         ) as response:
-            data = await response.json()
+            try:
+                data = await response.json()
+            except aiohttp.ClientError:
+                await log('error', '4shells API: %s', await response.text())
+                data = {}
 
             if 'error' in data:
                 await log('error', '%s', data['error'])
@@ -47,8 +52,6 @@ async def api(
 async def api_cachipfs(
     method: str,
     path: str,
-    *args: Any,
-    **kwargs: Any,
 ) -> Dict[str, Any]:
     async with api(
         headers={
@@ -56,7 +59,6 @@ async def api_cachipfs(
         },
         method=method,
         path=path,
-        *args, **kwargs
     ) as data:
         yield data
 
@@ -75,3 +77,19 @@ async def api_v1_cachipfs_config_get() -> V1CachipfsConfigGet:
             cachipfs_encryption_key=data['cachipfs_encryption_key'],
             email=data['email'],
         )
+
+
+async def api_v1_cachipfs_objects_post(
+    cid: str,
+    nar_path: str,
+) -> None:
+    cid = quote_plus(cid)
+    nar_path = quote_plus(nar_path)
+
+    await log('info', 'Announcing to cachipfs cid: %s', cid)
+
+    async with api_cachipfs(
+        method='POST',
+        path=f'/api/v1/cachipfs/objects/{nar_path}/{cid}',
+    ):
+        pass

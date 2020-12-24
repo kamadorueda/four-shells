@@ -136,11 +136,6 @@ Requirements:
         [INFO] Launching local back-end server!
         [WARNING] Please be aware that login functionality wont work
 
-        Configuration:
-
-        [INFO] Launching local back-end server!
-        [WARNING] Please be aware that login functionality wont work
-
         INFO:     Started server process [3898829]
         INFO:     Waiting for application startup.
         INFO:     Application startup complete.

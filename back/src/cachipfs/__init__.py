@@ -12,6 +12,7 @@ from aioextensions import (
 # Local libraries
 import ipfs
 import nix
+import server_api
 import system
 
 
@@ -35,12 +36,14 @@ async def publish_one(nix_store_path: str) -> bool:
         if not all(success for success, _ in results):
             return False
 
-        for cid, nar_path in zip(
-            (cid for _, cid in results),
-            (os.path.relpath(nar_path, directory) for nar_path in nar_paths),
-        ):
-            # Announce to coordinator
-            pass
+        # Announce to coordinator
+        await collect(tuple(
+            server_api.api_v1_cachipfs_objects_post(cid, nar_path)
+            for cid, nar_path in zip(
+                (cid for _, cid in results),
+                (os.path.relpath(nar_path, directory) for nar_path in nar_paths),
+            )
+        ))
 
     return True
 
