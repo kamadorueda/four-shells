@@ -1,6 +1,9 @@
 # Standard library
 import os
+import re
+import sys
 from typing import (
+    Iterator,
     Tuple,
 )
 
@@ -64,6 +67,22 @@ async def publish_one(nix_store_path: str) -> bool:
 
 async def publish(nix_store_paths: Tuple[str, ...]) -> bool:
     return all(await collect(tuple(map(publish_one, nix_store_paths))))
+
+
+async def publish_from_stdin() -> bool:
+    pattern = re.compile(br'(/nix/store/[\w]{32}-.*?)')
+
+    def search_nix_store_paths_on_stdin() -> Iterator[str]:
+        for line in sys.stdin.buffer:
+            if match := pattern.search(line):
+                nix_store_path: str = match.groups(1).decode('utf-8')
+                if not nix_store_path.endswith('.drv'):
+                    yield nix_store_path
+
+    return all(await collect(map(
+        publish_one,
+        search_nix_store_paths_on_stdin(),
+    )))
 
 
 async def daemon_handle_request(request: Request) -> None:

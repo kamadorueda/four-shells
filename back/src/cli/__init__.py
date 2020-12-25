@@ -9,7 +9,9 @@ from aioextensions import (
     run,
 )
 import click
-from logs import blocking_log
+from logs import (
+    blocking_log,
+)
 from starlette.templating import (
     Jinja2Templates,
 )
@@ -76,9 +78,9 @@ def main_config(
 )
 @click.option(
     '--api-token',
+    envvar='CACHIPFS_API_TOKEN',
     help='You API token, grab yours at https://4shells.com/cachipfs',
     required=True,
-    type=str,
 )
 @click.option(
     '--ipfs-repo',
@@ -116,6 +118,7 @@ def main_cachipfs_config(
 )
 @click.option(
     '--port',
+    envvar='CACHIPFS_PORT',
     help='Bind to this port',
     required=True,
     type=int,
@@ -149,7 +152,11 @@ def main_cachipfs_publish(
     *,
     nix_store_paths: Tuple[str, ...],
 ) -> None:
-    run(cachipfs.publish(nix_store_paths))
+    if nix_store_paths:
+        run(cachipfs.publish(nix_store_paths))
+    else:
+        blocking_log('info', 'Reading Nix Store Paths from standard input')
+        run(cachipfs.publish_from_stdin())
 
 
 @main.command(
