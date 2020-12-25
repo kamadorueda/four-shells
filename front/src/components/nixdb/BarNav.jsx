@@ -12,7 +12,7 @@ export const BarNav = () => {
     <AppBar position='static' color='secondary'>
       <Toolbar variant='dense'>
         <Button size='small'>
-          <Link href='/nixdb/about' color='inherit'>
+          <Link href='/docs#nixdb' color='inherit'>
             About
           </Link>
         </Button>

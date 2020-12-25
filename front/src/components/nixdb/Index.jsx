@@ -15,7 +15,6 @@ import {
 import { BarMain } from '../BarMain';
 import { Copyright } from '../Copyright';
 import { renderMarkdown } from '../Markdown';
-import About from './About.md';
 import { Search } from './Search';
 import { useFetchJSON } from './utils';
 import { BarNav } from './BarNav';
@@ -42,7 +41,6 @@ export const Index = ({ bigScreen }) => {
           <Router basename='/nixdb'>
             <br />
             <Switch>
-              <Route path='/about' component={renderMarkdown(About)}/>
               <Route path='/pkg/:pkg/:version' component={Pkg}/>
               <Route path='/pkg/:pkg' component={Pkg}/>
               <Route path='/search'>

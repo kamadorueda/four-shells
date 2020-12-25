@@ -4,7 +4,6 @@ We are a small group of people who build and maintain:
 
 - [NixDB](https://4shells.com/nixdb):
   Database with Nix packages from all versions, all commits and all channels.
-
 - [CachIPFS](https://4shells.com/cachipfs):
   Encrypted Nix binary cache over IPFS.
 

@@ -1,16 +1,102 @@
 # Welcome to the docs!
 
-Four Shells is a community-driven [Free and Open Source](https://en.wikipedia.org/wiki/FOSS) project that brings to the world two things:
-- [NixDB](/nixdb): Database with Nix packages from all versions, all commits and all channels.
-- [CachIPFS](/cachipfs): Encrypted Nix binary cache over IPFS.
+Four Shells is an small group of people who put a name to a cause:
 
-Everything you see here, like the infrastructure, website, domain,
-and documentation has been written by individuals like you and me.
-There is room for everyone and you can be part of it!
-We genuinely appreciate people who are trying to make this project a better
-place for the community.
+- Building things for the community!
 
-Please see [contributing](/docs#contributing) for more information.
+Currently we build and maintain:
+
+- [NixDB](/nixdb):
+  Database with Nix packages from all versions, all commits and all channels.
+- [CachIPFS](/cachipfs):
+  Encrypted Nix binary cache over IPFS.
+
+All of the projects are open source licensed
+and their source code can be found at [GitHub](https://github.com/kamadorueda/four-shells).
+
+Please see [contributing](/docs#contributing) if you want to join us!
+
+# NixDB
+
+One of the advantages of **Nix** is the ability to install / use packages in
+**isolated environments** from the host system:
+
+```bash
+# Version installed in my host system
+$ python3 --version
+
+  Python 3.8.5
+
+# Launch a Nix Shell with a different version of the package
+$ nix-shell -p python39
+
+  # Version installed in the Nix shell
+  nix-shell $ python3 --version
+
+              Python 3.9.0
+```
+
+Sometime ago while migrating an old **Kubernetes** cluster
+I found in the need of having two different versions of **Kubernetes Helm**
+to deal with different kind of deployments.
+
+**Nix** allows us to install / use different versions of a package side-by-side
+in the host system.
+
+So let's search the versions that Nix offers to us out-of-the-box:
+
+```bash
+# Query the <nixpkgs> set in the host system
+$ nix-env -q --available --description | grep helm
+
+  helm-3.3.4  A package manager for kubernetes
+```
+
+Problem is that **nix-channels** usually offer a single version of a package,
+so... What to do?
+
+Sadly,
+there is no native way of searching the Nix history for all versions of a package.
+
+This is the problem we want to solve at [NixDB](https://4shells.com/nixdb).
+
+We index every piece of the Nixpkgs history in order to provide versions lookups:
+
+```text
+Attribute        Description                       Versions  License
+kubernetes-helm  A package manager for kubernetes  30        Apache License 2.0
+
+  https://4shells.com/nixdb/pkg/kubernetes-helm/3.4.0
+  https://4shells.com/nixdb/pkg/kubernetes-helm/3.3.4
+  https://4shells.com/nixdb/pkg/kubernetes-helm/3.3.1
+  ...
+```
+
+And cool badges that you can add to your project:
+
+[![](https://img.shields.io/endpoint?color=green&label=kubernetes&labelColor=grey&logo=NixOS&logoColor=white&style=flat&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkamadorueda%2Ffour-shells%2Fdata-nixdb%2Fbadges%2Fkubernetes.json)](https://4shells.com/nixdb/pkg/kubernetes)
+
+```bash
+# Launch a Nix Shell with version 3.4.0 found in Nixpkgs Database
+$ nix-shell -p kubernetes-helm -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/0126c86672b7d14843225df16ddfefd7091eabe7.tar.gz
+
+  # Version installed in the Nix shell
+  nix-shell $ helm version
+
+              version.BuildInfo{Version:"v3.4.0", GitCommit:"", GitTreeState:"", GoVersion:"go1.15.3"}
+```
+
+These commands are also available for all versions that ever existed for this package:
+
+```bash
+# Launch a Nix Shell with version 2.6.1 found in Nixpkgs Database
+$ nix-shell -p kubernetes-helm -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/01a664e7793158b434fefac9217ec48313b2dd45.tar.gz
+
+  # Version installed in the Nix shell
+  nix-shell $ helm version
+
+              Client: &version.Version{SemVer:"v2.6.1", GitCommit:"bbc1f71dc03afc5f00c6ac84b9308f8ecb4f39ac", GitTreeState:"clean"}
+```
 
 # Contributing
 
