@@ -116,7 +116,7 @@ Normally **the same software is build many times** by different people:
 This easily adds up in time and resources and everyone is building
 exactly the **same software** and getting the **same outputs**.
 
-There is an efficient alternative, though:
+Fortunately CachIPFS is an efficient alternative to solve this issue:
 - You build the software **once** and put the outputs on [IPFS](https://ipfs.io)
 - Other people just download the outputs from [IPFS](https://ipfs.io), skipping the slow build process
 
@@ -124,6 +124,100 @@ This helps people save the time, money and machine resources required to build t
 
 [CachIPFS](https://4shells.com/cachipfs) help you coordinate the process
 into a seamless experience.
+
+## Getting started
+
+We've a created a short tutorial that will guide you through:
+- Creating a CachIPFS account
+- Setting up the environment
+- Publishing Nix store paths to IPFS
+- Retrieving Nix store paths from IPFS
+
+It's simpler than what it seems, let's go!
+
+### Requirements
+
+In order to start using CachIPFS we'll need an account.
+Please create one [here](https://4shells.com/cachipfs), it's free.
+
+In your account you will presented with the value of your API token.
+This token is a credential and can access your account,
+objects and encryption keys on your behalf.
+
+We will also need to install the **Four Shells CLI**:
+
+```bash
+nix-env -i 4s -f https://4shells.com/install
+```
+
+Since we'll be storing our results on [IPFS](https://ipfs.io)
+we'll need a running IPFS Daemon in the host system,
+you can refer to the [IPFS Documentation](https://docs.ipfs.io/) or
+ask for help [here](/docs#help).
+For most systems an IPFS Daemon can be launched like this:
+
+```bash
+# Install IPFS with Nix
+nix-env -i ipfs
+
+# Run the IPFS daemon
+ipfs daemon
+```
+
+### Publishing to IPFS
+
+Software that is built with Nix get assigned an unique identifier like _/nix/store/mjchq0zqi49r61373s0f1m5slmniz6mh-README.md_.
+
+We can publish results to IPFS in two ways:
+
+- By piping the output of a nix command:
+  ```bash
+  # The value for this token can be found in your CachIPFS account
+  export CACHIPFS_API_TOKEN='123'
+
+  nix-build my-package.nix | 4s cachipfs publish
+  ```
+- By directly specifying the Nix store path:
+  ```bash
+  # The value for this token can be found in your CachIPFS account
+  export CACHIPFS_API_TOKEN='123'
+
+  4s cachipfs publish /nix/store/mjchq0zqi49r61373s0f1m5slmniz6mh-README.md
+  ```
+
+Both commands ensure that the package as well as all of its dependencies
+are published and ready to be fetched by other people.
+
+### Retrieving from IPFS
+
+You will need a CachIPFS daemon running, you choose which port to use:
+
+```bash
+# The value for this token can be found in your CachIPFS account
+export CACHIPFS_API_TOKEN='123'
+# You choose this value
+export CACHIPFS_PORT='4000'
+
+4s cachipfs daemon
+```
+
+This will start a server in the localhost at the specified port,
+now we'll need to configure nix to use this server as a cache.
+We have three ways:
+
+- Adding it to the Nix configuration:
+
+  Nix configuration is located at some of these places:
+  - ~/.config/nix/nix.conf
+  - /etc/nix/nix.conf
+
+  We'll edit the `substituters` line to append `http://localhost:4000`
+  (or the port you launched the daemon on)
+
+  ```conf
+
+
+  ```
 
 # Contributing
 
