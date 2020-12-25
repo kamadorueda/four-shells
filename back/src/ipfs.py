@@ -63,7 +63,7 @@ async def is_available(cid: str, *, timeout: str = '5s') -> bool:
 
 @asynccontextmanager
 async def get(cid: str, *, timeout: str = '60s') -> Tuple[bool, str]:
-    async with config.ephemeral_file() as path:
+    async with system.ephemeral_file() as path:
         command: Tuple[str, ...] = (
             'ipfs',
             '--timeout', timeout,

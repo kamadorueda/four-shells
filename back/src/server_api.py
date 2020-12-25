@@ -93,6 +93,26 @@ async def api_v1_cachipfs_config_get() -> V1CachipfsConfigGet:
     )
 
 
+async def api_v1_cachipfs_objects_get(
+    nar_path: str,
+) -> Optional[str]:
+    await log('info', 'Looking up IPFS CID for %s on CachIPFS', nar_path)
+
+    try:
+        data = await api(
+            headers={'authorization': config.cachipfs.API_TOKEN},
+            method='GET',
+            params=dict(
+                nar_path=nar_path,
+            ),
+            path='/api/v1/cachipfs/objects'
+        )
+    except Error:
+        return None
+    else:
+        return data['cid']
+
+
 async def api_v1_cachipfs_objects_post(
     cid: str,
     nar_path: str,

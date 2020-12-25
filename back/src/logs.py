@@ -11,19 +11,18 @@ from aioextensions import (
 )
 
 # Private constants
-_LOGGER: logging.Logger = logging.getLogger('4s')
+_DEFAULT_HANDLER: logging.StreamHandler = logging.StreamHandler(sys.stdout)
+_DEFAULT_HANDLER.setFormatter(logging.Formatter('[%(levelname)s] %(message)s'))
+_DEFAULT_HANDLER.setLevel(logging.INFO)
+_LOGGER: logging.Logger = logging.getLogger()
 
 
 def blocking_log(level: str, msg: str, *args: Any, **kwargs: Any) -> None:
-    if not _LOGGER.hasHandlers():
-        _LOGGER.addHandler(logging.StreamHandler())
+    if 'uvicorn.asgi' in logging.Logger.manager.loggerDict:
+        _LOGGER.removeHandler(_DEFAULT_HANDLER)
+    else:
+        _LOGGER.addHandler(_DEFAULT_HANDLER)
         _LOGGER.setLevel(logging.INFO)
-
-        _LOGGER.handlers[0].setFormatter(
-            logging.Formatter('[%(levelname)s] %(message)s'),
-        )
-        _LOGGER.handlers[0].setLevel(logging.INFO)
-        _LOGGER.handlers[0].setStream(sys.stdout)
 
     getattr(_LOGGER, level)(msg, *args, **kwargs)
 
