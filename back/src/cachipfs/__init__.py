@@ -8,6 +8,20 @@ from typing import (
 from aioextensions import (
     collect,
 )
+from logs import (
+    log,
+)
+from starlette.requests import (
+    Request,
+)
+from starlette.responses import (
+    FileResponse,
+    Response,
+)
+from starlette.routing import (
+    Route,
+    Router,
+)
 
 # Local libraries
 import ipfs
@@ -50,3 +64,29 @@ async def publish_one(nix_store_path: str) -> bool:
 
 async def publish(nix_store_paths: Tuple[str, ...]) -> bool:
     return all(await collect(tuple(map(publish_one, nix_store_paths))))
+
+
+async def daemon_handle_request(request: Request) -> None:
+    nar_path: str = request.url.path
+
+    if cid := await server_api.api_v1_cachipfs_objects_get(nar_path):
+        if ipfs.is_available(cid):
+            async with ipfs.get(cid) as nar_path_file:
+                return FileResponse(nar_path_file)
+        else:
+            await log('info', 'CID not available on IPFS at the moment: %s', cid)
+            return Response(status_code=404)
+    else:
+        await log('info', 'Nar path has not been published to CachIPFS: %s', nar_path)
+        return Response(status_code=404)
+
+
+DAEMON = Router(
+    routes=[
+        Route(
+            path='/{path:path}',
+            endpoint=daemon_handle_request,
+            methods=['GET'],
+        ),
+    ],
+)

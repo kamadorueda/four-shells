@@ -111,6 +111,31 @@ def main_cachipfs_config(
 
 
 @main_cachipfs.command(
+    name='daemon',
+    help='Launch a Nix substituter that serves content from IPFS',
+)
+@click.option(
+    '--port',
+    help='Bind to this port',
+    required=True,
+    type=int,
+)
+def main_cachipfs_daemon(
+    *,
+    port: int,
+) -> None:
+    uvicorn.run(
+        app='cachipfs:DAEMON',
+        host='localhost',
+        interface='asgi3',
+        log_level='debug' if config.common.DEBUG else 'info',
+        loop='uvloop',
+        port=port,
+        workers=1,
+    )
+
+
+@main_cachipfs.command(
     name='publish',
     help='Publish Nix-store paths to CachIPFS',
 )
