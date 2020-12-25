@@ -305,7 +305,7 @@ export const Pkg = () => {
 
       # Version: ${version}
       ${pkg} = (import (pkgs.fetchzip {
-        url = 'https://github.com/nixos/nixpkgs/archive/${versionDataLastRev}.zip';
+        url = "https://github.com/nixos/nixpkgs/archive/${versionDataLastRev}.zip";
         # Please update this hash with the one nix says on the first build attempt
         sha256 = "0000000000000000000000000000000000000000000000000000000000000000";
       }) { }).${pkg};

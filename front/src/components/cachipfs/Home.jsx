@@ -23,17 +23,27 @@ export const Home = () => (
         Nix builds.
         <br />
         <br />
-        <Button color='secondary' variant='contained'>
-          {hasActiveSession() ? (
+        {hasActiveSession() ? (
+          <Button color='secondary' variant='contained'>
             <Link href={'/cachipfs/dashboard'}>
               Dashboard
             </Link>
-          ) : (
-            <Link href={getLoginURL('/cachipfs/dashboard')}>
-              Login
-            </Link>
-          )}
-        </Button>
+          </Button>
+        ) : (
+          <React.Fragment>
+            <Button color='secondary' variant='contained'>
+              <Link href={getLoginURL('/cachipfs/dashboard')}>
+                Login
+              </Link>
+            </Button>
+            &nbsp;
+            <Button color='primary' variant='outlined'>
+              <Link href={getLoginURL('/cachipfs/dashboard')}>
+                Register
+              </Link>
+            </Button>
+          </React.Fragment>
+        )}
         &nbsp;
         <Button color='primary' variant='outlined'>
           <Link href='/docs/cachipfs'>
