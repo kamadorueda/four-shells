@@ -23,7 +23,7 @@ export const Dashboard = () => {
   return (
     <React.StrictMode>
       <Container maxWidth='lg'>
-        Work in progress!
+        API token: {meGetData.cachipfs_api_token}
       </Container>
       <br />
     </React.StrictMode>
