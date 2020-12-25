@@ -211,13 +211,29 @@ We have three ways:
   - ~/.config/nix/nix.conf
   - /etc/nix/nix.conf
 
-  We'll edit the `substituters` line to append `http://localhost:4000`
+  We'll edit the `substituters` line and append `http://localhost:4000`
   (or the port you launched the daemon on)
 
   ```conf
-
-
+  substituters = http://localhost:4000
   ```
+- Specifying it directly on the command line of Nix commands:
+  ```bash
+  # Nix build example
+  nix-build --option extra-substituters 'http://localhost:4000' my-package.nix
+
+  # Nix store example
+  nix-store \
+    --substituters 'http://localhost:4000' \
+    --realise \
+    --add-root \
+    /nix/store/abc-123
+  ```
+
+In both cases Nix will query the CachIPFS daemon
+(which will lookup IPFS)
+and retrieve results to Nix,
+allowing people to speed up their builds by downloading as much as possible from the cache.
 
 # Contributing
 
