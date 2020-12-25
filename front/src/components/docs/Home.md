@@ -1,4 +1,4 @@
-# Welcome to the docs!
+# About us
 
 Four Shells is an small group of people who put a name to a cause:
 
@@ -16,7 +16,7 @@ and their source code can be found at [GitHub](https://github.com/kamadorueda/fo
 
 Please see [contributing](/docs#contributing) if you want to join us!
 
-# NixDB
+# About NixDB
 
 One of the advantages of **Nix** is the ability to install / use packages in
 **isolated environments** from the host system:

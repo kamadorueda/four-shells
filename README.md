@@ -16,4 +16,4 @@ Below are some links in order to get started:
 - [Developing](https://4shells.com/docs#developing)
 - [Sponsors](https://4shells.com/docs#sponsors)
 
-We'll be happy to see you at [4shells.com](https:/!/4shells.com)!
+We'll be happy to see you at [4shells.com](https://4shells.com)!
