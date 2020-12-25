@@ -190,22 +190,22 @@ are published and ready to be fetched by other people.
 
 ### Retrieving from IPFS
 
-You will need a CachIPFS daemon running, you choose which port to use:
+Fetching requires the receiver to have a CachIPFS daemon server running:
 
 ```bash
 # The value for this token can be found in your CachIPFS account
 export CACHIPFS_API_TOKEN='123'
-# You choose this value
+# You can choose any free port in your machine
 export CACHIPFS_PORT='4000'
 
 4s cachipfs daemon
 ```
 
-This will start a server in the localhost at the specified port,
-now we'll need to configure nix to use this server as a cache.
+Now we'll tell nix to use this daemon server as a cache.
+
 We have three ways:
 
-- Adding it to the Nix configuration:
+- Adding it to the Nix configuration.
 
   Nix configuration is located at some of these places:
   - ~/.config/nix/nix.conf
@@ -214,8 +214,12 @@ We have three ways:
   We'll edit the `substituters` line and append `http://localhost:4000`
   (or the port you launched the daemon on)
 
+  It looks something like this
+
   ```conf
+  # ...
   substituters = http://localhost:4000
+  # ...
   ```
 - Specifying it directly on the command line of Nix commands:
   ```bash
@@ -231,9 +235,15 @@ We have three ways:
   ```
 
 In both cases Nix will query the CachIPFS daemon
-(which will lookup IPFS)
-and retrieve results to Nix,
-allowing people to speed up their builds by downloading as much as possible from the cache.
+(which will lookup data on IPFS)
+decrypt it and retrieve results to Nix.
+
+### Feedback
+
+This service is Free and the source code is also Open Source.
+
+It's still in development and we'll be very happy to
+[hear from you](https://github.com/kamadorueda/four-shells/issues)
 
 # Contributing
 
