@@ -105,7 +105,7 @@ $ nix-shell -p kubernetes-helm -I nixpkgs=https://github.com/NixOS/nixpkgs/archi
 Software that is built with Nix is [reproducible](https://reproducible-builds.org),
 which means that different builds of the **same software** will produce the **same outputs**.
 
-Normally the same project is build many times by different people:
+Normally **the same software is build many times** by different people:
 
 - Developers
 - Continuous integration system
@@ -117,8 +117,8 @@ This easily adds up in time and resources and everyone is building
 exactly the **same software** and getting the **same outputs**.
 
 There is an efficient alternative, though:
-- You build your software **once** and put the outputs on [IPFS](https://ipfs.io)
-- Other people just download the outputs from [IPFS](https://ipfs.io), skipping the build
+- You build the software **once** and put the outputs on [IPFS](https://ipfs.io)
+- Other people just download the outputs from [IPFS](https://ipfs.io), skipping the slow build process
 
 This helps people save the time, money and machine resources required to build the software themselves
 
