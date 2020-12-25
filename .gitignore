@@ -2,7 +2,7 @@
 /front/node_modules/
 /infra/.terraform
 /infra/dependency-graph.svg
-/public/static/
+/public/front/
 /**/.coverage
 /**/__pycache__
 /**/coverage

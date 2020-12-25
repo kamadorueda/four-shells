@@ -88,7 +88,7 @@ const common = {
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, '../public/static'),
+    path: path.resolve(__dirname, '../public/front'),
   },
   plugins: [
     new MiniCssExtractPlugin({
@@ -145,7 +145,7 @@ const dev = {
   },
   output: {
     ...common.output,
-    publicPath: 'https://localhost:8401/static/',
+    publicPath: 'https://localhost:8401/front/',
   },
   plugins: [
     ...common.plugins,

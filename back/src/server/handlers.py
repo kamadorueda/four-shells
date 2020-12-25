@@ -130,7 +130,8 @@ async def api_v1_cachipfs_objects_post(request: Request) -> Response:
 
 def cachipfs(request: Request) -> Response:
     return config.server.TPL.TemplateResponse('react.html', {
-        'js': config.server.from_cdn('/static/cachipfs.js'),
+        'icon': config.server.from_cdn('/icon.ico'),
+        'js': config.server.from_cdn('/front/cachipfs.js'),
         'globals': config.server.get_globals(request),
         'request': request,
     })
@@ -138,7 +139,8 @@ def cachipfs(request: Request) -> Response:
 
 def index(request: Request) -> Response:
     return config.server.TPL.TemplateResponse('react.html', {
-        'js': config.server.from_cdn('/static/index.js'),
+        'icon': config.server.from_cdn('/icon.ico'),
+        'js': config.server.from_cdn('/front/index.js'),
         'globals': config.server.get_globals(request),
         'request': request,
     })
@@ -146,7 +148,8 @@ def index(request: Request) -> Response:
 
 def docs(request: Request) -> Response:
     return config.server.TPL.TemplateResponse('react.html', {
-        'js': config.server.from_cdn('/static/docs.js'),
+        'icon': config.server.from_cdn('/icon.ico'),
+        'js': config.server.from_cdn('/front/docs.js'),
         'globals': config.server.get_globals(request),
         'request': request,
     })
@@ -154,7 +157,8 @@ def docs(request: Request) -> Response:
 
 def nixdb(request: Request) -> Response:
     return config.server.TPL.TemplateResponse('react.html', {
-        'js': config.server.from_cdn('/static/nixdb.js'),
+        'icon': config.server.from_cdn('/icon.ico'),
+        'js': config.server.from_cdn('/front/nixdb.js'),
         'globals': config.server.get_globals(request),
         'request': request,
     })
