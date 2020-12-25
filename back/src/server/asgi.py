@@ -70,6 +70,11 @@ APP = Starlette(
             path='/docs{path:path}',
         ),
         Route(
+            endpoint=server.handlers.install,
+            methods=['GET'],
+            path='/install',
+        ),
+        Route(
             endpoint=server.handlers.nixdb,
             methods=['GET'],
             path='/nixdb{path:path}',

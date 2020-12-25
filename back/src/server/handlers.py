@@ -164,6 +164,10 @@ def nixdb(request: Request) -> Response:
     })
 
 
+def install(_: Request) -> Response:
+    return RedirectResponse('https://github.com/kamadorueda/four-shells/archive/main.tar.gz')
+
+
 async def oauth_google_start(request: Request) -> Response:
     request.session['next_url'] = request.query_params['next']
 
