@@ -52,7 +52,7 @@ async def publish_one(nix_store_path: str) -> bool:
 
         # Announce to coordinator
         await collect(tuple(
-            server_api.api_v1_cachipfs_objects_post(cid, nar_path)
+            server_api.api_v1_cachipfs_objects_post(cid, f'/{nar_path}')
             for cid, nar_path in zip(
                 (cid for _, cid in results),
                 (os.path.relpath(nar_path, directory) for nar_path in nar_paths),
@@ -70,9 +70,13 @@ async def daemon_handle_request(request: Request) -> None:
     nar_path: str = request.url.path
 
     if cid := await server_api.api_v1_cachipfs_objects_get(nar_path):
-        if ipfs.is_available(cid):
-            async with ipfs.get(cid) as nar_path_file:
-                return FileResponse(nar_path_file)
+        if await ipfs.is_available(cid):
+            async with ipfs.get(cid) as (success, nar_path_file):
+                if success:
+                    return FileResponse(nar_path_file)
+                else:
+                    await log('info', 'CID not available on IPFS at the moment: %s', cid)
+                    return Response(status_code=404)
         else:
             await log('info', 'CID not available on IPFS at the moment: %s', cid)
             return Response(status_code=404)
@@ -86,7 +90,7 @@ DAEMON = Router(
         Route(
             path='/{path:path}',
             endpoint=daemon_handle_request,
-            methods=['GET'],
+            methods=['HEAD', 'GET'],
         ),
     ],
 )

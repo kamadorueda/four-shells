@@ -276,9 +276,6 @@ def main_server_config(
 
 
 if __name__ == '__main__':
-    try:
-        main(
-            prog_name='4s',
-        )
-    finally:
-        config.common.delete_ephemeral_paths()
+    main(
+        prog_name='4s',
+    )

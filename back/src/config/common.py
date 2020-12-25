@@ -10,10 +10,8 @@ import os
 import shutil
 from typing import (
     Iterator,
+    Optional,
     Tuple,
-)
-from uuid import (
-    uuid4 as uuid,
 )
 
 # Constants
@@ -25,8 +23,8 @@ DATA: str
 DATA_CACHIPFS: str
 DATA_CACHIPFS_REPO: str
 DATA_EPHEMERAL: str
-DATA_EPHEMERAL_DIRS_ITER: Iterator[Tuple[str, Lock]]
-DATA_EPHEMERAL_FILES_ITER: Iterator[Tuple[str, Lock]]
+DATA_EPHEMERAL_DIRS_ITER: Iterator[Tuple[Optional[Lock], str]]
+DATA_EPHEMERAL_FILES_ITER: Iterator[Tuple[Optional[Lock], str]]
 DEBUG: bool = False
 
 
@@ -35,12 +33,12 @@ def spawn_ephemeral_paths() -> None:
     global DATA_EPHEMERAL_FILES_ITER
 
     DATA_EPHEMERAL_DIRS_ITER = cycle([
-        (os.path.join(DATA_EPHEMERAL, uuid().hex), Lock())
-        for _ in range(32)
+        [None, os.path.join(DATA_EPHEMERAL, f'dir-{index}')]
+        for index in range(32)
     ])
     DATA_EPHEMERAL_FILES_ITER = cycle([
-        (os.path.join(DATA_EPHEMERAL, uuid().hex), Lock())
-        for _ in range(32)
+        [None, os.path.join(DATA_EPHEMERAL, f'file-{index}')]
+        for index in range(32)
     ])
 
 

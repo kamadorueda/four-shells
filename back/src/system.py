@@ -62,23 +62,25 @@ async def call(
 
 @asynccontextmanager
 async def ephemeral_file() -> str:
-    path, lock = next(config.common.DATA_EPHEMERAL_FILES_ITER)
+    data = next(config.common.DATA_EPHEMERAL_FILES_ITER)
+    data[0] = data[0] or asyncio.Lock()
 
-    async with lock:
-        async with aiofiles.open(path, 'w'):
+    async with data[0]:
+        async with aiofiles.open(data[1], 'w'):
             pass
 
-        yield path
+        yield data[1]
 
 
 @asynccontextmanager
 async def ephemeral_dir() -> str:
-    path, lock = next(config.common.DATA_EPHEMERAL_DIRS_ITER)
+    data = next(config.common.DATA_EPHEMERAL_DIRS_ITER)
+    data[0] = data[0] or asyncio.Lock()
 
-    async with lock:
-        await in_thread(shutil.rmtree, path, ignore_errors=True)
+    async with data[0]:
+        await in_thread(shutil.rmtree, data[1], ignore_errors=True)
 
-        yield path
+        yield data[1]
 
 
 async def log_error(
