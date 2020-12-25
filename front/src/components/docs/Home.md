@@ -2,7 +2,7 @@
 
 Four Shells is an small group of people who put a name to a cause:
 
-- Building things for the community!
+- Building software for the community!
 
 Currently we build and maintain:
 
@@ -215,7 +215,7 @@ Every penny goes to build and host the project, promise!
 
 This project is kind of a monolith in the sense that everything lives
 on the same repository.
-This has some reasons but mostly is because we think it makes things simpler.
+This has some reasons but mostly is because we think it makes everything simpler.
 
 The project structure is more or less the following:
 
