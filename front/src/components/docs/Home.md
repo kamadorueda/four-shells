@@ -103,14 +103,7 @@ $ nix-shell -p kubernetes-helm -I nixpkgs=https://github.com/NixOS/nixpkgs/archi
 [Nix](https://nixos.org) allows you to build software.
 
 Software that is built with Nix is [reproducible](https://reproducible-builds.org),
-which means that if it builds in your machine,
-it will build identically on other machines.
-
-When Nix builds your software, it assigns to it an identifier like this: `/nix/store/mjchq0zqi49r61373s0f1m5slmniz6mh-hello-world`
-
-Since Nix is reproducible,
-different builds of the **same software** will produce the **same identifier**
-and the **same output**.
+which means that different builds of the **same software** will produce the **same outputs**.
 
 Normally the same project is build many times by different people:
 
@@ -121,9 +114,7 @@ Normally the same project is build many times by different people:
 - End users
 
 This easily adds up in time and resources and everyone is building
-exactly the **same software**,
-producing the **same identifiers**,
-and getting the **same outputs**.
+exactly the **same software** and getting the **same outputs**.
 
 There is an efficient alternative, though:
 - You build your software **once** and put the outputs on [IPFS](https://ipfs.io)
