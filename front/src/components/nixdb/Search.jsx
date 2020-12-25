@@ -2,9 +2,7 @@
 import Levenshtein from 'levenshtein';
 import React, { useState } from 'react';
 import {
-  Button,
   Card,
-  CardActionArea,
   CardActions,
   CardContent,
   Chip,

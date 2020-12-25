@@ -37,7 +37,7 @@ $ nix-shell -p python39
 ```
 
 Sometime ago while migrating an old **Kubernetes** cluster
-I found in the need of having two different versions of **Kubernetes Helm**
+we found in the need of having two different versions of **Kubernetes Helm**
 to deal with different kind of deployments.
 
 **Nix** allows us to install / use different versions of a package side-by-side
@@ -97,6 +97,42 @@ $ nix-shell -p kubernetes-helm -I nixpkgs=https://github.com/NixOS/nixpkgs/archi
 
               Client: &version.Version{SemVer:"v2.6.1", GitCommit:"bbc1f71dc03afc5f00c6ac84b9308f8ecb4f39ac", GitTreeState:"clean"}
 ```
+
+# About CachIPFS
+
+[Nix](https://nixos.org) allows you to build software.
+
+Software that is built with Nix is [reproducible](https://reproducible-builds.org),
+which means that if it builds in your machine,
+it will build identically on other machines.
+
+When Nix builds your software, it assigns to it an identifier like this: `/nix/store/mjchq0zqi49r61373s0f1m5slmniz6mh-hello-world`
+
+Since Nix is reproducible,
+different builds of the **same software** will produce the **same identifier**
+and the **same output**.
+
+Normally the same project is build many times by different people:
+
+- Developers
+- Continuous integration system
+- Quality assurance team
+- Operations team
+- End users
+
+This easily adds up in time and resources and everyone is building
+exactly the **same software**,
+producing the **same identifiers**,
+and getting the **same outputs**.
+
+There is an efficient alternative, though:
+- You build your software **once** and put the outputs on [IPFS](https://ipfs.io)
+- Other people just download the outputs from [IPFS](https://ipfs.io), skipping the build
+
+This helps people save the time, money and machine resources required to build the software themselves
+
+[CachIPFS](https://4shells.com/cachipfs) help you coordinate the process
+into a seamless experience.
 
 # Contributing
 
@@ -246,10 +282,6 @@ Requirements:
         ```
 1.  Visit [http://localhost:8400](http://localhost:8400) and you are ready to hack!
 
-## Help
-
-Email me! `kamadorueda [at] gmail [dot] com`, I'll be happy to help.
-
 ## Technical Philosophy
 
 - Dependencies as code:
@@ -271,3 +303,10 @@ Email me! `kamadorueda [at] gmail [dot] com`, I'll be happy to help.
 - Functional programming:
   - No side-effects: State is encapsulated in small functions, code is structured
     in isolated components.
+
+# Help
+
+Fire up an [issue](https://github.com/kamadorueda/four-shells/issues),
+we are very open to any kind of feedback, bugs, feature requests, anything,
+
+Really

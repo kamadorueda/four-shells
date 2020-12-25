@@ -1,5 +1,9 @@
 // Third party libraries
-import { Divider, Link, Typography } from '@material-ui/core';
+import {
+  Divider,
+  Link,
+  Typography,
+} from '@material-ui/core';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
@@ -37,6 +41,12 @@ const renderLink = ({ href, children }) => (
   <Link href={href} style={{ color: THEME.own.link }}>
     <b>{children}</b>
   </Link>
+);
+
+const renderStrong = ({ children }) => (
+  <Typography component='span' style={{ fontWeight: 800 }}>
+    {children[0].props.value}
+  </Typography>
 );
 
 const renderText = ({ children }) => (
@@ -90,6 +100,7 @@ const MarkDownBlock = ({ content }) => (
       heading: renderHeading,
       link: renderLink,
       linkReference: renderLink,
+      strong: renderStrong,
       text: renderText,
     }}
   />
