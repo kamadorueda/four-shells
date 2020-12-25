@@ -166,8 +166,6 @@ ipfs daemon
 
 ### Publishing to IPFS
 
-Software that is built with Nix get assigned an unique identifier like _/nix/store/mjchq0zqi49r61373s0f1m5slmniz6mh-README.md_.
-
 We can publish results to IPFS in two ways:
 
 - By piping the output of a nix command:
@@ -178,11 +176,13 @@ We can publish results to IPFS in two ways:
   nix-build my-package.nix | 4s cachipfs publish
   ```
 - By directly specifying the Nix store path:
+
   ```bash
   # The value for this token can be found in your CachIPFS account
   export CACHIPFS_API_TOKEN='123'
 
-  4s cachipfs publish /nix/store/mjchq0zqi49r61373s0f1m5slmniz6mh-README.md
+  # Place here the nix store path you want to publish
+  4s cachipfs publish /nix/store/abc-123
   ```
 
 Both commands ensure that the package as well as all of its dependencies
