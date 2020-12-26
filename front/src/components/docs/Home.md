@@ -239,6 +239,12 @@ In both cases Nix will query the CachIPFS daemon
 (which will lookup data on IPFS)
 decrypt it and retrieve results to Nix.
 
+### Demo
+
+Check it out on GitHub:
+
+- [Using CachIPFS](https://github.com/kamadorueda/four-shells/tree/main/back/examples/cachipfs)
+
 ### Feedback
 
 This service is Free and the source code is also Open Source.
