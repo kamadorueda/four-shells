@@ -38,8 +38,8 @@ nix-store --delete "${nix_store_path}"
 
 # This will fetch `nix_store_path` from IPFS
 nix-store \
-  --option 'narinfo-cache-negative-ttl' 0 \
-  --option 'narinfo-cache-positive-ttl' 0 \
+  --option 'narinfo-cache-negative-ttl' 1 \
+  --option 'narinfo-cache-positive-ttl' 1 \
   --option 'extra-substituters' "http://localhost:${CACHIPFS_PORT}" \
   --realise \
   "${nix_store_path}"
