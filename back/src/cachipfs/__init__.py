@@ -98,7 +98,7 @@ async def publish_from_stdin() -> bool:
     )))
 
 
-async def daemon_handle_request(request: Request) -> None:
+async def daemon_handle_request(request: Request) -> Response:
     nar_path: str = request.url.path
 
     if cid := await server_api.api_v1_cachipfs_objects_get(nar_path):
@@ -123,8 +123,17 @@ async def daemon_handle_request(request: Request) -> None:
         return Response(status_code=404)
 
 
+def daemon_handle_ping(_: Request) -> Response:
+    return Response('Pong from CachIPFS Daemon!')
+
+
 DAEMON = Router(
     routes=[
+        Route(
+            path='/ping',
+            endpoint=daemon_handle_ping,
+            methods=['GET'],
+        ),
         Route(
             path='/{path:path}',
             endpoint=daemon_handle_request,
