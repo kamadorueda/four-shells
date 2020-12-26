@@ -254,21 +254,21 @@ It's still in development and we'll be very happy to
 
 # Contributing
 
-There are many ways to contribute and many of them are not necessarily technical:
+As a community that build things for the community we want to:
+- Create awesome software that benefit as much people as possible
+- Make an impact
 
-- Help us spread the word!
-  Telling other people of the work being done here helps us reach the people
-  who may benefit the most from the project.
-- Star or fork the [repository](https://github.com/kamadorueda/four-shells),
-  this help us with funding, popularity and finding new contributors from time to time.
-- Fire up an issue! we welcome ideas, feature requests, problems, use cases, feedback,
-  anything you may think of!
-- [Become a sponsor of the project](/docs#sponsors).
+These goals can be achieved by:
+
+- Helping us spread the word
+- Starring/forking the [repository](https://github.com/kamadorueda/four-shells)
+- Firing up issues with ideas, feature requests, problems, use cases, feedback, or anything you may think of!
+- [Becoming a sponsor of the project](/docs#sponsors).
 
 Of course if you know some techy things you are also welcome!
 
 Please read the [developing](/docs#developing) section for details about
-firing up a local environment:
+deploying a local environment:
 
 - Have an idea that may benefit the community?
   Contribute it! no need to ask for permission!
@@ -324,7 +324,7 @@ Thank you so much for your support!
 You also can be part of this list by
 [Sponsoring @kamadorueda on Patreon](https://www.patreon.com/kamadorueda).
 
-Every penny goes to build and host the project, promise!
+Every penny goes to build and host the project
 
 [0_img]: https://github.com/kamadorueda/four-shells/raw/main/front/static/sponsors/fluid_attacks.png
 [0_url]: https://fluidattacks.com
