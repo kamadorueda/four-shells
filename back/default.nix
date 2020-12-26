@@ -10,8 +10,9 @@ in
       nixpkgs.python38
       nixpkgs.python38Packages.aiohttp
       nixpkgs.python38Packages.aioextensions
-      nixpkgs.python38Packages.boto3
       nixpkgs.python38Packages.authlib
+      nixpkgs.python38Packages.boto3
+      nixpkgs.python38Packages.cryptography
       nixpkgs.python38Packages.httpx
       nixpkgs.python38Packages.starlette
       nixpkgs.python38Packages.uvloop
