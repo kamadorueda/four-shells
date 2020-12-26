@@ -16,8 +16,8 @@ from server import (
 
 
 async def ensure_account_exists(*, email: str) -> bool:
-    cachipfs_api_token: int = create_secret()
-    cachipfs_encryption_key: int = create_secret()
+    cachipfs_api_token: int = create_secret(16)
+    cachipfs_encryption_key: int = create_secret(32)
 
     try:
         success: bool = await persistence.update(
