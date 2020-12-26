@@ -51,10 +51,11 @@ async def publish_one(nix_store_path: str) -> bool:
 
         # Encrypt the nar_paths
         await collect(tuple(
-            in_process(security.encrypt(
+            in_process(
+                security.encrypt,
                 key_hex=config.cachipfs.ENCRYPTION_KEY,
                 path_input=nar_path,
-            ))
+            )
             for nar_path in nar_paths
         ))
 
@@ -105,10 +106,11 @@ async def daemon_handle_request(request: Request) -> None:
             async with ipfs.get(cid) as (success, nar_path_file):
                 if success:
                     # Decrypt the file an stream it to Nix
-                    await in_process(security.decrypt(
+                    await in_process(
+                        security.decrypt,
                         key_hex=config.cachipfs.ENCRYPTION_KEY,
                         path_input=nar_path_file,
-                    ))
+                    )
                     return FileResponse(nar_path_file)
                 else:
                     await log('info', 'CID not available on IPFS at the moment: %s', cid)

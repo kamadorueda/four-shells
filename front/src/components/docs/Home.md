@@ -203,7 +203,7 @@ export CACHIPFS_PORT='4000'
 
 Now we'll tell nix to use this daemon server as a cache.
 
-We have three ways:
+We have many ways:
 
 - Adding it to the Nix configuration.
 
@@ -211,12 +211,12 @@ We have three ways:
   - ~/.config/nix/nix.conf
   - /etc/nix/nix.conf
 
-  We'll edit the `substituters` line and append `http://localhost:4000`
+  We'll add/edit the **extra-substituters** line and append **http://localhost:4000**
   (or the port you launched the daemon on)
 
   It looks something like this
 
-  ```conf
+  ```bash
   # ...
   substituters = http://localhost:4000
   # ...
@@ -224,13 +224,14 @@ We have three ways:
 - Specifying it directly on the command line of Nix commands:
   ```bash
   # Nix build example
-  nix-build --option extra-substituters 'http://localhost:4000' my-package.nix
+  nix-build \
+    --option extra-substituters http://localhost:4000 \
+    my-package.nix
 
   # Nix store example
   nix-store \
-    --substituters 'http://localhost:4000' \
+    --option extra-substituters http://localhost:4000 \
     --realise \
-    --add-root \
     /nix/store/abc-123
   ```
 
