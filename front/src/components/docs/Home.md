@@ -218,7 +218,7 @@ We have many ways:
 
   ```bash
   # ...
-  substituters = http://localhost:4000
+  extra-substituters = http://localhost:4000
   # ...
   ```
 - Specifying it directly on the command line of Nix commands:
