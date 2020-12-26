@@ -22,7 +22,7 @@ def encrypt(key_hex: str, path_input: str) -> None:
     if key_len != 32:
         raise ValueError('Encryption key must be exactly 256 bit long')
 
-    iv = os.urandom(key_len)
+    iv = os.urandom(16)
     cipher = Cipher(algorithms.AES(key), modes.CBC(iv))
     encryptor = cipher.encryptor()
 
@@ -53,7 +53,7 @@ def decrypt(key_hex: str, path_input: str) -> None:
 
     with tempfile.NamedTemporaryFile() as path_output_handle:
         with open(path_input) as path_input_handle:
-            iv = path_input_handle.read(key_len)
+            iv = path_input_handle.read(16)
             cipher = Cipher(algorithms.AES(key), modes.CBC(iv))
             decryptor = cipher.decryptor()
 
