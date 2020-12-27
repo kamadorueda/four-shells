@@ -1,9 +1,9 @@
 # ._[a-z][0-9]*
+/back/sitemap/
 /front/node_modules/
 /infra/.terraform
 /infra/dependency-graph.svg
 /public/front/
-/public/sitemap/
 /**/.coverage
 /**/__pycache__
 /**/coverage

@@ -21,6 +21,7 @@ function main {
   export AWS_ACCOUNT_ID
   export AWS_REGION
   export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_ADMIN}"
+  export DATA_NIXDB="${PWD}/../four-shells-data-nixdb"
   local registry="${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
   local target="${registry}/four_shells:latest"
 
@@ -28,6 +29,10 @@ function main {
   &&  docker load --input "${oci}" \
   &&  echo "[INFO] Tagging: ${target}" \
   &&  docker tag 'oci' "${target}" \
+  &&  echo '[INFO] Computing sitemaps' \
+  &&  rm -rf 'back/sitemap' \
+  &&  git checkout -- 'back/sitemap' \
+  &&  python3.8 'cmd/back-deploy/sitemap.py' \
   &&  echo "[INFO] Testing image" \
   &&  docker run \
         --interactive \

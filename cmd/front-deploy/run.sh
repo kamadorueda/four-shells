@@ -10,17 +10,11 @@
 source "${srcBuildCtxLibSh}"
 
 function main {
-  local root="${PWD}/.."
-  export DATA_NIXDB="${root}/four-shells-data-nixdb"
   export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_ADMIN}"
   export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_ADMIN}"
 
       echo '[INFO] Cleaning paths' \
   &&  rm -rf 'public/front' \
-  &&  rm -rf 'public/sitemap' \
-  &&  mkdir 'public/sitemap' \
-  &&  echo '[INFO] Computing sitemaps' \
-  &&  python3.8 'cmd/front-deploy/sitemap.py' \
   &&  echo '[INFO] Building front' \
   &&  pushd front \
     &&  npm install \

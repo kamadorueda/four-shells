@@ -109,14 +109,14 @@ def main():
 
     index = 0
     for index, chunk in enumerate(chunked(urls, 1000)):
-        with open(f'public/sitemap/sitemap-{index}.xml', 'w') as handle:
+        with open(f'back/sitemap/sitemap-{index}.xml', 'w') as handle:
             handle.write(build_sitemap([
                 f'https://4shells.com{url}'
                 for url in urls
             ]))
 
     for index, chunk in enumerate(chunked(range(index + 1), 50)):
-        with open(f'public/sitemap/sitemapindex-{index}.xml', 'w') as handle:
+        with open(f'back/sitemap/sitemapindex-{index}.xml', 'w') as handle:
             handle.write(build_sitemapindex([
                 f'https://{AWS_CLOUDFRONT_DOMAIN}/sitemap/sitemapindex-{element}.xml'
                 for element in chunk
