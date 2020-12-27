@@ -11,7 +11,7 @@
 #!   nix-shell --keep GOOGLE_OAUTH_SECRET_SERVER
 #!   nix-shell --keep SERVER_SESSION_SECRET
 #!   nix-shell --pure
-#!   nix-shell ../../cmd/oci-deploy
+#!   nix-shell ../../cmd/back-deploy
 #  shellcheck shell=bash
 
 source "${srcBuildCtxLibSh}"

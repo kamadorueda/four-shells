@@ -12,7 +12,7 @@ in
   nixpkgs.stdenv.mkDerivation (
        (import ../../build/ctx)
     // (rec {
-      name = "oci-deploy";
+      name = "back-deploy";
 
       buildInputs = [
         awscli2
