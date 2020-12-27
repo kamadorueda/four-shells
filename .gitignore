@@ -1,5 +1,4 @@
 # ._[a-z][0-9]*
-/back/sitemap/
 /front/node_modules/
 /infra/.terraform
 /infra/dependency-graph.svg

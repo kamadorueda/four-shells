@@ -29,10 +29,6 @@ function main {
   &&  docker load --input "${oci}" \
   &&  echo "[INFO] Tagging: ${target}" \
   &&  docker tag 'oci' "${target}" \
-  &&  echo '[INFO] Computing sitemaps' \
-  &&  rm -rf 'back/sitemap' \
-  &&  git checkout -- 'back/sitemap' \
-  &&  python3.8 'cmd/back-deploy/sitemap.py' \
   &&  echo "[INFO] Testing image" \
   &&  docker run \
         --interactive \

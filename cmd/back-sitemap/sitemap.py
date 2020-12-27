@@ -21,11 +21,11 @@ def text_node(string: str) -> minidom.Text:
     return text
 
 
-def dom_to_string(dom) -> str:
-    return dom.toprettyxml(indent=' ')
+def dom_to_string(dom) -> bytes:
+    return dom.toprettyxml(encoding='UTF-8', indent=' ', newl='\n')
 
 
-def build_sitemapindex(locations) -> str:
+def build_sitemapindex(locations) -> bytes:
     doc = minidom.Document()
 
     sitemapindex = doc.createElement('sitemapindex')
@@ -57,7 +57,7 @@ def build_sitemapindex(locations) -> str:
     return dom_to_string(doc)
 
 
-def build_sitemap(locations) -> str:
+def build_sitemap(locations) -> bytes:
     doc = minidom.Document()
 
     urlset = doc.createElement('urlset')
@@ -108,14 +108,18 @@ def main():
 
     index = 0
     for index, chunk in enumerate(chunked(urls, 1000)):
-        with open(f'back/sitemap/sitemap-{index}.xml', 'w') as handle:
+        path = f'back/sitemap/sitemap-{index}.xml'
+        print(f'[INFO] Writting: {path}')
+        with open(path, 'wb') as handle:
             handle.write(build_sitemap([
                 f'https://4shells.com{url}'
-                for url in urls
+                for url in chunk
             ]))
 
-    for index, chunk in enumerate(chunked(range(index + 1), 50)):
-        with open(f'back/sitemap/sitemapindex-{index}.xml', 'w') as handle:
+    for index, chunk in enumerate(chunked(range(index + 1), 10)):
+        path = f'back/sitemap/sitemapindex-{index}.xml'
+        print(f'[INFO] Writting: {path}')
+        with open(path, 'wb') as handle:
             handle.write(build_sitemapindex([
                 f'https://4shells.com/sitemap-{element}.xml'
                 for element in chunk

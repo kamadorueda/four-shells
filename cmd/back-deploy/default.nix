@@ -17,8 +17,6 @@ in
       buildInputs = [
         awscli2
         nixpkgs.docker
-        nixpkgs.git
-        nixpkgs.python38Packages.more-itertools
       ];
 
       oci = nixpkgs.dockerTools.buildLayeredImage {
