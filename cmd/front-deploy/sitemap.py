@@ -32,7 +32,7 @@ def build_sitemapindex(locations) -> str:
     sitemapindex = doc.createElement('sitemapindex')
     sitemapindex.setAttribute(
         'xmlns',
-        'http://www.google.com/schemas/sitemap/0.84',
+        'http://www.sitemaps.org/schemas/sitemap/0.9',
     )
     sitemapindex.setAttribute(
         'xmlns:xsi',
@@ -41,8 +41,8 @@ def build_sitemapindex(locations) -> str:
     sitemapindex.setAttribute(
         'xsi:schemaLocation',
         ' '.join((
-            'http://www.google.com/schemas/sitemap/0.84',
-            'http://www.google.com/schemas/sitemap/0.84/siteindex.xsd',
+            'http://www.sitemaps.org/schemas/sitemap/0.9',
+            'http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd',
         )),
     )
 
@@ -64,7 +64,7 @@ def build_sitemap(locations) -> str:
     urlset = doc.createElement('urlset')
     urlset.setAttribute(
         'xmlns',
-        'http://www.google.com/schemas/sitemap/0.84',
+        'http://www.sitemaps.org/schemas/sitemap/0.9',
     )
     urlset.setAttribute(
         'xmlns:xsi',
@@ -73,8 +73,8 @@ def build_sitemap(locations) -> str:
     urlset.setAttribute(
         'xsi:schemaLocation',
         ' '.join((
-            'http://www.google.com/schemas/sitemap/0.84',
-            'http://www.google.com/schemas/sitemap/0.84/sitemap.xsd',
+            'http://www.sitemaps.org/schemas/sitemap/0.9',
+            'http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd',
         )),
     )
 
