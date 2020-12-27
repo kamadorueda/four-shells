@@ -83,10 +83,16 @@ def main() -> None:
                 'schemaVersion': 1,
             })
             json_dump(f'{DATA}/pkgs/{pkg}.json', data)
-        elif revs2index[args.rev_sha] < revs2index[data[version]['revs'][1]]:
+        elif (
+            data[version]['revs'][1] not in revs2index
+            or revs2index[args.rev_sha] < revs2index[data[version]['revs'][1]]
+        ):
             data[version]['revs'][1] = args.rev_sha
             json_dump(f'{DATA}/pkgs/{pkg}.json', data)
-        elif revs2index[args.rev_sha] > revs2index[data[version]['revs'][0]]:
+        elif (
+            data[version]['revs'][0] not in revs2index
+            or revs2index[args.rev_sha] > revs2index[data[version]['revs'][0]]
+        ):
             data[version]['revs'][0] = args.rev_sha
 
     # Update global references
