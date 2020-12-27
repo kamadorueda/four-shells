@@ -272,11 +272,11 @@ def main_server_config(
     config.server.GOOGLE_OAUTH_SECRET = google_oauth_secret
     config.server.PRODUCTION = production
     config.server.SESSION_SECRET = session_secret
+    config.server.SRC_BACK = (
+        os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+    )
     config.server.TPL = Jinja2Templates(
-        directory=os.path.join(
-            os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-            'templates',
-        ),
+        directory=os.path.join(config.server.SRC_BACK, 'templates'),
     )
     config.server.TPL.env.autoescape = False
     config.server.TPL.env.globals['from_cdn'] = config.server.from_cdn

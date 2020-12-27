@@ -2,7 +2,6 @@
 #!   nix-shell -i bash
 #!   nix-shell --pure
 #!   nix-shell --keep AWS_ACCESS_KEY_ID_ADMIN
-#!   nix-shell --keep AWS_CLOUDFRONT_DOMAIN
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_ADMIN
 #!   nix-shell ../../cmd/front-deploy
 #  shellcheck shell=bash

@@ -26,6 +26,7 @@ GOOGLE_OAUTH_CLIENT_ID: str
 GOOGLE_OAUTH_SECRET: str
 PRODUCTION: bool
 SESSION_SECRET: str
+SRC_BACK: str
 
 
 def from_cdn(location: str) -> str:

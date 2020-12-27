@@ -101,6 +101,16 @@ APP = Starlette(
             path='/schema',
         ),
         Route(
+            endpoint=server.handlers.sitemap,
+            methods=['GET'],
+            path='/sitemap-{index:int}.xml',
+        ),
+        Route(
+            endpoint=server.handlers.sitemap,
+            methods=['GET'],
+            path='/sitemapindex-{index:int}.xml',
+        ),
+        Route(
             endpoint=server.handlers.index,
             methods=['GET'],
             path='/{path:path}',

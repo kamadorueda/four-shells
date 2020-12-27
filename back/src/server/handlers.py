@@ -1,3 +1,6 @@
+# Standard library
+import os
+
 # Third party libraries
 from authlib.integrations.starlette_client import (
     OAuth,
@@ -10,6 +13,7 @@ from starlette.requests import (
     Request,
 )
 from starlette.responses import (
+    FileResponse,
     JSONResponse,
     RedirectResponse,
     Response,
@@ -162,6 +166,10 @@ def nixdb(request: Request) -> Response:
         'globals': config.server.get_globals(request),
         'request': request,
     })
+
+
+def sitemap(request: Request) -> Response:
+    return FileResponse(f'{config.server.SRC_BACK}/sitemap{request.url.path}')
 
 
 def install(_: Request) -> Response:

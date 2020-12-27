@@ -12,7 +12,6 @@ from more_itertools import (
 )
 
 # Environment
-AWS_CLOUDFRONT_DOMAIN = os.environ['AWS_CLOUDFRONT_DOMAIN']
 DATA_NIXDB = os.environ['DATA_NIXDB']
 
 
@@ -118,7 +117,7 @@ def main():
     for index, chunk in enumerate(chunked(range(index + 1), 50)):
         with open(f'back/sitemap/sitemapindex-{index}.xml', 'w') as handle:
             handle.write(build_sitemapindex([
-                f'https://{AWS_CLOUDFRONT_DOMAIN}/sitemap/sitemapindex-{element}.xml'
+                f'https://4shells.com/sitemap-{element}.xml'
                 for element in chunk
             ]))
 
