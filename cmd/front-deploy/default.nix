@@ -16,6 +16,7 @@ in
         awscli2
         nixpkgs.git
         nixpkgs.nodejs
+        nixpkgs.python38Packages.more-itertools
       ];
     })
   )

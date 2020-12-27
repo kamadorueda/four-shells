@@ -3,6 +3,7 @@
 /infra/.terraform
 /infra/dependency-graph.svg
 /public/front/
+/public/sitemap/
 /**/.coverage
 /**/__pycache__
 /**/coverage

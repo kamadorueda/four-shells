@@ -1,7 +1,17 @@
-from xml.dom import minidom
+# Standard library
+import os
+from xml.dom import (
+    minidom,
+)
 
+# Third party libraries
+from more_itertools import (
+    chunked,
+)
 
-BASE = 'https://4shells.com'
+# Environment
+AWS_CLOUDFRONT_DOMAIN = os.environ['AWS_CLOUDFRONT_DOMAIN']
+DATA_NIXDB = os.environ['DATA_NIXDB']
 
 
 def text_node(string: str) -> minidom.Text:
@@ -80,16 +90,23 @@ def build_sitemap(locations) -> str:
 
 def main():
     urls = [
-        'test1',
-        'test2',
-    ]
-    sitemaps = [
-        'test1',
-        'test2',
+        '',
     ]
 
-    print(build_sitemap(urls))
-    print(build_sitemapindex(sitemaps))
+    index = 0
+    for index, chunk in enumerate(chunked(urls, 1000)):
+        with open(f'public/sitemap/sitemap-{index}.xml', 'w') as handle:
+            handle.write(build_sitemap([
+                f'https://4shells.com{url}'
+                for url in urls
+            ]))
+
+    for index, chunk in enumerate(chunked(range(index + 1), 50)):
+        with open(f'public/sitemap/sitemapindex-{index}.xml', 'w') as handle:
+            handle.write(build_sitemapindex([
+                f'https://{AWS_CLOUDFRONT_DOMAIN}/sitemap/sitemapindex-{element}.xml'
+                for element in chunk
+            ]))
 
 
 if __name__ == '__main__':
