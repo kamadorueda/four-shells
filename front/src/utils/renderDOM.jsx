@@ -16,18 +16,31 @@ const Child = ({ generator }) => {
   return generator({ bigScreen });
 };
 
-const Root = ({ generator}) => (
-  <React.StrictMode>
-    <CssBaseline />
-    <ThemeProvider theme={THEME}>
-      <Child generator={generator} />
-    </ThemeProvider>
-  </React.StrictMode>
-);
+const Root = ({
+  generator,
+  title,
+}) => {
+  window.document.getElementById('title').innerText = title;
 
-export const render = (generator) => {
+  return (
+    <React.StrictMode>
+      <CssBaseline />
+      <ThemeProvider theme={THEME}>
+        <Child generator={generator} />
+      </ThemeProvider>
+    </React.StrictMode>
+  );
+};
+
+export const render = ({
+  generator,
+  title,
+}) => {
   ReactDOM.render(
-    React.createElement(Root, { generator }),
+    React.createElement(Root, {
+      generator,
+      title,
+    }),
     document.getElementById('root'),
   );
 };

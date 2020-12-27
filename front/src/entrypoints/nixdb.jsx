@@ -6,4 +6,7 @@ import { Index } from '../components/nixdb/Index';
 import { render } from '../utils/renderDOM';
 
 // Side effects
-render((props) => <Index {...props} />)
+render({
+  generator: (props) => <Index {...props} />,
+  title: "NixDB - Nix packages database",
+})
