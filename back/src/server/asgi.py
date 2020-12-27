@@ -96,6 +96,11 @@ APP = Starlette(
             path='/ping',
         ),
         Route(
+            endpoint=server.handlers.robots,
+            methods=['GET'],
+            path='/robots.txt',
+        ),
+        Route(
             endpoint=server.handlers.schema,
             methods=['GET'],
             path='/schema',

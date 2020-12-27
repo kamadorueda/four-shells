@@ -168,6 +168,10 @@ def nixdb(request: Request) -> Response:
     })
 
 
+def robots(_: Request) -> Response:
+    return FileResponse(f'{config.server.SRC_BACK}/robots.txt')
+
+
 def sitemap(request: Request) -> Response:
     return FileResponse(f'{config.server.SRC_BACK}/sitemap{request.url.path}')
 

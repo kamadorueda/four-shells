@@ -116,14 +116,19 @@ def main():
                 for url in chunk
             ]))
 
-    for index, chunk in enumerate(chunked(range(index + 1), 10)):
-        path = f'back/sitemap/sitemapindex-{index}.xml'
-        print(f'[INFO] Writting: {path}')
-        with open(path, 'wb') as handle:
-            handle.write(build_sitemapindex([
-                f'https://4shells.com/sitemap-{element}.xml'
-                for element in chunk
-            ]))
+    with open('back/robots.txt', 'w') as robots_handle:
+        robots_handle.write('User-agent: *\n')
+        robots_handle.write('Disallow:\n')
+
+        for index, chunk in enumerate(chunked(range(index + 1), 10)):
+            path = f'back/sitemap/sitemapindex-{index}.xml'
+            print(f'[INFO] Writting: {path}')
+            robots_handle.write(f'Sitemap: https://4shells.com/sitemapindex-{index}.xml\n')
+            with open(path, 'wb') as handle:
+                handle.write(build_sitemapindex([
+                    f'https://4shells.com/sitemap-{element}.xml'
+                    for element in chunk
+                ]))
 
 
 if __name__ == '__main__':

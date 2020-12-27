@@ -1,0 +1,14 @@
+User-agent: *
+Disallow:
+Sitemap: https://4shells.com/sitemapindex-0.xml
+Sitemap: https://4shells.com/sitemapindex-1.xml
+Sitemap: https://4shells.com/sitemapindex-2.xml
+Sitemap: https://4shells.com/sitemapindex-3.xml
+Sitemap: https://4shells.com/sitemapindex-4.xml
+Sitemap: https://4shells.com/sitemapindex-5.xml
+Sitemap: https://4shells.com/sitemapindex-6.xml
+Sitemap: https://4shells.com/sitemapindex-7.xml
+Sitemap: https://4shells.com/sitemapindex-8.xml
+Sitemap: https://4shells.com/sitemapindex-9.xml
+Sitemap: https://4shells.com/sitemapindex-10.xml
+Sitemap: https://4shells.com/sitemapindex-11.xml
