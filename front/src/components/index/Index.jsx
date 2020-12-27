@@ -19,6 +19,7 @@ import {
 // Local libraries
 import { BarMain } from '../BarMain';
 import { Copyright } from '../Copyright';
+import { THEME } from '../../utils/theme';
 import nix_db_300x158 from '../../../static/nix_db_300x158.png';
 
 export const useStyles = makeStyles((theme) => ({
@@ -107,13 +108,21 @@ export const Index = ({ bigScreen }) => {
       />
       <Container maxWidth='md'>
         <div className={classes.mainCaption}>
-          <Typography component='h1' variant='h3' align='center' color='textPrimary' gutterBottom>
-            Software boosts the world
-          </Typography>
           <Typography variant='h5' align='center' color='textSecondary' paragraph>
-            Consistent tools that improve your workflows,
-            while aiming towards decentralization,
-            freedom of choice, privacy and open core values.
+            <Link
+              href='https://github.com/kamadorueda/four-shells/blob/main/LICENSE'
+              style={{ color: THEME.own.link }}
+            >
+              Open Source
+            </Link>
+            &nbsp;technologies around&nbsp;
+            <Link href='https://nixos.org' style={{ color: THEME.own.link }}>
+              Nix
+            </Link>
+            &nbsp;and&nbsp;
+            <Link href='https://ipfs.io' style={{ color: THEME.own.link }}>
+              IPFS
+            </Link>
           </Typography>
         </div>
       </Container>
