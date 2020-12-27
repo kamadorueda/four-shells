@@ -46,7 +46,7 @@ export const Home = () => (
         )}
         &nbsp;
         <Button color='primary' variant='outlined'>
-          <Link href='/docs/cachipfs'>
+          <Link href='/docs#about-cachipfs'>
             Read the docs
           </Link>
         </Button>

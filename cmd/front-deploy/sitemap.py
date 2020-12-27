@@ -1,5 +1,7 @@
 # Standard library
+import glob
 import os
+import urllib.parse
 from xml.dom import (
     minidom,
 )
@@ -21,7 +23,7 @@ def text_node(string: str) -> minidom.Text:
 
 
 def dom_to_string(dom) -> str:
-    return dom.toprettyxml(indent =" ")
+    return dom.toprettyxml(indent=' ')
 
 
 def build_sitemapindex(locations) -> str:
@@ -91,7 +93,19 @@ def build_sitemap(locations) -> str:
 def main():
     urls = [
         '',
+        '/cachipfs',
+        '/docs',
+        '/docs/source',
+        '/nixdb/search',
     ]
+
+    for pkg_path in glob.iglob(f'{DATA_NIXDB}/pkgs/*.json'):
+        pkg = os.path.basename(pkg_path)
+        pkg = os.path.splitext(pkg)[0]
+        pkg = urllib.parse.quote_plus(pkg)
+        urls.append(f'/nixdb/pkg/{pkg}')
+
+    urls.sort()
 
     index = 0
     for index, chunk in enumerate(chunked(urls, 1000)):
