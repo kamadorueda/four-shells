@@ -21,7 +21,7 @@ from logs import (
 # Constants
 ENDPOINT: str = 'https://4shells.com'
 # ENDPOINT: str = 'http://localhost:8400'
-DELAY_BETWEEN_REQUESTS_IN_SECONDS: int = 2
+DELAY_BETWEEN_REQUESTS_IN_SECONDS: int = 0
 
 
 class Error(Exception):
