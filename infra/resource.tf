@@ -124,6 +124,7 @@ resource "aws_dynamodb_table" "accounts" {
     name = "cachipfs_api_token"
     type = "S"
   }
+  billing_mode = "PROVISIONED"
   global_secondary_index {
     hash_key = "cachipfs_api_token"
     name     = "cachipfs_api_token"
@@ -131,14 +132,17 @@ resource "aws_dynamodb_table" "accounts" {
       "cachipfs_encryption_key",
     ]
     projection_type = "INCLUDE"
+    read_capacity   = 1
+    write_capacity  = 1
   }
-  billing_mode = "PAY_PER_REQUEST"
-  hash_key     = "email"
-  name         = "accounts"
+  hash_key      = "email"
+  name          = "accounts"
+  read_capacity = 1
   tags = {
     "management:product" = "four_shells"
     "Name"               = "accounts"
   }
+  write_capacity = 1
 }
 
 resource "aws_dynamodb_table" "cachipfs_objects" {
@@ -154,10 +158,11 @@ resource "aws_dynamodb_table" "cachipfs_objects" {
     name = "nar_path"
     type = "S"
   }
-  billing_mode = "PAY_PER_REQUEST"
-  hash_key     = "nar_path"
-  name         = "cachipfs_objects"
-  range_key    = "email"
+  billing_mode  = "PROVISIONED"
+  hash_key      = "nar_path"
+  name          = "cachipfs_objects"
+  range_key     = "email"
+  read_capacity = 23
   tags = {
     "management:product" = "cachipfs"
     "Name"               = "cachipfs_objects"
@@ -166,6 +171,7 @@ resource "aws_dynamodb_table" "cachipfs_objects" {
     attribute_name = "ttl"
     enabled        = true
   }
+  write_capacity = 23
 }
 
 resource "aws_ecr_repository" "four_shells" {
