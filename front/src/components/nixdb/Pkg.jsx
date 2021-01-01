@@ -325,7 +325,15 @@ export const Pkg = () => {
     : `, also known as ${versionData?.meta?.name}`;
 
   setMetadata({
-    title: `${pkg}, ${versionData?.meta?.description}`,
+    title: (
+      versionData?.meta?.name === undefined
+        ? pkg
+        : versionData?.meta?.name
+    ) + (
+      ['', undefined].includes(versionData?.meta?.description)
+        ? ''
+        : `, ${versionData?.meta?.description}`
+    ),
   });
 
   return (
