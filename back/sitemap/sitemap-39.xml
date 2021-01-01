@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.codeBuilder</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.codex</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.colorizeHaskell</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.colors</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.colour</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.commandQq</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.comonad</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.comonadTransformers</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.comonadsFd</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.compactStringFix</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.compdata</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.compdataParam</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.composition</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.compressed</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.concatenative</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.concreteTyperep</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.concurrentExtra</loc>
  </url>
  <url>
@@ -260,6 +308,12 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.diagrams</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.diagramsBuilder</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.diagramsBuilderWrapper</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.diagramsCairo</loc>
@@ -2945,59 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.socks</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.sodium</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.sourcemap</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.sparse</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.spawn</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.speculation</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.split</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.split_0_1_4_3</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.split_0_2_1_1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.splot</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.spoon</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.sqliteSimple</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.srcloc</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.statePlus</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.stateref</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.statestack</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.statistics</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.statvfs</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc783_profiling.stbImage</loc>
  </url>
 </urlset>

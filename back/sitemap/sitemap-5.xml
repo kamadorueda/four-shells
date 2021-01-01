@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/btanks</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/btar</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/btc1</loc>
  </url>
  <url>
@@ -1750,6 +1756,9 @@
   <loc>https://4shells.com/nixdb/pkg/clojure_binary</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/clonehero-unwrapped</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/cloog</loc>
  </url>
  <url>
@@ -2084,6 +2093,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/colmapWithCuda</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/colobot</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/colord</loc>
@@ -2987,17 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/coqPackages.domains</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/coqPackages.dpdgraph</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/coqPackages.equations</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/coqPackages.fiat</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/coqPackages.flocq</loc>
  </url>
 </urlset>

@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kded</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdegraphics-mobipocket</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdegraphics-thumbnailers</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdelibs4support</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdenlive</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdepim-addons</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdepim-apps-libs</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdepim-runtime</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdeplasma-addons</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdesignerplugin</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdesu</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdewebkit</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdf</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdiagram</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdialog</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdiamond</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdnssd</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdoctools</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdsoap</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.keditbookmarks</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kemoticons</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kf5gpgmepp</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kfilemetadata</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kfind</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kfloppy</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kgamma5</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/libsForQt5.kget</loc>
  </url>
  <url>
@@ -215,6 +293,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/libsForQt5.kquickcharts</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kquickimageedit</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/libsForQt5.krdc</loc>
@@ -1507,6 +1588,9 @@
   <loc>https://4shells.com/nixdb/pkg/libsForQt512.kquickcharts</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt512.kquickimageedit</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/libsForQt512.krdc</loc>
  </url>
  <url>
@@ -2449,6 +2533,9 @@
   <loc>https://4shells.com/nixdb/pkg/libsForQt514.kquickcharts</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/libsForQt514.kquickimageedit</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/libsForQt514.krdc</loc>
  </url>
  <url>
@@ -2912,92 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/libsForQt55.kdbusaddons</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kdeclarative</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kdecoration</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kdelibs4support</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kdesignerplugin</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kdnssd</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kemoticons</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kfilemetadata</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kglobalaccel</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kguiaddons</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.khotkeys</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.khtml</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.ki18n</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kiconthemes</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kidletime</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kimageformats</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kio</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kirigami</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kirigami_2</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kitemmodels</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kitemviews</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kjobwidgets</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kjs</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kjsembed</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kmediaplayer</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.knewstuff</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.knotifications</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.knotifyconfig</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kpackage</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt55.kparts</loc>
  </url>
 </urlset>

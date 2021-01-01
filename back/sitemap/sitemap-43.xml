@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.storableRecord</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.streamingCommons</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.streamproc</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.strict</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.stringCombinators</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.stringConversions</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.stringQq</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.stringable</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.stringbuilder</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.stringprep</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.stringsearch</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.stripe</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.strptime</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.stylishHaskell</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.svgcairo</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.syb</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.sybWithClass</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.sybWithClassInstancesText</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc784_profiling.syb_0_4_0</loc>
  </url>
  <url>
@@ -2945,59 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghcHEAD.zlibConduit</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghcHEAD.zlibEnum</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghcHEAD.zlib_0_5_0_0</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghcHEAD.zlib_0_5_2_0</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghcHEAD.zlib_0_5_3_1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPlatform</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/hasklig</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/hasmail</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/hasura-cli</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/hasura-graphql-engine</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/hatari</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haveged</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/havoc</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/hawknl</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/hawkthorne</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haxe</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haxePackages.hxcpp</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haxePackages.hxcs</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haxePackages.hxjava</loc>
  </url>
 </urlset>

@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.vectorSpace</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.vector_0_7_1</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.vty</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.wai</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.waiAppStatic</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.waiExtra</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.waiLogger</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.warp</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.webRoutes</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.webRoutesQuasi</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.wlPprintText</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.wx</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc722.wxcore</loc>
  </url>
  <url>
@@ -2963,41 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.MonadCatchIOMtl</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.MonadCatchIOTransformers</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.MonadPrompt</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.MonadRandom</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.NanoProlog</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.NumInstances</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.ObjectName</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.OneTuple</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.OpenAL</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.OpenGL</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.OpenGL24</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.OpenGL25</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc741_no_profiling.OpenGLRaw</loc>
  </url>
 </urlset>

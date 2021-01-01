@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.bimap</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.binary</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.binaryShared</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.bitarray</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.bitmap</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.bitsAtomic</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.bktrees</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.blazeBuilder</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.blazeBuilderConduit</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.blazeBuilderEnumerator</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.blazeHtml</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.blazeHtml_0_5_0_0</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc6123.blazeMarkup</loc>
  </url>
  <url>
@@ -2963,41 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HTTP_4000_0_9</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HUnit</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HUnit_1_2_0_3</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HUnit_1_2_2_1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HaRe</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HaXml</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HaXml113</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HaXml122</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HaXml123</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HaXml_1_13_3</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.Hipmunk</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.HsSyck</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghc701.JsContracts</loc>
  </url>
 </urlset>

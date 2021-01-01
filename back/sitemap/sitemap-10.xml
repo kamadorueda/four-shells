@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.review-mode</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.revive</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.rfringe</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.rhtml-mode</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.rich-minority</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.rigid-tabs</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.rinari</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.rings</loc>
  </url>
  <url>
@@ -2308,6 +2329,9 @@
   <loc>https://4shells.com/nixdb/pkg/erlang_odbc_javac</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/erofs-utils</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/errbot</loc>
  </url>
  <url>
@@ -2975,29 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/feeds</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/feh</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/fehlstart</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/felix</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/felix_remoteshell</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/fend</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/fenics</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/ferdi</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/ferm</loc>
  </url>
 </urlset>

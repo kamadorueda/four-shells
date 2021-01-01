@@ -1297,6 +1297,9 @@
   <loc>https://4shells.com/nixdb/pkg/autoconf269</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/autoconf270</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/autocutsel</loc>
  </url>
  <url>
@@ -1844,6 +1847,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/bazel_1</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/bazel_3</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/bazel_jdk10</loc>
@@ -2993,11 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/bt-fw-converter</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/btanks</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/btar</loc>
  </url>
 </urlset>

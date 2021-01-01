@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/jabref</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jack1</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jack1d</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jack2</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jack2Full</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jack_capture</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jack_oscrolloscope</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jack_rack</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jackaudio</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jackett</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jackline</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jackmeter</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jackmix</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jackmix_jack1</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jade</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jadx</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jags</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jakartabcel</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jakartaregexp</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jalv</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/jam</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/jama</loc>
  </url>
  <url>
@@ -823,6 +886,9 @@
   <loc>https://4shells.com/nixdb/pkg/kapowbang</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/kapp</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/kapptemplate</loc>
  </url>
  <url>
@@ -899,6 +965,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/kcli</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kcollectd</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/kcolorchooser</loc>
@@ -2930,74 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/kde44.kdelibs_experimental</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdemultimedia</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdenetwork</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdepim</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdepim_runtime</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdepimlibs</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdeplasma_addons</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdesdk</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdesvn</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdetoys</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdeutils</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdewebdev</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kdiff3</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kipiplugins</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.kmplayer</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.koffice</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.konversation</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.krusader</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.ktorrent</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.l10n.ar</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.l10n.bg</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.l10n.bn_IN</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.l10n.ca</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/kde44.l10n.cs</loc>
  </url>
 </urlset>

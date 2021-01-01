@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.chruby</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider-decompile</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider-eval-sexp-fu</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider-profile</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider-spy</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cil-mode</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cinspect</loc>
  </url>
  <url>
@@ -2978,26 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.hindent</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.hippie-exp-ext</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.hippie-expand-slime</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.hippie-namespace</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.hipster-theme</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.history</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.historyf</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.hive</loc>
  </url>
 </urlset>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/coqPackages.dpdgraph</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/coqPackages.equations</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/coqPackages.fiat</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/coqPackages.flocq</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/coqPackages.gappalib</loc>
  </url>
  <url>
@@ -815,6 +827,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/cudaPackages.cudatoolkit_11</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/cudaPackages.cudatoolkit_11_0</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/cudaPackages.cudatoolkit_6</loc>
@@ -2320,6 +2335,9 @@
   <loc>https://4shells.com/nixdb/pkg/dnsutils</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/dnsx</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/do-agent</loc>
  </url>
  <url>
@@ -2981,23 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/dropbox</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/dropbox-cli</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/dropwatch</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/drumgizmo</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/drumkv1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/drumstick</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/drush</loc>
  </url>
 </urlset>

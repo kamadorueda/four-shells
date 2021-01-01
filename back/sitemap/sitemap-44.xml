@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghcHEAD.zlibEnum</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghcHEAD.zlib_0_5_0_0</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghcHEAD.zlib_0_5_2_0</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages_ghcHEAD.zlib_0_5_3_1</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPlatform</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/hasklig</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/hasmail</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/hasura-cli</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/hasura-graphql-engine</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/hatari</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haveged</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/havoc</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/hawknl</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/hawkthorne</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haxe</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haxePackages.hxcpp</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haxePackages.hxcs</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haxePackages.hxjava</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/haxePackages.hxnodejs_4</loc>
  </url>
  <url>
@@ -631,6 +685,9 @@
   <loc>https://4shells.com/nixdb/pkg/httpunit</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/httpx</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/httrack</loc>
  </url>
  <url>
@@ -1079,6 +1136,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/i3</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/i3-balance-workspace</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/i3-easyfocus</loc>
@@ -1592,6 +1652,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/ii</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/iina</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/iio-sensor-proxy</loc>
@@ -2936,68 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/jabcode-writer</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jabref</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jack1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jack1d</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jack2</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jack2Full</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jack_capture</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jack_oscrolloscope</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jack_rack</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jackaudio</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jackett</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jackline</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jackmeter</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jackmix</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jackmix_jack1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jade</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jadx</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jags</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jakartabcel</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jakartaregexp</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jalv</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/jam</loc>
  </url>
 </urlset>

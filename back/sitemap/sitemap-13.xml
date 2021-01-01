@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.libgnome_keyring</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.libgnomekbd</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.libgweather</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.libgxps</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.libmediaart</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.libpeas</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.libsoup</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.libzapojit</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.lightsoff</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.mutter</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.nautilus</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/gnome3_18.nautilus-sendto</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/gnome3_18.networkmanager_l2tp</loc>
  </url>
  <url>
@@ -2963,41 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/go_1_1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_10</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_11</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_12</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_13</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_14</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_15</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_2</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_3</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_4</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_5</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_6</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/go_1_7</loc>
  </url>
 </urlset>

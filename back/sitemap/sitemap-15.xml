@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.boundingboxes_0_1_1</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.boxes</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.brainfuck</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.bson</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.bv</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.byteable</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.bytedump</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.byteorder</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.bytes</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.bytestring</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.bytestringLexing</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/haskellPackages.bytestringMmap</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages.bytestringNums</loc>
  </url>
  <url>
@@ -2963,41 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/haskellPackages.pango</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.pango_0_12_5_3</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parallel</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parallel2201</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parallelIo</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parallel_1_1_0_1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parallel_2_2_0_1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parallel_3_1_0_1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parallel_3_2_0_2</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parallel_3_2_0_3</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parallel_3_2_0_4</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parseargs</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/haskellPackages.parsec</loc>
  </url>
 </urlset>

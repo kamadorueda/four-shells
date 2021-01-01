@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/ksmoothdock</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ksonnet</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ksquares</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kssd</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ksshaskpass</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kst</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kstars</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ksuperkey</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ksysguard</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ksystemlog</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kt</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kteatime</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ktimer</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ktimetracker</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ktlint</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ktorrent</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ktouch</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kturtle</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kube-aws</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kube-dns</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kube-prompt</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kube-router</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kube3d</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kubecfg</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/kubectl</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/kubectx</loc>
  </url>
  <url>
@@ -1025,6 +1100,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/libdrm2_4_39</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/libdrm2_4_40</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/libdsk</loc>
@@ -2921,83 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdecoration</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kded</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdegraphics-mobipocket</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdegraphics-thumbnailers</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdelibs4support</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdenlive</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdepim-addons</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdepim-apps-libs</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdepim-runtime</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdeplasma-addons</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdesignerplugin</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdesu</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdewebkit</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdf</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdiagram</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdialog</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdiamond</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdnssd</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdoctools</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kdsoap</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.keditbookmarks</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kemoticons</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kf5gpgmepp</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kfilemetadata</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kfind</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kfloppy</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/libsForQt5.kgamma5</loc>
  </url>
 </urlset>

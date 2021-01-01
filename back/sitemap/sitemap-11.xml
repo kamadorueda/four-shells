@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/feh</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/fehlstart</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/felix</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/felix_remoteshell</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/fend</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/fenics</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ferdi</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ferm</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/ferrum</loc>
  </url>
  <url>
@@ -119,6 +143,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/fftwSinglePrec</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/ffuf</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/fgallery</loc>
@@ -1648,6 +1675,9 @@
   <loc>https://4shells.com/nixdb/pkg/gcc-arm-embedded-8</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/gcc-arm-embedded-9</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/gcc-snapshot</loc>
  </url>
  <url>
@@ -2617,6 +2647,9 @@
   <loc>https://4shells.com/nixdb/pkg/gitAndTools.ghorg</loc>
  </url>
  <url>
+  <loc>https://4shells.com/nixdb/pkg/gitAndTools.ghr</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/gitAndTools.git-absorb</loc>
  </url>
  <url>
@@ -2966,38 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/gjo</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/gjs</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/gkrellm</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/gksu</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/gl117</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/gl2ps</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/glabels</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/glade</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/glance</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/glances</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/glasgow</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/glava</loc>
  </url>
 </urlset>

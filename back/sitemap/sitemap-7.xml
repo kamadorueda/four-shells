@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/dropbox-cli</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/dropwatch</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/drumgizmo</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/drumkv1</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/drumstick</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/drush</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/dsd</loc>
  </url>
  <url>
@@ -62,6 +80,9 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/duckmarines</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/duckstation</loc>
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/duf</loc>
@@ -2978,26 +2999,5 @@
  </url>
  <url>
   <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.chronos</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.chruby</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider-decompile</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider-eval-sexp-fu</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider-profile</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cider-spy</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/emacs24PackagesNg.cil-mode</loc>
  </url>
 </urlset>

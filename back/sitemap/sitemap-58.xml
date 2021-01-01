@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.tp_smapi</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.v4l2loopback</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.v86d</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.vhba</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.virtualbox</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.virtualboxGuestAdditions</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.virtualboxHardened</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.wis_go7007</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.x86_energy_perf_policy</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.zfs</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_desktop.zfs_git</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.accelio</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.acpi_call</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.ati_drivers_x11</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.batman_adv</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.bbswitch</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.blcr</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.broadcom_sta</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.cpupower</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.cryptodev</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.e1000e</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.frandom</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.fusionio-vsl</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.jool</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.kernel</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.kernelHeaders</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.klibc</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.klibcShrunk</loc>
+ </url>
+ <url>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.ktap</loc>
+ </url>
+ <url>
   <loc>https://4shells.com/nixdb/pkg/linuxPackages_grsec_stable_server.lttng-modules</loc>
  </url>
  <url>
@@ -2695,309 +2782,222 @@
   <loc>https://4shells.com/nixdb/pkg/linuxPackages_latest_xen_dom0_hardened.zfsUnstable</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.acpi_call</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.acpi_call</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.atheros</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.akvcam</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.ati_drivers_x11</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.amdgpu-pro</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.aufs</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.anbox</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.aufs2</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.asus-wmi-sensors</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.aufs2_1_util</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.ati_drivers_x11</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.aufs2_util</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.batman_adv</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.aufs_util</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.bbswitch</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.bbswitch</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.bcc</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.blcr</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.bpftrace</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.broadcom_sta</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.broadcom_sta</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.e1000e</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.can-isotp</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.exmap</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.chipsec</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.frandom</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.cpupower</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.iscsitarget</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.cryptodev</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.iwlwifi</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.ddcci-driver</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.kernel</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.digimend</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.kernelHeaders</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.dpdk</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.klibc</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.ena</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.kqemu</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.evdi</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.ndiswrapper</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.exfat-nofuse</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.nvidia_x11</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.facetimehd</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.nvidia_x11_legacy</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.fwts-efi-runtime</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.nvidia_x11_legacy173</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.gcadapter-oc-kmod</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.nvidia_x11_legacy96</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.hyperv-daemons</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.openafsClient</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.intel-speed-select</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.openiscsi</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.it87</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.ov511</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.ixgbevf</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.perf</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.jool</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.snix</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.kernel</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.sysprof</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.lttng-modules</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.systemtap</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.mba6x_bl</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.v86d</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.mwprocapture</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.virtualbox</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.mxu11x0</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.virtualboxGuestAdditions</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.ndiswrapper</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_34.wis_go7007</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.netatop</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.acpi_call</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.nvidia_x11</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.atheros</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.nvidia_x11_beta</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.ati_drivers_x11</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.nvidia_x11_legacy304</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.aufs</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.nvidia_x11_legacy340</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.aufs2</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.nvidia_x11_legacy390</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.aufs2_1_util</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.nvidia_x11_vulkan_beta</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.aufs2_util</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.nvidiabl</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.aufs_util</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.oci-seccomp-bpf-hook</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.bbswitch</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.openafs</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.blcr</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.openafs_1_9</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.broadcom_sta</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.openrazer</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.e1000e</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.perf</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.exmap</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.phc-intel</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.frandom</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.ply</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.iscsitarget</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.r8125</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.iwlwifi</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.r8168</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.kernel</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtl8192eu</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.kernelHeaders</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtl8723bs</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.klibc</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtl8812au</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.kqemu</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtl8814au</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.ndiswrapper</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtl8821au</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.nvidia_x11</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtl8821ce</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.nvidia_x11_legacy</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtl8821cu</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.nvidia_x11_legacy173</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtl88x2bu</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.nvidia_x11_legacy96</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtl88xxau-aircrack</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.openafsClient</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.rtlwifi_new</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.openiscsi</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.sch_cake</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.ov511</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.sysdig</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.perf</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.system76</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.snix</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.system76-acpi</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.sysprof</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.system76-io</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.systemtap</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.systemtap</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.v86d</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.tbs</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.virtualbox</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.tmon</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.virtualboxGuestAdditions</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.tp_smapi</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_35.wis_go7007</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.turbostat</loc>
  </url>
  <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.acpi_call</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.atheros</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.ati_drivers_x11</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.aufs</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.aufs2</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.aufs2_1</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.aufs2_1_util</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.aufs2_util</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.aufs_util</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.bbswitch</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.blcr</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.broadcom_sta</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.e1000e</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.exmap</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.frandom</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.iscsitarget</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.iwlwifi</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.kernel</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.kernelHeaders</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.klibc</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.kqemu</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.ndiswrapper</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.nvidia_x11</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.nvidia_x11_legacy173</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.nvidia_x11_legacy96</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.openafsClient</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.openiscsi</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.ov511</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.perf</loc>
- </url>
- <url>
-  <loc>https://4shells.com/nixdb/pkg/linuxPackages_nanonote_jz_2_6_36.snix</loc>
+  <loc>https://4shells.com/nixdb/pkg/linuxPackages_lqx.tuxedo-keyboard</loc>
  </url>
 </urlset>
