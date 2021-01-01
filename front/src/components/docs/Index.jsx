@@ -10,34 +10,26 @@ import {
 import {
   Container,
 } from '@material-ui/core';
-import {
-  makeStyles,
-} from '@material-ui/core/styles';
 
 // Local libraries
 import { BarMain } from '../BarMain';
 import { Copyright } from '../Copyright';
-import { renderMarkdown } from '../Markdown';
+import { Markdown } from '../Markdown';
 import Home from './Home.md';
-import Source from './Source.md';
-
-const useStyles = makeStyles((theme) => ({
-}));
 
 export const Index = ({ bigScreen }) => {
-  const classes = useStyles();
   const pages = [
-    { content: Source, path: '/source' },
-    { content: Home, path: '/' },
+    { content: Home, path: '/', title: 'Four Shells Documentation'},
   ];
 
   return (
     <React.Fragment>
       <BarMain
+        about
         bigScreen={bigScreen}
-        docs
+        contributing
+        contributors
         home
-        source
         sponsors
         title='Four Shells'
         titleLink='/'
@@ -47,12 +39,16 @@ export const Index = ({ bigScreen }) => {
           <Router basename='/docs'>
             <br />
             <Switch>
-              {pages.map(({ content, path }) => (
+              {pages.map(({ content, path, title }) => (
                 <Route
                   key={path}
                   path={path}
-                  component={renderMarkdown(content)}
-                />
+                >
+                  <Markdown
+                    content={content}
+                    title={title}
+                  />
+                </Route>
               ))}
               <Redirect to='/' />
             </Switch>

@@ -27,10 +27,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export const BarMain = ({
+  about,
   bigScreen,
+  contributing,
+  contributors,
   docs,
   home,
-  source,
   sponsors,
   title,
   titleLink,
@@ -55,6 +57,27 @@ export const BarMain = ({
       className={bigScreen ? classes.navDisplayFlex : undefined}
       component='nav'
     >
+      {about ? (
+        <Link href='/docs#about-us' color='inherit'>
+          <ListItem button>
+            <ListItemText primary='About' color='textSecondary' />
+          </ListItem>
+        </Link>
+      ) : undefined}
+      {contributing ? (
+        <Link href='/docs#contributing' color='inherit'>
+          <ListItem button>
+            <ListItemText primary='Contributing' color='textSecondary' />
+          </ListItem>
+        </Link>
+      ) : undefined}
+      {contributors ? (
+        <Link href='/docs#contributors' color='inherit'>
+          <ListItem button>
+            <ListItemText primary='Contributors' color='textSecondary' />
+          </ListItem>
+        </Link>
+      ) : undefined}
       {docs ? (
         <Link href='/docs' color='inherit'>
           <ListItem button>
@@ -66,13 +89,6 @@ export const BarMain = ({
         <Link href='/' color='inherit'>
           <ListItem button>
             <ListItemText primary='Home' color='textSecondary' />
-          </ListItem>
-        </Link>
-      ) : undefined}
-      {source ? (
-        <Link href='/docs/source' color='inherit'>
-          <ListItem button>
-            <ListItemText primary='Source' color='textSecondary' />
           </ListItem>
         </Link>
       ) : undefined}

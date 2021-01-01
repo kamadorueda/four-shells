@@ -7,6 +7,7 @@ import {
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
+import { setMetadata } from '../utils/seo';
 
 // Local libraries
 import { THEME } from '../utils/theme';
@@ -106,17 +107,22 @@ const MarkDownBlock = ({ content }) => (
   />
 );
 
-export const Markdown = ({ content }) => (
-  <React.Fragment>
-    <MarkDownBlock content={getTableOfContents(content)} />
-    <br />
-    <Divider />
-    <br />
-    <br />
-    <MarkDownBlock content={content} />
-  </React.Fragment>
-);
+export const Markdown = ({
+  content,
+  title,
+}) => {
+  setMetadata({
+    title,
+  });
 
-export const renderMarkdown = (content) => () => (
-  <Markdown content={content} />
-);
+  return (
+    <React.Fragment>
+      <MarkDownBlock content={getTableOfContents(content)} />
+      <br />
+      <Divider />
+      <br />
+      <br />
+      <MarkDownBlock content={content} />
+    </React.Fragment>
+  );
+};

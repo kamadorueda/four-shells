@@ -3,15 +3,16 @@ import React from 'react';
 import {
   Container,
 } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
 
 // Local libraries
 import { ensureActiveSession, useGet, usePost } from '../../utils/api';
-
-const useStyles = makeStyles((theme) => ({
-}));
+import { setMetadata } from '../../utils/seo';
 
 export const Dashboard = () => {
+  setMetadata({
+    title: 'CachIPFS, the Nix binary Cache on IPFS',
+  });
+
   ensureActiveSession();
 
   // API

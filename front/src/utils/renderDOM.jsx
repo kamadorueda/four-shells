@@ -18,28 +18,21 @@ const Child = ({ generator }) => {
 
 const Root = ({
   generator,
-  title,
-}) => {
-  window.document.getElementById('title').innerText = title;
-
-  return (
-    <React.StrictMode>
-      <CssBaseline />
-      <ThemeProvider theme={THEME}>
-        <Child generator={generator} />
-      </ThemeProvider>
-    </React.StrictMode>
-  );
-};
+}) => (
+  <React.StrictMode>
+    <CssBaseline />
+    <ThemeProvider theme={THEME}>
+      <Child generator={generator} />
+    </ThemeProvider>
+  </React.StrictMode>
+);
 
 export const render = ({
   generator,
-  title,
 }) => {
   ReactDOM.render(
     React.createElement(Root, {
       generator,
-      title,
     }),
     document.getElementById('root'),
   );

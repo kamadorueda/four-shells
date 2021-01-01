@@ -13,17 +13,7 @@ export const BarNav = () => {
       <Toolbar variant='dense'>
         <Button size='small'>
           <Link href='/docs#about-nixdb' color='inherit'>
-            About
-          </Link>
-        </Button>
-        <Button size='small'>
-          <Link href='/docs#contributing' color='inherit'>
-            Contributing
-          </Link>
-        </Button>
-        <Button size='small'>
-          <Link href='/docs/source' color='inherit'>
-            Source
+            Why
           </Link>
         </Button>
         <Button size='small'>

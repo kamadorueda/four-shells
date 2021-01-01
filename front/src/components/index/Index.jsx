@@ -21,6 +21,7 @@ import { BarMain } from '../BarMain';
 import { Copyright } from '../Copyright';
 import { THEME } from '../../utils/theme';
 import nix_db_300x158 from '../../../static/nix_db_300x158.png';
+import { setMetadata } from '../../utils/seo';
 
 export const useStyles = makeStyles((theme) => ({
   indexLoginButtons: {
@@ -93,15 +94,20 @@ export const ProductCard = ({
 };
 
 export const Index = ({ bigScreen }) => {
+  setMetadata({
+    title: 'Four Shells, Open Source technologies around Nix and IPFS',
+  });
+
   const classes = useStyles();
 
   return (
     <React.Fragment>
       <BarMain
+        about
         bigScreen={bigScreen}
+        contributing
+        contributors
         docs
-        home
-        source
         sponsors
         title='Four Shells'
         titleLink='/'

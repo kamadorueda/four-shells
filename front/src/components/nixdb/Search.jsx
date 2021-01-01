@@ -24,6 +24,7 @@ import {
 import { Progress } from '../Progress';
 import { useFetchJSON } from './utils';
 import { THEME } from '../../utils/theme';
+import { setMetadata } from '../../utils/seo';
 
 // Constants
 const DEFAULT_PKG = 'nix';
@@ -115,6 +116,10 @@ const Pkg = ({ pkg }) => {
 };
 
 export const Search = ({ pkgs, revs }) => {
+  setMetadata({
+    title: 'NixDB, the Nix packages search engine',
+  });
+
   if (pkgs.length === 0 || revs.length === 0) {
     return <Progress />
   }

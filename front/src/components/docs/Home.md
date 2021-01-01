@@ -258,22 +258,17 @@ As a community that build things for the community we want to:
 - Create awesome software that benefit as much people as possible
 - Make an impact
 
-These goals can be achieved by:
+You can help us achieve these goals by:
 
-- Helping us spread the word
-- Starring/forking the [repository](https://github.com/kamadorueda/four-shells)
-- Firing up issues with ideas, feature requests, problems, use cases, feedback, or anything you may think of!
+- Telling your friends
+- Giving a star to the [repository](https://github.com/kamadorueda/four-shells)
+- Creating issues with ideas, feature requests, problems, use cases, or feedback
 - [Becoming a sponsor of the project](/docs#sponsors).
 
 Of course if you know some techy things you are also welcome!
 
 Please read the [developing](/docs#developing) section for details about
-deploying a local environment:
-
-- Have an idea that may benefit the community?
-  Contribute it! no need to ask for permission!
-- Improve the user interface.
-- Triage [issues](https://github.com/kamadorueda/four-shells/issues).
+deploying a local environment.
 
 ## Contributors
 
@@ -361,10 +356,10 @@ There are other _not very important_ folders that you can ignore for now:
 
 Requirements:
 
-1.  Linux (preferably) or Windows WSL (slow here because of virtualization)
+1.  Linux (preferably), Mac (have not tested it here) or Windows WSL (may be slow because of virtualization)
 1.  Having Nix installed in your system: https://nixos.org/download.html
 1.  Please clone and locate your shell at the root of the repository,
-    you'll need 2 shells (we need 4, that's why **Four Shells**!)
+    you'll need 2 shells (we need 4, that's why **Four Shells!** :)
 1.  You'll need a local back-end and a local front-end server:
     1.  Back-end:
 

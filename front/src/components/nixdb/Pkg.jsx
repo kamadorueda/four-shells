@@ -29,6 +29,7 @@ import { Code } from '../Code';
 import { Progress } from '../Progress';
 import { SplitDiv } from '../SplitDiv';
 import { DATA_URL, useFetchJSON } from './utils';
+import { setMetadata } from '../../utils/seo';
 
 // Constants
 const COLORS = [
@@ -104,8 +105,12 @@ const Definition = ({
   </CardContent>
 );
 
-const DefinitionText = ({ icon, content }) => (
-  <Typography component='span' color='textSecondary' gutterBottom variant='body2'>
+const DefinitionText = ({
+  icon,
+  component='span',
+  content,
+}) => (
+  <Typography component={component} color='textSecondary' gutterBottom variant='body2'>
     {icon ? (
       <IconButton size='small'>
         {icon}
@@ -227,7 +232,7 @@ const Badge = ({ pkg }) => {
             const radioID = `${style}/${color}`;
 
             return (
-              <Grid item xs={12} sm={6} md={4} lg={4} xl={4}>
+              <Grid key={imageURL} item xs={12} sm={6} md={4} lg={4} xl={4}>
                 <SplitDiv
                   left={
                     <IconButton
@@ -319,10 +324,14 @@ export const Pkg = () => {
   ) ? ''
     : `, also known as ${versionData?.meta?.name}`;
 
+  setMetadata({
+    title: `${pkg}, ${versionData?.meta?.description}`,
+  });
+
   return (
     <Card>
       <Definition title='Package'>
-        <DefinitionText content={`${pkg}${pkgName}`} />
+        <DefinitionText component='h1' content={`${pkg}${pkgName}`} />
       </Definition>
       <Definition title='This package version'>
         <DefinitionText content={version} />

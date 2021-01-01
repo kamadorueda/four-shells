@@ -14,23 +14,29 @@ import {
 // Local libraries
 import { BarMain } from '../BarMain';
 import { Copyright } from '../Copyright';
-import { renderMarkdown } from '../Markdown';
 import { Search } from './Search';
 import { useFetchJSON } from './utils';
 import { BarNav } from './BarNav';
 import { Pkg } from './Pkg';
+import { setMetadata } from '../../utils/seo';
 
 export const Index = ({ bigScreen }) => {
+  setMetadata({
+    title: 'NixDB, the Nix packages database',
+  });
+
   const pkgs = useFetchJSON(`/pkgs.json`, []);
   const revs = useFetchJSON(`/revs.json`, []);
 
   return (
     <React.Fragment>
       <BarMain
+        about
         bigScreen={bigScreen}
+        contributing
+        contributors
         docs
         home
-        source
         sponsors
         title='NixDB'
         titleLink='/nixdb'

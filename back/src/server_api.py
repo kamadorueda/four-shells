@@ -21,14 +21,13 @@ from logs import (
 # Constants
 ENDPOINT: str = 'https://4shells.com'
 # ENDPOINT: str = 'http://localhost:8400'
-DELAY_BETWEEN_REQUESTS_IN_SECONDS: int = 0
 
 
 class Error(Exception):
     pass
 
 
-async def api_no_rate_limited(
+async def api(
     *,
     headers: Dict[str, str],
     method: str,
@@ -55,33 +54,13 @@ async def api_no_rate_limited(
             return data
 
 
-@rate_limited(
-    max_calls=1,
-    max_calls_period=DELAY_BETWEEN_REQUESTS_IN_SECONDS,
-    min_seconds_between_calls=DELAY_BETWEEN_REQUESTS_IN_SECONDS,
-)
-async def api(
-    *,
-    headers: Dict[str, str],
-    method: str,
-    params: Optional[Dict[str, str]] = None,
-    path: str,
-) -> Dict[str, Any]:
-    return await api_no_rate_limited(
-        headers=headers,
-        method=method,
-        params=params,
-        path=path,
-    )
-
-
 class V1CachipfsConfigGet(NamedTuple):
     cachipfs_encryption_key: str
     email: str
 
 
 async def api_v1_cachipfs_config_get() -> V1CachipfsConfigGet:
-    data = await api_no_rate_limited(
+    data = await api(
         headers={'authorization': config.cachipfs.API_TOKEN},
         method='GET',
         path='/api/v1/cachipfs/config',

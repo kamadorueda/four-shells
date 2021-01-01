@@ -8,5 +8,4 @@ import { render } from '../utils/renderDOM';
 // Side effects
 render({
   generator: (props) => <Index {...props} />,
-  title: "NixDB - Nix packages database",
 })

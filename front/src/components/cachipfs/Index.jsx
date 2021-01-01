@@ -28,10 +28,12 @@ const formatEmail = (email) => {
 export const Index = ({ bigScreen }) => (
   <React.Fragment>
     <BarMain
+      about
       bigScreen={bigScreen}
+      contributing
+      contributors
       docs
       home
-      source
       sponsors
       title={hasActiveSession() ? `${formatEmail(globals.session.email)}'s CachIPFS` : 'CachIPFS'}
       titleLink={hasActiveSession() ? '/cachipfs/dashboard' : '/cachipfs'}
