@@ -288,7 +288,7 @@ export const Pkg = () => {
   const versions = getVersionsFromPkgData(data);
 
   // If there is no version let's redirect to the latest version
-  if (version === undefined) {
+  if (version === undefined || !versions.includes(version)) {
     return <Redirect to={`/pkg/${encodeURIComponent(pkg)}/${encodeURIComponent(versions[0])}`} />;
   }
 
