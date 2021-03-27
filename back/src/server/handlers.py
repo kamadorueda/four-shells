@@ -168,6 +168,10 @@ def nixdb(request: Request) -> Response:
     })
 
 
+def ads(_: Request) -> Response:
+    return FileResponse(f'{config.server.SRC_BACK}/ads.txt')
+
+
 def robots(_: Request) -> Response:
     return FileResponse(f'{config.server.SRC_BACK}/robots.txt')
 

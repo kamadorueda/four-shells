@@ -40,6 +40,11 @@ APP = Starlette(
     ],
     routes=[
         Route(
+            endpoint=server.handlers.ads,
+            methods=['GET'],
+            path='/ads.txt',
+        ),
+        Route(
             endpoint=server.handlers.api_v1_me,
             methods=['GET'],
             path='/api/v1/me',
