@@ -298,7 +298,7 @@ export const Pkg = () => {
   const nixpkgs = `https://github.com/NixOS/nixpkgs/archive/${versionDataLastRev}.tar.gz`;
   const nixEnv = `
     # Version: ${version}
-    nix-env -i ${pkg} -f ${nixpkgs}
+    nix-env -iA ${pkg} -f ${nixpkgs}
   `;
   const nixShell = `
     # Version: ${version}
