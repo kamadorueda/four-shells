@@ -111,69 +111,6 @@ resource "aws_cloudwatch_log_stream" "four_shells" {
   name           = "four_shells"
 }
 
-resource "aws_dynamodb_table" "accounts" {
-  # (email): {
-  #   cachipfs_api_token: uuid
-  #   cachipfs_encryption_key: uuid
-  # }
-  attribute {
-    name = "email"
-    type = "S"
-  }
-  attribute {
-    name = "cachipfs_api_token"
-    type = "S"
-  }
-  billing_mode = "PROVISIONED"
-  global_secondary_index {
-    hash_key = "cachipfs_api_token"
-    name     = "cachipfs_api_token"
-    non_key_attributes = [
-      "cachipfs_encryption_key",
-    ]
-    projection_type = "INCLUDE"
-    read_capacity   = 1
-    write_capacity  = 1
-  }
-  hash_key      = "email"
-  name          = "accounts"
-  read_capacity = 1
-  tags = {
-    "management:product" = "four_shells"
-    "Name"               = "accounts"
-  }
-  write_capacity = 1
-}
-
-resource "aws_dynamodb_table" "cachipfs_objects" {
-  # (nar_path, email): {
-  #   cid: str
-  #   ttl: int
-  # }
-  attribute {
-    name = "email"
-    type = "S"
-  }
-  attribute {
-    name = "nar_path"
-    type = "S"
-  }
-  billing_mode  = "PROVISIONED"
-  hash_key      = "nar_path"
-  name          = "cachipfs_objects"
-  range_key     = "email"
-  read_capacity = 23
-  tags = {
-    "management:product" = "cachipfs"
-    "Name"               = "cachipfs_objects"
-  }
-  ttl {
-    attribute_name = "ttl"
-    enabled        = true
-  }
-  write_capacity = 23
-}
-
 resource "aws_ecr_repository" "four_shells" {
   # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository
   name = "four_shells"
@@ -282,8 +219,6 @@ resource "aws_ecs_task_definition" "four_shells" {
         "--aws-cloudfront-domain", aws_cloudfront_distribution.four_shells_public_content.domain_name,
         "--aws-region", var.AWS_REGION,
         "--aws-secret-access-key", aws_iam_access_key.server.secret,
-        "--google-oauth-client-id", var.GOOGLE_OAUTH_CLIENT_ID_SERVER,
-        "--google-oauth-secret", var.GOOGLE_OAUTH_SECRET_SERVER,
         "--host", "0.0.0.0",
         "--port", "8400",
         "--production",

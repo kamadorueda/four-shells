@@ -95,7 +95,7 @@ export const ProductCard = ({
 
 export const Index = ({ bigScreen }) => {
   setMetadata({
-    title: 'Four Shells, Open Source technologies around Nix and IPFS',
+    title: 'Four Shells, Open Source technologies around Nix',
   });
 
   const classes = useStyles();
@@ -125,10 +125,6 @@ export const Index = ({ bigScreen }) => {
             <Link href='https://nixos.org' style={{ color: THEME.own.link }}>
               Nix
             </Link>
-            &nbsp;and&nbsp;
-            <Link href='https://ipfs.io' style={{ color: THEME.own.link }}>
-              IPFS
-            </Link>
           </Typography>
         </div>
       </Container>
@@ -141,15 +137,6 @@ export const Index = ({ bigScreen }) => {
               docs='/docs#about-nixdb'
               image={nix_db_300x158}
               title='NixDB'
-            />
-          </Grid>
-          <Grid item>
-            <ProductCard
-              description='Encrypted Nix binary cache over IPFS. Work in progress!'
-              console='/cachipfs'
-              docs='/docs#about-cachipfs'
-              image={nix_db_300x158}
-              title='CachIPFS'
             />
           </Grid>
         </Grid>

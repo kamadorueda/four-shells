@@ -4,8 +4,6 @@ We are a small group of people who build and maintain:
 
 - [NixDB](https://4shells.com/nixdb):
   Database with Nix packages from all versions, all commits and all channels.
-- [CachIPFS](https://4shells.com/cachipfs):
-  Encrypted Nix binary cache over IPFS.
 
 This repository hosts the entire source code for all the related projects as well as the website and infrastructure. Everything (except deployment credentials) is here and everything is Open Source licensed.
 

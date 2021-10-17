@@ -6,7 +6,6 @@ data "aws_iam_policy_document" "admin" {
     actions = [
       "autoscaling:*",
       "cloudfront:*",
-      "dynamodb:*",
       "ec2:*",
       "ecr:*",
       "ecs:*",
@@ -45,10 +44,8 @@ data "aws_iam_policy_document" "four_shells_ecs_service" {
 
 data "aws_iam_policy_document" "server" {
   statement {
-    effect = "Allow"
-    actions = [
-      "dynamodb:*",
-    ]
+    effect    = "Deny"
+    actions   = ["dynamodb:*"]
     resources = ["*"]
   }
 }

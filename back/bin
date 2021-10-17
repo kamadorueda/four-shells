@@ -4,10 +4,6 @@
 #!   nix-shell --keep AWS_CLOUDFRONT_DOMAIN
 #!   nix-shell --keep AWS_REGION
 #!   nix-shell --keep AWS_SECRET_ACCESS_KEY_SERVER
-#!   nix-shell --keep CACHIPFS_API_TOKEN
-#!   nix-shell --keep CACHIPFS_PORT
-#!   nix-shell --keep GOOGLE_OAUTH_CLIENT_ID_SERVER
-#!   nix-shell --keep GOOGLE_OAUTH_SECRET_SERVER
 #!   nix-shell --keep NIX_PATH
 #!   nix-shell --keep NIX_SSL_CERT_FILE
 #!   nix-shell --keep PRODUCTION
@@ -22,8 +18,8 @@ source "${srcBuildCtxLibSh}"
 function main {
   export PYTHONPATH="${srcBack}/src:${PYTHONPATH}"
 
-      utils_configure_proxy "${BURP:-}" \
-  &&  python3 "${srcBack}/src/cli/__init__.py" "${@}"
+  utils_configure_proxy "${BURP:-}" \
+    && python3 "${srcBack}/src/cli/__init__.py" "${@}"
 }
 
 main "${@}"

@@ -20,9 +20,6 @@ export const BarBreadcrumb = () => {
   const components = pathname.split('/').filter((component) => component);
   const componentsMap = {
     '/': 'Home',
-    '/cachipfs': 'CachIPFS',
-    '/cachipfs/dashboard': 'Dashboard',
-    '/cachipfs/dashboard/namespace': 'Namespace',
     '/nixdb': 'NixDB',
   };
 
